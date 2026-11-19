@@ -1,0 +1,12 @@
+[
+  {
+    "id": "somites_myotomes",
+    "from": ["ZFA:0000155"],
+    "to": ["ZFA:0001056"],
+    "window": { "startHpf": 14, "endHpf": 29 },
+    "perSegment": { "delayHpf": 2, "lengthHpf": 2 },
+    "driver": "ZFA:0000155",
+    "seed": "subRange",
+    "note": "D9. Per segment: 2 h after the segment forms, over 2 h; the first window starts at 14 hpf and the last ends near 29 hpf. Segment i of the myotome array copies segment i of the somite array (length, height, chevronDeg)."
+  }
+]

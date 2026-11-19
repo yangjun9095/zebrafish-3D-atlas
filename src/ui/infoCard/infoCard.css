@@ -1,0 +1,102 @@
+/* Info card (spec 5.4, 5.1.1): docked 340 px on desktop, a 360 px overlay on tablet, a 96 px
+   peek strip plus a bottom sheet on the phone, a 320 px floating card in presentation mode.
+   Every colour comes from the tokens in styles.css. */
+.info-card { display: flex; flex-direction: column; gap: 10px; height: 100%; padding: 12px 16px 16px; box-sizing: border-box; overflow: auto; font: 400 13px/1.4 var(--font-sans); color: var(--text); }
+.info-card-empty { justify-content: center; }
+.info-hint { margin: 0; color: var(--text-muted); text-align: center; }
+
+/* Header: title, id and the close button */
+.info-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.info-head-main { min-width: 0; flex: 1; }
+/* ZFA names keep their lower case: the tree, search, labels and export label show the same form (citation form). */
+.info-title { margin: 0; font: 600 20px/1.25 var(--font-sans); overflow-wrap: anywhere; }
+.info-id { display: inline-flex; align-items: center; gap: 4px; margin-top: 2px; padding: 0; border: 0; background: none; color: var(--text-muted); font: 500 12px/1.4 var(--font-mono); cursor: pointer; border-radius: 4px; }
+.info-id:hover { color: var(--text); }
+.info-id svg { width: 12px; height: 12px; }
+.info-head-actions { display: flex; flex: none; gap: 0; margin: -6px -8px 0 0; }
+
+/* System chips */
+.info-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.info-chip { display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 0 8px 0 6px; border-radius: 4px; border: 1px solid var(--border); background: var(--surface-2); font: 500 12px/1 var(--font-sans); color: var(--text); }
+.info-chip[data-also="true"] { color: var(--text-muted); }
+.info-swatch { flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--swatch); }
+
+/* Presence badge and windows */
+.info-presence { display: flex; align-items: flex-start; gap: 6px; margin: 0; font: 500 12px/1.4 var(--font-sans); color: var(--text); }
+.info-presence[data-kind="before"], .info-presence[data-kind="after"], .info-presence[data-kind="aliasBefore"], .info-presence[data-kind="sex"] { color: var(--text-muted); }
+.info-presence svg { flex: none; width: 14px; height: 14px; margin-top: 2px; }
+.info-caption { margin: 0; color: var(--text-muted); font: 400 12px/1.4 var(--font-sans); }
+.info-caption strong { color: var(--text); font-weight: 500; }
+.info-note { margin: 4px 0 0; color: var(--text-muted); font: 400 12px/1.4 var(--font-sans); }
+
+/* Collapsible rows */
+.info-details { border-top: 1px solid var(--border); padding-top: 6px; }
+.info-details > summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 6px; min-height: 28px; color: var(--text-muted); font: 500 12px/1.4 var(--font-sans); user-select: none; }
+.info-details > summary::-webkit-details-marker { display: none; }
+.info-details > summary::before { content: ""; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(-45deg); transition: transform 120ms; margin: 0 4px; }
+.info-details[open] > summary::before { transform: rotate(45deg); }
+.info-details > summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+.info-section-title { margin: 4px 0 0; color: var(--text-muted); font: 500 11px/1.2 var(--font-sans); text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* Definition */
+.info-definition { margin: 0; font: 400 14px/1.6 var(--font-sans); color: var(--text); }
+
+/* Lists: events, terms, parts, sources, measurements */
+.info-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 2px; }
+.info-list li { margin: 0; }
+.info-row { display: flex; align-items: flex-start; gap: 8px; width: 100%; min-height: 36px; padding: 6px 8px; box-sizing: border-box; border: 0; border-radius: 8px; background: none; color: var(--text); font: 400 13px/1.4 var(--font-sans); text-align: left; cursor: pointer; }
+.info-row:hover { background: var(--surface-2); }
+.info-row[data-active="true"] { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.info-row[data-absent="true"] .info-row-name { color: var(--text-muted); }
+.info-row-time { flex: none; min-width: 56px; color: var(--text-muted); font: 500 12px/1.5 var(--font-sans); font-feature-settings: "tnum" 1; }
+.info-row-name { flex: 1; min-width: 0; }
+.info-row-icon { flex: none; width: 14px; height: 14px; margin-top: 3px; color: var(--accent); }
+.info-row-static { display: flex; gap: 8px; padding: 4px 8px; font: 400 12px/1.4 var(--font-sans); color: var(--text-muted); }
+.info-row-static a, .info-caption a, .info-footer a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+.info-term[data-active="true"] .info-row-name { color: var(--text); font-weight: 500; }
+
+/* Actions (36 px buttons in 44 px areas) */
+.info-actions { display: flex; flex-wrap: wrap; gap: 4px; padding: 4px 0; }
+.info-actions > .btn, .info-actions > a.btn { min-height: 36px; margin: 4px 0; }
+/* "Jump to first appearance of <name>" holds a name the card cannot predict, and .btn is nowrap:
+   inside a 320 px card the excess was cut off with no ellipsis. These buttons wrap instead. */
+.info-actions > .btn, .info-actions > a.btn {
+  max-width: 100%; height: auto; padding-top: 6px; padding-bottom: 6px;
+  white-space: normal; text-align: center; overflow-wrap: anywhere;
+}
+.info-actions svg { width: 16px; height: 16px; }
+a.btn { color: var(--text); }
+
+/* Multi-selection rows */
+.info-count { margin: 0; color: var(--text-muted); font: 500 12px/1.4 var(--font-sans); }
+.info-member { display: flex; align-items: center; gap: 8px; min-height: 44px; }
+.info-member .info-row { flex: 1; align-items: center; }
+
+/* Footer */
+.info-footer { margin: auto 0 0; padding-top: 8px; border-top: 1px solid var(--border); color: var(--text-muted); font: 500 11px/1.4 var(--font-sans); }
+
+/* Stage fallback (UX-LY-08) */
+.info-stage-meta { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; color: var(--text-muted); font: 400 12px/1.4 var(--font-sans); }
+.info-landmarks { margin: 0; padding-left: 16px; font: 400 13px/1.5 var(--font-sans); color: var(--text); display: grid; gap: 4px; }
+
+/* Phone peek strip (spec 5.1.4): 96 px, name and id, expand and close */
+.info-peek { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; height: 96px; padding: 6px 4px 6px 16px; box-sizing: border-box; font: 400 12px/1.4 var(--font-sans); color: var(--text-muted); }
+.info-peek-title { margin: 0; font: 600 16px/1.25 var(--font-sans); color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.info-peek-title .id-mono { margin-left: 8px; color: var(--text-muted); font-weight: 500; }
+.info-peek-line { margin: 2px 0 0; display: flex; align-items: center; gap: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.info-peek-line svg { flex: none; width: 14px; height: 14px; }
+.info-peek-actions { display: flex; }
+.sheet.info-sheet { bottom: var(--time-h, 88px); z-index: 39; max-height: calc(100dvh - var(--time-h, 88px) - 44px); }
+.sheet.info-sheet .sheet-body { padding: 0; }
+.sheet.info-sheet .info-card { height: auto; }
+
+/* Presentation and embed: the floating 320 px card (AR-59); the definition collapses behind a row */
+.app[data-presentation="true"] .info-card, .app[data-embed="true"] .info-card { max-height: calc(100dvh - var(--time-h, 64px) - 48px); }
+.app[data-presentation="true"] .info-title { font-size: var(--pres-stage); line-height: 1.15; }
+.app[data-presentation="true"] .info-card { gap: calc(var(--pres-body) * 0.5); padding: calc(var(--pres-body) * 0.6) calc(var(--pres-body) * 0.75); }
+.app[data-presentation="true"] .info-definition, .app[data-presentation="true"] .info-presence, .app[data-presentation="true"] .info-caption,
+.app[data-presentation="true"] .info-chip, .app[data-presentation="true"] .info-id, .app[data-presentation="true"] .info-details > summary,
+.app[data-presentation="true"] .info-actions > .btn, .app[data-presentation="true"] .info-actions > a.btn { font-size: var(--pres-body); line-height: 1.4; }
+.app[data-presentation="true"] .info-chip { height: auto; padding: 2px 10px 2px 8px; }
+.app[data-presentation="true"] .info-actions > .btn, .app[data-presentation="true"] .info-actions > a.btn { min-height: calc(var(--pres-body) * 1.8); }
+.app[data-presentation="true"] .info-presence svg, .app[data-presentation="true"] .info-actions svg { width: var(--pres-body); height: var(--pres-body); }

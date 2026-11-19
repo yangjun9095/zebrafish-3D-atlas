@@ -1,0 +1,1838 @@
+[
+  {
+    "id": "ZFA:0000033",
+    "name": "intermediate cell mass of mesoderm",
+    "synonyms": [
+      "ICM",
+      "intermediate cell mass of Oellacher",
+      "posterior intermediate cell mass"
+    ],
+    "system": "hematopoietic_immune",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005023",
+    "uiParent": "ZFA:0005023",
+    "parentRelation": "part_of",
+    "definition": "Longitudinal strip of ventral mesoderm between the notochord and the yolk extension where primitive erythrocytes and the axial vessels form; the posterior part becomes the blood island. (ZFA has no definition text for this term; atlas wording after Willett et al. 1999.)",
+    "zfinStartStage": "ZFS:0000026",
+    "zfinEndStage": "ZFS:0000033",
+    "startHpf": 16.0,
+    "endHpf": 60.0,
+    "visibleFromHpf": 16.0,
+    "modelEndHpf": 60.0,
+    "overrideNote": null,
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 24,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 11.5,
+        "text": "ICM ultrastructure described from the 5-somite stage (about 11.5 hpf).",
+        "source": "https://zfin.org/ZFA:0000033"
+      },
+      {
+        "hpf": 16,
+        "text": "ZFIN start (14-19 somites).",
+        "source": "https://zfin.org/ZFA:0000033"
+      },
+      {
+        "hpf": 26,
+        "text": "Primitive erythroid cells enter circulation at its onset, 26 hpf (D8); they account for all circulating erythrocytes for the first 4 days.",
+        "source": "https://zfin.org/ZFA:0000033"
+      },
+      {
+        "hpf": 60,
+        "text": "ZFIN end (Long-pec).",
+        "source": "https://zfin.org/ZFA:0000033"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 17,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 0.5,
+          "height": 0.03,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.6,
+          "height": 0.035,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.3,
+          "height": 0.02,
+          "width": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate; residual",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c intermediate cell mass of mesoderm record",
+      "https://zfin.org/ZFA:0000033",
+      "Willett et al. 1999, Dev Dyn 214:323-336, https://pubmed.ncbi.nlm.nih.gov/10213388/"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 16,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.6231,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.6392,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.6405,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.6405,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.6405,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.6405,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.5569,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.366,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2588,
+                "w": 0.0
+              }
+            ]
+          },
+          "radiusMm": 0.02,
+          "ellipticity": 0.75
+        },
+        {
+          "hpf": 17,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.5737,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.5874,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.5885,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.5885,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.5885,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.5885,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.5169,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.3477,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2492,
+                "w": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 19,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.568,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.5764,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.5113,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.3515,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.2551,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.2161,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.2134,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.2136,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2141,
+                "w": 0.0
+              }
+            ]
+          },
+          "ellipticity": 0.875
+        },
+        {
+          "hpf": 22,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.3975,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.4454,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.4124,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.3093,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.2376,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.2062,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.2042,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.2057,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2085,
+                "w": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.3769,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.4223,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.3953,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.3057,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.2399,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.2102,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.2085,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.2107,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2143,
+                "w": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 30,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.212,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.2048,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.2043,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.2044,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.2051,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.2065,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.2083,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.2104,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2153,
+                "w": 0.0
+              }
+            ]
+          },
+          "radiusMm": 0.01875,
+          "ellipticity": 0.8333
+        },
+        {
+          "hpf": 36,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.114,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.114,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.1177,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.1361,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.1693,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.2072,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.2219,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.2278,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2307,
+                "w": 0.0
+              }
+            ]
+          },
+          "radiusMm": 0.0175,
+          "ellipticity": 0.7857
+        },
+        {
+          "hpf": 42,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.1163,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.1163,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.1203,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.1397,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.1751,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.2156,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.2304,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.2361,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2389,
+                "w": 0.0
+              }
+            ]
+          },
+          "radiusMm": 0.01625,
+          "ellipticity": 0.7308
+        },
+        {
+          "hpf": 48,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.1191,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.1191,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.1227,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.1404,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.1735,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.2175,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.2494,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.2668,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.2759,
+                "w": 0.0
+              }
+            ]
+          },
+          "radiusMm": 0.015,
+          "ellipticity": 0.6667
+        },
+        {
+          "hpf": 60,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.1218,
+                "w": 0.0
+              },
+              {
+                "u": 0.3375,
+                "v": -0.1218,
+                "w": 0.0
+              },
+              {
+                "u": 0.375,
+                "v": -0.1256,
+                "w": 0.0
+              },
+              {
+                "u": 0.4125,
+                "v": -0.1444,
+                "w": 0.0
+              },
+              {
+                "u": 0.45,
+                "v": -0.1807,
+                "w": 0.0
+              },
+              {
+                "u": 0.4875,
+                "v": -0.2323,
+                "w": 0.0
+              },
+              {
+                "u": 0.525,
+                "v": -0.2787,
+                "w": 0.0
+              },
+              {
+                "u": 0.5625,
+                "v": -0.3219,
+                "w": 0.0
+              },
+              {
+                "u": 0.6,
+                "v": -0.3616,
+                "w": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path"
+      ],
+      "sources": [
+        "shape: a flattened strip (tube, ellipticity below 1) on the trunk midline under the notochord from u 0.30 to 0.60, the future position of the dorsal aorta and posterior cardinal vein (research 03c)",
+        "17 hpf: 500 x 30 x 40 um; 24 hpf: 600 x 35 x 40 um; 48 hpf: residual 300 x 20 x 30 um (research 03c, estimates)",
+        "the record fades out over 36 to 60 hpf as the axial vessels and circulating blood take over (research 03c; ZFA end Long-pec)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000094",
+    "name": "blood island",
+    "synonyms": [
+      "blood islands",
+      "caudal hematopoietic tissue",
+      "posterior ICM",
+      "posterior blood island"
+    ],
+    "system": "hematopoietic_immune",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000033",
+    "uiParent": "ZFA:0000033",
+    "parentRelation": "part_of",
+    "definition": "Nests of developing blood cells arising late in the segmentation period from the intermediate mass, and located in the anterior-ventral tail, just posterior to the yolk extension.",
+    "zfinStartStage": "ZFS:0000028",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 22.0,
+    "endHpf": 30.0,
+    "visibleFromHpf": 22.0,
+    "modelEndHpf": 30.0,
+    "overrideNote": null,
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0.3,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 22,
+        "text": "ZFIN start (26+ somites).",
+        "source": "https://zfin.org/ZFA:0000094"
+      },
+      {
+        "hpf": 30,
+        "text": "ZFIN end (Prim-5); the region continues as the caudal vein plexus and later the caudal hematopoietic tissue.",
+        "source": "https://zfin.org/ZFA:0000094"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 23,
+        "stageLabel": "26+ somites",
+        "dimsMm": {
+          "length": 0.15,
+          "height": 0.04,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.18,
+          "height": 0.045,
+          "width": 0.045
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c blood island record",
+      "https://zfin.org/ZFA:0000094"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.8,
+            "v": -0.428,
+            "w": 0
+          },
+          "radiiMm": [
+            0.075,
+            0.02,
+            0.02
+          ]
+        },
+        {
+          "hpf": 23,
+          "placement": {
+            "u": 0.795,
+            "v": -0.421,
+            "w": 0
+          }
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.79,
+            "v": -0.432,
+            "w": 0
+          },
+          "radiiMm": [
+            0.09,
+            0.0225,
+            0.0225
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.67,
+            "v": -0.448,
+            "w": 0
+          }
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement: the anterior-ventral tail just behind the yolk extension (ventU plus 0.03), under the caudal artery; 23 hpf: 150 x 40 x 40 um; 24 hpf: 180 x 45 x 45 um (research 03c, estimates)",
+        "the record ends at 30 hpf (ZFA Prim-5); the caudal vein plexus and, from 48 hpf, the caudal hematopoietic tissue continue the site"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0005898",
+    "name": "caudal hematopoietic tissue",
+    "synonyms": [],
+    "system": "hematopoietic_immune",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005023",
+    "uiParent": "ZFA:0005023",
+    "parentRelation": "part_of",
+    "definition": "Tissue that lies between the caudal artery and the caudal vein plexus where definitive hematopoiesis occurs after  48hpf and before the hematopoietic progenitors migrate to the thymus and kidney.",
+    "zfinStartStage": "ZFS:0000033",
+    "zfinEndStage": "ZFS:0000039",
+    "startHpf": 48.0,
+    "endHpf": 336.0,
+    "visibleFromHpf": 48.0,
+    "modelEndHpf": 336.0,
+    "overrideNote": null,
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 48,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 48,
+        "text": "ZFIN start (Long-pec); HSPCs from the aortic floor lodge here from 48 to 96 hpf.",
+        "source": "https://zfin.org/ZFA:0005898"
+      },
+      {
+        "hpf": 72,
+        "text": "Expansion and differentiation of HSPCs (fetal liver equivalent).",
+        "source": "https://zfin.org/ZFA:0005898"
+      },
+      {
+        "hpf": 96,
+        "text": "Progenitors seed the kidney from 4 dpf.",
+        "source": "https://zfin.org/ZFA:0005898"
+      },
+      {
+        "hpf": 336,
+        "text": "ZFIN end (Days 7-13).",
+        "source": "https://zfin.org/ZFA:0005898"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.8,
+          "height": 0.05,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 1.0,
+          "height": 0.06,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c caudal hematopoietic tissue record",
+      "https://zfin.org/ZFA:0005898",
+      "Murayama et al. 2006, Immunity 25:963-975, https://pubmed.ncbi.nlm.nih.gov/17157041/",
+      "Murayama et al. 2006 Immunity 25:963-975 https://pubmed.ncbi.nlm.nih.gov/17157041/"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 48,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.6,
+                "v": -0.389,
+                "w": 0.0
+              },
+              {
+                "u": 0.6375,
+                "v": -0.4056,
+                "w": 0.0
+              },
+              {
+                "u": 0.675,
+                "v": -0.4431,
+                "w": 0.0
+              },
+              {
+                "u": 0.7125,
+                "v": -0.4997,
+                "w": 0.0
+              },
+              {
+                "u": 0.75,
+                "v": -0.5749,
+                "w": 0.0
+              },
+              {
+                "u": 0.7875,
+                "v": -0.6033,
+                "w": 0.0
+              },
+              {
+                "u": 0.825,
+                "v": -0.6297,
+                "w": 0.0
+              },
+              {
+                "u": 0.8625,
+                "v": -0.6508,
+                "w": 0.0
+              },
+              {
+                "u": 0.9,
+                "v": -0.6863,
+                "w": 0.0
+              }
+            ]
+          },
+          "radiusMm": {
+            "r0Mm": 0.0048,
+            "r1Mm": 0.0048
+          },
+          "ellipticity": 0.8333
+        },
+        {
+          "hpf": 60,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.6,
+                "v": -0.5067,
+                "w": 0.0
+              },
+              {
+                "u": 0.6375,
+                "v": -0.5605,
+                "w": 0.0
+              },
+              {
+                "u": 0.675,
+                "v": -0.5859,
+                "w": 0.0
+              },
+              {
+                "u": 0.7125,
+                "v": -0.5947,
+                "w": 0.0
+              },
+              {
+                "u": 0.75,
+                "v": -0.5992,
+                "w": 0.0
+              },
+              {
+                "u": 0.7875,
+                "v": -0.6063,
+                "w": 0.0
+              },
+              {
+                "u": 0.825,
+                "v": -0.6218,
+                "w": 0.0
+              },
+              {
+                "u": 0.8625,
+                "v": -0.6443,
+                "w": 0.0
+              },
+              {
+                "u": 0.9,
+                "v": -0.684,
+                "w": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.61,
+                "v": -0.5273,
+                "w": 0.0
+              },
+              {
+                "u": 0.6462,
+                "v": -0.5725,
+                "w": 0.0
+              },
+              {
+                "u": 0.6825,
+                "v": -0.5861,
+                "w": 0.0
+              },
+              {
+                "u": 0.7188,
+                "v": -0.5933,
+                "w": 0.0
+              },
+              {
+                "u": 0.755,
+                "v": -0.598,
+                "w": 0.0
+              },
+              {
+                "u": 0.7913,
+                "v": -0.6061,
+                "w": 0.0
+              },
+              {
+                "u": 0.8275,
+                "v": -0.6218,
+                "w": 0.0
+              },
+              {
+                "u": 0.8638,
+                "v": -0.6443,
+                "w": 0.0
+              },
+              {
+                "u": 0.9,
+                "v": -0.6836,
+                "w": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.61,
+                "v": -0.5275,
+                "w": 0.0
+              },
+              {
+                "u": 0.6462,
+                "v": -0.5699,
+                "w": 0.0
+              },
+              {
+                "u": 0.6825,
+                "v": -0.5896,
+                "w": 0.0
+              },
+              {
+                "u": 0.7188,
+                "v": -0.5995,
+                "w": 0.0
+              },
+              {
+                "u": 0.755,
+                "v": -0.6079,
+                "w": 0.0
+              },
+              {
+                "u": 0.7913,
+                "v": -0.6196,
+                "w": 0.0
+              },
+              {
+                "u": 0.8275,
+                "v": -0.6379,
+                "w": 0.0
+              },
+              {
+                "u": 0.8638,
+                "v": -0.6624,
+                "w": 0.0
+              },
+              {
+                "u": 0.9,
+                "v": -0.7049,
+                "w": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.62,
+                "v": -0.5541,
+                "w": 0.0
+              },
+              {
+                "u": 0.655,
+                "v": -0.5735,
+                "w": 0.0
+              },
+              {
+                "u": 0.69,
+                "v": -0.5922,
+                "w": 0.0
+              },
+              {
+                "u": 0.725,
+                "v": -0.6055,
+                "w": 0.0
+              },
+              {
+                "u": 0.76,
+                "v": -0.6217,
+                "w": 0.0
+              },
+              {
+                "u": 0.795,
+                "v": -0.641,
+                "w": 0.0
+              },
+              {
+                "u": 0.83,
+                "v": -0.6625,
+                "w": 0.0
+              },
+              {
+                "u": 0.865,
+                "v": -0.6887,
+                "w": 0.0
+              },
+              {
+                "u": 0.9,
+                "v": -0.7339,
+                "w": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.62,
+                "v": -0.503,
+                "w": 0.0
+              },
+              {
+                "u": 0.655,
+                "v": -0.5377,
+                "w": 0.0
+              },
+              {
+                "u": 0.69,
+                "v": -0.5719,
+                "w": 0.0
+              },
+              {
+                "u": 0.725,
+                "v": -0.5897,
+                "w": 0.0
+              },
+              {
+                "u": 0.76,
+                "v": -0.6034,
+                "w": 0.0
+              },
+              {
+                "u": 0.795,
+                "v": -0.62,
+                "w": 0.0
+              },
+              {
+                "u": 0.83,
+                "v": -0.6392,
+                "w": 0.0
+              },
+              {
+                "u": 0.865,
+                "v": -0.6622,
+                "w": 0.0
+              },
+              {
+                "u": 0.9,
+                "v": -0.7016,
+                "w": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.61,
+                "v": -0.4364,
+                "w": 0.0
+              },
+              {
+                "u": 0.6462,
+                "v": -0.4826,
+                "w": 0.0
+              },
+              {
+                "u": 0.6825,
+                "v": -0.5232,
+                "w": 0.0
+              },
+              {
+                "u": 0.7188,
+                "v": -0.5586,
+                "w": 0.0
+              },
+              {
+                "u": 0.755,
+                "v": -0.5834,
+                "w": 0.0
+              },
+              {
+                "u": 0.7913,
+                "v": -0.5973,
+                "w": 0.0
+              },
+              {
+                "u": 0.8275,
+                "v": -0.6142,
+                "w": 0.0
+              },
+              {
+                "u": 0.8638,
+                "v": -0.6334,
+                "w": 0.0
+              },
+              {
+                "u": 0.9,
+                "v": -0.6658,
+                "w": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path"
+      ],
+      "sources": [
+        "shape: a flattened strip (tube) between the caudal artery and the caudal vein from the vent to u 0.90, sized from the tail stack of the body frame; 48 hpf: 800 x 50 x 40 um; 120 hpf: 1000 x 60 x 40 um (research 03c, estimates)",
+        "the tissue lies inside the caudal vein plexus band and shows as a lateral stripe; it fades out over 168 to 336 hpf as the progenitors move to the thymus and kidney (research 03c; ZFA end Days 7-13)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001077",
+    "name": "thymus primordium",
+    "synonyms": [
+      "thymic rudiment"
+    ],
+    "system": "hematopoietic_immune",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001159",
+    "uiParent": "ZFA:0001159",
+    "parentRelation": "part_of",
+    "definition": "A small outgrowth of the pharyngeal epithelium that is the site of lymphocyte cell production.",
+    "zfinStartStage": "ZFS:0000030",
+    "zfinEndStage": "ZFS:0000035",
+    "startHpf": 30.0,
+    "endHpf": 96.0,
+    "visibleFromHpf": 54,
+    "modelEndHpf": 72,
+    "overrideNote": "Drawn from 54 hpf, when the first morphological primordium appears in the third pharyngeal pouch (Lam et al. 2004; 60 hpf per Willett et al. 1999); ZFA starts the term at Prim-15 (30 hpf). The model ends it at 72 hpf, the ZFA start of the thymus record that continues it; ZFA ends the term at Protruding-mouth (96 hpf).",
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0.6,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 54,
+        "text": "Alymphoid primordium forms in the third pharyngeal pouch.",
+        "source": "https://zfin.org/ZFA:0001077"
+      },
+      {
+        "hpf": 60,
+        "text": "Thymic primordium appears (Willett et al. 1999).",
+        "source": "https://zfin.org/ZFA:0001077"
+      },
+      {
+        "hpf": 65,
+        "text": "Immature lymphoblasts colonize the primordium.",
+        "source": "https://zfin.org/ZFA:0001077"
+      },
+      {
+        "hpf": 96,
+        "text": "ZFIN end (Protruding-mouth); rag1 expression starts about 92 hpf.",
+        "source": "https://zfin.org/ZFA:0001077"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 60,
+        "stageLabel": "Pec-fin",
+        "dimsMm": {
+          "diameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 72,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c thymus primordium record",
+      "https://zfin.org/ZFA:0001077",
+      "Willett et al. 1999, Dev Dyn 214:323-336, https://pubmed.ncbi.nlm.nih.gov/10213388/",
+      "Lam et al. 2004, Dev Comp Immunol 28:9-28, https://www.sciencedirect.com/science/article/abs/pii/S0145305X03001034"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 54,
+          "placement": {
+            "u": 0.2,
+            "v": -0.2,
+            "w": 0.7,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.01,
+            0.01,
+            0.01
+          ]
+        },
+        {
+          "hpf": 60,
+          "radiiMm": [
+            0.015,
+            0.015,
+            0.015
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement: dorsal to the third pharyngeal pouch, behind the eye and below the otic vesicle, u 0.20, v -0.2, w 0.7 (research 03c, estimate)",
+        "diameter 30 um at 60 hpf, 40 um at 72 hpf (research 03c, estimates); 20 um at the 54 hpf appearance"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001078",
+    "name": "thymus",
+    "synonyms": [],
+    "system": "hematopoietic_immune",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001159",
+    "uiParent": "ZFA:0001159",
+    "parentRelation": "part_of",
+    "definition": "Paired organ where maturation of T-lymphocytes occurs. The adult thymus located on the dorsomedial aspect of the branchial cavity above the third pharyngeal cartilage.",
+    "zfinStartStage": "ZFS:0000035",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 72.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 72.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 72,
+        "text": "ZFIN start (Protruding-mouth).",
+        "source": "https://zfin.org/ZFA:0001078"
+      },
+      {
+        "hpf": 96,
+        "text": "TCR alpha and rag1 expression detected in the thymus at 4 dpf.",
+        "source": "https://zfin.org/ZFA:0001078"
+      },
+      {
+        "hpf": 168,
+        "text": "Small pouch-like shape at 1 wpf; rapid lateral growth between 1 and 2 wpf.",
+        "source": "https://zfin.org/ZFA:0001078"
+      },
+      {
+        "hpf": 336,
+        "text": "Conical shape between 2 and 3 wpf; cortex-medulla regionalization.",
+        "source": "https://zfin.org/ZFA:0001078"
+      },
+      {
+        "hpf": 504,
+        "text": "Morphologically mature by 3 wpf.",
+        "source": "https://zfin.org/ZFA:0001078"
+      },
+      {
+        "hpf": 672,
+        "text": "More complex shape from 4 wpf; rapid dorsal-ventral growth between 3 and 6 wpf.",
+        "source": "https://zfin.org/ZFA:0001078"
+      },
+      {
+        "hpf": 2520,
+        "text": "Early involution at 15 wpf.",
+        "source": "https://zfin.org/ZFA:0001078"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.07,
+          "height": 0.05,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 336,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.25,
+          "height": 0.15,
+          "width": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.8,
+          "height": 0.5,
+          "width": 0.3
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c thymus record",
+      "https://zfin.org/ZFA:0001078",
+      "Lam et al. 2002, Dev Dyn 225:87-94, https://pubmed.ncbi.nlm.nih.gov/12203724/",
+      "Danilova et al. 2004, Dev Comp Immunol 28:755-767, https://pubmed.ncbi.nlm.nih.gov/15043944/",
+      "Menke et al. 2011, Toxicol Pathol 39:759-775, https://journals.sagepub.com/doi/10.1177/0192623311409597",
+      "Lam et al. 2002 Dev Dyn 225:87-94 https://pubmed.ncbi.nlm.nih.gov/12203724/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.2,
+            "v": -0.15,
+            "w": 0.7,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0225,
+            0.0175,
+            0.015
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.035,
+            0.025,
+            0.02
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.2,
+            "v": -0.12,
+            "w": 0.7,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.05,
+            0.035,
+            0.025
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.24,
+            "v": 0.02,
+            "w": 0.75,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1,
+            0.065,
+            0.025
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.245,
+            "v": 0.02,
+            "w": 0.75,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.13,
+            0.085,
+            0.03
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.25,
+            "v": 0.02,
+            "w": 0.75,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.17,
+            0.12,
+            0.0375
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.25,
+            "v": 0.02,
+            "w": 0.75,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.22,
+            0.16,
+            0.05
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.25,
+            "v": 0.02,
+            "w": 0.75,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.3,
+            0.25,
+            0.075
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement: the dorsomedial roof of the branchial cavity behind the eye, u 0.20 (0.175 in the adult, research 03c apFractionByStage), v -0.15 to -0.1, w 0.7 to 0.8",
+        "120 hpf: 70 x 50 x 40 um; 336 hpf: 250 x 150 x 100 um; adult: 800 x 500 x 300 um at SL 25 (research 03c, estimates; Lam et al. 2002 shape series); 72 hpf seed 45 x 35 x 30 um continues the primordium",
+        "from 336 hpf (review R07) the thymus moves to the dorsal-posterior corner of the branchial cavity, u 0.24 to 0.25, v +0.15 to +0.25, w 0.75, above the gill arches and behind the eye, and elongates dorsally along the skull from the third week (ZFA definition; Lam et al. 2002): radii along v exceed those along u from 336 hpf",
+        "Phase 2 visual calibration: the adult thymus stays at the roof of the opercular cavity, not above the vertebral column.",
+        "Phase 2 visual calibration (RN-07): the juvenile and adult thymus stays at the roof of the opercular cavity, half its earlier height, so it no longer sits above the vertebral column."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000436",
+    "name": "spleen",
+    "synonyms": [],
+    "system": "hematopoietic_immune",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005023",
+    "uiParent": "ZFA:0005023",
+    "parentRelation": "part_of",
+    "definition": "Organ that filters the blood removing defective blood cells. The spleen is a dark red organ, located in the peritoneal cavity, adjacent to one of the liver lobes.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 96,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA start stage Unknown (DM-19): drawn from 96 hpf, when the splenic primordium appears in the left anterior gut (research 03c; the fish spleen review 2023). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "left",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 96,
+        "text": "Splenic primordium by 4 dpf in the left anterior gut.",
+        "source": "https://zfin.org/ZFA:0000436"
+      },
+      {
+        "hpf": 720,
+        "text": "Lymphocytes evident in the spleen at 30 dpf; ellipsoids still forming.",
+        "source": "https://zfin.org/ZFA:0000436"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 720,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 0.3,
+          "width": 0.12
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.0,
+          "height": 0.7,
+          "width": 0.6
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate; no published measurement found for this row",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c spleen record",
+      "https://zfin.org/ZFA:0000436",
+      "The fish spleen (review, 2023), Fish Shellfish Immunol, https://www.sciencedirect.com/science/article/pii/S1050464823007660",
+      "Menke et al. 2011, Toxicol Pathol 39:759-775, https://journals.sagepub.com/doi/10.1177/0192623311409597",
+      "Gupta and Mullins 2010, J Vis Exp 37:1717, https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "placement": {
+            "u": 0.38,
+            "v": -0.7,
+            "w": -0.35
+          },
+          "radiiMm": [
+            0.015,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.4,
+            "v": -0.7,
+            "w": -0.35
+          },
+          "radiiMm": [
+            0.03,
+            0.02,
+            0.02
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.43,
+            "v": -0.7,
+            "w": -0.35
+          },
+          "radiiMm": [
+            0.06,
+            0.03,
+            0.03
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.45,
+            "v": -0.7,
+            "w": -0.35
+          },
+          "radiiMm": [
+            0.1,
+            0.045,
+            0.045
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.47,
+            "v": -0.7,
+            "w": -0.35
+          },
+          "radiiMm": [
+            0.15,
+            0.06,
+            0.06
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.47,
+            "v": -0.7,
+            "w": -0.32
+          },
+          "radiiMm": [
+            0.3,
+            0.11,
+            0.1
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.47,
+            "v": -0.7,
+            "w": -0.3
+          },
+          "radiiMm": [
+            1.0,
+            0.35,
+            0.3
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement: left of the anterior intestine, dorsal to the gut loop and ventral to the swim bladder; u 0.38 at 120 hpf (research 03c apFractionByStage 0.33 to 0.36 x 1.083), 0.47 in the adult (0.42 to 0.52), v -0.7, w -0.35",
+        "120 hpf: 40 um sphere; 720 hpf: 300 x 120 um; adult 2000 x 700 x 600 um at SL 25 (research 03c, estimates); 96 hpf seed 30 x 24 um"
+      ]
+    }
+  }
+]

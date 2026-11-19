@@ -1,0 +1,4387 @@
+[
+ {
+  "id": "ZFA:0000028",
+  "name": "heart primordium",
+  "synonyms": [
+   "cardiac field",
+   "heart primordia"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000010",
+  "zfaPartOf": [
+   "ZFA:0000010"
+  ],
+  "developsFrom": [
+   "ZFA:0001065"
+  ],
+  "startStage": "ZFS:0000024",
+  "startStageName": "Segmentation:5-9 somites",
+  "startHpf": 11.66,
+  "endStage": "ZFS:0000027",
+  "endStageName": "Segmentation:20-25 somites",
+  "endHpf": 22.0,
+  "definition": "Bilateral groups of cells consisting of three rows: one row of endocardial precursors medially and two rows of myocardial precursors laterally. The two populations fuse at the midline between 21 and 26 somites to form the heart rudiment or cone.",
+  "spatial": {
+   "apFraction": [
+    0.15,
+    0.25
+   ],
+   "dv": "ventral, in the anterior lateral plate mesoderm, level of the hindbrain",
+   "laterality": "paired",
+   "landmarks": "two bilateral stripes lateral to the hindbrain, dorsal to the anterior yolk; they converge to the midline between 21 and 26 somites"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Two thin flat patches, one on each side of the midline. Animate the patches moving medially from 16 hpf to 21 hpf until they touch. Hand over to the heart rudiment at 19-22 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "14-19 somites",
+    "hpf": 17,
+    "dims_um": {
+     "length": 150,
+     "width": 50,
+     "thickness": 15
+    },
+    "source": "estimate from bilateral myl7 stripes; no measurement found",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 11.7,
+    "event": "ZFIN start: bilateral cardiac fields present at the 5-9 somite stage"
+   },
+   {
+    "hpf": 16,
+    "event": "first cardiomyocyte differentiation (myl7) at the 14-somite stage"
+   },
+   {
+    "hpf": 19,
+    "event": "vmhc (ventricle) and amhc (atrium) expression separate the two chamber lineages"
+   },
+   {
+    "hpf": 21,
+    "event": "the two fields fuse at the midline (21-26 somites) and form the heart cone"
+   }
+  ],
+  "colorHint": "#f4a582",
+  "sources": [
+   "https://zfin.org/ZFA:0000028",
+   "Bakkers 2011, Cardiovasc Res 91:279-288, https://pmc.ncbi.nlm.nih.gov/articles/PMC3125074/",
+   "From stripes to a beating heart (review, 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC7916704/"
+  ],
+  "notes": "The ZFA definition gives three cell rows per side: one endocardial row medially and two myocardial rows laterally. The 3D model can draw this as two flat patches that slide to the midline. Sizes are estimates; I found no measurement of the patch."
+ },
+ {
+  "id": "ZFA:0000115",
+  "name": "heart rudiment",
+  "synonyms": [
+   "heart cone",
+   "rudimentary heart"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000010",
+  "zfaPartOf": [
+   "ZFA:0000010"
+  ],
+  "developsFrom": [
+   "ZFA:0000028"
+  ],
+  "startStage": "ZFS:0000027",
+  "startStageName": "Segmentation:20-25 somites",
+  "startHpf": 19.0,
+  "endStage": "ZFS:0000028",
+  "endStageName": "Segmentation:26+ somites",
+  "endHpf": 24.0,
+  "definition": "The migrating myocardial precursors of the heart rudiment form a cone like structure between 19.5 hpf and 22 hpf, and eventually telescope out into the primitive heart tube at 24hpf.",
+  "spatial": {
+   "apFraction": [
+    0.17,
+    0.22
+   ],
+   "dv": "ventral midline, under the hindbrain and posterior to the otic vesicles, anterior to the yolk ball",
+   "laterality": "midline",
+   "landmarks": "the cone sits on the ventral midline; the apex (future ventricle) points dorsally, the base (future atrium) lies on the yolk"
+  },
+  "shape": {
+   "primitive": "lathe",
+   "notes": "Shallow cone, apex dorsal. Diameter 100-120 um, height 40 um (estimate). Rotate and tilt it to the left between 21 and 24 hpf (leftward jog) and stretch it into the primitive heart tube."
+  },
+  "sizes": [
+   {
+    "stageLabel": "20-25 somites",
+    "hpf": 21,
+    "dims_um": {
+     "diameter": 110,
+     "height": 40
+    },
+    "source": "estimate; the cardiac disc image in Bakkers 2011 (20.5 hpf) shows a disc about 100 um across (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 19.5,
+    "event": "cone forms between 19.5 and 22 hpf (ZFA definition)"
+   },
+   {
+    "hpf": 20.5,
+    "event": "cardiac disc stage shown in Bakkers 2011"
+   },
+   {
+    "hpf": 21,
+    "event": "leftward jog of the extruding tube, 21-23 hpf"
+   },
+   {
+    "hpf": 24,
+    "event": "the cone telescopes into the primitive heart tube"
+   }
+  ],
+  "colorHint": "#e8806a",
+  "sources": [
+   "https://zfin.org/ZFA:0000115",
+   "Bakkers 2011, Cardiovasc Res 91:279-288, https://pmc.ncbi.nlm.nih.gov/articles/PMC3125074/",
+   "From stripes to a beating heart (review, 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC7916704/"
+  ],
+  "notes": "Synonym: heart cone. This term ends at the 26+ somite stage in ZFIN, so the cone lives for 19-24 hpf."
+ },
+ {
+  "id": "ZFA:0000149",
+  "name": "primitive heart tube",
+  "synonyms": [],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000010",
+  "zfaPartOf": [
+   "ZFA:0000010",
+   "ZFA:0007115"
+  ],
+  "developsFrom": [
+   "ZFA:0000115"
+  ],
+  "startStage": "ZFS:0000028",
+  "startStageName": "Segmentation:26+ somites",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000029",
+  "endStageName": "Pharyngula:Prim-5",
+  "endHpf": 30.0,
+  "definition": "Multi-tissue structure that arises from the heart rudiment and will become the heart tube.",
+  "spatial": {
+   "apFraction": [
+    0.16,
+    0.27
+   ],
+   "dv": "ventral midline to left of midline, under the hindbrain, anterior-dorsal to the yolk ball",
+   "laterality": "left",
+   "landmarks": "venous pole on the anterior-left yolk margin; arterial pole under the hindbrain; the tube points anteriorly and slightly leftward"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Straight tube. Diameter about 50 um (Battista et al. 2016 citing Baird et al. 2014). Length about 200 um (estimate). Add a slow peristaltic pulse from 24 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "26+ somites",
+    "hpf": 23,
+    "dims_um": {
+     "length": 180,
+     "diameter": 50
+    },
+    "source": "diameter from Battista et al. 2016, arXiv:1610.03427 (heart tube diameter 0.05 mm at 26-30 hpf, citing Baird et al. 2014), https://arxiv.org/abs/1610.03427; length is an estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 200,
+     "diameter": 50
+    },
+    "source": "diameter 0.05 mm for 26-30 hpf from Battista et al. 2016, arXiv:1610.03427 (heart tube diameter 0.05 mm at 26-30 hpf, citing Baird et al. 2014), https://arxiv.org/abs/1610.03427; length is an estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "ZFIN start (26+ somites)"
+   },
+   {
+    "hpf": 24,
+    "event": "the tube begins rhythmic peristaltic contraction (heartbeat onset)"
+   },
+   {
+    "hpf": 24,
+    "event": "blood begins to circulate during the Prim-5 stage (24-30 hpf)"
+   }
+  ],
+  "colorHint": "#d6604d",
+  "sources": [
+   "https://zfin.org/ZFA:0000149",
+   "https://zfin.org/zf_info/zfbook/stages/phar.html",
+   "Battista et al. 2016, arXiv:1610.03427 (heart tube diameter 0.05 mm at 26-30 hpf, citing Baird et al. 2014), https://arxiv.org/abs/1610.03427",
+   "From stripes to a beating heart (review, 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC7916704/"
+  ],
+  "notes": "ZFIN keeps three tube terms in sequence: primitive heart tube (22-30 hpf), heart tube (24-42 hpf) and heart (42 hpf to adult). The ranges overlap on purpose. I recommend one 'heart' track in the model that switches its label by stage."
+ },
+ {
+  "id": "ZFA:0000360",
+  "name": "heart tube",
+  "synonyms": [],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000010",
+  "zfaPartOf": [
+   "ZFA:0000010",
+   "ZFA:0007115"
+  ],
+  "developsFrom": [
+   "ZFA:0000149"
+  ],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000031",
+  "endStageName": "Pharyngula:Prim-25",
+  "endHpf": 42.0,
+  "definition": "Cavitated compound organ that will become the adult heart following looping morphogenesis and valve formation.",
+  "spatial": {
+   "apFraction": [
+    0.16,
+    0.27
+   ],
+   "dv": "ventral, under the hindbrain and pharynx, anterior to the yolk ball, inside the pericardial cavity",
+   "laterality": "left",
+   "landmarks": "the tube loops between 28 and 48 hpf; the ventricle moves to the midline and the atrium stays left-dorsal"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Tube along a spline. Keyframe the spline from straight (24 hpf) to a C shape (36 hpf) to an S shape (48 hpf). Give the two halves different radii: atrial half 45 um, ventricular half 40 um at 30 hpf; then let both balloon."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 200,
+     "diameter": 50
+    },
+    "source": "diameter from Battista et al. 2016, arXiv:1610.03427 (heart tube diameter 0.05 mm at 26-30 hpf, citing Baird et al. 2014), https://arxiv.org/abs/1610.03427; length is an estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Prim-15",
+    "hpf": 30,
+    "dims_um": {
+     "length": 250,
+     "diameter": 55
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Prim-25",
+    "hpf": 36,
+    "dims_um": {
+     "length": 280,
+     "atrial_diameter": 80,
+     "ventricular_diameter": 70
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "synchronized contraction begins"
+   },
+   {
+    "hpf": 28,
+    "event": "looping can be observed from 28 hpf"
+   },
+   {
+    "hpf": 30,
+    "event": "linear heart tube fully formed; differentiation continues at the arterial pole"
+   },
+   {
+    "hpf": 36,
+    "event": "looping under way, ventricle displaced toward the midline; endocardial cells of the future AV canal become cuboidal"
+   },
+   {
+    "hpf": 42,
+    "event": "ZFIN end of the term; the organ is called heart from High-pec"
+   }
+  ],
+  "colorHint": "#c0392b",
+  "sources": [
+   "https://zfin.org/ZFA:0000360",
+   "Bakkers 2011, Cardiovasc Res 91:279-288, https://pmc.ncbi.nlm.nih.gov/articles/PMC3125074/",
+   "Twisting of the zebrafish heart tube during cardiac looping, eLife 9:e61733 (2020), https://elifesciences.org/articles/61733",
+   "From stripes to a beating heart (review, 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC7916704/"
+  ],
+  "notes": "No published length of the tube in micrometers was found. The tube diameter (50 um) comes from a modeling paper that cites Baird et al. 2014."
+ },
+ {
+  "id": "ZFA:0000114",
+  "name": "heart",
+  "synonyms": [],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000010",
+  "zfaPartOf": [
+   "ZFA:0000010",
+   "ZFA:0007115"
+  ],
+  "developsFrom": [
+   "ZFA:0000360"
+  ],
+  "startStage": "ZFS:0000032",
+  "startStageName": "Pharyngula:High-pec",
+  "startHpf": 42.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Blood pumping organ composed of four components: sinus venosus, atrium, cardiac ventricle and bulbus arteriosus.",
+  "spatial": {
+   "apFraction": [
+    0.17,
+    0.25
+   ],
+   "dv": "ventral, posterior and ventral to the gills, inside the pericardial cavity; anterior to the liver and yolk",
+   "laterality": "midline",
+   "landmarks": "larva: between the opercular region and the anterior yolk. Adult: in the pericardial cavity behind the gill chamber, ventral to the esophagus",
+   "apFractionByStage": {
+    "48": [
+     0.17,
+     0.25
+    ],
+    "120": [
+     0.18,
+     0.24
+    ],
+    "adult": [
+     0.17,
+     0.24
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Compound of four lathe or ellipsoid parts: sinus venosus, atrium, ventricle, bulbus arteriosus. Larval ventricle: rectangular outline; juvenile: triangular; adult: near circular (circularity 0.83). Keep the total height about equal to the sum of atrium plus ventricle."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 250,
+     "height": 150,
+     "width": 120
+    },
+    "source": "estimate; ventricle length derived from the 4.28 percent of SL ratio in Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 300,
+     "height": 200,
+     "width": 150
+    },
+    "source": "estimate; ventricle length derived from the 4.28 percent of SL ratio in Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 2500,
+     "height": 1500,
+     "width": 1200
+    },
+    "source": "estimate; ventricle 1070 um and bulbus 610 um derived from Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/ at SL 25 mm (Ivanovski et al. 2009, PMID 20087250 (adult average size 2.5 cm), https://pubmed.ncbi.nlm.nih.gov/20087250/)",
+    "basis": "derived"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 42,
+    "event": "ZFIN start (High-pec): four regions can be named"
+   },
+   {
+    "hpf": 48,
+    "event": "looped heart with atrium and ventricle separated by the AV canal; 231 ventricular cardiomyocytes; heart rate 141 bpm at 28 C"
+   },
+   {
+    "hpf": 48,
+    "event": "pro-epicardium appears as a cluster near the ventral wall"
+   },
+   {
+    "hpf": 55,
+    "event": "looping and chamber ballooning complete"
+   },
+   {
+    "hpf": 72,
+    "event": "epicardium spreads over the myocardium; heart rate 147 bpm"
+   },
+   {
+    "hpf": 105,
+    "event": "endocardial cushions differentiate into valve leaflets"
+   },
+   {
+    "hpf": 120,
+    "event": "terminal rotation done by SL 3.6 mm: atrium moves behind the ventricle; heart rate 172 bpm"
+   },
+   {
+    "hpf": 1440,
+    "event": "ventricle length grows 125 um per day until 60 dpf, then 17.8 um per day until 180 dpf"
+   },
+   {
+    "hpf": 2160,
+    "event": "adult: ventricle length 4.28 percent of SL, width to length ratio 0.83, compact myocardium 3-4 cells thick"
+   }
+  ],
+  "colorHint": "#b03a2e",
+  "sources": [
+   "https://zfin.org/ZFA:0000114",
+   "Bakkers 2011, Cardiovasc Res 91:279-288, https://pmc.ncbi.nlm.nih.gov/articles/PMC3125074/",
+   "Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/",
+   "Auman et al. 2007, PLoS Biol 5:e53, https://pmc.ncbi.nlm.nih.gov/articles/PMC1802756/",
+   "Denvir et al. 2008, BMC Biotechnol 8:21, https://pmc.ncbi.nlm.nih.gov/articles/PMC2291041/",
+   "Twisting of the zebrafish heart tube during cardiac looping, eLife 9:e61733 (2020), https://elifesciences.org/articles/61733",
+   "Gupta and Mullins 2010, J Vis Exp 37:1717, https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/"
+  ],
+  "notes": "Singleman and Holtzman 2012 give ventricle length as 4.28 percent of standard length across life, and bulbus length as 57 percent of ventricle length. I used these ratios with SL 2.9 mm (48 hpf), 3.5 mm (120 hpf) and 25 mm (adult) to derive sizes. The 48 hpf and 120 hpf SL values are estimates from the ZFIN total lengths of 3.1 mm and 3.9 mm."
+ },
+ {
+  "id": "ZFA:0000154",
+  "name": "sinus venosus",
+  "synonyms": [
+   "inflow tract"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000114",
+  "zfaPartOf": [
+   "ZFA:0000114"
+  ],
+  "developsFrom": [
+   "ZFA:0001722"
+  ],
+  "startStage": "ZFS:0000032",
+  "startStageName": "Pharyngula:High-pec",
+  "startHpf": 42.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Heart region collecting blood from the paired common cardinal veins and delivering to the atrium. One of four components of the heart.",
+  "spatial": {
+   "apFraction": [
+    0.22,
+    0.25
+   ],
+   "dv": "ventral; the most posterior and dorsal heart region, on the anterior yolk surface",
+   "laterality": "midline",
+   "landmarks": "receives the left and right common cardinal veins; opens into the atrium"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Short wide funnel at the venous pole. Draw as a tube 40 um long that flares from the two common cardinal veins into the atrium. In the adult draw a thin-walled sac 400 um across."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 40,
+     "diameter": 45
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 50,
+     "diameter": 60
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 400,
+     "diameter": 400
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 42,
+    "event": "ZFIN start (High-pec)"
+   },
+   {
+    "hpf": 48,
+    "event": "acts as the pacemaker region and contracts first (ZFA definition)"
+   }
+  ],
+  "colorHint": "#7b241c",
+  "sources": [
+   "https://zfin.org/ZFA:0000154"
+  ],
+  "notes": "Synonym: inflow tract. No measurement found; all sizes are estimates scaled to the heart."
+ },
+ {
+  "id": "ZFA:0000471",
+  "name": "atrium",
+  "synonyms": [],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000114",
+  "zfaPartOf": [
+   "ZFA:0000114"
+  ],
+  "developsFrom": [
+   "ZFA:0001718"
+  ],
+  "startStage": "ZFS:0000032",
+  "startStageName": "Pharyngula:High-pec",
+  "startHpf": 42.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Cavitated compound organ that receives inflow of deoxygenated blood and delivers it to a muscular cardiac ventricle. Valves are present to direct flow.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.25
+   ],
+   "dv": "ventral; left and dorsal of the ventricle at 48 hpf; posterior and dorsal to the ventricle from 5 dpf",
+   "laterality": "left",
+   "landmarks": "thin-walled chamber between the sinus venosus and the AV canal"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Thin-walled ellipsoid. At 48 hpf place it left-dorsal of the ventricle; by 120 hpf move it behind (posterior-dorsal to) the ventricle. Adult volume about equals the ventricle volume; wall 1 cell thick, trabeculae fill about 33 percent."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 110,
+     "width": 90,
+     "wall": 5
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 140,
+     "width": 110,
+     "wall": 5
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 1000,
+     "width": 900,
+     "wall": 30
+    },
+    "source": "estimate; volume about equal to the ventricle per Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 19,
+    "event": "amhc expression marks atrial precursors"
+   },
+   {
+    "hpf": 42,
+    "event": "ZFIN start (High-pec)"
+   },
+   {
+    "hpf": 120,
+    "event": "terminal rotation places the atrium behind the ventricle (SL 3.6 mm)"
+   }
+  ],
+  "colorHint": "#e74c3c",
+  "sources": [
+   "https://zfin.org/ZFA:0000471",
+   "Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/",
+   "From stripes to a beating heart (review, 2021), https://pmc.ncbi.nlm.nih.gov/articles/PMC7916704/"
+  ],
+  "notes": "Sizes are estimates. The atrium is dorsal and slightly left of the ventricle in the larva; in lateral view it lies behind the ventricle."
+ },
+ {
+  "id": "ZFA:0000009",
+  "name": "cardiac ventricle",
+  "synonyms": [
+   "ventricle"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000114",
+  "zfaPartOf": [
+   "ZFA:0000114"
+  ],
+  "developsFrom": [
+   "ZFA:0001719"
+  ],
+  "startStage": "ZFS:0000032",
+  "startStageName": "Pharyngula:High-pec",
+  "startHpf": 42.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Cavitated compound organ that receives blood flow from the atrium and delivers blood to the body via the aorta. Valves are present to direct flow.",
+  "spatial": {
+   "apFraction": [
+    0.18,
+    0.23
+   ],
+   "dv": "ventral; the most ventral and anterior chamber after looping; under the pharynx",
+   "laterality": "midline",
+   "landmarks": "between the AV canal and the bulbus arteriosus; outer curvature faces ventrally and to the right"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Thick-walled ellipsoid with width to length ratio 0.83. Larval outline rectangular, juvenile triangular, adult near circular in lateral view. Trabeculae fill 73 percent of the adult lumen."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 125,
+     "width": 105,
+     "wall": 10
+    },
+    "source": "derived: 4.28 percent of an estimated SL 2.9 mm (Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/); larval ratio ranges 2.67-7.78 percent",
+    "basis": "derived"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 150,
+     "width": 125,
+     "wall": 12
+    },
+    "source": "derived: 4.28 percent of SL 3.5 mm (Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/; SL from Parichy et al. 2009, Dev Dyn 238:2975-3015, https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/)",
+    "basis": "derived"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 1070,
+     "width": 890,
+     "wall": 60
+    },
+    "source": "derived: 4.28 percent of SL 25 mm and width ratio 0.83 (Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/; SL from Ivanovski et al. 2009, PMID 20087250 (adult average size 2.5 cm), https://pubmed.ncbi.nlm.nih.gov/20087250/); wall is an estimate",
+    "basis": "derived"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 16,
+    "event": "first myl7 expression in future ventricle cells (14-somite stage)"
+   },
+   {
+    "hpf": 19,
+    "event": "vmhc expression marks ventricular precursors"
+   },
+   {
+    "hpf": 42,
+    "event": "ZFIN start (High-pec)"
+   },
+   {
+    "hpf": 48,
+    "event": "231 ventricular cardiomyocytes; outer curvature cells flatten and elongate"
+   },
+   {
+    "hpf": 72,
+    "event": "trabeculation begins between 72 and 120 hpf"
+   },
+   {
+    "hpf": 2160,
+    "event": "compact myocardium 3-4 cells thick"
+   }
+  ],
+  "colorHint": "#a93226",
+  "sources": [
+   "https://zfin.org/ZFA:0000009",
+   "Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/",
+   "Auman et al. 2007, PLoS Biol 5:e53, https://pmc.ncbi.nlm.nih.gov/articles/PMC1802756/",
+   "Bakkers 2011, Cardiovasc Res 91:279-288, https://pmc.ncbi.nlm.nih.gov/articles/PMC3125074/"
+  ],
+  "notes": "The 4.28 percent ratio is a lifetime average from Singleman and Holtzman 2012. Their larval values range from 2.67 to 7.78 percent of body length, so treat the 48 hpf value as a rough guide."
+ },
+ {
+  "id": "ZFA:0000173",
+  "name": "bulbus arteriosus",
+  "synonyms": [
+   "cardiac outflow tract",
+   "outflow tract",
+   "truncus"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000114",
+  "zfaPartOf": [
+   "ZFA:0000114"
+  ],
+  "developsFrom": [
+   "ZFA:0001712"
+  ],
+  "startStage": "ZFS:0000032",
+  "startStageName": "Pharyngula:High-pec",
+  "startHpf": 42.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Multi-tissue structure that consists of three layers and through which the blood exits the heart. The bulbus arteriosus is a pear shaped chamber that functions as a capacitor, maintaining continuous blood flow into the gill arches.",
+  "spatial": {
+   "apFraction": [
+    0.17,
+    0.2
+   ],
+   "dv": "ventral; anterior to the ventricle, under the pharynx; continues into the ventral aorta",
+   "laterality": "midline",
+   "landmarks": "pear-shaped outflow chamber; the outflow tract angle stabilizes near 35 degrees in adults"
+  },
+  "shape": {
+   "primitive": "lathe",
+   "notes": "Pear shape (lathe), wide base on the ventricle and narrow neck into the ventral aorta. Length 57 percent of ventricle length. Tilt the axis 30-35 degrees anterior-dorsal."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 45,
+     "diameter": 35
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 85,
+     "diameter": 55
+    },
+    "source": "derived: 57 percent of ventricle length (Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/)",
+    "basis": "derived"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 600,
+     "diameter": 400
+    },
+    "source": "derived: 57 percent of ventricle length and 1.97 percent of SL (Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/)",
+    "basis": "derived"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 42,
+    "event": "ZFIN start (High-pec)"
+   },
+   {
+    "hpf": 72,
+    "event": "outflow tract angle rises quickly during larval stages to about 30 degrees"
+   },
+   {
+    "hpf": 2160,
+    "event": "three wall layers; elastic reservoir that smooths flow into the gill arches"
+   }
+  ],
+  "colorHint": "#f1948a",
+  "sources": [
+   "https://zfin.org/ZFA:0000173",
+   "Singleman and Holtzman 2012, Dev Dyn 241:1993-2004, https://pmc.ncbi.nlm.nih.gov/articles/PMC4446259/"
+  ],
+  "notes": "Synonyms: outflow tract, truncus. The 48 hpf size is an estimate; the bulbus is small and pale at that stage."
+ },
+ {
+  "id": "ZFA:0001315",
+  "name": "atrioventricular canal",
+  "synonyms": [
+   "AV canal",
+   "AVC"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000114",
+  "zfaPartOf": [
+   "ZFA:0000114"
+  ],
+  "developsFrom": [
+   "ZFA:0001723"
+  ],
+  "startStage": "ZFS:0000032",
+  "startStageName": "Pharyngula:High-pec",
+  "startHpf": 42.0,
+  "endStage": "ZFS:0000000",
+  "endStageName": "Unknown",
+  "endHpf": 17520.0,
+  "definition": "The part of the heart connecting the atrium to the cardiac ventricle.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.22
+   ],
+   "dv": "ventral; constriction between atrium and ventricle",
+   "laterality": "midline",
+   "landmarks": "the AV canal lies dorsal and posterior to the ventricle after looping"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Short narrow ring joining the two chambers. Diameter about 40 percent of the ventricle width."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 30,
+     "diameter": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 40,
+     "diameter": 50
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 200,
+     "diameter": 350
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 36,
+    "event": "endocardial cells of the future AV canal become cuboidal"
+   },
+   {
+    "hpf": 42,
+    "event": "ZFIN start (High-pec)"
+   },
+   {
+    "hpf": 48,
+    "event": "single layer of cuboidal endocardial cells lines the canal; AV conduction delay appears between 36 and 48 hpf"
+   }
+  ],
+  "colorHint": "#922b21",
+  "sources": [
+   "https://zfin.org/ZFA:0001315",
+   "Bakkers 2011, Cardiovasc Res 91:279-288, https://pmc.ncbi.nlm.nih.gov/articles/PMC3125074/"
+  ],
+  "notes": "ZFIN gives the end stage as Unknown. I keep the canal through the adult as the valve ring; the JSON endHpf follows the ZFIN Unknown stage (17520 h)."
+ },
+ {
+  "id": "ZFA:0005064",
+  "name": "atrioventricular valve",
+  "synonyms": [],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000009",
+  "zfaPartOf": [
+   "ZFA:0000009",
+   "ZFA:0000471"
+  ],
+  "developsFrom": [
+   "ZFA:0001317"
+  ],
+  "startStage": "ZFS:0000000",
+  "startStageName": "Unknown",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "The atrioventricular valve has four distinct leaflets oriented anterior, posterior, left, and right of the atrioventricular orifice.",
+  "visibleFromHpf": 105,
+  "visibleNote": "ZFIN start is Unknown. Endocardial cushions form at 48 hpf and become leaflets by 105 hpf (Bakkers 2011); show the valve from 105 hpf.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.22
+   ],
+   "dv": "inside the AV canal",
+   "laterality": "midline",
+   "landmarks": "four leaflets: anterior, posterior, left and right of the AV orifice"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Four small flaps inside the AV canal ring. In the whole-body view a thin torus is enough."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "ring_diameter": 50,
+     "leaflet_length": 20
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "ring_diameter": 350,
+     "leaflet_length": 150
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 48,
+    "event": "endocardial cushion stage"
+   },
+   {
+    "hpf": 105,
+    "event": "cushions enlarge and differentiate into valve leaflets"
+   }
+  ],
+  "colorHint": "#f5cba7",
+  "sources": [
+   "https://zfin.org/ZFA:0005064",
+   "Bakkers 2011, Cardiovasc Res 91:279-288, https://pmc.ncbi.nlm.nih.gov/articles/PMC3125074/"
+  ],
+  "notes": "ZFA lists the valve as part of both the atrium and the ventricle; I set the ventricle as the UI parent."
+ },
+ {
+  "id": "ZFA:0000054",
+  "name": "pericardium",
+  "synonyms": [
+   "pericardial sac"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0007115",
+  "zfaPartOf": [
+   "ZFA:0007115"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000028",
+  "startStageName": "Segmentation:26+ somites",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Serous membrane that surrounds the heart.",
+  "spatial": {
+   "apFraction": [
+    0.15,
+    0.27
+   ],
+   "dv": "ventral; the sac under the head and pharynx, anterior to the yolk ball",
+   "laterality": "midline",
+   "landmarks": "the hatching gland cells sit on the pericardium in the pharyngula; the sac encloses the heart"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Translucent thin-walled ellipsoid shell around the heart, open where the great vessels enter. Render with alpha 0.2."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 250,
+     "height": 150,
+     "width": 150
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 320,
+     "height": 220,
+     "width": 200
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 400,
+     "height": 260,
+     "width": 220
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 3000,
+     "height": 2000,
+     "width": 1500
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "ZFIN start (26+ somites)"
+   },
+   {
+    "hpf": 24,
+    "event": "hatching gland cells are prominent on the pericardial region through the pharyngula period"
+   }
+  ],
+  "colorHint": "#f9e79f",
+  "sources": [
+   "https://zfin.org/ZFA:0000054",
+   "https://zfin.org/zf_info/zfbook/stages/phar.html"
+  ],
+  "notes": "ZFA parent is the pericardial region (ZFA:0007115), an anatomical cluster. For the UI you may nest the pericardium under the heart node."
+ },
+ {
+  "id": "ZFA:0000014",
+  "name": "dorsal aorta",
+  "synonyms": [
+   "DA",
+   "dorsal aortic root"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005024",
+  "zfaPartOf": [
+   "ZFA:0005024",
+   "ZFA:0005295"
+  ],
+  "developsFrom": [
+   "ZFA:0005077"
+  ],
+  "startStage": "ZFS:0000028",
+  "startStageName": "Segmentation:26+ somites",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Principal unpaired, median artery of the trunk, leading from the paired roots (radices) of the dorsal aorta to the caudal artery.",
+  "spatial": {
+   "apFraction": [
+    0.24,
+    0.57
+   ],
+   "dv": "ventral to the notochord, dorsal to the posterior cardinal vein and gut",
+   "laterality": "midline",
+   "landmarks": "starts at the radix (somites 1-3), where the two lateral dorsal aortae fuse. Ends at the vent and continues as the caudal artery",
+   "apFractionByStage": {
+    "24": [
+     0.26,
+     0.62
+    ],
+    "48": [
+     0.25,
+     0.57
+    ],
+    "120": [
+     0.23,
+     0.55
+    ],
+    "adult": [
+     0.2,
+     0.6
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Straight tube along the trunk just under the notochord. Diameter 25-32 um in the embryo. Give it 30 short side branches (the intersegmental arteries) at somite boundaries."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 700,
+     "diameter": 25
+    },
+    "source": "estimate; length from the trunk span at TL 1.9 mm",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "High-pec/Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1000,
+     "diameter": 32
+    },
+    "source": "diameter about 32 um at 42.5 hpf reported for Stratman et al. 2017, Development 144:115-127, https://journals.biologists.com/dev/article/144/1/115/47946 (unverified, from a search summary); length is an estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1250,
+     "diameter": 28
+    },
+    "source": "estimate; diameter decreases between 48 and 72 hpf (Endothelial cell morphology and dorsal aorta geometry (2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11392406/)",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 10000,
+     "diameter": 150
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 16,
+    "event": "angioblasts migrate to the midline and form the vascular cord (ZFA:0005077, 14-19 somites)"
+   },
+   {
+    "hpf": 20,
+    "event": "the lateral dorsal aortae join into one vessel on each side around 20 hpf"
+   },
+   {
+    "hpf": 22,
+    "event": "ZFIN start (26+ somites): single dorsal aorta tube in the trunk"
+   },
+   {
+    "hpf": 22,
+    "event": "primary intersegmental sprouts leave the dorsal aorta from about 22 hpf"
+   },
+   {
+    "hpf": 24,
+    "event": "circulation starts during Prim-5; the aorta is renamed caudal artery where it enters the tail"
+   },
+   {
+    "hpf": 30,
+    "event": "hematopoietic stem cells emerge from the ventral aortic floor from Prim-15 (ZFA:0009014 start)"
+   },
+   {
+    "hpf": 72,
+    "event": "vascular smooth muscle cells appear on the mid-trunk aorta by 3 dpf"
+   }
+  ],
+  "colorHint": "#e31a1c",
+  "sources": [
+   "https://zfin.org/ZFA:0000014",
+   "https://zfin.org/zf_info/zfbook/stages/phar.html",
+   "Gore et al. 2012, Cold Spring Harb Perspect Med 2:a006684, https://pmc.ncbi.nlm.nih.gov/articles/PMC3331685/",
+   "Intersegmental vessel overview (ScienceDirect Topics), https://www.sciencedirect.com/topics/medicine-and-dentistry/intersegmental-vessel",
+   "Stratman et al. 2017, Development 144:115-127, https://journals.biologists.com/dev/article/144/1/115/47946",
+   "Endothelial cell morphology and dorsal aorta geometry (2024), https://pmc.ncbi.nlm.nih.gov/articles/PMC11392406/",
+   "https://zfin.org/ZFA:0009014"
+  ],
+  "notes": "ZFA part_of parents: trunk vasculature (ZFA:0005024) and axial blood vessel (ZFA:0005295). The adult diameter is an estimate; I found no published value."
+ },
+ {
+  "id": "ZFA:0000477",
+  "name": "posterior cardinal vein",
+  "synonyms": [
+   "axial vein",
+   "caudal cardinal veins",
+   "PCV",
+   "postcardinal vein"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005024",
+  "zfaPartOf": [
+   "ZFA:0000096",
+   "ZFA:0005024",
+   "ZFA:0005295"
+  ],
+  "developsFrom": [
+   "ZFA:0005077"
+  ],
+  "startStage": "ZFS:0000028",
+  "startStageName": "Segmentation:26+ somites",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Continuation of the caudal vein cranial to the anal pore. The cardinal vein splits into a pair of vessels in the cranial trunk, just caudal to the radix of the aorta.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.57
+   ],
+   "dv": "ventral to the dorsal aorta, dorsal to the gut and yolk extension",
+   "laterality": "midline",
+   "landmarks": "single in the mid and posterior trunk. Splits into a left and a right vessel in the anterior trunk, just caudal to the aortic radix. Each side joins a common cardinal vein",
+   "apFractionByStage": {
+    "24": [
+     0.22,
+     0.62
+    ],
+    "48": [
+     0.2,
+     0.57
+    ],
+    "120": [
+     0.2,
+     0.55
+    ],
+    "adult": [
+     0.2,
+     0.6
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Tube under the dorsal aorta, wider than the aorta. Fork it into two branches in the anterior 20 percent of the trunk that curve laterally into the common cardinal veins."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 750,
+     "diameter": 35
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1100,
+     "diameter": 45
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1300,
+     "diameter": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 10000,
+     "diameter": 200
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "ZFIN start (26+ somites)"
+   },
+   {
+    "hpf": 24,
+    "event": "carries return flow from the trunk once circulation starts"
+   },
+   {
+    "hpf": 25,
+    "event": "venous sprouts leave the PCV ventrally to build the caudal vein plexus (25-30 hpf)"
+   },
+   {
+    "hpf": 36,
+    "event": "secondary sprouts from the PCV convert about half of the intersegmental vessels to veins (36-48 hpf)"
+   }
+  ],
+  "colorHint": "#1f78b4",
+  "sources": [
+   "https://zfin.org/ZFA:0000477",
+   "https://zfin.org/ZFA:0001286",
+   "https://zfin.org/ZFA:0001057"
+  ],
+  "notes": "Synonyms: axial vein, PCV. Sizes are estimates."
+ },
+ {
+  "id": "ZFA:0000423",
+  "name": "anterior cardinal vein",
+  "synonyms": [
+   "ACV",
+   "rostral cardinal vein"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000096",
+  "zfaPartOf": [
+   "ZFA:0000096"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Vein that joins with the posterior cardinal vein to form the common cardinal vein. The anterior cardinal vein (ACV) connects to the primordial hindbrain channel at early stages.",
+  "spatial": {
+   "apFraction": [
+    0.1,
+    0.24
+   ],
+   "dv": "lateral to the hindbrain and otic vesicle, dorsal to the pharyngeal arches",
+   "laterality": "paired",
+   "landmarks": "runs caudally from the primordial hindbrain channel to the common cardinal vein; the pectoral vein drains into it later"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Paired tubes lateral to the hindbrain. Diameter 25-30 um in the embryo (estimate)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 250,
+     "diameter": 25
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 350,
+     "diameter": 30
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 400,
+     "diameter": 30
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 3000,
+     "diameter": 150
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "ZFIN start (Prim-5); connects to the primordial hindbrain channel"
+   },
+   {
+    "hpf": 60,
+    "event": "rostral part connects to the primary head sinus at 2.5 dpf"
+   }
+  ],
+  "colorHint": "#3182bd",
+  "sources": [
+   "https://zfin.org/ZFA:0000423"
+  ],
+  "notes": "Synonym: rostral cardinal vein. Sizes are estimates."
+ },
+ {
+  "id": "ZFA:0000186",
+  "name": "common cardinal vein",
+  "synonyms": [
+   "duct of Cuvier"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0000096",
+  "zfaPartOf": [
+   "ZFA:0000096",
+   "ZFA:0005024"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000027",
+  "startStageName": "Segmentation:20-25 somites",
+  "startHpf": 19.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Bilaterally paired longitudinal vein; the anterior cardinal returns blood from the head, and the posterior cardinal returns it from the trunk; these two vessels join together on each side as the common cardinal vein (duct of Cuvier; misnamed the vitelline vein) that leads across the yolk cell to the heart's sinus venosus.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.3
+   ],
+   "dv": "on the lateral and ventral surface of the yolk ball, between the trunk and the sinus venosus",
+   "laterality": "paired",
+   "landmarks": "each vein starts where the anterior and posterior cardinal veins meet and crosses the yolk ventrally to the sinus venosus",
+   "apFractionByStage": {
+    "24": [
+     0.22,
+     0.32
+    ],
+    "48": [
+     0.2,
+     0.3
+    ],
+    "120": [
+     0.2,
+     0.26
+    ],
+    "adult": [
+     0.2,
+     0.24
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "At 24-48 hpf draw each vein as a broad flat channel (sheet with thickness) wrapped over the yolk surface, 100-200 um wide. From 72 hpf shrink it to a tube of 40 um that enters the sinus venosus."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 300,
+     "width": 120,
+     "thickness": 25
+    },
+    "source": "estimate; an open-ended lumen forms by 26 hpf (Helker et al. 2013, Development 140:2776-2786, https://journals.biologists.com/dev/article/140/13/2776/76627)",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 350,
+     "width": 200,
+     "thickness": 30
+    },
+    "source": "estimate; lumen ensheathment proceeds after 32 hpf (Helker et al. 2013, Development 140:2776-2786, https://journals.biologists.com/dev/article/140/13/2776/76627)",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 250,
+     "diameter": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 1500,
+     "diameter": 250
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 17,
+    "event": "venous angioblast population specified about 17 hpf"
+   },
+   {
+    "hpf": 19,
+    "event": "ZFIN start (20-25 somites)"
+   },
+   {
+    "hpf": 20,
+    "event": "endothelial cells migrate as a monolayer over the yolk syncytial layer from about 20 hpf"
+   },
+   {
+    "hpf": 26,
+    "event": "an open-ended lumenized cylinder forms by 26 hpf"
+   },
+   {
+    "hpf": 32,
+    "event": "the endothelial sheet closes around the lumen (lumen ensheathment)"
+   }
+  ],
+  "colorHint": "#6baed6",
+  "sources": [
+   "https://zfin.org/ZFA:0000186",
+   "Helker et al. 2013, Development 140:2776-2786, https://journals.biologists.com/dev/article/140/13/2776/76627"
+  ],
+  "notes": "Synonym: duct of Cuvier. Kimmel notes the older, incorrect name vitelline vein. The wide sheet stage over the yolk is a visible feature in 24-48 hpf embryos."
+ },
+ {
+  "id": "ZFA:0000011",
+  "name": "caudal artery",
+  "synonyms": [
+   "CA"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005037",
+  "zfaPartOf": [
+   "ZFA:0005037",
+   "ZFA:0005295"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000028",
+  "startStageName": "Segmentation:26+ somites",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Extension of the dorsal aorta in the post-vent region.",
+  "spatial": {
+   "apFraction": [
+    0.57,
+    0.97
+   ],
+   "dv": "ventral to the notochord in the tail, dorsal to the caudal vein plexus",
+   "laterality": "midline",
+   "landmarks": "continuation of the dorsal aorta behind the vent; turns ventrally at the tail tip into the caudal vein",
+   "apFractionByStage": {
+    "24": [
+     0.62,
+     0.97
+    ],
+    "48": [
+     0.57,
+     0.97
+    ],
+    "120": [
+     0.55,
+     0.96
+    ],
+    "adult": [
+     0.6,
+     0.97
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Tube continuing the dorsal aorta into the tail, tapering to 15 um near the tip, with a U-turn into the caudal vein."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 600,
+     "diameter": 20
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1200,
+     "diameter": 22
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1500,
+     "diameter": 20
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 9000,
+     "diameter": 100
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "ZFIN start (26+ somites)"
+   },
+   {
+    "hpf": 24,
+    "event": "named caudal artery where the dorsal aorta enters the tail (Kimmel)"
+   }
+  ],
+  "colorHint": "#e31a1c",
+  "sources": [
+   "https://zfin.org/ZFA:0000011",
+   "https://zfin.org/zf_info/zfbook/stages/phar.html"
+  ],
+  "notes": "Sizes are estimates."
+ },
+ {
+  "id": "ZFA:0000180",
+  "name": "caudal vein",
+  "synonyms": [
+   "CV"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005037",
+  "zfaPartOf": [
+   "ZFA:0005037",
+   "ZFA:0005295"
+  ],
+  "developsFrom": [
+   "ZFA:0001286"
+  ],
+  "startStage": "ZFS:0000036",
+  "startStageName": "Larval:Day 4",
+  "startHpf": 96.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Vein in the tail returning blood from the trunk and tail to the heart, leads directly into the posterior cardinal vein in the posterior trunk.",
+  "visibleFromHpf": 24,
+  "visibleNote": "ZFIN starts the term at Day 4 (96 hpf), when the plexus has remodeled into one vessel. A single ventral return channel already carries flow from 24 hpf; before 96 hpf draw it as the dorsal-most channel of the caudal vein plexus.",
+  "spatial": {
+   "apFraction": [
+    0.57,
+    0.97
+   ],
+   "dv": "ventral to the caudal artery, dorsal to the ventral fin fold",
+   "laterality": "midline",
+   "landmarks": "returns blood from the tail to the posterior cardinal vein. The caudal hematopoietic tissue lies between it and the caudal artery until about 7 dpf"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Tube under the caudal artery. Before 96 hpf it is the main channel of the plexus; after 96 hpf a single vessel."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 600,
+     "diameter": 30
+    },
+    "source": "estimate (plexus main channel)",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1200,
+     "diameter": 35
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1500,
+     "diameter": 35
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 9000,
+     "diameter": 150
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 96,
+    "event": "ZFIN start (Day 4): the caudal vein plexus starts to remodel and simplify"
+   }
+  ],
+  "colorHint": "#1f78b4",
+  "sources": [
+   "https://zfin.org/ZFA:0000180",
+   "https://zfin.org/ZFA:0001286"
+  ],
+  "notes": "ZFA says the caudal vein develops from the caudal vein plexus."
+ },
+ {
+  "id": "ZFA:0001286",
+  "name": "caudal vein plexus",
+  "synonyms": [],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005037",
+  "zfaPartOf": [],
+  "developsFrom": [],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000039",
+  "endStageName": "Larval:Days 7-13",
+  "endHpf": 336.0,
+  "definition": "Post-vent vasculature which forms an interconnecting network of venous tubes.",
+  "spatial": {
+   "apFraction": [
+    0.6,
+    0.95
+   ],
+   "dv": "ventral tail between the caudal artery and the ventral fin fold",
+   "laterality": "midline",
+   "landmarks": "honeycomb of venous channels; the caudal hematopoietic tissue sits inside it from 48 hpf"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Flat ladder or honeycomb of thin tubes (8-15 um), 60-100 um tall. It runs under the caudal artery from the vent to near the tail tip. Fade it to a single tube between 96 hpf and 14 dpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 500,
+     "height": 50,
+     "channel_diameter": 12
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1100,
+     "height": 90,
+     "channel_diameter": 12
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1300,
+     "height": 70,
+     "channel_diameter": 12
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 25,
+    "event": "venous endothelial cells sprout ventrally from the PCV and fuse with neighbors (25-30 hpf)"
+   },
+   {
+    "hpf": 30,
+    "event": "primordial plexus formed by 30 hpf"
+   },
+   {
+    "hpf": 48,
+    "event": "mature, perfused venous network by 2 dpf"
+   },
+   {
+    "hpf": 96,
+    "event": "remodeling and simplification start at 4 dpf"
+   },
+   {
+    "hpf": 336,
+    "event": "ZFIN end (Days 7-13)"
+   }
+  ],
+  "colorHint": "#9ecae1",
+  "sources": [
+   "https://zfin.org/ZFA:0001286"
+  ],
+  "notes": "All timing comes from the ZFA definition. Sizes are estimates."
+ },
+ {
+  "id": "ZFA:0001285",
+  "name": "intersegmental vessel",
+  "synonyms": [
+   "intersegmental vessels",
+   "intersomitic vessels",
+   "segmental vessel"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005024",
+  "zfaPartOf": [
+   "ZFA:0005024",
+   "ZFA:0005037"
+  ],
+  "developsFrom": [
+   "ZFA:0000014"
+  ],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000000",
+  "endStageName": "Unknown",
+  "endHpf": 17520.0,
+  "definition": "Blood vessels that connect the dorsal aorta or the posterior cardinal vein and the dorsal longitudinal anastomotic vessel. They run along the vertical myotomal boundaries.",
+  "visibleFromHpf": 22,
+  "visibleNote": "ZFIN start is Prim-5 (24 hpf). Primary sprouts leave the dorsal aorta from about 22 hpf (Isogai et al. 2003 as summarized by ScienceDirect Topics; unverified).",
+  "spatial": {
+   "apFraction": [
+    0.24,
+    0.95
+   ],
+   "dv": "from the dorsal aorta or posterior cardinal vein up along each somite boundary to the dorsal longitudinal anastomotic vessel",
+   "laterality": "paired",
+   "landmarks": "one vessel per somite boundary on each side; about 30 pairs from the first somite to the tail"
+  },
+  "shape": {
+   "primitive": "segmentArray",
+   "notes": "Array of thin vertical tubes (8-10 um), one per somite boundary on each side, each following a shallow chevron. Height equals the myotome height: about 100 um at 24 hpf, 150-200 um at 5 dpf. Spacing equals somite length: about 45 um at 24 hpf, 70-80 um at 5 dpf (estimates)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "count_per_side": 28,
+     "height": 100,
+     "diameter": 8,
+     "spacing": 45
+    },
+    "source": "estimate; spacing from a 1.3 mm trunk-tail span over about 28 somites",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "count_per_side": 30,
+     "height": 140,
+     "diameter": 9,
+     "spacing": 60
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "count_per_side": 30,
+     "height": 180,
+     "diameter": 10,
+     "spacing": 75
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "count_per_side": 30,
+     "height": 3000,
+     "diameter": 40,
+     "spacing": 600
+    },
+    "source": "estimate (unverified); segmental arteries and veins persist in the adult",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "primary angiogenic sprouts leave the dorsal aorta (about 22 hpf)"
+   },
+   {
+    "hpf": 24,
+    "event": "ZFIN start (Prim-5)"
+   },
+   {
+    "hpf": 30,
+    "event": "sprouts reach the dorsal neural tube and anastomose into the DLAV (30-36 hpf)"
+   },
+   {
+    "hpf": 36,
+    "event": "primary intersegmental network complete by about 36 hpf"
+   },
+   {
+    "hpf": 48,
+    "event": "secondary sprouts from the PCV give about half of the vessels venous identity (ZFIN start of intersegmental artery and vein terms, Long-pec)"
+   }
+  ],
+  "colorHint": "#fb9a99",
+  "sources": [
+   "https://zfin.org/ZFA:0001285",
+   "https://zfin.org/ZFA:0001061",
+   "https://zfin.org/ZFA:0001057",
+   "Intersegmental vessel overview (ScienceDirect Topics), https://www.sciencedirect.com/topics/medicine-and-dentistry/intersegmental-vessel",
+   "ImageJ-based analysis of the developing zebrafish vasculature, Vascular Cell 9:2 (2017), https://vascularcell.com/public/journals/1/articles/13221-09-01-172/13221-09-02_html.html"
+  ],
+  "notes": "Synonyms: intersomitic vessels, segmental vessel. ZFIN end is Unknown; the JSON endHpf follows the Unknown stage. Diameters and spacing are estimates."
+ },
+ {
+  "id": "ZFA:0005025",
+  "name": "dorsal longitudinal anastomotic vessel",
+  "synonyms": [
+   "DLAV"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005024",
+  "zfaPartOf": [
+   "ZFA:0001073",
+   "ZFA:0005024",
+   "ZFA:0005037"
+  ],
+  "developsFrom": [
+   "ZFA:0001285"
+  ],
+  "startStage": "ZFS:0000031",
+  "startStageName": "Pharyngula:Prim-25",
+  "startHpf": 36.0,
+  "endStage": "ZFS:0000000",
+  "endStageName": "Unknown",
+  "endHpf": 17520.0,
+  "definition": "Paired trunk vessels that run medially along the dorsal-most portion of the trunk and post-vent region. The DLAVs are formed by the longitudinal anastomoses of the intersegmental vessels to form a right and left pair of dorsal longitudinal anastomotic vessels.",
+  "spatial": {
+   "apFraction": [
+    0.24,
+    0.95
+   ],
+   "dv": "dorsal-most trunk, on top of the neural tube under the skin",
+   "laterality": "paired",
+   "landmarks": "two parallel vessels that become one plexiform vessel after 3 dpf; the basilar artery joins them at the caudal medulla"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Two thin tubes (10 um) along the dorsal midline. They join the tops of the intersegmental vessels. Merge them into one tube from 72 hpf to 7 dpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-25",
+    "hpf": 36,
+    "dims_um": {
+     "length": 1000,
+     "diameter": 10
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1400,
+     "diameter": 10
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 2000,
+     "diameter": 12
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 15000,
+     "diameter": 30
+    },
+    "source": "estimate (unverified); the adult dorsal anastomotic vessel is not a named ZFA structure",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 30,
+    "event": "longitudinal anastomoses of intersegmental sprouts begin"
+   },
+   {
+    "hpf": 36,
+    "event": "ZFIN start (Prim-25)"
+   },
+   {
+    "hpf": 72,
+    "event": "paired vessels remodel into a single plexiform vessel from 3 dpf until after 7 dpf"
+   }
+  ],
+  "colorHint": "#9e9ac8",
+  "sources": [
+   "https://zfin.org/ZFA:0005025",
+   "ImageJ-based analysis of the developing zebrafish vasculature, Vascular Cell 9:2 (2017), https://vascularcell.com/public/journals/1/articles/13221-09-01-172/13221-09-02_html.html"
+  ],
+  "notes": "ZFIN end is Unknown. I give no adult size; the vessel is not a named adult structure."
+ },
+ {
+  "id": "ZFA:0005004",
+  "name": "aortic arch",
+  "synonyms": [
+   "aortic arches",
+   "branchial aortic arches"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005003",
+  "zfaPartOf": [
+   "ZFA:0005003"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Artery that is part of the pharyngeal arches.",
+  "spatial": {
+   "apFraction": [
+    0.12,
+    0.24
+   ],
+   "dv": "inside the pharyngeal arches, ventral to the hindbrain, from the ventral aorta to the lateral dorsal aorta",
+   "laterality": "paired",
+   "landmarks": "arch 1 lies in the mandibular arch under the eye; arches 3-6 run through the gill arches; arches 5 and 6 share a trunk"
+  },
+  "shape": {
+   "primitive": "segmentArray",
+   "notes": "Six paired arcs (tubes, 12-20 um) rising from the ventral aorta and curving dorsally to the lateral dorsal aorta. Add arch 1 at 24 hpf, arches 3-4 by 48 hpf, arches 5-6 by 50-60 hpf; fade arches 1-2 after 72 hpf. In the adult keep four afferent and efferent branchial arteries per side."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "count_per_side": 1,
+     "arc_height": 80,
+     "diameter": 15
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "count_per_side": 6,
+     "arc_height": 110,
+     "diameter": 15,
+     "spacing": 45
+    },
+    "source": "estimate; six pairs present early in the hatching period (https://zfin.org/zf_info/zfbook/stages/hatch.html)",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "count_per_side": 4,
+     "arc_height": 150,
+     "diameter": 18,
+     "spacing": 60
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "count_per_side": 4,
+     "arc_height": 2500,
+     "diameter": 150,
+     "spacing": 600
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "aortic arch 1 appears at the start of the pharyngula period and carries the first circulation"
+   },
+   {
+    "hpf": 48,
+    "event": "aortic arches 3 and 4 form (ZFIN start Long-pec); the whole series of six pairs carries blood early in the hatching period"
+   },
+   {
+    "hpf": 50,
+    "event": "arches 5 and 6 are lumenized by 50 hpf (unverified, search summary of Anderson et al. 2008)"
+   },
+   {
+    "hpf": 60,
+    "event": "ZFIN start of aortic arches 5 and 6 (Pec-fin)"
+   },
+   {
+    "hpf": 72,
+    "event": "aortic arch 2 is vestigial and ends at Pec-fin"
+   },
+   {
+    "hpf": 2160,
+    "event": "arches 3-6 persist as the afferent and efferent branchial arteries of the four gill arches"
+   }
+  ],
+  "colorHint": "#ef3b2c",
+  "sources": [
+   "https://zfin.org/ZFA:0005004",
+   "https://zfin.org/ZFA:0005005",
+   "https://zfin.org/ZFA:0005006",
+   "https://zfin.org/ZFA:0005007",
+   "https://zfin.org/ZFA:0005009",
+   "https://zfin.org/zf_info/zfbook/stages/phar.html",
+   "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+   "Anderson et al. 2008, Dev Biol 318:258-267, https://pubmed.ncbi.nlm.nih.gov/18462713/",
+   "Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/"
+  ],
+  "notes": "Individual arch terms: ZFA:0005005 to ZFA:0005009 and ZFA:0005016. Their ZFIN start stages are Prim-5 (arches 1-2), Long-pec (arches 3-4) and Pec-fin (arches 5-6)."
+ },
+ {
+  "id": "ZFA:0000604",
+  "name": "ventral aorta",
+  "synonyms": [],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005003",
+  "zfaPartOf": [],
+  "developsFrom": [],
+  "startStage": "ZFS:0000000",
+  "startStageName": "Unknown",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Outflow artery from the heart to the aortic arches.",
+  "visibleFromHpf": 24,
+  "visibleNote": "ZFIN start is Unknown. The vessel carries flow from the bulbus to aortic arch 1 once circulation starts at 24-26 hpf.",
+  "spatial": {
+   "apFraction": [
+    0.12,
+    0.19
+   ],
+   "dv": "ventral midline of the pharynx, between the bulbus arteriosus and the aortic arches",
+   "laterality": "midline",
+   "landmarks": "short trunk anterior to the bulbus arteriosus under the pharyngeal floor"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Short midline tube from the bulbus neck forward, giving off the paired aortic arches."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 80,
+     "diameter": 20
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 150,
+     "diameter": 22
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 200,
+     "diameter": 25
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 1500,
+     "diameter": 200
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "carries the first outflow into aortic arch 1"
+   }
+  ],
+  "colorHint": "#cb181d",
+  "sources": [
+   "https://zfin.org/ZFA:0000604",
+   "https://zfin.org/zf_info/zfbook/stages/phar.html"
+  ],
+  "notes": "ZFA gives no part_of parent. I assign the pharyngeal vasculature (ZFA:0005003) for the UI."
+ },
+ {
+  "id": "ZFA:0005934",
+  "name": "subintestinal venous plexus",
+  "synonyms": [
+   "subintestinal plexus"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0005024",
+  "zfaPartOf": [],
+  "developsFrom": [],
+  "startStage": "ZFS:0000032",
+  "startStageName": "Pharyngula:High-pec",
+  "startHpf": 42.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Non stereotyped venous plexus derived from specialised angioblast that originate in the floor of the posterior cardinal vein.",
+  "spatial": {
+   "apFraction": [
+    0.25,
+    0.45
+   ],
+   "dv": "on the ventral-lateral surface of the yolk ball and over the gut, ventral to the posterior cardinal vein",
+   "laterality": "paired",
+   "landmarks": "reticular basket that spreads from the duct of Cuvier over the yolk; the right side dominates after 4 dpf"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Basket-shaped net of thin tubes (10-15 um) draped over the ventral yolk, 300 um long and 150 um tall at 48-72 hpf. After 96 hpf reduce to one right-sided vein (the subintestinal vein, ZFA:0005035)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 300,
+     "height": 120,
+     "channel_diameter": 12
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 400,
+     "height": 100,
+     "channel_diameter": 15
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 5000,
+     "diameter": 150
+    },
+    "source": "estimate (unverified); persists as the hepatic portal drainage",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 42,
+    "event": "ZFIN start (High-pec)"
+   },
+   {
+    "hpf": 48,
+    "event": "emerges from the duct of Cuvier at 2 dpf as a reticular structure over the yolk and gut"
+   },
+   {
+    "hpf": 60,
+    "event": "ZFIN start of the subintestinal vein term (Pec-fin)"
+   },
+   {
+    "hpf": 72,
+    "event": "rostral left vein forms the hepatic sinusoids"
+   },
+   {
+    "hpf": 96,
+    "event": "left vein breaks into segments that empty into the right vein"
+   }
+  ],
+  "colorHint": "#4292c6",
+  "sources": [
+   "https://zfin.org/ZFA:0005934",
+   "https://zfin.org/ZFA:0005035"
+  ],
+  "notes": "I model the plexus term because its ZFIN start (42 hpf) precedes the subintestinal vein term (60 hpf). Synonym of the vein: vitelline vein."
+ },
+ {
+  "id": "ZFA:0001267",
+  "name": "cranial vasculature",
+  "synonyms": [
+   "head vasculature"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0001114",
+  "zfaPartOf": [
+   "ZFA:0001114"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the head.",
+  "spatial": {
+   "apFraction": [
+    0.02,
+    0.25
+   ],
+   "dv": "whole head: vessels around the brain, eyes and pharynx",
+   "laterality": "midline",
+   "landmarks": "envelope for the head vessels; use it as the group node for the primordial hindbrain channel, basilar artery and primitive internal carotid artery"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Group node. Draw only the three main vessels listed here plus the aortic arches; the rest of the head network is too fine for a whole-body model."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 450,
+     "height": 300
+    },
+    "source": "estimate of the head envelope",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 700,
+     "height": 450
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 900,
+     "height": 500
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 6000,
+     "height": 4000
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "ZFIN start (Prim-5): primordial hindbrain channel, basilar artery and primitive internal carotid artery present"
+   },
+   {
+    "hpf": 48,
+    "event": "primary head sinus forms (ZFIN start Long-pec)"
+   }
+  ],
+  "colorHint": "#fc9272",
+  "sources": [
+   "https://zfin.org/ZFA:0001267",
+   "https://zfin.org/ZFA:0005026"
+  ],
+  "notes": "ZFA part_of parent is the head (ZFA:0001114)."
+ },
+ {
+  "id": "ZFA:0001052",
+  "name": "primordial hindbrain channel",
+  "synonyms": [
+   "medial head vein",
+   "PHBC"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0001267",
+  "zfaPartOf": [
+   "ZFA:0005297"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000000",
+  "endStageName": "Unknown",
+  "endHpf": 17520.0,
+  "definition": "The paired vessels that run along the lateral walls of the hindbrain and drain into the anterior cardinal veins.",
+  "spatial": {
+   "apFraction": [
+    0.12,
+    0.24
+   ],
+   "dv": "lateral to the hindbrain, ventral to the otic vesicle",
+   "laterality": "paired",
+   "landmarks": "drains into the anterior cardinal vein; lies lateral to the basilar artery"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Paired tubes (25-30 um) along the lateral hindbrain wall from the midbrain-hindbrain boundary to the anterior cardinal vein."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 300,
+     "diameter": 30
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 400,
+     "diameter": 30
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 450,
+     "diameter": 30
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 3000,
+     "diameter": 120
+    },
+    "source": "estimate (unverified); the channel persists as part of the adult head venous drainage",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "ZFIN start (Prim-5)"
+   },
+   {
+    "hpf": 60,
+    "event": "connects to the DLAV in the 2.5-3.5 dpf embryo"
+   }
+  ],
+  "colorHint": "#6baed6",
+  "sources": [
+   "https://zfin.org/ZFA:0001052",
+   "https://zfin.org/ZFA:0005025"
+  ],
+  "notes": "Synonym: medial head vein. ZFIN end is Unknown; ZFA parent is cranial blood vessel (ZFA:0005297), which is part of the cranial vasculature."
+ },
+ {
+  "id": "ZFA:0005002",
+  "name": "basilar artery",
+  "synonyms": [
+   "BA"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0001267",
+  "zfaPartOf": [
+   "ZFA:0005297"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Artery that runs along the ventral keel of the hindbrain. It lies between the primordial hindbrain channels(PHBC).",
+  "spatial": {
+   "apFraction": [
+    0.13,
+    0.24
+   ],
+   "dv": "ventral midline keel of the hindbrain",
+   "laterality": "midline",
+   "landmarks": "between the two primordial hindbrain channels; joins the DLAV at the caudal medulla"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Single midline tube (15 um) under the hindbrain."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 250,
+     "diameter": 12
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 350,
+     "diameter": 15
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 400,
+     "diameter": 15
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 3000,
+     "diameter": 80
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "ZFIN start (Prim-5)"
+   },
+   {
+    "hpf": 36,
+    "event": "central arteries connect it to the primordial hindbrain channels through the hindbrain (ZFA:0005020 start Long-pec)"
+   }
+  ],
+  "colorHint": "#cb181d",
+  "sources": [
+   "https://zfin.org/ZFA:0005002",
+   "https://zfin.org/ZFA:0005020"
+  ],
+  "notes": "ZFA parent is cranial blood vessel (ZFA:0005297)."
+ },
+ {
+  "id": "ZFA:0001053",
+  "name": "primitive internal carotid artery",
+  "synonyms": [
+   "PICA"
+  ],
+  "system": "cardiovascular",
+  "parent": "ZFA:0001267",
+  "zfaPartOf": [],
+  "developsFrom": [],
+  "startStage": "ZFS:0000029",
+  "startStageName": "Pharyngula:Prim-5",
+  "startHpf": 24.0,
+  "endStage": "ZFS:0000000",
+  "endStageName": "Unknown",
+  "endHpf": 17520.0,
+  "definition": "Artery that originates as rostral extensions of the paired lateral dorsal aorta. The primitive internal carotid artery splits to form caudal and cranial divisions.",
+  "spatial": {
+   "apFraction": [
+    0.05,
+    0.15
+   ],
+   "dv": "ventral to the midbrain and forebrain, medial to the eye",
+   "laterality": "paired",
+   "landmarks": "rostral extension of the lateral dorsal aorta; splits into cranial and caudal divisions near the hypothalamus"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Paired tubes (15-20 um) running forward from the aortic radix under the brain toward the eyes, forking near the optic stalk."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 250,
+     "diameter": 15
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 350,
+     "diameter": 18
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 400,
+     "diameter": 20
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 3000,
+     "diameter": 100
+    },
+    "source": "estimate (unverified); adult term is internal carotid artery ZFA:0005081",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "ZFIN start (Prim-5)"
+   },
+   {
+    "hpf": 36,
+    "event": "the cranial division ends at Prim-25 in ZFIN; the internal carotid artery (ZFA:0005081) develops from this vessel"
+   }
+  ],
+  "colorHint": "#ef3b2c",
+  "sources": [
+   "https://zfin.org/ZFA:0001053",
+   "https://zfin.org/ZFA:0005081"
+  ],
+  "notes": "ZFIN end is Unknown. For the adult use the internal carotid artery term."
+ },
+ {
+  "id": "ZFA:0000033",
+  "name": "intermediate cell mass of mesoderm",
+  "synonyms": [
+   "ICM",
+   "intermediate cell mass of Oellacher",
+   "posterior intermediate cell mass"
+  ],
+  "system": "hematopoietic_immune",
+  "parent": "ZFA:0005023",
+  "zfaPartOf": [
+   "ZFA:0005023"
+  ],
+  "developsFrom": [
+   "ZFA:0000121",
+   "ZFA:0001201"
+  ],
+  "startStage": "ZFS:0000026",
+  "startStageName": "Segmentation:14-19 somites",
+  "startHpf": 16.0,
+  "endStage": "ZFS:0000033",
+  "endStageName": "Hatching:Long-pec",
+  "endHpf": 60.0,
+  "definition": "(no ZFA definition)",
+  "spatial": {
+   "apFraction": [
+    0.3,
+    0.62
+   ],
+   "dv": "ventral to the notochord and somites, dorsal to the yolk extension; occupies the future dorsal aorta and posterior cardinal vein position",
+   "laterality": "midline",
+   "landmarks": "a longitudinal strip in the trunk from about somite 5 to the end of the yolk extension"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Flattened strip (ellipsoidal tube) on the trunk midline under the notochord, 30-40 um tall. Fade it out as the axial vessels and circulating blood take over (24-60 hpf)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "14-19 somites",
+    "hpf": 17,
+    "dims_um": {
+     "length": 500,
+     "height": 30,
+     "width": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 600,
+     "height": 35,
+     "width": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 300,
+     "height": 20,
+     "width": 30
+    },
+    "source": "estimate; residual",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 11.5,
+    "event": "ICM ultrastructure described from the 5-somite stage (about 11.5 hpf)"
+   },
+   {
+    "hpf": 16,
+    "event": "ZFIN start (14-19 somites)"
+   },
+   {
+    "hpf": 24,
+    "event": "primitive erythroid cells enter circulation; they account for all circulating erythrocytes for the first 4 days"
+   },
+   {
+    "hpf": 60,
+    "event": "ZFIN end (Long-pec)"
+   }
+  ],
+  "colorHint": "#8c564b",
+  "sources": [
+   "https://zfin.org/ZFA:0000033",
+   "Willett et al. 1999, Dev Dyn 214:323-336, https://pubmed.ncbi.nlm.nih.gov/10213388/"
+  ],
+  "notes": "Synonyms: ICM, intermediate cell mass of Oellacher. Willett et al. 1999 place the first ICM at about 11.5 hpf; ZFIN starts the term at 16 hpf."
+ },
+ {
+  "id": "ZFA:0000094",
+  "name": "blood island",
+  "synonyms": [
+   "blood islands",
+   "caudal hematopoietic tissue",
+   "posterior blood island",
+   "posterior ICM"
+  ],
+  "system": "hematopoietic_immune",
+  "parent": "ZFA:0000033",
+  "zfaPartOf": [
+   "ZFA:0000033"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000028",
+  "startStageName": "Segmentation:26+ somites",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000029",
+  "endStageName": "Pharyngula:Prim-5",
+  "endHpf": 30.0,
+  "definition": "Nests of developing blood cells arising late in the segmentation period from the intermediate mass, and located in the anterior-ventral tail, just posterior to the yolk extension.",
+  "spatial": {
+   "apFraction": [
+    0.6,
+    0.7
+   ],
+   "dv": "ventral tail, just posterior to the yolk extension, ventral to the notochord",
+   "laterality": "midline",
+   "landmarks": "anterior-ventral tail behind the yolk extension"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Small elongated ellipsoid of packed cells in the ventral tail base."
+  },
+  "sizes": [
+   {
+    "stageLabel": "26+ somites",
+    "hpf": 23,
+    "dims_um": {
+     "length": 150,
+     "height": 40,
+     "width": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 180,
+     "height": 45,
+     "width": 45
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "ZFIN start (26+ somites)"
+   },
+   {
+    "hpf": 30,
+    "event": "ZFIN end (Prim-5); the region continues as the caudal vein plexus and later the caudal hematopoietic tissue"
+   }
+  ],
+  "colorHint": "#7f0000",
+  "sources": [
+   "https://zfin.org/ZFA:0000094"
+  ],
+  "notes": "ZFA lists posterior blood island and caudal hematopoietic tissue as synonyms of this early term. ZFIN keeps a separate later term (ZFA:0005898) for 48 hpf onward."
+ },
+ {
+  "id": "ZFA:0005898",
+  "name": "caudal hematopoietic tissue",
+  "synonyms": [
+   "posterior blood island"
+  ],
+  "system": "hematopoietic_immune",
+  "parent": "ZFA:0005023",
+  "zfaPartOf": [
+   "ZFA:0005023"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000033",
+  "startStageName": "Hatching:Long-pec",
+  "startHpf": 48.0,
+  "endStage": "ZFS:0000039",
+  "endStageName": "Larval:Days 7-13",
+  "endHpf": 336.0,
+  "definition": "Tissue that lies between the caudal artery and the caudal vein plexus where definitive hematopoiesis occurs after  48hpf and before the hematopoietic progenitors migrate to the thymus and kidney.",
+  "spatial": {
+   "apFraction": [
+    0.6,
+    0.92
+   ],
+   "dv": "ventral tail, between the caudal artery and the caudal vein plexus",
+   "laterality": "midline",
+   "landmarks": "occupies the plexus region from behind the vent to near the tail tip"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Flattened strip (50-60 um tall) between the caudal artery and the caudal vein, spanning most of the tail. Fill it with a stippled texture to suggest cells."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 800,
+     "height": 50,
+     "width": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1000,
+     "height": 60,
+     "width": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 48,
+    "event": "ZFIN start (Long-pec); HSPCs from the aortic floor lodge here from 48 to 96 hpf"
+   },
+   {
+    "hpf": 72,
+    "event": "expansion and differentiation of HSPCs (fetal liver equivalent)"
+   },
+   {
+    "hpf": 96,
+    "event": "progenitors seed the kidney from 4 dpf"
+   },
+   {
+    "hpf": 336,
+    "event": "ZFIN end (Days 7-13)"
+   }
+  ],
+  "colorHint": "#bf5b17",
+  "sources": [
+   "https://zfin.org/ZFA:0005898",
+   "Murayama et al. 2006, Immunity 25:963-975, https://pubmed.ncbi.nlm.nih.gov/17157041/"
+  ],
+  "notes": "Synonym: posterior blood island. Sizes are estimates."
+ },
+ {
+  "id": "ZFA:0001077",
+  "name": "thymus primordium",
+  "synonyms": [
+   "thymic rudiment"
+  ],
+  "system": "hematopoietic_immune",
+  "parent": "ZFA:0001159",
+  "zfaPartOf": [
+   "ZFA:0001159"
+  ],
+  "developsFrom": [
+   "ZFA:0000818",
+   "ZFA:0001104"
+  ],
+  "startStage": "ZFS:0000030",
+  "startStageName": "Pharyngula:Prim-15",
+  "startHpf": 30.0,
+  "endStage": "ZFS:0000035",
+  "endStageName": "Larval:Protruding-mouth",
+  "endHpf": 96.0,
+  "definition": "A small outgrowth of the pharyngeal epithelium that is the site of lymphocyte cell production.",
+  "visibleFromHpf": 54,
+  "visibleNote": "ZFIN starts the term at Prim-15 (30 hpf). The first morphological primordium appears in the third pharyngeal pouch at 54 hpf (Lam et al. 2004) or 60 hpf (Willett et al. 1999).",
+  "spatial": {
+   "apFraction": [
+    0.17,
+    0.21
+   ],
+   "dv": "dorsal to the third pharyngeal pouch, posterior-ventral to the otic vesicle, lateral",
+   "laterality": "paired",
+   "landmarks": "a small epithelial bud above pharyngeal arch 3, behind the eye and below the ear"
+  },
+  "shape": {
+   "primitive": "sphere",
+   "notes": "Small sphere (30-40 um) on each side above the third pouch."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Pec-fin",
+    "hpf": 60,
+    "dims_um": {
+     "diameter": 30
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Protruding-mouth",
+    "hpf": 72,
+    "dims_um": {
+     "diameter": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 54,
+    "event": "alymphoid primordium forms in the third pharyngeal pouch"
+   },
+   {
+    "hpf": 60,
+    "event": "thymic primordium appears (Willett et al. 1999)"
+   },
+   {
+    "hpf": 65,
+    "event": "immature lymphoblasts colonize the primordium"
+   },
+   {
+    "hpf": 96,
+    "event": "ZFIN end (Protruding-mouth); rag1 expression starts about 92 hpf"
+   }
+  ],
+  "colorHint": "#c5b0d5",
+  "sources": [
+   "https://zfin.org/ZFA:0001077",
+   "Willett et al. 1999, Dev Dyn 214:323-336, https://pubmed.ncbi.nlm.nih.gov/10213388/",
+   "Lam et al. 2004, Dev Comp Immunol 28:9-28, https://www.sciencedirect.com/science/article/abs/pii/S0145305X03001034"
+  ],
+  "notes": "Synonym: thymic rudiment. Sizes are estimates."
+ },
+ {
+  "id": "ZFA:0001078",
+  "name": "thymus",
+  "synonyms": [],
+  "system": "hematopoietic_immune",
+  "parent": "ZFA:0001159",
+  "zfaPartOf": [
+   "ZFA:0001159"
+  ],
+  "developsFrom": [
+   "ZFA:0001077"
+  ],
+  "startStage": "ZFS:0000035",
+  "startStageName": "Larval:Protruding-mouth",
+  "startHpf": 72.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Paired organ where maturation of T-lymphocytes occurs. The adult thymus located on the dorsomedial aspect of the branchial cavity above the third pharyngeal cartilage.",
+  "spatial": {
+   "apFraction": [
+    0.16,
+    0.22
+   ],
+   "dv": "dorsomedial roof of the branchial (gill) cavity, above the third pharyngeal cartilage, under the skin behind the eye",
+   "laterality": "paired",
+   "landmarks": "just posterior-dorsal to the eye and ventral to the ear in the larva; in the adult under the dorsal edge of the operculum",
+   "apFractionByStage": {
+    "120": [
+     0.16,
+     0.21
+    ],
+    "adult": [
+     0.15,
+     0.2
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Ellipsoid: pouch-like at 1 wpf, conical at 2-3 wpf, with a dorsal protrusion along the skull from 4 wpf. Shrink it after 15 wpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 70,
+     "height": 50,
+     "width": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Days 14-20",
+    "hpf": 336,
+    "dims_um": {
+     "length": 250,
+     "height": 150,
+     "width": 100
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 800,
+     "height": 500,
+     "width": 300
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 72,
+    "event": "ZFIN start (Protruding-mouth)"
+   },
+   {
+    "hpf": 96,
+    "event": "TCR alpha and rag1 expression detected in the thymus at 4 dpf"
+   },
+   {
+    "hpf": 168,
+    "event": "small pouch-like shape at 1 wpf; rapid lateral growth between 1 and 2 wpf"
+   },
+   {
+    "hpf": 336,
+    "event": "conical shape between 2 and 3 wpf; cortex-medulla regionalization"
+   },
+   {
+    "hpf": 504,
+    "event": "morphologically mature by 3 wpf"
+   },
+   {
+    "hpf": 672,
+    "event": "more complex shape from 4 wpf; rapid dorsal-ventral growth between 3 and 6 wpf"
+   },
+   {
+    "hpf": 2520,
+    "event": "early involution at 15 wpf"
+   }
+  ],
+  "colorHint": "#9467bd",
+  "sources": [
+   "https://zfin.org/ZFA:0001078",
+   "Lam et al. 2002, Dev Dyn 225:87-94, https://pubmed.ncbi.nlm.nih.gov/12203724/",
+   "Danilova et al. 2004, Dev Comp Immunol 28:755-767, https://pubmed.ncbi.nlm.nih.gov/15043944/",
+   "Menke et al. 2011, Toxicol Pathol 39:759-775, https://journals.sagepub.com/doi/10.1177/0192623311409597"
+  ],
+  "notes": "Sizes are estimates; the papers give shape and timing but no micrometer values."
+ },
+ {
+  "id": "ZFA:0000436",
+  "name": "spleen",
+  "synonyms": [],
+  "system": "hematopoietic_immune",
+  "parent": "ZFA:0005023",
+  "zfaPartOf": [
+   "ZFA:0001159",
+   "ZFA:0005023",
+   "ZFA:0007116"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000000",
+  "startStageName": "Unknown",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Organ that filters the blood removing defective blood cells. The spleen is a dark red organ, located in the peritoneal cavity, adjacent to one of the liver lobes.",
+  "visibleFromHpf": 96,
+  "visibleNote": "ZFIN start is Unknown. The splenic primordium appears by 4 dpf in a small hox11-positive area of the left anterior gut (fish spleen review 2023).",
+  "spatial": {
+   "apFraction": [
+    0.42,
+    0.52
+   ],
+   "dv": "peritoneal cavity, dorsal to the intestine, adjacent to a liver lobe, ventral to the swim bladder",
+   "laterality": "left",
+   "landmarks": "dark red elongated organ between the anterior intestinal loop and the swim bladder in the adult",
+   "apFractionByStage": {
+    "120": [
+     0.33,
+     0.36
+    ],
+    "adult": [
+     0.42,
+     0.52
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Dark red elongated ellipsoid next to the gut. Tiny sphere at 5 dpf; elongated ellipsoid 2 mm long in the adult (estimate)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "diameter": 40
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Days 21-29",
+    "hpf": 720,
+    "dims_um": {
+     "length": 300,
+     "width": 120
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 2000,
+     "height": 700,
+     "width": 600
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 96,
+    "event": "splenic primordium by 4 dpf in the left anterior gut"
+   },
+   {
+    "hpf": 720,
+    "event": "lymphocytes evident in the spleen at 30 dpf; ellipsoids still forming"
+   }
+  ],
+  "colorHint": "#6a3d9a",
+  "sources": [
+   "https://zfin.org/ZFA:0000436",
+   "The fish spleen (review, 2023), Fish Shellfish Immunol, https://www.sciencedirect.com/science/article/pii/S1050464823007660",
+   "Menke et al. 2011, Toxicol Pathol 39:759-775, https://journals.sagepub.com/doi/10.1177/0192623311409597",
+   "Gupta and Mullins 2010, J Vis Exp 37:1717, https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/"
+  ],
+  "notes": "ZFA lists three part_of parents: immune system, hematopoietic system and pleuroperitoneal region. Sizes are estimates."
+ },
+ {
+  "id": "ZFA:0000669",
+  "name": "head kidney",
+  "synonyms": [
+   "anterior kidney",
+   "kidney marrow"
+  ],
+  "system": "hematopoietic_immune",
+  "parent": "ZFA:0000529",
+  "zfaPartOf": [
+   "ZFA:0000529",
+   "ZFA:0001158",
+   "ZFA:0005023"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000000",
+  "startStageName": "Unknown",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "The zebrafish head kidney consists of fused bilateral lobes located in the anterior part of the kidney. It is analogous to the mammalian bone marrow and the primary site of definitive hematopoiesis.",
+  "visibleFromHpf": 96,
+  "visibleNote": "ZFIN start is Unknown. Hematopoietic cells are present in the pronephros at 96 hpf (Willett et al. 1999) and kidney hematopoiesis starts at 4 dpf (Murayama et al. 2006). The adult head kidney is the kidney marrow.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.3
+   ],
+   "dv": "retroperitoneal, ventral to the vertebral column and dorsal aorta, dorsal to the swim bladder, behind the gills",
+   "laterality": "midline",
+   "landmarks": "fused bilateral lobes at the anterior end of the kidney, just behind the pharynx",
+   "apFractionByStage": {
+    "120": [
+     0.22,
+     0.26
+    ],
+    "adult": [
+     0.2,
+     0.3
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Flat lobed ellipsoid pressed against the dorsal body wall under the spine. In the larva a pair of small blobs at the pronephric glomeruli (somite 3 level)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 80,
+     "height": 40,
+     "width": 60
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 2500,
+     "height": 800,
+     "width": 1500
+    },
+    "source": "estimate (unverified)",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 96,
+    "event": "hematopoietic cells in the pronephros at 96 hpf; kidney seeded by HSPCs from 4 dpf"
+   },
+   {
+    "hpf": 504,
+    "event": "lymphocytes detected in the kidney at 3 weeks"
+   },
+   {
+    "hpf": 2160,
+    "event": "adult kidney marrow: main site of definitive hematopoiesis"
+   }
+  ],
+  "colorHint": "#b15928",
+  "sources": [
+   "https://zfin.org/ZFA:0000669",
+   "Willett et al. 1999, Dev Dyn 214:323-336, https://pubmed.ncbi.nlm.nih.gov/10213388/",
+   "Murayama et al. 2006, Immunity 25:963-975, https://pubmed.ncbi.nlm.nih.gov/17157041/",
+   "Gupta and Mullins 2010, J Vis Exp 37:1717, https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+   "Ivanovski et al. 2009, PMID 20087250 (adult average size 2.5 cm), https://pubmed.ncbi.nlm.nih.gov/20087250/"
+  ],
+  "notes": "Synonyms: anterior kidney, kidney marrow. The excretory specialist owns the kidney (ZFA:0000529); I include the head kidney as the adult hematopoietic organ."
+ },
+ {
+  "id": "ZFA:0001306",
+  "name": "pharyngeal arch",
+  "synonyms": [
+   "pharyngeal arches"
+  ],
+  "system": "respiratory",
+  "parent": "ZFA:0001114",
+  "zfaPartOf": [
+   "ZFA:0001114"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000025",
+  "startStageName": "Segmentation:10-13 somites",
+  "startHpf": 14.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "One of a series of paired bony or cartilaginous arches that develop along the lateral walls of the foregut.",
+  "spatial": {
+   "apFraction": [
+    0.12,
+    0.24
+   ],
+   "dv": "ventrolateral to the hindbrain, posterior to the eye, lateral walls of the foregut",
+   "laterality": "paired",
+   "landmarks": "seven paired arches; a visible boundary separates arches 2 and 3; arches 1-2 form jaws and operculum, arches 3-7 form the gill region",
+   "apFractionByStage": {
+    "24": [
+     0.14,
+     0.24
+    ],
+    "48": [
+     0.12,
+     0.24
+    ],
+    "120": [
+     0.12,
+     0.23
+    ],
+    "adult": [
+     0.08,
+     0.22
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "segmentArray",
+   "notes": "Seven paired vertical bars (rounded boxes) hanging from the head, each 40 um wide at 48 hpf and separated by pouches. Arches 1-2 are larger and more anterior. From 72 hpf let the opercular flap cover arches 3-7."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "count_per_side": 7,
+     "region_length": 200,
+     "arch_width": 25,
+     "arch_height": 80
+    },
+    "source": "estimate; the primordium is present but individual arches are hard to see",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "count_per_side": 7,
+     "region_length": 300,
+     "arch_width": 40,
+     "arch_height": 120
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "count_per_side": 7,
+     "region_length": 400,
+     "arch_width": 50,
+     "arch_height": 180
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "count_per_side": 7,
+     "region_length": 4000,
+     "arch_width": 400,
+     "arch_height": 2500
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 14,
+    "event": "ZFIN start (10-13 somites): arch primordium ventrolateral to the brain"
+   },
+   {
+    "hpf": 24,
+    "event": "seven arches form from the primordium during the pharyngula period"
+   },
+   {
+    "hpf": 48,
+    "event": "gill slits form behind the hyoid arch and between the branchial arches, five in all"
+   }
+  ],
+  "colorHint": "#ffbb78",
+  "sources": [
+   "https://zfin.org/ZFA:0001306",
+   "https://zfin.org/zf_info/zfbook/stages/phar.html",
+   "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+  ],
+  "notes": "The skeletal specialist owns the arch cartilages and bones. This entry is the soft-tissue arch unit."
+ },
+ {
+  "id": "ZFA:0001613",
+  "name": "pharyngeal arch 3-7",
+  "synonyms": [
+   "branchial arch",
+   "branchial arches",
+   "branchial bar",
+   "branchial bars",
+   "gill arch",
+   "gill arches 1-5",
+   "visceral arches 3-7"
+  ],
+  "system": "respiratory",
+  "parent": "ZFA:0000354",
+  "zfaPartOf": [
+   "ZFA:0000056",
+   "ZFA:0000354"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000025",
+  "startStageName": "Segmentation:10-13 somites",
+  "startHpf": 14.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "(no ZFA definition)",
+  "spatial": {
+   "apFraction": [
+    0.16,
+    0.24
+   ],
+   "dv": "posterior five arches, under the otic vesicle and behind the hyoid arch",
+   "laterality": "paired",
+   "landmarks": "branchial arches 1-4 (pharyngeal arches 3-6) bear gill filaments; arch 7 carries the pharyngeal teeth"
+  },
+  "shape": {
+   "primitive": "segmentArray",
+   "notes": "Five paired bars. Bars 1-4 carry filament buds from 72-84 hpf; bar 5 stays smooth."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "count_per_side": 5,
+     "region_length": 120,
+     "arch_width": 20,
+     "arch_height": 60
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "count_per_side": 5,
+     "region_length": 180,
+     "arch_width": 30,
+     "arch_height": 100
+    },
+    "source": "estimate; four filament-free branchial arches at 2.5 dpf (Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/)",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "count_per_side": 5,
+     "region_length": 250,
+     "arch_width": 40,
+     "arch_height": 150
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "count_per_side": 5,
+     "region_length": 2500,
+     "arch_width": 300,
+     "arch_height": 2500
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 14,
+    "event": "ZFIN start (10-13 somites)"
+   },
+   {
+    "hpf": 60,
+    "event": "four filament-free branchial arches with branchial arteries at 2.5 dpf"
+   },
+   {
+    "hpf": 84,
+    "event": "first gill filaments visible at 3.5 dpf"
+   }
+  ],
+  "colorHint": "#ff7f0e",
+  "sources": [
+   "https://zfin.org/ZFA:0001613",
+   "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+   "Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/"
+  ],
+  "notes": "Synonyms: branchial arches, gill arches 1-5. ZFA lists part_of pharynx and gill; I use gill for the UI."
+ },
+ {
+  "id": "ZFA:0000354",
+  "name": "gill",
+  "synonyms": [
+   "gills"
+  ],
+  "system": "respiratory",
+  "parent": "ZFA:0000272",
+  "zfaPartOf": [
+   "ZFA:0000272"
+  ],
+  "developsFrom": [
+   "ZFA:0001107"
+  ],
+  "startStage": "ZFS:0000000",
+  "startStageName": "Unknown",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Compound organ that consists of gill filaments, gill lamellae, gill rakers and pharyngeal arches 3-7. The gills are responsible for primary gas exchange between the blood and the surrounding water.",
+  "visibleFromHpf": 72,
+  "visibleNote": "ZFIN start is Unknown. Gill filament rudiments bud late in the hatching period (Kimmel et al. 1995) and the first filaments are visible at 3.5 dpf (gill atlas 2025).",
+  "spatial": {
+   "apFraction": [
+    0.14,
+    0.23
+   ],
+   "dv": "in the branchial cavity under the opercular flap, ventral to the ear, posterior to the eye",
+   "laterality": "paired",
+   "landmarks": "four gill arches per side, each with a row of filaments pointing posteriorly",
+   "apFractionByStage": {
+    "120": [
+     0.15,
+     0.23
+    ],
+    "adult": [
+     0.1,
+     0.22
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Four arcs per side (from pharyngeal arch 3-7) with rows of short tapered filaments. Filament count per arch: a few at 5 dpf, about 25 by 6 months."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "arches_per_side": 4,
+     "arch_length": 150,
+     "filament_length": 40,
+     "filaments_per_arch": 4
+    },
+    "source": "estimate; filament count is a guess from the 3.5 and 5.5 dpf images of Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Days 14-20",
+    "hpf": 336,
+    "dims_um": {
+     "arches_per_side": 4,
+     "arch_length": 500,
+     "filament_length": 150,
+     "filaments_per_arch": 10
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "arches_per_side": 4,
+     "arch_length": 3000,
+     "filament_length": 1000,
+     "filaments_per_arch": 25
+    },
+    "source": "filament count from Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/; lengths are estimates",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 60,
+    "event": "four filament-free branchial arches at 2.5 dpf"
+   },
+   {
+    "hpf": 72,
+    "event": "gill filament rudiments bud along the posterior walls of the four branchial arches late in the hatching period"
+   },
+   {
+    "hpf": 84,
+    "event": "first filaments visible at 3.5 dpf, medial before lateral"
+   },
+   {
+    "hpf": 96,
+    "event": "first lamellar tip cells at 4 dpf"
+   },
+   {
+    "hpf": 168,
+    "event": "lamellae form at about 7 dpf (unverified, search summary of Jonz and Nurse 2005)"
+   },
+   {
+    "hpf": 348,
+    "event": "medial and lateral filament numbers equalize at 14.5 dpf; gills fully functional by 14 dpf (unverified)"
+   },
+   {
+    "hpf": 4320,
+    "event": "filament number per arch stabilizes at about 25 by 6 months"
+   }
+  ],
+  "colorHint": "#ff7f0e",
+  "sources": [
+   "https://zfin.org/ZFA:0000354",
+   "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+   "Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/",
+   "Jonz and Nurse 2005, J Exp Biol 208:1537-1549, https://www.researchgate.net/publication/7932803_Development_of_oxygen_sensing_in_the_gills_of_zebrafish"
+  ],
+  "notes": "The gill atlas (Development 2025) gives filament emergence and the adult count of about 25 filaments per arch; it gives no filament lengths."
+ },
+ {
+  "id": "ZFA:0000667",
+  "name": "gill filament",
+  "synonyms": [
+   "gill filaments"
+  ],
+  "system": "respiratory",
+  "parent": "ZFA:0000354",
+  "zfaPartOf": [
+   "ZFA:0000354"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000000",
+  "startStageName": "Unknown",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "Portion of tissue that projects outward from the gill and is a thread-like, soft, red respiratory and excretory structure.",
+  "visibleFromHpf": 84,
+  "visibleNote": "ZFIN start is Unknown. First filaments visible at 3.5 dpf (gill atlas 2025).",
+  "spatial": {
+   "apFraction": [
+    0.15,
+    0.23
+   ],
+   "dv": "projecting from the posterior face of each branchial arch into the opercular cavity",
+   "laterality": "paired",
+   "landmarks": "two rows (medial and lateral hemibranch) per arch"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Tapered tube (cone) per filament; two rows per arch. Adult filaments about 1 mm long and 60 um wide (estimate) with lamellae as thin plates on both faces."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 40,
+     "diameter": 20
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Days 14-20",
+    "hpf": 336,
+    "dims_um": {
+     "length": 150,
+     "diameter": 35
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 1000,
+     "diameter": 60,
+     "count_per_arch": 25
+    },
+    "source": "count from Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/; size is an estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 84,
+    "event": "first medial filaments emerge and form vascular loops"
+   },
+   {
+    "hpf": 132,
+    "event": "lateral filaments lag behind medial at 5.5 dpf"
+   },
+   {
+    "hpf": 252,
+    "event": "medial-lateral difference less pronounced at 10.5 dpf"
+   }
+  ],
+  "colorHint": "#d94801",
+  "sources": [
+   "https://zfin.org/ZFA:0000667",
+   "Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/"
+  ],
+  "notes": "The gill lamella term (ZFA:0000211) is too small for the model; the filaments carry a lamellar texture instead."
+ },
+ {
+  "id": "ZFA:0000555",
+  "name": "opercular flap",
+  "synonyms": [
+   "gill cover",
+   "gill slit",
+   "opercular apparatus",
+   "opercular cover",
+   "operculum"
+  ],
+  "system": "respiratory",
+  "parent": "ZFA:0001114",
+  "zfaPartOf": [],
+  "developsFrom": [],
+  "startStage": "ZFS:0000000",
+  "startStageName": "Unknown",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "A large flap, covered by integument,  supported by several flat bones, actuated by muscles, found on the side of the head covering the gill chambers.",
+  "visibleFromHpf": 72,
+  "visibleNote": "ZFIN start is Unknown. The hyoid arch forms the operculum (Kimmel et al. 1995). The opercle bone starts to ossify about 3 dpf (Cubbage and Mabee 1996, unverified). I suggest showing the flap from 72 hpf and letting it cover the gill arches by 120 hpf (unverified).",
+  "spatial": {
+   "apFraction": [
+    0.13,
+    0.24
+   ],
+   "dv": "lateral head surface behind the eye, covering the gill chamber",
+   "laterality": "paired",
+   "landmarks": "hinged at the hyomandibula; free posterior edge lies over the pectoral girdle in the adult",
+   "apFractionByStage": {
+    "120": [
+     0.14,
+     0.23
+    ],
+    "adult": [
+     0.12,
+     0.22
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Quarter-disc sheet hinged on its anterior-dorsal edge, lying flat against the head. Animate a small open-close rotation (5-10 degrees) for breathing."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Protruding-mouth",
+    "hpf": 72,
+    "dims_um": {
+     "length": 120,
+     "height": 120,
+     "thickness": 10
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 180,
+     "height": 170,
+     "thickness": 12
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 4000,
+     "height": 3500,
+     "thickness": 200
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "the mandibular and hyoid arches form the jaws and the operculum (Kimmel)"
+   },
+   {
+    "hpf": 72,
+    "event": "opercle ossification begins about 3 dpf (unverified)"
+   }
+  ],
+  "colorHint": "#bcbd22",
+  "sources": [
+   "https://zfin.org/ZFA:0000555",
+   "https://zfin.org/ZFA:0000250",
+   "https://zfin.org/zf_info/zfbook/stages/phar.html",
+   "Cubbage and Mabee 1996, J Morphol 229:121-160"
+  ],
+  "notes": "Synonym: operculum, gill cover. The opercle bones belong to the skeletal specialist. ZFA gives no part_of parent; I assign the head."
+ },
+ {
+  "id": "ZFA:0005967",
+  "name": "pseudobranch",
+  "synonyms": [],
+  "system": "respiratory",
+  "parent": "ZFA:0001114",
+  "zfaPartOf": [],
+  "developsFrom": [],
+  "startStage": "ZFS:0000036",
+  "startStageName": "Larval:Day 4",
+  "startHpf": 96.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "An epithelial structure located anterior to the gill filaments and connected to the eye via the ophthalmic artery. It arises from mandibular arch neural crest-derived mesenchyme and first pouch endodermal epithelia.",
+  "spatial": {
+   "apFraction": [
+    0.12,
+    0.15
+   ],
+   "dv": "inner face of the opercular region, behind the eye, anterior-dorsal to the first gill arch",
+   "laterality": "paired",
+   "landmarks": "connected to the eye by the ophthalmic artery; not exposed to the water"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Small bud at 4 dpf; five short filaments at 17 dpf; one fused oval body in the adult. Draw it as a flat ellipsoid on the inside of the operculum."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Day 4",
+    "hpf": 96,
+    "dims_um": {
+     "diameter": 25
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "diameter": 30
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Days 14-20",
+    "hpf": 408,
+    "dims_um": {
+     "length": 150,
+     "filaments": 5
+    },
+    "source": "filament count from Thiruppathy et al. 2022, eLife 11:e78170, https://pmc.ncbi.nlm.nih.gov/articles/PMC9239679/; size is an estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 700,
+     "height": 400,
+     "width": 200
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 96,
+    "event": "ZFIN start (Day 4): small bud behind the eye"
+   },
+   {
+    "hpf": 408,
+    "event": "five distinct filaments at 17 dpf"
+   },
+   {
+    "hpf": 2160,
+    "event": "the five filaments merge into one pseudobranch by 90 dpf; five cartilage rods remain"
+   }
+  ],
+  "colorHint": "#fdae6b",
+  "sources": [
+   "https://zfin.org/ZFA:0005967",
+   "Thiruppathy et al. 2022, eLife 11:e78170, https://pmc.ncbi.nlm.nih.gov/articles/PMC9239679/"
+  ],
+  "notes": "ZFA gives no part_of parent; I assign the head."
+ },
+ {
+  "id": "ZFA:0005335",
+  "name": "swim bladder bud",
+  "synonyms": [],
+  "system": "respiratory",
+  "parent": "ZFA:0007116",
+  "zfaPartOf": [],
+  "developsFrom": [
+   "ZFA:0005336"
+  ],
+  "startStage": "ZFS:0000031",
+  "startStageName": "Pharyngula:Prim-25",
+  "startHpf": 36.0,
+  "endStage": "ZFS:0000033",
+  "endStageName": "Hatching:Long-pec",
+  "endHpf": 60.0,
+  "definition": "Embryonic structure that forms from the anterior gut epithelium at the level of the second somite that then matures to form the swim bladder.",
+  "spatial": {
+   "apFraction": [
+    0.27,
+    0.3
+   ],
+   "dv": "dorsal wall of the foregut at the level of somite 2, ventral to the notochord, dorsal to the yolk",
+   "laterality": "midline",
+   "landmarks": "posterior to the pharynx, above the anterior yolk ball"
+  },
+  "shape": {
+   "primitive": "sphere",
+   "notes": "Small bud on the dorsal gut; grows into a short tube (pneumatic duct plus sac) by 60 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-25",
+    "hpf": 36,
+    "dims_um": {
+     "diameter": 25
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 50,
+     "diameter": 35
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 24,
+    "event": "presumptive swim bladder in the gut endoderm (ZFA:0005336, 24-36 hpf)"
+   },
+   {
+    "hpf": 36,
+    "event": "ZFIN start (Prim-25); budding phase 36-48 hpf"
+   },
+   {
+    "hpf": 60,
+    "event": "ZFIN end (Long-pec); elongation phase 65-96 hpf follows"
+   }
+  ],
+  "colorHint": "#e5e5e5",
+  "sources": [
+   "https://zfin.org/ZFA:0005335",
+   "https://zfin.org/ZFA:0005336",
+   "Winata et al. 2009, Dev Biol 331:222-236, https://pubmed.ncbi.nlm.nih.gov/19422819/"
+  ],
+  "notes": "Winata et al. 2009 define budding (36-48 hpf), growth (to 4.5 dpf) and inflation phases. ZFA gives no part_of parent; I assign the pleuroperitoneal region."
+ },
+ {
+  "id": "ZFA:0000076",
+  "name": "swim bladder",
+  "synonyms": [
+   "gas bladder"
+  ],
+  "system": "respiratory",
+  "parent": "ZFA:0007116",
+  "zfaPartOf": [
+   "ZFA:0007116"
+  ],
+  "developsFrom": [
+   "ZFA:0005335"
+  ],
+  "startStage": "ZFS:0000034",
+  "startStageName": "Hatching:Pec-fin",
+  "startHpf": 60.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "The swim bladder is a double-chambered organ located in the coelom and used to maintain buoyancy and may function as an acoustic resonator.",
+  "visibleFromHpf": 96,
+  "visibleNote": "ZFIN starts the term at Pec-fin (60 hpf) as an uninflated sac. The posterior chamber inflates at 96-120 hpf (Winata et al. 2009; SL 3.4-3.7 mm in Parichy et al. 2009). Show a collapsed sac from 60 hpf and inflate it at about 100 hpf.",
+  "spatial": {
+   "apFraction": [
+    0.27,
+    0.38
+   ],
+   "dv": "dorsal to the gut and liver, ventral to the notochord and kidney, in the coelom",
+   "laterality": "midline",
+   "landmarks": "single chamber above the anterior gut behind the pectoral fins in the larva; two chambers in line under the spine from 21 dpf",
+   "apFractionByStage": {
+    "120": [
+     0.27,
+     0.36
+    ],
+    "adult": [
+     0.25,
+     0.62
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "One silver ellipsoid from 96 hpf (300 x 190 um at 5-6 dpf). From about 20 dpf add the anterior chamber in front, joined by a 150 um duct. In the adult the two chambers form a figure-eight along the spine."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Pec-fin",
+    "hpf": 60,
+    "dims_um": {
+     "length": 60,
+     "diameter": 40
+    },
+    "source": "estimate; uninflated",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 300,
+     "height": 190,
+     "width": 190
+    },
+    "source": "derived from a 6 dpf volume of 0.0058 mm3 (Swim bladder inflation and the lateral line, J Exp Biol 226:jeb245635 (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC9882242/) as an ellipsoid; axis split is an estimate",
+    "basis": "derived"
+   },
+   {
+    "stageLabel": "Days 21-29",
+    "hpf": 504,
+    "dims_um": {
+     "total_length": 2000,
+     "posterior_length": 1200,
+     "anterior_length": 800
+    },
+    "source": "estimate; anterior chamber appears at 5.9-6.2 mm SL (Parichy et al. 2009, Dev Dyn 238:2975-3015, https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/)",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "total_length": 9000,
+     "anterior_length": 4200,
+     "posterior_length": 5000,
+     "duct_diameter": 150
+    },
+    "source": "anterior chamber 4.2 mm and duct 150 um from a search summary (unverified); posterior length is an estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 36,
+    "event": "budding phase 36-48 hpf"
+   },
+   {
+    "hpf": 60,
+    "event": "ZFIN start (Pec-fin)"
+   },
+   {
+    "hpf": 65,
+    "event": "elongation phase 65-96 hpf forms the pneumatic duct"
+   },
+   {
+    "hpf": 96,
+    "event": "posterior chamber inflates at 96-120 hpf by air gulping; larvae float up at about 3.7 mm SL"
+   },
+   {
+    "hpf": 432,
+    "event": "anterior chamber evaginates from the cranial end at 18 dph (6 mm)"
+   },
+   {
+    "hpf": 504,
+    "event": "anterior chamber inflated at 21 dpf; two-chambered organ complete"
+   },
+   {
+    "hpf": 672,
+    "event": "smooth muscle band in the posterior chamber wall at 25-30 dph"
+   }
+  ],
+  "colorHint": "#c7c7c7",
+  "sources": [
+   "https://zfin.org/ZFA:0000076",
+   "Winata et al. 2009, Dev Biol 331:222-236, https://pubmed.ncbi.nlm.nih.gov/19422819/",
+   "Parichy et al. 2009, Dev Dyn 238:2975-3015, https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+   "Robertson et al. 2007, J Morphol 268:967-985, https://pubmed.ncbi.nlm.nih.gov/17702001/",
+   "Swim bladder inflation and the lateral line, J Exp Biol 226:jeb245635 (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC9882242/"
+  ],
+  "notes": "Synonym: gas bladder. The 5 dpf size is derived from a wild-type volume of 0.0058 mm3 at 6 dpf."
+ },
+ {
+  "id": "ZFA:0001278",
+  "name": "posterior chamber swim bladder",
+  "synonyms": [],
+  "system": "respiratory",
+  "parent": "ZFA:0000076",
+  "zfaPartOf": [
+   "ZFA:0000076"
+  ],
+  "developsFrom": [],
+  "startStage": "ZFS:0000000",
+  "startStageName": "Unknown",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "The posterior compartment of the swim bladder plays a key role in buoyancy control. It is connected to the anterior chamber via the ductus communicans.",
+  "visibleFromHpf": 96,
+  "visibleNote": "ZFIN start is Unknown. The single larval chamber is the posterior chamber; it inflates at 96-120 hpf.",
+  "spatial": {
+   "apFraction": [
+    0.27,
+    0.36
+   ],
+   "dv": "dorsal to the gut, ventral to the kidney",
+   "laterality": "midline",
+   "landmarks": "the larval swim bladder; in the adult the caudal chamber, connected to the esophagus by the pneumatic duct",
+   "apFractionByStage": {
+    "120": [
+     0.27,
+     0.36
+    ],
+    "adult": [
+     0.42,
+     0.62
+    ]
+   }
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Ellipsoid, longer than tall. In the adult it tapers caudally."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 300,
+     "height": 190,
+     "width": 190
+    },
+    "source": "derived from Swim bladder inflation and the lateral line, J Exp Biol 226:jeb245635 (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC9882242/ (see swim bladder)",
+    "basis": "derived"
+   },
+   {
+    "stageLabel": "Days 21-29",
+    "hpf": 504,
+    "dims_um": {
+     "length": 1200,
+     "height": 600
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 5000,
+     "height": 2000,
+     "width": 2000
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 96,
+    "event": "inflation at 96-120 hpf"
+   },
+   {
+    "hpf": 672,
+    "event": "smooth muscle band forms in the lateral wall at 25-30 dph"
+   }
+  ],
+  "colorHint": "#d9d9d9",
+  "sources": [
+   "https://zfin.org/ZFA:0001278",
+   "Winata et al. 2009, Dev Biol 331:222-236, https://pubmed.ncbi.nlm.nih.gov/19422819/",
+   "Robertson et al. 2007, J Morphol 268:967-985, https://pubmed.ncbi.nlm.nih.gov/17702001/"
+  ],
+  "notes": "The ZFA definition states that this chamber corresponds to the larval swim bladder."
+ },
+ {
+  "id": "ZFA:0001277",
+  "name": "anterior chamber swim bladder",
+  "synonyms": [
+   "camera arerea weberiana"
+  ],
+  "system": "respiratory",
+  "parent": "ZFA:0000076",
+  "zfaPartOf": [
+   "ZFA:0000076"
+  ],
+  "developsFrom": [
+   "ZFA:0005337"
+  ],
+  "startStage": "ZFS:0000040",
+  "startStageName": "Larval:Days 14-20",
+  "startHpf": 336.0,
+  "endStage": "ZFS:0000044",
+  "endStageName": "Adult",
+  "endHpf": 17520.0,
+  "definition": "The anterior compartment of the swim bladder is thought to have acoustic resonance properties that play a key role in audition. It is connected to the posterior chamber via the ductus communicans.",
+  "spatial": {
+   "apFraction": [
+    0.25,
+    0.42
+   ],
+   "dv": "dorsal to the liver and anterior gut, ventral to the head kidney and spine, just behind the pectoral girdle",
+   "laterality": "midline",
+   "landmarks": "cranial chamber; coupled to the inner ear through the Weberian ossicles"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Rounder ellipsoid in front of the posterior chamber, joined by the ductus communicans (150 um)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Days 21-29",
+    "hpf": 504,
+    "dims_um": {
+     "length": 800,
+     "height": 500
+    },
+    "source": "estimate",
+    "basis": "estimate"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 4200,
+     "height": 2500,
+     "width": 2500
+    },
+    "source": "length 4.2 mm from a search summary (unverified); height and width are estimates",
+    "basis": "estimate"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 336,
+    "event": "ZFIN start (Days 14-20); anterior swim bladder bud (ZFA:0005337) present from 60 hpf"
+   },
+   {
+    "hpf": 432,
+    "event": "evaginates from the cranial end of the original chamber at 18 dph (6 mm)"
+   },
+   {
+    "hpf": 504,
+    "event": "inflates at 21 dpf; appears at 5.9-6.2 mm SL"
+   }
+  ],
+  "colorHint": "#bdbdbd",
+  "sources": [
+   "https://zfin.org/ZFA:0001277",
+   "https://zfin.org/ZFA:0005337",
+   "Winata et al. 2009, Dev Biol 331:222-236, https://pubmed.ncbi.nlm.nih.gov/19422819/",
+   "Parichy et al. 2009, Dev Dyn 238:2975-3015, https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+   "Robertson et al. 2007, J Morphol 268:967-985, https://pubmed.ncbi.nlm.nih.gov/17702001/"
+  ],
+  "notes": "Synonym in ZFA: camera aerea weberiana."
+ }
+]

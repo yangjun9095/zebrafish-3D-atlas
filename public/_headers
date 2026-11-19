@@ -1,0 +1,21 @@
+# Response headers for Cloudflare Pages and Netlify (SEC-03). Vite copies public/ to dist/
+# unchanged, so this file reaches the deployment root. vercel.json carries the same set for a
+# Vercel deploy. GitHub Pages cannot send custom headers; a Pages deploy gets none of these.
+#
+# The script-src hash covers the pre-paint theme script in index.html. Editing that script
+# changes the hash and the browser then refuses to run it. `npm run csp` recomputes the hash from
+# dist/index.html and compares it against this file and vercel.json; `npm run gate` runs it after
+# the build, so an edit to the theme script fails the build rather than the site.
+#
+# frame-ancestors * lets any site frame the atlas, which the embed mode (?embed=1) needs for
+# course pages and wikis. The app holds no login and no private state, so framing exposes
+# nothing. Restrict it to named origins (frame-ancestors 'self' https://example.edu) if that changes.
+#
+# Strict-Transport-Security is absent on purpose. Add `max-age=63072000; includeSubDomains` once
+# the chosen host and every subdomain serve HTTPS.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-Tefm9JvnKa25u2aPxPojj5YDPuJJFhPehxJ+esK5QKE='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; frame-ancestors *; base-uri 'self'; form-action 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin

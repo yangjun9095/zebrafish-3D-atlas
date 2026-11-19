@@ -1,0 +1,4382 @@
+[
+  {
+    "id": "ZFA:0001612",
+    "name": "pharyngeal arch 1",
+    "synonyms": [
+      "mandibular arch",
+      "visceral arch 1"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001306",
+    "uiParent": "ZFA:0001306",
+    "parentRelation": "is_a",
+    "definition": "The first pharyngeal arch, also known as the mandibular arch, forms the jaw. The first pharyngeal arch gives rise to elements of the jaw, with the most anteriorly positioned cranial neural crest cells contributing to mandibular arch structures, including Meckel's and palatoquadrate cartilages that constitute the lower and upper jaw respectively.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24,
+    "modelEndHpf": 72,
+    "overrideNote": "ZFA starts the pharyngeal arches at 10-13 somites (14 hpf) as primordia; the model draws them as blocks of pharyngeal mesenchyme from 24 hpf (Prim-5, the first Kimmel stage with visible arches) to 72 hpf, when the cartilages of the arch skeleton (from 48 hpf) have replaced them.",
+    "fadeInHpf": 1,
+    "fadeOutHpf": 12,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 14,
+        "text": "ZFA start stage 10-13 somites for pharyngeal arch 1 (primordium).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 24,
+        "text": "Pharyngeal arches are visible as blocks of mesenchyme between the pharyngeal pouches at Prim-5.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 48,
+        "text": "Cartilage condensations appear inside the arch; the cartilage records take over.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+      }
+    ],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001612",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.11,
+        "v": -0.5,
+        "w": 0.45,
+        "mirror": true
+      },
+      "radiiMm": [
+        {
+          "value": 0.1,
+          "unit": "bodyHeightFraction"
+        },
+        {
+          "value": 0.15,
+          "unit": "bodyHeightFraction"
+        },
+        {
+          "value": 0.06,
+          "unit": "bodyHeightFraction"
+        }
+      ],
+      "e1": 0.9,
+      "e2": 0.9,
+      "keyframes": [
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.105
+          }
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.1
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement: ventral head between the eye and the ear, ventral to the pharynx (research 03e splanchnocranium landmarks); u from the arch order behind the mouth (arch 1 at the jaw, arch 2 at the hyoid)",
+        "radii as body height fractions (0.10, 0.15, 0.06 of hD + hV): the arch fills the ventral head between the pharynx and the skin (estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001611",
+    "name": "pharyngeal arch 2",
+    "synonyms": [
+      "hyoid arch",
+      "visceral arch 2"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001306",
+    "uiParent": "ZFA:0001306",
+    "parentRelation": "is_a",
+    "definition": "The second pharyngeal arch, also known as the hyoid arch, forms jaw support structures.  Anteriorly positioned cranial neural crest cells, which align with rhombomeres 4/5, contribute to the hyoid arch structures including the ceratohyal and hyosymplectic cartilages.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24,
+    "modelEndHpf": 72,
+    "overrideNote": "ZFA starts the pharyngeal arches at 10-13 somites (14 hpf) as primordia; the model draws them as blocks of pharyngeal mesenchyme from 24 hpf (Prim-5, the first Kimmel stage with visible arches) to 72 hpf, when the cartilages of the arch skeleton (from 48 hpf) have replaced them.",
+    "fadeInHpf": 1,
+    "fadeOutHpf": 12,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 14,
+        "text": "ZFA start stage 10-13 somites for pharyngeal arch 2 (primordium).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 24,
+        "text": "Pharyngeal arches are visible as blocks of mesenchyme between the pharyngeal pouches at Prim-5.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 48,
+        "text": "Cartilage condensations appear inside the arch; the cartilage records take over.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+      }
+    ],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001611",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.155,
+        "v": -0.5,
+        "w": 0.4,
+        "mirror": true
+      },
+      "radiiMm": [
+        {
+          "value": 0.1,
+          "unit": "bodyHeightFraction"
+        },
+        {
+          "value": 0.15,
+          "unit": "bodyHeightFraction"
+        },
+        {
+          "value": 0.06,
+          "unit": "bodyHeightFraction"
+        }
+      ],
+      "e1": 0.9,
+      "e2": 0.9,
+      "keyframes": [
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.15
+          }
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.145
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.14
+          }
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement: ventral head between the eye and the ear, ventral to the pharynx (research 03e splanchnocranium landmarks); u from the arch order behind the mouth (arch 1 at the jaw, arch 2 at the hyoid)",
+        "radii as body height fractions (0.10, 0.15, 0.06 of hD + hV): the arch fills the ventral head between the pharynx and the skin (estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001613",
+    "name": "pharyngeal arch 3-7",
+    "synonyms": [
+      "branchial arch",
+      "branchial arches",
+      "branchial bar",
+      "branchial bars",
+      "gill arch",
+      "gill arches 1-5",
+      "visceral arches 3-7"
+    ],
+    "system": "skeletal",
+    "alsoIn": [
+      "respiratory"
+    ],
+    "zfaParent": "ZFA:0001306",
+    "uiParent": "ZFA:0001306",
+    "parentRelation": "is_a",
+    "definition": "The five posterior pharyngeal arches (branchial arches 1 to 5): paired bars of the lateral pharyngeal wall behind the hyoid arch; arches 3 to 6 bear the gill filaments and arch 7 carries the pharyngeal teeth. (ZFA has no definition text for this term; atlas wording.)",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 14.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 14,
+        "text": "ZFIN start (10-13 somites).",
+        "source": "https://zfin.org/ZFA:0001613"
+      },
+      {
+        "hpf": 60,
+        "text": "Four filament-free branchial arches with branchial arteries at 2.5 dpf.",
+        "source": "https://zfin.org/ZFA:0001613"
+      },
+      {
+        "hpf": 84,
+        "text": "First gill filaments visible at 3.5 dpf.",
+        "source": "https://zfin.org/ZFA:0001613"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "regionLength": 0.12,
+          "archWidth": 0.02,
+          "archHeight": 0.06
+        },
+        "counts": {
+          "countPerSide": 5
+        },
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "regionLength": 0.18,
+          "archWidth": 0.03,
+          "archHeight": 0.1
+        },
+        "counts": {
+          "countPerSide": 5
+        },
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate; four filament-free branchial arches at 2.5 dpf (Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/)",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "regionLength": 0.25,
+          "archWidth": 0.04,
+          "archHeight": 0.15
+        },
+        "counts": {
+          "countPerSide": 5
+        },
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "regionLength": 2.5,
+          "archWidth": 0.3,
+          "archHeight": 2.5
+        },
+        "counts": {
+          "countPerSide": 5
+        },
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c pharyngeal arch 3-7 record",
+      "https://zfin.org/ZFA:0001613",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/",
+      "D5: pharyngeal arches 3 to 7 also list respiratory; the skeletal package owns the arch cartilages",
+      "D5 duplicate ownership: pharyngeal arches are skeletal with alsoIn respiratory; arches 3 to 7 list respiratory (review DR-01)"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 14,
+          "count": 5,
+          "uStart": 0.1513,
+          "uEnd": 0.1865,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.01,
+              {
+                "value": 0.04287,
+                "unit": "bodyHeightFraction"
+              },
+              0.0075
+            ]
+          }
+        },
+        {
+          "hpf": 16,
+          "uStart": 0.1509,
+          "uEnd": 0.1907,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.01,
+              {
+                "value": 0.05145,
+                "unit": "bodyHeightFraction"
+              },
+              0.0075
+            ]
+          }
+        },
+        {
+          "hpf": 19,
+          "uStart": 0.1502,
+          "uEnd": 0.197,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.01,
+              {
+                "value": 0.06431,
+                "unit": "bodyHeightFraction"
+              },
+              0.0075
+            ]
+          }
+        },
+        {
+          "hpf": 22,
+          "uStart": 0.1495,
+          "uEnd": 0.2033,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.01,
+              {
+                "value": 0.07717,
+                "unit": "bodyHeightFraction"
+              },
+              0.0075
+            ]
+          }
+        },
+        {
+          "hpf": 24,
+          "uStart": 0.149,
+          "uEnd": 0.2075,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.01,
+              {
+                "value": 0.08574,
+                "unit": "bodyHeightFraction"
+              },
+              0.0075
+            ]
+          }
+        },
+        {
+          "hpf": 30,
+          "uStart": 0.1545,
+          "uEnd": 0.2096,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.015,
+              {
+                "value": 0.09037,
+                "unit": "bodyHeightFraction"
+              },
+              0.01125
+            ]
+          }
+        },
+        {
+          "hpf": 36,
+          "uStart": 0.16,
+          "uEnd": 0.2166,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.015,
+              {
+                "value": 0.06937,
+                "unit": "bodyHeightFraction"
+              },
+              0.01125
+            ]
+          }
+        },
+        {
+          "hpf": 42,
+          "uStart": 0.1655,
+          "uEnd": 0.2244,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.015,
+              {
+                "value": 0.07816,
+                "unit": "bodyHeightFraction"
+              },
+              0.01125
+            ]
+          }
+        },
+        {
+          "hpf": 48,
+          "uStart": 0.171,
+          "uEnd": 0.2331,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.015,
+              {
+                "value": 0.0875,
+                "unit": "bodyHeightFraction"
+              },
+              0.01125
+            ]
+          }
+        },
+        {
+          "hpf": 60,
+          "uStart": 0.1713,
+          "uEnd": 0.2332,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.02,
+              {
+                "value": 0.09411,
+                "unit": "bodyHeightFraction"
+              },
+              0.015
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "uStart": 0.1717,
+          "uEnd": 0.2342,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.02,
+              {
+                "value": 0.1027,
+                "unit": "bodyHeightFraction"
+              },
+              0.015
+            ]
+          }
+        },
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "uStart": 0.1723,
+          "uEnd": 0.239,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.02,
+              {
+                "value": 0.1189,
+                "unit": "bodyHeightFraction"
+              },
+              0.015
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "uStart": 0.173,
+          "uEnd": 0.2424,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.02,
+              {
+                "value": 0.1343,
+                "unit": "bodyHeightFraction"
+              },
+              0.015
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "uStart": 0.1727,
+          "uEnd": 0.2439,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.0229,
+              {
+                "value": 0.1555,
+                "unit": "bodyHeightFraction"
+              },
+              0.01717
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "uStart": 0.172,
+          "uEnd": 0.2467,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.0299,
+              {
+                "value": 0.1655,
+                "unit": "bodyHeightFraction"
+              },
+              0.02243
+            ]
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "uStart": 0.1712,
+          "uEnd": 0.2488,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.03697,
+              {
+                "value": 0.1653,
+                "unit": "bodyHeightFraction"
+              },
+              0.02773
+            ]
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "uStart": 0.1702,
+          "uEnd": 0.2513,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.04707,
+              {
+                "value": 0.1544,
+                "unit": "bodyHeightFraction"
+              },
+              0.0353
+            ]
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "uStart": 0.1679,
+          "uEnd": 0.255,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.06993,
+              {
+                "value": 0.1524,
+                "unit": "bodyHeightFraction"
+              },
+              0.05245
+            ]
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "uStart": 0.1643,
+          "uEnd": 0.2583,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.1066,
+              {
+                "value": 0.1532,
+                "unit": "bodyHeightFraction"
+              },
+              0.07995
+            ]
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "uStart": 0.16,
+          "uEnd": 0.26,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.5,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.15,
+              {
+                "value": 0.1783,
+                "unit": "bodyHeightFraction"
+              },
+              0.1125
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "template",
+        "uStart",
+        "uEnd"
+      ],
+      "sources": [
+        "count 5: the branchial bars (pharyngeal arches 3 to 7) as mirrored vertical bars at w 0.5, v -0.5, pitched 15 degrees; bars 1 to 4 carry the gill filaments, bar 5 the pharyngeal teeth (research 03c)",
+        "region 120 um and bar width 20 um at 24 hpf; 180 and 30 um at 48 hpf; 250 and 40 um at 120 hpf; 2500 and 300 um in the adult at SL 25 (research 03c, estimates); bar height 60, 100 and 150 um as a fraction of the head height, 2100 um in the adult (research 03c 2500, reduced to fit the ventral head at w 0.5); the 14 hpf primordium starts at half size",
+        "the anchor of arch 3 (u 0.155 at 24 hpf, 0.177 at 48, 0.180 at 120, 0.17 in the adult) is shared with the aortic arch array"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001580",
+    "name": "neurocranium",
+    "synonyms": [
+      "braincase",
+      "palatal skeleton"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000737",
+    "uiParent": "ZFA:0000434",
+    "parentRelation": "part_of",
+    "definition": "Anatomical cluster that is the regional skeletal system surrounding the brain.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 42,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN gives start stage Unknown. The first Alcian-positive element, the trabecula cranii, has ZFIN start stage High-pec (42 hpf) (research 03e).",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 42,
+        "text": "trabeculae cranii are the first neurocranial cartilage (ZFIN start stage High-pec).",
+        "source": "https://zfin.org/ZFA:0001507"
+      },
+      {
+        "hpf": 48,
+        "text": "parachordal cartilages and the ethmoid plate appear (ZFIN start stage Long-pec).",
+        "source": "https://zfin.org/ZFA:0001405"
+      },
+      {
+        "hpf": 288,
+        "text": "occipital arch cartilages fuse and meet medially as the tectum synoticum by 12 dpf.",
+        "source": "https://zfin.org/ZFA:0001504"
+      },
+      {
+        "hpf": 504,
+        "text": "frontal bone ossifies (ZFIN start stage Days 21-29).",
+        "source": "https://zfin.org/ZFA:0000514"
+      },
+      {
+        "hpf": 1080,
+        "text": "ethmoid cartilage is replaced by bone (ZFIN end stage Days 30-44 for the cartilage).",
+        "source": "https://zfin.org/ZFA:0001405"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.35,
+          "width": 0.12
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "trabeculae plus ethmoid plate; scaled to a 3.1 mm embryo"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.6,
+          "width": 0.25
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "cartilaginous neurocranium of a 3.9 mm larva"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 6.5,
+          "width": 3.5,
+          "height": 3.0
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "skull of a 28 mm SL adult; head length about 0.25 SL"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#8FC1E3",
+      "light": "#2F6F9F"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0001580",
+      "https://zfin.org/ZFA:0001507",
+      "https://zfin.org/ZFA:0001405",
+      "https://zfin.org/ZFA:0000514",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.12,
+        "v": 0.1,
+        "w": 0
+      },
+      "radiiMm": [
+        0.17,
+        0.018,
+        0.06
+      ],
+      "e1": 0.6,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 42,
+          "radiiMm": [
+            0.12,
+            0.012,
+            0.04
+          ]
+        },
+        {
+          "hpf": 48,
+          "radiiMm": [
+            0.175,
+            0.018,
+            0.06
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.22,
+            0.022,
+            0.09
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.3,
+            0.03,
+            0.125
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.36,
+            0.04,
+            0.15
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.5,
+            0.06,
+            0.2
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.62,
+            0.08,
+            0.26
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.8,
+            0.12,
+            0.35
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            1.2,
+            0.25,
+            0.55
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            1.9,
+            0.5,
+            0.95
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            2.6,
+            0.7,
+            1.3
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "a flattened plate under the brain from the ethmoid plate to the occipital arch: length 350 um at 48 hpf, 600 um at 120 hpf, 6.5 mm at 28 mm SL (research 03e sizes, scaled to the reference SL)",
+        "placement u 0.12, v 0.1: the braincase floor between the brain and the pharynx (research 03e dv note); e1 0.6 flattens the plate, e2 1 keeps an elliptic plan so the snout end fits the narrowing head"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001205",
+    "name": "Meckel's cartilage",
+    "synonyms": [
+      "ventral mandibular cartilage"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001273",
+    "uiParent": "ZFA:0001216",
+    "parentRelation": "part_of",
+    "definition": "Meckel's cartilage is the bilaterally paired, rod-like, cartilaginous ventral component of the lower jaw, or ventral mandibular arch. It is typically resorbed in adults.",
+    "zfinStartStage": "ZFS:0000033",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 48.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 48.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 48,
+        "text": "mesenchymal precartilage condensation in the mandibular arch at the start of the hatching period.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 55,
+        "text": "Meckel's cartilage is present and distinct from the palatoquadrate by 55 hpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+      },
+      {
+        "hpf": 78,
+        "text": "dentary osteoblasts appear along the anterolateral surface at 78 hpf.",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/"
+      },
+      {
+        "hpf": 86,
+        "text": "chondrocytes span the mediolateral width; growth by cell intercalation.",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.09,
+          "diameter": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "condensation becoming a distinct rod by 55 hpf"
+      },
+      {
+        "hpf": 60,
+        "stageLabel": "Pec-fin",
+        "dimsMm": {
+          "length": 0.13,
+          "diameter": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.22,
+          "diameter": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "rod that spans the mediolateral width with single stacked chondrocytes; length is an estimate"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.0,
+          "diameter": 0.25
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "lower jaw of a 28 mm SL adult, largely replaced by dentary and anguloarticular bone"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#8FC1E3",
+      "light": "#2F6F9F"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0001205",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+      "https://www.facebase.org/resources/zebrafish/fishface/meckel/",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.085,
+        "v": -0.85,
+        "w": 0.28,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.045,
+        0.01,
+        0.01
+      ],
+      "e1": 1,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 60,
+          "radiiMm": [
+            0.065,
+            0.01,
+            0.01
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.08,
+            0.011,
+            0.011
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.11,
+            0.0125,
+            0.0125
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.13,
+            0.014,
+            0.014
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.19,
+            0.018,
+            0.018
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.26,
+            0.022,
+            0.022
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.36,
+            0.03,
+            0.03
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.6,
+            0.05,
+            0.05
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.95,
+            0.08,
+            0.08
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            1.3,
+            0.11,
+            0.11
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "rod length 90 um at 48, 130 at 60, 220 at 120 hpf, 3.0 mm at 28 mm SL; diameter 20 to 25 um in the larva, 250 um adult (research 03e sizes)",
+        "placement: floor of the mouth, u 0.085 (apFraction 0.06 to 0.14), v -0.85, w 0.28; the two rods run parallel because a yawed paired placement is not mirror-symmetric in the viewer (see requests)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001399",
+    "name": "palatoquadrate cartilage",
+    "synonyms": [
+      "dorsal mandibular cartilage",
+      "pterygoquadrate",
+      "quadrate cartilage"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001272",
+    "uiParent": "ZFA:0001216",
+    "parentRelation": "part_of",
+    "definition": "Cartilage that is the dorsal component of the first pharyngeal arch.  It is roughly triangular with slightly concave dorsal edges and convex ventral edges.  The anteroventral corner gives rise the quadrate and articulates with the posterior end of  Meckel's cartilage.  The anterodorsal tip articulates with the lateral edge of the ethmoid plate and the posteroventral edge articulates with the anterodorsal edge of the hyosymplectic.",
+    "zfinStartStage": "ZFS:0000033",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 48.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 48.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 55,
+        "text": "distinct element by 55 hpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+      },
+      {
+        "hpf": 72,
+        "text": "cartilage pattern of the mandibular arch complete by 72 hpf.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/"
+      },
+      {
+        "hpf": 240,
+        "text": "quadrate ossification in the perichondrium (unverified timing).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.08,
+          "height": 0.05,
+          "thickness": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.18,
+          "height": 0.1,
+          "thickness": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.5,
+          "height": 1.5,
+          "thickness": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "quadrate, autopalatine, ectopterygoid and entopterygoid bones replace it in the adult"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#8FC1E3",
+      "light": "#2F6F9F"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0001399",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.12,
+        "v": -0.55,
+        "w": 0.5,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.04,
+        0.025,
+        0.01
+      ],
+      "e1": 0.7,
+      "e2": 0.7,
+      "keyframes": [
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.06,
+            0.035,
+            0.01
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.09,
+            0.05,
+            0.0111
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.105,
+            0.06,
+            0.012
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.15,
+            0.085,
+            0.016
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.2,
+            0.11,
+            0.02
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.3,
+            0.17,
+            0.03
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.5,
+            0.3,
+            0.045
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.8,
+            0.48,
+            0.065
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            1.1,
+            0.67,
+            0.09
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "plate 80 x 50 x 20 um at 48 hpf, 180 x 100 x 20 um at 120 hpf, 2.5 x 1.5 x 0.2 mm at 28 mm SL (research 03e sizes)",
+        "placement: lateral to the pharynx between Meckel's cartilage and the ethmoid plate, u 0.12, v -0.55, w 0.5 (research 03e dv note)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001400",
+    "name": "ceratohyal cartilage",
+    "synonyms": [],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001402",
+    "uiParent": "ZFA:0001216",
+    "parentRelation": "part_of",
+    "definition": "Pharyngeal arch cartilage that is bilaterally paired and the largest cartilaginous component of the ventral hyoid arch.",
+    "zfinStartStage": "ZFS:0000033",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 48.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 48.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 55,
+        "text": "condensation of chondrogenic cells in several layers by 55 hpf.",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/"
+      },
+      {
+        "hpf": 79,
+        "text": "straightened rod by 79 hpf.",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/"
+      },
+      {
+        "hpf": 150,
+        "text": "ceratohyal bone appears in the perichondrium at 150 hpf.",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/"
+      },
+      {
+        "hpf": 516,
+        "text": "four perichondral bones almost cover the cartilage by 516 hpf.",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.09,
+          "diameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "multilayer condensation at 55 hpf"
+      },
+      {
+        "hpf": 60,
+        "stageLabel": "Pec-fin",
+        "dimsMm": {
+          "length": 0.15,
+          "diameter": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.26,
+          "diameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "dumbbell shape at 150 hpf; length is an estimate"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.5,
+          "diameter": 0.4
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#8FC1E3",
+      "light": "#2F6F9F"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0001400",
+      "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://zfin.org/ZFA:0000578"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.145,
+        "v": -0.6,
+        "w": 0.3,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.045,
+        0.015,
+        0.015
+      ],
+      "e1": 1,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 60,
+          "radiiMm": [
+            0.075,
+            0.0125,
+            0.0125
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "v": -0.62
+          },
+          "radiiMm": [
+            0.09,
+            0.013,
+            0.013
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "v": -0.7
+          },
+          "radiiMm": [
+            0.13,
+            0.015,
+            0.015
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "v": -0.85
+          },
+          "radiiMm": [
+            0.15,
+            0.017,
+            0.017
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.22,
+            0.022,
+            0.022
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.3,
+            0.028,
+            0.028
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.42,
+            0.04,
+            0.04
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.68,
+            0.06,
+            0.06
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            1.05,
+            0.11,
+            0.11
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            1.5,
+            0.16,
+            0.16
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "rod length 90 um at 48, 150 at 60, 260 at 120 hpf, 3.5 mm at 28 mm SL; diameter 25 to 30 um larva, 400 um adult (research 03e sizes)",
+        "placement: floor of the pharynx behind Meckel's cartilage, u 0.145; v -0.6 while the yolk ball fills the ventral head (48 to 72 hpf), -0.85 from 168 hpf when the yolk is gone"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001422",
+    "name": "hyosymplectic cartilage",
+    "synonyms": [
+      "hyomandibular cartilage"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001401",
+    "uiParent": "ZFA:0001216",
+    "parentRelation": "part_of",
+    "definition": "Bilaterally paired large cartilage that articulates with the chondrocranium dorsally, the opercle posteriorly, and the palatoquadrate cartilage anteriorly.",
+    "zfinStartStage": "ZFS:0000033",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 48.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 48.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 48,
+        "text": "hyoid condensation splits into a dorsal hyosymplectic and a ventral ceratohyal site.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/"
+      },
+      {
+        "hpf": 72,
+        "text": "opercle articulates with the hyosymplectic by a ball-and-socket joint from 3 dpf.",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "height": 0.08,
+          "length": 0.05,
+          "thickness": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "dorsal chondrification site of the hyoid condensation"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "height": 0.2,
+          "length": 0.12,
+          "thickness": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "height": 3.0,
+          "length": 1.5,
+          "thickness": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "hyomandibula and symplectic bones"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#8FC1E3",
+      "light": "#2F6F9F"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0001422",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.19,
+        "v": -0.25,
+        "w": 0.6,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.025,
+        0.04,
+        0.01
+      ],
+      "e1": 0.7,
+      "e2": 0.7,
+      "keyframes": [
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.04,
+            0.06,
+            0.01
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.06,
+            0.1,
+            0.0111
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.07,
+            0.12,
+            0.012
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.1,
+            0.17,
+            0.016
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.13,
+            0.22,
+            0.02
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.2,
+            0.33,
+            0.03
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.32,
+            0.55,
+            0.045
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.5,
+            0.95,
+            0.065
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.65,
+            1.3,
+            0.09
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "plate 50 x 80 x 20 um at 48 hpf, 120 x 200 x 20 um at 120 hpf, 1.5 x 3.0 x 0.2 mm at 28 mm SL (research 03e sizes)",
+        "placement: lateral head wall below the otic capsule and above the ceratohyal, u 0.19, v -0.25, w 0.6 (research 03e dv note)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000095",
+    "name": "pharyngeal arch 3-7 skeleton",
+    "synonyms": [
+      "branchial arch skeleton",
+      "gill arches 1-5 skeleton"
+    ],
+    "system": "skeletal",
+    "alsoIn": [
+      "respiratory"
+    ],
+    "zfaParent": "ZFA:0001216",
+    "uiParent": "ZFA:0001216",
+    "parentRelation": "part_of",
+    "definition": "Skeletal and cartilaginous elements of the gill arches; the last five of the set of seven pharyngeal arches; the numbering system can be confusing; generally branchial arch #1 is the first gill arch, or the third pharyngeal arch, but some authors do not follow this convention.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 48,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN start stage is 10-13 somites (14 hpf) for the arch skeleton primordia. Cartilage rods are visible from 48 to 60 hpf (research 03e).",
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 48,
+        "text": "ceratobranchial 1 and 5 cartilages appear (ZFIN start Long-pec).",
+        "source": "https://zfin.org/ZFA:0001521"
+      },
+      {
+        "hpf": 60,
+        "text": "ceratobranchials 2 to 4 appear (ZFIN start Pec-fin).",
+        "source": "https://zfin.org/ZFA:0001517"
+      },
+      {
+        "hpf": 72,
+        "text": "gill filament buds form on the four gill-bearing arches late in the hatching period.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 336,
+        "text": "ceratobranchial 1 to 4 bones ossify (ZFIN start Days 14-20).",
+        "source": "https://zfin.org/ZFA:0001237"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.06,
+          "diameter": 0.015
+        },
+        "counts": {
+          "count": 2
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0001520",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ceratobranchial 1 and 5 first (ZFIN start Long-pec)"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.15,
+          "diameter": 0.02
+        },
+        "counts": {
+          "count": 5
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0001517",
+        "estimate": true,
+        "basisSL": null,
+        "note": "all five ceratobranchials cartilaginous"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.5,
+          "diameter": 0.25
+        },
+        "counts": {
+          "count": 5
+        },
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#8FC1E3",
+      "light": "#2F6F9F"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000095",
+      "https://zfin.org/ZFA:0001516",
+      "https://zfin.org/ZFA:0001521",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "placement": {
+          "u": 0,
+          "v": -0.45,
+          "w": 0.3,
+          "pitchDeg": 15
+        },
+        "radiiMm": [
+          0.03,
+          0.0075,
+          0.0075
+        ],
+        "e1": 1,
+        "e2": 1
+      },
+      "uStart": 0.19,
+      "uEnd": 0.27,
+      "count": 2,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 60,
+          "template": {
+            "radiiMm": [
+              0.035,
+              0.008,
+              0.008
+            ],
+            "kind": "superellipsoid"
+          },
+          "count": 5
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "placement": {
+              "v": -0.5
+            },
+            "radiiMm": [
+              0.045,
+              0.009,
+              0.009
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "placement": {
+              "v": -0.6
+            },
+            "radiiMm": [
+              0.075,
+              0.01,
+              0.01
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "placement": {
+              "v": -0.75
+            },
+            "radiiMm": [
+              0.085,
+              0.011,
+              0.011
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "radiiMm": [
+              0.12,
+              0.015,
+              0.015
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "radiiMm": [
+              0.17,
+              0.02,
+              0.02
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "radiiMm": [
+              0.27,
+              0.03,
+              0.03
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "radiiMm": [
+              0.42,
+              0.05,
+              0.05
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "radiiMm": [
+              0.65,
+              0.09,
+              0.09
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "radiiMm": [
+              0.9,
+              0.12,
+              0.12
+            ],
+            "kind": "superellipsoid"
+          }
+        }
+      ],
+      "estimate": [
+        "template.placement",
+        "template.radiiMm"
+      ],
+      "sources": [
+        "count 2 at 48 hpf (ceratobranchial 1 and 5), 5 from 60 hpf (research 03e events); rods 60 um at 48, 150 um at 120 hpf, 2.5 mm at 28 mm SL",
+        "u 0.19 to 0.27 (apFraction 0.16 to 0.26 behind the ceratohyal); v -0.45 above the yolk ball at 48 to 72 hpf, -0.75 from 168 hpf; pitch 15 degrees tilts the rods postero-dorsally"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000250",
+    "name": "opercle",
+    "synonyms": [
+      "opercles"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000555",
+    "uiParent": "ZFA:0001216",
+    "parentRelation": "part_of",
+    "definition": "Dermal bone that articulates anteriorly with the hyomandibula. The opercle is paired and typically the largest bone of the opercular series.  It is derived from the neural crest and is located in 2nd pharyngeal arch.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 72,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN start stage Unknown. Kimmel et al. 2010 report first mineralization at 3 dpf (research 03e).",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 72,
+        "text": "opercle first mineralizes at 3 dpf as a linear spur.",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      },
+      {
+        "hpf": 108,
+        "text": "fan shape from 4 to 5 dpf.",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      },
+      {
+        "hpf": 312,
+        "text": "duck-like silhouette at about 13 dpf; growth 21.6 to 32.0 um/day between 13 and 19 dpf.",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 72,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "length": 0.04,
+          "width": 0.008,
+          "thickness": 0.004
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+        "estimate": true,
+        "basisSL": null,
+        "note": "small linear spur at 3 dpf"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.09,
+          "width": 0.05,
+          "thickness": 0.005
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+        "estimate": true,
+        "basisSL": null,
+        "note": "fan shape emerges at 4 to 5 dpf"
+      },
+      {
+        "hpf": 312,
+        "stageLabel": "Days 7-13",
+        "dimsMm": {
+          "length": 0.19,
+          "width": 0.13,
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+        "estimate": true,
+        "basisSL": null,
+        "note": "edge outgrowth 10.0 um/day (ventral) and 16.5 um/day (posterior) between 7 and 13 dpf"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.5,
+          "width": 3.0,
+          "thickness": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "maxillary barbel reaches the middle of the opercle"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#E9DFC4",
+      "light": "#8C7F5E"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000250",
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.22,
+        "v": -0.2,
+        "w": 0.8,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.02,
+        0.006,
+        0.003
+      ],
+      "e1": 0.6,
+      "e2": 0.6,
+      "keyframes": [
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.045,
+            0.025,
+            0.0033
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.07,
+            0.045,
+            0.004
+          ]
+        },
+        {
+          "hpf": 312,
+          "sizeRefSl": 5.129,
+          "radiiMm": [
+            0.095,
+            0.065,
+            0.005
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.1,
+            0.07,
+            0.005
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.16,
+            0.12,
+            0.007
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.25,
+            0.2,
+            0.01
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.45,
+            0.36,
+            0.02
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.85,
+            0.7,
+            0.04
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            1.15,
+            0.95,
+            0.05
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "spur 40 x 8 um at 72 hpf, fan 90 x 50 um at 120 hpf, 190 x 130 um at 312 hpf, 3.5 x 3.0 mm at 28 mm SL (research 03e sizes; Kimmel et al. 2010)",
+        "placement: lateral head wall behind the eye, u 0.22, v -0.2, w 0.8 just inside the skin; e1 e2 0.6 give the rounded trapezoid"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000184",
+    "name": "cleithrum",
+    "synonyms": [
+      "cleithra"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000407",
+    "uiParent": "ZFA:0000434",
+    "parentRelation": "part_of",
+    "definition": "Transversely oriented bone connecting the occipital region of the skull dorsally and pectoral girdle ventrally; appears near the end of embryogenesis.",
+    "zfinStartStage": "ZFS:0000032",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 42.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 42.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 42,
+        "text": "ZFIN start stage High-pec.",
+        "source": "https://zfin.org/ZFA:0000184"
+      },
+      {
+        "hpf": 72,
+        "text": "one of the earliest dermal bones with the opercle and branchiostegal ray 3 (3.4 mm NL).",
+        "source": "https://zfin.org/ZFA:0001280"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.06,
+          "diameter": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0000184",
+        "estimate": true,
+        "basisSL": null,
+        "note": "appears near the end of embryogenesis"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.25,
+          "diameter": 0.012
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pubmed.ncbi.nlm.nih.gov/29852585/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 5.0,
+          "width": 0.8,
+          "thickness": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#E9DFC4",
+      "light": "#8C7F5E"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000184",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/",
+      "https://zfin.org/ZFA:0000407"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.27,
+        "v": -0.12,
+        "w": 0.57,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.004,
+        0.03,
+        0.004
+      ],
+      "e1": 1,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 42,
+          "radiiMm": [
+            0.004,
+            0.02,
+            0.004
+          ]
+        },
+        {
+          "hpf": 48,
+          "radiiMm": [
+            0.004,
+            0.03,
+            0.004
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.005,
+            0.06,
+            0.005
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.006,
+            0.125,
+            0.006
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.007,
+            0.15,
+            0.007
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.012,
+            0.22,
+            0.012
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.018,
+            0.3,
+            0.018
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.03,
+            0.45,
+            0.03
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.045,
+            0.8,
+            0.045
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.06,
+            1.4,
+            0.06
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.08,
+            1.9,
+            0.08
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "splint 60 um long at 48 hpf, 250 um at 120 hpf, 5 mm at 28 mm SL (research 03e sizes); drawn straight because a rolled paired placement is not mirror-symmetric (see requests)",
+        "placement: posterior head boundary behind the opercle, u 0.27, v -0.12, w 0.57, the long axis dorsoventral (radii along v)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000191",
+    "name": "dentary",
+    "synonyms": [
+      "dentary bone"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000863",
+    "uiParent": "ZFA:0001216",
+    "parentRelation": "part_of",
+    "definition": "Dermal bone that forms the antero-lateral part of the lower jaw. It first appears around the anterior end of Meckel's cartilage (5.1 mm NL). In the adult, the dentary meets its counterpart anteriorly at the mandibular symphysis. The dentary abuts the retroarticular posteriorly, and it surround the anguloarticular. The dentary is connected to the maxilla by the maxillo-mandibular ligament. Dentary teeth are absent in cypriniforms, but are present in other ostariophysans.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 86,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN start stage Unknown. FishFace reports an Alizarin-red-positive dentary at 86 hpf; the ZFA definition (Cubbage and Mabee 1996) gives 5.1 mm NL (research 03e).",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 78,
+        "text": "dentary osteoblasts appear along Meckel's cartilage at 78 hpf.",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/"
+      },
+      {
+        "hpf": 86,
+        "text": "Alizarin red staining of the dentary at 86 hpf.",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/"
+      },
+      {
+        "hpf": 200,
+        "text": "Cubbage and Mabee report the dentary first at 5.1 mm NL (cited in the ZFA definition); timing differs between rearing conditions.",
+        "source": "https://zfin.org/ZFA:0000191"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 96,
+        "stageLabel": "Day 4",
+        "dimsMm": {
+          "length": 0.06,
+          "thickness": 0.005
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "single Alizarin-red splint at 86 to 96 hpf"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.1,
+          "thickness": 0.005
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.0,
+          "height": 0.8,
+          "thickness": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#E9DFC4",
+      "light": "#8C7F5E"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000191",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+      "https://www.facebase.org/resources/zebrafish/fishface/meckel/",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.06,
+        "v": -0.83,
+        "w": 0.27,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.03,
+        0.004,
+        0.004
+      ],
+      "e1": 0.8,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 86,
+          "sizeRefSl": 3.337
+        },
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "radiiMm": [
+            0.0306,
+            0.0041,
+            0.0041
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.05,
+            0.005,
+            0.005
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.065,
+            0.007,
+            0.006
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.11,
+            0.015,
+            0.01
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.17,
+            0.025,
+            0.014
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.28,
+            0.045,
+            0.02
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.45,
+            0.09,
+            0.025
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.75,
+            0.15,
+            0.035
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            1,
+            0.2,
+            0.045
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "splint 60 um at 96 hpf, 100 um at 120 hpf, 3.0 x 0.8 x 0.1 mm at 28 mm SL (research 03e sizes)",
+        "placement: lateral to the anterior half of Meckel's cartilage, u 0.06, v -0.83, w 0.27"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000270",
+    "name": "maxilla",
+    "synonyms": [
+      "maxillae"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000863",
+    "uiParent": "ZFA:0001216",
+    "parentRelation": "part_of",
+    "definition": "The dermal maxilla forms part of the upper jaw. It is first visible as a small dorsoventrally oriented rod of bone in the lateral region of the upper jaw. Through anterior ossification it becomes S-shaped, with its anteriormost tip directed medially (4.8 mm NL). The posteroventral end of the maxilla is connected to the dentary by a ligament. Maxillary teeth are absent in cypriniforms, but are present in other ostariophysans. Two barbels are present on the maxilla. The presence of two pairs of maxillary barbels is considered by Cavender and Coburn (1992) to be the primitive condition for the Cyprinidae.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 200,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN start stage Unknown. The ZFA definition gives 4.8 mm NL, which the growth table places in Days 7-13 (about 200 hpf) (research 03e).",
+    "fadeInHpf": 8.4,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 200,
+        "text": "first visible as a small dorsoventral rod at 4.8 mm NL (about 4.5 mm TL is reached at days 7-13).",
+        "source": "https://zfin.org/ZFA:0000270"
+      },
+      {
+        "hpf": 260,
+        "text": "premaxilla appears anterior to the maxilla at 5.7 mm.",
+        "source": "https://zfin.org/ZFA:0000567"
+      },
+      {
+        "hpf": 720,
+        "text": "maxillary barbel bud forms at the posteroventral corner at 30 to 40 dpf.",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 200,
+        "stageLabel": "Days 7-13",
+        "dimsMm": {
+          "length": 0.08,
+          "diameter": 0.01
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0000270",
+        "estimate": true,
+        "basisSL": null,
+        "note": "first visible at 4.8 mm NL"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.2,
+          "diameter": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#E9DFC4",
+      "light": "#8C7F5E"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000270",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/",
+      "https://zfin.org/ZFA:0000567",
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737",
+      "https://zfin.org/zf_info/zfbook/stages/index.html"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.05,
+        "v": -0.35,
+        "w": 0.4,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.005,
+        0.04,
+        0.005
+      ],
+      "e1": 1,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 200,
+          "sizeRefSl": 4.329
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.006,
+            0.07,
+            0.006
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.01,
+            0.12,
+            0.01
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.02,
+            0.22,
+            0.02
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.03,
+            0.34,
+            0.03
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.05,
+            0.52,
+            0.05
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.07,
+            0.7,
+            0.07
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "rod 80 x 10 um at 200 hpf (4.8 mm NL), 2.2 x 0.2 mm at 28 mm SL (research 03e sizes); the S-bend is not modelled",
+        "placement: upper lip lateral to the mouth and below the eye, u 0.05, v -0.35, w 0.4, long axis dorsoventral"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001189",
+    "name": "vertebra",
+    "synonyms": [
+      "vertebrae"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001559",
+    "uiParent": "ZFA:0000434",
+    "parentRelation": "part_of",
+    "definition": "All serially repeated ossified, cartilaginous, and ligamentous elements around the notochord (Schultze and Arratia, 1988).  Adult zebrafish usually 32 vertebrae but may have as few as 30 to as many as 33 vertebrae.",
+    "zfinStartStage": "ZFS:0000035",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 72.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 120,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA starts the vertebra at Protruding-mouth (72 hpf); the first mineralized centra appear at 4.0 mm TL, about 120 hpf on the growth table (Bensimon-Brito et al. 2012, research 03e).",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 72,
+        "text": "ZFIN start stage Protruding-mouth for vertebra and centrum.",
+        "source": "https://zfin.org/ZFA:0000126"
+      },
+      {
+        "hpf": 120,
+        "text": "first mineralized centra (3 and 4) at 4.0 mm TL, anterior-to-posterior.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+      },
+      {
+        "hpf": 132,
+        "text": "centrum 5, then 1 and 2, at 4.4 mm TL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+      },
+      {
+        "hpf": 220,
+        "text": "caudal fin centra start with U1 of the compound centrum at 5.5 mm TL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+      },
+      {
+        "hpf": 388,
+        "text": "Last centrum (PU2) mineralized at 6.7 mm TL; the column is complete.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/",
+        "estimate": true
+      },
+      {
+        "hpf": 400,
+        "text": "PU2 is the last centrum, at 6.7 mm TL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.1,
+          "diameter": 0.06
+        },
+        "counts": {
+          "count": 3
+        },
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "centra 3 and 4 mineralize at 4.0 mm TL; 5 then 1 and 2 by 4.4 mm TL"
+      },
+      {
+        "hpf": 400,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.18,
+          "diameter": 0.12
+        },
+        "counts": {
+          "count": 30
+        },
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "PU2 is the last centrum to form at 6.7 mm TL"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.7,
+          "diameter": 0.5
+        },
+        "counts": {
+          "count": 32
+        },
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "about 22 mm of column in a 28 mm SL fish; 31-32 vertebrae per FishBase, mode 32 (30-33) per ZFA, mode 33 per Bensimon-Brito"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#E9DFC4",
+      "light": "#8C7F5E"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0001189",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/",
+      "https://pubmed.ncbi.nlm.nih.gov/14579374/",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0001559"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "placement": {
+          "u": 0,
+          "v": 0,
+          "w": 0
+        },
+        "radiiMm": [
+          0.036,
+          0.04,
+          0.04
+        ],
+        "e1": 0.5,
+        "e2": 1
+      },
+      "uStart": 0.27,
+      "uEnd": 0.313,
+      "count": 2,
+      "mirror": false,
+      "keyframes": [
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6
+        },
+        {
+          "hpf": 132,
+          "sizeRefSl": 3.725,
+          "template": {
+            "radiiMm": [
+              0.038,
+              0.042,
+              0.042
+            ],
+            "kind": "superellipsoid"
+          },
+          "uEnd": 0.3775,
+          "count": 5
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "radiiMm": [
+              0.041,
+              0.045,
+              0.045
+            ],
+            "kind": "superellipsoid"
+          },
+          "uEnd": 0.4635,
+          "count": 9
+        },
+        {
+          "hpf": 240,
+          "sizeRefSl": 4.614,
+          "template": {
+            "radiiMm": [
+              0.046,
+              0.05,
+              0.05
+            ],
+            "kind": "superellipsoid"
+          },
+          "uEnd": 0.614,
+          "count": 16
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "radiiMm": [
+              0.051,
+              0.045,
+              0.045
+            ],
+            "kind": "superellipsoid"
+          },
+          "uEnd": 0.829,
+          "count": 26
+        },
+        {
+          "hpf": 388,
+          "sizeRefSl": 5.671,
+          "template": {
+            "radiiMm": [
+              0.056,
+              0.048,
+              0.048
+            ],
+            "kind": "superellipsoid"
+          },
+          "uEnd": 0.9365,
+          "count": 31
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "radiiMm": [
+              0.063,
+              0.055,
+              0.055
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "radiiMm": [
+              0.079,
+              0.075,
+              0.075
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "radiiMm": [
+              0.116,
+              0.11,
+              0.11
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "radiiMm": [
+              0.174,
+              0.18,
+              0.18
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "radiiMm": [
+              0.242,
+              0.26,
+              0.26
+            ],
+            "kind": "superellipsoid"
+          }
+        }
+      ],
+      "estimate": [
+        "template.radiiMm",
+        "count at 132 and 240 hpf"
+      ],
+      "sources": [
+        "count: centra 3 and 4 mineralize at 4.0 mm TL (about 120 hpf on the growth table), 5 then 1 and 2 by 4.4 mm TL, PU2 last at 6.7 mm TL (about 388 hpf); 31 centra (Bird and Mabee 2003; Bensimon-Brito et al. 2012, research 03e)",
+        "uEnd = 0.27 + 0.0215 x count keeps the pitch fixed while the column ossifies from anterior to posterior; the column spans u 0.27 (occiput) to 0.937 (the compound centrum), inside the caudal peduncle",
+        "centrum length 0.9 x pitch (100 um at 120 hpf, 700 um adult); diameter 80 um at 120 hpf growing to 520 um at 25 mm SL, sized to the caudal peduncle because every centrum shares one size (research 03e sizes, estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000538",
+    "name": "rib",
+    "synonyms": [
+      "dorsal rib",
+      "pleural rib"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001582",
+    "uiParent": "ZFA:0001189",
+    "parentRelation": "part_of",
+    "definition": "Endochondral bone that is intersegmental and rod-shaped, forming in the peritoneal membrane and attached to the vertebral parapophyses. Ribs protect and support internal organs.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 600,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN start stage Unknown. Rib onset is an estimate (about 6 to 7 mm SL, 600 hpf); ribs are absent from the 5 dpf larva (Bird and Mabee 2003, research 03e).",
+    "fadeInHpf": 10.8,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 600,
+        "text": "ribs ossify after the centra during the late larval period (sequence from Bird and Mabee 2003 Dev Dyn 228:337-357, PMID 14579374; the paper has no open-access copy and the hour is an estimate).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/14579374/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 600,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 0.9,
+          "diameter": 0.03
+        },
+        "counts": {
+          "count": 10
+        },
+        "anglesDeg": {},
+        "source": "https://pubmed.ncbi.nlm.nih.gov/14579374/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "onset not verified; ribs are absent from the 5 dpf larva"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.5,
+          "diameter": 0.12
+        },
+        "counts": {
+          "count": 10
+        },
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#E9DFC4",
+      "light": "#8C7F5E"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000538",
+      "https://pubmed.ncbi.nlm.nih.gov/14579374/",
+      "https://zfin.org/ZFA:0001582"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "placement": {
+          "u": 0,
+          "v": -0.42,
+          "w": 0.52,
+          "pitchDeg": 35
+        },
+        "radiiMm": [
+          0.02,
+          0.325,
+          0.02
+        ],
+        "e1": 1,
+        "e2": 1
+      },
+      "uStart": 0.36,
+      "uEnd": 0.58,
+      "count": 10,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 600,
+          "sizeRefSl": 7.256
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "radiiMm": [
+              0.025,
+              0.375,
+              0.025
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "radiiMm": [
+              0.04,
+              0.6,
+              0.04
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "radiiMm": [
+              0.06,
+              0.9375,
+              0.06
+            ],
+            "kind": "superellipsoid"
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "radiiMm": [
+              0.08,
+              1.25,
+              0.08
+            ],
+            "kind": "superellipsoid"
+          }
+        }
+      ],
+      "estimate": [
+        "template.placement",
+        "template.radiiMm"
+      ],
+      "sources": [
+        "ten pairs on vertebrae 5 to 14 (u 0.36 to 0.58 of the vertebral pitch); rod length about 45 percent of the body depth, diameter 30 um at onset and 120 um adult (research 03e sizes)",
+        "template placement v -0.3, w 0.7, pitch 35 degrees (review R09): the rod starts at the parapophysis level, lies against the lateral body wall outside the swim bladder's width and runs posteroventrally; a pleural rib also curves ventromedially around the coelom (Bird and Mabee 2003), which needs a mirror-aware roll or a curved template in segmentArray (see requests); the length is 0.7 of the local ventral half-height so the tip stays inside the skin",
+        "Phase 2 visual calibration (VR-16): the rod is 1.25 times longer and its centre moves to v -0.42, w 0.52, so the tip reaches about 0.76 of the local ventral half-height and the pair encloses the abdominal cavity instead of stopping at two thirds of it. The tip stays inside the flank at that depth; a rib that follows the body wall to 0.85 of hV needs a curved template (see requests)."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001188",
+    "name": "Weberian apparatus",
+    "synonyms": [],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001559",
+    "uiParent": "ZFA:0001189",
+    "parentRelation": "part_of",
+    "definition": "The Weberian apparatus consists of the modified anteriormost four vertebrae and associated structures of otophysans which transduce sound or pressure waves from the tunica externa of the swim bladder to the inner ear (Alexander, 1962).",
+    "zfinStartStage": "ZFS:0000039",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 168.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 168.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 8.4,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 168,
+        "text": "ZFIN start stage Days 7-13.",
+        "source": "https://zfin.org/ZFA:0001188"
+      },
+      {
+        "hpf": 200,
+        "text": "tripus differentiates first, then intercalarium and scaphium; claustrum last (unverified order from Grande and Young 2004).",
+        "source": "https://academic.oup.com/zoolinnean/article/140/2/241/2624252"
+      },
+      {
+        "hpf": 336,
+        "text": "Weberian vertebrae 1-4 and post-Weberian supraneural ossify (ZFIN start Days 14-20 for supraneural).",
+        "source": "https://zfin.org/ZFA:0001397"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 168,
+        "stageLabel": "Days 7-13",
+        "dimsMm": {
+          "length": 0.4,
+          "width": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0001188",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start Days 7-13; ossicles chondrify in larvae of 3 to 28 mm TL series"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.8,
+          "width": 1.5,
+          "height": 1.5
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://academic.oup.com/zoolinnean/article/140/2/241/2624252",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#E9DFC4",
+      "light": "#8C7F5E"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0001188",
+      "https://academic.oup.com/zoolinnean/article/140/2/241/2624252",
+      "https://pubmed.ncbi.nlm.nih.gov/14579374/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 0.29,
+        "v": 0.12,
+        "w": 0.35,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.08,
+        0.03,
+        0.02
+      ],
+      "keyframes": [
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.12,
+            0.04,
+            0.03
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.15,
+            0.055,
+            0.035
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.22,
+            0.08,
+            0.05
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.35,
+            0.13,
+            0.08
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.55,
+            0.2,
+            0.12
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.75,
+            0.28,
+            0.17
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "ossicle chain 400 x 200 um at 168 hpf, 2.8 x 1.5 x 1.5 mm at 28 mm SL (research 03e sizes); drawn as one bead per side beside the first four centra",
+        "placement: dorsal to the anterior chamber of the swim bladder behind the skull, u 0.29, v 0.12, w 0.35"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000364",
+    "name": "hypural",
+    "synonyms": [
+      "hyp",
+      "hypuralia",
+      "hypurals"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000862",
+    "uiParent": "ZFA:0000434",
+    "parentRelation": "part_of",
+    "definition": "Expanded and laterally flattened hemal arches and spines. They support the lepidotrichia of the caudal fin. The hypurals form ventral to the posterior tip of the dorsally-flexed notochord. In zebrafish condensation of the hypurals begins at approximately 6 dpf (4.1 mm NL, notochord length).",
+    "zfinStartStage": "ZFS:0000036",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 96.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 96.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 96,
+        "text": "hypural 1 (ZFIN start Day 4); condensation of hypurals at about 6 dpf, 4.1 mm NL.",
+        "source": "https://zfin.org/ZFA:0000364"
+      },
+      {
+        "hpf": 120,
+        "text": "hypural 2 (ZFIN start Day 5).",
+        "source": "https://zfin.org/ZFA:0001561"
+      },
+      {
+        "hpf": 144,
+        "text": "hypural 3 (ZFIN start Day 6).",
+        "source": "https://zfin.org/ZFA:0001562"
+      },
+      {
+        "hpf": 168,
+        "text": "hypural 4 and 5 (ZFIN start Days 7-13).",
+        "source": "https://zfin.org/ZFA:0001563"
+      },
+      {
+        "hpf": 220,
+        "text": "notochord flexion from 4.5 to 6.5 mm SL, final angle about 45 degrees.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.08,
+          "width": 0.03,
+          "thickness": 0.015
+        },
+        "counts": {
+          "count": 2
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0000364",
+        "estimate": true,
+        "basisSL": null,
+        "note": "hypural 1 and 2 condensations (ZFIN start Day 4 and Day 5; 4.1 mm NL)"
+      },
+      {
+        "hpf": 400,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.4,
+          "width": 0.15
+        },
+        "counts": {
+          "count": 5
+        },
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.5,
+          "width": 0.9,
+          "thickness": 0.15
+        },
+        "counts": {
+          "count": 5
+        },
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#8FC1E3",
+      "light": "#2F6F9F"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000364",
+      "https://zfin.org/ZFA:0000862",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.96,
+        "v": -0.15,
+        "w": 0,
+        "pitchDeg": -25
+      },
+      "radiiMm": [
+        0.04,
+        0.012,
+        0.008
+      ],
+      "e1": 0.6,
+      "e2": 0.8,
+      "keyframes": [
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.0424,
+            0.015,
+            0.0085
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.06,
+            0.02,
+            0.01
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.14,
+            0.04,
+            0.015
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.19,
+            0.06,
+            0.02
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.26,
+            0.1,
+            0.03
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.36,
+            0.17,
+            0.045
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.52,
+            0.3,
+            0.06
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.7,
+            0.45,
+            0.08
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "hypural 1 and 2 condensations 80 x 30 um at 120 hpf, the five-plate fan 400 x 150 um at 400 hpf and 2.5 x 0.9 mm at 28 mm SL (research 03e sizes); one plate stands for the fan, its height held to about 0.8 of the peduncle half-height at every stage",
+        "placement: ventral to the notochord tip inside the caudal fin base, u 0.96, v -0.15, pitch -25 degrees (posteroventral)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000407",
+    "name": "pectoral girdle",
+    "synonyms": [
+      "pectoral girdles"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000943",
+    "uiParent": "ZFA:0000434",
+    "parentRelation": "part_of",
+    "definition": "Anatomical cluster of paired dermal and endochondral bones that attaches to the dorso-posterior part of the cranium, and support the radials and pectoral fin. It consists of two components: the primary pectoral girdle consisting of the endochondral coracoid, scapula and mesocoracoid bones, and the secondary pectoral girdle consisting of the dermal posttemporal, supracleithrum, cleithrum and poscleithrum(thra) bones.",
+    "zfinStartStage": "ZFS:0000032",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 42.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 42.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 42,
+        "text": "ZFA start stage High-pec: mesenchymal condensation of the girdle in the fin bud.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 96,
+        "text": "Endochondral disc formed proximal to the fin membrane by about 4 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      },
+      {
+        "hpf": 336,
+        "text": "The disc is remodeled into the scapulocoracoid and 4 proximal radials over the following weeks.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+      }
+    ],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000407",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.28,
+        "v": -0.3,
+        "w": 0.7,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.02,
+        0.02,
+        0.006
+      ],
+      "e1": 0.8,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 42
+        },
+        {
+          "hpf": 48,
+          "radiiMm": [
+            0.03,
+            0.03,
+            0.008
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.045,
+            0.04,
+            0.009
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.06,
+            0.05,
+            0.01
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.07,
+            0.06,
+            0.012
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.11,
+            0.09,
+            0.02
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.15,
+            0.12,
+            0.025
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.25,
+            0.2,
+            0.04
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.4,
+            0.33,
+            0.07
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.6,
+            0.5,
+            0.1
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.8,
+            0.7,
+            0.13
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "the endoskeletal disc of the fin base: about the width of the fin bud at 48 hpf (60 um), the scapulocoracoid plate of the adult about 1.6 x 1.4 mm (estimate from the pectoral fin base width, research 03e pectoral fin record)",
+        "placement: ventrolateral body wall at the fin base behind the opercle, u 0.28, v -0.3, w 0.7"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000565",
+    "name": "pelvic girdle",
+    "synonyms": [
+      "pelvic girdles"
+    ],
+    "system": "skeletal",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001387",
+    "uiParent": "ZFA:0000434",
+    "parentRelation": "part_of",
+    "definition": "Anatomical cluster that consists of the paired basipterygia which support the pelvic fin.",
+    "zfinStartStage": "ZFS:0000041",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 504.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 682,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA starts the pelvic girdle at Days 21-29 (504 hpf); the basipterygium cartilages are present at 7.9 mm SL, 682 hpf on the growth table (ZFA:0001539; research 03e).",
+    "fadeInHpf": 10.8,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 682,
+        "text": "Basipterygium cartilages present at 7.9 mm SL.",
+        "source": "https://zfin.org/ZFA:0001539"
+      },
+      {
+        "hpf": 758,
+        "text": "Pelvic fin rays appear at 8.5 to 8.7 mm SL on the girdle.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000565",
+      "https://zfin.org/ZFA:0001539",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.49,
+        "v": -0.9,
+        "w": 0.25,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.15,
+        0.02,
+        0.03
+      ],
+      "e1": 0.8,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 682,
+          "sizeRefSl": 7.901
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.17,
+            0.025,
+            0.035
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.3,
+            0.04,
+            0.06
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.5,
+            0.07,
+            0.1
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.7,
+            0.1,
+            0.14
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "basipterygium rods about 0.3 mm long at 7.9 mm SL, 1.4 mm in the adult (estimate; research 03e pelvic fin notes)",
+        "placement: ventral body wall just anterior to the pelvic fin base, u 0.49, v -0.9, w 0.25"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000113",
+    "name": "head mesenchyme",
+    "synonyms": [],
+    "system": "skeletal",
+    "alsoIn": [
+      "muscular"
+    ],
+    "zfaParent": "ZFA:0000393",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "Mesoderm that will give rise, along with cranial neural crest cells, to connective tissue, bone and musculature in the head.",
+    "zfinStartStage": "ZFS:0000023",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 10.33,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 14.0,
+    "modelEndHpf": 72.0,
+    "overrideNote": "The ZFA window runs from 1-4 somites to adult. The model draws the loose cell population only: it starts at 14 hpf, when the head has a shape to fill, and stops at 72 hpf, when the neurocranium, the pharyngeal cartilages and the jaw muscles of the skeletal and muscular records occupy the same space and the mesenchyme no longer reads as a region of its own.",
+    "fadeInHpf": 1.0,
+    "fadeOutHpf": 6.0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.33,
+        "text": "ZFIN start stage Segmentation:1-4 somites.",
+        "source": "https://zfin.org/ZFA:0000113"
+      },
+      {
+        "hpf": 24.0,
+        "text": "The mesenchyme fills the head between the brain, the eyes and the pharyngeal arches.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true
+      },
+      {
+        "hpf": 72.0,
+        "text": "Model end: the pharyngeal cartilages and the jaw muscles have condensed out of it.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+        "estimate": true
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.213,
+          "height": 0.142,
+          "width": 0.131
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; the region is scaled from the 2.05 mm axis of the body model and sits inside the head profile behind the eye record ZFA:0000107",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.302,
+          "height": 0.223,
+          "width": 0.186
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; scaled from the 2.90 mm axis of the body model",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000113",
+      "data/zfin/zfa.obo ZFA:0000113 (def, is_a ZFA:0000393 mesenchyme, start ZFS:0000023, end ZFS:0000044)",
+      "docs/research/11-zebrahub-celltype-crosswalk.md section 5 item 3: head mesenchyme was the one Zebrahub label with no modeled ancestor at any distance.",
+      "D5 and the ZFA is_a chain: head mesenchyme is_a ZFA:0000393 mesenchyme, not an axial structure; the ZFA definition names the connective tissue, bone and musculature of the head, so the record sits in skeletal and also lists muscular (crosswalk section 5 item 3)."
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.155,
+        "v": -0.04,
+        "w": 0.5,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.06536,
+        {
+          "value": 0.2,
+          "unit": "bodyHeightFraction"
+        },
+        0.04022
+      ],
+      "e1": 1.1,
+      "e2": 1.1,
+      "keyframes": [
+        {
+          "hpf": 14.0,
+          "placement": {
+            "u": 0.155,
+            "v": -0.04,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.06536,
+            {
+              "value": 0.2,
+              "unit": "bodyHeightFraction"
+            },
+            0.04022
+          ],
+          "e1": 1.1,
+          "e2": 1.1
+        },
+        {
+          "hpf": 16.0,
+          "placement": {
+            "u": 0.155,
+            "v": -0.04,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.07186,
+            {
+              "value": 0.2,
+              "unit": "bodyHeightFraction"
+            },
+            0.04422
+          ],
+          "e1": 1.1,
+          "e2": 1.1
+        },
+        {
+          "hpf": 19.0,
+          "placement": {
+            "u": 0.155,
+            "v": -0.04,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0936,
+            {
+              "value": 0.2,
+              "unit": "bodyHeightFraction"
+            },
+            0.0576
+          ],
+          "e1": 1.1,
+          "e2": 1.1
+        },
+        {
+          "hpf": 24.0,
+          "placement": {
+            "u": 0.155,
+            "v": -0.04,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1066,
+            {
+              "value": 0.2,
+              "unit": "bodyHeightFraction"
+            },
+            0.0656
+          ],
+          "e1": 1.1,
+          "e2": 1.1
+        },
+        {
+          "hpf": 30.0,
+          "placement": {
+            "u": 0.155,
+            "v": -0.04,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1274,
+            {
+              "value": 0.2,
+              "unit": "bodyHeightFraction"
+            },
+            0.0784
+          ],
+          "e1": 1.1,
+          "e2": 1.1
+        },
+        {
+          "hpf": 36.0,
+          "placement": {
+            "u": 0.155,
+            "v": -0.04,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1378,
+            {
+              "value": 0.2,
+              "unit": "bodyHeightFraction"
+            },
+            0.0848
+          ],
+          "e1": 1.1,
+          "e2": 1.1
+        },
+        {
+          "hpf": 48.0,
+          "placement": {
+            "u": 0.155,
+            "v": -0.04,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1508,
+            {
+              "value": 0.2,
+              "unit": "bodyHeightFraction"
+            },
+            0.0928
+          ],
+          "e1": 1.1,
+          "e2": 1.1
+        },
+        {
+          "hpf": 72.0,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.155,
+            "v": -0.04,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.169,
+            {
+              "value": 0.2,
+              "unit": "bodyHeightFraction"
+            },
+            0.104
+          ],
+          "e1": 1.1,
+          "e2": 1.1
+        }
+      ],
+      "lodHint": "low",
+      "estimate": [
+        "radiiMm",
+        "placement"
+      ],
+      "sources": [
+        "A paired soft region, not an organ: one mirrored superellipsoid at u 0.155, v -0.04 and w 0.50, behind and below the eye record (u 0.07 to 0.10, w 0.85) and in front of the otic vesicle (u 0.22, w 0.75), so it fills the head between the brain above, the eyes in front and the pharyngeal arches below.",
+        "The half-length and half-width follow the axis length of the body model (0.052 and 0.032 of it) and the half-height is 0.20 of the local body height; the exponents 1.1 round the corners so the region reads as loose tissue rather than a block. Every number is an estimate."
+      ]
+    }
+  }
+]

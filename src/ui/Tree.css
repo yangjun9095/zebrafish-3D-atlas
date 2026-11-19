@@ -1,0 +1,34 @@
+/* Hierarchy tree (spec 5.3.2, UX-LY-05, UX-AC-02): 28 px rows, 16 px indent per level, chevron, swatch, name, count, eye. */
+.tree-head { display: flex; align-items: center; gap: 8px; min-height: 36px; padding: 4px 12px 0 16px; }
+.tree-title { flex: 1; margin: 0; color: var(--text-muted); font: 500 11px/1.2 var(--font-sans); text-transform: uppercase; letter-spacing: 0.04em; }
+.tree-filter { display: inline-flex; align-items: center; gap: 6px; color: var(--text); font: 500 12px/1.2 var(--font-sans); cursor: pointer; white-space: nowrap; }
+.tree-filter input { width: 14px; height: 14px; margin: 0; accent-color: var(--accent); }
+.tree, .tree ul { margin: 0; padding: 0; list-style: none; }
+.tree { padding: 4px 8px 8px; }
+.tree-item { outline: none; }
+.tree-row {
+  display: flex; align-items: center; gap: 6px; height: 28px; padding: 0 2px 0 calc(2px + (var(--level) - 1) * 16px);
+  border-radius: 6px; cursor: default; color: var(--text); font: 500 13px/1.4 var(--font-sans);
+}
+.tree-sys > .tree-row .tree-name { font-weight: 600; }
+.tree-item:focus-visible > .tree-row { outline: 2px solid var(--focus); outline-offset: -2px; }
+.tree-row:hover { background: color-mix(in srgb, var(--surface-2), var(--text) 4%); }
+.tree-item[aria-selected="true"] > .tree-row { background: var(--surface-2); box-shadow: inset 2px 0 0 var(--accent); }
+/* 44 px targets (UX-AC-10) that take 24 px of the 28 px row: the negative margins hold the layout. */
+.tree-chevron, .tree-eye {
+  position: relative; flex: none; display: grid; place-items: center; width: 44px; height: 44px; margin: -8px -10px; padding: 0;
+  border: 0; border-radius: 4px; background: transparent; color: var(--text-muted); cursor: pointer;
+}
+.tree-chevron svg, .tree-eye svg { width: 16px; height: 16px; }
+.tree-chevron[data-leaf="true"] { visibility: hidden; }
+.tree-chevron:focus-visible, .tree-eye:focus-visible { outline: 2px solid var(--focus); outline-offset: -1px; }
+.tree-eye:disabled { opacity: 0.3; cursor: default; }
+.tree-swatch { flex: none; width: 8px; height: 8px; border-radius: 2px; box-sizing: border-box; }
+.tree-sys > .tree-row .tree-swatch { width: 10px; height: 10px; border-radius: 50%; }
+.tree-swatch[data-group="true"] { background: transparent !important; border: 1.5px dashed var(--swatch); }
+.tree-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tree-row[data-present="false"] .tree-name, .tree-row[data-present="false"] .tree-swatch { opacity: 0.45; }
+.tree-row[data-hidden="true"] .tree-name { text-decoration: line-through; opacity: 0.6; }
+.tree-clock { flex: none; width: 14px; height: 14px; color: var(--text-muted); }
+.tree-row .badge { flex: none; }
+.tree-empty { margin: 0; padding: 12px 16px; color: var(--text-muted); font: 400 12px/1.4 var(--font-sans); }

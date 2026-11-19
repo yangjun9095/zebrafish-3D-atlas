@@ -1,0 +1,2872 @@
+[
+  {
+    "id": "ZFA:0000091",
+    "name": "axial chorda mesoderm",
+    "synonyms": [
+      "presumptive notochord",
+      "chordamesoderm",
+      "chorda mesoderm"
+    ],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001204",
+    "uiParent": "ZFA:0000092",
+    "parentRelation": "part_of",
+    "definition": "Notochord rudiment.",
+    "zfinStartStage": "ZFS:0000020",
+    "zfinEndStage": "ZFS:0000022",
+    "startHpf": 8,
+    "endHpf": 10.33,
+    "visibleFromHpf": 8,
+    "modelEndHpf": 10.33,
+    "overrideNote": null,
+    "fadeInHpf": 0.05,
+    "fadeOutHpf": 0.33,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 8,
+        "text": "ZFA start of the term (75 percent epiboly): the rudiment is visible in the dorsal hypoblast.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 9,
+        "text": "The rudiment is distinct along the dorsal midline at 90 percent epiboly.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10,
+        "text": "The notochord term starts at bud; the rudiment record fades out over 10 to 10.33 hpf as the notochord fades in.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10.33,
+        "text": "ZFA end of the term.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 8,
+        "stageLabel": "75%-epiboly",
+        "dimsMm": {
+          "length": 0.8,
+          "diameter": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      },
+      {
+        "hpf": 10,
+        "stageLabel": "Bud",
+        "dimsMm": {
+          "length": 1.5,
+          "diameter": 0.045
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000091",
+      "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "research 03a axial chorda mesoderm record"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "taperFromU": 0.9,
+      "keyframes": [
+        {
+          "hpf": 8,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 1,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.02,
+            "r1Mm": 0.015
+          }
+        },
+        {
+          "hpf": 9,
+          "path": {
+            "type": "spine",
+            "uStart": 0.22,
+            "uEnd": 1,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0215,
+            "r1Mm": 0.015
+          }
+        },
+        {
+          "hpf": 10,
+          "path": {
+            "type": "spine",
+            "uStart": 0.15,
+            "uEnd": 1,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0225,
+            "r1Mm": 0.015
+          }
+        },
+        {
+          "hpf": 10.33,
+          "path": {
+            "type": "spine",
+            "uStart": 0.15,
+            "uEnd": 1,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0225,
+            "r1Mm": 0.015
+          }
+        }
+      ],
+      "estimate": [
+        "path",
+        "radiusMm"
+      ],
+      "sources": [
+        "a rod 40 to 45 um across in the dorsal hypoblast from behind the prechordal plate (u 0.3 at 8 hpf, 0.22 at 9 hpf, 0.15 at bud, the notochord uStart) to the margin (u 1); v -0.4 puts its axis 12 um inside the mid-shell spine, in the hypoblast layer, so the rod rises above the blastoderm as the axis thickening (research 03a sizes, estimates; BG-12: the R1 spine is the presumptive axis on the dorsal meridian)",
+        "the notochord record ZFA:0000135 continues the same rod from 10 hpf with the same radii; the two cross-fade over 10 to 10.33 hpf"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000135",
+    "name": "notochord",
+    "synonyms": [
+      "notocord"
+    ],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000091",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "develops_from",
+    "definition": "Rod-like principal supportive element of the embryo and larva, present in the midline just ventral to the neural tube, and differentiating during the segmentation period to form large vacuolated epithelial cells and a surrounding sheath of fibrous and elastic layers. Layering of the sheath may differ in structure, thickness and development among groups; in cypriniforms there are actually three very thin layers to the sheath. A functional, well developed notochord is present throughout life in certain basal fish groups but not in cypriniforms.",
+    "zfinStartStage": "ZFS:0000022",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 10,
+    "endHpf": 17520,
+    "visibleFromHpf": 10,
+    "modelEndHpf": 4320,
+    "overrideNote": "DM-36: the axis end is a clamp; ZFA carries the notochord to the adult stage. The record fades in over 10 to 10.33 hpf as the axial chorda mesoderm ZFA:0000091 (its own record) fades out. The drawn rod stops at 2160 hpf (geometryEndHpf), the end of the juvenile period on the ZFS stage table; the record runs on to 4320 hpf as a card. ZFA states that a functional, well developed notochord is present throughout life in certain basal fish groups but not in cypriniforms, and the zebrafish is a cypriniform. Notochord flexion runs over 4.5 to 6.5 mm SL (Parichy et al. 2009), the centra mineralize from 4.0 mm TL and the column is complete at 6.7 mm TL (the vertebra record ZFA:0001189); from there the notochord persists only as small remnants pinched between the centra. The model draws no remnants: a tube draws one continuous rod, and beads or a profile that thins between the centra need a per-station radius the geometry schema does not carry.",
+    "fadeInHpf": 0.33,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 8,
+        "text": "The axial chorda mesoderm (notochord rudiment) is visible on the dorsal midline of the gastrula.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10,
+        "text": "ZFA start of the notochord term (bud); the rod runs from under the midbrain to the tail bud.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 16,
+        "text": "Stack-of-pennies appearance of the notochord cells (14-19 somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24,
+        "text": "Vacuolated cells inflate during the pharyngula period.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 96,
+        "text": "Sheath segmentation begins at about 4 dpf (3.5 to 4.0 mm SL), one segment every 8 h.",
+        "source": "https://elifesciences.org/articles/33843",
+        "estimate": true
+      },
+      {
+        "hpf": 144,
+        "text": "First chordacentrum mineralizes anteriorly at 6 dpf; then about 1.5 segments per day.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5860813/"
+      },
+      {
+        "hpf": 224,
+        "text": "Notochord flexion begins (4.5 mm SL).",
+        "source": "Parichy et al. 2009 Dev Dyn 238:2975-3015 https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true
+      },
+      {
+        "hpf": 504,
+        "text": "Notochord flexion complete (6.5 mm SL, D8).",
+        "source": "Parichy et al. 2009 Dev Dyn 238:2975-3015 https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "text": "The model stops drawing the rod here, at the end of the juvenile period. ZFA states that a well developed notochord persists through life in certain basal fish groups but not in cypriniforms: in the adult zebrafish the centra pinch it to small intervertebral remnants, which this model cannot draw. The record stays as a card.",
+        "source": "https://zfin.org/ZFA:0000135"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 10,
+        "stageLabel": "Bud",
+        "dimsMm": {
+          "length": 1.5,
+          "diameter": 0.045
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a (estimate)",
+        "estimate": true,
+        "note": "rod along the dorsal meridian"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.7,
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a (estimate)",
+        "estimate": true,
+        "note": "trunk diameter estimate; body EL 1.9 mm"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 2.8,
+          "diameter": 0.055
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a (estimate)",
+        "estimate": true,
+        "note": "vacuolated; notochord to cell diameter ratio 1.33 (Norman 2018)"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 3.5,
+          "diameter": 0.065
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a (estimate)",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03a notochord record",
+      "research 05 section 8",
+      "spec 4.10 (BG-57)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6158209/"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "path": {
+        "type": "spine",
+        "uStart": 0.15,
+        "uEnd": 1,
+        "v": 0,
+        "w": 0
+      },
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 10,
+          "radiusMm": {
+            "r0Mm": 0.0225,
+            "r1Mm": 0.015
+          },
+          "taperFromU": 0.9,
+          "flexionDeg": 0,
+          "flexionFromU": 0.92,
+          "segmented": false
+        },
+        {
+          "hpf": 16,
+          "segmented": true
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.17,
+            "uEnd": 1,
+            "v": 0,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.02,
+            "r1Mm": 0.01
+          }
+        },
+        {
+          "hpf": 42,
+          "radiusMm": {
+            "r0Mm": 0.026,
+            "r1Mm": 0.01
+          }
+        },
+        {
+          "hpf": 48,
+          "radiusMm": {
+            "r0Mm": 0.0275,
+            "r1Mm": 0.01
+          },
+          "path": {
+            "type": "spine",
+            "uStart": 0.16,
+            "uEnd": 1,
+            "v": 0,
+            "w": 0
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiusMm": {
+            "r0Mm": 0.0325,
+            "r1Mm": 0.01
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiusMm": {
+            "r0Mm": 0.034,
+            "r1Mm": 0.01
+          },
+          "flexionDeg": 0
+        },
+        {
+          "hpf": 224,
+          "sizeRefSl": 4.5,
+          "flexionDeg": 0
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiusMm": {
+            "r0Mm": 0.04,
+            "r1Mm": 0.012
+          },
+          "flexionDeg": 18
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiusMm": {
+            "r0Mm": 0.045,
+            "r1Mm": 0.012
+          },
+          "flexionDeg": 45
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiusMm": {
+            "r0Mm": 0.05,
+            "r1Mm": 0.014
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "radiusMm": {
+            "r0Mm": 0.07,
+            "r1Mm": 0.018
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "radiusMm": {
+            "r0Mm": 0.1,
+            "r1Mm": 0.025
+          }
+        }
+      ],
+      "geometryEndHpf": 2160,
+      "estimate": [
+        "radiusMm",
+        "taperFromU"
+      ],
+      "sources": [
+        "10 hpf: diameter 45 um at bud, uStart 0.15 (research 03a size row; spec 4.10)",
+        "16 hpf: segmented true, stack-of-pennies appearance (research 03a; the stripe is a material parameter)",
+        "24 hpf: diameter 40 um; uStart 0.17 (research 03a apFraction 0.12 put the tip at the eye centre; Kimmel 1995 places it under the midbrain at the posterior margin of the eye, about u 0.16 to 0.18; phase 1 review R10)",
+        "48 hpf: uStart 0.16, the tip stays at the posterior eye margin as the head grows (Kimmel 1995; estimate)",
+        "48 hpf: diameter 55 um (research 03a); 120 hpf: 65 um (research 03a); 168 hpf: 68 um (research 05 section 8, estimate)",
+        "224 to 504 hpf: flexionDeg 0 to 45 over 4.5 to 6.5 mm SL (D8; Parichy et al. 2009), placed through the growth table",
+        "720 to 2160 hpf: vertebral core radii (estimates, research 05 section 8); sizeRefSl from growth.standardLengthMm (DM-15)",
+        "geometryEndHpf 2160: the drawn rod stops at the end of the juvenile period, because an adult cypriniform keeps the notochord only as remnants between the centra and one tube cannot draw them (see the overrideNote and requests). The 4320 hpf keyframe went with it, so the 2160 hpf keyframe is the last drawn one.",
+        "42 hpf: diameter 52 um, interpolated between the 24 and 48 hpf estimates (headline keyframe)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000155",
+    "name": "somite",
+    "synonyms": [
+      "somitic mesoderm"
+    ],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001115",
+    "uiParent": "ZFA:0000255",
+    "parentRelation": "part_of",
+    "definition": "Undifferentiated mesodermal components of early trunk or tail segments or metameres, derived from paraxial mesoderm; forms myotomes, sclerotomes and perhaps dermatomes.",
+    "zfinStartStage": "ZFS:0000023",
+    "zfinEndStage": "ZFS:0000034",
+    "startHpf": 10.33,
+    "endHpf": 72,
+    "visibleFromHpf": 10.33,
+    "modelEndHpf": 33,
+    "overrideNote": "Handoff somites_myotomes: each somite hands off to its myotome 2 h after it forms, over 2 h; the window runs 14 to 29 hpf (D9) and the last segment finishes its 2 h delay and 2 h cross-fade at 33 hpf, so the somite array ends at 33 hpf (E034 allows window end + delayHpf + lengthHpf for a perSegment row). ZFA ends the somite at Pec-fin (72 hpf).",
+    "fadeInHpf": 0.0665,
+    "fadeOutHpf": 0.3,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.33,
+        "text": "First somitic furrow between somites 1 and 2 (1-4 somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 12,
+        "text": "The first 5 to 6 somites form at about 3 per hour.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 16,
+        "text": "About 2 somites per hour from here; older somites develop myotomes.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 18,
+        "text": "18 somites.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 19,
+        "text": "Trunk myotomes produce weak contractions.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 22,
+        "text": "26 or more somites.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24,
+        "text": "The somite count reaches about 30, and 13 of these lie in the tail.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 26,
+        "text": "The last somites form; 31 segments (BG-58, Kimmel 1995).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 72,
+        "text": "ZFA end of the term; the segments are myotomes and sclerotomes.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 12,
+        "stageLabel": "5-9 somites",
+        "dimsMm": {
+          "length": 0.05,
+          "height": 0.1,
+          "width": 0.05
+        },
+        "counts": {
+          "count": 7
+        },
+        "anglesDeg": {},
+        "source": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.21458",
+        "note": "length about 50 um for somites 6 to 14 (Schroeter 2008); height about 2 x length (Rost 2014)"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.05,
+          "lengthTail": 0.03,
+          "height": 0.1,
+          "width": 0.05
+        },
+        "counts": {
+          "count": 30
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+        "note": "about 30 somites, 13 in the tail; tail somites about 30 um long by somite 25"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03a somite record",
+      "spec BG-38 and BG-58",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "custom",
+        "builder": "somiteChevron",
+        "placement": {
+          "u": 0,
+          "v": 0.207,
+          "w": 0.552
+        },
+        "wFoldFraction": 0,
+        "apexOffsetFraction": 0.5
+      },
+      "uStart": 0.25,
+      "mirror": true,
+      "handoffOut": "somites_myotomes",
+      "keyframes": [
+        {
+          "hpf": 10.33,
+          "count": 1,
+          "uEnd": 0.298,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "widthMm": 0.076,
+            "heightFraction": 0.373,
+            "chevronDeg": 0,
+            "lengthMm": 0.05,
+            "placement": {
+              "v": 0.207,
+              "w": 0.552
+            }
+          }
+        },
+        {
+          "hpf": 11.66,
+          "count": 5,
+          "uEnd": 0.473,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "widthMm": 0.0725,
+            "heightFraction": 0.376,
+            "placement": {
+              "v": 0.204,
+              "w": 0.556
+            }
+          }
+        },
+        {
+          "hpf": 12,
+          "count": 6,
+          "uEnd": 0.513,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.38,
+            "placement": {
+              "v": 0.201,
+              "w": 0.558
+            },
+            "widthMm": 0.0711
+          }
+        },
+        {
+          "hpf": 14,
+          "count": 10,
+          "uEnd": 0.648,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "widthMm": 0.0712,
+            "heightFraction": 0.377,
+            "placement": {
+              "v": 0.194,
+              "w": 0.559
+            }
+          }
+        },
+        {
+          "hpf": 16,
+          "count": 14,
+          "uEnd": 0.757,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "widthMm": 0.0623,
+            "heightFraction": 0.4,
+            "chevronDeg": 4,
+            "placement": {
+              "v": 0.2,
+              "w": 0.57
+            }
+          }
+        },
+        {
+          "hpf": 18,
+          "count": 18,
+          "uEnd": 0.792,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "widthMm": 0.0627,
+            "heightFraction": 0.401,
+            "chevronDeg": 12,
+            "placement": {
+              "v": 0.2,
+              "w": 0.568
+            }
+          }
+        },
+        {
+          "hpf": 19,
+          "count": 20,
+          "uEnd": 0.806,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "widthMm": 0.064,
+            "heightFraction": 0.363,
+            "chevronDeg": 16,
+            "placement": {
+              "v": 0.152,
+              "w": 0.57
+            }
+          }
+        },
+        {
+          "hpf": 22,
+          "count": 26,
+          "uEnd": 0.917,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "widthMm": 0.0295,
+            "heightFraction": 0.348,
+            "chevronDeg": 24,
+            "placement": {
+              "v": 0.122,
+              "w": 0.644
+            }
+          }
+        },
+        {
+          "hpf": 24,
+          "count": 30,
+          "uEnd": 0.97,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "widthMm": 0.0288,
+            "heightFraction": 0.361,
+            "chevronDeg": 30,
+            "placement": {
+              "v": 0.145,
+              "w": 0.634
+            },
+            "lengthMm": 0.0492
+          }
+        },
+        {
+          "hpf": 26,
+          "count": 31,
+          "uEnd": 0.97,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.372,
+            "chevronDeg": 34,
+            "placement": {
+              "v": 0.143,
+              "w": 0.622
+            },
+            "lengthMm": 0.0507,
+            "widthMm": 0.0292
+          }
+        },
+        {
+          "hpf": 29,
+          "count": 31,
+          "uEnd": 0.97,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.384,
+            "chevronDeg": 36,
+            "lengthMm": 0.0554,
+            "widthMm": 0.0296,
+            "placement": {
+              "v": 0.145,
+              "w": 0.615
+            }
+          }
+        },
+        {
+          "hpf": 33,
+          "count": 31,
+          "uEnd": 0.97,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "lengthMm": 0.0592,
+            "heightFraction": 0.392,
+            "widthMm": 0.0291,
+            "placement": {
+              "v": 0.159,
+              "w": 0.624
+            }
+          }
+        }
+      ],
+      "estimate": [
+        "template.lengthMm",
+        "template.widthMm",
+        "template.heightFraction",
+        "template.placement",
+        "uEnd",
+        "chevronDeg"
+      ],
+      "sources": [
+        "count: BG-58 rates (Kimmel 1995, research 05 section 4): 1 at 10.33, 5 at 11.66, 6 at 12, 10 at 14, 14 at 16, 18 at 18, 20 at 19, 26 at 22, 30 at 24, 31 from 26 hpf; body.json somiteCount holds the same series",
+        "uStart 0.25: somite 1 just behind the otic placode (research 03a apFraction 0.25); uEnd = 0.25 + count x 0.05 mm / axisLengthMm(t), capped at 0.97 from 24 hpf (research 03a apFraction 0.97); the segment length equals the array pitch (uEnd - uStart) x axisLengthMm / count so neighbours touch: 0.050 mm to 22 hpf, 0.049 at 24, 0.051 at 26, 0.055 at 29 and 0.059 at 33 hpf (Schroeter 2008: 50 um for somites 6 to 14)",
+        "chevronDeg: 0 at formation, 4 at 16, 12 at 18, 16 at 19, 24 at 22, 30 at 24, 34 at 26, 36 from 29 hpf. Rost 2014 gives 40 degrees for segments 8 to 15 by 26 hpf and straight segments 1 and 2; one array applies one angle to every segment, so the array stops short of 40 until per-segment angles exist (phase 1 review R8)",
+        "template placement w and widthMm (RN-01, phase 2 calibration): the block spans from just outside the notochord sheath (medial face at 1.15 x the notochord radius of ZFA:0000135 at the array mid-station) to 0.90 of the skin half-width, so the notochord reads through the band in a lateral view and the block never touches the skin; w is the mid-width of that span over hW and widthMm its thickness. The lateral face of the chevron block is a half-ellipse (somiteChevron.ts) so the block fits the elliptical skin; the array sets u",
+        "template height (RN-01, phase 2 calibration): heightFraction x (hD + hV) at the array mid-station is 0.35 to 0.40 of the local body height from 16 hpf, with the centre v chosen so the dorsal edge stays below the spinal cord crest (0.50 hD at 10 hpf to 0.66 hD at 33 hpf) and the ventral edge above the yolk surface (0.15 to 0.22 hV below the spine; the yolk extension reaches -0.36 hV at 24 hpf). The owner's calibration note asked for a smaller block than the phase 1 record (0.44 to 0.78 of the body height). The template is one mesh at the mid-station, so segmentArray scales instances by the local body height"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000279",
+    "name": "segmental plate",
+    "synonyms": [
+      "PSM",
+      "presomitic mesoderm"
+    ],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000255",
+    "uiParent": "ZFA:0000255",
+    "parentRelation": "part_of",
+    "definition": "Unsegmented field of paraxial mesoderm present posterior to the most recently formed somite pair, from which somites will form.",
+    "zfinStartStage": "ZFS:0000022",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 10,
+    "endHpf": 30,
+    "visibleFromHpf": 10,
+    "modelEndHpf": 26,
+    "overrideNote": "The plate is consumed when the last somites form at about 26 hpf (31 segments, BG-58; Kimmel 1995), so the model ends it at 26 hpf with a 2 h fade; ZFA ends the term at Prim-5 (30 hpf), a 6 h bin.",
+    "fadeInHpf": 0.0165,
+    "fadeOutHpf": 2,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10,
+        "text": "ZFA start of the term (bud): the unsegmented paraxial mesoderm flanks the notochord along the whole axis.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10.33,
+        "text": "The first somite pinches off the anterior end of the plate.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24,
+        "text": "About 30 somites have formed; the plate is nearly consumed.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 26,
+        "text": "The last somites form; the plate is spent (model end).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 30,
+        "text": "ZFA end of the term (Prim-5).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 12,
+        "stageLabel": "5-9 somites",
+        "dimsMm": {
+          "length": 0.35,
+          "width": 0.06,
+          "height": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      },
+      {
+        "hpf": 17,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 0.25,
+          "width": 0.05,
+          "height": 0.07
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.08,
+          "width": 0.04,
+          "height": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "last somites form about 24 hpf; ZFA end stage 30 hpf"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000279",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.21458",
+      "research 03a segmental plate record"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "placement": {
+          "u": 0,
+          "v": 0.1,
+          "w": 0.55
+        },
+        "e1": 0.35,
+        "e2": 1
+      },
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 10,
+          "uStart": 0.25,
+          "uEnd": 0.882,
+          "count": 12.91,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.231,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        },
+        {
+          "hpf": 10.33,
+          "uStart": 0.298,
+          "uEnd": 0.88,
+          "count": 12.12,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.23,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        },
+        {
+          "hpf": 11.66,
+          "uStart": 0.473,
+          "uEnd": 0.884,
+          "count": 9.196,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.228,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        },
+        {
+          "hpf": 12,
+          "uStart": 0.513,
+          "uEnd": 0.886,
+          "count": 8.495,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.227,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        },
+        {
+          "hpf": 14,
+          "uStart": 0.648,
+          "uEnd": 0.888,
+          "count": 6.041,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.235,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        },
+        {
+          "hpf": 16,
+          "uStart": 0.757,
+          "uEnd": 0.892,
+          "count": 3.724,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.174,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        },
+        {
+          "hpf": 18,
+          "uStart": 0.792,
+          "uEnd": 0.916,
+          "count": 4.111,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.214,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        },
+        {
+          "hpf": 19,
+          "uStart": 0.806,
+          "uEnd": 0.928,
+          "count": 4.388,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.235,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        },
+        {
+          "hpf": 22,
+          "uStart": 0.917,
+          "uEnd": 0.944,
+          "count": 1.045,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.245,
+                "unit": "bodyHeightFraction"
+              },
+              0.0099
+            ]
+          }
+        },
+        {
+          "hpf": 24,
+          "uStart": 0.937,
+          "uEnd": 0.952,
+          "count": 0.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.031,
+              {
+                "value": 0.243,
+                "unit": "bodyHeightFraction"
+              },
+              0.0091
+            ]
+          }
+        },
+        {
+          "hpf": 26,
+          "uStart": 0.94,
+          "uEnd": 0.954,
+          "count": 0.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0062,
+              {
+                "value": 0.047,
+                "unit": "bodyHeightFraction"
+              },
+              0.0018
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "template.radiiMm",
+        "uStart",
+        "uEnd",
+        "count"
+      ],
+      "sources": [
+        "extent: from the posterior end of the somite array (0.25 + somiteCount x 0.05 mm / axisLengthMm, the somite record rule) to the anterior face of the tail bud knob (tail bud record), per keyframe, so the plate shrinks as somites are added and is a 30 um sliver at 24 hpf (research 03a: 350 um at 12 hpf, 250 at 17, 80 at 24, estimates; the bud-stage plate spans the whole trunk)",
+        "shape: a paired rod that follows the curved R2 axis, built as a segment array of flat-ended blocks (superellipsoid e1 0.35, 62 um long on a 50 um pitch so they overlap into one rod; count = span / 0.05 mm, fractional per BG-42); a single ellipsoid would leave the axis, which wraps 180 to 240 degrees around the yolk",
+        "section: half-height min(60 um, 0.42 hD) at the array mid-station written as a fraction of hD + hV per keyframe (about 80 um tall at 12 hpf, research 03a; smaller in the thin tail from 16 hpf), width min(60 um, 0.84 hW), centre v 0.1 and w 0.55 so the pair flanks the notochord inside the skin and continues the somite array (template w 0.6)",
+        "26 hpf: the radii drop to a fifth of their 24 hpf values while the record fades out (24 to 26 hpf)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000031",
+    "name": "hypochord",
+    "synonyms": [],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000017",
+    "uiParent": "ZFA:0000017",
+    "parentRelation": "part_of",
+    "definition": "Portion of tissue that arises from the lateral edges of the shield and is located immediately ventral to the notochord. The hypochord is thought to play a role in positioning the dorsal aorta.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000035",
+    "startHpf": 14,
+    "endHpf": 96,
+    "visibleFromHpf": 14,
+    "modelEndHpf": 96,
+    "overrideNote": null,
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 1.2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 8,
+        "text": "Presumptive hypochord cells arise from the lateral edges of the shield.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 14,
+        "text": "ZFA start of the term (10-13 somites): a single row of cells under the notochord.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24,
+        "text": "The hypochord underlies the notochord from the anterior trunk to the tail and positions the dorsal aorta.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 96,
+        "text": "ZFA end of the term (Protruding-mouth).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/larval.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.3,
+          "width": 0.008,
+          "height": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 2.3,
+          "width": 0.008,
+          "height": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      },
+      {
+        "hpf": 72,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "length": 2.6,
+          "width": 0.008,
+          "height": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "ZFA end stage 96 hpf"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000031",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "research 03a hypochord record"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "radiusMm": 0.005,
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 14,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.58,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.58,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.58,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.58,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.644,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.675,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.512,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 16,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.47,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.483,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.195,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.166,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.285,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.55,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.475,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 19,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.395,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.177,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.149,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.156,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.259,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.476,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.434,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 22,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.271,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.162,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.142,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.155,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.264,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.681,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.815,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.253,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.161,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.144,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.155,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.255,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.623,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.731,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 30,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.153,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.148,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.155,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.287,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.47,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.523,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.633,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 36,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.088,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.131,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.178,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.292,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.473,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.538,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.643,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 42,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.096,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.144,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.197,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.307,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.482,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.557,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.655,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 48,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.103,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.149,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.237,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.351,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.484,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.573,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.667,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 60,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.105,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.156,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.311,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.402,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.472,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.571,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.664,
+                "w": 0
+              }
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.11,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.164,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.318,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.402,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.473,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.573,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.667,
+                "w": 0
+              }
+            ]
+          },
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 96,
+          "path": {
+            "type": "spline",
+            "points": [
+              {
+                "u": 0.3,
+                "v": -0.125,
+                "w": 0
+              },
+              {
+                "u": 0.45,
+                "v": -0.181,
+                "w": 0
+              },
+              {
+                "u": 0.6,
+                "v": -0.33,
+                "w": 0
+              },
+              {
+                "u": 0.75,
+                "v": -0.423,
+                "w": 0
+              },
+              {
+                "u": 0.85,
+                "v": -0.508,
+                "w": 0
+              },
+              {
+                "u": 0.92,
+                "v": -0.609,
+                "w": 0
+              },
+              {
+                "u": 0.97,
+                "v": -0.689,
+                "w": 0
+              }
+            ]
+          },
+          "sizeRefSl": 3.4
+        }
+      ],
+      "estimate": [
+        "path",
+        "radiusMm"
+      ],
+      "sources": [
+        "path: a spline through seven body points from u 0.3 (anterior trunk) to 0.97 (tail), each at v = -(notochord radius at u + 0.0065 mm) / hV(u), so the tube axis sits 1.5 um below the notochord surface at every keyframe (notochord radii from the notochord record, tapering past u 0.9; hV from the frame); v is clamped at -0.95 near the tail tip",
+        "radius 5 um (a single row of cells 8 um across, research 03a; 10 um drawn so the tube stays above the 4 um floor of BG-31)",
+        "72 and 96 hpf: sizeRefSl 3.25 and 3.4"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000077",
+    "name": "tail bud",
+    "synonyms": [
+      "tailbud",
+      "tail bud mesenchyme"
+    ],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001105",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "Undifferentiated mesenchymal swelling at the posterior end of the embryonic axis that forms at the end of epiboly and generates the tail (no ZFA definition; wording from Kimmel et al. 1995).",
+    "zfinStartStage": "ZFS:0000022",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 10,
+    "endHpf": 30,
+    "visibleFromHpf": 10,
+    "modelEndHpf": 24,
+    "overrideNote": "DM-21: the tail bud is spent when the last somites form, so the model ends it at 24 hpf with a 2 h fade (22 to 24 hpf); ZFA ends the term at Prim-5 (30 hpf).",
+    "fadeInHpf": 0.0165,
+    "fadeOutHpf": 2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10,
+        "text": "A distinct swelling at the caudal end of the axis where the margin closes (bud stage); ZFA start of the term.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 11.66,
+        "text": "Kupffer's vesicle appears deep to the tail bud.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 16,
+        "text": "The tail bud begins to protrude away from the body and the yolk.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 22,
+        "text": "The elongating tail still curves ventrally (26+ somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24,
+        "text": "About 30 somites; the bud is spent as the last segments form (model end).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 30,
+        "text": "ZFA end of the term (Prim-5): degenerating cells mark the former tail bud.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 10,
+        "stageLabel": "Bud",
+        "dimsMm": {
+          "length": 0.12,
+          "diameter": 0.12
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "distinct swelling"
+      },
+      {
+        "hpf": 16,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 0.15,
+          "diameter": 0.12
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "protrudes away from the body"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.1,
+          "diameter": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "degenerating cells at its position by 30 hpf"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000077",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "research 03a tail bud record"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 10,
+          "placement": {
+            "u": 0.941,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.06,
+            {
+              "value": 0.417,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.417,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        },
+        {
+          "hpf": 10.33,
+          "placement": {
+            "u": 0.94,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.062,
+            {
+              "value": 0.403,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.403,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        },
+        {
+          "hpf": 12,
+          "placement": {
+            "u": 0.943,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.065,
+            {
+              "value": 0.36,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.36,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        },
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.944,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.07,
+            {
+              "value": 0.377,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.377,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.946,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.075,
+            {
+              "value": 0.372,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.372,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        },
+        {
+          "hpf": 18,
+          "placement": {
+            "u": 0.958,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.07,
+            {
+              "value": 0.381,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.381,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.964,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.065,
+            {
+              "value": 0.391,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.391,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.972,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.055,
+            {
+              "value": 0.414,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.248,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.976,
+            "v": 0,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            {
+              "value": 0.423,
+              "unit": "bodyHeightFraction"
+            },
+            {
+              "value": 0.243,
+              "unit": "bodyHeightFraction"
+            }
+          ]
+        }
+      ],
+      "estimate": [
+        "radiiMm",
+        "placement"
+      ],
+      "sources": [
+        "placement u = 1 - halfLength / axisLengthMm, so the knob caps the axis at u 1 (the notochord end); in regime R2 the axis lies on the yolk sphere and the ventral half of the knob is in the yolk until the tail lifts off at 18 to 19 hpf (BG-14)",
+        "half-length along u: 60 um at bud, 75 um at 16 hpf (protruding), 50 um at 24 hpf (research 03a: 120 x 120, 150 x 120, 100 x 80 um; estimates)",
+        "height and width as body-height fractions: 0.92 x min(hD, hV) and 0.9 x hW at the placement, computed per keyframe from the frame, so the knob fills the tail tip and stays inside the skin (the draft diameters exceed the skin at the tail tip)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000060",
+    "name": "prechordal plate",
+    "synonyms": [],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001204",
+    "uiParent": "ZFA:0001204",
+    "parentRelation": "part_of",
+    "definition": "Axial hypoblast located anterior to the chorda mesoderm; the polster is its most anterior region.",
+    "zfinStartStage": "ZFS:0000020",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 8,
+    "endHpf": 30,
+    "visibleFromHpf": 8,
+    "modelEndHpf": 30,
+    "overrideNote": null,
+    "fadeInHpf": 0.05,
+    "fadeOutHpf": 0.3,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 8,
+        "text": "ZFA start of the term: the axial hypoblast reaches the animal pole at 75 percent epiboly.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10,
+        "text": "The polster bulges at its anterior end (bud stage).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 14,
+        "text": "The polster cells leave for the pericardium as the hatching gland.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 30,
+        "text": "ZFA end of the term (Prim-5).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 8,
+        "stageLabel": "75%-epiboly",
+        "dimsMm": {
+          "length": 0.2,
+          "width": 0.12,
+          "thickness": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.15,
+          "width": 0.1,
+          "thickness": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "ZFA end stage at 30 hpf"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000060",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "research 03a prechordal plate record"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 8,
+          "placement": {
+            "u": 0.2,
+            "v": -0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.08,
+            0.02,
+            0.06
+          ]
+        },
+        {
+          "hpf": 9,
+          "placement": {
+            "u": 0.16,
+            "v": -0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.08,
+            0.02,
+            0.06
+          ]
+        },
+        {
+          "hpf": 10,
+          "placement": {
+            "u": 0.13,
+            "v": -0.2,
+            "w": 0
+          },
+          "radiiMm": [
+            0.08,
+            0.02,
+            0.06
+          ]
+        },
+        {
+          "hpf": 12,
+          "placement": {
+            "u": 0.11,
+            "v": -0.2,
+            "w": 0
+          },
+          "radiiMm": [
+            0.085,
+            0.02,
+            0.055
+          ]
+        },
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.09,
+            "v": -0.25,
+            "w": 0
+          },
+          "radiiMm": [
+            0.085,
+            0.018,
+            0.055
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.085,
+            "v": -0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.08,
+            0.016,
+            0.05
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.08,
+            "v": -0.35,
+            "w": 0
+          },
+          "radiiMm": [
+            0.08,
+            0.015,
+            0.05
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.075,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiiMm": [
+            0.075,
+            0.015,
+            0.05
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.07,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiiMm": [
+            0.075,
+            0.015,
+            0.05
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.065,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiiMm": [
+            0.07,
+            0.014,
+            0.045
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "8 to 10 hpf: 160 x 120 x 40 um ahead of the chorda mesoderm (notochord uStart 0.3 to 0.15) at u 0.2 to 0.13, in the hypoblast layer (v -0.3 to -0.2, 6 to 10 um inside the mid-shell spine); the plate sits 0.1 mm below the animal pole so the straight ellipsoid stays on the curved R1 axis (research 03a sizes 200 x 120 x 40 um, estimates)",
+        "12 to 30 hpf: under the forebrain at u 0.07 to 0.1, thinning to 150 x 100 x 30 um at 24 hpf (research 03a); v -0.25 to -0.4 keeps it in the ventral head above the yolk surface (regime R2 yolk surface 0 to 30 um below the spine)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000121",
+    "name": "lateral plate mesoderm",
+    "synonyms": [
+      "lateral plate",
+      "LPM"
+    ],
+    "system": "axial",
+    "alsoIn": [
+      "cardiovascular",
+      "hematopoietic_immune"
+    ],
+    "zfaParent": "ZFA:0000041",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "The paired sheet of mesoderm lateral and ventral to the intermediate mesoderm. It splits into a somatic and a splanchnic layer and gives rise to the heart, the blood, the pectoral fin bud and the body wall.",
+    "zfinStartStage": "ZFS:0000023",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 10.33,
+    "endHpf": 30.0,
+    "visibleFromHpf": 10.33,
+    "modelEndHpf": 30.0,
+    "overrideNote": null,
+    "fadeInHpf": 0.35,
+    "fadeOutHpf": 3.0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.33,
+        "text": "ZFIN start stage Segmentation:1-4 somites; the lateral plate is the ventral-most mesoderm of the trunk.",
+        "source": "https://zfin.org/ZFA:0000121"
+      },
+      {
+        "hpf": 16.0,
+        "text": "The posterior lateral plate forms the intermediate cell mass, the first blood-forming tissue.",
+        "source": "https://zfin.org/ZFA:0000033",
+        "estimate": true
+      },
+      {
+        "hpf": 22.0,
+        "text": "The anterior lateral plate has fused at the midline as the heart cone.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 30.0,
+        "text": "ZFIN end stage Pharyngula:Prim-5; the sheet is spent once the heart, the blood island and the pronephric ducts have separated from it.",
+        "source": "https://zfin.org/ZFA:0000121"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 16.0,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 0.86,
+          "thickness": 0.022
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; the sheet runs u 0.28 to 0.90 of the 1.38 mm axis of the body model, ventral to the segmental plate record ZFA:0000279",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.27,
+          "thickness": 0.022
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; the sheet runs u 0.28 to 0.90 of the 2.05 mm axis of the body model",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000121",
+      "data/zfin/zfa.obo ZFA:0000121 (is_a ZFA:0000041 mesoderm, start ZFS:0000023, end ZFS:0000029; ZFA carries no definition, so the definition here is written from the ZFIN book and cited below)",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "docs/research/11-zebrahub-celltype-crosswalk.md section 5 item 6: the mesoderm family had only the whole-organism fallback."
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "placement": {
+          "u": 0.0,
+          "v": -0.34,
+          "w": 0.66
+        },
+        "radiiMm": [
+          0.0309,
+          {
+            "value": 0.16,
+            "unit": "bodyHeightFraction"
+          },
+          0.011
+        ],
+        "e1": 0.6,
+        "e2": 0.6
+      },
+      "uStart": 0.28,
+      "uEnd": 0.9,
+      "count": 12,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 10.33,
+          "uStart": 0.28,
+          "uEnd": 0.9,
+          "count": 12,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.34,
+              "w": 0.66
+            },
+            "radiiMm": [
+              0.0309,
+              {
+                "value": 0.16,
+                "unit": "bodyHeightFraction"
+              },
+              0.011
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 11.66,
+          "uStart": 0.28,
+          "uEnd": 0.9,
+          "count": 12,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.34,
+              "w": 0.66
+            },
+            "radiiMm": [
+              0.03324,
+              {
+                "value": 0.16,
+                "unit": "bodyHeightFraction"
+              },
+              0.011
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 14.0,
+          "uStart": 0.28,
+          "uEnd": 0.9,
+          "count": 12,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.34,
+              "w": 0.66
+            },
+            "radiiMm": [
+              0.03734,
+              {
+                "value": 0.16,
+                "unit": "bodyHeightFraction"
+              },
+              0.011
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 16.0,
+          "uStart": 0.28,
+          "uEnd": 0.9,
+          "count": 12,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.34,
+              "w": 0.66
+            },
+            "radiiMm": [
+              0.04106,
+              {
+                "value": 0.16,
+                "unit": "bodyHeightFraction"
+              },
+              0.011
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 19.0,
+          "uStart": 0.28,
+          "uEnd": 0.9,
+          "count": 12,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.34,
+              "w": 0.66
+            },
+            "radiiMm": [
+              0.05348,
+              {
+                "value": 0.16,
+                "unit": "bodyHeightFraction"
+              },
+              0.011
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 22.0,
+          "uStart": 0.28,
+          "uEnd": 0.9,
+          "count": 12,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.34,
+              "w": 0.66
+            },
+            "radiiMm": [
+              0.05793,
+              {
+                "value": 0.16,
+                "unit": "bodyHeightFraction"
+              },
+              0.011
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 24.0,
+          "uStart": 0.28,
+          "uEnd": 0.9,
+          "count": 12,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.34,
+              "w": 0.66
+            },
+            "radiiMm": [
+              0.0609,
+              {
+                "value": 0.16,
+                "unit": "bodyHeightFraction"
+              },
+              0.011
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 30.0,
+          "uStart": 0.28,
+          "uEnd": 0.9,
+          "count": 12,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.34,
+              "w": 0.66
+            },
+            "radiiMm": [
+              0.07279,
+              {
+                "value": 0.16,
+                "unit": "bodyHeightFraction"
+              },
+              0.011
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        }
+      ],
+      "lodHint": "low",
+      "estimate": [
+        "template.radiiMm",
+        "template.placement",
+        "uStart",
+        "uEnd",
+        "count"
+      ],
+      "sources": [
+        "A paired sheet, not a solid: twelve flat plates repeated along u 0.28 to 0.90 at v -0.34 and w 0.66, mirrored, each plate 1.15 array pitches long so neighbours overlap and the row reads as one continuous layer.",
+        "v -0.34 places the sheet between the ventral edge of the somite band (the somite record sits at v 0.20) and the intermediate cell mass (v -0.57 to -0.62 in the ZFA:0000033 record); w 0.66 places it lateral to the intermediate mesoderm and inside the skin at every station.",
+        "The v half-height is 0.16 of the local body height and the w half-thickness 11 um, the order of a two-layer mesodermal sheet in the ZFIN book figures; every number is an estimate."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001206",
+    "name": "intermediate mesoderm",
+    "synonyms": [
+      "IM"
+    ],
+    "system": "axial",
+    "alsoIn": [
+      "excretory"
+    ],
+    "zfaParent": "ZFA:0000041",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "The narrow paired strip of mesoderm between the paraxial mesoderm and the lateral plate mesoderm. It gives rise to the pronephros.",
+    "zfinStartStage": "ZFS:0000022",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 10.0,
+    "endHpf": 30.0,
+    "visibleFromHpf": 10.0,
+    "modelEndHpf": 30.0,
+    "overrideNote": null,
+    "fadeInHpf": 0.0,
+    "fadeOutHpf": 3.0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.0,
+        "text": "ZFIN start stage Gastrula:Bud; the strip lies between the segmental plate and the lateral plate.",
+        "source": "https://zfin.org/ZFA:0001206"
+      },
+      {
+        "hpf": 14.0,
+        "text": "The anterior strip is the presumptive pronephric mesoderm.",
+        "source": "https://zfin.org/ZFA:0001070",
+        "estimate": true
+      },
+      {
+        "hpf": 24.0,
+        "text": "The pronephric ducts have separated from the strip and run to the cloaca.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true
+      },
+      {
+        "hpf": 30.0,
+        "text": "ZFIN end stage Pharyngula:Prim-5.",
+        "source": "https://zfin.org/ZFA:0001206"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 16.0,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 0.8,
+          "thickness": 0.018
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; the strip runs u 0.30 to 0.88 of the 1.38 mm axis of the body model, between the segmental plate and the lateral plate records",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.19,
+          "thickness": 0.018
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; the strip runs u 0.30 to 0.88 of the 2.05 mm axis of the body model",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001206",
+      "data/zfin/zfa.obo ZFA:0001206 (is_a ZFA:0000041 mesoderm, synonym IM, start ZFS:0000022, end ZFS:0000029; ZFA carries no definition, so the definition here is written from the ZFIN book and cited below)",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "docs/research/11-zebrahub-celltype-crosswalk.md section 5 item 6."
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "placement": {
+          "u": 0.0,
+          "v": -0.1,
+          "w": 0.48
+        },
+        "radiiMm": [
+          0.03405,
+          {
+            "value": 0.07,
+            "unit": "bodyHeightFraction"
+          },
+          0.009
+        ],
+        "e1": 0.6,
+        "e2": 0.6
+      },
+      "uStart": 0.3,
+      "uEnd": 0.88,
+      "count": 10,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 10.0,
+          "uStart": 0.3,
+          "uEnd": 0.88,
+          "count": 10,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.1,
+              "w": 0.48
+            },
+            "radiiMm": [
+              0.03405,
+              {
+                "value": 0.07,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 11.66,
+          "uStart": 0.3,
+          "uEnd": 0.88,
+          "count": 10,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.1,
+              "w": 0.48
+            },
+            "radiiMm": [
+              0.03732,
+              {
+                "value": 0.07,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 14.0,
+          "uStart": 0.3,
+          "uEnd": 0.88,
+          "count": 10,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.1,
+              "w": 0.48
+            },
+            "radiiMm": [
+              0.04192,
+              {
+                "value": 0.07,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 16.0,
+          "uStart": 0.3,
+          "uEnd": 0.88,
+          "count": 10,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.1,
+              "w": 0.48
+            },
+            "radiiMm": [
+              0.04609,
+              {
+                "value": 0.07,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 19.0,
+          "uStart": 0.3,
+          "uEnd": 0.88,
+          "count": 10,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.1,
+              "w": 0.48
+            },
+            "radiiMm": [
+              0.06003,
+              {
+                "value": 0.07,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 22.0,
+          "uStart": 0.3,
+          "uEnd": 0.88,
+          "count": 10,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.1,
+              "w": 0.48
+            },
+            "radiiMm": [
+              0.06503,
+              {
+                "value": 0.07,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 24.0,
+          "uStart": 0.3,
+          "uEnd": 0.88,
+          "count": 10,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.1,
+              "w": 0.48
+            },
+            "radiiMm": [
+              0.06837,
+              {
+                "value": 0.07,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        },
+        {
+          "hpf": 30.0,
+          "uStart": 0.3,
+          "uEnd": 0.88,
+          "count": 10,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0.0,
+              "v": -0.1,
+              "w": 0.48
+            },
+            "radiiMm": [
+              0.08171,
+              {
+                "value": 0.07,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "e1": 0.6,
+            "e2": 0.6
+          }
+        }
+      ],
+      "lodHint": "low",
+      "estimate": [
+        "template.radiiMm",
+        "template.placement",
+        "uStart",
+        "uEnd",
+        "count"
+      ],
+      "sources": [
+        "A narrow paired strip: ten overlapping plates along u 0.30 to 0.88 at v -0.10 and w 0.48, mirrored, so the row reads as one continuous cord.",
+        "v -0.10 and w 0.48 put the strip between the somite band (v 0.20, w 0.55 in the ZFA:0000155 record) and the lateral plate sheet (v -0.34, w 0.66), which is where the pronephric ducts of the ZFA:0000151 records appear from 24 hpf.",
+        "The v half-height is 0.07 of the local body height and the w half-thickness 9 um; every number is an estimate."
+      ]
+    }
+  }
+]

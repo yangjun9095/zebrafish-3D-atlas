@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fin_fold_fins",
+    "from": ["ZFA:0000040"],
+    "to": ["ZFA:0001173", "ZFA:0001162", "ZFA:0001058"],
+    "window": { "startSl": 5.2, "endSl": 6.6 },
+    "driver": "ZFA:0000040",
+    "seed": "outlineSegment",
+    "note": "D9. 5.2 to 6.6 mm SL (322 to 517 hpf through the growth table). Each fin's first outline is the fold's outline over the fin's base u range (dorsal 0.58 to 0.72, anal 0.60 to 0.80, caudal 0.95 to 1.2); the fold between the fins fades out."
+  },
+  {
+    "id": "larval_adult_stripes",
+    "from": ["ZFA:0005221", "ZFA:0005222", "ZFA:0005223", "ZFA:0005224"],
+    "to": ["ZFA:0001463"],
+    "window": { "startSl": 5.9, "endSl": 9.6 },
+    "driver": "ZFA:0005223",
+    "seed": "copyPlacement",
+    "note": "D9. 5.9 to 9.6 mm SL (420 to 853 hpf). The adult stripes 1D and 1V (one record, melanophore stripe ZFA:0001463) take the lateral larval stripe's u range and v; metamorphic melanophores appear as a new array at 5.9 mm SL."
+  },
+  {
+    "id": "pectoral_bud_fin",
+    "from": ["ZFA:0000141"],
+    "to": ["ZFA:0001161"],
+    "window": { "startHpf": 48, "endHpf": 60 },
+    "driver": "ZFA:0000141",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row. The bud ends at 60 hpf in ZFA; the fin blade is distinct by long-pec. The pectoral fin is ZFA:0001161 (spec 4.8 wrote ZFA:0000140, which is the pancreas)."
+  },
+  {
+    "id": "pelvic_bud_fin",
+    "from": ["ZFA:0001384"],
+    "to": ["ZFA:0001184"],
+    "window": { "startSl": 8.5, "endSl": 8.7 },
+    "driver": "ZFA:0001384",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row. 8.5 to 8.7 mm SL (748 to 767 hpf); Parichy et al. 2009 pelvic fin ray stage."
+  }
+]

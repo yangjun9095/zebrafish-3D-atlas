@@ -1,0 +1,415 @@
+@import "tailwindcss";
+@import "./ui/primitives/primitives.css";
+
+/*
+ * Design tokens (spec 5.8, research 07 section 4). Dark is the default theme
+ * on :root; [data-theme="light"] redefines the same variables. index.html sets
+ * data-theme before first paint from the URL, localStorage, or the OS setting.
+ * The 15 palette slots use the D5 system ids. systems.json owns the slot
+ * assignment; these variables serve the panels (rail swatches, chips, legend).
+ */
+:root {
+  color-scheme: dark;
+  --bg: #0E1116;
+  --surface: #161B22;
+  --surface-2: #1E252E;
+  --border: #2A323C;
+  --text: #E7EAEE;
+  --text-muted: #9AA3AD;
+  --accent: #5FB8E8;
+  --focus: #FFD166;
+  --danger: #E4483C;
+
+  --sys-nervous: #5B8DEF;
+  --sys-sensory: #7FD3F5;
+  --sys-cardiovascular: #E4483C;
+  --sys-hematopoietic_immune: #F28FA0;
+  --sys-muscular: #F08A3C;
+  --sys-skeletal: #F0EDE4;
+  --sys-integument_pigment: #C3CAD2;
+  --sys-digestive: #A9713B;
+  --sys-respiratory: #66D1C2;
+  --sys-excretory: #C6D34A;
+  --sys-reproductive: #B067D6;
+  --sys-endocrine: #D34FA7;
+  --sys-axial: #3E9B4F;
+  --sys-fins: #A9AFF2;
+  --sys-early_embryo: #D9C79A;
+
+  --elev-docked: none;
+  --elev-floating: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+  /* Layout sizes (spec 5.1.1). The app root overrides them per breakpoint. */
+  --top-h: 48px;
+  --time-h: 136px;
+  --rail-w: 280px;
+  --card-w: 340px;
+
+  /* The presentation type scale (UI-36) is declared on .app below, where App.tsx sets --projector-scale. */
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #F5F6F7;
+  --surface: #FFFFFF;
+  --surface-2: #EEF1F4;
+  --border: #D7DCE2;
+  --text: #1B1F24;
+  --text-muted: #5B6470;
+  --accent: #0B6E99;
+  --focus: #B45309;
+  --danger: #B81A1D;
+
+  --sys-nervous: #1863BF;
+  --sys-sensory: #2989A9;
+  --sys-cardiovascular: #B81A1D;
+  --sys-hematopoietic_immune: #B15567;
+  --sys-muscular: #B05500;
+  --sys-skeletal: #939088;
+  --sys-integument_pigment: #7A8188;
+  --sys-digestive: #84511C;
+  --sys-respiratory: #028B7E;
+  --sys-excretory: #7A8800;
+  --sys-reproductive: #8641AC;
+  --sys-endocrine: #AA2382;
+  --sys-axial: #01722A;
+  --sys-fins: #6972B0;
+  --sys-early_embryo: #8E7E55;
+
+  --elev-docked: 0 1px 2px rgba(20, 30, 40, 0.06);
+  --elev-floating: 0 1px 2px rgba(20, 30, 40, 0.06), 0 12px 32px rgba(20, 30, 40, 0.10);
+}
+
+/*
+ * Tailwind v4 theme. `inline` makes a utility such as `bg-surface` compile to
+ * `background-color: var(--surface)`, so it follows the theme attribute.
+ * Colour names: bg, surface, surface-2, border, fg, fg-muted, accent, focus,
+ * danger, sys-<system id>.
+ */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-fg: var(--text);
+  --color-fg-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-focus: var(--focus);
+  --color-danger: var(--danger);
+  --color-sys-nervous: var(--sys-nervous);
+  --color-sys-sensory: var(--sys-sensory);
+  --color-sys-cardiovascular: var(--sys-cardiovascular);
+  --color-sys-hematopoietic_immune: var(--sys-hematopoietic_immune);
+  --color-sys-muscular: var(--sys-muscular);
+  --color-sys-skeletal: var(--sys-skeletal);
+  --color-sys-integument_pigment: var(--sys-integument_pigment);
+  --color-sys-digestive: var(--sys-digestive);
+  --color-sys-respiratory: var(--sys-respiratory);
+  --color-sys-excretory: var(--sys-excretory);
+  --color-sys-reproductive: var(--sys-reproductive);
+  --color-sys-endocrine: var(--sys-endocrine);
+  --color-sys-axial: var(--sys-axial);
+  --color-sys-fins: var(--sys-fins);
+  --color-sys-early_embryo: var(--sys-early_embryo);
+
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Type roles (spec 5.8.3): text-display, text-title, text-heading, text-body, text-ui, text-caption, text-micro. */
+  --text-display: 32px;
+  --text-display--line-height: 1.15;
+  --text-display--font-weight: 600;
+  --text-title: 20px;
+  --text-title--line-height: 1.25;
+  --text-title--font-weight: 600;
+  --text-heading: 16px;
+  --text-heading--line-height: 1.3;
+  --text-heading--font-weight: 600;
+  --text-body: 14px;
+  --text-body--line-height: 1.6;
+  --text-body--font-weight: 400;
+  --text-ui: 13px;
+  --text-ui--line-height: 1.4;
+  --text-ui--font-weight: 500;
+  --text-caption: 12px;
+  --text-caption--line-height: 1.4;
+  --text-caption--font-weight: 400;
+  --text-micro: 11px;
+  --text-micro--line-height: 1.2;
+  --text-micro--font-weight: 500;
+
+  /* Spacing: the 4 px base gives 1, 2, 3, 4, 6, 8, 12 for the 4 to 48 px scale. */
+  --spacing: 4px;
+
+  --radius-chip: 4px;
+  --radius-control: 8px;
+  --radius-card: 12px;
+  --radius-sheet: 16px;
+
+  --shadow-docked: var(--elev-docked);
+  --shadow-floating: var(--elev-floating);
+
+  --ease-panel: cubic-bezier(0.2, 0, 0, 1);
+
+  --breakpoint-tablet: 40rem;
+  --breakpoint-desktop: 80rem;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+.tnum { font-feature-settings: "tnum" 1; }
+.id-mono { font-family: var(--font-mono); font-size: 12px; font-feature-settings: "tnum" 1; }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*
+ * Layout regions (spec 5.1). The app root is a grid; data attributes on the
+ * root switch the presentation, embed, rail, and card states.
+ */
+.app {
+  position: relative;
+  height: 100dvh;
+  overflow: hidden;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: var(--top-h) minmax(0, 1fr) auto var(--time-h);
+  grid-template-areas: "top" "viewer" "card" "time";
+  --top-h: 44px;
+  --time-h: 88px;
+  background: var(--bg);
+  color: var(--text);
+  transition: grid-template-columns 200ms var(--ease-panel);
+}
+.app-top { grid-area: top; border-bottom: 1px solid var(--border); background: var(--surface); }
+.app-rail { grid-area: rail; border-right: 1px solid var(--border); background: var(--surface); overflow: hidden; display: none; }
+.app-viewer { grid-area: viewer; position: relative; min-width: 0; min-height: 0; overflow: hidden; background: var(--bg); }
+.app-card { grid-area: card; border-left: 1px solid var(--border); background: var(--surface); overflow: hidden; }
+/* The top line is an inset shadow, so the row's content box equals --time-h and the bar rows fit (5.2.1). */
+.app-time { grid-area: time; box-shadow: inset 0 1px 0 var(--border); background: var(--surface); }
+.app-region-name { display: grid; place-items: center; height: 100%; color: var(--text-muted); font-size: 13px; font-weight: 500; }
+
+/* Phone: the card is a 96 px peek strip above the timeline; hidden when closed. */
+.app-card { height: 96px; box-sizing: content-box; border-left: 0; border-top: 1px solid var(--border); }
+.app[data-card="closed"] .app-card { display: none; }
+
+@media (min-width: 40rem) {
+  .app {
+    --top-h: 48px;
+    /* BAR_METRICS.tablet: label 24 + track 40 + transport 44. */
+    --time-h: 108px;
+    --rail-w: 56px;
+    grid-template-columns: var(--rail-w) minmax(0, 1fr);
+    grid-template-rows: var(--top-h) minmax(0, 1fr) var(--time-h);
+    grid-template-areas: "top top" "rail viewer" "time time";
+  }
+  .app-rail { display: block; }
+  /* Tablet: the card is a 360 px overlay sheet from the right over the viewer. */
+  .app-card {
+    position: absolute; right: 0; top: var(--top-h); bottom: var(--time-h);
+    width: 360px; height: auto; border-top: 0; border-left: 1px solid var(--border);
+    box-shadow: var(--elev-floating); z-index: 10;
+  }
+}
+
+@media (min-width: 80rem) {
+  .app {
+    /* BAR_METRICS.desktop: label 28 + track 40 + events 24 + transport 44 (timelineGeometry.ts). */
+    --time-h: 136px;
+    --rail-w: 280px;
+    --card-w: 340px;
+    grid-template-columns: var(--rail-w) minmax(0, 1fr) var(--card-w);
+    grid-template-areas: "top top top" "rail viewer card" "time time time";
+  }
+  .app[data-rail="collapsed"] { --rail-w: 36px; }
+  .app-card { position: static; width: auto; box-shadow: var(--elev-docked); z-index: auto; }
+  .app[data-card="closed"] .app-card { display: block; }
+  .app[data-card="collapsed"] { --card-w: 36px; }
+}
+
+/* Presentation mode (AR-59): canvas only, a 64 px strip, a floating card top right. */
+.app[data-presentation="true"], .app[data-embed="true"] {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) var(--time-h);
+  grid-template-areas: "viewer" "time";
+}
+.app[data-presentation="true"] { --time-h: 64px; }
+.app[data-embed="true"] { --time-h: 96px; }
+.app[data-presentation="true"] .app-top, .app[data-presentation="true"] .app-rail,
+.app[data-embed="true"] .app-top, .app[data-embed="true"] .app-rail { display: none; }
+.app[data-presentation="true"] .app-card, .app[data-embed="true"] .app-card {
+  /* These templates have no "card" area: auto placement keeps the absolute card's containing block at the .app padding box. */
+  grid-area: auto;
+  position: absolute; top: 16px; right: 16px; bottom: auto; width: 320px; height: auto;
+  border: 1px solid var(--border); border-radius: 12px; box-shadow: var(--elev-floating); z-index: 10;
+}
+.app[data-presentation="true"][data-card="closed"] .app-card,
+.app[data-embed="true"][data-card="closed"] .app-card { display: none; }
+.app[data-presentation="true"][data-strip="top"] { grid-template-areas: "time" "viewer"; grid-template-rows: var(--time-h) minmax(0, 1fr); }
+.app[data-presentation="true"][data-strip="hidden"] .app-time { visibility: hidden; }
+
+/*
+ * WP-I4: palette mode, presentation layer, embed footer, settings and shortcut sheets.
+ * The nine theme tokens above are the spec values (5.8.1); nothing below redefines them.
+ */
+
+/* Reduced palette (research 07 UX-VS-06): the 15 slots on the 8 Okabe-Ito colours, both themes. */
+:root[data-palette="okabe-ito"] {
+  --sys-nervous: #0072B2; --sys-sensory: #0072B2;
+  --sys-cardiovascular: #D55E00; --sys-hematopoietic_immune: #D55E00;
+  --sys-muscular: #E69F00;
+  --sys-skeletal: #F0E442; --sys-fins: #F0E442;
+  --sys-digestive: #009E73; --sys-respiratory: #009E73; --sys-excretory: #009E73;
+  --sys-reproductive: #CC79A7; --sys-endocrine: #CC79A7;
+  --sys-integument_pigment: #56B4E9;
+  --sys-early_embryo: #999999; --sys-axial: #999999;
+}
+
+/* Light theme polish: no tap flash on touch, accent text selection, docked shadow under the top bar. */
+body { -webkit-tap-highlight-color: transparent; }
+::selection { background: color-mix(in srgb, var(--accent) 35%, transparent); }
+[data-theme="light"] .app-top { box-shadow: var(--elev-docked); }
+[data-theme="light"] .sheet, [data-theme="light"] .toast { border-color: var(--border); }
+
+/* The floating card (AR-59, AR-61) scrolls inside 60 percent of the height; on a phone it spans the width at 40 percent. */
+.app[data-presentation="true"] .app-card, .app[data-embed="true"] .app-card { max-height: min(60dvh, calc(100dvh - var(--time-h, 64px) - 32px)); overflow: auto; }
+/* Presentation card (UI-36): name 40 px, body 24 px times the scale; the card widens with the scale so the text still wraps,
+   and it may use the height down to the strip. */
+.app[data-presentation="true"] .app-card { width: calc(320px * var(--projector-scale)); max-height: calc(100dvh - var(--time-h, 64px) - 32px); }
+@media (max-width: 39.99rem) {
+  .app[data-presentation="true"] .app-card, .app[data-embed="true"] .app-card { left: 16px; width: auto; max-height: 40dvh; }
+}
+
+/*
+ * Presentation type scale (UI-36): 48/40/32/24/20 px at 1920 x 1080, capped at 2x, times the projector
+ * scale setting. The tokens live on .app, not :root, because a var() inside a custom property resolves
+ * where the property is declared and App.tsx writes --projector-scale on .app.
+ */
+.app {
+  --projector-scale: 1;
+  --pres-time: calc(clamp(48px, min(2.5vw, 4.444vh), 96px) * var(--projector-scale));
+  --pres-stage: calc(clamp(40px, min(2.083vw, 3.704vh), 80px) * var(--projector-scale));
+  --pres-length: calc(clamp(32px, min(1.667vw, 2.963vh), 64px) * var(--projector-scale));
+  --pres-body: calc(clamp(24px, min(1.25vw, 2.222vh), 48px) * var(--projector-scale));
+  --pres-label: calc(clamp(20px, min(1.042vw, 1.852vh), 40px) * var(--projector-scale));
+}
+/* Phone: the UI-36 floors are for a projector; a 390 px screen keeps the readout inside its width (D1). */
+@media (max-width: 39.99rem) {
+  .app {
+    --pres-time: calc(24px * var(--projector-scale));
+    --pres-stage: calc(20px * var(--projector-scale));
+    --pres-length: calc(17px * var(--projector-scale));
+    --pres-body: calc(16px * var(--projector-scale));
+    --pres-label: calc(14px * var(--projector-scale));
+  }
+}
+
+/* Presentation mode (AR-59, UI-40): hidden cursor after 2 s, the black screen, the fullscreen chip. */
+.app[data-cursor="hidden"], .app[data-cursor="hidden"] * { cursor: none !important; }
+.pres-layer { position: absolute; inset: 0; z-index: 60; pointer-events: none; }
+.black-screen { position: absolute; inset: 0; background: var(--bg); opacity: 1; pointer-events: auto; }
+/* Top left: the readout chip owns the bottom left and the floating card the top right, at every projector scale (UI-36). */
+.pres-chip {
+  position: absolute; left: 32px; top: 24px;
+  display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; border-radius: 16px;
+  border: 1px solid var(--border); background: color-mix(in srgb, var(--surface) 88%, transparent); color: var(--text);
+  box-shadow: var(--elev-floating); font: 500 var(--pres-body) / 1.4 var(--font-sans); white-space: nowrap;
+}
+.pres-chip .kbd { font-size: calc(var(--pres-body) * 0.7); line-height: 1.6; padding: 0 8px; }
+.app[data-presentation="true"][data-strip="top"] .pres-chip { top: calc(var(--time-h, 64px) + 24px); }
+/* Phone: the chip spans the width under the top edge. */
+@media (max-width: 39.99rem) {
+  .pres-chip { left: 16px; right: 16px; justify-content: center; white-space: normal; }
+}
+/* The hidden strip leaves the projector black: the footer drops its surface and border while the strip is idle. */
+.app[data-presentation="true"] .app-time { transition: background-color 200ms linear, box-shadow 200ms linear; }
+.app[data-presentation="true"] .app-time:has(.tl[data-hidden="true"]) { background: transparent; box-shadow: none; }
+/* Only error toasts show in presentation mode and they sit in the strip area (UX-ST-13). */
+.app[data-presentation="true"] .toast-host { bottom: 8px; z-index: 61; }
+.app[data-presentation="true"][data-strip="top"] .toast-host { bottom: auto; top: 8px; }
+
+/* Embed mode (AR-61): the page behind the frame keeps scrolling; the canvas and the track own their touches. */
+.app[data-embed="true"] { touch-action: pan-y; }
+.app[data-embed="true"] canvas, .app[data-embed="true"] [role="slider"] { touch-action: none; }
+.embed-footer {
+  position: absolute; right: 8px; bottom: calc(var(--time-h, 96px) + 8px); z-index: 6; height: 28px; box-sizing: border-box;
+  display: inline-flex; align-items: center; gap: 12px; padding: 0 10px; border-radius: 8px;
+  border: 1px solid var(--border); background: color-mix(in srgb, var(--surface) 92%, transparent); color: var(--text-muted);
+  font: 400 12px/1 var(--font-sans); white-space: nowrap; max-width: calc(100% - 16px); overflow: hidden;
+}
+.embed-link { display: inline-flex; align-items: center; gap: 4px; color: var(--accent); font-weight: 500; text-decoration: none; }
+.embed-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+.embed-attrib { overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 39.99rem) { .embed-attrib { display: none; } }
+
+/* Settings sheet (UI-27). */
+.settings { display: grid; gap: 24px; font: 400 14px/1.5 var(--font-sans); color: var(--text); }
+.set-group { display: grid; gap: 8px; }
+.set-title { margin: 0 0 4px; font: 600 16px/1.3 var(--font-sans); }
+.set-field { display: grid; gap: 4px; }
+.set-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 36px; }
+.set-row-col { flex-direction: column; align-items: stretch; gap: 4px; }
+.set-label { font: 500 13px/1.4 var(--font-sans); }
+.set-note { color: var(--text-muted); font: 400 12px/1.4 var(--font-sans); }
+.set-seg { display: inline-flex; flex: none; align-items: stretch; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--surface-2); }
+.set-seg button {
+  min-height: 34px; padding: 0 10px; border: 0; border-left: 1px solid var(--border); background: transparent; color: var(--text-muted);
+  font: 500 12px/1.2 var(--font-sans); cursor: pointer; white-space: nowrap;
+}
+.set-seg button:first-child { border-left: 0; }
+.set-seg button:hover { color: var(--text); }
+.set-seg button[aria-pressed="true"] { background: color-mix(in srgb, var(--accent) 18%, var(--surface-2)); color: var(--text); }
+.set-seg button:focus-visible { outline-offset: -2px; }
+.set-number { width: 72px; height: 34px; padding: 0 8px; box-sizing: border-box; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); font: 500 13px/1.2 var(--font-sans); font-feature-settings: "tnum" 1; }
+.settings .switch { width: 100%; padding: 0; }
+.settings .switch-text { flex: 1; }
+.settings .switch-track { order: 2; }
+@media (max-width: 39.99rem) {
+  .set-row:not(.set-row-col) { flex-direction: column; align-items: stretch; }
+  .set-seg { display: flex; }
+  .set-seg button { flex: 1; min-height: 44px; }
+  .set-number { height: 44px; }
+  .settings .switch { min-height: 44px; }
+}
+
+/* Shortcut sheet (5.9.1). */
+.keys { display: grid; gap: 20px; font: 400 14px/1.5 var(--font-sans); color: var(--text); }
+.keys-intro { margin: 0; color: var(--text-muted); font-size: 13px; line-height: 1.5; }
+.keys-group { display: grid; gap: 6px; }
+.keys-title { margin: 0; font: 600 13px/1.4 var(--font-sans); color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.keys-list { margin: 0; display: grid; gap: 6px; }
+.keys-row { display: grid; grid-template-columns: minmax(120px, 42%) 1fr; gap: 12px; align-items: baseline; }
+.keys-row dt { margin: 0; }
+.keys-row dd { margin: 0; font-size: 13px; line-height: 1.45; }
+.keys-caps { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 2px 0; }
+.keys-or { color: var(--text-muted); font-size: 12px; padding: 0 2px; }
+.kbd-group { white-space: nowrap; }
+.kbd-group > span > span[aria-hidden] { color: var(--text-muted); padding: 0 2px; font-size: 11px; }
+.keys-actions { display: flex; justify-content: flex-start; }
+.app[data-presentation="true"] .keys-sheet, .app[data-presentation="true"] .set-sheet { top: 16px; bottom: calc(var(--time-h, 64px) + 16px); border-radius: 16px; border: 1px solid var(--border); }

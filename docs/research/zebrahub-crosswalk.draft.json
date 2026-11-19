@@ -1,0 +1,4002 @@
+[
+  {
+    "label": "adaxial cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "15somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000003",
+    "zfaName": "adaxial cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000279",
+    "standInZfaName": "segmental plate",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000003; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of segmental plate is ZFA:0000279 (segmental plate, axial.json)."
+  },
+  {
+    "label": "anterior axial hypoblast",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000004",
+    "zfaName": "anterior axial hypoblast",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000117",
+    "standInZfaName": "hypoblast",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000004; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of axial hypoblast -> part of hypoblast is ZFA:0000117 (hypoblast, early_embryo.json)."
+  },
+  {
+    "label": "anterior neural keel",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007024",
+    "zfaName": "anterior neural keel",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007024; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "anterior neural plate",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007016",
+    "zfaName": "anterior neural plate",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000132",
+    "standInZfaName": "neural plate",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007016; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of neural plate is ZFA:0000132 (neural plate, nervous.json)."
+  },
+  {
+    "label": "aortic arch",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001508",
+    "sourceOntologyTerm": "arch of aorta",
+    "zfaId": "ZFA:0005004",
+    "zfaName": "aortic arch",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "cardiovascular",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005004; label matches the ZFA name exactly."
+  },
+  {
+    "label": "blood",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000081",
+    "sourceOntologyTerm": "blood cell",
+    "zfaId": "ZFA:0009044",
+    "zfaName": "blood cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0005023",
+    "standInZfaName": "hematopoietic system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009044 (blood cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of blood -> part of hematopoietic system is ZFA:0005023 (hematopoietic system, groups.json)."
+  },
+  {
+    "label": "blood cells",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "CL:0000081",
+    "sourceOntologyTerm": "blood cell",
+    "zfaId": "ZFA:0009044",
+    "zfaName": "blood cell",
+    "matchType": "synonym",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0005023",
+    "standInZfaName": "hematopoietic system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009044; label matches a ZFA synonym for that id. Not modeled; nearest modeled ancestor via part of blood -> part of hematopoietic system is ZFA:0005023 (hematopoietic system, groups.json)."
+  },
+  {
+    "label": "blood island",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0003061",
+    "sourceOntologyTerm": "blood island",
+    "zfaId": "ZFA:0000094",
+    "zfaName": "blood island",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "hematopoietic_immune",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000094; label matches the ZFA name exactly."
+  },
+  {
+    "label": "blood precursor",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000988",
+    "sourceOntologyTerm": "hematopoietic cell",
+    "zfaId": "ZFA:0005830",
+    "zfaName": "hematopoietic cell",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0005023",
+    "standInZfaName": "hematopoietic system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005830 (hematopoietic cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: hematopoietic cell precursors circulate through and are produced within the hematopoietic system; no ZFA part_of edge links the cell-type term to the tissue term."
+  },
+  {
+    "label": "blood vasculature",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0004537",
+    "sourceOntologyTerm": "blood vasculature",
+    "zfaId": "ZFA:0001079",
+    "zfaName": "blood vasculature",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000010",
+    "standInZfaName": "cardiovascular system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001079; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a vasculature -> part of cardiovascular system is ZFA:0000010 (cardiovascular system, groups.json)."
+  },
+  {
+    "label": "blood vasculature artery",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "CL:1000413",
+    "sourceOntologyTerm": "endothelial cell of artery",
+    "zfaId": "ZFA:0000005",
+    "zfaName": "artery",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000010",
+    "standInZfaName": "cardiovascular system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000005 (artery); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of blood vasculature -> is_a vasculature -> part of cardiovascular system is ZFA:0000010 (cardiovascular system, groups.json)."
+  },
+  {
+    "label": "brain oligodendrocyte progenitor",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000128",
+    "sourceOntologyTerm": "oligodendrocyte",
+    "zfaId": "ZFA:0009076",
+    "zfaName": "oligodendrocyte",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009076 (oligodendrocyte); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a macroglial cell -> is_a glial cell (sensu Vertebrata) -> is_a glial cell -> part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "brain uncertain",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000008",
+    "zfaName": "brain",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000008 (brain); scRNA-seq cluster label differs in wording but is the same structure."
+  },
+  {
+    "label": "cardiac muscle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": "CL:0000746",
+    "sourceOntologyTerm": "cardiac muscle cell",
+    "zfaId": "ZFA:0009316",
+    "zfaName": "cardiac muscle cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000114",
+    "standInZfaName": "heart",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009316 (cardiac muscle cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of myocardium -> part of heart is ZFA:0000114 (heart, cardiovascular.json)."
+  },
+  {
+    "label": "cartilage",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002418",
+    "sourceOntologyTerm": "cartilage tissue",
+    "zfaId": "ZFA:0001501",
+    "zfaName": "cartilage element",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000434",
+    "standInZfaName": "skeletal system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001501 (cartilage element); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a skeletal element -> part of skeletal system is ZFA:0000434 (skeletal system, groups.json)."
+  },
+  {
+    "label": "caudal fin",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "UBERON:4000164",
+    "sourceOntologyTerm": "caudal fin",
+    "zfaId": "ZFA:0001058",
+    "zfaName": "caudal fin",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "fins",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001058; label matches the ZFA name exactly."
+  },
+  {
+    "label": "chondrocranium",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002241",
+    "sourceOntologyTerm": "chondrocranium",
+    "zfaId": "ZFA:0001424",
+    "zfaName": "chondrocranium",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000434",
+    "standInZfaName": "skeletal system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001424; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of cranium -> is_a skeletal system is ZFA:0000434 (skeletal system, groups.json)."
+  },
+  {
+    "label": "chondrocranium glial cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009073",
+    "zfaName": "glial cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009073 (glial cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "choroid plexus",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001443",
+    "zfaName": "choroid plexus",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000008",
+    "standInZfaName": "brain",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001443; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of brain is ZFA:0000008 (brain, groups.json)."
+  },
+  {
+    "label": "cns",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "10somite",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000117",
+    "sourceOntologyTerm": "CNS neuron (sensu Vertebrata)",
+    "zfaId": "ZFA:0000012",
+    "zfaName": "central nervous system",
+    "matchType": "synonym",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000012; label matches a ZFA synonym for that id."
+  },
+  {
+    "label": "common myeloid progenitor",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009021",
+    "zfaName": "common myeloid progenitor",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0005023",
+    "standInZfaName": "hematopoietic system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009021; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from hematopoietic stem cell -> part of hematopoietic system is ZFA:0005023 (hematopoietic system, groups.json)."
+  },
+  {
+    "label": "cornea",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0000964",
+    "sourceOntologyTerm": "cornea",
+    "zfaId": "ZFA:0000640",
+    "zfaName": "cornea",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000107",
+    "standInZfaName": "eye",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000640; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from corneal primordium -> part of eye is ZFA:0000107 (eye, sensory.json)."
+  },
+  {
+    "label": "cranial cartilage",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0003933",
+    "sourceOntologyTerm": "cranial cartilage",
+    "zfaId": "ZFA:0001458",
+    "zfaName": "cranial cartilage",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000434",
+    "standInZfaName": "skeletal system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001458; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of cranium -> is_a skeletal system is ZFA:0000434 (skeletal system, groups.json)."
+  },
+  {
+    "label": "cranial ganglion",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite",
+      "2dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001714",
+    "sourceOntologyTerm": "cranial ganglion",
+    "zfaId": "ZFA:0000013",
+    "zfaName": "cranial ganglion",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000142",
+    "standInZfaName": "peripheral nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000013; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a ganglion -> part of peripheral nervous system is ZFA:0000142 (peripheral nervous system, groups.json)."
+  },
+  {
+    "label": "dermal bone",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001590",
+    "zfaName": "dermal bone",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000434",
+    "standInZfaName": "skeletal system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001590; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a intramembranous bone -> is_a bone element -> is_a skeletal element -> part of skeletal system is ZFA:0000434 (skeletal system, groups.json)."
+  },
+  {
+    "label": "dermis",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002067",
+    "sourceOntologyTerm": "dermis",
+    "zfaId": "ZFA:0001119",
+    "zfaName": "dermis",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000255",
+    "standInZfaName": "paraxial mesoderm",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001119; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from paraxial mesoderm is ZFA:0000255 (paraxial mesoderm, groups.json)."
+  },
+  {
+    "label": "diencephalon",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite",
+      "2dpf",
+      "30somite",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001894",
+    "sourceOntologyTerm": "diencephalon",
+    "zfaId": "ZFA:0000101",
+    "zfaName": "diencephalon",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000101; label matches the ZFA name exactly."
+  },
+  {
+    "label": "differentiated neurons",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000540",
+    "sourceOntologyTerm": "neuron",
+    "zfaId": "ZFA:0009248",
+    "zfaName": "neuron",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009248 (neuron); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "Ectoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009137",
+    "zfaName": "ectodermal cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000018",
+    "standInZfaName": "epiblast",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009137 (ectodermal cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of ectoderm -> develops from epiblast is ZFA:0000018 (epiblast, early_embryo.json)."
+  },
+  {
+    "label": "ectoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite",
+      "15somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009137",
+    "zfaName": "ectodermal cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000018",
+    "standInZfaName": "epiblast",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009137 (ectodermal cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of ectoderm -> develops from epiblast is ZFA:0000018 (epiblast, early_embryo.json)."
+  },
+  {
+    "label": "endoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite",
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0000925",
+    "sourceOntologyTerm": "endoderm",
+    "zfaId": "ZFA:0000017",
+    "zfaName": "endoderm",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "axial",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000017; label matches the ZFA name exactly."
+  },
+  {
+    "label": "Endodermal cells",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009137",
+    "zfaName": "ectodermal cell",
+    "matchType": "curated",
+    "confidence": "low",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000018",
+    "standInZfaName": "epiblast",
+    "note": "Source data error: the paper's own Supplementary Table 1 (Annotation ontology tracker, media-14.xlsx from the bioRxiv preprint) assigns this cluster ZFA:0009137 (ectodermal cell), but its own marker genes (sox17, foxa2, sox32) are classic endoderm markers, and its raw cluster name is 'Endodermal_cells_sox17_pltp_cdh6_foxa2_sox32'. This looks like a row-copy error in the source table (row above it, 'Ectoderm', carries the same wrong id). The likely correct id is ZFA:0000017 (endoderm, a modeled group node in axial.json). Flag for the Royer/Lange group and use ZFA:0000017 until confirmed."
+  },
+  {
+    "label": "endothelium pigment cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009090",
+    "zfaName": "pigment cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009090 (pigment cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "enteric muscle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0002504",
+    "sourceOntologyTerm": "enteric smooth muscle cell",
+    "zfaId": "ZFA:0001324",
+    "zfaName": "enteric musculature",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000112",
+    "standInZfaName": "gut",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001324 (enteric musculature); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of gut is ZFA:0000112 (gut, groups.json)."
+  },
+  {
+    "label": "enteric musculature",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0002504",
+    "sourceOntologyTerm": "enteric smooth muscle cell",
+    "zfaId": "ZFA:0001324",
+    "zfaName": "enteric musculature",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000112",
+    "standInZfaName": "gut",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001324; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of gut is ZFA:0000112 (gut, groups.json)."
+  },
+  {
+    "label": "epiderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite"
+    ],
+    "sourceOntologyId": "CL:0000362",
+    "sourceOntologyTerm": "epidermal cell",
+    "zfaId": "ZFA:0009183",
+    "zfaName": "epidermal cell",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000105",
+    "standInZfaName": "epidermis",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009183 (epidermal cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a squamous epithelial cell -> is_a epithelial cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: epidermal cell is the cell type resident in the epidermis, already modeled as a group node in integument_pigment.json."
+  },
+  {
+    "label": "epidermal basal",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0002187",
+    "sourceOntologyTerm": "basal cell of epidermis",
+    "zfaId": "ZFA:0009183",
+    "zfaName": "epidermal cell",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000105",
+    "standInZfaName": "epidermis",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009183 (epidermal cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a squamous epithelial cell -> is_a epithelial cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: epidermal cell is the cell type resident in the epidermis, already modeled as a group node in integument_pigment.json."
+  },
+  {
+    "label": "epidermis",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "20somite",
+      "30somite",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000362",
+    "sourceOntologyTerm": "epidermal cell",
+    "zfaId": "ZFA:0009183",
+    "zfaName": "epidermal cell",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000105",
+    "standInZfaName": "epidermis",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009183 (epidermal cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a squamous epithelial cell -> is_a epithelial cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: epidermal cell is the cell type resident in the epidermis, already modeled as a group node in integument_pigment.json."
+  },
+  {
+    "label": "epithelium",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000066",
+    "sourceOntologyTerm": "epithelial cell",
+    "zfaId": "ZFA:0009034",
+    "zfaName": "epithelial cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009034 (epithelial cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "eye",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0000970",
+    "sourceOntologyTerm": "eye",
+    "zfaId": "ZFA:0000107",
+    "zfaName": "eye",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000107; label matches the ZFA name exactly."
+  },
+  {
+    "label": "eye (non retina)",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0000970",
+    "sourceOntologyTerm": "eye",
+    "zfaId": "ZFA:0000107",
+    "zfaName": "eye",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000107 (eye); scRNA-seq cluster label differs in wording but is the same structure."
+  },
+  {
+    "label": "fin",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "30somite",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0008897",
+    "sourceOntologyTerm": "fin",
+    "zfaId": "ZFA:0000108",
+    "zfaName": "fin",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "fins",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000108; label matches the ZFA name exactly."
+  },
+  {
+    "label": "floor plate",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite",
+      "15somite",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0003079",
+    "sourceOntologyTerm": "floor plate",
+    "zfaId": "ZFA:0000022",
+    "zfaName": "floor plate",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000022; label matches the ZFA name exactly."
+  },
+  {
+    "label": "floor plate neural tube",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0003306",
+    "sourceOntologyTerm": "floor plate of neural tube",
+    "zfaId": "ZFA:0001434",
+    "zfaName": "floor plate neural tube",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001135",
+    "standInZfaName": "neural tube",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001434; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of neural tube is ZFA:0001135 (neural tube, nervous.json)."
+  },
+  {
+    "label": "floor plate rhombomere region",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite",
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0005500",
+    "sourceOntologyTerm": "rhombomere floor plate",
+    "zfaId": "ZFA:0001258",
+    "zfaName": "floor plate rhombomere region",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000029",
+    "standInZfaName": "hindbrain",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001258; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of hindbrain is ZFA:0000029 (hindbrain, nervous.json)."
+  },
+  {
+    "label": "floorplate",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite"
+    ],
+    "sourceOntologyId": "UBERON:0003079",
+    "sourceOntologyTerm": "floor plate",
+    "zfaId": "ZFA:0000022",
+    "zfaName": "floor plate",
+    "matchType": "synonym",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000022; label matches a ZFA synonym for that id."
+  },
+  {
+    "label": "forebrain",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000109",
+    "zfaName": "forebrain",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000109; label matches the ZFA name exactly."
+  },
+  {
+    "label": "forebrain neural keel",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007026",
+    "zfaName": "forebrain neural keel",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007026; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of anterior neural keel -> part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "ganglion",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0000045",
+    "sourceOntologyTerm": "ganglion",
+    "zfaId": "ZFA:0000190",
+    "zfaName": "ganglion",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000142",
+    "standInZfaName": "peripheral nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000190; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of peripheral nervous system is ZFA:0000142 (peripheral nervous system, groups.json)."
+  },
+  {
+    "label": "glia",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000125",
+    "sourceOntologyTerm": "glial cell",
+    "zfaId": "ZFA:0009073",
+    "zfaName": "glial cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009073 (glial cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "glial cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000125",
+    "sourceOntologyTerm": "glial cell",
+    "zfaId": "ZFA:0009073",
+    "zfaName": "glial cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009073; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "gut",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "30somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000112",
+    "zfaName": "gut",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "digestive",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000112; label matches the ZFA name exactly."
+  },
+  {
+    "label": "hatching gland",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite",
+      "30somite"
+    ],
+    "sourceOntologyId": "CL:0000249",
+    "sourceOntologyTerm": "hatching gland cell",
+    "zfaId": "ZFA:0009151",
+    "zfaName": "hatching gland cell",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000026",
+    "standInZfaName": "hatching gland",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009151 (hatching gland cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: hatching gland cell is the cell type resident in the hatching gland structure, already modeled in early_embryo.json."
+  },
+  {
+    "label": "head mesenchyme",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite",
+      "20somite",
+      "30somite",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0005253",
+    "sourceOntologyTerm": "head mesenchyme",
+    "zfaId": "ZFA:0000113",
+    "zfaName": "head mesenchyme",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000113; label matches the ZFA name exactly. Not modeled; no modeled ancestor found within 15 part_of/is_a hops."
+  },
+  {
+    "label": "heart",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite",
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000114",
+    "zfaName": "heart",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "cardiovascular",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000114; label matches the ZFA name exactly."
+  },
+  {
+    "label": "heart muscle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0005280",
+    "zfaName": "cardiac muscle",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000548",
+    "standInZfaName": "musculature system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005280 (cardiac muscle); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a muscle -> part of musculature system is ZFA:0000548 (musculature system, groups.json)."
+  },
+  {
+    "label": "hematopoietic cells",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000988",
+    "sourceOntologyTerm": "hematopoietic cell",
+    "zfaId": "ZFA:0005830",
+    "zfaName": "hematopoietic cell",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0005023",
+    "standInZfaName": "hematopoietic system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005830 (hematopoietic cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: hematopoietic cell precursors circulate through and are produced within the hematopoietic system; no ZFA part_of edge links the cell-type term to the tissue term."
+  },
+  {
+    "label": "hematopoietic stem cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009014",
+    "zfaName": "hematopoietic stem cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0005023",
+    "standInZfaName": "hematopoietic system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009014; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of hematopoietic system is ZFA:0005023 (hematopoietic system, groups.json)."
+  },
+  {
+    "label": "hematopoietic system",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite",
+      "20somite",
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0002390",
+    "sourceOntologyTerm": "hematopoietic system",
+    "zfaId": "ZFA:0005023",
+    "zfaName": "hematopoietic system",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "hematopoietic_immune",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005023; label matches the ZFA name exactly."
+  },
+  {
+    "label": "hindbrain",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0002028",
+    "sourceOntologyTerm": "hindbrain",
+    "zfaId": "ZFA:0000029",
+    "zfaName": "hindbrain",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000029; label matches the ZFA name exactly."
+  },
+  {
+    "label": "hindbrain neural keel",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage",
+      "05somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007029",
+    "zfaName": "hindbrain neural keel",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007029; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of posterior neural keel -> part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "hindbrain neural plate",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage",
+      "05somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007022",
+    "zfaName": "hindbrain neural plate",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000132",
+    "standInZfaName": "neural plate",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007022; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of posterior neural plate -> part of neural plate is ZFA:0000132 (neural plate, nervous.json)."
+  },
+  {
+    "label": "hindbrain neural tube",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007043",
+    "zfaName": "hindbrain neural tube",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001135",
+    "standInZfaName": "neural tube",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007043; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of posterior neural tube -> part of neural tube is ZFA:0001135 (neural tube, nervous.json)."
+  },
+  {
+    "label": "hypothalamus",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "CL:2000030",
+    "sourceOntologyTerm": "hypothalamus cell",
+    "zfaId": "ZFA:0000032",
+    "zfaName": "hypothalamus",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000032; label matches the ZFA name exactly."
+  },
+  {
+    "label": "immature schwann cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "CL:0002377",
+    "sourceOntologyTerm": "immature Schwann cell",
+    "zfaId": "ZFA:0001725",
+    "zfaName": "immature Schwann cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000142",
+    "standInZfaName": "peripheral nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001725; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of peripheral nervous system is ZFA:0000142 (peripheral nervous system, groups.json)."
+  },
+  {
+    "label": "immune system",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001159",
+    "zfaName": "immune system",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "hematopoietic_immune",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001159; label matches the ZFA name exactly."
+  },
+  {
+    "label": "integument ionocyte",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0005325",
+    "zfaName": "integument ionocyte",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000368",
+    "standInZfaName": "integument",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005325; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of integument is ZFA:0000368 (integument, groups.json)."
+  },
+  {
+    "label": "intestinal bulb",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "UBERON:2001076",
+    "sourceOntologyTerm": "intestinal bulb",
+    "zfaId": "ZFA:0001076",
+    "zfaName": "intestinal bulb",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "digestive",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001076; label matches the ZFA name exactly."
+  },
+  {
+    "label": "Intestine",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0000160",
+    "sourceOntologyTerm": "intestine",
+    "zfaId": "ZFA:0001338",
+    "zfaName": "intestine",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "digestive",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001338; label matches the ZFA name exactly."
+  },
+  {
+    "label": "intestine",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0000160",
+    "sourceOntologyTerm": "intestine",
+    "zfaId": "ZFA:0001338",
+    "zfaName": "intestine",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "digestive",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001338; label matches the ZFA name exactly."
+  },
+  {
+    "label": "ionocyte",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0005006",
+    "sourceOntologyTerm": "ionocyte",
+    "zfaId": "ZFA:0005323",
+    "zfaName": "ionocyte",
+    "matchType": "exact",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000105",
+    "standInZfaName": "epidermis",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005323; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a epithelial cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: ionocytes are chloride cells embedded in the epidermis; ZFA has no cell-to-tissue part_of edge for this term."
+  },
+  {
+    "label": "ionocyte progenitor cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007123",
+    "zfaName": "ionocyte progenitor cell",
+    "matchType": "exact",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000105",
+    "standInZfaName": "epidermis",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007123; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: ionocyte progenitor cells sit in the epidermis before differentiating; same reasoning as ionocyte."
+  },
+  {
+    "label": "kidney",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:1000497",
+    "sourceOntologyTerm": "kidney cell",
+    "zfaId": "ZFA:0009389",
+    "zfaName": "kidney cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000529",
+    "standInZfaName": "kidney",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009389 (kidney cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of kidney is ZFA:0000529 (kidney, excretory.json)."
+  },
+  {
+    "label": "kidney progenitor",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:1000497",
+    "sourceOntologyTerm": "kidney cell",
+    "zfaId": "ZFA:0009389",
+    "zfaName": "kidney cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000529",
+    "standInZfaName": "kidney",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009389 (kidney cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of kidney is ZFA:0000529 (kidney, excretory.json)."
+  },
+  {
+    "label": "kupffers vesicle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000001",
+    "zfaName": "Kupffer's vesicle",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "early_embryo",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000001 (Kupffer's vesicle); scRNA-seq cluster label differs in wording but is the same structure."
+  },
+  {
+    "label": "lateral line ganglion",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:2000120",
+    "sourceOntologyTerm": "lateral line ganglion",
+    "zfaId": "ZFA:0000120",
+    "zfaName": "lateral line ganglion",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000034",
+    "standInZfaName": "lateral line system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000120; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of lateral line system is ZFA:0000034 (lateral line system, groups.json)."
+  },
+  {
+    "label": "lateral mesoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "15somite",
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001065",
+    "zfaName": "lateral mesoderm",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001065; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a mesoderm -> develops from presumptive mesoderm -> is_a presumptive structure -> is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "lateral plate mesoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite",
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000121",
+    "zfaName": "lateral plate mesoderm",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000121; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a mesoderm -> develops from presumptive mesoderm -> is_a presumptive structure -> is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "Lens",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000035",
+    "zfaName": "lens",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000035; label matches the ZFA name exactly."
+  },
+  {
+    "label": "lens",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "2dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000035",
+    "zfaName": "lens",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000035; label matches the ZFA name exactly."
+  },
+  {
+    "label": "lens placode uncertain",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000122",
+    "zfaName": "lens placode",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000018",
+    "standInZfaName": "epiblast",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000122 (lens placode); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of ectoderm -> develops from epiblast is ZFA:0000018 (epiblast, early_embryo.json)."
+  },
+  {
+    "label": "liver",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "2dpf",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002107",
+    "sourceOntologyTerm": "liver",
+    "zfaId": "ZFA:0000123",
+    "zfaName": "liver",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "digestive",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000123; label matches the ZFA name exactly."
+  },
+  {
+    "label": "macrophage",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "2dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000235",
+    "sourceOntologyTerm": "macrophage",
+    "zfaId": "ZFA:0009141",
+    "zfaName": "macrophage",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001159",
+    "standInZfaName": "immune system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009141; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of immune system is ZFA:0001159 (immune system, groups.json)."
+  },
+  {
+    "label": "median fin",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:4000162",
+    "sourceOntologyTerm": "median fin",
+    "zfaId": "ZFA:0005597",
+    "zfaName": "median fin",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000108",
+    "standInZfaName": "fin",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005597; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a fin is ZFA:0000108 (fin, groups.json)."
+  },
+  {
+    "label": "median fin fold",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000040",
+    "zfaName": "median fin fold",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "fins",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000040; label matches the ZFA name exactly."
+  },
+  {
+    "label": "melanocyte",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "CL:0000148",
+    "sourceOntologyTerm": "melanocyte",
+    "zfaId": "ZFA:0009091",
+    "zfaName": "melanocyte",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "integument_pigment",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009091; label matches the ZFA name exactly."
+  },
+  {
+    "label": "mesenchyme",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0008019",
+    "sourceOntologyTerm": "mesenchymal cell",
+    "zfaId": "ZFA:0009081",
+    "zfaName": "mesenchymal cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009081 (mesenchymal cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "mesenchyme pectoral fin",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0003934",
+    "sourceOntologyTerm": "mesenchyme pectoral fin",
+    "zfaId": "ZFA:0001000",
+    "zfaName": "mesenchyme pectoral fin",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001161",
+    "standInZfaName": "pectoral fin",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001000; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of pectoral fin is ZFA:0001161 (pectoral fin, fins.json)."
+  },
+  {
+    "label": "mesodem",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000041",
+    "zfaName": "mesoderm",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000041 (mesoderm); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via develops from presumptive mesoderm -> is_a presumptive structure -> is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "mesoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000041",
+    "zfaName": "mesoderm",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000041; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from presumptive mesoderm -> is_a presumptive structure -> is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "metaphocyte",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": null,
+    "zfaName": null,
+    "matchType": "none",
+    "confidence": null,
+    "modeled": null,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "quality-control artifact in the paper's own cluster tracker (doublet, low-count, or unassigned cluster), not a biological label."
+  },
+  {
+    "label": "midbrain",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001891",
+    "sourceOntologyTerm": "midbrain",
+    "zfaId": "ZFA:0000128",
+    "zfaName": "midbrain",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000128; label matches the ZFA name exactly."
+  },
+  {
+    "label": "midbrain hindbrain boundary",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite",
+      "20somite",
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0003052",
+    "sourceOntologyTerm": "midbrain-hindbrain boundary",
+    "zfaId": "ZFA:0000042",
+    "zfaName": "midbrain hindbrain boundary",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000008",
+    "standInZfaName": "brain",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000042; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of brain is ZFA:0000008 (brain, groups.json)."
+  },
+  {
+    "label": "midbrain hindbrain boundary neural keel",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007045",
+    "zfaName": "midbrain hindbrain boundary neural keel",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007045; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "midbrain hindbrain neural keel",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007045",
+    "zfaName": "midbrain hindbrain boundary neural keel",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007045 (midbrain hindbrain boundary neural keel); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "midbrain neural keel",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007025",
+    "zfaName": "midbrain neural keel",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007025; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of anterior neural keel -> part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "midbrain neuron",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0005210",
+    "zfaName": "midbrain interneuron",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005210 (midbrain interneuron); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a CNS interneuron -> is_a interneuron -> is_a neuron -> part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "muller cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000636",
+    "sourceOntologyTerm": "Mueller cell",
+    "zfaId": "ZFA:0009280",
+    "zfaName": "Muller cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009280; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of retinal inner nuclear layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "muscle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0005145",
+    "zfaName": "muscle",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000548",
+    "standInZfaName": "musculature system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005145; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of musculature system is ZFA:0000548 (musculature system, groups.json)."
+  },
+  {
+    "label": "muscle pancreas doublet",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": null,
+    "zfaName": null,
+    "matchType": "none",
+    "confidence": null,
+    "modeled": null,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "quality-control artifact in the paper's own cluster tracker (doublet, low-count, or unassigned cluster), not a biological label."
+  },
+  {
+    "label": "muscle pioneer",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001086",
+    "zfaName": "muscle pioneer",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000155",
+    "standInZfaName": "somite",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001086; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of somite is ZFA:0000155 (somite, axial.json)."
+  },
+  {
+    "label": "musculature system",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001015",
+    "sourceOntologyTerm": "musculature",
+    "zfaId": "ZFA:0000548",
+    "zfaName": "musculature system",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "muscular",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000548; label matches the ZFA name exactly."
+  },
+  {
+    "label": "myoblast",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000056",
+    "sourceOntologyTerm": "myoblast",
+    "zfaId": "ZFA:0009025",
+    "zfaName": "myoblast",
+    "matchType": "exact",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000548",
+    "standInZfaName": "musculature system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009025; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: myoblasts are the precursor cell type of the musculature system; no ZFA part_of edge links the cell-type term to the tissue term."
+  },
+  {
+    "label": "myotome",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "15somite",
+      "20somite",
+      "30somite",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0003082",
+    "sourceOntologyTerm": "myotome",
+    "zfaId": "ZFA:0001056",
+    "zfaName": "myotome",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "muscular",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001056; label matches the ZFA name exactly."
+  },
+  {
+    "label": "neural crest",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite",
+      "15somite",
+      "20somite",
+      "30somite",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002342",
+    "sourceOntologyTerm": "neural crest",
+    "zfaId": "ZFA:0000045",
+    "zfaName": "neural crest",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000132",
+    "standInZfaName": "neural plate",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000045; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from neural plate border -> part of neural plate is ZFA:0000132 (neural plate, nervous.json)."
+  },
+  {
+    "label": "neural crest (pharyngeal arch)",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002342",
+    "sourceOntologyTerm": "neural crest",
+    "zfaId": "ZFA:0000045",
+    "zfaName": "neural crest",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000132",
+    "standInZfaName": "neural plate",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000045 (neural crest); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via develops from neural plate border -> part of neural plate is ZFA:0000132 (neural plate, nervous.json)."
+  },
+  {
+    "label": "neural plate",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000132",
+    "zfaName": "neural plate",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000132; label matches the ZFA name exactly."
+  },
+  {
+    "label": "neural tube uncertain",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001135",
+    "zfaName": "neural tube",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001135 (neural tube); scRNA-seq cluster label differs in wording but is the same structure."
+  },
+  {
+    "label": "neuroblasts",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000031",
+    "sourceOntologyTerm": "neuroblast (sensu Vertebrata)",
+    "zfaId": "ZFA:0009011",
+    "zfaName": "neuroblast",
+    "matchType": "synonym",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009011; label matches a ZFA synonym for that id. Not modeled; nearest modeled ancestor via is_a neuronal stem cell -> develops from neurectodermal cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: neuroblasts are CNS/PNS progenitor cells; no ZFA part_of edge links the cell-type term to the nervous system term."
+  },
+  {
+    "label": "neurogenic placode ectoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001309",
+    "zfaName": "neurogenic placode",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000142",
+    "standInZfaName": "peripheral nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001309 (neurogenic placode); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: neurogenic placodes give rise to peripheral nervous system cranial ganglia; no dedicated placode group node exists."
+  },
+  {
+    "label": "neuromast",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000243",
+    "zfaName": "neuromast",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000243; label matches the ZFA name exactly."
+  },
+  {
+    "label": "neuron",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "30somite",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000540",
+    "sourceOntologyTerm": "neuron",
+    "zfaId": "ZFA:0009248",
+    "zfaName": "neuron",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009248; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "neuronal stem cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000047",
+    "sourceOntologyTerm": "neuronal stem cell",
+    "zfaId": "ZFA:0009019",
+    "zfaName": "neuronal stem cell",
+    "matchType": "exact",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009019; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from neurectodermal cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: neuronal stem cells are nervous-system progenitors; same reasoning as neuroblast."
+  },
+  {
+    "label": "neurons",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000540",
+    "sourceOntologyTerm": "neuron",
+    "zfaId": "ZFA:0009248",
+    "zfaName": "neuron",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009248 (neuron); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "neurons (differentiation placode)",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001309",
+    "zfaName": "neurogenic placode",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000142",
+    "standInZfaName": "peripheral nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001309 (neurogenic placode); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: neurogenic placodes give rise to peripheral nervous system cranial ganglia; no dedicated placode group node exists."
+  },
+  {
+    "label": "neurons differentiating",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000540",
+    "sourceOntologyTerm": "neuron",
+    "zfaId": "ZFA:0009248",
+    "zfaName": "neuron",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009248 (neuron); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "neutrophil",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000775",
+    "sourceOntologyTerm": "neutrophil",
+    "zfaId": "ZFA:0009327",
+    "zfaName": "neutrophil",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001159",
+    "standInZfaName": "immune system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009327; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a granulocyte -> is_a myeloid leukocyte -> is_a leukocyte -> part of immune system is ZFA:0001159 (immune system, groups.json)."
+  },
+  {
+    "label": "neutrophils",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000775",
+    "sourceOntologyTerm": "neutrophil",
+    "zfaId": "ZFA:0009327",
+    "zfaName": "neutrophil",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001159",
+    "standInZfaName": "immune system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009327 (neutrophil); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a granulocyte -> is_a myeloid leukocyte -> is_a leukocyte -> part of immune system is ZFA:0001159 (immune system, groups.json)."
+  },
+  {
+    "label": "notochord",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage",
+      "05somite",
+      "10somite",
+      "15somite",
+      "20somite",
+      "2dpf",
+      "30somite",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002328",
+    "sourceOntologyTerm": "notochord",
+    "zfaId": "ZFA:0000135",
+    "zfaName": "notochord",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "axial",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000135; label matches the ZFA name exactly."
+  },
+  {
+    "label": "olfactory bulb",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002264",
+    "sourceOntologyTerm": "olfactory bulb",
+    "zfaId": "ZFA:0000402",
+    "zfaName": "olfactory bulb",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001149",
+    "standInZfaName": "olfactory system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000402; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of olfactory system is ZFA:0001149 (olfactory system, groups.json)."
+  },
+  {
+    "label": "olfactory epithelium",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001997",
+    "sourceOntologyTerm": "olfactory epithelium",
+    "zfaId": "ZFA:0000554",
+    "zfaName": "olfactory epithelium",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000048",
+    "standInZfaName": "olfactory placode",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000554; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from primitive olfactory epithelium -> part of olfactory placode is ZFA:0000048 (olfactory placode, sensory.json)."
+  },
+  {
+    "label": "olfactory organ",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002268",
+    "sourceOntologyTerm": "olfactory organ",
+    "zfaId": "ZFA:0000047",
+    "zfaName": "peripheral olfactory organ",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001149",
+    "standInZfaName": "olfactory system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000047 (peripheral olfactory organ); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of olfactory system is ZFA:0001149 (olfactory system, groups.json)."
+  },
+  {
+    "label": "olfactory pit",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000130",
+    "zfaName": "olfactory pit",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000130; label matches the ZFA name exactly."
+  },
+  {
+    "label": "oligodendrocyte",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000128",
+    "sourceOntologyTerm": "epidermal cell",
+    "zfaId": "ZFA:0009076",
+    "zfaName": "oligodendrocyte",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009076; label matches the ZFA name exactly. Paper assigns more than one zfa_id across stages (['ZFA:0009076', 'ZFA:0009183']); took ZFA:0009076. Not modeled; nearest modeled ancestor via is_a macroglial cell -> is_a glial cell (sensu Vertebrata) -> is_a glial cell -> part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "oligodendrocyte progenitor",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0002453",
+    "sourceOntologyTerm": "oligodendrocyte precursor cell",
+    "zfaId": "ZFA:0009076",
+    "zfaName": "oligodendrocyte",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009076 (oligodendrocyte); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a macroglial cell -> is_a glial cell (sensu Vertebrata) -> is_a glial cell -> part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "oligodendrocytes",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000128",
+    "sourceOntologyTerm": "oligodendrocyte",
+    "zfaId": "ZFA:0009076",
+    "zfaName": "oligodendrocyte",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009076 (oligodendrocyte); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a macroglial cell -> is_a glial cell (sensu Vertebrata) -> is_a glial cell -> part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "optic cup",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0003072",
+    "sourceOntologyTerm": "optic cup",
+    "zfaId": "ZFA:0001202",
+    "zfaName": "optic cup",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001202; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from optic vesicle -> develops from optic primordium -> part of anterior neural keel -> part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "optic tectum",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:4300203",
+    "sourceOntologyTerm": "tectum orbitale",
+    "zfaId": "ZFA:0000445",
+    "zfaName": "optic tectum",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000445; label matches the ZFA name exactly."
+  },
+  {
+    "label": "optic tectum proliferative region",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:4300203",
+    "sourceOntologyTerm": "tectum orbitale",
+    "zfaId": "ZFA:0000445",
+    "zfaName": "optic tectum",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000445 (optic tectum); scRNA-seq cluster label differs in wording but is the same structure."
+  },
+  {
+    "label": "optic vesicle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite",
+      "15somite",
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000050",
+    "zfaName": "optic vesicle",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000050; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from optic primordium -> part of anterior neural keel -> part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "otic placode",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite",
+      "15somite",
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000138",
+    "zfaName": "otic placode",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000138; label matches the ZFA name exactly."
+  },
+  {
+    "label": "otic vesicle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "2dpf",
+      "30somite",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000051",
+    "zfaName": "otic vesicle",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000051; label matches the ZFA name exactly."
+  },
+  {
+    "label": "pancreas",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001264",
+    "sourceOntologyTerm": "pancreas",
+    "zfaId": "ZFA:0000140",
+    "zfaName": "pancreas",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "digestive",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000140; label matches the ZFA name exactly."
+  },
+  {
+    "label": "paraxial mesoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage",
+      "05somite",
+      "10somite",
+      "15somite",
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000255",
+    "zfaName": "paraxial mesoderm",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "axial",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000255; label matches the ZFA name exactly."
+  },
+  {
+    "label": "pectoral fin",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "2dpf",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0000151",
+    "sourceOntologyTerm": "pectoral fin",
+    "zfaId": "ZFA:0001161",
+    "zfaName": "pectoral fin",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "fins",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001161; label matches the ZFA name exactly."
+  },
+  {
+    "label": "pectoral fin cartilage",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000257",
+    "zfaName": "pectoral fin cartilage",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001161",
+    "standInZfaName": "pectoral fin",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000257; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of pectoral fin skeleton -> part of pectoral fin is ZFA:0001161 (pectoral fin, fins.json)."
+  },
+  {
+    "label": "pectoral fin musculature",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000563",
+    "zfaName": "pectoral fin musculature",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "muscular",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000563; label matches the ZFA name exactly."
+  },
+  {
+    "label": "periderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite",
+      "15somite",
+      "20somite",
+      "30somite",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0003055",
+    "sourceOntologyTerm": "periderm",
+    "zfaId": "ZFA:0001185",
+    "zfaName": "periderm",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "integument_pigment",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001185; label matches the ZFA name exactly."
+  },
+  {
+    "label": "pharingeal arch",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001306",
+    "zfaName": "pharyngeal arch",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "skeletal",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001306 (pharyngeal arch); scRNA-seq cluster label differs in wording but is the same structure."
+  },
+  {
+    "label": "pharyngeal arch",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "20somite",
+      "2dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001306",
+    "zfaName": "pharyngeal arch",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "skeletal",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001306; label matches the ZFA name exactly."
+  },
+  {
+    "label": "pharyngeal arch 3-7",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001613",
+    "zfaName": "pharyngeal arch 3-7",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "skeletal",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001613; label matches the ZFA name exactly."
+  },
+  {
+    "label": "pharyngeal epithelium",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0003351",
+    "sourceOntologyTerm": "pharyngeal epithelium",
+    "zfaId": "ZFA:0001174",
+    "zfaName": "pharyngeal epithelium",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000056",
+    "standInZfaName": "pharynx",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001174; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of pharynx is ZFA:0000056 (pharynx, digestive.json)."
+  },
+  {
+    "label": "pharynx",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0006562",
+    "sourceOntologyTerm": "pharynx",
+    "zfaId": "ZFA:0000056",
+    "zfaName": "pharynx",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "digestive",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000056; label matches the ZFA name exactly."
+  },
+  {
+    "label": "pigment cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "2dpf",
+      "30somite"
+    ],
+    "sourceOntologyId": "CL:0000147",
+    "sourceOntologyTerm": "pigment cell",
+    "zfaId": "ZFA:0009090",
+    "zfaName": "pigment cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009090; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "pns",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:2000032",
+    "sourceOntologyTerm": "peripheral nervous system neuron",
+    "zfaId": "ZFA:0000142",
+    "zfaName": "peripheral nervous system",
+    "matchType": "synonym",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000142; label matches a ZFA synonym for that id."
+  },
+  {
+    "label": "polster",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000058",
+    "zfaName": "polster",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000060",
+    "standInZfaName": "prechordal plate",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000058; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of prechordal plate is ZFA:0000060 (prechordal plate, axial.json)."
+  },
+  {
+    "label": "posterior lateral line ganglion",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001314",
+    "zfaName": "posterior lateral line ganglion",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001314; label matches the ZFA name exactly."
+  },
+  {
+    "label": "posterior lateral mesoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0005040",
+    "zfaName": "posterior lateral mesoderm",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001094",
+    "standInZfaName": "whole organism",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005040; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a mesoderm -> develops from presumptive mesoderm -> is_a presumptive structure -> is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). The nearest ontology-linked ancestor is the generic 'whole organism' node; no specific modeled tissue could be assigned automatically or by hand. Flag for curator review."
+  },
+  {
+    "label": "presumptive diencephalon",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000574",
+    "zfaName": "presumptive diencephalon",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000574; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "presumptive enteric nervous system",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0006600",
+    "sourceOntologyTerm": "presumptive enteric nervous system",
+    "zfaId": "ZFA:0001334",
+    "zfaName": "presumptive enteric nervous system",
+    "matchType": "exact",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000142",
+    "standInZfaName": "peripheral nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001334; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a presumptive structure -> is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: the presumptive enteric nervous system is a peripheral nervous system derivative that migrates into the gut; peripheral nervous system is the closest modeled home."
+  },
+  {
+    "label": "presumptive telencephalon",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000571",
+    "zfaName": "presumptive telencephalon",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000131",
+    "standInZfaName": "neural keel",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000571; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of neural keel is ZFA:0000131 (neural keel, nervous.json)."
+  },
+  {
+    "label": "primary neuron",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009242",
+    "zfaName": "primary neuron",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009242; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a neuron -> part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "primitive heart tube",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0005498",
+    "sourceOntologyTerm": "primitive heart tube",
+    "zfaId": "ZFA:0000149",
+    "zfaName": "primitive heart tube",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000010",
+    "standInZfaName": "cardiovascular system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000149; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of cardiovascular system is ZFA:0000010 (cardiovascular system, groups.json)."
+  },
+  {
+    "label": "primordial germ cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009288",
+    "zfaName": "primordial germ cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "reproductive",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009288; label matches the ZFA name exactly."
+  },
+  {
+    "label": "primordial germ cell reproductive system",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0009288",
+    "zfaName": "primordial germ cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "reproductive",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009288 (primordial germ cell); scRNA-seq cluster label differs in wording but is the same structure."
+  },
+  {
+    "label": "pronephric duct",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000150",
+    "zfaName": "pronephric duct",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "excretory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000150; label matches the ZFA name exactly."
+  },
+  {
+    "label": "pronephric mesoderm",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000067",
+    "zfaName": "pronephric mesoderm",
+    "matchType": "exact",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000151",
+    "standInZfaName": "pronephros",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000067; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a mesoderm -> develops from presumptive mesoderm -> is_a presumptive structure -> is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: pronephric mesoderm is the mesenchymal precursor of the pronephros, already modeled in excretory.json."
+  },
+  {
+    "label": "pronephros",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite",
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000151",
+    "zfaName": "pronephros",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "excretory",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000151; label matches the ZFA name exactly."
+  },
+  {
+    "label": "radial glia",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000681",
+    "sourceOntologyTerm": "radial glial cell",
+    "zfaId": "ZFA:0009292",
+    "zfaName": "radial glial cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000018",
+    "standInZfaName": "epiblast",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009292 (radial glial cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via develops from neuroectoderm -> part of ectoderm -> develops from epiblast is ZFA:0000018 (epiblast, early_embryo.json)."
+  },
+  {
+    "label": "radial glia cells in central nervous system",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "CL:0000681",
+    "sourceOntologyTerm": "radial glial cell",
+    "zfaId": "ZFA:0009292",
+    "zfaName": "radial glial cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000018",
+    "standInZfaName": "epiblast",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009292 (radial glial cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via develops from neuroectoderm -> part of ectoderm -> develops from epiblast is ZFA:0000018 (epiblast, early_embryo.json)."
+  },
+  {
+    "label": "radial glial cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "CL:0000681",
+    "sourceOntologyTerm": "radial glial cell",
+    "zfaId": "ZFA:0009292",
+    "zfaName": "radial glial cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000018",
+    "standInZfaName": "epiblast",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009292; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from neuroectoderm -> part of ectoderm -> develops from epiblast is ZFA:0000018 (epiblast, early_embryo.json)."
+  },
+  {
+    "label": "red blood cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0002355",
+    "sourceOntologyTerm": "primitive red blood cell",
+    "zfaId": "ZFA:0009256",
+    "zfaName": "nucleate erythrocyte",
+    "matchType": "synonym",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0005023",
+    "standInZfaName": "hematopoietic system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009256; label matches a ZFA synonym for that id. Not modeled; nearest modeled ancestor via is_a blood cell -> part of blood -> part of hematopoietic system is ZFA:0005023 (hematopoietic system, groups.json)."
+  },
+  {
+    "label": "renal glomerulus",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001288",
+    "zfaName": "renal glomerulus",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000529",
+    "standInZfaName": "kidney",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001288; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of renal corpuscle -> part of nephron -> part of kidney is ZFA:0000529 (kidney, excretory.json)."
+  },
+  {
+    "label": "renal system",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001008",
+    "sourceOntologyTerm": "renal system",
+    "zfaId": "ZFA:0000163",
+    "zfaName": "renal system",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "excretory",
+    "isGroupNode": true,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000163; label matches the ZFA name exactly."
+  },
+  {
+    "label": "retina",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "2dpf",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0000966",
+    "sourceOntologyTerm": "retina",
+    "zfaId": "ZFA:0000152",
+    "zfaName": "retina",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "sensory",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000152; label matches the ZFA name exactly."
+  },
+  {
+    "label": "retina (amacrine)",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000561",
+    "sourceOntologyTerm": "amacrine cell",
+    "zfaId": "ZFA:0009255",
+    "zfaName": "amacrine cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009255 (amacrine cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of retinal inner nuclear layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina (muller glia)",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000636",
+    "sourceOntologyTerm": "Mueller cell",
+    "zfaId": "ZFA:0009280",
+    "zfaName": "Muller cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009280 (Muller cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of retinal inner nuclear layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina (neuroblasts)",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000031",
+    "sourceOntologyTerm": "neuroblast (sensu Vertebrata)",
+    "zfaId": "ZFA:0009011",
+    "zfaName": "neuroblast",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009011 (neuroblast); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a neuronal stem cell -> develops from neurectodermal cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: neuroblasts are CNS/PNS progenitor cells; no ZFA part_of edge links the cell-type term to the nervous system term."
+  },
+  {
+    "label": "retina (rgc)",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000740",
+    "sourceOntologyTerm": "retinal ganglion cell",
+    "zfaId": "ZFA:0009310",
+    "zfaName": "retinal ganglion cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009310 (retinal ganglion cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a CNS neuron (sensu Vertebrata) -> is_a neuron -> part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "retina (rods)",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000604",
+    "sourceOntologyTerm": "retinal rod cell",
+    "zfaId": "ZFA:0009275",
+    "zfaName": "retinal rod cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009275 (retinal rod cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a eye photoreceptor cell -> part of retinal photoreceptor layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina amacrine",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000561",
+    "sourceOntologyTerm": "amacrine cell",
+    "zfaId": "ZFA:0009255",
+    "zfaName": "amacrine cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009255 (amacrine cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of retinal inner nuclear layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina amacrine cells",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000561",
+    "sourceOntologyTerm": "amacrine cell",
+    "zfaId": "ZFA:0009255",
+    "zfaName": "amacrine cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009255 (amacrine cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of retinal inner nuclear layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina cone bipolar",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000752",
+    "sourceOntologyTerm": "cone retinal bipolar cell",
+    "zfaId": "ZFA:0009322",
+    "zfaName": "cone retinal bipolar cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009322 (cone retinal bipolar cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a retinal bipolar neuron -> is_a bipolar neuron -> part of retinal inner nuclear layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina cone cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000573",
+    "sourceOntologyTerm": "retinal cone cell",
+    "zfaId": "ZFA:0009262",
+    "zfaName": "retinal cone cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009262 (retinal cone cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a eye photoreceptor cell -> part of retinal photoreceptor layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina neural layer",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000046",
+    "zfaName": "retinal neural layer",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000046 (retinal neural layer); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina neuroblast",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000031",
+    "sourceOntologyTerm": "neuroblast (sensu Vertebrata)",
+    "zfaId": "ZFA:0009011",
+    "zfaName": "neuroblast",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009011 (neuroblast); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a neuronal stem cell -> develops from neurectodermal cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: neuroblasts are CNS/PNS progenitor cells; no ZFA part_of edge links the cell-type term to the nervous system term."
+  },
+  {
+    "label": "retina neuroblasts",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000031",
+    "sourceOntologyTerm": "neuroblast (sensu Vertebrata)",
+    "zfaId": "ZFA:0009011",
+    "zfaName": "neuroblast",
+    "matchType": "curated",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009011 (neuroblast); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a neuronal stem cell -> develops from neurectodermal cell -> is_a cell -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: neuroblasts are CNS/PNS progenitor cells; no ZFA part_of edge links the cell-type term to the nervous system term."
+  },
+  {
+    "label": "retina photoreceptors",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000287",
+    "sourceOntologyTerm": "eye photoreceptor cell",
+    "zfaId": "ZFA:0009154",
+    "zfaName": "eye photoreceptor cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009154 (eye photoreceptor cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of retinal photoreceptor layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina rod cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000604",
+    "sourceOntologyTerm": "retinal rod cell",
+    "zfaId": "ZFA:0009275",
+    "zfaName": "retinal rod cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009275 (retinal rod cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a eye photoreceptor cell -> part of retinal photoreceptor layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retina rods",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": "CL:0000604",
+    "sourceOntologyTerm": "retinal rod cell",
+    "zfaId": "ZFA:0009275",
+    "zfaName": "retinal rod cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009275 (retinal rod cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via is_a eye photoreceptor cell -> part of retinal photoreceptor layer -> part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "retinal ganglion cell",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000740",
+    "sourceOntologyTerm": "retinal ganglion cell",
+    "zfaId": "ZFA:0009310",
+    "zfaName": "retinal ganglion cell",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000396",
+    "standInZfaName": "nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009310; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a CNS neuron (sensu Vertebrata) -> is_a neuron -> part of nervous system is ZFA:0000396 (nervous system, groups.json)."
+  },
+  {
+    "label": "retinal photoreceptor layer",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000143",
+    "zfaName": "retinal photoreceptor layer",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000152",
+    "standInZfaName": "retina",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000143; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of retinal neural layer -> part of retina is ZFA:0000152 (retina, sensory.json)."
+  },
+  {
+    "label": "segmental plate",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage",
+      "05somite",
+      "10somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000279",
+    "zfaName": "segmental plate",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "axial",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000279; label matches the ZFA name exactly."
+  },
+  {
+    "label": "skeletal muscle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "CL:0000188",
+    "sourceOntologyTerm": "cell of skeletal muscle",
+    "zfaId": "ZFA:0009115",
+    "zfaName": "skeletal muscle cell",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000548",
+    "standInZfaName": "musculature system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009115 (skeletal muscle cell); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of skeletal muscle -> is_a muscle -> part of musculature system is ZFA:0000548 (musculature system, groups.json)."
+  },
+  {
+    "label": "solid lens vesicle",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite",
+      "30somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001679",
+    "zfaName": "solid lens vesicle",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000018",
+    "standInZfaName": "epiblast",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001679; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via develops from lens placode -> part of ectoderm -> develops from epiblast is ZFA:0000018 (epiblast, early_embryo.json)."
+  },
+  {
+    "label": "somite",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "10somite",
+      "15somite",
+      "2dpf",
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0002329",
+    "sourceOntologyTerm": "somite",
+    "zfaId": "ZFA:0000155",
+    "zfaName": "somite",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "axial",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000155; label matches the ZFA name exactly."
+  },
+  {
+    "label": "spinal cord",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "20somite",
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0002240",
+    "sourceOntologyTerm": "spinal cord",
+    "zfaId": "ZFA:0000075",
+    "zfaName": "spinal cord",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000075; label matches the ZFA name exactly."
+  },
+  {
+    "label": "spinal cord neural tube",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0007042",
+    "zfaName": "spinal cord neural tube",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0001135",
+    "standInZfaName": "neural tube",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0007042; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of posterior neural tube -> part of neural tube is ZFA:0001135 (neural tube, nervous.json)."
+  },
+  {
+    "label": "tail bud",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage",
+      "05somite",
+      "10somite",
+      "20somite",
+      "30somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000077",
+    "zfaName": "tail bud",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "axial",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000077; label matches the ZFA name exactly."
+  },
+  {
+    "label": "telencephalon",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite",
+      "20somite",
+      "30somite",
+      "3dpf"
+    ],
+    "sourceOntologyId": "UBERON:0001893",
+    "sourceOntologyTerm": "telencephalon",
+    "zfaId": "ZFA:0000079",
+    "zfaName": "telencephalon",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000079; label matches the ZFA name exactly."
+  },
+  {
+    "label": "thrombocyte",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "CL:0000762",
+    "sourceOntologyTerm": "nucleated thrombocyte",
+    "zfaId": "ZFA:0009323",
+    "zfaName": "thrombocyte",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0005023",
+    "standInZfaName": "hematopoietic system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009323; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a blood cell -> part of blood -> part of hematopoietic system is ZFA:0005023 (hematopoietic system, groups.json)."
+  },
+  {
+    "label": "to_delete_to_few_cells",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": null,
+    "zfaName": null,
+    "matchType": "none",
+    "confidence": null,
+    "modeled": null,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "quality-control artifact in the paper's own cluster tracker (doublet, low-count, or unassigned cluster), not a biological label."
+  },
+  {
+    "label": "trigeminal ganglion",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "30somite"
+    ],
+    "sourceOntologyId": "UBERON:0001675",
+    "sourceOntologyTerm": "trigeminal ganglion",
+    "zfaId": "ZFA:0000295",
+    "zfaName": "trigeminal ganglion",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "nervous",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000295; label matches the ZFA name exactly."
+  },
+  {
+    "label": "trigeminal placode",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "15somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0000162",
+    "zfaName": "trigeminal placode",
+    "matchType": "exact",
+    "confidence": "medium",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000142",
+    "standInZfaName": "peripheral nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000162; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via is_a dorsolateral placode -> is_a neurogenic placode -> is_a embryonic structure -> part of whole organism is ZFA:0001094 (whole organism, integument_pigment.json). Curator override: the automatic ontology closure only reaches the generic 'whole organism' node, so a spatial/developmental stand-in was chosen by hand: the trigeminal placode is a cranial sensory placode that gives rise to peripheral nervous system ganglia; no dedicated placode group node exists."
+  },
+  {
+    "label": "trunk proliferative",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "5dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001115",
+    "zfaName": "trunk",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000077",
+    "standInZfaName": "tail bud",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001115 (trunk); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via develops from tail bud is ZFA:0000077 (tail bud, axial.json)."
+  },
+  {
+    "label": "unassigned",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "0 budstage",
+      "20somite"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": null,
+    "zfaName": null,
+    "matchType": "none",
+    "confidence": null,
+    "modeled": null,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "quality-control artifact in the paper's own cluster tracker (doublet, low-count, or unassigned cluster), not a biological label."
+  },
+  {
+    "label": "unclear3",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": null,
+    "zfaName": null,
+    "matchType": "none",
+    "confidence": null,
+    "modeled": null,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "quality-control artifact in the paper's own cluster tracker (doublet, low-count, or unassigned cluster), not a biological label."
+  },
+  {
+    "label": "vascular",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002049",
+    "sourceOntologyTerm": "vasculature",
+    "zfaId": "ZFA:0005249",
+    "zfaName": "vasculature",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000010",
+    "standInZfaName": "cardiovascular system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005249 (vasculature); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of cardiovascular system is ZFA:0000010 (cardiovascular system, groups.json)."
+  },
+  {
+    "label": "vascular precursor",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002049",
+    "sourceOntologyTerm": "vasculature",
+    "zfaId": "ZFA:0005249",
+    "zfaName": "vasculature",
+    "matchType": "curated",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000010",
+    "standInZfaName": "cardiovascular system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005249 (vasculature); scRNA-seq cluster label differs in wording but is the same structure. Not modeled; nearest modeled ancestor via part of cardiovascular system is ZFA:0000010 (cardiovascular system, groups.json)."
+  },
+  {
+    "label": "vasculature",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "10dpf",
+      "3dpf",
+      "5dpf"
+    ],
+    "sourceOntologyId": "UBERON:0002049",
+    "sourceOntologyTerm": "vasculature",
+    "zfaId": "ZFA:0005249",
+    "zfaName": "vasculature",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000010",
+    "standInZfaName": "cardiovascular system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0005249; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of cardiovascular system is ZFA:0000010 (cardiovascular system, groups.json)."
+  },
+  {
+    "label": "ventricular zone",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "3dpf"
+    ],
+    "sourceOntologyId": null,
+    "sourceOntologyTerm": null,
+    "zfaId": "ZFA:0001083",
+    "zfaName": "ventricular zone",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": false,
+    "modeledSystem": null,
+    "isGroupNode": null,
+    "standInZfaId": "ZFA:0000012",
+    "standInZfaName": "central nervous system",
+    "note": "paper's own annotation ontology tracker assigns ZFA:0001083; label matches the ZFA name exactly. Not modeled; nearest modeled ancestor via part of ventricular system -> part of central nervous system is ZFA:0000012 (central nervous system, groups.json)."
+  },
+  {
+    "label": "xanthophore",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "2dpf"
+    ],
+    "sourceOntologyId": "CL:0000430",
+    "sourceOntologyTerm": "xanthophore cell",
+    "zfaId": "ZFA:0009198",
+    "zfaName": "xanthophore",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "integument_pigment",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0009198; label matches the ZFA name exactly."
+  },
+  {
+    "label": "yolk syncytial layer",
+    "dataset": "Zebrahub scRNA-seq (Lange et al. 2024, Cell)",
+    "stages": [
+      "05somite",
+      "2dpf"
+    ],
+    "sourceOntologyId": "UBERON:2000088",
+    "sourceOntologyTerm": "yolk syncytial layer",
+    "zfaId": "ZFA:0000088",
+    "zfaName": "yolk syncytial layer",
+    "matchType": "exact",
+    "confidence": "high",
+    "modeled": true,
+    "modeledSystem": "early_embryo",
+    "isGroupNode": false,
+    "standInZfaId": null,
+    "standInZfaName": null,
+    "note": "paper's own annotation ontology tracker assigns ZFA:0000088; label matches the ZFA name exactly."
+  }
+]

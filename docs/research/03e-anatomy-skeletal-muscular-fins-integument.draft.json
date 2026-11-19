@@ -1,0 +1,4271 @@
+[
+  {
+    "id": "ZFA:0001580",
+    "name": "neurocranium",
+    "synonyms": [
+      "braincase",
+      "palatal skeleton"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0000737",
+    "parentAll": [
+      "ZFA:0000737"
+    ],
+    "uiParent": "ZFA:0000434",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Anatomical cluster that is the regional skeletal system surrounding the brain.",
+    "spatial": {
+      "apFraction": [
+        0.02,
+        0.24
+      ],
+      "dv": "dorsal half of the head, floor and walls around the brain, above the pharynx",
+      "laterality": "midline",
+      "landmarks": "from the ethmoid plate at the snout to the occipital arch at the first vertebra; roofs the orbit and otic capsule"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Model a shallow trough (lathe or extruded U-profile) under the brain. Paired trabeculae (thin rods) fuse anteriorly into a flat ethmoid plate. Parachordals flank the notochord tip posteriorly. Add a dermal roof (frontal, parietal) only from the juvenile stage."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 350,
+          "width": 120
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "trabeculae plus ethmoid plate; scaled to a 3.1 mm embryo"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 600,
+          "width": 250
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "cartilaginous neurocranium of a 3.9 mm larva"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 6500,
+          "width": 3500,
+          "height": 3000
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "skull of a 28 mm SL adult; head length about 0.25 SL"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 42,
+        "event": "trabeculae cranii are the first neurocranial cartilage (ZFIN start stage High-pec)",
+        "source": "https://zfin.org/ZFA:0001507"
+      },
+      {
+        "hpf": 48,
+        "event": "parachordal cartilages and the ethmoid plate appear (ZFIN start stage Long-pec)",
+        "source": "https://zfin.org/ZFA:0001405"
+      },
+      {
+        "hpf": 288,
+        "event": "occipital arch cartilages fuse and meet medially as the tectum synoticum by 12 dpf",
+        "source": "https://zfin.org/ZFA:0001504"
+      },
+      {
+        "hpf": 504,
+        "event": "frontal bone ossifies (ZFIN start stage Days 21-29)",
+        "source": "https://zfin.org/ZFA:0000514"
+      },
+      {
+        "hpf": 1080,
+        "event": "ethmoid cartilage is replaced by bone (ZFIN end stage Days 30-44 for the cartilage)",
+        "source": "https://zfin.org/ZFA:0001405"
+      }
+    ],
+    "colorHint": "#8FC1E3",
+    "sources": [
+      "https://zfin.org/ZFA:0001580",
+      "https://zfin.org/ZFA:0001507",
+      "https://zfin.org/ZFA:0001405",
+      "https://zfin.org/ZFA:0000514",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+    ],
+    "visibleFromHpf": 42,
+    "visibleFromNote": "ZFIN gives start stage Unknown. The first Alcian-positive element, the trabecula cranii, has ZFIN start stage High-pec (42 hpf).",
+    "notes": "Group node. Sub-elements with their own ZFA ids: trabecula cranii ZFA:0001507, ethmoid cartilage ZFA:0001405, parachordal cartilage ZFA:0001423, parasphenoid ZFA:0000561, frontal bone ZFA:0000514, parietal bone ZFA:0000486."
+  },
+  {
+    "id": "ZFA:0001216",
+    "name": "splanchnocranium",
+    "synonyms": [
+      "pharyngeal arch skeleton",
+      "pharyngeal skeleton"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0000737",
+    "parentAll": [
+      "ZFA:0000737"
+    ],
+    "uiParent": "ZFA:0000434",
+    "startStage": "ZFS:0000025",
+    "startHpf": 14.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Anatomical cluster that is the regional skeletal system of the jaws, hyoid and branchial arches.",
+    "spatial": {
+      "apFraction": [
+        0.08,
+        0.26
+      ],
+      "dv": "ventral half of the head, below the neurocranium and eye, around the pharynx",
+      "laterality": "paired",
+      "landmarks": "from the mouth (anterior tip of Meckel's cartilage) to the last gill arch under the otic capsule"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Group of seven bilateral arches. Model each arch as one or two bent tubes (dorsal and ventral elements) hanging from the neurocranium and meeting at the ventral midline."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 300,
+          "width": 250
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "note": "first condensations; arch 1 and 2 elements distinct by 55 hpf"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 550,
+          "width": 350,
+          "height": 250
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "all seven arches cartilaginous in a 3.9 mm larva"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 6000,
+          "width": 4000,
+          "height": 3500
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "jaws plus opercular series of a 28 mm SL adult"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 14,
+        "event": "ZFIN start stage 10-13 somites (arch primordia)",
+        "source": "https://zfin.org/ZFA:0001216"
+      },
+      {
+        "hpf": 45,
+        "event": "cartilage pattern of the pharyngeal arches emerges between 45 and 72 hpf",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/"
+      },
+      {
+        "hpf": 55,
+        "event": "Meckel's cartilage, palatoquadrate and ceratohyal are distinct cartilage elements by 55 hpf",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+      },
+      {
+        "hpf": 72,
+        "event": "opercle is the first dermal bone of the arch skeleton to mineralize (3 dpf)",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      },
+      {
+        "hpf": 96,
+        "event": "larvae start feeding at 4 dpf with a functional jaw",
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal"
+      }
+    ],
+    "colorHint": "#8FC1E3",
+    "sources": [
+      "https://zfin.org/ZFA:0001216",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+    ],
+    "visibleFromHpf": 48,
+    "visibleFromNote": "ZFIN start stage is 10-13 somites (14 hpf) for the arch primordia. Alcian-positive cartilage is present from about 48 to 55 hpf.",
+    "notes": "Group node for the pharyngeal skeleton. Children in this file: Meckel's cartilage, palatoquadrate, ceratohyal, hyosymplectic, pharyngeal arch 3-7 skeleton, ceratobranchial 5 tooth, dentary, maxilla, opercle."
+  },
+  {
+    "id": "ZFA:0001205",
+    "name": "Meckel's cartilage",
+    "synonyms": [
+      "ventral mandibular cartilage"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0001273",
+    "parentAll": [
+      "ZFA:0001273"
+    ],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Meckel's cartilage is the bilaterally paired, rod-like, cartilaginous ventral component of the lower jaw, or ventral mandibular arch. It is typically resorbed in adults.",
+    "spatial": {
+      "apFraction": [
+        0.06,
+        0.14
+      ],
+      "dv": "ventral-most element of the head, floor of the mouth",
+      "laterality": "paired",
+      "landmarks": "left and right rods meet at the anterior midline (mandibular symphysis); posterior end articulates with the palatoquadrate"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Two curved rods forming a V that opens posteriorly. Diameter about 1 to 2 chondrocytes (15 to 25 um) in the larva. Later wrap in a thin dentary bone shell."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 90,
+          "diameter": 20
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "note": "condensation becoming a distinct rod by 55 hpf"
+      },
+      {
+        "stageLabel": "Pec-fin",
+        "hpf": 60,
+        "dims_um": {
+          "length": 130,
+          "diameter": 20
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 220,
+          "diameter": 25
+        },
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/",
+        "estimate": true,
+        "note": "rod that spans the mediolateral width with single stacked chondrocytes; length is an estimate"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3000,
+          "diameter": 250
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "lower jaw of a 28 mm SL adult, largely replaced by dentary and anguloarticular bone"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "mesenchymal precartilage condensation in the mandibular arch at the start of the hatching period",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 55,
+        "event": "Meckel's cartilage is present and distinct from the palatoquadrate by 55 hpf",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+      },
+      {
+        "hpf": 78,
+        "event": "dentary osteoblasts appear along the anterolateral surface at 78 hpf",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/"
+      },
+      {
+        "hpf": 86,
+        "event": "chondrocytes span the mediolateral width; growth by cell intercalation",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/"
+      }
+    ],
+    "colorHint": "#8FC1E3",
+    "sources": [
+      "https://zfin.org/ZFA:0001205",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+      "https://www.facebase.org/resources/zebrafish/fishface/meckel/",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal"
+    ]
+  },
+  {
+    "id": "ZFA:0001399",
+    "name": "palatoquadrate cartilage",
+    "synonyms": [
+      "dorsal mandibular cartilage",
+      "pterygoquadrate",
+      "quadrate cartilage"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0001272",
+    "parentAll": [
+      "ZFA:0001272"
+    ],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Cartilage that is the dorsal component of the first pharyngeal arch.  It is roughly triangular with slightly concave dorsal edges and convex ventral edges.  The anteroventral corner gives rise the quadrate and articulates with the posterior end of  Meckel's cartilage.  The anterodorsal tip articulates with the lateral edge of the ethmoid plate and the posteroventral edge articulates with the anterodorsal edge of the hyosymplectic.",
+    "spatial": {
+      "apFraction": [
+        0.08,
+        0.16
+      ],
+      "dv": "lateral to the pharynx, between Meckel's cartilage below and the ethmoid plate above",
+      "laterality": "paired",
+      "landmarks": "anteroventral corner (quadrate) meets Meckel's cartilage; anterodorsal tip meets the ethmoid plate; posterior edge meets the hyosymplectic"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "Roughly triangular flat plate (thickness one chondrocyte) with a longer horizontal ventral edge. Orient in a parasagittal plane, tilted so its dorsal tip leans medially."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 80,
+          "height": 50,
+          "thickness": 20
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 180,
+          "height": 100,
+          "thickness": 20
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2500,
+          "height": 1500,
+          "thickness": 200
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "quadrate, autopalatine, ectopterygoid and entopterygoid bones replace it in the adult"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 55,
+        "event": "distinct element by 55 hpf",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+      },
+      {
+        "hpf": 72,
+        "event": "cartilage pattern of the mandibular arch complete by 72 hpf",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/"
+      },
+      {
+        "hpf": 240,
+        "event": "quadrate ossification in the perichondrium (unverified timing)",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+      }
+    ],
+    "colorHint": "#8FC1E3",
+    "sources": [
+      "https://zfin.org/ZFA:0001399",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+    ]
+  },
+  {
+    "id": "ZFA:0001400",
+    "name": "ceratohyal cartilage",
+    "synonyms": [],
+    "system": "skeletal",
+    "parent": "ZFA:0001402",
+    "parentAll": [
+      "ZFA:0001402"
+    ],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Pharyngeal arch cartilage that is bilaterally paired and the largest cartilaginous component of the ventral hyoid arch.",
+    "spatial": {
+      "apFraction": [
+        0.1,
+        0.2
+      ],
+      "dv": "ventral head, behind and below Meckel's cartilage, floor of the pharynx",
+      "laterality": "paired",
+      "landmarks": "left and right rods form an inverted V that points anteriorly; posterior ends meet the hyosymplectic below the ear"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Straight rod, thicker at the posterior end (dumbbell from 150 hpf). Angle between left and right rods about 60 to 90 degrees in the larva (the classic ceratohyal angle metric)."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 90,
+          "diameter": 30
+        },
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/",
+        "estimate": true,
+        "note": "multilayer condensation at 55 hpf"
+      },
+      {
+        "stageLabel": "Pec-fin",
+        "hpf": 60,
+        "dims_um": {
+          "length": 150,
+          "diameter": 25
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 260,
+          "diameter": 30
+        },
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/",
+        "estimate": true,
+        "note": "dumbbell shape at 150 hpf; length is an estimate"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3500,
+          "diameter": 400
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 55,
+        "event": "condensation of chondrogenic cells in several layers by 55 hpf",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/"
+      },
+      {
+        "hpf": 79,
+        "event": "straightened rod by 79 hpf",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/"
+      },
+      {
+        "hpf": 150,
+        "event": "ceratohyal bone appears in the perichondrium at 150 hpf",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/"
+      },
+      {
+        "hpf": 516,
+        "event": "four perichondral bones almost cover the cartilage by 516 hpf",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/"
+      }
+    ],
+    "colorHint": "#8FC1E3",
+    "sources": [
+      "https://zfin.org/ZFA:0001400",
+      "https://www.facebase.org/resources/zebrafish/fishface/ceratohyal/",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://zfin.org/ZFA:0000578"
+    ]
+  },
+  {
+    "id": "ZFA:0001422",
+    "name": "hyosymplectic cartilage",
+    "synonyms": [
+      "hyomandibular cartilage"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0001401",
+    "parentAll": [
+      "ZFA:0001401"
+    ],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Bilaterally paired large cartilage that articulates with the chondrocranium dorsally, the opercle posteriorly, and the palatoquadrate cartilage anteriorly.",
+    "spatial": {
+      "apFraction": [
+        0.14,
+        0.22
+      ],
+      "dv": "lateral head wall below the otic capsule, above the ceratohyal",
+      "laterality": "paired",
+      "landmarks": "dorsal end hangs from the otic region of the neurocranium; posterior edge carries the opercle joint; anteroventral symplectic process reaches the palatoquadrate"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "Flat plate with a ventral rod (symplectic). Model as a vertical plate about one chondrocyte thick with a tapered ventral spur."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "height": 80,
+          "length": 50,
+          "thickness": 20
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+        "estimate": true,
+        "note": "dorsal chondrification site of the hyoid condensation"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "height": 200,
+          "length": 120,
+          "thickness": 20
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "height": 3000,
+          "length": 1500,
+          "thickness": 200
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "hyomandibula and symplectic bones"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "hyoid condensation splits into a dorsal hyosymplectic and a ventral ceratohyal site",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/9808777/"
+      },
+      {
+        "hpf": 72,
+        "event": "opercle articulates with the hyosymplectic by a ball-and-socket joint from 3 dpf",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      }
+    ],
+    "colorHint": "#8FC1E3",
+    "sources": [
+      "https://zfin.org/ZFA:0001422",
+      "https://pubmed.ncbi.nlm.nih.gov/9808777/",
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/"
+    ]
+  },
+  {
+    "id": "ZFA:0000095",
+    "name": "pharyngeal arch 3-7 skeleton",
+    "synonyms": [
+      "branchial arch skeleton",
+      "gill arches 1-5 skeleton"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0001216",
+    "parentAll": [
+      "ZFA:0001216",
+      "ZFA:0001613"
+    ],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000025",
+    "startHpf": 14.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Skeletal and cartilaginous elements of the gill arches; the last five of the set of seven pharyngeal arches; the numbering system can be confusing; generally branchial arch #1 is the first gill arch, or the third pharyngeal arch, but some authors do not follow this convention.",
+    "spatial": {
+      "apFraction": [
+        0.16,
+        0.26
+      ],
+      "dv": "ventrolateral head, floor and sides of the pharynx behind the ceratohyal",
+      "laterality": "paired",
+      "landmarks": "five bilateral gill arches (ceratobranchials 1-5) stacked anteroposteriorly under the otic capsule; ceratobranchial 5 carries the teeth"
+    },
+    "shape": {
+      "primitive": "segmentArray",
+      "notes": "Array of five bent rods per side (ceratobranchials). Each is about 60 to 70 percent of the ceratohyal length in the larva. The rods converge on a midline copula. Add short dorsal epibranchials as second rods."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 60,
+          "diameter": 15,
+          "count": 2
+        },
+        "source": "https://zfin.org/ZFA:0001520",
+        "estimate": true,
+        "note": "ceratobranchial 1 and 5 first (ZFIN start Long-pec)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 150,
+          "diameter": 20,
+          "count": 5
+        },
+        "source": "https://zfin.org/ZFA:0001517",
+        "estimate": true,
+        "note": "all five ceratobranchials cartilaginous"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2500,
+          "diameter": 250,
+          "count": 5
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "ceratobranchial 1 and 5 cartilages appear (ZFIN start Long-pec)",
+        "source": "https://zfin.org/ZFA:0001521"
+      },
+      {
+        "hpf": 60,
+        "event": "ceratobranchials 2 to 4 appear (ZFIN start Pec-fin)",
+        "source": "https://zfin.org/ZFA:0001517"
+      },
+      {
+        "hpf": 72,
+        "event": "gill filament buds form on the four gill-bearing arches late in the hatching period",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 336,
+        "event": "ceratobranchial 1 to 4 bones ossify (ZFIN start Days 14-20)",
+        "source": "https://zfin.org/ZFA:0001237"
+      }
+    ],
+    "colorHint": "#8FC1E3",
+    "sources": [
+      "https://zfin.org/ZFA:0000095",
+      "https://zfin.org/ZFA:0001516",
+      "https://zfin.org/ZFA:0001521",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+    ],
+    "visibleFromHpf": 48,
+    "visibleFromNote": "ZFIN start stage is 10-13 somites (14 hpf) for the arch skeleton primordia. Cartilage rods are visible from 48 to 60 hpf."
+  },
+  {
+    "id": "ZFA:0000694",
+    "name": "ceratobranchial 5 tooth",
+    "synonyms": [
+      "pharyngeal tooth",
+      "teeth",
+      "tooth"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0000056",
+    "parentAll": [
+      "ZFA:0000056",
+      "ZFA:0001239"
+    ],
+    "uiParent": "ZFA:0000095",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Is a multi-tissue structure composed of dentine, enameloid and tooth pulp. The tips of the ceratobranchial 5 teeth form before the ceratobranchial itself (3.0 mm NL). As they grow ventrally, they meet the perichondrally ossified surface of ceratobranchial 5 and become firmly ankylosed to the bone. Ceratobranchial teeth are the only teeth present in zebrafish and other cypriniforms.",
+    "spatial": {
+      "apFraction": [
+        0.22,
+        0.26
+      ],
+      "dv": "floor of the posterior pharynx, medial face of ceratobranchial 5",
+      "laterality": "paired",
+      "landmarks": "one ventral row of up to 5 teeth plus two dorsal rows per side in the adult; the only teeth in zebrafish"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Tiny cones (10 to 20 um at 48 hpf, about 300 um in adults) pointing dorsomedially from ceratobranchial 5. Render as a cluster of cones; count grows with stage."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "height": 15,
+          "diameter": 8,
+          "count": 2
+        },
+        "source": "https://zfin.org/ZFA:0000694",
+        "estimate": true,
+        "note": "tooth tips form before the ceratobranchial itself (3.0 mm NL)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "height": 40,
+          "diameter": 15,
+          "count": 6
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "6 teeth at day 5"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "height": 300,
+          "diameter": 100,
+          "count": 22
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/11084648/",
+        "estimate": true,
+        "note": "11 tooth positions per side in three rows; count and size unverified"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "tooth tips form at 3.0 mm NL, before ceratobranchial 5 ossifies",
+        "source": "https://zfin.org/ZFA:0000694"
+      },
+      {
+        "hpf": 120,
+        "event": "6 teeth (day 5)",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      {
+        "hpf": 168,
+        "event": "8 teeth (days 7-13)",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      {
+        "hpf": 336,
+        "event": "10 teeth (days 14-20)",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      {
+        "hpf": 1080,
+        "event": "12 teeth (days 45-89)",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0000694",
+      "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "https://pubmed.ncbi.nlm.nih.gov/11084648/"
+    ]
+  },
+  {
+    "id": "ZFA:0000191",
+    "name": "dentary",
+    "synonyms": [
+      "dentary bone"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0000863",
+    "parentAll": [
+      "ZFA:0000863",
+      "ZFA:0001273"
+    ],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Dermal bone that forms the antero-lateral part of the lower jaw. It first appears around the anterior end of Meckel's cartilage (5.1 mm NL). In the adult, the dentary meets its counterpart anteriorly at the mandibular symphysis. The dentary abuts the retroarticular posteriorly, and it surround the anguloarticular. The dentary is connected to the maxilla by the maxillo-mandibular ligament. Dentary teeth are absent in cypriniforms, but are present in other ostariophysans.",
+    "spatial": {
+      "apFraction": [
+        0.04,
+        0.12
+      ],
+      "dv": "ventral-most bone of the head, lateral to the anterior half of Meckel's cartilage",
+      "laterality": "paired",
+      "landmarks": "meets its partner at the mandibular symphysis; forms the outer surface of the lower jaw"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "Thin bony sleeve wrapped around the anterior half of Meckel's cartilage. Start as a short splint, then extend to a plate that covers the cartilage."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Day 4",
+        "hpf": 96,
+        "dims_um": {
+          "length": 60,
+          "thickness": 5
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true,
+        "note": "single Alizarin-red splint at 86 to 96 hpf"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 100,
+          "thickness": 5
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3000,
+          "height": 800,
+          "thickness": 100
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 78,
+        "event": "dentary osteoblasts appear along Meckel's cartilage at 78 hpf",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/"
+      },
+      {
+        "hpf": 86,
+        "event": "Alizarin red staining of the dentary at 86 hpf",
+        "source": "https://www.facebase.org/resources/zebrafish/fishface/meckel/"
+      },
+      {
+        "hpf": 200,
+        "event": "Cubbage and Mabee report the dentary first at 5.1 mm NL (cited in the ZFA definition); timing differs between rearing conditions",
+        "source": "https://zfin.org/ZFA:0000191"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0000191",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3698193/",
+      "https://www.facebase.org/resources/zebrafish/fishface/meckel/",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+    ],
+    "visibleFromHpf": 86,
+    "visibleFromNote": "ZFIN start stage Unknown. FishFace reports Alizarin-red-positive dentary at 86 hpf; the ZFA definition (from Cubbage and Mabee 1996) gives 5.1 mm NL."
+  },
+  {
+    "id": "ZFA:0000270",
+    "name": "maxilla",
+    "synonyms": [
+      "maxillae"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0000863",
+    "parentAll": [
+      "ZFA:0000863",
+      "ZFA:0001272"
+    ],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The dermal maxilla forms part of the upper jaw. It is first visible as a small dorsoventrally oriented rod of bone in the lateral region of the upper jaw. Through anterior ossification it becomes S-shaped, with its anteriormost tip directed medially (4.8 mm NL). The posteroventral end of the maxilla is connected to the dentary by a ligament. Maxillary teeth are absent in cypriniforms, but are present in other ostariophysans. Two barbels are present on the maxilla. The presence of two pairs of maxillary barbels is considered by Cavender and Coburn (1992) to be the primitive condition for the Cyprinidae.",
+    "spatial": {
+      "apFraction": [
+        0.03,
+        0.1
+      ],
+      "dv": "upper lip region, lateral to the mouth, below the eye",
+      "laterality": "paired",
+      "landmarks": "dorsoventral rod at the corner of the mouth; premaxilla lies anterior to its dorsal tip; maxillary barbel attaches to its posteroventral end"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Thin S-shaped rod oriented dorsoventrally; the anterior tip turns medially. Pair with a small L-shaped premaxilla (ZFA:0000567) anteriorly."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 200,
+        "dims_um": {
+          "length": 80,
+          "diameter": 10
+        },
+        "source": "https://zfin.org/ZFA:0000270",
+        "estimate": true,
+        "note": "first visible at 4.8 mm NL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2200,
+          "diameter": 200
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 200,
+        "event": "first visible as a small dorsoventral rod at 4.8 mm NL (about 4.5 mm TL is reached at days 7-13)",
+        "source": "https://zfin.org/ZFA:0000270"
+      },
+      {
+        "hpf": 260,
+        "event": "premaxilla appears anterior to the maxilla at 5.7 mm",
+        "source": "https://zfin.org/ZFA:0000567"
+      },
+      {
+        "hpf": 720,
+        "event": "maxillary barbel bud forms at the posteroventral corner at 30 to 40 dpf",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0000270",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/",
+      "https://zfin.org/ZFA:0000567",
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737",
+      "https://zfin.org/zf_info/zfbook/stages/index.html"
+    ],
+    "visibleFromHpf": 200,
+    "visibleFromNote": "ZFIN start stage Unknown. The ZFA definition gives 4.8 mm NL, which the ZFIN stage table places in Days 7-13 (4.5 mm at 168 hpf).",
+    "notes": "No maxilla at 24, 48 or 120 hpf; the upper jaw is the palatoquadrate at those stages."
+  },
+  {
+    "id": "ZFA:0000250",
+    "name": "opercle",
+    "synonyms": [
+      "opercles"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0000555",
+    "parentAll": [
+      "ZFA:0000555",
+      "ZFA:0000863",
+      "ZFA:0001401"
+    ],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Dermal bone that articulates anteriorly with the hyomandibula. The opercle is paired and typically the largest bone of the opercular series.  It is derived from the neural crest and is located in 2nd pharyngeal arch.",
+    "spatial": {
+      "apFraction": [
+        0.18,
+        0.26
+      ],
+      "dv": "lateral head wall behind the eye, covering the gill chamber",
+      "laterality": "paired",
+      "landmarks": "dorsal apex articulates with the hyosymplectic; posterior free edge marks the head-trunk boundary and the anterior limit of the cleithrum"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "Fan: a rod at 3 dpf that widens into a fan by 4 to 5 dpf and a trapezoid in the adult. Keep the joint apex fixed and grow the ventral and posterior edges."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Protruding-mouth",
+        "hpf": 72,
+        "dims_um": {
+          "length": 40,
+          "width": 8,
+          "thickness": 4
+        },
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+        "estimate": true,
+        "note": "small linear spur at 3 dpf"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 90,
+          "width": 50,
+          "thickness": 5
+        },
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+        "estimate": true,
+        "note": "fan shape emerges at 4 to 5 dpf"
+      },
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 312,
+        "dims_um": {
+          "length": 190,
+          "width": 130,
+          "thickness": 8
+        },
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+        "estimate": true,
+        "note": "edge outgrowth 10.0 um/day (ventral) and 16.5 um/day (posterior) between 7 and 13 dpf"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3500,
+          "width": 3000,
+          "thickness": 100
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "maxillary barbel reaches the middle of the opercle"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 72,
+        "event": "opercle first mineralizes at 3 dpf as a linear spur",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      },
+      {
+        "hpf": 108,
+        "event": "fan shape from 4 to 5 dpf",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      },
+      {
+        "hpf": 312,
+        "event": "duck-like silhouette at about 13 dpf; growth 21.6 to 32.0 um/day between 13 and 19 dpf",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0000250",
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009475",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/"
+    ],
+    "visibleFromHpf": 72,
+    "visibleFromNote": "ZFIN start stage Unknown. Kimmel et al. 2010 report first mineralization at 3 dpf.",
+    "notes": "The opercular flap (ZFA:0000555) that covers the gills also contains the subopercle, interopercle and preopercle."
+  },
+  {
+    "id": "ZFA:0000184",
+    "name": "cleithrum",
+    "synonyms": [
+      "cleithra"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0000407",
+    "parentAll": [
+      "ZFA:0000407"
+    ],
+    "uiParent": "ZFA:0000434",
+    "startStage": "ZFS:0000032",
+    "startHpf": 42.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Transversely oriented bone connecting the occipital region of the skull dorsally and pectoral girdle ventrally; appears near the end of embryogenesis.",
+    "spatial": {
+      "apFraction": [
+        0.24,
+        0.29
+      ],
+      "dv": "spans from the dorsal occipital region down to the ventral pectoral girdle, just behind the opercle",
+      "laterality": "paired",
+      "landmarks": "posterior boundary of the head; the pectoral fin base sits on its ventral half"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Curved dorsoventral splint, concave anteriorly, that thickens into a blade in the adult."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 60,
+          "diameter": 8
+        },
+        "source": "https://zfin.org/ZFA:0000184",
+        "estimate": true,
+        "note": "appears near the end of embryogenesis"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 250,
+          "diameter": 12
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/29852585/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 5000,
+          "width": 800,
+          "thickness": 150
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 42,
+        "event": "ZFIN start stage High-pec",
+        "source": "https://zfin.org/ZFA:0000184"
+      },
+      {
+        "hpf": 72,
+        "event": "one of the earliest dermal bones with the opercle and branchiostegal ray 3 (3.4 mm NL)",
+        "source": "https://zfin.org/ZFA:0001280"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0000184",
+      "https://pubmed.ncbi.nlm.nih.gov/29852585/",
+      "https://zfin.org/ZFA:0000407"
+    ],
+    "notes": "Direct ZFA part_of parent is the pectoral girdle ZFA:0000407, which is part of the pectoral fin skeleton."
+  },
+  {
+    "id": "ZFA:0001189",
+    "name": "vertebra",
+    "synonyms": [
+      "vertebrae"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0001559",
+    "parentAll": [
+      "ZFA:0001559"
+    ],
+    "uiParent": "ZFA:0000434",
+    "startStage": "ZFS:0000035",
+    "startHpf": 72.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "All serially repeated ossified, cartilaginous, and ligamentous elements around the notochord (Schultze and Arratia, 1988).  Adult zebrafish usually 32 vertebrae but may have as few as 30 to as many as 33 vertebrae.",
+    "spatial": {
+      "apFraction": [
+        0.26,
+        0.92
+      ],
+      "dv": "axial midline around the notochord, ventral to the spinal cord and dorsal to the gut and swim bladder",
+      "laterality": "midline",
+      "landmarks": "vertebra 1 follows the occiput; vertebrae 1-4 form the Weberian apparatus; 5-14 bear ribs; 15-29 are caudal; the last 3-4 are fused into the caudal fin complex"
+    },
+    "shape": {
+      "primitive": "segmentArray",
+      "notes": "Array of 31 to 33 short cylinders (centra) with dorsal neural arches and, posterior to the vent, ventral hemal arches. Mineralization spreads anterior to posterior; drive centrum opacity by SL."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 100,
+          "diameter": 60,
+          "count": 3
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/",
+        "estimate": true,
+        "note": "centra 3 and 4 mineralize at 4.0 mm TL; 5 then 1 and 2 by 4.4 mm TL"
+      },
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 400,
+        "dims_um": {
+          "length": 180,
+          "diameter": 120,
+          "count": 30
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/",
+        "estimate": true,
+        "note": "PU2 is the last centrum to form at 6.7 mm TL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 700,
+          "diameter": 500,
+          "count": 32
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "about 22 mm of column in a 28 mm SL fish; 31-32 vertebrae per FishBase, mode 32 (30-33) per ZFA, mode 33 per Bensimon-Brito"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 72,
+        "event": "ZFIN start stage Protruding-mouth for vertebra and centrum",
+        "source": "https://zfin.org/ZFA:0000126"
+      },
+      {
+        "hpf": 120,
+        "event": "first mineralized centra (3 and 4) at 4.0 mm TL, anterior-to-posterior",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+      },
+      {
+        "hpf": 132,
+        "event": "centrum 5, then 1 and 2, at 4.4 mm TL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+      },
+      {
+        "hpf": 220,
+        "event": "caudal fin centra start with U1 of the compound centrum at 5.5 mm TL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+      },
+      {
+        "hpf": 400,
+        "event": "PU2 is the last centrum, at 6.7 mm TL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0001189",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/",
+      "https://pubmed.ncbi.nlm.nih.gov/14579374/",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0001559"
+    ],
+    "notes": "Direct ZFA part_of parent is vertebral column ZFA:0001559 (ZFIN start Unknown), which is part of the postcranial axial skeleton ZFA:0000317. Regions per Bensimon-Brito 2012: 4 Weberian, 10 abdominal, 15 caudal, 3-4 caudal fin vertebrae."
+  },
+  {
+    "id": "ZFA:0000538",
+    "name": "rib",
+    "synonyms": [
+      "dorsal rib",
+      "pleural rib"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0001582",
+    "parentAll": [
+      "ZFA:0001582"
+    ],
+    "uiParent": "ZFA:0001189",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Endochondral bone that is intersegmental and rod-shaped, forming in the peritoneal membrane and attached to the vertebral parapophyses. Ribs protect and support internal organs.",
+    "spatial": {
+      "apFraction": [
+        0.32,
+        0.56
+      ],
+      "dv": "curve ventrolaterally from the parapophyses of the abdominal vertebrae around the body cavity",
+      "laterality": "paired",
+      "landmarks": "on vertebrae 5 to 14 (non-Weberian precaudal vertebrae); enclose the swim bladder and gut"
+    },
+    "shape": {
+      "primitive": "segmentArray",
+      "notes": "Ten pairs of thin curved rods, each about 40 to 60 percent of body depth, angled posteroventrally."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 600,
+        "dims_um": {
+          "length": 900,
+          "diameter": 30,
+          "count": 10
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/14579374/",
+        "estimate": true,
+        "note": "onset not verified; ribs are absent from the 5 dpf larva"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3500,
+          "diameter": 120,
+          "count": 10
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 600,
+        "event": "ribs ossify after the centra during the late larval period (timing unverified; Bird and Mabee 2003 give the sequence)",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/14579374/"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0000538",
+      "https://pubmed.ncbi.nlm.nih.gov/14579374/",
+      "https://zfin.org/ZFA:0001582"
+    ],
+    "visibleFromHpf": 600,
+    "visibleFromNote": "ZFIN start stage Unknown. Rib onset is an estimate (about 6 to 7 mm SL); the ZFA lists ribs of vertebrae 1-6 as separate terms."
+  },
+  {
+    "id": "ZFA:0001188",
+    "name": "Weberian apparatus",
+    "synonyms": [],
+    "system": "skeletal",
+    "parent": "ZFA:0001559",
+    "parentAll": [
+      "ZFA:0001559"
+    ],
+    "uiParent": "ZFA:0001189",
+    "startStage": "ZFS:0000039",
+    "startHpf": 168.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The Weberian apparatus consists of the modified anteriormost four vertebrae and associated structures of otophysans which transduce sound or pressure waves from the tunica externa of the swim bladder to the inner ear (Alexander, 1962).",
+    "spatial": {
+      "apFraction": [
+        0.26,
+        0.34
+      ],
+      "dv": "dorsal to the anterior chamber of the swim bladder, just behind the skull",
+      "laterality": "midline with paired ossicles",
+      "landmarks": "modified vertebrae 1 to 4 with the ossicle chain (claustrum, scaphium, intercalarium, tripus) linking swim bladder to inner ear"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Four enlarged anterior centra plus a chain of three to four small paired ossicles on each side. At schematic scale, draw as a thickened anterior block of the column with a lateral bead chain."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 168,
+        "dims_um": {
+          "length": 400,
+          "width": 200
+        },
+        "source": "https://zfin.org/ZFA:0001188",
+        "estimate": true,
+        "note": "ZFIN start Days 7-13; ossicles chondrify in larvae of 3 to 28 mm TL series"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2800,
+          "width": 1500,
+          "height": 1500
+        },
+        "source": "https://academic.oup.com/zoolinnean/article/140/2/241/2624252",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 168,
+        "event": "ZFIN start stage Days 7-13",
+        "source": "https://zfin.org/ZFA:0001188"
+      },
+      {
+        "hpf": 200,
+        "event": "tripus differentiates first, then intercalarium and scaphium; claustrum last (unverified order from Grande and Young 2004)",
+        "source": "https://academic.oup.com/zoolinnean/article/140/2/241/2624252"
+      },
+      {
+        "hpf": 336,
+        "event": "Weberian vertebrae 1-4 and post-Weberian supraneural ossify (ZFIN start Days 14-20 for supraneural)",
+        "source": "https://zfin.org/ZFA:0001397"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0001188",
+      "https://academic.oup.com/zoolinnean/article/140/2/241/2624252",
+      "https://pubmed.ncbi.nlm.nih.gov/14579374/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+    ],
+    "notes": "Bird and Mabee 2003 identify the Weberian apparatus as one of two separate centers of axial ossification (the other is the caudal fin)."
+  },
+  {
+    "id": "ZFA:0000364",
+    "name": "hypural",
+    "synonyms": [
+      "hyp",
+      "hypuralia",
+      "hypurals"
+    ],
+    "system": "skeletal",
+    "parent": "ZFA:0000862",
+    "parentAll": [
+      "ZFA:0000862"
+    ],
+    "uiParent": "ZFA:0001058",
+    "startStage": "ZFS:0000036",
+    "startHpf": 96.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Expanded and laterally flattened hemal arches and spines. They support the lepidotrichia of the caudal fin. The hypurals form ventral to the posterior tip of the dorsally-flexed notochord. In zebrafish condensation of the hypurals begins at approximately 6 dpf (4.1 mm NL, notochord length).",
+    "spatial": {
+      "apFraction": [
+        0.92,
+        1.0
+      ],
+      "dv": "ventral to the upturned tip of the notochord (urostyle), inside the base of the caudal fin",
+      "laterality": "midline",
+      "landmarks": "fan of 5 flattened plates below the urostyle; the diastema between hypural 2 and 3 marks the cleft of the homocercal fin"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Five thin fan-shaped plates radiating posteroventrally from the notochord tip; hypural 1 and 2 below the diastema, 3 to 5 above. Appear in order 1, 2, 3 (days 4 to 6), 4 and 5 (days 7-13)."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 80,
+          "width": 30,
+          "thickness": 15,
+          "count": 2
+        },
+        "source": "https://zfin.org/ZFA:0000364",
+        "estimate": true,
+        "note": "hypural 1 and 2 condensations (ZFIN start Day 4 and Day 5; 4.1 mm NL)"
+      },
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 400,
+        "dims_um": {
+          "length": 400,
+          "width": 150,
+          "count": 5
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2500,
+          "width": 900,
+          "thickness": 150,
+          "count": 5
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 96,
+        "event": "hypural 1 (ZFIN start Day 4); condensation of hypurals at about 6 dpf, 4.1 mm NL",
+        "source": "https://zfin.org/ZFA:0000364"
+      },
+      {
+        "hpf": 120,
+        "event": "hypural 2 (ZFIN start Day 5)",
+        "source": "https://zfin.org/ZFA:0001561"
+      },
+      {
+        "hpf": 144,
+        "event": "hypural 3 (ZFIN start Day 6)",
+        "source": "https://zfin.org/ZFA:0001562"
+      },
+      {
+        "hpf": 168,
+        "event": "hypural 4 and 5 (ZFIN start Days 7-13)",
+        "source": "https://zfin.org/ZFA:0001563"
+      },
+      {
+        "hpf": 220,
+        "event": "notochord flexion from 4.5 to 6.5 mm SL, final angle about 45 degrees",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#8FC1E3",
+    "sources": [
+      "https://zfin.org/ZFA:0000364",
+      "https://zfin.org/ZFA:0000862",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517302/"
+    ],
+    "notes": "Direct ZFA part_of parent is caudal fin skeleton ZFA:0000862 (ZFIN start Unknown), itself part of the caudal fin."
+  },
+  {
+    "id": "ZFA:0001056",
+    "name": "myotome",
+    "synonyms": [
+      "myomeres"
+    ],
+    "system": "muscular",
+    "parent": "ZFA:0000473",
+    "parentAll": [
+      "ZFA:0000473"
+    ],
+    "uiParent": "ZFA:0000548",
+    "startStage": "ZFS:0000023",
+    "startHpf": 10.33,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Muscle that develops from somite and gives rise to body wall muscle masses.",
+    "spatial": {
+      "apFraction": [
+        0.25,
+        0.98
+      ],
+      "dv": "whole depth of the trunk and tail lateral to the notochord and spinal cord; epaxial half above and hypaxial half below the horizontal myoseptum",
+      "laterality": "paired",
+      "landmarks": "myotome 1 follows the otic vesicle; 30 to 34 segments; each is a chevron pointing anteriorly at the horizontal myoseptum"
+    },
+    "shape": {
+      "primitive": "segmentArray",
+      "notes": "Array of 30 chevron-shaped (later W-shaped) blocks per side. Segment length about 60 um at 24 to 48 hpf and about 700 um in a 28 mm SL adult. Nest a thin superficial slow layer over a deep fast core."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 59,
+          "height": 150,
+          "width": 60,
+          "count": 30
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "note": "59 um per myotome derived from the lateral line primordium speed of 100 um/hour = 1.7 myotomes/hour; height and width are estimates"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 60,
+          "height": 220,
+          "width": 90,
+          "count": 32
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 80,
+          "height": 300,
+          "width": 120,
+          "count": 32
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "3.9 mm larva"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 700,
+          "height": 6000,
+          "width": 2500,
+          "count": 32
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "28 mm SL adult; one myomere per vertebra"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 10.33,
+        "event": "first somite furrow (ZFIN start 1-4 somites)",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 11.66,
+        "event": "somites form at 3 per hour for the first six, then 2 per hour",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 18,
+        "event": "18 somites at 18 hpf",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 24,
+        "event": "somitogenesis ends at about 24 hpf with 30 to 34 somites; tail somites are shorter",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/18265021/"
+      },
+      {
+        "hpf": 72,
+        "event": "somite term ends (ZFIN end Pec-fin); the myotome persists to the adult",
+        "source": "https://zfin.org/ZFA:0000155"
+      }
+    ],
+    "colorHint": "#D98A8A",
+    "sources": [
+      "https://zfin.org/ZFA:0001056",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://pubmed.ncbi.nlm.nih.gov/18265021/",
+      "https://pubmed.ncbi.nlm.nih.gov/11066087/",
+      "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+    ],
+    "notes": "Sub-regions with their own ZFA ids: epaxial myotome region ZFA:0001084 and hypaxial myotome region ZFA:0001085 (both 11.66 to 72 hpf in ZFIN)."
+  },
+  {
+    "id": "ZFA:0000671",
+    "name": "horizontal myoseptum",
+    "synonyms": [
+      "horizontal septum"
+    ],
+    "system": "muscular",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0001056",
+    "startStage": "ZFS:0000028",
+    "startHpf": 22.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A connective tissue partition developing at the apex of the chevron-shaped myotome and separating dorsal (epaxial) and ventral (hypaxial) body wall muscle masses.",
+    "spatial": {
+      "apFraction": [
+        0.25,
+        0.98
+      ],
+      "dv": "horizontal plane at mid-depth of the myotome, at the level of the notochord",
+      "laterality": "paired",
+      "landmarks": "the lateral line nerve and the lateral larval melanophore stripe run along it; the adult interstripe X0 forms over it"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "Thin horizontal sheet (connective tissue) that splits each myotome into epaxial and hypaxial halves; render as a 5 um seam."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 1400,
+          "width": 60,
+          "thickness": 5
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 2300,
+          "width": 90,
+          "thickness": 5
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 2900,
+          "width": 120,
+          "thickness": 5
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 21000,
+          "width": 2500,
+          "thickness": 30
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 22,
+        "event": "ZFIN start stage 26+ somites",
+        "source": "https://zfin.org/ZFA:0000671"
+      },
+      {
+        "hpf": 24,
+        "event": "muscle pioneer slow cells that do not migrate mark the myoseptum position",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+      }
+    ],
+    "colorHint": "#F7E8E8",
+    "sources": [
+      "https://zfin.org/ZFA:0000671",
+      "https://pubmed.ncbi.nlm.nih.gov/8951054/",
+      "https://pubmed.ncbi.nlm.nih.gov/11066087/"
+    ]
+  },
+  {
+    "id": "ZFA:0009116",
+    "name": "slow muscle cell",
+    "synonyms": [
+      "red muscle cell",
+      "slow muscle fiber"
+    ],
+    "system": "muscular",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0001056",
+    "startStage": "ZFS:0000023",
+    "startHpf": 10.33,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content.",
+    "spatial": {
+      "apFraction": [
+        0.25,
+        0.98
+      ],
+      "dv": "superficial monolayer on the lateral surface of each myotome in the embryo; a lateral wedge at the horizontal myoseptum in the adult",
+      "laterality": "paired",
+      "landmarks": "directly under the skin, over the fast core"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "One-cell-thick red sheet (about 10 um) on the outer face of every myotome from 24 hpf. In the adult, replace by a triangular wedge along the horizontal myoseptum (superficial red muscle)."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "thickness": 10,
+          "height": 150
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8951054/",
+        "estimate": true,
+        "note": "adaxial cells migrate radially to form a superficial layer"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "thickness": 12,
+          "height": 220
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8951054/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "thickness": 15,
+          "height": 300
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8951054/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "thickness": 400,
+          "height": 1500
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "lateral red muscle wedge; dimensions unverified"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 10.33,
+        "event": "ZFIN start stage 1-4 somites (adaxial cells)",
+        "source": "https://zfin.org/ZFA:0009116"
+      },
+      {
+        "hpf": 18,
+        "event": "adaxial cells migrate radially away from the notochord to become the superficial layer",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+      }
+    ],
+    "colorHint": "#B03A3A",
+    "sources": [
+      "https://zfin.org/ZFA:0009116",
+      "https://pubmed.ncbi.nlm.nih.gov/8951054/",
+      "https://pubmed.ncbi.nlm.nih.gov/11066087/"
+    ],
+    "notes": "ZFA only has a cell-level term for slow muscle; used here as a tissue layer."
+  },
+  {
+    "id": "ZFA:0009117",
+    "name": "fast muscle cell",
+    "synonyms": [
+      "fast muscle fiber",
+      "white muscle cell"
+    ],
+    "system": "muscular",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0001056",
+    "startStage": "ZFS:0000024",
+    "startHpf": 11.66,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A muscle cell that has a fast contractile response. Fast muscle fibers make up the deep portion of the myotome and are also known as white muscle cells.",
+    "spatial": {
+      "apFraction": [
+        0.25,
+        0.98
+      ],
+      "dv": "deep bulk of each myotome, medial to the slow layer, from the notochord to under the slow layer",
+      "laterality": "paired",
+      "landmarks": "fills the chevron; multinucleate fibers span the whole segment"
+    },
+    "shape": {
+      "primitive": "segmentArray",
+      "notes": "The same chevron blocks as the myotome minus the 10 um outer slow sheet. Pale pink."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 59,
+          "height": 140,
+          "width": 50
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 60,
+          "height": 210,
+          "width": 80
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 80,
+          "height": 290,
+          "width": 110
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 700,
+          "height": 5800,
+          "width": 2300
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 11.66,
+        "event": "ZFIN start stage 5-9 somites",
+        "source": "https://zfin.org/ZFA:0009117"
+      },
+      {
+        "hpf": 24,
+        "event": "lateral presomitic cells stay deep and differentiate into fast fibers",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+      }
+    ],
+    "colorHint": "#F2BFBF",
+    "sources": [
+      "https://zfin.org/ZFA:0009117",
+      "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+    ],
+    "notes": "ZFA only has a cell-level term for fast muscle; used here as a tissue block."
+  },
+  {
+    "id": "ZFA:0007049",
+    "name": "adductor mandibulae",
+    "synonyms": [
+      "dorsal adductor mandibulae"
+    ],
+    "system": "muscular",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000032",
+    "startHpf": 42.0,
+    "endStage": "ZFS:0000041",
+    "endHpf": 720.0,
+    "definition": "Is a mandibular muscle that forms along the palatoquadrates and inserts on Meckel's cartilages and functions in jaw closing.",
+    "spatial": {
+      "apFraction": [
+        0.09,
+        0.15
+      ],
+      "dv": "lateral to the palatoquadrate, behind and below the eye",
+      "laterality": "paired",
+      "landmarks": "runs from the palatoquadrate/hyosymplectic to the posterior end of Meckel's cartilage; jaw closer"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Short thick spindle (muscle belly) angled anteroventrally from the cheek to the jaw joint."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 60,
+          "diameter": 20
+        },
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+        "estimate": true,
+        "note": "myoblasts differentiate in synchrony with the cartilage condensations"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 120,
+          "diameter": 40
+        },
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2500,
+          "diameter": 1200
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "adductor mandibulae complex A1-A3 (ZFA:0000311)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 42,
+        "event": "ZFIN start stage High-pec",
+        "source": "https://zfin.org/ZFA:0007049"
+      },
+      {
+        "hpf": 48,
+        "event": "cartilage and muscle precursors of the arches differentiate up to 2 days before feeding at 4 dpf",
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal"
+      },
+      {
+        "hpf": 720,
+        "event": "ZFIN end stage Days 21-29; replaced by the adductor mandibulae complex term ZFA:0000311 from Days 30-44",
+        "source": "https://zfin.org/ZFA:0000311"
+      }
+    ],
+    "colorHint": "#D98A8A",
+    "sources": [
+      "https://zfin.org/ZFA:0007049",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+      "https://zfin.org/ZFA:0000311"
+    ],
+    "notes": "Direct ZFA relation is is_a mandibular muscle (ZFA:0000236); no part_of parent. UI parent set to the splanchnocranium so jaw muscles sit with the jaw."
+  },
+  {
+    "id": "ZFA:0001651",
+    "name": "sternohyoid",
+    "synonyms": [
+      "hypobranchial muscle",
+      "sternohyoideus",
+      "sternohyoids"
+    ],
+    "system": "muscular",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0001216",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Head muscle that originates on the anterior region of the cleithrum and inserts on the urohyal. The hypobranchial forms initially as left and right parts that later fuse together forming a cone shape.  The muscle is innervated by the occipitospinals and mainly composed of fast twitch muscle fibers.",
+    "spatial": {
+      "apFraction": [
+        0.16,
+        0.27
+      ],
+      "dv": "ventral midline of the throat, between the ceratohyals and the pectoral girdle, below the pharynx and heart",
+      "laterality": "paired, fused to a midline cone",
+      "landmarks": "from the anterior face of the cleithrum forward to the urohyal (behind the ceratohyal symphysis)"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Cone with its base at the cleithra and apex at the urohyal; ventral surface of the head."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 120,
+          "diameter": 40
+        },
+        "source": "https://zfin.org/ZFA:0001651",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 250,
+          "diameter": 80
+        },
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3500,
+          "diameter": 1200
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "ZFIN start stage Long-pec; forms as left and right halves that fuse into a cone",
+        "source": "https://zfin.org/ZFA:0001651"
+      }
+    ],
+    "colorHint": "#D98A8A",
+    "sources": [
+      "https://zfin.org/ZFA:0001651",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal"
+    ],
+    "notes": "No ZFA part_of parent (is_a mandibular muscle). Companions on the ventral throat: intermandibularis ZFA:0000369, interhyoideus ZFA:0007051, hyohyoideus ZFA:0007052 (all 48 to 60 hpf)."
+  },
+  {
+    "id": "ZFA:0000563",
+    "name": "pectoral fin musculature",
+    "synonyms": [
+      "pectoral fin muscle"
+    ],
+    "system": "muscular",
+    "parent": "ZFA:0001161",
+    "parentAll": [
+      "ZFA:0001161"
+    ],
+    "uiParent": "ZFA:0001161",
+    "startStage": "ZFS:0000031",
+    "startHpf": 36.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Musculature that is part of the pectoral fin.",
+    "spatial": {
+      "apFraction": [
+        0.25,
+        0.3
+      ],
+      "dv": "at the fin base on the ventrolateral body wall behind the opercle; abductor on the outer face, adductor on the inner face",
+      "laterality": "paired",
+      "landmarks": "covers the endoskeletal disc / girdle at the fin base"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Two flattened ellipsoids (abductor and adductor) at the base of each pectoral fin; scale with the fin base width."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-25",
+        "hpf": 36,
+        "dims_um": {
+          "length": 40,
+          "width": 30,
+          "thickness": 15
+        },
+        "source": "https://zfin.org/ZFA:0000563",
+        "estimate": true,
+        "note": "ZFIN start Prim-25"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 70,
+          "width": 50,
+          "thickness": 20
+        },
+        "source": "https://zfin.org/ZFA:0000563",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 120,
+          "width": 80,
+          "thickness": 30
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2500,
+          "width": 1500,
+          "thickness": 600
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+        "estimate": true,
+        "note": "discrete superficial and deep muscles from 7 mm body length; mature by about 12 mm TL"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 36,
+        "event": "ZFIN start stage Prim-25 (primitive adductor at 36 hpf)",
+        "source": "https://zfin.org/ZFA:0005650"
+      },
+      {
+        "hpf": 1000,
+        "event": "discrete superficial and deep fin muscles identifiable at 7 mm body length",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      },
+      {
+        "hpf": 1200,
+        "event": "mature muscle morphology established by about 12 mm total length",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      }
+    ],
+    "colorHint": "#D98A8A",
+    "sources": [
+      "https://zfin.org/ZFA:0000563",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+    ]
+  },
+  {
+    "id": "ZFA:0000040",
+    "name": "median fin fold",
+    "synonyms": [
+      "median fin"
+    ],
+    "system": "fins",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000028",
+    "startHpf": 22.0,
+    "endStage": "ZFS:0000037",
+    "endHpf": 144.0,
+    "definition": "Surface structure that will develop into one of the median fins.  Extends from dorsal surface of fish, caudal to the 8th somite, to the ventral surface ending at the caudal side of the  vent.",
+    "spatial": {
+      "apFraction": [
+        0.42,
+        1.0
+      ],
+      "dv": "continuous sagittal fold: dorsal from somite 8 back around the tail tip and forward on the ventral side to the vent",
+      "laterality": "midline",
+      "landmarks": "dorsal fin fold ZFA:0000102 and ventral fin fold ZFA:0001069 are its two regions; the pre-anal part lies between vent and yolk extension"
+    },
+    "shape": {
+      "primitive": "fin",
+      "notes": "Thin translucent sheet (two epidermal layers around a mesenchyme-free space with actinotrichia) hugging the dorsal, caudal and ventral midline. Height about 5 to 8 percent of body length; taper toward somite 8 dorsally and the vent ventrally. Fade out by 144 hpf as the median fins condense."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 1100,
+          "height": 80,
+          "thickness": 8
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true,
+        "note": "barely present at the start of the pharyngula period; 1.9 mm embryo"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 1900,
+          "height": 180,
+          "thickness": 8
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true,
+        "note": "prominent, with actinotrichia"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 2500,
+          "height": 250,
+          "thickness": 8
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "3.9 mm larva"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 19,
+        "event": "presumptive median fin fold (ZFIN 20-25 somites)",
+        "source": "https://zfin.org/ZFA:0005102"
+      },
+      {
+        "hpf": 22,
+        "event": "ZFIN start stage 26+ somites",
+        "source": "https://zfin.org/ZFA:0000040"
+      },
+      {
+        "hpf": 24,
+        "event": "barely present at the onset of the pharyngula period; becomes prominent and forms collagenous fin rays (actinotrichia)",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html"
+      },
+      {
+        "hpf": 144,
+        "event": "ZFIN end stage Day 5; the fold persists as a remnant until the juvenile stage at 10.9 to 11.7 mm SL when fin fold loss is complete",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#CFE8F3",
+    "sources": [
+      "https://zfin.org/ZFA:0000040",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://zfin.org/ZFA:0005435"
+    ],
+    "notes": "Actinotrichia (ZFA:0005435, ZFIN start Prim-5) are the unsegmented collagen rods that stiffen the fold. The fold gives rise to the dorsal, anal and caudal fins."
+  },
+  {
+    "id": "ZFA:0000141",
+    "name": "pectoral fin bud",
+    "synonyms": [
+      "pectoral fin buds"
+    ],
+    "system": "fins",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000033",
+    "endHpf": 60.0,
+    "definition": "Fin bud that develops into the pectoral fin.",
+    "spatial": {
+      "apFraction": [
+        0.26,
+        0.31
+      ],
+      "dv": "lateral body wall at the yolk sac / trunk boundary, level with the horizontal myoseptum, just behind the otic vesicle and future opercle",
+      "laterality": "paired",
+      "landmarks": "over somites 2 to 4; the bud points laterally then swings posteriorly"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Low dome at 24 hpf, then an elongating paddle. Proximodistal length is 35 um at 30 hpf and 72 um at 46 hpf. Anteroposterior width is 116 to 135 um. Dorsoventral height is 85 to 79 um. Cap with a thin apical fold from 36 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 25,
+          "width": 100,
+          "height": 80
+        },
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "estimate": true,
+        "note": "bud forms at about 24 hpf; 30 hpf proximodistal length is 34.7 +/- 6 um"
+      },
+      {
+        "stageLabel": "Prim-15",
+        "hpf": 30,
+        "dims_um": {
+          "length": 35,
+          "width": 116,
+          "height": 85
+        },
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "note": "34.7 +/- 6 um proximodistal at 30 hpf; 116 +/- 10 um anteroposterior at 32 hpf"
+      },
+      {
+        "stageLabel": "High-pec",
+        "hpf": 46,
+        "dims_um": {
+          "length": 72,
+          "width": 135,
+          "height": 79
+        },
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "note": "72.2 +/- 12 um proximodistal at 46 hpf; 135 +/- 12 um anteroposterior and 79 +/- 5 um dorsoventral at 44 hpf"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 110,
+          "width": 135,
+          "height": 80
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "elongated bud with a distal fold (Kimmel: Long-pec = elongated pectoral fin buds)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "ZFIN start stage Prim-5; bud arises from lateral plate mesoderm by about 24 hpf",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+      },
+      {
+        "hpf": 42,
+        "event": "rudiments of pectoral fins are the staging landmark of High-pec (42 hpf)",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      {
+        "hpf": 48,
+        "event": "elongated buds with central mesenchymal condensations that will form the girdle cartilage",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 60,
+        "event": "ZFIN end stage Long-pec; the term pectoral fin (ZFA:0001161) continues",
+        "source": "https://zfin.org/ZFA:0000141"
+      }
+    ],
+    "colorHint": "#CFE8F3",
+    "sources": [
+      "https://zfin.org/ZFA:0000141",
+      "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "https://zfin.org/zf_info/zfbook/stages/index.html"
+    ]
+  },
+  {
+    "id": "ZFA:0001161",
+    "name": "pectoral fin",
+    "synonyms": [
+      "forefin",
+      "pectoral fins"
+    ],
+    "system": "fins",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000030",
+    "startHpf": 30.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Paired fin that is located in the thoracic region of the body.",
+    "spatial": {
+      "apFraction": [
+        0.26,
+        0.4
+      ],
+      "dv": "ventrolateral, behind the opercle, above the yolk sac in the larva and low on the flank in the adult",
+      "laterality": "paired",
+      "landmarks": "base on the cleithrum / scapulocoracoid; the larval fin points dorsoposteriorly, the adult fin lies against the flank"
+    },
+    "shape": {
+      "primitive": "fin",
+      "notes": "Paddle: an endoskeletal disc at the base plus a fan-shaped fold that becomes a rayed blade. Larval blade length about 2 to 3 times the base width. Adult: about 10 to 12 rays, 4 proximal radials and 6 to 8 distal radials, fin length about 0.15 to 0.2 SL."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-15",
+        "hpf": 30,
+        "dims_um": {
+          "length": 35,
+          "width": 116
+        },
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "note": "ZFIN start Prim-15; bud proximodistal 34.7 um"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 110,
+          "width": 135
+        },
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "estimate": true,
+        "note": "bud 72 um at 46 hpf plus apical fold"
+      },
+      {
+        "stageLabel": "Pec-fin",
+        "hpf": 60,
+        "dims_um": {
+          "length": 180,
+          "width": 140
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "pectoral fin blades (Kimmel Pec-fin stage)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 320,
+          "width": 160,
+          "thickness": 15
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "about 8 percent of a 3.9 mm larva"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 5000,
+          "width": 2500,
+          "thickness": 200
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "0.18 SL in a 28 mm SL adult"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 30,
+        "event": "ZFIN start stage Prim-15",
+        "source": "https://zfin.org/ZFA:0001161"
+      },
+      {
+        "hpf": 60,
+        "event": "fin blade expands from the apical fold (Pec-fin, 60 hpf)",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 96,
+        "event": "endochondral disc formed proximal to the distal membrane by about 4 dpf",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      },
+      {
+        "hpf": 336,
+        "event": "endoskeletal disc persists for about two weeks, then is remodeled into 4 proximal and 6 to 8 distal radials",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+      },
+      {
+        "hpf": 1200,
+        "event": "adult fin morphology and muscle organization by about 12 mm TL; fin beat frequency falls from 28 Hz (larva) to 13 Hz (33 dpf juvenile)",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      }
+    ],
+    "colorHint": "#CFE8F3",
+    "sources": [
+      "https://zfin.org/ZFA:0001161",
+      "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "https://zfin.org/zf_info/zfbook/stages/index.html"
+    ],
+    "notes": "Pectoral fin ray count: the ZFA lepidotrichium definition gives about two more rays than distal radials. With 6 to 8 distal radials (Grandel and Schulte-Merker 1998) this gives 8 to 10 rays. Counts of 10 to 12 are common in the literature (unverified)."
+  },
+  {
+    "id": "ZFA:0001384",
+    "name": "pelvic fin bud",
+    "synonyms": [
+      "pelvic fin buds"
+    ],
+    "system": "fins",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000040",
+    "startHpf": 336.0,
+    "endStage": "ZFS:0000042",
+    "endHpf": 1080.0,
+    "definition": "Fin bud that develops into the pelvic fin.",
+    "spatial": {
+      "apFraction": [
+        0.48,
+        0.52
+      ],
+      "dv": "ventral body wall, below the posterior lobe of the swim bladder, anterior to the vent",
+      "laterality": "paired",
+      "landmarks": "small protuberances on the belly at 7.2 to 7.5 mm SL"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Two low domes (about 100 um) on the ventral midline flanks; grow into short paddles before rays form at 8.5 mm SL."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 504,
+        "dims_um": {
+          "length": 100,
+          "width": 150
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "PB stage 7.2 to 7.5 mm SL, about 3 weeks"
+      },
+      {
+        "stageLabel": "Days 30-44",
+        "hpf": 800,
+        "dims_um": {
+          "length": 400,
+          "width": 250
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "before ray appearance at 8.5 to 8.7 mm SL"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 336,
+        "event": "ZFIN start stage Days 14-20",
+        "source": "https://zfin.org/ZFA:0001384"
+      },
+      {
+        "hpf": 504,
+        "event": "pelvic fin bud appearance (PB) at 7.2 to 7.5 mm SL, about 3 weeks post fertilization",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 560,
+        "event": "basipterygium cartilages present at 7.9 mm",
+        "source": "https://zfin.org/ZFA:0001539"
+      },
+      {
+        "hpf": 1080,
+        "event": "ZFIN end stage Days 30-44; the pelvic fin term continues",
+        "source": "https://zfin.org/ZFA:0001184"
+      }
+    ],
+    "colorHint": "#CFE8F3",
+    "sources": [
+      "https://zfin.org/ZFA:0001384",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1170691/full",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+    ]
+  },
+  {
+    "id": "ZFA:0001184",
+    "name": "pelvic fin",
+    "synonyms": [
+      "pelvic fins"
+    ],
+    "system": "fins",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000042",
+    "startHpf": 720.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Paired fin located in the abdominal position of the body.",
+    "spatial": {
+      "apFraction": [
+        0.48,
+        0.62
+      ],
+      "dv": "ventral, on the belly below the swim bladder, anterior to the vent and anal fin",
+      "laterality": "paired",
+      "landmarks": "base on the basipterygium at about 0.5 SL; tip reaches toward the vent"
+    },
+    "shape": {
+      "primitive": "fin",
+      "notes": "Small triangular paired fin about 0.12 SL long. It has about 7 rays (unverified count). Rays appear at 8.5 to 8.7 mm SL and reach full number by 10 to 12 mm SL."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 30-44",
+        "hpf": 800,
+        "dims_um": {
+          "length": 700,
+          "width": 400
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "PR stage 8.5 to 8.7 mm SL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3500,
+          "width": 1800,
+          "thickness": 150
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "28 mm SL adult"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 720,
+        "event": "ZFIN start stage Days 30-44",
+        "source": "https://zfin.org/ZFA:0001184"
+      },
+      {
+        "hpf": 760,
+        "event": "pelvic fin rays appear (PR) at 8.5 to 8.7 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1000,
+        "event": "maximum ray number by 10 to 12 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#CFE8F3",
+    "sources": [
+      "https://zfin.org/ZFA:0001184",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/",
+      "https://zfin.org/ZFA:0000565"
+    ],
+    "notes": "Pelvic girdle ZFA:0000565 (ZFIN start Days 21-29) supports the fin; pelvic radials 1 to 3 have ZFA ids ZFA:0001417, ZFA:0001415, ZFA:0001416."
+  },
+  {
+    "id": "ZFA:0001173",
+    "name": "dorsal fin",
+    "synonyms": [],
+    "system": "fins",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Median fin that is located on the dorsal surface of the fish.",
+    "spatial": {
+      "apFraction": [
+        0.58,
+        0.72
+      ],
+      "dv": "dorsal midline, above the vent and anal fin origin",
+      "laterality": "midline",
+      "landmarks": "single dorsal fin of about 10 rays on 8 pterygiophores (ZFA lists dorsal fin pterygiophores 1-8); origin slightly anterior to the anal fin origin"
+    },
+    "shape": {
+      "primitive": "fin",
+      "notes": "Triangular sail with a longer anterior edge; base about 0.12 SL, height about 0.12 SL in the adult. Condensation appears at 5.5 to 5.8 mm SL, rays at 6.4 to 6.6 mm SL."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 400,
+        "dims_um": {
+          "length": 500,
+          "height": 200
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "DC condensation 5.5 to 5.8 mm SL"
+      },
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 520,
+        "dims_um": {
+          "length": 800,
+          "height": 500
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "DR rays 6.4 to 6.6 mm SL; about 10 rays by 7.2 to 7.5 mm SL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3500,
+          "height": 3500,
+          "thickness": 150
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "28 mm SL adult"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 22,
+        "event": "arises from the dorsal fin fold region (ZFA:0000102, ZFIN 22 to 144 hpf)",
+        "source": "https://zfin.org/ZFA:0000102"
+      },
+      {
+        "hpf": 168,
+        "event": "dorsal fin skeleton term starts (ZFIN Days 7-13)",
+        "source": "https://zfin.org/ZFA:0001124"
+      },
+      {
+        "hpf": 400,
+        "event": "dorsal fin condensation (DC) at 5.5 to 5.8 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 520,
+        "event": "dorsal fin rays appear (DR) at 6.4 to 6.6 mm SL; about 10 rays maximum",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#CFE8F3",
+    "sources": [
+      "https://zfin.org/ZFA:0001173",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://zfin.org/ZFA:0001124",
+      "https://zfin.org/ZFA:0000102"
+    ],
+    "visibleFromHpf": 400,
+    "visibleFromNote": "ZFIN start stage Unknown. Parichy et al. 2009 place the first dorsal fin condensation at 5.5 to 5.8 mm SL, which is about 14 to 17 dpf under their conditions (ZFIN stage table: 6.2 mm TL at 14 dpf)."
+  },
+  {
+    "id": "ZFA:0001162",
+    "name": "anal fin",
+    "synonyms": [],
+    "system": "fins",
+    "parent": "ZFA:0001117",
+    "parentAll": [
+      "ZFA:0001117"
+    ],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Median fin that is located posterior to the anus.",
+    "spatial": {
+      "apFraction": [
+        0.6,
+        0.8
+      ],
+      "dv": "ventral midline, immediately posterior to the vent",
+      "laterality": "midline",
+      "landmarks": "longer base than the dorsal fin; about 15 rays (10 to 12 branched); striped in the adult"
+    },
+    "shape": {
+      "primitive": "fin",
+      "notes": "Low triangular fin with a base of about 0.2 SL and height about 0.1 SL in the adult. Condensation at 5.2 to 5.5 mm SL, rays at 6.1 to 6.4 mm SL; all rays by about 8.5 mm SL."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 380,
+        "dims_um": {
+          "length": 600,
+          "height": 200
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "AC condensation 5.2 to 5.5 mm SL"
+      },
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 500,
+        "dims_um": {
+          "length": 1000,
+          "height": 400
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "AR rays 6.1 to 6.4 mm SL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 5500,
+          "height": 3000,
+          "thickness": 150
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "28 mm SL adult; branched anal rays 10-12"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 22,
+        "event": "arises from the ventral fin fold (ZFA:0001069, ZFIN 22 to 144 hpf)",
+        "source": "https://zfin.org/ZFA:0001069"
+      },
+      {
+        "hpf": 380,
+        "event": "anal fin condensation (AC) at 5.2 to 5.5 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 500,
+        "event": "anal fin rays appear (AR) at 6.1 to 6.4 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 760,
+        "event": "all rays present by about 8.5 mm SL; segment addition linear through 11 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#CFE8F3",
+    "sources": [
+      "https://zfin.org/ZFA:0001162",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0001069"
+    ],
+    "visibleFromHpf": 380,
+    "visibleFromNote": "ZFIN start stage Unknown. First condensation at 5.2 to 5.5 mm SL (Parichy et al. 2009), about 13 to 16 dpf."
+  },
+  {
+    "id": "ZFA:0001058",
+    "name": "caudal fin",
+    "synonyms": [
+      "tail",
+      "tail fin"
+    ],
+    "system": "fins",
+    "parent": "ZFA:0001117",
+    "parentAll": [
+      "ZFA:0001117"
+    ],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Fin that is the most posterior median fin. It is composed of a complex of three modified centra and modified neural and hemal arches and spines.",
+    "spatial": {
+      "apFraction": [
+        0.95,
+        1.2
+      ],
+      "dv": "posterior end of the body, centered on the axis; upper lobe above and lower lobe below the notochord tip",
+      "laterality": "midline",
+      "landmarks": "the only fin present as a fold at 24 hpf; rays from 4.9 to 5.1 mm SL; homocercal forked fin with about 19 principal rays (ZFA principal rays 1-19) plus procurrent rays"
+    },
+    "shape": {
+      "primitive": "fin",
+      "notes": "Start as the rounded caudal end of the median fin fold. From 4.5 mm SL bend the notochord tip up 45 degrees. Grow a fan of about 19 to 20 rays below the tip. From 6.4 mm SL carve a middle cleft to make two equal lobes. Adult fork depth is about 0.05 SL and fin length about 0.2 SL."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 150,
+          "height": 250,
+          "thickness": 8
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "posterior part of the fin fold around the tail tip"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 250,
+          "height": 400,
+          "thickness": 8
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 300,
+          "height": 450,
+          "thickness": 10
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "no rays yet; rays appear at 4.9 to 5.1 mm SL"
+      },
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 400,
+        "dims_um": {
+          "length": 900,
+          "height": 1200
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "about 20 rays by 6.0 mm SL; lobes emerge at 6.4 mm SL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 6000,
+          "height": 7000,
+          "thickness": 200
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "28 mm SL adult; stripes extend onto the caudal rays"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "ZFIN start stage Prim-5 (as part of the fin fold)",
+        "source": "https://zfin.org/ZFA:0001058"
+      },
+      {
+        "hpf": 220,
+        "event": "notochord flexion begins at about 4.5 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 300,
+        "event": "caudal fin rays appear (CR) at 4.9 to 5.1 mm SL, about 16 dpf",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      },
+      {
+        "hpf": 400,
+        "event": "nearly maximal ray number (about 20) by 6.0 mm SL; flexion complete by 6.5 mm SL with a 45 degree angle",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 450,
+        "event": "dorsal and ventral lobes emerge at about 6.4 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#CFE8F3",
+    "sources": [
+      "https://zfin.org/ZFA:0001058",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0000862"
+    ]
+  },
+  {
+    "id": "ZFA:0001554",
+    "name": "lepidotrichium",
+    "synonyms": [
+      "fin ray",
+      "lepidotrichia"
+    ],
+    "system": "fins",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0000108",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Dermal bone that is rod-like, formed and usually contained in a fin membrane, and jointed to or adjacent to distal radials. They are bilaterally paired.  Lepidotrichia are formed from paired hemitrichia surrounding actinotrichia. There are usually two more lepidotrichia than distal radials.",
+    "spatial": {
+      "apFraction": [
+        0.26,
+        1.2
+      ],
+      "dv": "inside every fin membrane, radiating from the fin base",
+      "laterality": "paired hemitrichia per ray",
+      "landmarks": "caudal about 19 principal rays; anal about 15; dorsal about 10; pectoral about 10 to 12; pelvic about 7 (pectoral and pelvic counts unverified)"
+    },
+    "shape": {
+      "primitive": "segmentArray",
+      "notes": "Per fin, an array of tapered segmented rods (two hemitrichia each), branching distally in the branched rays. Segment length grows linearly with SL. Ray thickness about 20 um in juveniles, 80 to 100 um in adults."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 400,
+        "dims_um": {
+          "length": 600,
+          "diameter": 20,
+          "count": 20
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "caudal rays only"
+      },
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 520,
+        "dims_um": {
+          "length": 900,
+          "diameter": 25,
+          "count": 45
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "caudal plus anal plus dorsal rays"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 6000,
+          "diameter": 90,
+          "count": 70
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "all fins"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 300,
+        "event": "first caudal fin rays at 4.9 to 5.1 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 500,
+        "event": "anal fin rays 6.1 to 6.4 mm SL; dorsal fin rays 6.4 to 6.6 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 760,
+        "event": "pelvic fin rays 8.5 to 8.7 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1000,
+        "event": "ray segment addition proceeds linearly through about 11 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#E9DFC4",
+    "sources": [
+      "https://zfin.org/ZFA:0001554",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0001550",
+      "https://zfin.org/ZFA:0001585"
+    ],
+    "visibleFromHpf": 300,
+    "visibleFromNote": "ZFIN start stage Unknown. First lepidotrichia (caudal) at 4.9 to 5.1 mm SL, about 16 dpf.",
+    "notes": "Per-fin terms: caudal ZFA:0001550, dorsal ZFA:0001418, anal ZFA:0001421, pectoral ZFA:0001551, pelvic ZFA:0001552. All have ZFIN start Unknown. Lepidotrichia form around actinotrichia (ZFA:0005435)."
+  },
+  {
+    "id": "ZFA:0001185",
+    "name": "periderm",
+    "synonyms": [
+      "EVL"
+    ],
+    "system": "integument_pigment",
+    "parent": "ZFA:0000016",
+    "parentAll": [
+      "ZFA:0000016"
+    ],
+    "uiParent": "ZFA:0000368",
+    "startStage": "ZFS:0000022",
+    "startHpf": 10.0,
+    "endStage": "ZFS:0000028",
+    "endHpf": 24.0,
+    "definition": "The outermost epidermal layer covering the fish at embryonic stages; derived from the EVL and thought to eventually be replaced by the superficial stratum of the epidermis. Sometimes used synonymously with EVL.",
+    "spatial": {
+      "apFraction": [
+        0.0,
+        1.0
+      ],
+      "dv": "outermost cell layer of the whole embryo including the yolk sac and fin fold",
+      "laterality": "midline",
+      "landmarks": "derived from the enveloping layer (EVL, ZFA:0000086, 4.66 to 10 hpf)"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "Single squamous layer about 2 um thick over the whole body surface. Render it as the outer skin shell of the embryo from bud stage to 24 hpf. Then hand over to the epidermis term."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Bud",
+        "hpf": 10,
+        "dims_um": {
+          "thickness": 2,
+          "length": 1000
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/",
+        "estimate": true,
+        "note": "outer of the two epidermal layers"
+      },
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "thickness": 2,
+          "length": 1900
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/",
+        "note": "the two-layer epidermis is about 4 um thick at 24 hpf; the periderm is its outer layer"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 4.66,
+        "event": "EVL forms as the outermost blastoderm monolayer (ZFIN start 30%-epiboly for EVL)",
+        "source": "https://zfin.org/ZFA:0000086"
+      },
+      {
+        "hpf": 10,
+        "event": "ZFIN start stage Bud for periderm",
+        "source": "https://zfin.org/ZFA:0001185"
+      },
+      {
+        "hpf": 24,
+        "event": "ZFIN end stage 26+ somites; the superficial stratum of the epidermis replaces it",
+        "source": "https://zfin.org/ZFA:0001179"
+      }
+    ],
+    "colorHint": "#F5E6D3",
+    "sources": [
+      "https://zfin.org/ZFA:0001185",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/",
+      "https://zfin.org/ZFA:0000086"
+    ]
+  },
+  {
+    "id": "ZFA:0000105",
+    "name": "epidermis",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "parent": "ZFA:0000368",
+    "parentAll": [
+      "ZFA:0000368"
+    ],
+    "uiParent": "ZFA:0000368",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A cellular, multilayered epithelium derived from the ectoderm. Zebrafish epidermis consists only of living cells unlike terrestrial vertebrates in which dead, keratinized cells are present.",
+    "spatial": {
+      "apFraction": [
+        0.0,
+        1.0
+      ],
+      "dv": "outer surface of the whole body and fins",
+      "laterality": "midline",
+      "landmarks": "two cell layers until about 6 mm SL; stratifies to 4 to 6 layers by 8.6 mm SL"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "Body-hugging shell. Thickness is 4 um at 24 hpf. It stays two layers thick to about 25 dpf. It then grows about 4.7 um per mm SL. Adult thickness is 20 um on the head, 40 to 60 um on the dorsal trunk and 10 um on the ventral abdomen."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "thickness": 4
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/",
+        "note": "two cell layers, about 4 um"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "thickness": 5
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/",
+        "estimate": true,
+        "note": "still two layers"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "thickness": 6
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/",
+        "estimate": true,
+        "note": "two layers until about 20 dpf"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "thickness": 50
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/",
+        "note": "20 um head, 40 to 60 um dorsal trunk, 10 um ventral abdomen"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "ZFIN start stage Prim-5; epidermis about 4 um, two layers",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/"
+      },
+      {
+        "hpf": 600,
+        "event": "stratification begins at 5.4 to 6 mm SL (head) and 6.7 mm SL (dorsal trunk), about 25 dpf",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/"
+      },
+      {
+        "hpf": 720,
+        "event": "four to six cell layers by 8.6 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/"
+      }
+    ],
+    "colorHint": "#F5E6D3",
+    "sources": [
+      "https://zfin.org/ZFA:0000105",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/"
+    ],
+    "notes": "Strata with their own ZFA ids: epidermal superficial stratum ZFA:0001179 and basal stratum ZFA:0001180 (both from 10 hpf), intermediate stratum ZFA:0001181 (from Days 21-29)."
+  },
+  {
+    "id": "ZFA:0001119",
+    "name": "dermis",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "parent": "ZFA:0000368",
+    "parentAll": [
+      "ZFA:0000368"
+    ],
+    "uiParent": "ZFA:0000368",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A collagenous layer of the skin subjacent to the epidermis and covering the hypodermis. It contains various types of cells (e.g. fibroblasts, pigment cells, nerve, blood vessels and scales.",
+    "spatial": {
+      "apFraction": [
+        0.0,
+        1.0
+      ],
+      "dv": "directly under the epidermis, over the hypodermis and muscle",
+      "laterality": "midline",
+      "landmarks": "hosts the pigment cells, scales and the stratum compactum collagen layer"
+    },
+    "shape": {
+      "primitive": "sheet",
+      "notes": "Thin collagenous layer under the epidermis. Collagen fibrils (22 nm) appear in an acellular subepidermal space at 24 hpf. The stratum compactum is 2 um at 7.5 mm SL and 5 um at 9 mm SL. Adult dermis is tens of um (estimate)."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "thickness": 1
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15272388/",
+        "estimate": true,
+        "note": "acellular collagen layer under the epidermis"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "thickness": 2
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15272388/",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "thickness": 3
+        },
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15272388/",
+        "estimate": true,
+        "note": "orthogonal collagen plywood forms from 5 to 7 dpf"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "thickness": 40
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/",
+        "estimate": true,
+        "note": "stratum compactum 5 um at 9 mm SL; adult value is an estimate"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "first collagen fibrils (22 nm) in the subepidermal space at 24 hpf; ZFIN start Prim-5",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15272388/"
+      },
+      {
+        "hpf": 120,
+        "event": "collagen plywood of the primary dermal stroma at 5 to 7 dpf",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15272388/"
+      },
+      {
+        "hpf": 480,
+        "event": "fibroblasts invade the dermal stroma at 20 to 26 dpf",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15272388/"
+      },
+      {
+        "hpf": 504,
+        "event": "scale primordia form in the dermis (ZFIN start Days 21-29)",
+        "source": "https://zfin.org/ZFA:0001704"
+      }
+    ],
+    "colorHint": "#EBD9C8",
+    "sources": [
+      "https://zfin.org/ZFA:0001119",
+      "https://pubmed.ncbi.nlm.nih.gov/15272388/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828764/"
+    ],
+    "notes": "Hypodermis ZFA:0001136 (ZFIN start Days 14-20) lies under the dermis and also contains pigment cells."
+  },
+  {
+    "id": "ZFA:0000277",
+    "name": "scale",
+    "synonyms": [
+      "scales"
+    ],
+    "system": "integument_pigment",
+    "parent": "ZFA:0001183",
+    "parentAll": [
+      "ZFA:0001183"
+    ],
+    "uiParent": "ZFA:0001119",
+    "startStage": "ZFS:0000042",
+    "startHpf": 720.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Dermal bone that is thin, flexible, and platelike, and that develops in overlapping skinfolds that cover the body and often the head of fish and the bases of the fins.",
+    "spatial": {
+      "apFraction": [
+        0.2,
+        1.0
+      ],
+      "dv": "over the whole trunk and tail flank in overlapping rows; head is scaleless",
+      "laterality": "paired",
+      "landmarks": "first row on the caudal peduncle, second row on the flank above the ribs; rows added dorsally and ventrally, columns anteriorly"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Array of thin overlapping discs (elasmoid scales) in a hexagonal lattice; grow the lattice from the caudal peduncle forward over about 13 days. Adult scale diameter about 0.5 to 1 mm (estimate)."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 30-44",
+        "hpf": 800,
+        "dims_um": {
+          "diameter": 300,
+          "thickness": 10,
+          "count": 40
+        },
+        "source": "https://elifesciences.org/articles/37001",
+        "estimate": true,
+        "note": "two rows within one day of onset; onset about 9 mm SL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 800,
+          "thickness": 20,
+          "count": 500
+        },
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "note": "count and diameter are estimates"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 504,
+        "event": "scale primordium term starts (ZFIN Days 21-29)",
+        "source": "https://zfin.org/ZFA:0001704"
+      },
+      {
+        "hpf": 700,
+        "event": "scale development begins posteriorly over the tail at about 8.1 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 720,
+        "event": "squamation begins at about 9 mm SL; first row on the caudal peduncle, second row above the ribs; ZFIN start Days 30-44",
+        "source": "https://elifesciences.org/articles/37001"
+      },
+      {
+        "hpf": 780,
+        "event": "squamation onset posterior (SP) 9.5 to 9.6 mm SL; through anterior (SA) 10.1 to 10.4 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1030,
+        "event": "full hexagonal coat after about 13 days; juvenile (J) 10.9 to 11.7 mm SL",
+        "source": "https://elifesciences.org/articles/37001"
+      }
+    ],
+    "colorHint": "#D9E2E8",
+    "sources": [
+      "https://zfin.org/ZFA:0000277",
+      "https://elifesciences.org/articles/37001",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "notes": "Stages 2R (two rows), 4R (four rows), B (beard, scales on dorsal anterior and post-mandibular skin) from Aman et al. 2018."
+  },
+  {
+    "id": "ZFA:0009091",
+    "name": "melanocyte",
+    "synonyms": [
+      "melanophore"
+    ],
+    "system": "integument_pigment",
+    "parent": "ZFA:0000368",
+    "parentAll": [
+      "ZFA:0000368",
+      "ZFA:0005915"
+    ],
+    "uiParent": "ZFA:0000368",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A pigment cell derived from the neural crest. Contains melanin-filled pigment granules, which gives a brown to black appearance.",
+    "spatial": {
+      "apFraction": [
+        0.05,
+        1.1
+      ],
+      "dv": "dermal and hypodermal pigment cells; in the embryo arranged in dorsal, lateral, ventral and yolk stripes; in the adult confined to the dark stripes",
+      "laterality": "paired",
+      "landmarks": "first cells over the head and dorsal trunk at 24 hpf; also the retinal pigment epithelium (a separate ZFA term)"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Point cloud of black stellate cells (about 30 to 60 um across). Render them as dark dots on the skin shell. Key density and stripe assignment to stage. Adult melanophores cover the 5 dark stripes."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 30,
+          "count": 20
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "early pigmentation is the Prim-5 landmark"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 50,
+          "count": 300
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "four larval stripes forming"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 60,
+          "count": 450
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 80,
+          "count": 5000
+        },
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+        "estimate": true,
+        "note": "five dark stripes; counts are estimates"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "ZFIN start stage Prim-5; melanophores begin to differentiate at the onset of the pharyngula period",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html"
+      },
+      {
+        "hpf": 30,
+        "event": "dorsal larval stripe (ZFIN Prim-15); retina pigmented",
+        "source": "https://zfin.org/ZFA:0005221"
+      },
+      {
+        "hpf": 36,
+        "event": "ventral larval stripe; tail pigmentation (Prim-25)",
+        "source": "https://zfin.org/ZFA:0005222"
+      },
+      {
+        "hpf": 42,
+        "event": "lateral larval stripe (High-pec)",
+        "source": "https://zfin.org/ZFA:0005223"
+      },
+      {
+        "hpf": 72,
+        "event": "yolk larval stripe (Protruding-mouth)",
+        "source": "https://zfin.org/ZFA:0005224"
+      },
+      {
+        "hpf": 420,
+        "event": "metamorphic melanophores appear at about 6.0 mm SL (MMA 5.9 to 6.3 mm SL)",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 800,
+        "event": "adult stripes 1D and 1V discernible at about 9 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#1A1A1A",
+    "sources": [
+      "https://zfin.org/ZFA:0009091",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+    ],
+    "notes": "ZFA name is melanocyte; synonym melanophore. Larval and adult stripe terms are separate entries in this file."
+  },
+  {
+    "id": "ZFA:0009198",
+    "name": "xanthophore",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "parent": "ZFA:0000368",
+    "parentAll": [
+      "ZFA:0000368"
+    ],
+    "uiParent": "ZFA:0000368",
+    "startStage": "ZFS:0000032",
+    "startHpf": 42.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A pigment cell derived from the neural crest. Contains carotenoid pigments in structures called pterinosomes or xanthosomes. This gives an appearance ranging from a golden yellow to orange and red.",
+    "spatial": {
+      "apFraction": [
+        0.05,
+        1.1
+      ],
+      "dv": "scattered widely over the body in the larva; in the adult confined to the light interstripes over the iridophore sheet",
+      "laterality": "paired",
+      "landmarks": "yellow cast over the dorsal head and trunk of the larva"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Point cloud of yellow cells (about 40 um) on the skin shell; larval: diffuse dorsal; adult: dense in interstripes X0, X1D, X1V."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 30,
+          "count": 100
+        },
+        "source": "https://zfin.org/ZFA:0009198",
+        "estimate": true,
+        "note": "ZFIN start High-pec (42 hpf)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 40,
+          "count": 300
+        },
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+        "estimate": true,
+        "note": "scattered widely over the body"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 60,
+          "count": 4000
+        },
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 42,
+        "event": "ZFIN start stage High-pec",
+        "source": "https://zfin.org/ZFA:0009198"
+      },
+      {
+        "hpf": 450,
+        "event": "metamorphic xanthophores differentiate at about 6.5 mm SSL",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/"
+      },
+      {
+        "hpf": 800,
+        "event": "xanthophores cover the iridophore sheet of the interstripes",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      }
+    ],
+    "colorHint": "#F2C14E",
+    "sources": [
+      "https://zfin.org/ZFA:0009198",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+    ]
+  },
+  {
+    "id": "ZFA:0009199",
+    "name": "iridophore",
+    "synonyms": [
+      "iridocyte",
+      "iridosome"
+    ],
+    "system": "integument_pigment",
+    "parent": "ZFA:0000368",
+    "parentAll": [
+      "ZFA:0000368",
+      "ZFA:0005914",
+      "ZFA:0005916"
+    ],
+    "uiParent": "ZFA:0000368",
+    "startStage": "ZFS:0000032",
+    "startHpf": 42.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platets or iridisomes. The color-generating components produce a silver, gold, or iridescent color.",
+    "spatial": {
+      "apFraction": [
+        0.05,
+        1.1
+      ],
+      "dv": "eye and yolk sac in the embryo; dense sheet in the interstripes and a thin layer over the dark stripes in the adult; also the belly (argentum)",
+      "laterality": "paired",
+      "landmarks": "first interstripe X0 forms at the horizontal myoseptum"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Silver reflective patches. Embryo: an eye ring and yolk patches. From 4.5 to 4.9 mm SL: a horizontal band along the myoseptum (X0) that widens. Adult: dense sheets in all interstripes plus a silver belly."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 20,
+          "count": 30
+        },
+        "source": "https://zfin.org/ZFA:0009199",
+        "estimate": true,
+        "note": "ZFIN start High-pec; iridescent patches on the eye and yolk"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 25,
+          "count": 80
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 30,
+          "count": 20000
+        },
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+        "estimate": true,
+        "note": "dense sheets; count is an estimate"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 42,
+        "event": "ZFIN start stage High-pec",
+        "source": "https://zfin.org/ZFA:0009199"
+      },
+      {
+        "hpf": 300,
+        "event": "metamorphic iridophores as early as 4.5 mm SSL; S-iridophores visible at CR stage (4.9 mm SL, about 16 dpf)",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      },
+      {
+        "hpf": 800,
+        "event": "dense interstripe sheet X0 complete as stripes 1D and 1V form at about 9 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#C9D6DF",
+    "sources": [
+      "https://zfin.org/ZFA:0009199",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ]
+  },
+  {
+    "id": "ZFA:0005221",
+    "name": "dorsal larval melanophore stripe",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0009091",
+    "startStage": "ZFS:0000030",
+    "startHpf": 30.0,
+    "endStage": "ZFS:0000040",
+    "endHpf": 504.0,
+    "definition": "A larval melanophore stripe that forms a band extending from the head to the tail along the dorsal apex of the myotomes.",
+    "spatial": {
+      "apFraction": [
+        0.05,
+        0.98
+      ],
+      "dv": "dorsal apex of the myotomes and the dorsal head, along the base of the dorsal fin fold",
+      "laterality": "paired",
+      "landmarks": "from the head to the tail tip along the dorsal midline (paired left and right rows that merge over the head)"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Thin band of melanophores along the named landmark. The band is one or two cells wide (about 40 to 60 um). Render it as a dark line or a strip of dots on the skin shell."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-15",
+        "hpf": 30,
+        "dims_um": {
+          "length": 1800,
+          "width": 40
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "ZFIN start Prim-15"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 2600,
+          "width": 50
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 3300,
+          "width": 60
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 30,
+        "event": "ZFIN start stage Prim-15",
+        "source": "https://zfin.org/ZFA:0005221"
+      },
+      {
+        "hpf": 504,
+        "event": "ZFIN end stage Days 14-20; replaced by adult stripe 2D dorsally",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#1A1A1A",
+    "sources": [
+      "https://zfin.org/ZFA:0005221",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ]
+  },
+  {
+    "id": "ZFA:0005223",
+    "name": "lateral larval melanophore stripe",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0009091",
+    "startStage": "ZFS:0000032",
+    "startHpf": 42.0,
+    "endStage": "ZFS:0000040",
+    "endHpf": 504.0,
+    "definition": "The larval melanophore stripe that is at the level of the horizontal myoseptum.",
+    "spatial": {
+      "apFraction": [
+        0.28,
+        0.95
+      ],
+      "dv": "at the level of the horizontal myoseptum on the flank",
+      "laterality": "paired",
+      "landmarks": "along the horizontal myoseptum; the lateral line nerve runs with it"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Thin band of melanophores along the named landmark. The band is one or two cells wide (about 40 to 60 um). Render it as a dark line or a strip of dots on the skin shell."
+    },
+    "sizes": [
+      {
+        "stageLabel": "High-pec",
+        "hpf": 42,
+        "dims_um": {
+          "length": 1500,
+          "width": 40
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "ZFIN start High-pec"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 1800,
+          "width": 40
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 2500,
+          "width": 50
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 42,
+        "event": "ZFIN start stage High-pec",
+        "source": "https://zfin.org/ZFA:0005223"
+      },
+      {
+        "hpf": 504,
+        "event": "ZFIN end stage Days 14-20; these melanophores are lost or migrate to the primary adult stripes by about 12 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#1A1A1A",
+    "sources": [
+      "https://zfin.org/ZFA:0005223",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+    ]
+  },
+  {
+    "id": "ZFA:0005222",
+    "name": "ventral larval melanophore stripe",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0009091",
+    "startStage": "ZFS:0000031",
+    "startHpf": 36.0,
+    "endStage": "ZFS:0000040",
+    "endHpf": 504.0,
+    "definition": "A larval melanophore stripe that forms a band, of pigmentation extending from the bases of the eyes on each side of the midline to the top of the tail, that underlies the myotomes bilaterally, still is dorsal to the yolk.",
+    "spatial": {
+      "apFraction": [
+        0.15,
+        0.95
+      ],
+      "dv": "ventral edge of the myotomes, dorsal to the yolk and gut, from the eye base to the tail",
+      "laterality": "paired",
+      "landmarks": "paired band under the myotomes along the dorsal aorta level; passes over the yolk extension"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Thin band of melanophores along the named landmark. The band is one or two cells wide (about 40 to 60 um). Render it as a dark line or a strip of dots on the skin shell."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-25",
+        "hpf": 36,
+        "dims_um": {
+          "length": 1900,
+          "width": 40
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "ZFIN start Prim-25 (tail pigmentation landmark)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 2400,
+          "width": 50
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 3000,
+          "width": 60
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true
+      }
+    ],
+    "events": [
+      {
+        "hpf": 36,
+        "event": "ZFIN start stage Prim-25",
+        "source": "https://zfin.org/ZFA:0005222"
+      },
+      {
+        "hpf": 504,
+        "event": "ZFIN end stage Days 14-20; replaced by adult stripe 1V then 2V ventrally",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "colorHint": "#1A1A1A",
+    "sources": [
+      "https://zfin.org/ZFA:0005222",
+      "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ]
+  },
+  {
+    "id": "ZFA:0005224",
+    "name": "yolk larval melanophore stripe",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "parent": null,
+    "parentAll": [],
+    "uiParent": "ZFA:0009091",
+    "startStage": "ZFS:0000035",
+    "startHpf": 72.0,
+    "endStage": "ZFS:0000040",
+    "endHpf": 504.0,
+    "definition": "The larval melanophore stripe that forms a band over the ventral surface of the yolk sac.",
+    "spatial": {
+      "apFraction": [
+        0.12,
+        0.45
+      ],
+      "dv": "ventral surface of the yolk sac and yolk extension",
+      "laterality": "paired",
+      "landmarks": "band over the ventral yolk from the heart region back to the yolk extension tip; disappears with the yolk"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Thin band of melanophores along the named landmark. The band is one or two cells wide (about 40 to 60 um). Render it as a dark line or a strip of dots on the skin shell."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Protruding-mouth",
+        "hpf": 72,
+        "dims_um": {
+          "length": 900,
+          "width": 60
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "ZFIN start Protruding-mouth"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 800,
+          "width": 60
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "note": "yolk nearly absorbed"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 72,
+        "event": "ZFIN start stage Protruding-mouth",
+        "source": "https://zfin.org/ZFA:0005224"
+      },
+      {
+        "hpf": 504,
+        "event": "ZFIN end stage Days 14-20",
+        "source": "https://zfin.org/ZFA:0005224"
+      }
+    ],
+    "colorHint": "#1A1A1A",
+    "sources": [
+      "https://zfin.org/ZFA:0005224",
+      "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ]
+  },
+  {
+    "id": "ZFA:0001463",
+    "name": "melanophore stripe",
+    "synonyms": [
+      "melanophore stripes"
+    ],
+    "system": "integument_pigment",
+    "parent": "ZFA:0000368",
+    "parentAll": [
+      "ZFA:0000368"
+    ],
+    "uiParent": "ZFA:0009091",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Surface structure composed of an array of melanophores arranged in a stripe.  Stripes are oriented from rostral to caudal.",
+    "spatial": {
+      "apFraction": [
+        0.25,
+        1.2
+      ],
+      "dv": "flank: stripes 1D and 1V flank the interstripe X0 at the horizontal myoseptum; 2D above and 2V below; stripes continue onto the anal and caudal fins",
+      "laterality": "paired",
+      "landmarks": "X0 center sits at relative dorsoventral position 0.5 at 8 mm SL and 0.4 at 16 mm SL (unverified); five dark stripes and four light interstripes in the adult"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Horizontal dark bands about 1 mm wide in a 28 mm adult. Lighter interstripes of equal width alternate with them. Order of appearance: 1D and 1V (9 mm SL), 2V (14 mm SL), 2D (16 mm SL), further stripes in large adults. Extend 1V and its neighbors onto the anal fin. Extend the central stripes onto the caudal fin."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 30-44",
+        "hpf": 800,
+        "dims_um": {
+          "length": 7000,
+          "width": 400,
+          "count": 2
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "1D and 1V at about 9 mm SL"
+      },
+      {
+        "stageLabel": "Days 45-89",
+        "hpf": 1500,
+        "dims_um": {
+          "length": 11000,
+          "width": 600,
+          "count": 3
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "note": "2V by 14 mm SL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 21000,
+          "width": 1000,
+          "count": 5
+        },
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+        "estimate": true,
+        "note": "five stripes, four interstripes; width is an estimate"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 420,
+        "event": "metamorphic melanophores appear at about 6 mm SL over the dorsal and ventral myotomes",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 300,
+        "event": "S-iridophores of the future X0 interstripe visible at CR stage (4.9 mm SL, about 16 dpf)",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      },
+      {
+        "hpf": 800,
+        "event": "primary stripes 1D and 1V discernible at about 9 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1300,
+        "event": "first secondary stripe 2V by about 14 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1500,
+        "event": "second secondary stripe 2D by about 16 mm SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 2160,
+        "event": "adult: five melanophore stripes with four interstripes; interstripes are iridophore sheets covered by xanthophores",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      }
+    ],
+    "colorHint": "#1A1A1A",
+    "sources": [
+      "https://zfin.org/ZFA:0001463",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://elifesciences.org/articles/52998"
+    ],
+    "visibleFromHpf": 800,
+    "visibleFromNote": "ZFIN start stage Unknown. The first adult stripes (1D, 1V) are discernible at about 9 mm SL (Parichy et al. 2009), about 30 dpf (ZFIN stage table: 10 mm TL at 30 dpf, 'adult fins/pigment').",
+    "notes": "Melanophores of the larval stripes are listed separately (ZFA:0005221 to ZFA:0005224)."
+  },
+  {
+    "id": "ZFA:0000622",
+    "name": "barbel",
+    "synonyms": [
+      "barble"
+    ],
+    "system": "integument_pigment",
+    "parent": "ZFA:0000368",
+    "parentAll": [
+      "ZFA:0000368",
+      "ZFA:0001114"
+    ],
+    "uiParent": "ZFA:0001114",
+    "startStage": "ZFS:0000043",
+    "startHpf": 1080.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Surface structure which is a tactile structure found in the branchial region. Barbels are covered with epidermis rich in taste buds, and are innervated by branches of the cranial nerves.",
+    "spatial": {
+      "apFraction": [
+        0.03,
+        0.12
+      ],
+      "dv": "ventrolateral snout: maxillary barbel at the posteroventral corner of the maxilla (mouth corner); nasal barbel at the anterior nostril",
+      "laterality": "paired",
+      "landmarks": "maxillary barbel reaches the middle of the opercle; rostral (nasal) barbel reaches the anterior orbit margin"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Tapered whisker. It is 200 to 300 um wide at the base and 50 um at the tip. It is 2 to 4 mm long in 20 to 30 mm SL fish. It trails posteriorly along the cheek. There are two pairs (maxillary and nasal)."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 30-44",
+        "hpf": 900,
+        "dims_um": {
+          "length": 100,
+          "diameter": 80
+        },
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737",
+        "estimate": true,
+        "note": "epithelial buds at 30 to 40 dpf, 10 to 12 mm SL"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3000,
+          "diameter": 250
+        },
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737",
+        "note": "2 to 4 mm long, 200 to 300 um at the base, 50 um at the tip in 2 to 3 cm SL fish"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 720,
+        "event": "barbel primordium (ZFIN Days 30-44); buds emerge at 30 to 40 dpf in juveniles of 10 to 12 mm SL",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737"
+      },
+      {
+        "hpf": 1080,
+        "event": "ZFIN start stage Days 45-89 for barbel",
+        "source": "https://zfin.org/ZFA:0000622"
+      },
+      {
+        "hpf": 2160,
+        "event": "barbel length correlates with standard length over a wide size range",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737"
+      }
+    ],
+    "colorHint": "#D8B48A",
+    "sources": [
+      "https://zfin.org/ZFA:0000622",
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0005408",
+      "https://zfin.org/ZFA:0005407"
+    ],
+    "notes": "Sub-terms: maxillary barbel ZFA:0005408 and anterior nasal barbel ZFA:0005407 (both ZFIN start Unknown), barbel primordium ZFA:0005119 (Days 30-44 to Days 45-89)."
+  }
+]

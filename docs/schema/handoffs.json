@@ -1,0 +1,122 @@
+{
+  "$id": "https://zebrafish-3d-atlas/schema/handoffs.json",
+  "title": "handoffs.json: topology handoffs (D9, BG-48)",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9_]+$"
+      },
+      "from": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/__schema0"
+        }
+      },
+      "to": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/__schema0"
+        }
+      },
+      "window": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "startHpf": {
+                "type": "number",
+                "minimum": 0
+              },
+              "endHpf": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "startHpf",
+              "endHpf"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "startSl": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "endSl": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            },
+            "required": [
+              "startSl",
+              "endSl"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "perSegment": {
+        "type": "object",
+        "properties": {
+          "delayHpf": {
+            "type": "number",
+            "minimum": 0
+          },
+          "lengthHpf": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "delayHpf",
+          "lengthHpf"
+        ],
+        "additionalProperties": false
+      },
+      "driver": {
+        "$ref": "#/$defs/__schema0"
+      },
+      "seed": {
+        "type": "string",
+        "enum": [
+          "copyPlacement",
+          "subRange",
+          "outlineSegment",
+          "sexToggle"
+        ]
+      },
+      "withinRecord": {
+        "default": false,
+        "type": "boolean"
+      },
+      "note": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "from",
+      "to",
+      "window",
+      "driver",
+      "seed",
+      "note"
+    ],
+    "additionalProperties": false
+  },
+  "$defs": {
+    "__schema0": {
+      "type": "string",
+      "pattern": "^ZFA:\\d{7}$"
+    }
+  }
+}

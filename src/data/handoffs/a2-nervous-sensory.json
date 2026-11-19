@@ -1,0 +1,153 @@
+[
+  {
+    "id": "neural_plate_keel",
+    "from": [
+      "ZFA:0000132"
+    ],
+    "to": [
+      "ZFA:0000131"
+    ],
+    "window": {
+      "startHpf": 10,
+      "endHpf": 11
+    },
+    "driver": "ZFA:0000132",
+    "seed": "copyPlacement",
+    "note": "D9. Keel tube: uStart and uEnd from the plate sheet; ry = 1.5 x plate thickness, rz = plate half-width / 2 (BG-49)."
+  },
+  {
+    "id": "neural_keel_rod",
+    "from": [
+      "ZFA:0000131"
+    ],
+    "to": [
+      "ZFA:0000133"
+    ],
+    "window": {
+      "startHpf": 11.7,
+      "endHpf": 13
+    },
+    "driver": "ZFA:0000131",
+    "seed": "copyPlacement",
+    "note": "D9. Rod tube: same u range; r = sqrt(ry rz) of the keel."
+  },
+  {
+    "id": "neural_rod_tube",
+    "from": [
+      "ZFA:0000133"
+    ],
+    "to": [
+      "ZFA:0001135"
+    ],
+    "window": {
+      "startHpf": 14,
+      "endHpf": 16
+    },
+    "driver": "ZFA:0000133",
+    "seed": "copyPlacement",
+    "note": "D9. Tube: same u range and radius; lumen radius 0.3 r."
+  },
+  {
+    "id": "neural_tube_brain",
+    "from": [
+      "ZFA:0001135"
+    ],
+    "to": [
+      "ZFA:0000079",
+      "ZFA:0000101",
+      "ZFA:0000128",
+      "ZFA:0000029",
+      "ZFA:0000075"
+    ],
+    "window": {
+      "startHpf": 22,
+      "endHpf": 24
+    },
+    "driver": "ZFA:0001135",
+    "seed": "subRange",
+    "note": "D9. The four brain regions keep their ZFA start of 14 hpf and are seeded as sub-tubes; the window retires the tube mesh and starts the spinal cord; the neural tube record becomes a group node (geometryEndHpf 24). The forebrain ZFA:0000109 stays a group node, so its two children stand in the to list."
+  },
+  {
+    "id": "optic_vesicle_cup",
+    "from": [
+      "ZFA:0000107"
+    ],
+    "to": [
+      "ZFA:0000107"
+    ],
+    "window": {
+      "startHpf": 16,
+      "endHpf": 24
+    },
+    "driver": "ZFA:0000107",
+    "seed": "copyPlacement",
+    "withinRecord": true,
+    "note": "D9, DM-34. The eyeCup stage steps from vesicle to cup inside the eye record; cup outerDiameterMm = vesicle diameter, depthMm = 0.6 x diameter; the alias chain names optic vesicle (11.66 to 19 hpf) and optic cup (19 to 24 hpf)."
+  },
+  {
+    "id": "optic_cup_parts",
+    "from": [
+      "ZFA:0000107"
+    ],
+    "to": [
+      "ZFA:0000152",
+      "ZFA:0000035",
+      "ZFA:0000144"
+    ],
+    "window": {
+      "startHpf": 24,
+      "endHpf": 30
+    },
+    "driver": "ZFA:0000107",
+    "seed": "subRange",
+    "note": "D9. Retina, lens and retinal pigmented epithelium by part of eyeCup (BG-36); lens volume 10 percent of the cup volume at 24 hpf; the eye's own mesh ends at 30 hpf. The RPE fade-in of 12 h is the pigmentation ramp (24 to 36 hpf)."
+  },
+  {
+    "id": "otic_vesicle_ear",
+    "from": [
+      "ZFA:0000051"
+    ],
+    "to": [
+      "ZFA:0000217"
+    ],
+    "window": {
+      "startHpf": 66,
+      "endHpf": 72
+    },
+    "driver": "ZFA:0000051",
+    "seed": "copyPlacement",
+    "note": "D9. earVesicle with canals.present true from 72 hpf; loop diameter from the pillar length at 66 hpf. The inner ear keeps its ZFA start of 19 hpf (DM-33, E034) and is drawn from 19 to 66 hpf as the endolymph space inside the otic vesicle lumen; the vesicle shell fades out over the window and the inner ear grows to the full ear."
+  },
+  {
+    "id": "otic_placode_vesicle",
+    "from": [
+      "ZFA:0000138"
+    ],
+    "to": [
+      "ZFA:0000051"
+    ],
+    "window": {
+      "startHpf": 16,
+      "endHpf": 18
+    },
+    "driver": "ZFA:0000138",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row (16 to 18 hpf; spec 4.8 wrote 16 to 19). Cavitation at 18 to 19 hpf (Haddon and Lewis 1996)."
+  },
+  {
+    "id": "olfactory_placode_pit",
+    "from": [
+      "ZFA:0000048"
+    ],
+    "to": [
+      "ZFA:0000130"
+    ],
+    "window": {
+      "startHpf": 22,
+      "endHpf": 32
+    },
+    "driver": "ZFA:0000048",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row: olfactory placode to olfactory pit over 22 to 32 hpf (spec 4.8 wrote peripheral olfactory organ ZFA:0000047 over 28 to 30; the decision record wins). ZFA: placode 14 to 30, pit from 30 (High-pec), so the pit record needs an overrideNote for visibleFromHpf 22 (DM-20)."
+  }
+]

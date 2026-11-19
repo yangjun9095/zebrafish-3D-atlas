@@ -1,0 +1,2346 @@
+{
+  "measurements": [
+    {
+      "name": "zygote_diameter",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 0,
+          "value": 0.7,
+          "source": "K95-zyg",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "chorion_outer_diameter",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 0,
+          "value": 1.2,
+          "source": "estimate",
+          "estimate": true,
+          "note": "device patent quotes 1.5 +/- 0.3 mm (unverified)"
+        }
+      ]
+    },
+    {
+      "name": "blastodisc_height",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 0,
+          "value": 0.2,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 2,
+          "value": 0.25,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 3.33,
+          "value": 0.3,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 4,
+          "value": 0.15,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "blastodisc_width",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 0,
+          "value": 0.6,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "blastoderm_thickness",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 4,
+          "value": 0.12,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 4.33,
+          "value": 0.1,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 4.66,
+          "value": 0.06,
+          "source": "estimate",
+          "estimate": true,
+          "note": "about 4 deep cell layers, K95-blast"
+        },
+        {
+          "hpf": 6,
+          "value": 0.05,
+          "source": "estimate",
+          "estimate": true,
+          "note": "epiblast about 3 cells, hypoblast 1 to 2 cells, K95-gast"
+        },
+        {
+          "hpf": 8,
+          "value": 0.045,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 9,
+          "value": 0.04,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 10,
+          "value": 0.035,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "yolk_cell_diameter",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 4,
+          "value": 0.65,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 10,
+          "value": 0.65,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "epiboly_fraction",
+      "unit": "fraction",
+      "series": [
+        {
+          "hpf": 4.33,
+          "value": 0.2,
+          "source": "estimate",
+          "estimate": true,
+          "note": "dome: epiboly begins"
+        },
+        {
+          "hpf": 4.66,
+          "value": 0.3,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 5.25,
+          "value": 0.5,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 5.66,
+          "value": 0.5,
+          "source": "K95-gast",
+          "estimate": false,
+          "note": "margin pauses about one hour"
+        },
+        {
+          "hpf": 6.0,
+          "value": 0.5,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 8.0,
+          "value": 0.75,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 9.0,
+          "value": 0.9,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 10.0,
+          "value": 1.0,
+          "source": "ZFS",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "somite_pairs",
+      "unit": "count",
+      "series": [
+        {
+          "hpf": 10.33,
+          "value": 1,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 11.66,
+          "value": 5,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 14.0,
+          "value": 10,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 16.0,
+          "value": 14,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 18.0,
+          "value": 18,
+          "source": "K95-seg",
+          "estimate": false
+        },
+        {
+          "hpf": 19.0,
+          "value": 20,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 22.0,
+          "value": 26,
+          "source": "ZFS",
+          "estimate": false
+        },
+        {
+          "hpf": 24.0,
+          "value": 30,
+          "source": "K95-phar",
+          "estimate": false,
+          "note": "13 in the tail"
+        },
+        {
+          "hpf": 26.0,
+          "value": 32,
+          "source": "K95-seg",
+          "estimate": true,
+          "note": "final count 30 to 34; time of completion estimated"
+        }
+      ]
+    },
+    {
+      "name": "somite_axial_length_new",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 14,
+          "value": 50,
+          "source": "S08",
+          "estimate": false,
+          "note": "somites 6 to 14; unverified search summary"
+        }
+      ]
+    },
+    {
+      "name": "embryo_length_EL",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 11.66,
+          "value": 0.8,
+          "source": "K95-seg",
+          "estimate": false
+        },
+        {
+          "hpf": 16,
+          "value": 0.9,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 19,
+          "value": 1.4,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 22,
+          "value": 1.6,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 24,
+          "value": 1.9,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 30,
+          "value": 2.5,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 36,
+          "value": 2.7,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 42,
+          "value": 2.9,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 48,
+          "value": 3.1,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 60,
+          "value": 3.3,
+          "source": "K95",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "total_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 72,
+          "value": 3.5,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 96,
+          "value": 3.7,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 120,
+          "value": 3.9,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 120,
+          "value": 3.9,
+          "source": "T25",
+          "estimate": false,
+          "note": "mean at 28 C, second series median 3.46"
+        },
+        {
+          "hpf": 144,
+          "value": 4.2,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 168,
+          "value": 4.5,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 336,
+          "value": 6.2,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 504,
+          "value": 7.8,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 720,
+          "value": 10,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 1080,
+          "value": 14,
+          "source": "K95",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "standard_length_typical",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 120,
+          "value": 3.5,
+          "source": "P09",
+          "estimate": false,
+          "note": "pSB reference individual"
+        },
+        {
+          "hpf": 384,
+          "value": 6.8,
+          "source": "GR10",
+          "estimate": false,
+          "note": "28 C low density"
+        },
+        {
+          "hpf": 1080,
+          "value": 12,
+          "source": "SH14",
+          "estimate": false,
+          "note": "juvenile threshold"
+        },
+        {
+          "hpf": 1440,
+          "value": 12,
+          "source": "SK22",
+          "estimate": false
+        },
+        {
+          "hpf": 2160,
+          "value": 18,
+          "source": "SH14",
+          "estimate": false,
+          "note": "adult threshold"
+        },
+        {
+          "hpf": 3240,
+          "value": 16,
+          "source": "SK22",
+          "estimate": false,
+          "note": "4 to 5 months"
+        },
+        {
+          "hpf": 5400,
+          "value": 24,
+          "source": "SK22",
+          "estimate": false,
+          "note": "6 to 9 months"
+        },
+        {
+          "hpf": 7200,
+          "value": 28.4,
+          "source": "G14",
+          "estimate": false,
+          "note": "AB 8 to 12 months; unverified"
+        },
+        {
+          "hpf": 12600,
+          "value": 31.6,
+          "source": "G14",
+          "estimate": false,
+          "note": "AB 15 to 20 months; unverified"
+        },
+        {
+          "hpf": 17520,
+          "value": 38,
+          "source": "FBase",
+          "estimate": true,
+          "note": "species maximum; age assigned"
+        }
+      ]
+    },
+    {
+      "name": "standard_length_fast_track",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 384,
+          "value": 12.5,
+          "source": "DM18",
+          "estimate": false,
+          "note": "rotifer fed"
+        },
+        {
+          "hpf": 720,
+          "value": 16,
+          "source": "GR10",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "standard_length_slow_track",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 720,
+          "value": 6.3,
+          "source": "DM18",
+          "estimate": false,
+          "note": "Barrionuevo et al., quoted in DM18"
+        }
+      ]
+    },
+    {
+      "name": "sl_at_milestone",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 120,
+          "value": 3.5,
+          "source": "P09",
+          "estimate": false,
+          "note": "pSB posterior swim bladder inflated"
+        },
+        {
+          "hpf": 216,
+          "value": 4.5,
+          "source": "P09",
+          "estimate": true,
+          "note": "FLe early flexion; dpf estimated"
+        },
+        {
+          "hpf": 264,
+          "value": 4.9,
+          "source": "P09",
+          "estimate": true,
+          "note": "CR caudal rays; dpf estimated"
+        },
+        {
+          "hpf": 336,
+          "value": 5.4,
+          "source": "P09",
+          "estimate": true,
+          "note": "AC anal condensation"
+        },
+        {
+          "hpf": 360,
+          "value": 5.7,
+          "source": "P09",
+          "estimate": true,
+          "note": "DC dorsal condensation"
+        },
+        {
+          "hpf": 384,
+          "value": 5.9,
+          "source": "P09",
+          "estimate": true,
+          "note": "MMA"
+        },
+        {
+          "hpf": 408,
+          "value": 6.0,
+          "source": "P09",
+          "estimate": true,
+          "note": "aSB anterior swim bladder"
+        },
+        {
+          "hpf": 432,
+          "value": 6.2,
+          "source": "P09",
+          "estimate": true,
+          "note": "AR anal rays"
+        },
+        {
+          "hpf": 456,
+          "value": 6.4,
+          "source": "P09",
+          "estimate": true,
+          "note": "DR dorsal rays"
+        },
+        {
+          "hpf": 480,
+          "value": 6.5,
+          "source": "P09",
+          "estimate": true,
+          "note": "FL flexion complete 45 degrees"
+        },
+        {
+          "hpf": 576,
+          "value": 7.2,
+          "source": "P09",
+          "estimate": true,
+          "note": "PB pelvic bud"
+        },
+        {
+          "hpf": 720,
+          "value": 8.5,
+          "source": "P09",
+          "estimate": true,
+          "note": "PR pelvic rays"
+        },
+        {
+          "hpf": 840,
+          "value": 9.8,
+          "source": "P09",
+          "estimate": true,
+          "note": "SP posterior squamation"
+        },
+        {
+          "hpf": 912,
+          "value": 10.4,
+          "source": "P09",
+          "estimate": true,
+          "note": "SA anterior squamation"
+        },
+        {
+          "hpf": 1008,
+          "value": 11.0,
+          "source": "P09",
+          "estimate": true,
+          "note": "J juvenile"
+        },
+        {
+          "hpf": 1440,
+          "value": 13.0,
+          "source": "P09",
+          "estimate": true,
+          "note": "J+"
+        },
+        {
+          "hpf": 2160,
+          "value": 17.5,
+          "source": "P09",
+          "estimate": true,
+          "note": "male maturity 17.5 +/- 0.6; dpf estimated"
+        },
+        {
+          "hpf": 2160,
+          "value": 18.3,
+          "source": "P09",
+          "estimate": true,
+          "note": "female maturity 18.3 +/- 0.7; dpf estimated"
+        }
+      ]
+    },
+    {
+      "name": "growth_rate_SL",
+      "unit": "mm/day",
+      "series": [
+        {
+          "hpf": 96,
+          "value": 0.2,
+          "source": "K95",
+          "estimate": true,
+          "note": "3 to 5 dpf from the staging table"
+        },
+        {
+          "hpf": 720,
+          "value": 0.32,
+          "source": "P09",
+          "estimate": false,
+          "note": "isolated, repeatedly anesthetized larvae"
+        },
+        {
+          "hpf": 720,
+          "value": 0.45,
+          "source": "P09",
+          "estimate": false,
+          "note": "24 C"
+        },
+        {
+          "hpf": 720,
+          "value": 0.54,
+          "source": "P09",
+          "estimate": false,
+          "note": "33 C"
+        },
+        {
+          "hpf": 720,
+          "value": 0.48,
+          "source": "P09",
+          "estimate": false,
+          "note": "high density"
+        },
+        {
+          "hpf": 720,
+          "value": 0.55,
+          "source": "P09",
+          "estimate": false,
+          "note": "low density"
+        },
+        {
+          "hpf": 1440,
+          "value": 0.1,
+          "source": "K95",
+          "estimate": true,
+          "note": "14 to 45 dpf from the staging table"
+        }
+      ]
+    },
+    {
+      "name": "HAA_height_at_anal_fin",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 336,
+          "value": 0.51,
+          "source": "P09",
+          "estimate": false,
+          "note": "SL 6.2, regression SL = 3.56 HAA + 4.40"
+        },
+        {
+          "hpf": 720,
+          "value": 1.57,
+          "source": "P09",
+          "estimate": false,
+          "note": "SL 10, regression"
+        },
+        {
+          "hpf": 1080,
+          "value": 2.7,
+          "source": "P09",
+          "estimate": false,
+          "note": "SL 14, regression"
+        },
+        {
+          "hpf": 2160,
+          "value": 3.64,
+          "source": "P09",
+          "estimate": false,
+          "note": "males at maturity"
+        },
+        {
+          "hpf": 2160,
+          "value": 3.95,
+          "source": "P09",
+          "estimate": false,
+          "note": "females at maturity"
+        }
+      ]
+    },
+    {
+      "name": "head_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 0.45,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 48,
+          "value": 0.6,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 72,
+          "value": 0.7,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 0.8,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 336,
+          "value": 1.5,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 720,
+          "value": 2.5,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 7.0,
+          "source": "estimate",
+          "estimate": true,
+          "note": "about 0.25 SL"
+        }
+      ]
+    },
+    {
+      "name": "eye_diameter",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 16,
+          "value": 0.12,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 22,
+          "value": 0.18,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 24,
+          "value": 0.2,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 48,
+          "value": 0.26,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 72,
+          "value": 0.3,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 0.33,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 360,
+          "value": 0.55,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 720,
+          "value": 0.9,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 2.0,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "lens_diameter",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 60,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 48,
+          "value": 95,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 72,
+          "value": 115,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 135,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 360,
+          "value": 160,
+          "source": "W20",
+          "estimate": false
+        },
+        {
+          "hpf": 11304,
+          "value": 750,
+          "source": "W20",
+          "estimate": false,
+          "note": "plateau after 471 dpf"
+        },
+        {
+          "hpf": 15552,
+          "value": 790,
+          "source": "W20",
+          "estimate": false
+        },
+        {
+          "hpf": 21120,
+          "value": 790,
+          "source": "W20",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "otic_vesicle_volume",
+      "unit": "pl",
+      "series": [
+        {
+          "hpf": 16,
+          "value": 235,
+          "source": "M19",
+          "estimate": false
+        },
+        {
+          "hpf": 45,
+          "value": 807,
+          "source": "M19",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "otic_vesicle_diameter",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 16,
+          "value": 77,
+          "source": "M19",
+          "estimate": true,
+          "note": "derived from 235 pl"
+        },
+        {
+          "hpf": 30,
+          "value": 72,
+          "source": "M19",
+          "estimate": false,
+          "note": "radius 36.2 +/- 0.92 um"
+        },
+        {
+          "hpf": 45,
+          "value": 115,
+          "source": "M19",
+          "estimate": true,
+          "note": "derived from 807 pl"
+        }
+      ]
+    },
+    {
+      "name": "otic_vesicle_lumen_volume",
+      "unit": "pl",
+      "series": [
+        {
+          "hpf": 16,
+          "value": 0,
+          "source": "M19",
+          "estimate": false
+        },
+        {
+          "hpf": 45,
+          "value": 440,
+          "source": "M19",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "otic_vesicle_wall_thickness",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 16,
+          "value": 20,
+          "source": "M19",
+          "estimate": false
+        },
+        {
+          "hpf": 28,
+          "value": 4,
+          "source": "M19",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "OVL_index",
+      "unit": "otic vesicle lengths",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 5,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 30,
+          "value": 3,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 36,
+          "value": 1,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 42,
+          "value": 0.75,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 48,
+          "value": 0.5,
+          "source": "K95-hatch",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "kupffers_vesicle_diameter",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 11,
+          "value": 20,
+          "source": "KV18",
+          "estimate": false,
+          "note": "unverified"
+        },
+        {
+          "hpf": 14,
+          "value": 80,
+          "source": "KV18",
+          "estimate": false,
+          "note": "maximum; unverified"
+        }
+      ]
+    },
+    {
+      "name": "yolk_ball_diameter",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 16,
+          "value": 0.6,
+          "source": "estimate",
+          "estimate": true,
+          "note": "kidney-bean shape, K95-seg"
+        },
+        {
+          "hpf": 19,
+          "value": 0.58,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 22,
+          "value": 0.56,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 24,
+          "value": 0.55,
+          "source": "estimate",
+          "estimate": true,
+          "note": "extension length equals ball diameter, K95-phar"
+        },
+        {
+          "hpf": 30,
+          "value": 0.52,
+          "source": "estimate",
+          "estimate": true,
+          "note": "ball twice head width, K95-phar"
+        },
+        {
+          "hpf": 36,
+          "value": 0.48,
+          "source": "estimate",
+          "estimate": true,
+          "note": "ball 1.3 x head width"
+        },
+        {
+          "hpf": 42,
+          "value": 0.46,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 48,
+          "value": 0.44,
+          "source": "estimate",
+          "estimate": true,
+          "note": "ball volume equals head volume, K95-hatch"
+        },
+        {
+          "hpf": 72,
+          "value": 0.35,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 0.25,
+          "source": "estimate",
+          "estimate": true,
+          "note": "yolk sac area 0.29 to 0.31 mm2, Tox19"
+        },
+        {
+          "hpf": 156,
+          "value": 0.0,
+          "source": "estimate",
+          "estimate": true,
+          "note": "depleted 6 to 7 dpf"
+        }
+      ]
+    },
+    {
+      "name": "yolk_extension_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 16,
+          "value": 0.0,
+          "source": "K95-seg",
+          "estimate": true
+        },
+        {
+          "hpf": 19,
+          "value": 0.35,
+          "source": "estimate",
+          "estimate": true,
+          "note": "more than half ball diameter, K95-seg"
+        },
+        {
+          "hpf": 22,
+          "value": 0.5,
+          "source": "estimate",
+          "estimate": true,
+          "note": "nearly ball length, K95-seg"
+        },
+        {
+          "hpf": 24,
+          "value": 0.55,
+          "source": "estimate",
+          "estimate": true,
+          "note": "equals ball diameter, K95-phar"
+        },
+        {
+          "hpf": 30,
+          "value": 0.58,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 36,
+          "value": 0.65,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 42,
+          "value": 0.69,
+          "source": "estimate",
+          "estimate": true,
+          "note": "1.5 x ball diameter, K95-phar"
+        },
+        {
+          "hpf": 48,
+          "value": 0.65,
+          "source": "estimate",
+          "estimate": true,
+          "note": "tapered cone, K95-hatch"
+        },
+        {
+          "hpf": 72,
+          "value": 0.4,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 0.0,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "yolk_extension_diameter",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 19,
+          "value": 0.22,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 24,
+          "value": 0.2,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 36,
+          "value": 0.16,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 48,
+          "value": 0.14,
+          "source": "estimate",
+          "estimate": true,
+          "note": "tapers to 0.05"
+        },
+        {
+          "hpf": 72,
+          "value": 0.08,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "yolk_sac_area_lateral",
+      "unit": "mm2",
+      "series": [
+        {
+          "hpf": 120,
+          "value": 0.3,
+          "source": "Tox19",
+          "estimate": false,
+          "note": "control range 0.293 to 0.306"
+        }
+      ]
+    },
+    {
+      "name": "larval_body_volume",
+      "unit": "nL",
+      "series": [
+        {
+          "hpf": 72,
+          "value": 253,
+          "source": "PK19",
+          "estimate": false
+        },
+        {
+          "hpf": 96,
+          "value": 263,
+          "source": "PK19",
+          "estimate": false
+        },
+        {
+          "hpf": 120,
+          "value": 300,
+          "source": "PK19",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "body_depth_at_anus",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 0.22,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 48,
+          "value": 0.27,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 0.3,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 336,
+          "value": 0.51,
+          "source": "P09",
+          "estimate": false,
+          "note": "HAA at 6.2 mm SL"
+        },
+        {
+          "hpf": 720,
+          "value": 1.57,
+          "source": "P09",
+          "estimate": false,
+          "note": "HAA at 10 mm SL"
+        },
+        {
+          "hpf": 7200,
+          "value": 6.5,
+          "source": "estimate",
+          "estimate": true,
+          "note": "deepest point, about 0.23 SL"
+        }
+      ]
+    },
+    {
+      "name": "body_half_width_at_anus",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 0.08,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 48,
+          "value": 0.09,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 0.12,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 336,
+          "value": 0.22,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 720,
+          "value": 0.48,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 1.8,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "notochord_diameter",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 40,
+          "source": "estimate",
+          "estimate": true,
+          "note": "vacuoles up to 40 um, E13"
+        },
+        {
+          "hpf": 72,
+          "value": 65,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 70,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "notochord_flexion_angle",
+      "unit": "degrees",
+      "series": [
+        {
+          "hpf": 216,
+          "value": 0,
+          "source": "P09",
+          "estimate": true,
+          "note": "flexion begins at 4.5 mm SL; dpf estimated"
+        },
+        {
+          "hpf": 480,
+          "value": 45,
+          "source": "P09",
+          "estimate": true,
+          "note": "complete at 6.5 mm SL; dpf estimated"
+        }
+      ]
+    },
+    {
+      "name": "myotome_axial_length",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 14,
+          "value": 50,
+          "source": "S08",
+          "estimate": false,
+          "note": "unverified"
+        },
+        {
+          "hpf": 120,
+          "value": 90,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "intestine_diameter",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 120,
+          "value": 60,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 456,
+          "value": 150,
+          "source": "estimate",
+          "estimate": true,
+          "note": "doubles or triples 6 to 19 dpf, Wal05 via search summary"
+        }
+      ]
+    },
+    {
+      "name": "heart_tube_diameter",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 28,
+          "value": 50,
+          "source": "HT16",
+          "estimate": false,
+          "note": "26 to 30 hpf; unverified"
+        }
+      ]
+    },
+    {
+      "name": "heart_tube_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 0.25,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "heart_rate",
+      "unit": "bpm",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 106,
+          "source": "PLoS26",
+          "estimate": false,
+          "note": "+/- 14"
+        },
+        {
+          "hpf": 42,
+          "value": 180,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 48,
+          "value": 137,
+          "source": "PLoS26",
+          "estimate": false,
+          "note": "+/- 8"
+        },
+        {
+          "hpf": 72,
+          "value": 171,
+          "source": "PLoS26",
+          "estimate": false,
+          "note": "27 C, +/- 6"
+        },
+        {
+          "hpf": 72,
+          "value": 205,
+          "source": "PLoS26",
+          "estimate": false,
+          "note": "28 C, +/- 11"
+        },
+        {
+          "hpf": 72,
+          "value": 276,
+          "source": "BMC08",
+          "estimate": false,
+          "note": "28 C, different method, +/- 22"
+        },
+        {
+          "hpf": 80,
+          "value": 178,
+          "source": "PLoS26",
+          "estimate": false,
+          "note": "+/- 8"
+        },
+        {
+          "hpf": 120,
+          "value": 188,
+          "source": "JEB24",
+          "estimate": false,
+          "note": "28 C, +/- 5, 5 to 7 dpf"
+        },
+        {
+          "hpf": 168,
+          "value": 190,
+          "source": "JEB24",
+          "estimate": false,
+          "note": "28 C"
+        }
+      ]
+    },
+    {
+      "name": "heart_rate_22C",
+      "unit": "bpm",
+      "series": [
+        {
+          "hpf": 48,
+          "value": 141,
+          "source": "BMC08",
+          "estimate": false
+        },
+        {
+          "hpf": 72,
+          "value": 147,
+          "source": "BMC08",
+          "estimate": false
+        },
+        {
+          "hpf": 96,
+          "value": 166,
+          "source": "BMC08",
+          "estimate": false
+        },
+        {
+          "hpf": 120,
+          "value": 172,
+          "source": "BMC08",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "stroke_volume",
+      "unit": "nL",
+      "series": [
+        {
+          "hpf": 120,
+          "value": 0.2,
+          "source": "JEB24",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "cardiac_output",
+      "unit": "nL/min",
+      "series": [
+        {
+          "hpf": 120,
+          "value": 35.5,
+          "source": "JEB24",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "heartbeat_onset",
+      "unit": "hpf",
+      "series": [
+        {
+          "hpf": 25,
+          "value": 25,
+          "source": "T25",
+          "estimate": false,
+          "note": "median at 28 C"
+        }
+      ]
+    },
+    {
+      "name": "hatching_time",
+      "unit": "hpf",
+      "series": [
+        {
+          "hpf": 60,
+          "value": 60,
+          "source": "T25",
+          "estimate": false,
+          "note": "median at 28 C"
+        }
+      ]
+    },
+    {
+      "name": "swim_bladder_posterior_volume",
+      "unit": "mm3",
+      "series": [
+        {
+          "hpf": 96,
+          "value": 0.0,
+          "source": "V23",
+          "estimate": false,
+          "note": "not inflated before about 4 dpf"
+        },
+        {
+          "hpf": 120,
+          "value": 0.0066,
+          "source": "V23",
+          "estimate": false,
+          "note": "+/- 0.0009, 5 to 6 dpf"
+        },
+        {
+          "hpf": 144,
+          "value": 0.0058,
+          "source": "V23",
+          "estimate": false,
+          "note": "SD 0.00043"
+        }
+      ]
+    },
+    {
+      "name": "swim_bladder_posterior_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 120,
+          "value": 0.38,
+          "source": "V23",
+          "estimate": true,
+          "note": "derived from volume as 0.38 x 0.18 x 0.18 ellipsoid"
+        },
+        {
+          "hpf": 336,
+          "value": 0.9,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 720,
+          "value": 1.8,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 4.0,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "swim_bladder_anterior_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 408,
+          "value": 0.1,
+          "source": "P09",
+          "estimate": true,
+          "note": "appears at 6.0 mm SL; dpf estimated"
+        },
+        {
+          "hpf": 720,
+          "value": 1.5,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 5.0,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "pectoral_fin_bud_proximodistal",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 28,
+          "value": 0,
+          "source": "K95-phar",
+          "estimate": false,
+          "note": "buds appear 28 to 29 hpf"
+        },
+        {
+          "hpf": 30,
+          "value": 34.7,
+          "source": "FB19",
+          "estimate": false,
+          "note": "+/- 6; unverified"
+        },
+        {
+          "hpf": 46,
+          "value": 72.2,
+          "source": "FB19",
+          "estimate": false,
+          "note": "+/- 12; unverified"
+        }
+      ]
+    },
+    {
+      "name": "pectoral_fin_bud_anteroposterior",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 32,
+          "value": 116,
+          "source": "FB19",
+          "estimate": false,
+          "note": "+/- 10; unverified"
+        },
+        {
+          "hpf": 44,
+          "value": 135,
+          "source": "FB19",
+          "estimate": false,
+          "note": "+/- 12; unverified"
+        }
+      ]
+    },
+    {
+      "name": "pectoral_fin_bud_dorsoventral",
+      "unit": "um",
+      "series": [
+        {
+          "hpf": 32,
+          "value": 85,
+          "source": "FB19",
+          "estimate": false,
+          "note": "+/- 5; unverified"
+        },
+        {
+          "hpf": 44,
+          "value": 79,
+          "source": "FB19",
+          "estimate": false,
+          "note": "+/- 5; unverified"
+        }
+      ]
+    },
+    {
+      "name": "pectoral_fin_height_to_base_ratio",
+      "unit": "ratio",
+      "series": [
+        {
+          "hpf": 30,
+          "value": 0.3,
+          "source": "K95-phar",
+          "estimate": false,
+          "note": "less than one third"
+        },
+        {
+          "hpf": 36,
+          "value": 0.75,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 42,
+          "value": 1.0,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 48,
+          "value": 2.0,
+          "source": "K95-hatch",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "pectoral_fin_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 72,
+          "value": 0.25,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 0.35,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 5.0,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "median_fin_fold_height",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 0.08,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 48,
+          "value": 0.15,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 120,
+          "value": 0.2,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 336,
+          "value": 0.25,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 720,
+          "value": 0.0,
+          "source": "P09",
+          "estimate": true,
+          "note": "fin fold almost lost by 10 mm SL"
+        }
+      ]
+    },
+    {
+      "name": "caudal_fin_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 336,
+          "value": 0.9,
+          "source": "estimate",
+          "estimate": true,
+          "note": "rays appear 4.9 mm SL, lobes 6.4 mm SL, P09"
+        },
+        {
+          "hpf": 720,
+          "value": 1.8,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 5400,
+          "value": 6.1,
+          "source": "CF19",
+          "estimate": false,
+          "note": "AB 6 to 9 months, +/- 0.3; TU 5.6, WIK 6.5"
+        }
+      ]
+    },
+    {
+      "name": "dorsal_fin_height",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 720,
+          "value": 0.8,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 4.0,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "anal_fin_height",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 720,
+          "value": 0.8,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 4.0,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "pelvic_fin_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 576,
+          "value": 0.1,
+          "source": "P09",
+          "estimate": true,
+          "note": "bud at 7.2 mm SL"
+        },
+        {
+          "hpf": 7200,
+          "value": 3.5,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "brain_length",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 144,
+          "value": 1.1,
+          "source": "estimate",
+          "estimate": true,
+          "note": "R15 atlas stack; volume under 0.5 mm3"
+        },
+        {
+          "hpf": 7200,
+          "value": 4.5,
+          "source": "estimate",
+          "estimate": true,
+          "note": "search summary value; unverified"
+        }
+      ]
+    },
+    {
+      "name": "brain_width",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 144,
+          "value": 0.5,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 2.5,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "brain_height",
+      "unit": "mm",
+      "series": [
+        {
+          "hpf": 144,
+          "value": 0.3,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 7200,
+          "value": 2.0,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "brain_neuron_count",
+      "unit": "count",
+      "series": [
+        {
+          "hpf": 144,
+          "value": 100000,
+          "source": "R15",
+          "estimate": false
+        }
+      ]
+    },
+    {
+      "name": "body_mass",
+      "unit": "g",
+      "series": [
+        {
+          "hpf": 3768,
+          "value": 0.205,
+          "source": "BR24",
+          "estimate": false,
+          "note": "AB at 27 C, slower stock"
+        },
+        {
+          "hpf": 7200,
+          "value": 0.42,
+          "source": "G14",
+          "estimate": false,
+          "note": "+/- 0.04, 8 to 12 months; unverified"
+        },
+        {
+          "hpf": 12600,
+          "value": 0.62,
+          "source": "G14",
+          "estimate": false,
+          "note": "+/- 0.09, 15 to 20 months; unverified"
+        }
+      ]
+    },
+    {
+      "name": "teeth_count",
+      "unit": "count",
+      "series": [
+        {
+          "hpf": 120,
+          "value": 6,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 168,
+          "value": 8,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 336,
+          "value": 10,
+          "source": "K95",
+          "estimate": false
+        },
+        {
+          "hpf": 1080,
+          "value": 12,
+          "source": "K95",
+          "estimate": false
+        }
+      ]
+    }
+  ],
+  "posture": [
+    {
+      "name": "head_trunk_angle_HTA",
+      "unit": "degrees",
+      "definition": "angle between the ear-eye line and the trunk notochord line (K95)",
+      "series": [
+        {
+          "hpf": 24,
+          "value": 120,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 30,
+          "value": 95,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 36,
+          "value": 75,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 42,
+          "value": 55,
+          "source": "K95-phar",
+          "estimate": false
+        },
+        {
+          "hpf": 48,
+          "value": 45,
+          "source": "K95-hatch",
+          "estimate": false
+        },
+        {
+          "hpf": 60,
+          "value": 35,
+          "source": "K95-hatch",
+          "estimate": true,
+          "note": "trend estimate; two reads of the ZFIN page returned 55"
+        },
+        {
+          "hpf": 72,
+          "value": 25,
+          "source": "K95-larv",
+          "estimate": false
+        },
+        {
+          "hpf": 120,
+          "value": 20,
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "axis_wrap_angle_on_yolk",
+      "unit": "degrees",
+      "definition": "arc of the yolk sphere followed by the body axis, measured at the yolk center; null once the tail is free",
+      "series": [
+        {
+          "hpf": 10,
+          "value": 180,
+          "source": "estimate",
+          "estimate": true,
+          "note": "bud stage"
+        },
+        {
+          "hpf": 11.66,
+          "value": 200,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 16,
+          "value": 240,
+          "source": "estimate",
+          "estimate": true,
+          "note": "yolk kidney-bean shaped, K95-seg"
+        },
+        {
+          "hpf": 19,
+          "value": null,
+          "source": "K95-seg",
+          "estimate": false,
+          "note": "tail lifts from the yolk; yolk extension separates"
+        }
+      ]
+    },
+    {
+      "name": "axis_length_on_yolk",
+      "unit": "mm",
+      "definition": "length of the body axis during segmentation, longer than EL because of curvature",
+      "series": [
+        {
+          "hpf": 10,
+          "value": 1.0,
+          "source": "estimate",
+          "estimate": true
+        },
+        {
+          "hpf": 11.66,
+          "value": 1.2,
+          "source": "estimate",
+          "estimate": true,
+          "note": "EL 0.8"
+        },
+        {
+          "hpf": 16,
+          "value": 1.5,
+          "source": "estimate",
+          "estimate": true,
+          "note": "EL 0.9"
+        },
+        {
+          "hpf": 19,
+          "value": 1.8,
+          "source": "estimate",
+          "estimate": true,
+          "note": "EL 1.4"
+        },
+        {
+          "hpf": 22,
+          "value": 2.0,
+          "source": "estimate",
+          "estimate": true,
+          "note": "EL 1.6"
+        },
+        {
+          "hpf": 24,
+          "value": 2.0,
+          "source": "estimate",
+          "estimate": true,
+          "note": "EL 1.9"
+        }
+      ]
+    },
+    {
+      "name": "tail_free_of_yolk",
+      "unit": "boolean",
+      "definition": "true once the tail bud has lifted from the yolk",
+      "series": [
+        {
+          "hpf": 16,
+          "value": false,
+          "source": "K95-seg",
+          "estimate": false
+        },
+        {
+          "hpf": 19,
+          "value": true,
+          "source": "K95-seg",
+          "estimate": false,
+          "note": "20-25 somite stage, EL jumps to 1.4 mm"
+        }
+      ]
+    },
+    {
+      "name": "yolk_shape",
+      "unit": "category",
+      "definition": "sphere, kidney_bean, ball_plus_extension, ball_plus_cone, residual, none",
+      "series": [
+        {
+          "hpf": 0,
+          "value": "sphere",
+          "source": "K95-zyg",
+          "estimate": false
+        },
+        {
+          "hpf": 16,
+          "value": "kidney_bean",
+          "source": "K95-seg",
+          "estimate": false
+        },
+        {
+          "hpf": 19,
+          "value": "ball_plus_extension",
+          "source": "K95-seg",
+          "estimate": false
+        },
+        {
+          "hpf": 48,
+          "value": "ball_plus_cone",
+          "source": "K95-hatch",
+          "estimate": false
+        },
+        {
+          "hpf": 120,
+          "value": "residual",
+          "source": "Tox19",
+          "estimate": true
+        },
+        {
+          "hpf": 156,
+          "value": "none",
+          "source": "estimate",
+          "estimate": true
+        }
+      ]
+    },
+    {
+      "name": "notochord_tip_flexion",
+      "unit": "degrees",
+      "definition": "dorsal bend of the posterior notochord tip",
+      "series": [
+        {
+          "hpf": 216,
+          "value": 0,
+          "source": "P09",
+          "estimate": true,
+          "note": "4.5 mm SL"
+        },
+        {
+          "hpf": 480,
+          "value": 45,
+          "source": "P09",
+          "estimate": true,
+          "note": "6.5 mm SL"
+        }
+      ]
+    },
+    {
+      "name": "straightening_end",
+      "unit": "hpf",
+      "definition": "end of rapid morphogenetic straightening",
+      "series": [
+        {
+          "hpf": 31.5,
+          "value": 31.5,
+          "source": "K95-phar",
+          "estimate": false,
+          "note": "31 to 32 hpf"
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "temperature_C": 28.5,
+    "conventions": "hpf at 28.5 C; dpf x 24 = hpf. EL is the greatest linear dimension of the unstraightened embryo (K95). SL is snout to caudal fin base. TL includes the caudal fin.",
+    "estimate_flag": "estimate=true marks values read from images or derived from sourced ratios; replace when a measurement appears. Notes containing 'unverified' mark values taken from search summaries of papers I could not open.",
+    "sources": {
+      "K95": "Kimmel et al. 1995 Dev Dyn 203:253-310, via ZFIN https://zfin.org/zf_info/zfbook/stages/index.html",
+      "K95-zyg": "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+      "K95-blast": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+      "K95-gast": "https://zfin.org/zf_info/zfbook/stages/gast.html",
+      "K95-seg": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "K95-phar": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "K95-hatch": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+      "K95-larv": "https://zfin.org/zf_info/zfbook/stages/larv_stgs.html",
+      "ZFS": "ZFS stage ontology, stage_ontology.txt; https://zfin.org/zf_info/zfbook/stages/index.html",
+      "P09": "Parichy et al. 2009 Dev Dyn 238:2975-3015 https://doi.org/10.1002/dvdy.22113",
+      "SH14": "Singleman and Holtzman 2014 Zebrafish 11:396-406 https://doi.org/10.1089/zeb.2014.0976",
+      "M19": "Mosaliganti et al. 2019 eLife 8:e39596 https://elifesciences.org/articles/39596",
+      "S08": "Schroter et al. 2008 Dev Dyn 237:545-553 https://doi.org/10.1002/dvdy.21458 (values from a search summary)",
+      "V23": "Venuto et al. 2023 J Exp Biol 226:jeb245635 https://europepmc.org/article/PMC/PMC9882242",
+      "PLoS26": "PLoS One 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13262856/",
+      "JEB24": "https://europepmc.org/article/PMC/PMC11413934",
+      "BMC08": "Denvir et al. 2008 BMC Biotechnol 8:21 https://europepmc.org/article/PMC/PMC2291041",
+      "T25": "PLoS One 2025 https://europepmc.org/article/PMC/PMC12755749",
+      "PK19": "https://europepmc.org/article/PMC/PMC6377609 (cites earlier larval volume data)",
+      "Tox19": "Toxics 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6396680/",
+      "W20": "Wang et al. 2020 FASEB J https://pmc.ncbi.nlm.nih.gov/articles/PMC10666921/",
+      "R15": "Randlett et al. 2015 Nat Methods https://europepmc.org/article/PMC/PMC4710481",
+      "AZBA": "Kenney et al. 2021 eLife 10:e69988 https://elifesciences.org/articles/69988",
+      "E13": "Ellis et al. 2013 J Cell Biol 200:667 https://europepmc.org/article/PMC/PMC3587825",
+      "KV18": "Dasgupta et al. 2018 eLife 7:e30963 https://elifesciences.org/articles/30963 (value from a search summary)",
+      "FB19": "bioRxiv 512038 https://www.biorxiv.org/content/10.1101/512038.full.pdf (values from a search summary)",
+      "CF19": "Sci Rep 2019 https://europepmc.org/article/PMC/PMC6841939",
+      "G14": "Gilbert et al. 2014 Exp Gerontol 50:106 https://doi.org/10.1016/j.exger.2013.11.013 (values from a search summary)",
+      "BR24": "Biol Res 2024 https://europepmc.org/article/PMC/PMC11411999",
+      "DM18": "Dabrowski and Miller 2018 Zebrafish 15:295 https://pmc.ncbi.nlm.nih.gov/articles/PMC6037192/",
+      "GR10": "Gomez-Requeni et al. 2010 Fish Physiol Biochem 36:1199 https://doi.org/10.1007/s10695-010-9400-0 (as quoted in DM18)",
+      "SK22": "Front Physiol 2022 https://pmc.ncbi.nlm.nih.gov/articles/PMC9204358/",
+      "FBase": "https://www.fishbase.se/summary/Danio-rerio.html",
+      "HT16": "arXiv 1610.03427 https://arxiv.org/abs/1610.03427 (value from a search summary)",
+      "Wal05": "Wallace et al. 2005 Mech Dev 122:157 https://doi.org/10.1016/j.mod.2004.10.009 (statement from a search summary)",
+      "estimate": "Estimate by the morphometrics research pass; see 05-morphometrics.md"
+    },
+    "companion_document": "docs/research/05-morphometrics.md",
+    "fixation_shrinkage_mm": 0.29,
+    "HAA_regression": "SL = 3.56 x HAA + 4.40 (mm), R2 0.98, valid for HAA > 0.5 mm (P09)",
+    "gaps": [
+      "Adult body depth and width from microCT (bioRxiv 10.1101/2025.09.19.677450) not read; page was rate limited.",
+      "Larval eye and lens sizes 24 to 120 hpf are estimates.",
+      "Absolute yolk ball diameters are estimates that satisfy the K95 relative rules.",
+      "HTA at pec-fin (60 hpf): 35 (trend) versus 55 (ZFIN page read) needs a check against the printed table.",
+      "Notochord and gut diameters are estimates.",
+      "Blastodisc height and blastoderm thickness per stage are estimates."
+    ]
+  }
+}

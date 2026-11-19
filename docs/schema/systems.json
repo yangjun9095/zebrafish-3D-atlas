@@ -1,0 +1,114 @@
+{
+  "$id": "https://zebrafish-3d-atlas/schema/systems.json",
+  "title": "systems.json: the 15 canonical systems (D5)",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "minItems": 15,
+  "maxItems": 15,
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/__schema0"
+  },
+  "$defs": {
+    "__schema0": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "enum": [
+            "early_embryo",
+            "axial",
+            "nervous",
+            "sensory",
+            "cardiovascular",
+            "hematopoietic_immune",
+            "respiratory",
+            "digestive",
+            "excretory",
+            "endocrine",
+            "reproductive",
+            "skeletal",
+            "muscular",
+            "fins",
+            "integument_pigment"
+          ]
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zfaRoots": {
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema1"
+          }
+        },
+        "paletteSlot": {
+          "type": "string",
+          "pattern": "^S(0[1-9]|1[0-5])$"
+        },
+        "color": {
+          "type": "object",
+          "properties": {
+            "dark": {
+              "$ref": "#/$defs/__schema2"
+            },
+            "light": {
+              "$ref": "#/$defs/__schema2"
+            }
+          },
+          "required": [
+            "dark",
+            "light"
+          ],
+          "additionalProperties": false
+        },
+        "icon": {
+          "type": "string",
+          "minLength": 1
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 15
+        },
+        "dissectDirection": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number",
+              "minimum": -2,
+              "maximum": 2
+            },
+            {
+              "type": "number",
+              "minimum": -2,
+              "maximum": 2
+            }
+          ],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2
+        }
+      },
+      "required": [
+        "id",
+        "displayName",
+        "zfaRoots",
+        "paletteSlot",
+        "color",
+        "icon",
+        "order"
+      ],
+      "additionalProperties": false
+    },
+    "__schema1": {
+      "type": "string",
+      "pattern": "^ZFA:\\d{7}$"
+    },
+    "__schema2": {
+      "type": "string",
+      "pattern": "^#[0-9A-F]{6}$"
+    }
+  }
+}

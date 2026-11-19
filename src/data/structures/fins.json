@@ -1,0 +1,3865 @@
+[
+  {
+    "id": "ZFA:0000040",
+    "name": "median fin fold",
+    "synonyms": [
+      "median fin"
+    ],
+    "system": "fins",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000292",
+    "uiParent": "ZFA:0000108",
+    "parentRelation": "is_a",
+    "definition": "Surface structure that will develop into one of the median fins.  Extends from dorsal surface of fish, caudal to the 8th somite, to the ventral surface ending at the caudal side of the  vent.",
+    "zfinStartStage": "ZFS:0000028",
+    "zfinEndStage": "ZFS:0000037",
+    "startHpf": 22.0,
+    "endHpf": 144.0,
+    "visibleFromHpf": 22.0,
+    "modelEndHpf": 516.706,
+    "overrideNote": "Starts at the ZFA start, 26+ somites (22 hpf); spec 3.5.3 asks for 19 hpf, which lies before the fin group node window (22 hpf, W009), so the 19 to 22 hpf sliver is left out. Handoff fin_fold_fins: the fold hands off to the dorsal, anal and caudal fins over 5.2 to 6.6 mm SL (322 to 516.706 hpf, D9) and fades out over that window; ZFA ends the term at Day 5 (144 hpf), Parichy et al. 2009 keep remnants to 7.4 mm SL.",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 194.706,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 19,
+        "text": "presumptive median fin fold (ZFIN 20-25 somites).",
+        "source": "https://zfin.org/ZFA:0005102"
+      },
+      {
+        "hpf": 22,
+        "text": "ZFIN start stage 26+ somites.",
+        "source": "https://zfin.org/ZFA:0000040"
+      },
+      {
+        "hpf": 24,
+        "text": "barely present at the onset of the pharyngula period; becomes prominent and forms collagenous fin rays (actinotrichia).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html"
+      },
+      {
+        "hpf": 144,
+        "text": "ZFIN end stage Day 5; the fold persists as a remnant until the juvenile stage at 10.9 to 11.7 mm SL when fin fold loss is complete.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 322.0,
+        "text": "Fin fold handoff starts: the anal fin condenses at 5.2 to 5.5 mm SL, the dorsal fin at 5.5 to 5.8 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 516.706,
+        "text": "Dorsal fin rays present at 6.4 to 6.6 mm SL; the fold between the fins is gone in the model.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.1,
+          "height": 0.08,
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "barely present at the start of the pharyngula period; 1.9 mm embryo"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 1.9,
+          "height": 0.18,
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "prominent, with actinotrichia"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 2.5,
+          "height": 0.25,
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "3.9 mm larva"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000040",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://zfin.org/ZFA:0005435"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "finSheet",
+      "base": {
+        "uStart": 0.46,
+        "uEnd": 1.2,
+        "side": "dorsal",
+        "w": 0
+      },
+      "outlineMm": [
+        [
+          0,
+          0.004
+        ],
+        [
+          0.1915,
+          0.0174
+        ],
+        [
+          0.3829,
+          0.0243
+        ],
+        [
+          0.547,
+          0.0268
+        ],
+        [
+          0.657,
+          0.0284
+        ],
+        [
+          0.767,
+          0.0268
+        ],
+        [
+          0.8486,
+          0.0243
+        ],
+        [
+          0.9418,
+          0.0162
+        ],
+        [
+          1,
+          0.004
+        ]
+      ],
+      "thicknessBaseMm": 0.012,
+      "thicknessEdgeMm": 0.004,
+      "rakeDeg": 0,
+      "rays": {
+        "count": 0,
+        "lengthFraction": 0.9,
+        "thicknessMm": 0.01
+      },
+      "forkDepthFraction": 0,
+      "lobes": "one",
+      "keyframes": [
+        {
+          "hpf": 22
+        },
+        {
+          "hpf": 24,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.189,
+              0.0371
+            ],
+            [
+              0.378,
+              0.0526
+            ],
+            [
+              0.54,
+              0.0578
+            ],
+            [
+              0.65,
+              0.0613
+            ],
+            [
+              0.76,
+              0.0578
+            ],
+            [
+              0.844,
+              0.0526
+            ],
+            [
+              0.94,
+              0.0351
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 30,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.1638,
+              0.0447
+            ],
+            [
+              0.3276,
+              0.0421
+            ],
+            [
+              0.468,
+              0.0463
+            ],
+            [
+              0.578,
+              0.0491
+            ],
+            [
+              0.688,
+              0.0463
+            ],
+            [
+              0.7972,
+              0.0421
+            ],
+            [
+              0.922,
+              0.038
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 36,
+          "base": {
+            "uStart": 0.44
+          },
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.1653,
+              0.0504
+            ],
+            [
+              0.3306,
+              0.0488
+            ],
+            [
+              0.4722,
+              0.0537
+            ],
+            [
+              0.5822,
+              0.0569
+            ],
+            [
+              0.6922,
+              0.0537
+            ],
+            [
+              0.7999,
+              0.0488
+            ],
+            [
+              0.9231,
+              0.0446
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 42,
+          "base": {
+            "uStart": 0.43
+          },
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.1654,
+              0.0503
+            ],
+            [
+              0.3307,
+              0.0502
+            ],
+            [
+              0.4725,
+              0.0552
+            ],
+            [
+              0.5825,
+              0.0585
+            ],
+            [
+              0.6925,
+              0.0552
+            ],
+            [
+              0.8001,
+              0.0502
+            ],
+            [
+              0.9231,
+              0.0457
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 48,
+          "base": {
+            "uStart": 0.42
+          },
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.1616,
+              0.0466
+            ],
+            [
+              0.3231,
+              0.051
+            ],
+            [
+              0.4616,
+              0.0561
+            ],
+            [
+              0.5716,
+              0.0595
+            ],
+            [
+              0.6816,
+              0.0561
+            ],
+            [
+              0.7931,
+              0.051
+            ],
+            [
+              0.9204,
+              0.0449
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 60,
+          "base": {
+            "uStart": 0.41
+          },
+          "outlineMm": [
+            [
+              0,
+              0.0041
+            ],
+            [
+              0.1627,
+              0.0414
+            ],
+            [
+              0.3254,
+              0.0528
+            ],
+            [
+              0.4648,
+              0.058
+            ],
+            [
+              0.5748,
+              0.0616
+            ],
+            [
+              0.6848,
+              0.058
+            ],
+            [
+              0.7952,
+              0.0528
+            ],
+            [
+              0.9212,
+              0.0403
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "base": {
+            "uStart": 0.4
+          },
+          "outlineMm": [
+            [
+              0,
+              0.0042
+            ],
+            [
+              0.1655,
+              0.0423
+            ],
+            [
+              0.3309,
+              0.054
+            ],
+            [
+              0.4727,
+              0.0594
+            ],
+            [
+              0.5827,
+              0.063
+            ],
+            [
+              0.6927,
+              0.0594
+            ],
+            [
+              0.8003,
+              0.054
+            ],
+            [
+              0.9232,
+              0.0409
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.1671,
+              0.0464
+            ],
+            [
+              0.3343,
+              0.057
+            ],
+            [
+              0.4776,
+              0.0627
+            ],
+            [
+              0.5876,
+              0.0665
+            ],
+            [
+              0.6976,
+              0.0627
+            ],
+            [
+              0.8034,
+              0.057
+            ],
+            [
+              0.9244,
+              0.0447
+            ],
+            [
+              1,
+              0.004
+            ]
+          ],
+          "thicknessBaseMm": 0.0133,
+          "thicknessEdgeMm": 0.0044,
+          "rays": {
+            "thicknessMm": 0.0111
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.1671,
+              0.0543
+            ],
+            [
+              0.3343,
+              0.0653
+            ],
+            [
+              0.4776,
+              0.0718
+            ],
+            [
+              0.5876,
+              0.0762
+            ],
+            [
+              0.6976,
+              0.0718
+            ],
+            [
+              0.8034,
+              0.0653
+            ],
+            [
+              0.9244,
+              0.0513
+            ],
+            [
+              1,
+              0.004
+            ]
+          ],
+          "thicknessBaseMm": 0.0151,
+          "thicknessEdgeMm": 0.005,
+          "rays": {
+            "thicknessMm": 0.0126
+          }
+        },
+        {
+          "hpf": 280,
+          "sizeRefSl": 4.9,
+          "outlineMm": [
+            [
+              0,
+              0.005
+            ],
+            [
+              0.166,
+              0.0678
+            ],
+            [
+              0.332,
+              0.079
+            ],
+            [
+              0.4743,
+              0.0869
+            ],
+            [
+              0.5843,
+              0.0922
+            ],
+            [
+              0.6943,
+              0.0869
+            ],
+            [
+              0.8013,
+              0.079
+            ],
+            [
+              0.9236,
+              0.0629
+            ],
+            [
+              1,
+              0.004
+            ]
+          ],
+          "thicknessBaseMm": 0.0181,
+          "thicknessEdgeMm": 0.006,
+          "rays": {
+            "thicknessMm": 0.0151
+          }
+        },
+        {
+          "hpf": 322.0,
+          "sizeRefSl": 5.2,
+          "outlineMm": [
+            [
+              0,
+              0.0055
+            ],
+            [
+              0.1656,
+              0.0729
+            ],
+            [
+              0.3312,
+              0.0841
+            ],
+            [
+              0.4731,
+              0.0926
+            ],
+            [
+              0.5831,
+              0.0982
+            ],
+            [
+              0.6931,
+              0.0926
+            ],
+            [
+              0.8005,
+              0.0841
+            ],
+            [
+              0.9233,
+              0.0673
+            ],
+            [
+              1,
+              0.004
+            ]
+          ],
+          "thicknessBaseMm": 0.0192,
+          "thicknessEdgeMm": 0.0064,
+          "rays": {
+            "thicknessMm": 0.016
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "rays": {
+            "thicknessMm": 0.0163
+          },
+          "thicknessBaseMm": 0.0196,
+          "thicknessEdgeMm": 0.0065,
+          "outlineMm": [
+            [
+              0,
+              0.0054
+            ],
+            [
+              0.1655,
+              0.0708
+            ],
+            [
+              0.3309,
+              0.0816
+            ],
+            [
+              0.4727,
+              0.0897
+            ],
+            [
+              0.5827,
+              0.0952
+            ],
+            [
+              0.6927,
+              0.0897
+            ],
+            [
+              0.8003,
+              0.0816
+            ],
+            [
+              0.9232,
+              0.0654
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 420,
+          "sizeRefSl": 5.9,
+          "outlineMm": [
+            [
+              0,
+              0.0056
+            ],
+            [
+              0.1646,
+              0.0719
+            ],
+            [
+              0.3292,
+              0.081
+            ],
+            [
+              0.4704,
+              0.0891
+            ],
+            [
+              0.5804,
+              0.0945
+            ],
+            [
+              0.6904,
+              0.0891
+            ],
+            [
+              0.7987,
+              0.081
+            ],
+            [
+              0.9226,
+              0.0658
+            ],
+            [
+              1,
+              0.004
+            ]
+          ],
+          "thicknessBaseMm": 0.0218,
+          "thicknessEdgeMm": 0.0073,
+          "rays": {
+            "thicknessMm": 0.0182
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.1638,
+              0.0474
+            ],
+            [
+              0.3276,
+              0.0525
+            ],
+            [
+              0.468,
+              0.0578
+            ],
+            [
+              0.578,
+              0.0613
+            ],
+            [
+              0.688,
+              0.0578
+            ],
+            [
+              0.7972,
+              0.0525
+            ],
+            [
+              0.922,
+              0.0432
+            ],
+            [
+              1,
+              0.004
+            ]
+          ],
+          "thicknessBaseMm": 0.024,
+          "thicknessEdgeMm": 0.008,
+          "rays": {
+            "thicknessMm": 0.02
+          }
+        },
+        {
+          "hpf": 516.706,
+          "sizeRefSl": 6.6,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.1638,
+              0.033
+            ],
+            [
+              0.3276,
+              0.0365
+            ],
+            [
+              0.468,
+              0.0402
+            ],
+            [
+              0.578,
+              0.0426
+            ],
+            [
+              0.688,
+              0.0402
+            ],
+            [
+              0.7972,
+              0.0365
+            ],
+            [
+              0.922,
+              0.0301
+            ],
+            [
+              1,
+              0.004
+            ]
+          ],
+          "thicknessBaseMm": 0.0244,
+          "thicknessEdgeMm": 0.0081,
+          "rays": {
+            "thicknessMm": 0.0203
+          }
+        }
+      ],
+      "handoffOut": "fin_fold_fins",
+      "lodHint": "high",
+      "estimate": [
+        "outlineMm",
+        "thicknessBaseMm"
+      ],
+      "sources": [
+        "height: the rim is 0.20 to 0.35 of the local body height at the u its base reaches (owner visual reference RN-01 to RN-04; the reference stage series shows a narrow pale rim, not a slab). The chord samples follow the three legs of the wrapped base (dorsal leg, caudal fan, ventral leg); over the thin tail past u 0.80 the height holds its u 0.80 value, so the rim keeps its width around the tail tip instead of collapsing with the notochord taper. Peak 0.061 mm at 24 hpf and 0.060 mm at 48 hpf, which keeps the 0.06 mm of BG-39 at 24 hpf; BG-39 asks for 0.20 mm at 48 hpf, which is 0.9 of the whole tail height there and is not drawn (RN-04 wins, see requests).",
+        "gain per stage: 0.35 at 22 hpf (barely present), 0.75 at 24, 0.90 at 30, 1.0 from 36 to 322 hpf, then 0.95, 0.80, 0.45, 0.30 as the fins condense out of the fold over the fin_fold_fins window (5.2 to 6.6 mm SL, Parichy et al. 2009).",
+        "base: dorsal from u 0.46 at 24 hpf, 0.42 at 48 and 0.40 from 72 hpf (somite 8, BG-39) over the tail tip and back along the ventral side to the vent (frame.ventU); uEnd 1.2 marks the wrapped sheet (finSheet.ts)",
+        "thickness 12 um at the base, 4 um at the edge (research 03a: 8 to 12 um); no rays (actinotrichia are not drawn)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000141",
+    "name": "pectoral fin bud",
+    "synonyms": [
+      "pectoral fin buds"
+    ],
+    "system": "fins",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001383",
+    "uiParent": "ZFA:0000108",
+    "parentRelation": "is_a",
+    "definition": "Fin bud that develops into the pectoral fin.",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000033",
+    "startHpf": 24.0,
+    "endHpf": 60.0,
+    "visibleFromHpf": 28,
+    "modelEndHpf": 60.0,
+    "overrideNote": "D8: the pectoral fin bud is visible at 28 hpf (ZFA starts the term at Prim-5, 24 hpf; Kimmel places the bud at about 28 hpf). Handoff pectoral_bud_fin: the bud hands off to the pectoral fin over 48 to 60 hpf (D9), the ZFA end of the term.",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 12,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 24,
+        "text": "ZFIN start stage Prim-5; bud arises from lateral plate mesoderm by about 24 hpf.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+      },
+      {
+        "hpf": 42,
+        "text": "rudiments of pectoral fins are the staging landmark of High-pec (42 hpf).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      {
+        "hpf": 48,
+        "text": "elongated buds with central mesenchymal condensations that will form the girdle cartilage.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 60,
+        "text": "ZFIN end stage Long-pec; the term pectoral fin (ZFA:0001161) continues.",
+        "source": "https://zfin.org/ZFA:0000141"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 28,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.025,
+          "width": 0.1,
+          "height": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "estimate": true,
+        "basisSL": null,
+        "note": "bud forms at about 24 hpf; 30 hpf proximodistal length is 34.7 +/- 6 um; row moved from 24 hpf to the model start"
+      },
+      {
+        "hpf": 30,
+        "stageLabel": "Prim-15",
+        "dimsMm": {
+          "length": 0.035,
+          "width": 0.116,
+          "height": 0.085
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "estimate": true,
+        "basisSL": null,
+        "note": "34.7 +/- 6 um proximodistal at 30 hpf; 116 +/- 10 um anteroposterior at 32 hpf"
+      },
+      {
+        "hpf": 46,
+        "stageLabel": "High-pec",
+        "dimsMm": {
+          "length": 0.072,
+          "width": 0.135,
+          "height": 0.079
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "estimate": true,
+        "basisSL": null,
+        "note": "72.2 +/- 12 um proximodistal at 46 hpf; 135 +/- 12 um anteroposterior and 79 +/- 5 um dorsoventral at 44 hpf"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.11,
+          "width": 0.135,
+          "height": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "elongated bud with a distal fold (Kimmel: Long-pec = elongated pectoral fin buds)"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000141",
+      "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "https://zfin.org/zf_info/zfbook/stages/index.html"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 0.275,
+        "v": -0.45,
+        "w": 0.89,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.05,
+        0.04,
+        0.0125
+      ],
+      "keyframes": [
+        {
+          "hpf": 28
+        },
+        {
+          "hpf": 30,
+          "radiiMm": [
+            0.058,
+            0.0425,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 42,
+          "radiiMm": [
+            0.065,
+            0.04,
+            0.03
+          ]
+        },
+        {
+          "hpf": 46,
+          "radiiMm": [
+            0.0675,
+            0.04,
+            0.036
+          ]
+        },
+        {
+          "hpf": 48,
+          "radiiMm": [
+            0.0675,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "hpf": 60,
+          "radiiMm": [
+            0.07,
+            0.04,
+            0.07
+          ]
+        }
+      ],
+      "handoffOut": "pectoral_bud_fin",
+      "boundsMarginMm": 0.1,
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "anteroposterior width 100 to 135 um, dorsoventral height 80 to 85 um, proximodistal length 25 um at 28 hpf, 35 at 30, 72 at 46 and 110 um at 48 hpf (Mao et al. 2012; research 03e sizes); the w radius is the proximodistal half-length",
+        "placement: lateral body wall over somites 2 to 4 at the level of the horizontal myoseptum, u 0.275, v 0, w 1 (research 03e); the bud does not swing posteriorly because a yawed paired placement is not mirror-symmetric (see requests)",
+        "review R03: the bud sits on the dorsolateral yolk at the yolk-trunk junction below the notochord (Kimmel 1995 Pec-fin), so the centre moves from v 0 to v -0.45 at w 0.89, the point of the skin ellipse at that depth; the pectoral fin sheet starts from the same v"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001161",
+    "name": "pectoral fin",
+    "synonyms": [
+      "forefin",
+      "pectoral fins"
+    ],
+    "system": "fins",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005596",
+    "uiParent": "ZFA:0000108",
+    "parentRelation": "is_a",
+    "definition": "Paired fin that is located in the thoracic region of the body.",
+    "zfinStartStage": "ZFS:0000030",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 30.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 30.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff pectoral_bud_fin: seeded from the pectoral fin bud; the ZFA start (Prim-15, 30 hpf) precedes the 48 to 60 hpf window, so the record keeps its ZFA start (DM-33) and the sheet grows out of the bud.",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 30,
+        "text": "ZFIN start stage Prim-15.",
+        "source": "https://zfin.org/ZFA:0001161"
+      },
+      {
+        "hpf": 60,
+        "text": "fin blade expands from the apical fold (Pec-fin, 60 hpf).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 96,
+        "text": "endochondral disc formed proximal to the distal membrane by about 4 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      },
+      {
+        "hpf": 336,
+        "text": "endoskeletal disc persists for about two weeks, then is remodeled into 4 proximal and 6 to 8 distal radials.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+      },
+      {
+        "hpf": 1200,
+        "text": "adult fin morphology and muscle organization by about 12 mm TL; fin beat frequency falls from 28 Hz (larva) to 13 Hz (33 dpf juvenile).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 30,
+        "stageLabel": "Prim-15",
+        "dimsMm": {
+          "length": 0.035,
+          "width": 0.116
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start Prim-15; bud proximodistal 34.7 um"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.11,
+          "width": 0.135
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+        "estimate": true,
+        "basisSL": null,
+        "note": "bud 72 um at 46 hpf plus apical fold"
+      },
+      {
+        "hpf": 60,
+        "stageLabel": "Pec-fin",
+        "dimsMm": {
+          "length": 0.18,
+          "width": 0.14
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "pectoral fin blades (Kimmel Pec-fin stage)"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.32,
+          "width": 0.16,
+          "thickness": 0.015
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "about 8 percent of a 3.9 mm larva"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 5.0,
+          "width": 2.5,
+          "thickness": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "0.18 SL in a 28 mm SL adult"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001161",
+      "https://journals.biologists.com/dev/article/139/16/2916/45235/Mechanism-of-pectoral-fin-outgrowth-in-zebrafish",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "https://zfin.org/zf_info/zfbook/stages/index.html"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "finSheet",
+      "base": {
+        "uStart": 0.255,
+        "uEnd": 0.3,
+        "side": "lateral",
+        "w": 1
+      },
+      "outlineMm": [
+        [
+          0,
+          0.004
+        ],
+        [
+          0.2,
+          0.016
+        ],
+        [
+          0.5,
+          0.02
+        ],
+        [
+          0.8,
+          0.016
+        ],
+        [
+          1,
+          0.004
+        ]
+      ],
+      "thicknessBaseMm": 0.015,
+      "thicknessEdgeMm": 0.004,
+      "rakeDeg": 0,
+      "rays": {
+        "count": 0,
+        "lengthFraction": 0.85,
+        "thicknessMm": 0.015
+      },
+      "forkDepthFraction": 0,
+      "lobes": "one",
+      "keyframes": [
+        {
+          "hpf": 30
+        },
+        {
+          "hpf": 42,
+          "outlineMm": [
+            [
+              0,
+              0.0045
+            ],
+            [
+              0.2,
+              0.024
+            ],
+            [
+              0.5,
+              0.03
+            ],
+            [
+              0.8,
+              0.024
+            ],
+            [
+              1,
+              0.0045
+            ]
+          ],
+          "rakeDeg": 10
+        },
+        {
+          "hpf": 48,
+          "outlineMm": [
+            [
+              0,
+              0.009
+            ],
+            [
+              0.2,
+              0.048
+            ],
+            [
+              0.5,
+              0.06
+            ],
+            [
+              0.8,
+              0.048
+            ],
+            [
+              1,
+              0.009
+            ]
+          ],
+          "rakeDeg": 20
+        },
+        {
+          "hpf": 60,
+          "outlineMm": [
+            [
+              0,
+              0.0225
+            ],
+            [
+              0.2,
+              0.12
+            ],
+            [
+              0.5,
+              0.15
+            ],
+            [
+              0.8,
+              0.12
+            ],
+            [
+              1,
+              0.0225
+            ]
+          ],
+          "rakeDeg": 50
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "outlineMm": [
+            [
+              0,
+              0.03
+            ],
+            [
+              0.2,
+              0.16
+            ],
+            [
+              0.5,
+              0.2
+            ],
+            [
+              0.8,
+              0.16
+            ],
+            [
+              1,
+              0.03
+            ]
+          ],
+          "rakeDeg": 55
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "outlineMm": [
+            [
+              0,
+              0.045
+            ],
+            [
+              0.2,
+              0.24
+            ],
+            [
+              0.5,
+              0.3
+            ],
+            [
+              0.8,
+              0.24
+            ],
+            [
+              1,
+              0.045
+            ]
+          ],
+          "thicknessBaseMm": 0.0166,
+          "thicknessEdgeMm": 0.0044,
+          "rakeDeg": 60,
+          "rays": {
+            "thicknessMm": 0.0166
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "outlineMm": [
+            [
+              0,
+              0.054
+            ],
+            [
+              0.2,
+              0.288
+            ],
+            [
+              0.5,
+              0.36
+            ],
+            [
+              0.8,
+              0.288
+            ],
+            [
+              1,
+              0.054
+            ]
+          ],
+          "thicknessBaseMm": 0.0189,
+          "thicknessEdgeMm": 0.005,
+          "rays": {
+            "thicknessMm": 0.0189
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "outlineMm": [
+            [
+              0,
+              0.102
+            ],
+            [
+              0.2,
+              0.544
+            ],
+            [
+              0.5,
+              0.68
+            ],
+            [
+              0.8,
+              0.544
+            ],
+            [
+              1,
+              0.102
+            ]
+          ],
+          "thicknessBaseMm": 0.02,
+          "thicknessEdgeMm": 0.0065,
+          "rays": {
+            "thicknessMm": 0.0245
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "outlineMm": [
+            [
+              0,
+              0.135
+            ],
+            [
+              0.2,
+              0.72
+            ],
+            [
+              0.5,
+              0.9
+            ],
+            [
+              0.8,
+              0.72
+            ],
+            [
+              1,
+              0.135
+            ]
+          ],
+          "thicknessBaseMm": 0.025,
+          "thicknessEdgeMm": 0.008,
+          "rays": {
+            "count": 4,
+            "thicknessMm": 0.03
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "base": {
+            "uStart": 0.25,
+            "uEnd": 0.31
+          },
+          "outlineMm": [
+            [
+              0,
+              0.184
+            ],
+            [
+              0.2,
+              0.984
+            ],
+            [
+              0.5,
+              1.23
+            ],
+            [
+              0.8,
+              0.984
+            ],
+            [
+              1,
+              0.184
+            ]
+          ],
+          "thicknessBaseMm": 0.035,
+          "thicknessEdgeMm": 0.0101,
+          "rakeDeg": 65,
+          "rays": {
+            "count": 8,
+            "thicknessMm": 0.02
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "outlineMm": [
+            [
+              0,
+              0.27
+            ],
+            [
+              0.2,
+              1.44
+            ],
+            [
+              0.5,
+              1.8
+            ],
+            [
+              0.8,
+              1.44
+            ],
+            [
+              1,
+              0.27
+            ]
+          ],
+          "thicknessBaseMm": 0.05,
+          "thicknessEdgeMm": 0.0148,
+          "rays": {
+            "count": 10,
+            "thicknessMm": 0.03
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "outlineMm": [
+            [
+              0,
+              0.405
+            ],
+            [
+              0.2,
+              2.16
+            ],
+            [
+              0.5,
+              2.7
+            ],
+            [
+              0.8,
+              2.16
+            ],
+            [
+              1,
+              0.405
+            ]
+          ],
+          "thicknessBaseMm": 0.08,
+          "thicknessEdgeMm": 0.008,
+          "rays": {
+            "count": 11,
+            "thicknessMm": 0.06
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "outlineMm": [
+            [
+              0,
+              0.563
+            ],
+            [
+              0.2,
+              3
+            ],
+            [
+              0.5,
+              3.75
+            ],
+            [
+              0.8,
+              3
+            ],
+            [
+              1,
+              0.563
+            ]
+          ],
+          "thicknessBaseMm": 0.1,
+          "thicknessEdgeMm": 0.01,
+          "rays": {
+            "thicknessMm": 0.08
+          }
+        }
+      ],
+      "estimate": [
+        "outlineMm",
+        "rakeDeg",
+        "rays"
+      ],
+      "sources": [
+        "blade length 35 um at 30 hpf (the bud carries the volume), 110 at 48, 180 at 60, 320 um at 120 hpf, 5 mm at 28 mm SL (research 03e sizes); the outline chord runs along the fin base",
+        "base u 0.255 to 0.30 (fin base 116 to 160 um in the larva), 0.25 to 0.31 from 720 hpf; rake 0 at 30 hpf to 60 degrees at 120 hpf and 65 in the adult (BG-39: the fin swings from lateral to posterior)",
+        "rays: none before 336 hpf; 4 at 504, 8 at 720, 10 at 1080, 11 from 2160 hpf (research 03e: 10 to 12 rays, unverified)",
+        "base v and blade tilt (review DR-02, R03): the finSheet builder places a lateral base at v -0.45 on the skin (LATERAL_BASE_V, the ventrolateral flank on the yolk shoulder of the larva) and rolls the blade 55 degrees from horizontal toward vertical about the base chord (LATERAL_TILT_DEG), so the fin shows as a paddle in the lateral view and as a projection in the dorsal view; the record will carry base.v and tiltDeg per keyframe (larva -0.35, adult -0.55) once the schema adds the two leaves",
+        "blade length keyed to SL after flexion (Parichy et al. 2009; brief C2): 0.13 SL at 5.3 and 6.5 mm SL rising to 0.15 SL from 8.2 mm SL, so the adult blade is 3.75 mm at 25 mm SL (was 4.2 mm, 0.17 SL)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001384",
+    "name": "pelvic fin bud",
+    "synonyms": [
+      "pelvic fin buds"
+    ],
+    "system": "fins",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001383",
+    "uiParent": "ZFA:0000108",
+    "parentRelation": "is_a",
+    "definition": "Fin bud that develops into the pelvic fin.",
+    "zfinStartStage": "ZFS:0000040",
+    "zfinEndStage": "ZFS:0000042",
+    "startHpf": 336.0,
+    "endHpf": 1080.0,
+    "visibleFromHpf": 592.941,
+    "modelEndHpf": 767.368,
+    "overrideNote": "D8: the pelvic fin bud appears at 7.2 mm SL (592.941 hpf on the growth table); ZFA starts the term at Days 14-20 (336 hpf). Handoff pelvic_bud_fin: the bud hands off to the pelvic fin over 8.5 to 8.7 mm SL (748.421 to 767.368 hpf, D9); ZFA ends the term at Days 30-44.",
+    "fadeInHpf": 10,
+    "fadeOutHpf": 18.947,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 336,
+        "text": "ZFIN start stage Days 14-20.",
+        "source": "https://zfin.org/ZFA:0001384"
+      },
+      {
+        "hpf": 504,
+        "text": "pelvic fin bud appearance (PB) at 7.2 to 7.5 mm SL, about 3 weeks post fertilization.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 560,
+        "text": "basipterygium cartilages present at 7.9 mm.",
+        "source": "https://zfin.org/ZFA:0001539"
+      },
+      {
+        "hpf": 1080,
+        "text": "ZFIN end stage Days 30-44; the pelvic fin term continues.",
+        "source": "https://zfin.org/ZFA:0001184"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 592.941,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 0.1,
+          "width": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "PB stage 7.2 to 7.5 mm SL, about 3 weeks; row moved from 504 hpf to the model start"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001384",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1170691/full",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 0.5,
+        "v": -0.98,
+        "w": 0.3,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.05,
+        0.03,
+        0.04
+      ],
+      "keyframes": [
+        {
+          "hpf": 592.941,
+          "sizeRefSl": 7.2
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.1,
+            0.06,
+            0.06
+          ]
+        },
+        {
+          "hpf": 767.368,
+          "sizeRefSl": 8.7,
+          "radiiMm": [
+            0.15,
+            0.1,
+            0.07
+          ]
+        }
+      ],
+      "handoffOut": "pelvic_bud_fin",
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "domes about 100 um at 7.2 to 7.5 mm SL, paddles 400 x 250 um before the rays at 8.5 mm SL (research 03e sizes; Parichy et al. 2009)",
+        "placement: ventral body wall below the posterior swim bladder chamber, anterior to the vent, u 0.5, v -0.98, w 0.3"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001184",
+    "name": "pelvic fin",
+    "synonyms": [
+      "pelvic fins"
+    ],
+    "system": "fins",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005596",
+    "uiParent": "ZFA:0000108",
+    "parentRelation": "is_a",
+    "definition": "Paired fin located in the abdominal position of the body.",
+    "zfinStartStage": "ZFS:0000042",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 720.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 720.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff pelvic_bud_fin: seeded from the pelvic fin bud; the ZFA start (Days 30-44, 720 hpf) precedes the 8.5 to 8.7 mm SL window (748.421 to 767.368 hpf), so the record keeps its ZFA start (DM-33) and fades in to the window end.",
+    "fadeInHpf": 47.368,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 720,
+        "text": "ZFIN start stage Days 30-44.",
+        "source": "https://zfin.org/ZFA:0001184"
+      },
+      {
+        "hpf": 760,
+        "text": "pelvic fin rays appear (PR) at 8.5 to 8.7 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1000,
+        "text": "maximum ray number by 10 to 12 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 800,
+        "stageLabel": "Days 30-44",
+        "dimsMm": {
+          "length": 0.7,
+          "width": 0.4
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "PR stage 8.5 to 8.7 mm SL"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.5,
+          "width": 1.8,
+          "thickness": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "28 mm SL adult"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001184",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/",
+      "https://zfin.org/ZFA:0000565"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "finSheet",
+      "base": {
+        "uStart": 0.5,
+        "uEnd": 0.53,
+        "side": "ventral",
+        "w": 0.45
+      },
+      "outlineMm": [
+        [
+          0,
+          0.02
+        ],
+        [
+          0.25,
+          0.1
+        ],
+        [
+          0.6,
+          0.085
+        ],
+        [
+          1,
+          0.015
+        ]
+      ],
+      "thicknessBaseMm": 0.02,
+      "thicknessEdgeMm": 0.004,
+      "rakeDeg": 78,
+      "rays": {
+        "count": 0,
+        "lengthFraction": 0.85,
+        "thicknessMm": 0.02
+      },
+      "forkDepthFraction": 0,
+      "lobes": "one",
+      "keyframes": [
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 767.368,
+          "sizeRefSl": 8.7,
+          "outlineMm": [
+            [
+              0,
+              0.08
+            ],
+            [
+              0.25,
+              0.4
+            ],
+            [
+              0.6,
+              0.34
+            ],
+            [
+              1,
+              0.06
+            ]
+          ],
+          "thicknessBaseMm": 0.0212,
+          "thicknessEdgeMm": 0.0042,
+          "rays": {
+            "count": 2,
+            "thicknessMm": 0.0212
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "outlineMm": [
+            [
+              0,
+              0.216
+            ],
+            [
+              0.25,
+              1.08
+            ],
+            [
+              0.6,
+              0.918
+            ],
+            [
+              1,
+              0.162
+            ]
+          ],
+          "thicknessBaseMm": 0.04,
+          "thicknessEdgeMm": 0.0059,
+          "rays": {
+            "count": 7,
+            "thicknessMm": 0.03
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "outlineMm": [
+            [
+              0,
+              0.324
+            ],
+            [
+              0.25,
+              1.62
+            ],
+            [
+              0.6,
+              1.377
+            ],
+            [
+              1,
+              0.243
+            ]
+          ],
+          "thicknessBaseMm": 0.06,
+          "thicknessEdgeMm": 0.008,
+          "rays": {
+            "thicknessMm": 0.05
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "outlineMm": [
+            [
+              0,
+              0.45
+            ],
+            [
+              0.25,
+              2.25
+            ],
+            [
+              0.6,
+              1.912
+            ],
+            [
+              1,
+              0.337
+            ]
+          ],
+          "thicknessBaseMm": 0.08,
+          "thicknessEdgeMm": 0.01,
+          "rays": {
+            "thicknessMm": 0.07
+          }
+        }
+      ],
+      "estimate": [
+        "outlineMm",
+        "rakeDeg"
+      ],
+      "sources": [
+        "length 700 um at 8.5 to 8.7 mm SL, 3.5 mm (0.12 SL) at 28 mm SL (research 03e sizes); 7 rays from 8.5 mm SL, all by 10 to 12 mm SL (Parichy et al. 2009)",
+        "base u 0.50 to 0.53 on the belly at w 0.45 (a paired ventral base, tilted outward so the pair reads in the dorsal view), rake 78 degrees so the blade trails posteriorly along the belly toward the vent instead of hanging as a keel (review R08; ZFA: abdominal position; Parichy et al. 2009 Fig. 9)",
+        "adult blade shortened to 0.09 SL (2.25 mm at 25 mm SL, was 3.0 mm): the pelvic fin of the adult reference reaches about a tenth of the standard length, well short of the anal fin origin (Parichy et al. 2009 pelvic fin ray stage; brief C2)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001173",
+    "name": "dorsal fin",
+    "synonyms": [],
+    "system": "fins",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005597",
+    "uiParent": "ZFA:0000108",
+    "parentRelation": "is_a",
+    "definition": "Median fin that is located on the dorsal surface of the fish.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 322.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN start stage Unknown. Handoff fin_fold_fins: seeded from the median fin fold at the window start, 5.2 mm SL (322.0 hpf), and faded in to the window end 516.706 hpf (D9); Parichy et al. 2009 place the dorsal fin condensation at 5.5 to 5.8 mm SL.",
+    "fadeInHpf": 194.706,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 22,
+        "text": "arises from the dorsal fin fold region (ZFA:0000102, ZFIN 22 to 144 hpf).",
+        "source": "https://zfin.org/ZFA:0000102"
+      },
+      {
+        "hpf": 168,
+        "text": "dorsal fin skeleton term starts (ZFIN Days 7-13).",
+        "source": "https://zfin.org/ZFA:0001124"
+      },
+      {
+        "hpf": 400,
+        "text": "dorsal fin condensation (DC) at 5.5 to 5.8 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 520,
+        "text": "dorsal fin rays appear (DR) at 6.4 to 6.6 mm SL; about 10 rays maximum.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 400,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.5,
+          "height": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "DC condensation 5.5 to 5.8 mm SL"
+      },
+      {
+        "hpf": 520,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 0.8,
+          "height": 0.5
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "DR rays 6.4 to 6.6 mm SL; about 10 rays by 7.2 to 7.5 mm SL"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.5,
+          "height": 3.5,
+          "thickness": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "28 mm SL adult"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001173",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://zfin.org/ZFA:0001124",
+      "https://zfin.org/ZFA:0000102"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "finSheet",
+      "base": {
+        "uStart": 0.58,
+        "uEnd": 0.705,
+        "side": "dorsal",
+        "w": 0
+      },
+      "outlineMm": [
+        [
+          0,
+          0.01
+        ],
+        [
+          0.1,
+          0.2
+        ],
+        [
+          0.3,
+          0.2
+        ],
+        [
+          0.6,
+          0.14
+        ],
+        [
+          0.9,
+          0.07
+        ],
+        [
+          1,
+          0.01
+        ]
+      ],
+      "thicknessBaseMm": 0.015,
+      "thicknessEdgeMm": 0.004,
+      "rakeDeg": 25,
+      "rays": {
+        "count": 0,
+        "lengthFraction": 0.9,
+        "thicknessMm": 0.012
+      },
+      "forkDepthFraction": 0,
+      "lobes": "one",
+      "keyframes": [
+        {
+          "hpf": 322.0,
+          "sizeRefSl": 5.2
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "rays": {
+            "thicknessMm": 0.0122
+          },
+          "thicknessBaseMm": 0.0153,
+          "thicknessEdgeMm": 0.0041,
+          "outlineMm": [
+            [
+              0,
+              0.0107
+            ],
+            [
+              0.1,
+              0.2143
+            ],
+            [
+              0.3,
+              0.2143
+            ],
+            [
+              0.6,
+              0.15
+            ],
+            [
+              0.9,
+              0.075
+            ],
+            [
+              1,
+              0.0107
+            ]
+          ]
+        },
+        {
+          "hpf": 420,
+          "sizeRefSl": 5.9,
+          "outlineMm": [
+            [
+              0,
+              0.015
+            ],
+            [
+              0.1,
+              0.3
+            ],
+            [
+              0.3,
+              0.3
+            ],
+            [
+              0.6,
+              0.21
+            ],
+            [
+              0.9,
+              0.105
+            ],
+            [
+              1,
+              0.015
+            ]
+          ],
+          "thicknessBaseMm": 0.017,
+          "thicknessEdgeMm": 0.0045,
+          "rays": {
+            "thicknessMm": 0.0136
+          }
+        },
+        {
+          "hpf": 490,
+          "sizeRefSl": 6.4,
+          "outlineMm": [
+            [
+              0,
+              0.0225
+            ],
+            [
+              0.1,
+              0.45
+            ],
+            [
+              0.3,
+              0.45
+            ],
+            [
+              0.6,
+              0.315
+            ],
+            [
+              0.9,
+              0.1575
+            ],
+            [
+              1,
+              0.0225
+            ]
+          ],
+          "thicknessBaseMm": 0.0185,
+          "thicknessEdgeMm": 0.0049,
+          "rays": {
+            "count": 2,
+            "thicknessMm": 0.0148
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "outlineMm": [
+            [
+              0,
+              0.025
+            ],
+            [
+              0.1,
+              0.5
+            ],
+            [
+              0.3,
+              0.5
+            ],
+            [
+              0.6,
+              0.35
+            ],
+            [
+              0.9,
+              0.175
+            ],
+            [
+              1,
+              0.025
+            ]
+          ],
+          "thicknessBaseMm": 0.0188,
+          "thicknessEdgeMm": 0.005,
+          "rays": {
+            "count": 4,
+            "thicknessMm": 0.015
+          }
+        },
+        {
+          "hpf": 516.706,
+          "sizeRefSl": 6.6,
+          "outlineMm": [
+            [
+              0,
+              0.026
+            ],
+            [
+              0.1,
+              0.52
+            ],
+            [
+              0.3,
+              0.52
+            ],
+            [
+              0.6,
+              0.364
+            ],
+            [
+              0.9,
+              0.182
+            ],
+            [
+              1,
+              0.026
+            ]
+          ],
+          "thicknessBaseMm": 0.019,
+          "thicknessEdgeMm": 0.0051,
+          "rays": {
+            "count": 6,
+            "thicknessMm": 0.0152
+          }
+        },
+        {
+          "hpf": 592.941,
+          "sizeRefSl": 7.2,
+          "outlineMm": [
+            [
+              0,
+              0.0325
+            ],
+            [
+              0.1,
+              0.65
+            ],
+            [
+              0.3,
+              0.65
+            ],
+            [
+              0.6,
+              0.455
+            ],
+            [
+              0.9,
+              0.2275
+            ],
+            [
+              1,
+              0.0325
+            ]
+          ],
+          "thicknessBaseMm": 0.02,
+          "thicknessEdgeMm": 0.0055,
+          "rays": {
+            "count": 10,
+            "thicknessMm": 0.015
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "outlineMm": [
+            [
+              0,
+              0.045
+            ],
+            [
+              0.1,
+              0.9
+            ],
+            [
+              0.3,
+              0.9
+            ],
+            [
+              0.6,
+              0.63
+            ],
+            [
+              0.9,
+              0.315
+            ],
+            [
+              1,
+              0.045
+            ]
+          ],
+          "thicknessBaseMm": 0.03,
+          "thicknessEdgeMm": 0.0063,
+          "rays": {
+            "thicknessMm": 0.02
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "outlineMm": [
+            [
+              0,
+              0.075
+            ],
+            [
+              0.1,
+              1.5
+            ],
+            [
+              0.3,
+              1.5
+            ],
+            [
+              0.6,
+              1.05
+            ],
+            [
+              0.9,
+              0.525
+            ],
+            [
+              1,
+              0.075
+            ]
+          ],
+          "thicknessBaseMm": 0.045,
+          "thicknessEdgeMm": 0.0092,
+          "rays": {
+            "thicknessMm": 0.03
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "outlineMm": [
+            [
+              0,
+              0.115
+            ],
+            [
+              0.1,
+              2.3
+            ],
+            [
+              0.3,
+              2.3
+            ],
+            [
+              0.6,
+              1.61
+            ],
+            [
+              0.9,
+              0.805
+            ],
+            [
+              1,
+              0.115
+            ]
+          ],
+          "thicknessBaseMm": 0.07,
+          "thicknessEdgeMm": 0.008,
+          "rays": {
+            "thicknessMm": 0.05
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "outlineMm": [
+            [
+              0,
+              0.155
+            ],
+            [
+              0.1,
+              3.1
+            ],
+            [
+              0.3,
+              3.1
+            ],
+            [
+              0.6,
+              2.17
+            ],
+            [
+              0.9,
+              1.085
+            ],
+            [
+              1,
+              0.155
+            ]
+          ],
+          "thicknessBaseMm": 0.09,
+          "thicknessEdgeMm": 0.01,
+          "rays": {
+            "thicknessMm": 0.07
+          }
+        }
+      ],
+      "estimate": [
+        "outlineMm",
+        "rakeDeg"
+      ],
+      "sources": [
+        "the first outline copies the fold over the base (0.2 mm at 5.2 mm SL, seed outlineSegment); condensation 500 x 200 um at 5.5 to 5.8 mm SL, 800 x 500 um with rays at 6.4 to 6.6 mm SL, 3.5 x 3.5 mm at 28 mm SL (research 03e sizes; Parichy et al. 2009)",
+        "base u 0.58 to 0.705 (apFraction 0.58 to 0.72), rake 25 degrees; rays 2 at 6.4 mm SL, 10 by 7.2 to 7.5 mm SL"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001162",
+    "name": "anal fin",
+    "synonyms": [],
+    "system": "fins",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005597",
+    "uiParent": "ZFA:0000108",
+    "parentRelation": "is_a",
+    "definition": "Median fin that is located posterior to the anus.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 322.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN start stage Unknown. Handoff fin_fold_fins: seeded from the median fin fold at the window start, 5.2 mm SL (322.0 hpf), and faded in to the window end 516.706 hpf (D9); Parichy et al. 2009 place the anal fin condensation at 5.2 to 5.5 mm SL.",
+    "fadeInHpf": 194.706,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 22,
+        "text": "arises from the ventral fin fold (ZFA:0001069, ZFIN 22 to 144 hpf).",
+        "source": "https://zfin.org/ZFA:0001069"
+      },
+      {
+        "hpf": 380,
+        "text": "anal fin condensation (AC) at 5.2 to 5.5 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 500,
+        "text": "anal fin rays appear (AR) at 6.1 to 6.4 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 760,
+        "text": "all rays present by about 8.5 mm SL; segment addition linear through 11 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 380,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.6,
+          "height": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "AC condensation 5.2 to 5.5 mm SL"
+      },
+      {
+        "hpf": 500,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 1.0,
+          "height": 0.4
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "AR rays 6.1 to 6.4 mm SL"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 5.5,
+          "height": 3.0,
+          "thickness": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "28 mm SL adult; branched anal rays 10-12"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001162",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0001069"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "finSheet",
+      "base": {
+        "uStart": 0.62,
+        "uEnd": 0.8,
+        "side": "ventral",
+        "w": 0
+      },
+      "outlineMm": [
+        [
+          0,
+          0.011
+        ],
+        [
+          0.1,
+          0.22
+        ],
+        [
+          0.35,
+          0.22
+        ],
+        [
+          0.7,
+          0.165
+        ],
+        [
+          0.95,
+          0.066
+        ],
+        [
+          1,
+          0.011
+        ]
+      ],
+      "thicknessBaseMm": 0.015,
+      "thicknessEdgeMm": 0.004,
+      "rakeDeg": 30,
+      "rays": {
+        "count": 0,
+        "lengthFraction": 0.9,
+        "thicknessMm": 0.012
+      },
+      "forkDepthFraction": 0,
+      "lobes": "one",
+      "keyframes": [
+        {
+          "hpf": 322.0,
+          "sizeRefSl": 5.2
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "rays": {
+            "thicknessMm": 0.0122
+          },
+          "thicknessBaseMm": 0.0153,
+          "thicknessEdgeMm": 0.0041,
+          "outlineMm": [
+            [
+              0,
+              0.0116
+            ],
+            [
+              0.1,
+              0.2314
+            ],
+            [
+              0.35,
+              0.2314
+            ],
+            [
+              0.7,
+              0.1736
+            ],
+            [
+              0.95,
+              0.0694
+            ],
+            [
+              1,
+              0.0116
+            ]
+          ]
+        },
+        {
+          "hpf": 420,
+          "sizeRefSl": 5.9,
+          "outlineMm": [
+            [
+              0,
+              0.015
+            ],
+            [
+              0.1,
+              0.3
+            ],
+            [
+              0.35,
+              0.3
+            ],
+            [
+              0.7,
+              0.225
+            ],
+            [
+              0.95,
+              0.09
+            ],
+            [
+              1,
+              0.015
+            ]
+          ],
+          "thicknessBaseMm": 0.017,
+          "thicknessEdgeMm": 0.0045,
+          "rays": {
+            "thicknessMm": 0.0136
+          }
+        },
+        {
+          "hpf": 462,
+          "sizeRefSl": 6.2,
+          "outlineMm": [
+            [
+              0,
+              0.019
+            ],
+            [
+              0.1,
+              0.38
+            ],
+            [
+              0.35,
+              0.38
+            ],
+            [
+              0.7,
+              0.285
+            ],
+            [
+              0.95,
+              0.114
+            ],
+            [
+              1,
+              0.019
+            ]
+          ],
+          "thicknessBaseMm": 0.0179,
+          "thicknessEdgeMm": 0.0048,
+          "rays": {
+            "count": 3,
+            "thicknessMm": 0.0143
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "outlineMm": [
+            [
+              0,
+              0.0225
+            ],
+            [
+              0.1,
+              0.45
+            ],
+            [
+              0.35,
+              0.45
+            ],
+            [
+              0.7,
+              0.3375
+            ],
+            [
+              0.95,
+              0.135
+            ],
+            [
+              1,
+              0.0225
+            ]
+          ],
+          "thicknessBaseMm": 0.0188,
+          "thicknessEdgeMm": 0.005,
+          "rays": {
+            "count": 8,
+            "thicknessMm": 0.015
+          }
+        },
+        {
+          "hpf": 516.706,
+          "sizeRefSl": 6.6,
+          "outlineMm": [
+            [
+              0,
+              0.024
+            ],
+            [
+              0.1,
+              0.48
+            ],
+            [
+              0.35,
+              0.48
+            ],
+            [
+              0.7,
+              0.36
+            ],
+            [
+              0.95,
+              0.144
+            ],
+            [
+              1,
+              0.024
+            ]
+          ],
+          "thicknessBaseMm": 0.019,
+          "thicknessEdgeMm": 0.0051,
+          "rays": {
+            "count": 10,
+            "thicknessMm": 0.0152
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "outlineMm": [
+            [
+              0,
+              0.04
+            ],
+            [
+              0.1,
+              0.8
+            ],
+            [
+              0.35,
+              0.8
+            ],
+            [
+              0.7,
+              0.6
+            ],
+            [
+              0.95,
+              0.24
+            ],
+            [
+              1,
+              0.04
+            ]
+          ],
+          "thicknessBaseMm": 0.03,
+          "thicknessEdgeMm": 0.0063,
+          "rays": {
+            "count": 15,
+            "thicknessMm": 0.02
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "outlineMm": [
+            [
+              0,
+              0.065
+            ],
+            [
+              0.1,
+              1.3
+            ],
+            [
+              0.35,
+              1.3
+            ],
+            [
+              0.7,
+              0.975
+            ],
+            [
+              0.95,
+              0.39
+            ],
+            [
+              1,
+              0.065
+            ]
+          ],
+          "thicknessBaseMm": 0.045,
+          "thicknessEdgeMm": 0.0092,
+          "rays": {
+            "thicknessMm": 0.03
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "outlineMm": [
+            [
+              0,
+              0.1
+            ],
+            [
+              0.1,
+              2
+            ],
+            [
+              0.35,
+              2
+            ],
+            [
+              0.7,
+              1.5
+            ],
+            [
+              0.95,
+              0.6
+            ],
+            [
+              1,
+              0.1
+            ]
+          ],
+          "thicknessBaseMm": 0.07,
+          "thicknessEdgeMm": 0.008,
+          "rays": {
+            "thicknessMm": 0.05
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "outlineMm": [
+            [
+              0,
+              0.13
+            ],
+            [
+              0.1,
+              2.6
+            ],
+            [
+              0.35,
+              2.6
+            ],
+            [
+              0.7,
+              1.95
+            ],
+            [
+              0.95,
+              0.78
+            ],
+            [
+              1,
+              0.13
+            ]
+          ],
+          "thicknessBaseMm": 0.09,
+          "thicknessEdgeMm": 0.01,
+          "rays": {
+            "thicknessMm": 0.07
+          }
+        }
+      ],
+      "estimate": [
+        "outlineMm",
+        "rakeDeg"
+      ],
+      "sources": [
+        "the first outline copies the fold over the base (0.22 mm at 5.2 mm SL, seed outlineSegment); condensation 600 x 200 um at 5.2 to 5.5 mm SL, 1000 x 400 um with rays at 6.1 to 6.4 mm SL, 5.5 x 3.0 mm at 28 mm SL (research 03e sizes; Parichy et al. 2009)",
+        "base u 0.62 to 0.80 behind the vent (ventU 0.6), rake 30 degrees; rays 3 at 6.2 mm SL, 15 by 8.5 mm SL"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001058",
+    "name": "caudal fin",
+    "synonyms": [
+      "tail",
+      "tail fin"
+    ],
+    "system": "fins",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005597",
+    "uiParent": "ZFA:0000108",
+    "parentRelation": "is_a",
+    "definition": "Fin that is the most posterior median fin. It is composed of a complex of three modified centra and modified neural and hemal arches and spines.",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff fin_fold_fins: seeded from the median fin fold; the ZFA start (Prim-5, 24 hpf, ZFIN treats the caudal fold as the fin) precedes the 5.2 to 6.6 mm SL window (322.0 to 516.706 hpf), so the record keeps its ZFA start (DM-33) and stays a sliver inside the fold until the rays appear at 4.9 mm SL.",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 24,
+        "text": "ZFIN start stage Prim-5 (as part of the fin fold).",
+        "source": "https://zfin.org/ZFA:0001058"
+      },
+      {
+        "hpf": 220,
+        "text": "notochord flexion begins at about 4.5 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 300,
+        "text": "caudal fin rays appear (CR) at 4.9 to 5.1 mm SL, about 16 dpf.",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      },
+      {
+        "hpf": 400,
+        "text": "nearly maximal ray number (about 20) by 6.0 mm SL; flexion complete by 6.5 mm SL with a 45 degree angle.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 450,
+        "text": "dorsal and ventral lobes emerge at about 6.4 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.15,
+          "height": 0.25,
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "posterior part of the fin fold around the tail tip"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.25,
+          "height": 0.4,
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.3,
+          "height": 0.45,
+          "thickness": 0.01
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "no rays yet; rays appear at 4.9 to 5.1 mm SL"
+      },
+      {
+        "hpf": 400,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.9,
+          "height": 1.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "about 20 rays by 6.0 mm SL; lobes emerge at 6.4 mm SL"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 6.0,
+          "height": 7.0,
+          "thickness": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "28 mm SL adult; stripes extend onto the caudal rays"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001058",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0000862"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "finSheet",
+      "base": {
+        "uStart": 0.95,
+        "uEnd": 1.2,
+        "side": "dorsal",
+        "w": 0
+      },
+      "outlineMm": [
+        [
+          0,
+          0.004
+        ],
+        [
+          0.2,
+          0.004
+        ],
+        [
+          0.35,
+          0.004
+        ],
+        [
+          0.5,
+          0.004
+        ],
+        [
+          0.65,
+          0.004
+        ],
+        [
+          0.8,
+          0.004
+        ],
+        [
+          1,
+          0.004
+        ]
+      ],
+      "thicknessBaseMm": 0.02,
+      "thicknessEdgeMm": 0.006,
+      "rakeDeg": 0,
+      "rays": {
+        "count": 0,
+        "lengthFraction": 0.9,
+        "thicknessMm": 0.012
+      },
+      "forkDepthFraction": 0,
+      "lobes": "one",
+      "keyframes": [
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 42,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.2,
+              0.004
+            ],
+            [
+              0.35,
+              0.0043
+            ],
+            [
+              0.5,
+              0.0045
+            ],
+            [
+              0.65,
+              0.0043
+            ],
+            [
+              0.8,
+              0.004
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 48,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.2,
+              0.004
+            ],
+            [
+              0.35,
+              0.0045
+            ],
+            [
+              0.5,
+              0.0047
+            ],
+            [
+              0.65,
+              0.0045
+            ],
+            [
+              0.8,
+              0.004
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.2,
+              0.004
+            ],
+            [
+              0.35,
+              0.0049
+            ],
+            [
+              0.5,
+              0.0053
+            ],
+            [
+              0.65,
+              0.0049
+            ],
+            [
+              0.8,
+              0.004
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "rays": {
+            "thicknessMm": 0.0133
+          },
+          "thicknessBaseMm": 0.0222,
+          "thicknessEdgeMm": 0.0066,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.2,
+              0.004
+            ],
+            [
+              0.35,
+              0.0057
+            ],
+            [
+              0.5,
+              0.0064
+            ],
+            [
+              0.65,
+              0.0057
+            ],
+            [
+              0.8,
+              0.004
+            ],
+            [
+              1,
+              0.004
+            ]
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "outlineMm": [
+            [
+              0,
+              0.004
+            ],
+            [
+              0.2,
+              0.004
+            ],
+            [
+              0.35,
+              0.0068
+            ],
+            [
+              0.5,
+              0.008
+            ],
+            [
+              0.65,
+              0.0068
+            ],
+            [
+              0.8,
+              0.004
+            ],
+            [
+              1,
+              0.004
+            ]
+          ],
+          "thicknessBaseMm": 0.0252,
+          "thicknessEdgeMm": 0.0076,
+          "rays": {
+            "thicknessMm": 0.0151
+          }
+        },
+        {
+          "hpf": 200,
+          "sizeRefSl": 4.3286,
+          "outlineMm": [
+            [
+              0,
+              0.006
+            ],
+            [
+              0.2,
+              0.013
+            ],
+            [
+              0.35,
+              0.024
+            ],
+            [
+              0.5,
+              0.03
+            ],
+            [
+              0.65,
+              0.024
+            ],
+            [
+              0.8,
+              0.013
+            ],
+            [
+              1,
+              0.006
+            ]
+          ],
+          "thicknessBaseMm": 0.0265,
+          "thicknessEdgeMm": 0.008,
+          "rays": {
+            "thicknessMm": 0.0159
+          }
+        },
+        {
+          "hpf": 240,
+          "sizeRefSl": 4.6143,
+          "outlineMm": [
+            [
+              0,
+              0.022
+            ],
+            [
+              0.2,
+              0.06
+            ],
+            [
+              0.35,
+              0.102
+            ],
+            [
+              0.5,
+              0.12
+            ],
+            [
+              0.65,
+              0.102
+            ],
+            [
+              0.8,
+              0.06
+            ],
+            [
+              1,
+              0.022
+            ]
+          ],
+          "thicknessBaseMm": 0.0283,
+          "thicknessEdgeMm": 0.0085,
+          "rays": {
+            "count": 4,
+            "thicknessMm": 0.017
+          }
+        },
+        {
+          "hpf": 280,
+          "sizeRefSl": 4.9,
+          "outlineMm": [
+            [
+              0,
+              0.045
+            ],
+            [
+              0.2,
+              0.15
+            ],
+            [
+              0.35,
+              0.255
+            ],
+            [
+              0.5,
+              0.3
+            ],
+            [
+              0.65,
+              0.255
+            ],
+            [
+              0.8,
+              0.15
+            ],
+            [
+              1,
+              0.045
+            ]
+          ],
+          "thicknessBaseMm": 0.0302,
+          "thicknessEdgeMm": 0.009,
+          "rays": {
+            "count": 8,
+            "thicknessMm": 0.0181
+          }
+        },
+        {
+          "hpf": 322.0,
+          "sizeRefSl": 5.2,
+          "outlineMm": [
+            [
+              0,
+              0.054
+            ],
+            [
+              0.2,
+              0.18
+            ],
+            [
+              0.35,
+              0.306
+            ],
+            [
+              0.5,
+              0.36
+            ],
+            [
+              0.65,
+              0.306
+            ],
+            [
+              0.8,
+              0.18
+            ],
+            [
+              1,
+              0.054
+            ]
+          ],
+          "thicknessBaseMm": 0.032,
+          "thicknessEdgeMm": 0.0096,
+          "rays": {
+            "count": 12,
+            "thicknessMm": 0.0192
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "rays": {
+            "thicknessMm": 0.0196,
+            "count": 13
+          },
+          "thicknessBaseMm": 0.0326,
+          "thicknessEdgeMm": 0.0098,
+          "outlineMm": [
+            [
+              0,
+              0.0559
+            ],
+            [
+              0.2,
+              0.1864
+            ],
+            [
+              0.35,
+              0.3169
+            ],
+            [
+              0.5,
+              0.3729
+            ],
+            [
+              0.65,
+              0.3169
+            ],
+            [
+              0.8,
+              0.1864
+            ],
+            [
+              1,
+              0.0559
+            ]
+          ]
+        },
+        {
+          "hpf": 420,
+          "sizeRefSl": 5.9,
+          "outlineMm": [
+            [
+              0,
+              0.0675
+            ],
+            [
+              0.2,
+              0.225
+            ],
+            [
+              0.35,
+              0.3825
+            ],
+            [
+              0.5,
+              0.45
+            ],
+            [
+              0.65,
+              0.3825
+            ],
+            [
+              0.8,
+              0.225
+            ],
+            [
+              1,
+              0.0675
+            ]
+          ],
+          "thicknessBaseMm": 0.0363,
+          "thicknessEdgeMm": 0.0109,
+          "rays": {
+            "count": 19,
+            "thicknessMm": 0.0218
+          }
+        },
+        {
+          "hpf": 490,
+          "sizeRefSl": 6.4,
+          "outlineMm": [
+            [
+              0,
+              0.0825
+            ],
+            [
+              0.2,
+              0.33
+            ],
+            [
+              0.35,
+              0.55
+            ],
+            [
+              0.5,
+              0.44
+            ],
+            [
+              0.65,
+              0.55
+            ],
+            [
+              0.8,
+              0.33
+            ],
+            [
+              1,
+              0.0825
+            ]
+          ],
+          "thicknessBaseMm": 0.0394,
+          "thicknessEdgeMm": 0.0118,
+          "rays": {
+            "thicknessMm": 0.0236
+          },
+          "forkDepthFraction": 0.12,
+          "lobes": "two"
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "outlineMm": [
+            [
+              0,
+              0.09
+            ],
+            [
+              0.2,
+              0.36
+            ],
+            [
+              0.35,
+              0.6
+            ],
+            [
+              0.5,
+              0.48
+            ],
+            [
+              0.65,
+              0.6
+            ],
+            [
+              0.8,
+              0.36
+            ],
+            [
+              1,
+              0.09
+            ]
+          ],
+          "thicknessBaseMm": 0.04,
+          "thicknessEdgeMm": 0.012,
+          "rays": {
+            "thicknessMm": 0.024
+          },
+          "forkDepthFraction": 0.16
+        },
+        {
+          "hpf": 516.706,
+          "sizeRefSl": 6.6,
+          "outlineMm": [
+            [
+              0,
+              0.0975
+            ],
+            [
+              0.2,
+              0.39
+            ],
+            [
+              0.35,
+              0.65
+            ],
+            [
+              0.5,
+              0.52
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.8,
+              0.39
+            ],
+            [
+              1,
+              0.0975
+            ]
+          ],
+          "thicknessBaseMm": 0.0406,
+          "thicknessEdgeMm": 0.0122,
+          "rays": {
+            "thicknessMm": 0.0244
+          },
+          "forkDepthFraction": 0.18
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "outlineMm": [
+            [
+              0,
+              0.189
+            ],
+            [
+              0.2,
+              0.707
+            ],
+            [
+              0.35,
+              2.188
+            ],
+            [
+              0.5,
+              1.509
+            ],
+            [
+              0.65,
+              2.188
+            ],
+            [
+              0.8,
+              0.707
+            ],
+            [
+              1,
+              0.189
+            ]
+          ],
+          "thicknessBaseMm": 0.035,
+          "thicknessEdgeMm": 0.0151,
+          "rays": {
+            "thicknessMm": 0.02
+          },
+          "forkDepthFraction": 0.2
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "outlineMm": [
+            [
+              0,
+              0.252
+            ],
+            [
+              0.2,
+              0.945
+            ],
+            [
+              0.35,
+              2.923
+            ],
+            [
+              0.5,
+              2.016
+            ],
+            [
+              0.65,
+              2.923
+            ],
+            [
+              0.8,
+              0.945
+            ],
+            [
+              1,
+              0.252
+            ]
+          ],
+          "thicknessBaseMm": 0.05,
+          "thicknessEdgeMm": 0.0222,
+          "rays": {
+            "thicknessMm": 0.03
+          },
+          "forkDepthFraction": 0.2
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "outlineMm": [
+            [
+              0,
+              0.36
+            ],
+            [
+              0.2,
+              1.35
+            ],
+            [
+              0.35,
+              4.176
+            ],
+            [
+              0.5,
+              2.88
+            ],
+            [
+              0.65,
+              4.176
+            ],
+            [
+              0.8,
+              1.35
+            ],
+            [
+              1,
+              0.36
+            ]
+          ],
+          "thicknessBaseMm": 0.08,
+          "thicknessEdgeMm": 0.01,
+          "rays": {
+            "thicknessMm": 0.06
+          },
+          "forkDepthFraction": 0.2
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "outlineMm": [
+            [
+              0,
+              0.5
+            ],
+            [
+              0.2,
+              1.875
+            ],
+            [
+              0.35,
+              5.8
+            ],
+            [
+              0.5,
+              4
+            ],
+            [
+              0.65,
+              5.8
+            ],
+            [
+              0.8,
+              1.875
+            ],
+            [
+              1,
+              0.5
+            ]
+          ],
+          "thicknessBaseMm": 0.1,
+          "thicknessEdgeMm": 0.012,
+          "rays": {
+            "thicknessMm": 0.08
+          }
+        }
+      ],
+      "lodHint": "high",
+      "estimate": [
+        "outlineMm",
+        "forkDepthFraction"
+      ],
+      "sources": [
+        "a wrapped sheet about the notochord tip (base u 0.95 to 1.2, the caudal fan of finSheet.ts): a 4 to 8 um sliver inside the fold from 24 to 168 hpf, 0.3 mm with the first 4 rays at 4.9 mm SL (280 hpf), 0.45 mm and 19 principal rays by 6.0 mm SL, lobes from 6.4 mm SL",
+        "after flexion the outline is keyed to SL (Parichy et al. 2009; D6 sets TL = 1.2 SL, so the fin reaches 0.2 SL past the notochord end): lobe span 0.232 SL at chord 0.35 and 0.65, notch span 0.160 SL at chord 0.50, leg span 0.075 SL at chord 0.20 and 0.80 and 0.020 SL at the peduncle. The narrow legs keep the dorsoventral spread near 0.26 SL while the lobes still reach 0.20 SL past the tip; forkDepthFraction rises to the schema maximum 0.2 by 8.2 mm SL, which narrows the fan sweep so the lobes point posteriorly.",
+        "the caudal sheet is thicker than the fold it condenses in (20 versus 12 um at the base), so the two sheets do not z-fight while both are present",
+        "fork (review R13): finSheet narrows the caudal fan direction sweep from 180 degrees toward 100 degrees as forkDepthFraction rises, and turns the dorsal and ventral legs into the fan, so the two lobes at chord 0.35 and 0.65 point posteriorly and the notch between them shows; forkDepthFraction 0.10 after 6.6 mm SL, with the outline dip at chord 0.5 adding to the notch",
+        "Phase 2 visual calibration (VR-10): keyframes at 200 and 240 hpf grow the fan from the fold sliver to the 0.30 mm blade instead of jumping there over 168 to 280 hpf, and the first four principal rays start at 240 hpf (4.6 mm SL) rather than at 280, so no frame in the flexion window draws a bare plate. The outline samples are read as a monotone Hermite curve (finSheet.ts smoothExtent), so the seven control points give a round margin instead of a seven-sided polygon."
+      ]
+    }
+  }
+]

@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+# build output
+dist/
+# test artifacts
+/test-results/
+/playwright-report/
+# editor and OS
+.DS_Store
+.vscode/
+.idea/
+*.log
+# env
+.env
+.env.*
+__pycache__/
+# owner reference images (third-party copyright, calibration only)
+data/samples/
+# local single-file bundle output
+bundle/

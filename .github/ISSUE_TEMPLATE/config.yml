@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question about a ZFIN anatomy term or stage
+    url: https://wiki.zfin.org/display/general/ZFIN+Contact+Information
+    about: >-
+      The anatomy terms, definitions, synonyms and the stage table come from ZFIN. A term that is
+      wrong, missing or out of date in the ontology itself belongs with the ZFIN curators. This
+      repository copies what ZFIN publishes; it does not curate the ontology.

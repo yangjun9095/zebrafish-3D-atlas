@@ -1,0 +1,6226 @@
+{
+ "generatedBy": "scripts/gen-body.ts",
+ "keyframes": [
+  {
+   "hpf": 0,
+   "stage": "1-cell",
+   "regime": "R0",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": 1,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0,
+   "cap": {
+    "baseRadiusMm": 0.3,
+    "heightMm": 0.2
+   },
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.35,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.45,
+    "radiusMm": 0.35
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.45
+    ],
+    [
+     0.0625,
+     0.0289,
+     0.4491
+    ],
+    [
+     0.125,
+     0.0578,
+     0.4463
+    ],
+    [
+     0.1875,
+     0.0863,
+     0.4416
+    ],
+    [
+     0.25,
+     0.1146,
+     0.4352
+    ],
+    [
+     0.3125,
+     0.1423,
+     0.4269
+    ],
+    [
+     0.375,
+     0.1695,
+     0.4169
+    ],
+    [
+     0.4375,
+     0.1959,
+     0.4051
+    ],
+    [
+     0.5,
+     0.2216,
+     0.3917
+    ],
+    [
+     0.5625,
+     0.2463,
+     0.3766
+    ],
+    [
+     0.625,
+     0.27,
+     0.36
+    ],
+    [
+     0.6875,
+     0.2926,
+     0.3419
+    ],
+    [
+     0.75,
+     0.314,
+     0.3223
+    ],
+    [
+     0.8125,
+     0.3341,
+     0.3015
+    ],
+    [
+     0.875,
+     0.3528,
+     0.2794
+    ],
+    [
+     0.9375,
+     0.37,
+     0.2561
+    ],
+    [
+     1,
+     0.3857,
+     0.2318
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 0.75,
+   "stage": "2-cell",
+   "regime": "R0",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": 2,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0,
+   "cap": {
+    "baseRadiusMm": 0.29,
+    "heightMm": 0.21
+   },
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.35,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.455,
+    "radiusMm": 0.35
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.455
+    ],
+    [
+     0.0625,
+     0.0278,
+     0.4542
+    ],
+    [
+     0.125,
+     0.0554,
+     0.4516
+    ],
+    [
+     0.1875,
+     0.0828,
+     0.4474
+    ],
+    [
+     0.25,
+     0.11,
+     0.4415
+    ],
+    [
+     0.3125,
+     0.1367,
+     0.434
+    ],
+    [
+     0.375,
+     0.1629,
+     0.4248
+    ],
+    [
+     0.4375,
+     0.1885,
+     0.4141
+    ],
+    [
+     0.5,
+     0.2134,
+     0.4018
+    ],
+    [
+     0.5625,
+     0.2376,
+     0.3881
+    ],
+    [
+     0.625,
+     0.2608,
+     0.3729
+    ],
+    [
+     0.6875,
+     0.283,
+     0.3562
+    ],
+    [
+     0.75,
+     0.3042,
+     0.3383
+    ],
+    [
+     0.8125,
+     0.3243,
+     0.3191
+    ],
+    [
+     0.875,
+     0.3432,
+     0.2988
+    ],
+    [
+     0.9375,
+     0.3608,
+     0.2773
+    ],
+    [
+     1,
+     0.377,
+     0.2547
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 2.25,
+   "stage": "128-cell",
+   "regime": "R0",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": 128,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0,
+   "cap": {
+    "baseRadiusMm": 0.26,
+    "heightMm": 0.27
+   },
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.35,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.485,
+    "radiusMm": 0.35
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.485
+    ],
+    [
+     0.0625,
+     0.0254,
+     0.4843
+    ],
+    [
+     0.125,
+     0.0507,
+     0.4823
+    ],
+    [
+     0.1875,
+     0.0758,
+     0.479
+    ],
+    [
+     0.25,
+     0.1008,
+     0.4744
+    ],
+    [
+     0.3125,
+     0.1255,
+     0.4685
+    ],
+    [
+     0.375,
+     0.1498,
+     0.4613
+    ],
+    [
+     0.4375,
+     0.1737,
+     0.4528
+    ],
+    [
+     0.5,
+     0.1972,
+     0.4431
+    ],
+    [
+     0.5625,
+     0.2201,
+     0.4322
+    ],
+    [
+     0.625,
+     0.2424,
+     0.4201
+    ],
+    [
+     0.6875,
+     0.264,
+     0.4068
+    ],
+    [
+     0.75,
+     0.2849,
+     0.3925
+    ],
+    [
+     0.8125,
+     0.3051,
+     0.377
+    ],
+    [
+     0.875,
+     0.3244,
+     0.3605
+    ],
+    [
+     0.9375,
+     0.3428,
+     0.3431
+    ],
+    [
+     1,
+     0.3603,
+     0.3247
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 3.33,
+   "stage": "high",
+   "regime": "R0",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": 2048,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0,
+   "cap": {
+    "baseRadiusMm": 0.25,
+    "heightMm": 0.3
+   },
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.35,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.5,
+    "radiusMm": 0.35
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.5
+    ],
+    [
+     0.0625,
+     0.0249,
+     0.4994
+    ],
+    [
+     0.125,
+     0.0496,
+     0.4975
+    ],
+    [
+     0.1875,
+     0.0743,
+     0.4944
+    ],
+    [
+     0.25,
+     0.0988,
+     0.4901
+    ],
+    [
+     0.3125,
+     0.123,
+     0.4846
+    ],
+    [
+     0.375,
+     0.147,
+     0.4779
+    ],
+    [
+     0.4375,
+     0.1705,
+     0.47
+    ],
+    [
+     0.5,
+     0.1937,
+     0.461
+    ],
+    [
+     0.5625,
+     0.2164,
+     0.4508
+    ],
+    [
+     0.625,
+     0.2385,
+     0.4394
+    ],
+    [
+     0.6875,
+     0.2601,
+     0.4271
+    ],
+    [
+     0.75,
+     0.281,
+     0.4136
+    ],
+    [
+     0.8125,
+     0.3012,
+     0.3991
+    ],
+    [
+     0.875,
+     0.3206,
+     0.3837
+    ],
+    [
+     0.9375,
+     0.3393,
+     0.3672
+    ],
+    [
+     1,
+     0.3571,
+     0.3499
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 4.33,
+   "stage": "dome",
+   "regime": "R0",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": 4096,
+   "yolkDomeMm": 0.05,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0.2,
+   "cap": {
+    "baseRadiusMm": 0.33,
+    "heightMm": 0.2634
+   },
+   "shellThicknessMm": 0.1,
+   "yolkRadiusMm": 0.35,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.4,
+    "radiusMm": 0.35
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.4
+    ],
+    [
+     0.0625,
+     0.0307,
+     0.3988
+    ],
+    [
+     0.125,
+     0.0613,
+     0.3953
+    ],
+    [
+     0.1875,
+     0.0915,
+     0.3894
+    ],
+    [
+     0.25,
+     0.1212,
+     0.3812
+    ],
+    [
+     0.3125,
+     0.1501,
+     0.3708
+    ],
+    [
+     0.375,
+     0.1782,
+     0.3581
+    ],
+    [
+     0.4375,
+     0.2052,
+     0.3434
+    ],
+    [
+     0.5,
+     0.231,
+     0.3266
+    ],
+    [
+     0.5625,
+     0.2554,
+     0.3079
+    ],
+    [
+     0.625,
+     0.2783,
+     0.2873
+    ],
+    [
+     0.6875,
+     0.2996,
+     0.2651
+    ],
+    [
+     0.75,
+     0.319,
+     0.2413
+    ],
+    [
+     0.8125,
+     0.3366,
+     0.216
+    ],
+    [
+     0.875,
+     0.3523,
+     0.1895
+    ],
+    [
+     0.9375,
+     0.3658,
+     0.1619
+    ],
+    [
+     1,
+     0.3771,
+     0.1333
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 5.25,
+   "stage": "50%-epiboly",
+   "regime": "R1",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0.5,
+   "cap": null,
+   "shellThicknessMm": 0.055,
+   "yolkRadiusMm": 0.34,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.3675,
+    "radiusMm": 0.34
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.3675
+    ],
+    [
+     0.0625,
+     0.036,
+     0.3657
+    ],
+    [
+     0.125,
+     0.0717,
+     0.3604
+    ],
+    [
+     0.1875,
+     0.1067,
+     0.3517
+    ],
+    [
+     0.25,
+     0.1406,
+     0.3395
+    ],
+    [
+     0.3125,
+     0.1732,
+     0.3241
+    ],
+    [
+     0.375,
+     0.2042,
+     0.3056
+    ],
+    [
+     0.4375,
+     0.2331,
+     0.2841
+    ],
+    [
+     0.5,
+     0.2599,
+     0.2599
+    ],
+    [
+     0.5625,
+     0.2841,
+     0.2331
+    ],
+    [
+     0.625,
+     0.3056,
+     0.2042
+    ],
+    [
+     0.6875,
+     0.3241,
+     0.1732
+    ],
+    [
+     0.75,
+     0.3395,
+     0.1406
+    ],
+    [
+     0.8125,
+     0.3517,
+     0.1067
+    ],
+    [
+     0.875,
+     0.3604,
+     0.0717
+    ],
+    [
+     0.9375,
+     0.3657,
+     0.036
+    ],
+    [
+     1,
+     0.3675,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 6,
+   "stage": "shield",
+   "regime": "R1",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0.5,
+   "cap": null,
+   "shellThicknessMm": 0.05,
+   "yolkRadiusMm": 0.33,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.355,
+    "radiusMm": 0.33
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.355
+    ],
+    [
+     0.0625,
+     0.0348,
+     0.3533
+    ],
+    [
+     0.125,
+     0.0693,
+     0.3482
+    ],
+    [
+     0.1875,
+     0.1031,
+     0.3397
+    ],
+    [
+     0.25,
+     0.1359,
+     0.328
+    ],
+    [
+     0.3125,
+     0.1673,
+     0.3131
+    ],
+    [
+     0.375,
+     0.1972,
+     0.2952
+    ],
+    [
+     0.4375,
+     0.2252,
+     0.2744
+    ],
+    [
+     0.5,
+     0.251,
+     0.251
+    ],
+    [
+     0.5625,
+     0.2744,
+     0.2252
+    ],
+    [
+     0.625,
+     0.2952,
+     0.1972
+    ],
+    [
+     0.6875,
+     0.3131,
+     0.1673
+    ],
+    [
+     0.75,
+     0.328,
+     0.1359
+    ],
+    [
+     0.8125,
+     0.3397,
+     0.1031
+    ],
+    [
+     0.875,
+     0.3482,
+     0.0693
+    ],
+    [
+     0.9375,
+     0.3533,
+     0.0348
+    ],
+    [
+     1,
+     0.355,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 8,
+   "stage": "75%-epiboly",
+   "regime": "R1",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0.75,
+   "cap": null,
+   "shellThicknessMm": 0.045,
+   "yolkRadiusMm": 0.33,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.3525,
+    "radiusMm": 0.33
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.3525
+    ],
+    [
+     0.0625,
+     0.046,
+     0.3495
+    ],
+    [
+     0.125,
+     0.0912,
+     0.3405
+    ],
+    [
+     0.1875,
+     0.1349,
+     0.3257
+    ],
+    [
+     0.25,
+     0.1763,
+     0.3053
+    ],
+    [
+     0.3125,
+     0.2146,
+     0.2797
+    ],
+    [
+     0.375,
+     0.2493,
+     0.2493
+    ],
+    [
+     0.4375,
+     0.2797,
+     0.2146
+    ],
+    [
+     0.5,
+     0.3053,
+     0.1763
+    ],
+    [
+     0.5625,
+     0.3257,
+     0.1349
+    ],
+    [
+     0.625,
+     0.3405,
+     0.0912
+    ],
+    [
+     0.6875,
+     0.3495,
+     0.046
+    ],
+    [
+     0.75,
+     0.3525,
+     0
+    ],
+    [
+     0.8125,
+     0.3495,
+     -0.046
+    ],
+    [
+     0.875,
+     0.3405,
+     -0.0912
+    ],
+    [
+     0.9375,
+     0.3257,
+     -0.1349
+    ],
+    [
+     1,
+     0.3053,
+     -0.1763
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 9,
+   "stage": "90%-epiboly",
+   "regime": "R1",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "cap",
+    "shellThicknessMm",
+    "yolkRadiusMm",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": null,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 0.9,
+   "cap": null,
+   "shellThicknessMm": 0.04,
+   "yolkRadiusMm": 0.325,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.345,
+    "radiusMm": 0.325
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.345
+    ],
+    [
+     0.0625,
+     0.0536,
+     0.3408
+    ],
+    [
+     0.125,
+     0.106,
+     0.3283
+    ],
+    [
+     0.1875,
+     0.1558,
+     0.3078
+    ],
+    [
+     0.25,
+     0.2017,
+     0.2799
+    ],
+    [
+     0.3125,
+     0.2428,
+     0.2451
+    ],
+    [
+     0.375,
+     0.278,
+     0.2044
+    ],
+    [
+     0.4375,
+     0.3064,
+     0.1587
+    ],
+    [
+     0.5,
+     0.3273,
+     0.1091
+    ],
+    [
+     0.5625,
+     0.3403,
+     0.0569
+    ],
+    [
+     0.625,
+     0.345,
+     0.0033
+    ],
+    [
+     0.6875,
+     0.3413,
+     -0.0504
+    ],
+    [
+     0.75,
+     0.3293,
+     -0.1029
+    ],
+    [
+     0.8125,
+     0.3093,
+     -0.1528
+    ],
+    [
+     0.875,
+     0.2818,
+     -0.1991
+    ],
+    [
+     0.9375,
+     0.2474,
+     -0.2405
+    ],
+    [
+     1,
+     0.207,
+     -0.276
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 2, 3 and 16.2 (estimates)",
+    "spec BG-11 to BG-13"
+   ]
+  },
+  {
+   "hpf": 10,
+   "stage": "bud",
+   "regime": "R2",
+   "bodyLengthMm": 0.7,
+   "slMm": null,
+   "somiteCount": 0,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "axisLengthMm",
+    "yolkBall",
+    "yolkExtension",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": 1.021,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": 0.035,
+   "yolkRadiusMm": 0.325,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.325,
+    "radiusMm": 0.325
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0,
+     0,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     0,
+     0.325
+    ],
+    [
+     0.0625,
+     0.0634,
+     0.3188
+    ],
+    [
+     0.125,
+     0.1244,
+     0.3003
+    ],
+    [
+     0.1875,
+     0.1806,
+     0.2702
+    ],
+    [
+     0.25,
+     0.2298,
+     0.2298
+    ],
+    [
+     0.3125,
+     0.2702,
+     0.1806
+    ],
+    [
+     0.375,
+     0.3003,
+     0.1244
+    ],
+    [
+     0.4375,
+     0.3188,
+     0.0634
+    ],
+    [
+     0.5,
+     0.325,
+     0
+    ],
+    [
+     0.5625,
+     0.3188,
+     -0.0634
+    ],
+    [
+     0.625,
+     0.3003,
+     -0.1244
+    ],
+    [
+     0.6875,
+     0.2702,
+     -0.1806
+    ],
+    [
+     0.75,
+     0.2298,
+     -0.2298
+    ],
+    [
+     0.8125,
+     0.1806,
+     -0.2702
+    ],
+    [
+     0.875,
+     0.1244,
+     -0.3003
+    ],
+    [
+     0.9375,
+     0.0634,
+     -0.3188
+    ],
+    [
+     1,
+     0,
+     -0.325
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.08,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.05,
+     "hV": 0.03,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.04,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 4, 7, 15 and 16.3 (estimates)",
+    "spec BG-14, BG-15, BG-22",
+    "D8 revised: 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 12,
+   "stage": "5-9 somites",
+   "regime": "R2",
+   "bodyLengthMm": 0.8,
+   "slMm": null,
+   "somiteCount": 6,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "axisLengthMm",
+    "yolkBall",
+    "yolkExtension",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": 1.139,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.31,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.32,
+    "radiusMm": 0.31
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     0.0095,
+     0.0156,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     -0.0567,
+     0.3123
+    ],
+    [
+     0.0625,
+     0.0144,
+     0.3119
+    ],
+    [
+     0.125,
+     0.0836,
+     0.2958
+    ],
+    [
+     0.1875,
+     0.1476,
+     0.2649
+    ],
+    [
+     0.25,
+     0.2031,
+     0.2205
+    ],
+    [
+     0.3125,
+     0.2475,
+     0.1651
+    ],
+    [
+     0.375,
+     0.2786,
+     0.1011
+    ],
+    [
+     0.4375,
+     0.2948,
+     0.0319
+    ],
+    [
+     0.5,
+     0.2953,
+     -0.0391
+    ],
+    [
+     0.5625,
+     0.2801,
+     -0.1085
+    ],
+    [
+     0.625,
+     0.25,
+     -0.1729
+    ],
+    [
+     0.6875,
+     0.2064,
+     -0.229
+    ],
+    [
+     0.75,
+     0.1515,
+     -0.2742
+    ],
+    [
+     0.8125,
+     0.088,
+     -0.306
+    ],
+    [
+     0.875,
+     0.0191,
+     -0.3231
+    ],
+    [
+     0.9375,
+     -0.052,
+     -0.3246
+    ],
+    [
+     1,
+     -0.1216,
+     -0.3103
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.11,
+     "hV": 0.04,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.08,
+     "hV": 0.04,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.07,
+     "hV": 0.04,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.07,
+     "hV": 0.04,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.07,
+     "hV": 0.04,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.07,
+     "hV": 0.04,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.06,
+     "hV": 0.03,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 4, 7, 15 and 16.3 (estimates)",
+    "spec BG-14, BG-15, BG-22",
+    "D8 revised: 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 14,
+   "stage": "10-13 somites",
+   "regime": "R2",
+   "bodyLengthMm": 0.85,
+   "slMm": null,
+   "somiteCount": 10,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "axisLengthMm",
+    "yolkBall",
+    "yolkExtension",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": 1.257,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.3,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.32,
+    "radiusMm": 0.3
+   },
+   "yolkExtension": null,
+   "chorion": {
+    "centre": [
+     -0.0491,
+     0.0018,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     -0.2029,
+     0.261
+    ],
+    [
+     0.0625,
+     -0.1277,
+     0.283
+    ],
+    [
+     0.125,
+     -0.0494,
+     0.286
+    ],
+    [
+     0.1875,
+     0.0272,
+     0.27
+    ],
+    [
+     0.25,
+     0.0977,
+     0.2358
+    ],
+    [
+     0.3125,
+     0.1578,
+     0.1855
+    ],
+    [
+     0.375,
+     0.2038,
+     0.1221
+    ],
+    [
+     0.4375,
+     0.2331,
+     0.0494
+    ],
+    [
+     0.5,
+     0.2438,
+     -0.0282
+    ],
+    [
+     0.5625,
+     0.2353,
+     -0.1061
+    ],
+    [
+     0.625,
+     0.2082,
+     -0.1796
+    ],
+    [
+     0.6875,
+     0.164,
+     -0.2443
+    ],
+    [
+     0.75,
+     0.1055,
+     -0.2963
+    ],
+    [
+     0.8125,
+     0.036,
+     -0.3326
+    ],
+    [
+     0.875,
+     -0.0402,
+     -0.3508
+    ],
+    [
+     0.9375,
+     -0.1185,
+     -0.35
+    ],
+    [
+     1,
+     -0.1943,
+     -0.3303
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.14,
+     "hV": 0.06,
+     "hW": 0.14,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.1,
+     "hV": 0.05,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.08,
+     "hV": 0.05,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.08,
+     "hV": 0.05,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.08,
+     "hV": 0.05,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.08,
+     "hV": 0.05,
+     "hW": 0.11,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.07,
+     "hV": 0.04,
+     "hW": 0.09,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 4, 7, 15 and 16.3 (estimates)",
+    "spec BG-14, BG-15, BG-22",
+    "D8 revised: 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 16,
+   "stage": "14-19 somites",
+   "regime": "R2",
+   "bodyLengthMm": 0.9,
+   "slMm": null,
+   "somiteCount": 14,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "axisLengthMm",
+    "yolkBall",
+    "yolkExtension",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": 1.382,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.3,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.33,
+    "radiusMm": 0.3
+   },
+   "yolkExtension": {
+    "u0": 0.617,
+    "u1": 0.799,
+    "r0Mm": 0.11,
+    "r1Mm": 0.08
+   },
+   "chorion": {
+    "centre": [
+     -0.1221,
+     -0.0766,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     -0.3679,
+     0.1104
+    ],
+    [
+     0.0625,
+     -0.3023,
+     0.1664
+    ],
+    [
+     0.125,
+     -0.2246,
+     0.2034
+    ],
+    [
+     0.1875,
+     -0.1399,
+     0.2191
+    ],
+    [
+     0.25,
+     -0.054,
+     0.2124
+    ],
+    [
+     0.3125,
+     0.0272,
+     0.1836
+    ],
+    [
+     0.375,
+     0.0982,
+     0.1348
+    ],
+    [
+     0.4375,
+     0.1541,
+     0.0693
+    ],
+    [
+     0.5,
+     0.1912,
+     -0.0084
+    ],
+    [
+     0.5625,
+     0.2069,
+     -0.0931
+    ],
+    [
+     0.625,
+     0.2002,
+     -0.179
+    ],
+    [
+     0.6875,
+     0.1714,
+     -0.2602
+    ],
+    [
+     0.75,
+     0.1226,
+     -0.3312
+    ],
+    [
+     0.8125,
+     0.0571,
+     -0.3872
+    ],
+    [
+     0.875,
+     -0.0206,
+     -0.4243
+    ],
+    [
+     0.9375,
+     -0.1053,
+     -0.44
+    ],
+    [
+     1,
+     -0.1912,
+     -0.4332
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.16,
+     "hV": 0.08,
+     "hW": 0.16,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.12,
+     "hV": 0.07,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1,
+     "hV": 0.06,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.1,
+     "hV": 0.06,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1,
+     "hV": 0.1795,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.1,
+     "hV": 0.1622,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.09,
+     "hV": 0.05,
+     "hW": 0.09,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 4, 7, 15 and 16.3 (estimates)",
+    "spec BG-14, BG-15, BG-22",
+    "D8 revised: 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 18,
+   "stage": "14-19 somites",
+   "regime": "R2",
+   "bodyLengthMm": 1.2,
+   "slMm": null,
+   "somiteCount": 18,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "axisLengthMm",
+    "yolkBall",
+    "yolkExtension",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": 1.66,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.295,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.335,
+    "radiusMm": 0.295
+   },
+   "yolkExtension": {
+    "u0": 0.578,
+    "u1": 0.759,
+    "r0Mm": 0.11,
+    "r1Mm": 0.078
+   },
+   "chorion": {
+    "centre": [
+     -0.1532,
+     -0.212,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     -0.4552,
+     -0.1818
+    ],
+    [
+     0.0625,
+     -0.4289,
+     -0.0819
+    ],
+    [
+     0.125,
+     -0.3734,
+     0.0053
+    ],
+    [
+     0.1875,
+     -0.294,
+     0.0714
+    ],
+    [
+     0.25,
+     -0.1982,
+     0.1101
+    ],
+    [
+     0.3125,
+     -0.0951,
+     0.1178
+    ],
+    [
+     0.375,
+     0.0054,
+     0.0937
+    ],
+    [
+     0.4375,
+     0.0938,
+     0.0402
+    ],
+    [
+     0.5,
+     0.1616,
+     -0.0378
+    ],
+    [
+     0.5625,
+     0.2025,
+     -0.1327
+    ],
+    [
+     0.625,
+     0.2125,
+     -0.2355
+    ],
+    [
+     0.6875,
+     0.1906,
+     -0.3365
+    ],
+    [
+     0.75,
+     0.1406,
+     -0.4271
+    ],
+    [
+     0.8125,
+     0.0693,
+     -0.502
+    ],
+    [
+     0.875,
+     -0.0186,
+     -0.5566
+    ],
+    [
+     0.9375,
+     -0.1175,
+     -0.5873
+    ],
+    [
+     1,
+     -0.2208,
+     -0.5921
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.17,
+     "hV": 0.09,
+     "hW": 0.17,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.14,
+     "hV": 0.08,
+     "hW": 0.13,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.11,
+     "hV": 0.07,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.11,
+     "hV": 0.07,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.11,
+     "hV": 0.1896,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.11,
+     "hV": 0.164,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.1,
+     "hV": 0.06,
+     "hW": 0.09,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 4, 7, 15 and 16.3 (estimates)",
+    "spec BG-14, BG-15, BG-22",
+    "D8 revised: 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 19,
+   "stage": "20-25 somites",
+   "regime": "R3",
+   "bodyLengthMm": 1.4,
+   "slMm": null,
+   "somiteCount": 20,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "axisLengthMm",
+    "yolkBall",
+    "yolkExtension",
+    "profile",
+    "chorion"
+   ],
+   "axisLengthMm": 1.8,
+   "headTrunkAngleDeg": null,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.29,
+   "yolkBall": {
+    "u": 0.4,
+    "depthMm": 0.33,
+    "radiusMm": 0.29
+   },
+   "yolkExtension": {
+    "u0": 0.561,
+    "u1": 0.754,
+    "r0Mm": 0.11,
+    "r1Mm": 0.077
+   },
+   "chorion": {
+    "centre": [
+     -0.1167,
+     -0.3118,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     -0.4111,
+     -0.3505
+    ],
+    [
+     0.0625,
+     -0.4223,
+     -0.2391
+    ],
+    [
+     0.125,
+     -0.3955,
+     -0.1304
+    ],
+    [
+     0.1875,
+     -0.334,
+     -0.0368
+    ],
+    [
+     0.25,
+     -0.2447,
+     0.0307
+    ],
+    [
+     0.3125,
+     -0.138,
+     0.0645
+    ],
+    [
+     0.375,
+     -0.0261,
+     0.0607
+    ],
+    [
+     0.4375,
+     0.0781,
+     0.0197
+    ],
+    [
+     0.5,
+     0.1626,
+     -0.0538
+    ],
+    [
+     0.5625,
+     0.221,
+     -0.1495
+    ],
+    [
+     0.625,
+     0.2515,
+     -0.2574
+    ],
+    [
+     0.6875,
+     0.2518,
+     -0.3696
+    ],
+    [
+     0.75,
+     0.2219,
+     -0.4777
+    ],
+    [
+     0.8125,
+     0.164,
+     -0.5737
+    ],
+    [
+     0.875,
+     0.0823,
+     -0.6506
+    ],
+    [
+     0.9375,
+     -0.017,
+     -0.7026
+    ],
+    [
+     1,
+     -0.1267,
+     -0.726
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.03,
+     "hV": 0.03,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.18,
+     "hV": 0.1,
+     "hW": 0.18,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.14,
+     "hV": 0.08,
+     "hW": 0.13,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.12,
+     "hV": 0.07,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.12,
+     "hV": 0.1893,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.12,
+     "hV": 0.1876,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.12,
+     "hV": 0.162,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.1,
+     "hV": 0.06,
+     "hW": 0.09,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.05,
+     "hV": 0.05,
+     "hW": 0.05,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 4, 7, 15 and 16.3 (estimates)",
+    "spec BG-14, BG-15, BG-22",
+    "D8 revised: 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 22,
+   "stage": "26+ somites",
+   "regime": "R3",
+   "bodyLengthMm": 1.6,
+   "slMm": null,
+   "somiteCount": 26,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (curl angle)"
+   ],
+   "axisLengthMm": 1.95,
+   "headTrunkAngleDeg": 125,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.77,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.28,
+   "yolkBall": {
+    "u": 0.368,
+    "depthMm": 0.3819,
+    "radiusMm": 0.28
+   },
+   "yolkExtension": {
+    "u0": 0.512,
+    "u1": 0.77,
+    "r0Mm": 0.11,
+    "r1Mm": 0.073
+   },
+   "chorion": {
+    "centre": [
+     -0.0453,
+     -0.3457,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     -0.3573,
+     -0.5601
+    ],
+    [
+     0.0625,
+     -0.3775,
+     -0.4399
+    ],
+    [
+     0.125,
+     -0.3766,
+     -0.3186
+    ],
+    [
+     0.1875,
+     -0.3377,
+     -0.2036
+    ],
+    [
+     0.25,
+     -0.2647,
+     -0.1066
+    ],
+    [
+     0.3125,
+     -0.165,
+     -0.0375
+    ],
+    [
+     0.375,
+     -0.0486,
+     -0.0031
+    ],
+    [
+     0.4375,
+     0.0727,
+     -0.007
+    ],
+    [
+     0.5,
+     0.1866,
+     -0.0487
+    ],
+    [
+     0.5625,
+     0.2817,
+     -0.1241
+    ],
+    [
+     0.625,
+     0.3484,
+     -0.2255
+    ],
+    [
+     0.6875,
+     0.3799,
+     -0.3427
+    ],
+    [
+     0.75,
+     0.373,
+     -0.4639
+    ],
+    [
+     0.8125,
+     0.3285,
+     -0.5768
+    ],
+    [
+     0.875,
+     0.2507,
+     -0.67
+    ],
+    [
+     0.9375,
+     0.1477,
+     -0.7341
+    ],
+    [
+     1,
+     0.0298,
+     -0.7626
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.0723,
+     "hV": 0.0428,
+     "hW": 0.0571,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.1721,
+     "hV": 0.153,
+     "hW": 0.1729,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.1912,
+     "hV": 0.1434,
+     "hW": 0.1633,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1213,
+     "hV": 0.0886,
+     "hW": 0.0829,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.1052,
+     "hV": 0.1955,
+     "hW": 0.0673,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.0908,
+     "hV": 0.1859,
+     "hW": 0.0528,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.0765,
+     "hV": 0.1554,
+     "hW": 0.0384,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.0574,
+     "hV": 0.0478,
+     "hW": 0.0288,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0191,
+     "hV": 0.0191,
+     "hW": 0.0096,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 24,
+   "stage": "prim-5",
+   "regime": "R3",
+   "bodyLengthMm": 1.9,
+   "slMm": null,
+   "somiteCount": 30,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (curl angle)"
+   ],
+   "axisLengthMm": 2.05,
+   "headTrunkAngleDeg": 120,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.76,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.275,
+   "yolkBall": {
+    "u": 0.358,
+    "depthMm": 0.3943,
+    "radiusMm": 0.275
+   },
+   "yolkExtension": {
+    "u0": 0.492,
+    "u1": 0.76,
+    "r0Mm": 0.1,
+    "r1Mm": 0.071
+   },
+   "chorion": {
+    "centre": [
+     -0.0484,
+     -0.3604,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     -0.3625,
+     -0.592
+    ],
+    [
+     0.0625,
+     -0.3877,
+     -0.4664
+    ],
+    [
+     0.125,
+     -0.3904,
+     -0.3389
+    ],
+    [
+     0.1875,
+     -0.3523,
+     -0.2171
+    ],
+    [
+     0.25,
+     -0.2773,
+     -0.1139
+    ],
+    [
+     0.3125,
+     -0.1733,
+     -0.0401
+    ],
+    [
+     0.375,
+     -0.0511,
+     -0.0033
+    ],
+    [
+     0.4375,
+     0.0764,
+     -0.0075
+    ],
+    [
+     0.5,
+     0.1959,
+     -0.0521
+    ],
+    [
+     0.5625,
+     0.2949,
+     -0.1325
+    ],
+    [
+     0.625,
+     0.363,
+     -0.2404
+    ],
+    [
+     0.6875,
+     0.3932,
+     -0.3643
+    ],
+    [
+     0.75,
+     0.3822,
+     -0.4914
+    ],
+    [
+     0.8125,
+     0.3312,
+     -0.6083
+    ],
+    [
+     0.875,
+     0.2455,
+     -0.7029
+    ],
+    [
+     0.9375,
+     0.1342,
+     -0.7651
+    ],
+    [
+     1,
+     0.0088,
+     -0.7885
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.0756,
+     "hV": 0.0448,
+     "hW": 0.0594,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.18,
+     "hV": 0.16,
+     "hW": 0.18,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.2,
+     "hV": 0.15,
+     "hW": 0.17,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1269,
+     "hV": 0.0926,
+     "hW": 0.0863,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.11,
+     "hV": 0.1899,
+     "hW": 0.07,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.095,
+     "hV": 0.1794,
+     "hW": 0.055,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.08,
+     "hV": 0.1538,
+     "hW": 0.04,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.06,
+     "hV": 0.05,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.02,
+     "hV": 0.02,
+     "hW": 0.01,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 30,
+   "stage": "prim-15",
+   "regime": "R3",
+   "bodyLengthMm": 2.5,
+   "slMm": null,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (curl angle)"
+   ],
+   "axisLengthMm": 2.45,
+   "headTrunkAngleDeg": 95,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.64,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.26,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.3518,
+    "radiusMm": 0.26
+   },
+   "yolkExtension": {
+    "u0": 0.406,
+    "u1": 0.64,
+    "r0Mm": 0.09,
+    "r1Mm": 0.064
+   },
+   "chorion": {
+    "centre": [
+     -0.0794,
+     -0.3811,
+     0
+    ],
+    "radiusMm": 0.6
+   },
+   "spine": [
+    [
+     0,
+     -0.3827,
+     -0.7366
+    ],
+    [
+     0.0625,
+     -0.4211,
+     -0.5884
+    ],
+    [
+     0.125,
+     -0.4336,
+     -0.4364
+    ],
+    [
+     0.1875,
+     -0.3984,
+     -0.288
+    ],
+    [
+     0.25,
+     -0.3191,
+     -0.1578
+    ],
+    [
+     0.3125,
+     -0.2033,
+     -0.0585
+    ],
+    [
+     0.375,
+     -0.061,
+     -0.0049
+    ],
+    [
+     0.4375,
+     0.091,
+     -0.011
+    ],
+    [
+     0.5,
+     0.2285,
+     -0.0759
+    ],
+    [
+     0.5625,
+     0.3298,
+     -0.1894
+    ],
+    [
+     0.625,
+     0.3787,
+     -0.3334
+    ],
+    [
+     0.6875,
+     0.3676,
+     -0.4851
+    ],
+    [
+     0.75,
+     0.2981,
+     -0.6204
+    ],
+    [
+     0.8125,
+     0.1813,
+     -0.7179
+    ],
+    [
+     0.875,
+     0.0357,
+     -0.762
+    ],
+    [
+     0.9375,
+     -0.1155,
+     -0.7457
+    ],
+    [
+     1,
+     -0.2484,
+     -0.6718
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.0843,
+     "hV": 0.0505,
+     "hW": 0.0661,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.2008,
+     "hV": 0.1803,
+     "hW": 0.2004,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.2213,
+     "hV": 0.166,
+     "hW": 0.186,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1377,
+     "hV": 0.1934,
+     "hW": 0.0917,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.1209,
+     "hV": 0.1907,
+     "hW": 0.0756,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1058,
+     "hV": 0.1697,
+     "hW": 0.0603,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.0861,
+     "hV": 0.0696,
+     "hW": 0.045,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.0656,
+     "hV": 0.0553,
+     "hW": 0.0307,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0205,
+     "hV": 0.0205,
+     "hW": 0.0102,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 36,
+   "stage": "prim-25",
+   "regime": "R3",
+   "bodyLengthMm": 2.7,
+   "slMm": null,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 2.65,
+   "headTrunkAngleDeg": 75,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.635,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.24,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.3324,
+    "radiusMm": 0.24
+   },
+   "yolkExtension": {
+    "u0": 0.391,
+    "u1": 0.635,
+    "r0Mm": 0.08,
+    "r1Mm": 0.057
+   },
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -0.8915,
+     -0.4356
+    ],
+    [
+     0.0625,
+     -0.7965,
+     -0.3
+    ],
+    [
+     0.125,
+     -0.6855,
+     -0.1776
+    ],
+    [
+     0.1875,
+     -0.5494,
+     -0.0838
+    ],
+    [
+     0.25,
+     -0.3955,
+     -0.0236
+    ],
+    [
+     0.3125,
+     -0.2319,
+     -0.0003
+    ],
+    [
+     0.375,
+     -0.0663,
+     0
+    ],
+    [
+     0.4375,
+     0.0994,
+     0
+    ],
+    [
+     0.5,
+     0.265,
+     0
+    ],
+    [
+     0.5625,
+     0.4306,
+     0
+    ],
+    [
+     0.625,
+     0.5963,
+     0
+    ],
+    [
+     0.6875,
+     0.7619,
+     0
+    ],
+    [
+     0.75,
+     0.9275,
+     0
+    ],
+    [
+     0.8125,
+     1.0931,
+     0
+    ],
+    [
+     0.875,
+     1.2588,
+     0
+    ],
+    [
+     0.9375,
+     1.4244,
+     0
+    ],
+    [
+     1,
+     1.59,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.0882,
+     "hV": 0.0743,
+     "hW": 0.0691,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.2099,
+     "hV": 0.2653,
+     "hW": 0.2095,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.2303,
+     "hV": 0.3424,
+     "hW": 0.1928,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1418,
+     "hV": 0.3424,
+     "hW": 0.0935,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.1254,
+     "hV": 0.1841,
+     "hW": 0.0778,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1105,
+     "hV": 0.1657,
+     "hW": 0.0626,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.0882,
+     "hV": 0.0743,
+     "hW": 0.0473,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.0678,
+     "hV": 0.0576,
+     "hW": 0.0305,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0204,
+     "hV": 0.0204,
+     "hW": 0.0102,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 42,
+   "stage": "high-pec",
+   "regime": "R3",
+   "bodyLengthMm": 2.9,
+   "slMm": null,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 2.8,
+   "headTrunkAngleDeg": 55,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.629,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.23,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.3254,
+    "radiusMm": 0.23
+   },
+   "yolkExtension": {
+    "u0": 0.382,
+    "u1": 0.629,
+    "r0Mm": 0.07,
+    "r1Mm": 0.05
+   },
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -1.0453,
+     -0.3114
+    ],
+    [
+     0.0625,
+     -0.902,
+     -0.211
+    ],
+    [
+     0.125,
+     -0.7512,
+     -0.1225
+    ],
+    [
+     0.1875,
+     -0.5891,
+     -0.057
+    ],
+    [
+     0.25,
+     -0.4191,
+     -0.0159
+    ],
+    [
+     0.3125,
+     -0.245,
+     -0.0002
+    ],
+    [
+     0.375,
+     -0.07,
+     0
+    ],
+    [
+     0.4375,
+     0.105,
+     0
+    ],
+    [
+     0.5,
+     0.28,
+     0
+    ],
+    [
+     0.5625,
+     0.455,
+     0
+    ],
+    [
+     0.625,
+     0.63,
+     0
+    ],
+    [
+     0.6875,
+     0.805,
+     0
+    ],
+    [
+     0.75,
+     0.98,
+     0
+    ],
+    [
+     0.8125,
+     1.155,
+     0
+    ],
+    [
+     0.875,
+     1.33,
+     0
+    ],
+    [
+     0.9375,
+     1.505,
+     0
+    ],
+    [
+     1,
+     1.68,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.0908,
+     "hV": 0.0769,
+     "hW": 0.0713,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.2161,
+     "hV": 0.2743,
+     "hW": 0.2159,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.2363,
+     "hV": 0.3354,
+     "hW": 0.1973,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1443,
+     "hV": 0.3354,
+     "hW": 0.0945,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.1283,
+     "hV": 0.177,
+     "hW": 0.0792,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1136,
+     "hV": 0.1608,
+     "hW": 0.0641,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.0894,
+     "hV": 0.0777,
+     "hW": 0.0489,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.0692,
+     "hV": 0.0591,
+     "hW": 0.0303,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0202,
+     "hV": 0.0202,
+     "hW": 0.0101,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 48,
+   "stage": "long-pec",
+   "regime": "R3",
+   "bodyLengthMm": 3.1,
+   "slMm": null,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 2.9,
+   "headTrunkAngleDeg": 45,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.6,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.22,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.3173,
+    "radiusMm": 0.22
+   },
+   "yolkExtension": {
+    "u0": 0.376,
+    "u1": 0.6,
+    "r0Mm": 0.07,
+    "r1Mm": 0.02
+   },
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -1.1201,
+     -0.2351
+    ],
+    [
+     0.0625,
+     -0.9558,
+     -0.1585
+    ],
+    [
+     0.125,
+     -0.7875,
+     -0.0914
+    ],
+    [
+     0.1875,
+     -0.6131,
+     -0.0423
+    ],
+    [
+     0.25,
+     -0.4345,
+     -0.0118
+    ],
+    [
+     0.3125,
+     -0.2537,
+     -0.0001
+    ],
+    [
+     0.375,
+     -0.0725,
+     0
+    ],
+    [
+     0.4375,
+     0.1087,
+     0
+    ],
+    [
+     0.5,
+     0.29,
+     0
+    ],
+    [
+     0.5625,
+     0.4712,
+     0
+    ],
+    [
+     0.625,
+     0.6525,
+     0
+    ],
+    [
+     0.6875,
+     0.8337,
+     0
+    ],
+    [
+     0.75,
+     1.015,
+     0
+    ],
+    [
+     0.8125,
+     1.1963,
+     0
+    ],
+    [
+     0.875,
+     1.3775,
+     0
+    ],
+    [
+     0.9375,
+     1.5588,
+     0
+    ],
+    [
+     1,
+     1.74,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.0924,
+     "hV": 0.0784,
+     "hW": 0.0726,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.22,
+     "hV": 0.28,
+     "hW": 0.22,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.24,
+     "hV": 0.3273,
+     "hW": 0.2,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1456,
+     "hV": 0.3273,
+     "hW": 0.095,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.13,
+     "hV": 0.1715,
+     "hW": 0.08,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1156,
+     "hV": 0.134,
+     "hW": 0.065,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.09,
+     "hV": 0.08,
+     "hW": 0.05,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.07,
+     "hV": 0.06,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.02,
+     "hV": 0.02,
+     "hW": 0.01,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 60,
+   "stage": "pec-fin",
+   "regime": "R3",
+   "bodyLengthMm": 3.3,
+   "slMm": null,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 3.1,
+   "headTrunkAngleDeg": 35,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.6,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.2,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.3095,
+    "radiusMm": 0.2
+   },
+   "yolkExtension": {
+    "u0": 0.365,
+    "u1": 0.532,
+    "r0Mm": 0.05,
+    "r1Mm": 0.015
+   },
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -1.2245,
+     -0.1528
+    ],
+    [
+     0.0625,
+     -1.0374,
+     -0.1027
+    ],
+    [
+     0.125,
+     -0.8486,
+     -0.059
+    ],
+    [
+     0.1875,
+     -0.6575,
+     -0.0272
+    ],
+    [
+     0.25,
+     -0.4648,
+     -0.0076
+    ],
+    [
+     0.3125,
+     -0.2712,
+     -0.0001
+    ],
+    [
+     0.375,
+     -0.0775,
+     0
+    ],
+    [
+     0.4375,
+     0.1162,
+     0
+    ],
+    [
+     0.5,
+     0.31,
+     0
+    ],
+    [
+     0.5625,
+     0.5037,
+     0
+    ],
+    [
+     0.625,
+     0.6975,
+     0
+    ],
+    [
+     0.6875,
+     0.8913,
+     0
+    ],
+    [
+     0.75,
+     1.085,
+     0
+    ],
+    [
+     0.8125,
+     1.2788,
+     0
+    ],
+    [
+     0.875,
+     1.4725,
+     0
+    ],
+    [
+     0.9375,
+     1.6663,
+     0
+    ],
+    [
+     1,
+     1.86,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.0973,
+     "hV": 0.0829,
+     "hW": 0.0764,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.2316,
+     "hV": 0.2961,
+     "hW": 0.2315,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.2516,
+     "hV": 0.3195,
+     "hW": 0.206,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1512,
+     "hV": 0.3195,
+     "hW": 0.1007,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.1358,
+     "hV": 0.1587,
+     "hW": 0.0857,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1214,
+     "hV": 0.0955,
+     "hW": 0.0648,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.0957,
+     "hV": 0.0802,
+     "hW": 0.0501,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.0702,
+     "hV": 0.0602,
+     "hW": 0.0301,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0201,
+     "hV": 0.0201,
+     "hW": 0.01,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 72,
+   "stage": "protruding-mouth",
+   "regime": "R4",
+   "bodyLengthMm": 3.5,
+   "slMm": 3.25,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 3.25,
+   "headTrunkAngleDeg": 25,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.61,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.175,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.2517,
+    "radiusMm": 0.175
+   },
+   "yolkExtension": {
+    "u0": 0.354,
+    "u1": 0.477,
+    "r0Mm": 0.04,
+    "r1Mm": 0.01
+   },
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -1.2982,
+     -0.0538
+    ],
+    [
+     0.0625,
+     -1.0958,
+     -0.0361
+    ],
+    [
+     0.125,
+     -0.8933,
+     -0.0207
+    ],
+    [
+     0.1875,
+     -0.6905,
+     -0.0095
+    ],
+    [
+     0.25,
+     -0.4875,
+     -0.0026
+    ],
+    [
+     0.3125,
+     -0.2844,
+     0
+    ],
+    [
+     0.375,
+     -0.0812,
+     0
+    ],
+    [
+     0.4375,
+     0.1219,
+     0
+    ],
+    [
+     0.5,
+     0.325,
+     0
+    ],
+    [
+     0.5625,
+     0.5281,
+     0
+    ],
+    [
+     0.625,
+     0.7312,
+     0
+    ],
+    [
+     0.6875,
+     0.9344,
+     0
+    ],
+    [
+     0.75,
+     1.1375,
+     0
+    ],
+    [
+     0.8125,
+     1.3406,
+     0
+    ],
+    [
+     0.875,
+     1.5438,
+     0
+    ],
+    [
+     0.9375,
+     1.7469,
+     0
+    ],
+    [
+     1,
+     1.95,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.1008,
+     "hV": 0.0616,
+     "hW": 0.0792,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.24,
+     "hV": 0.22,
+     "hW": 0.24,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.26,
+     "hV": 0.3084,
+     "hW": 0.21,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.155,
+     "hV": 0.3084,
+     "hW": 0.105,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.14,
+     "hV": 0.1509,
+     "hW": 0.09,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1256,
+     "hV": 0.095,
+     "hW": 0.0644,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.1,
+     "hV": 0.08,
+     "hW": 0.05,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.07,
+     "hV": 0.06,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.02,
+     "hV": 0.02,
+     "hW": 0.01,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 96,
+   "stage": "day 4",
+   "regime": "R4",
+   "bodyLengthMm": 3.7,
+   "slMm": 3.4,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 3.4,
+   "headTrunkAngleDeg": 22,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.61,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.1,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.181,
+    "radiusMm": 0.1
+   },
+   "yolkExtension": {
+    "u0": 0.329,
+    "u1": 0.398,
+    "r0Mm": 0.025,
+    "r1Mm": 0.01
+   },
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -1.3597,
+     -0.0225
+    ],
+    [
+     0.0625,
+     -1.1473,
+     -0.0151
+    ],
+    [
+     0.125,
+     -0.9349,
+     -0.0087
+    ],
+    [
+     0.1875,
+     -0.7225,
+     -0.004
+    ],
+    [
+     0.25,
+     -0.51,
+     -0.0011
+    ],
+    [
+     0.3125,
+     -0.2975,
+     0
+    ],
+    [
+     0.375,
+     -0.085,
+     0
+    ],
+    [
+     0.4375,
+     0.1275,
+     0
+    ],
+    [
+     0.5,
+     0.34,
+     0
+    ],
+    [
+     0.5625,
+     0.5525,
+     0
+    ],
+    [
+     0.625,
+     0.765,
+     0
+    ],
+    [
+     0.6875,
+     0.9775,
+     0
+    ],
+    [
+     0.75,
+     1.19,
+     0
+    ],
+    [
+     0.8125,
+     1.4025,
+     0
+    ],
+    [
+     0.875,
+     1.615,
+     0
+    ],
+    [
+     0.9375,
+     1.8275,
+     0
+    ],
+    [
+     1,
+     2.04,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.1044,
+     "hV": 0.064,
+     "hW": 0.082,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.2487,
+     "hV": 0.2286,
+     "hW": 0.2486,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.2687,
+     "hV": 0.291,
+     "hW": 0.2145,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.1635,
+     "hV": 0.291,
+     "hW": 0.1122,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.1484,
+     "hV": 0.1184,
+     "hW": 0.0943,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.132,
+     "hV": 0.0993,
+     "hW": 0.0688,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.1043,
+     "hV": 0.0802,
+     "hW": 0.0501,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.0742,
+     "hV": 0.0601,
+     "hW": 0.0301,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.02,
+     "hV": 0.02,
+     "hW": 0.01,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 120,
+   "stage": "day 5",
+   "regime": "R4",
+   "bodyLengthMm": 3.9,
+   "slMm": 3.6,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 3.6,
+   "headTrunkAngleDeg": 20,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.62,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0.06,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.115,
+    "radiusMm": 0.06
+   },
+   "yolkExtension": {
+    "u0": 0.317,
+    "u1": 0.337,
+    "r0Mm": 0,
+    "r1Mm": 0
+   },
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -1.44,
+     0
+    ],
+    [
+     0.0625,
+     -1.215,
+     0
+    ],
+    [
+     0.125,
+     -0.99,
+     0
+    ],
+    [
+     0.1875,
+     -0.765,
+     0
+    ],
+    [
+     0.25,
+     -0.54,
+     0
+    ],
+    [
+     0.3125,
+     -0.315,
+     0
+    ],
+    [
+     0.375,
+     -0.09,
+     0
+    ],
+    [
+     0.4375,
+     0.135,
+     0
+    ],
+    [
+     0.5,
+     0.36,
+     0
+    ],
+    [
+     0.5625,
+     0.585,
+     0
+    ],
+    [
+     0.625,
+     0.81,
+     0
+    ],
+    [
+     0.6875,
+     1.035,
+     0
+    ],
+    [
+     0.75,
+     1.26,
+     0
+    ],
+    [
+     0.8125,
+     1.485,
+     0
+    ],
+    [
+     0.875,
+     1.71,
+     0
+    ],
+    [
+     0.9375,
+     1.935,
+     0
+    ],
+    [
+     1,
+     2.16,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.1092,
+     "hV": 0.0672,
+     "hW": 0.0858,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.26,
+     "hV": 0.24,
+     "hW": 0.26,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.28,
+     "hV": 0.22,
+     "hW": 0.22,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.175,
+     "hV": 0.185,
+     "hW": 0.1225,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.16,
+     "hV": 0.13,
+     "hW": 0.1,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1406,
+     "hV": 0.105,
+     "hW": 0.075,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.11,
+     "hV": 0.08,
+     "hW": 0.05,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.08,
+     "hV": 0.06,
+     "hW": 0.03,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.02,
+     "hV": 0.02,
+     "hW": 0.01,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 168,
+   "stage": "day 7",
+   "regime": "R4",
+   "bodyLengthMm": 4.5,
+   "slMm": 4.1,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 4.1,
+   "headTrunkAngleDeg": 20,
+   "notochordFlexionDeg": 0,
+   "ventU": 0.62,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": 0,
+   "yolkBall": {
+    "u": 0.3,
+    "depthMm": 0.1051,
+    "radiusMm": 0
+   },
+   "yolkExtension": null,
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -1.64,
+     0
+    ],
+    [
+     0.0625,
+     -1.3838,
+     0
+    ],
+    [
+     0.125,
+     -1.1275,
+     0
+    ],
+    [
+     0.1875,
+     -0.8713,
+     0
+    ],
+    [
+     0.25,
+     -0.615,
+     0
+    ],
+    [
+     0.3125,
+     -0.3588,
+     0
+    ],
+    [
+     0.375,
+     -0.1025,
+     0
+    ],
+    [
+     0.4375,
+     0.1538,
+     0
+    ],
+    [
+     0.5,
+     0.41,
+     0
+    ],
+    [
+     0.5625,
+     0.6662,
+     0
+    ],
+    [
+     0.625,
+     0.9225,
+     0
+    ],
+    [
+     0.6875,
+     1.1787,
+     0
+    ],
+    [
+     0.75,
+     1.435,
+     0
+    ],
+    [
+     0.8125,
+     1.6912,
+     0
+    ],
+    [
+     0.875,
+     1.9475,
+     0
+    ],
+    [
+     0.9375,
+     2.2037,
+     0
+    ],
+    [
+     1,
+     2.46,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.1242,
+     "hV": 0.0759,
+     "hW": 0.0951,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.2957,
+     "hV": 0.2709,
+     "hW": 0.2883,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.3205,
+     "hV": 0.2554,
+     "hW": 0.2497,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.2116,
+     "hV": 0.1892,
+     "hW": 0.1474,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.1903,
+     "hV": 0.1578,
+     "hW": 0.12,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.1642,
+     "hV": 0.12,
+     "hW": 0.0893,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.1264,
+     "hV": 0.0912,
+     "hW": 0.0586,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.0925,
+     "hV": 0.0691,
+     "hW": 0.0352,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0248,
+     "hV": 0.0248,
+     "hW": 0.0117,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 336,
+   "stage": "day 14",
+   "regime": "R4",
+   "bodyLengthMm": 6.2,
+   "slMm": 5.3,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 5.3,
+   "headTrunkAngleDeg": 20,
+   "notochordFlexionDeg": 18,
+   "ventU": 0.61,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": null,
+   "yolkBall": null,
+   "yolkExtension": null,
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -2.12,
+     0
+    ],
+    [
+     0.0625,
+     -1.7888,
+     0
+    ],
+    [
+     0.125,
+     -1.4575,
+     0
+    ],
+    [
+     0.1875,
+     -1.1263,
+     0
+    ],
+    [
+     0.25,
+     -0.795,
+     0
+    ],
+    [
+     0.3125,
+     -0.4637,
+     0
+    ],
+    [
+     0.375,
+     -0.1325,
+     0
+    ],
+    [
+     0.4375,
+     0.1987,
+     0
+    ],
+    [
+     0.5,
+     0.53,
+     0
+    ],
+    [
+     0.5625,
+     0.8612,
+     0
+    ],
+    [
+     0.625,
+     1.1925,
+     0
+    ],
+    [
+     0.6875,
+     1.5237,
+     0
+    ],
+    [
+     0.75,
+     1.855,
+     0
+    ],
+    [
+     0.8125,
+     2.1862,
+     0
+    ],
+    [
+     0.875,
+     2.5175,
+     0
+    ],
+    [
+     0.9375,
+     2.8487,
+     0
+    ],
+    [
+     1,
+     3.18,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.1608,
+     "hV": 0.0965,
+     "hW": 0.1166,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.383,
+     "hV": 0.3448,
+     "hW": 0.3533,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.4212,
+     "hV": 0.3463,
+     "hW": 0.3229,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.3115,
+     "hV": 0.2919,
+     "hW": 0.2169,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.2715,
+     "hV": 0.2341,
+     "hW": 0.1741,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.2254,
+     "hV": 0.1572,
+     "hW": 0.1277,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.1675,
+     "hV": 0.1187,
+     "hW": 0.0813,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.1244,
+     "hV": 0.0919,
+     "hW": 0.0488,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0382,
+     "hV": 0.0382,
+     "hW": 0.0163,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 504,
+   "stage": "day 21",
+   "regime": "R4",
+   "bodyLengthMm": 7.8,
+   "slMm": 6.5,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 6.5,
+   "headTrunkAngleDeg": 20,
+   "notochordFlexionDeg": 45,
+   "ventU": 0.6,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": null,
+   "yolkBall": null,
+   "yolkExtension": null,
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -2.6,
+     0
+    ],
+    [
+     0.0625,
+     -2.1937,
+     0
+    ],
+    [
+     0.125,
+     -1.7875,
+     0
+    ],
+    [
+     0.1875,
+     -1.3812,
+     0
+    ],
+    [
+     0.25,
+     -0.975,
+     0
+    ],
+    [
+     0.3125,
+     -0.5687,
+     0
+    ],
+    [
+     0.375,
+     -0.1625,
+     0
+    ],
+    [
+     0.4375,
+     0.2437,
+     0
+    ],
+    [
+     0.5,
+     0.65,
+     0
+    ],
+    [
+     0.5625,
+     1.0562,
+     0
+    ],
+    [
+     0.625,
+     1.4625,
+     0
+    ],
+    [
+     0.6875,
+     1.8687,
+     0
+    ],
+    [
+     0.75,
+     2.275,
+     0
+    ],
+    [
+     0.8125,
+     2.6812,
+     0
+    ],
+    [
+     0.875,
+     3.0875,
+     0
+    ],
+    [
+     0.9375,
+     3.4937,
+     0
+    ],
+    [
+     1,
+     3.9,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.2065,
+     "hV": 0.123,
+     "hW": 0.1383,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.4917,
+     "hV": 0.4392,
+     "hW": 0.419,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.5497,
+     "hV": 0.4647,
+     "hW": 0.3998,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.4462,
+     "hV": 0.429,
+     "hW": 0.2977,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.3922,
+     "hV": 0.3441,
+     "hW": 0.2373,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.3172,
+     "hV": 0.2157,
+     "hW": 0.1726,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.2275,
+     "hV": 0.1615,
+     "hW": 0.108,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.1714,
+     "hV": 0.1285,
+     "hW": 0.0652,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0561,
+     "hV": 0.0561,
+     "hW": 0.0219,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 720,
+   "stage": "day 30",
+   "regime": "R4",
+   "bodyLengthMm": 10,
+   "slMm": 8.2,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 8.2,
+   "headTrunkAngleDeg": 20,
+   "notochordFlexionDeg": 45,
+   "ventU": 0.6,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": null,
+   "yolkBall": null,
+   "yolkExtension": null,
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -3.28,
+     0
+    ],
+    [
+     0.0625,
+     -2.7675,
+     0
+    ],
+    [
+     0.125,
+     -2.255,
+     0
+    ],
+    [
+     0.1875,
+     -1.7425,
+     0
+    ],
+    [
+     0.25,
+     -1.23,
+     0
+    ],
+    [
+     0.3125,
+     -0.7175,
+     0
+    ],
+    [
+     0.375,
+     -0.205,
+     0
+    ],
+    [
+     0.4375,
+     0.3075,
+     0
+    ],
+    [
+     0.5,
+     0.82,
+     0
+    ],
+    [
+     0.5625,
+     1.3325,
+     0
+    ],
+    [
+     0.625,
+     1.845,
+     0
+    ],
+    [
+     0.6875,
+     2.3575,
+     0
+    ],
+    [
+     0.75,
+     2.87,
+     0
+    ],
+    [
+     0.8125,
+     3.3825,
+     0
+    ],
+    [
+     0.875,
+     3.895,
+     0
+    ],
+    [
+     0.9375,
+     4.4075,
+     0
+    ],
+    [
+     1,
+     4.92,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.2898,
+     "hV": 0.177,
+     "hW": 0.1745,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 0.6901,
+     "hV": 0.6322,
+     "hW": 0.5289,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 0.7964,
+     "hV": 0.6942,
+     "hW": 0.517,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 0.7106,
+     "hV": 0.6858,
+     "hW": 0.4232,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 0.7023,
+     "hV": 0.603,
+     "hW": 0.3459,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 0.5632,
+     "hV": 0.392,
+     "hW": 0.252,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.3852,
+     "hV": 0.2892,
+     "hW": 0.158,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.2959,
+     "hV": 0.2412,
+     "hW": 0.0984,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.0893,
+     "hV": 0.0893,
+     "hW": 0.0343,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 1080,
+   "stage": "day 45",
+   "regime": "R4",
+   "bodyLengthMm": 14.4,
+   "slMm": 12,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 12,
+   "headTrunkAngleDeg": 20,
+   "notochordFlexionDeg": 45,
+   "ventU": 0.6,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": null,
+   "yolkBall": null,
+   "yolkExtension": null,
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -4.8,
+     0
+    ],
+    [
+     0.0625,
+     -4.05,
+     0
+    ],
+    [
+     0.125,
+     -3.3,
+     0
+    ],
+    [
+     0.1875,
+     -2.55,
+     0
+    ],
+    [
+     0.25,
+     -1.8,
+     0
+    ],
+    [
+     0.3125,
+     -1.05,
+     0
+    ],
+    [
+     0.375,
+     -0.3,
+     0
+    ],
+    [
+     0.4375,
+     0.45,
+     0
+    ],
+    [
+     0.5,
+     1.2,
+     0
+    ],
+    [
+     0.5625,
+     1.95,
+     0
+    ],
+    [
+     0.625,
+     2.7,
+     0
+    ],
+    [
+     0.6875,
+     3.45,
+     0
+    ],
+    [
+     0.75,
+     4.2,
+     0
+    ],
+    [
+     0.8125,
+     4.95,
+     0
+    ],
+    [
+     0.875,
+     5.7,
+     0
+    ],
+    [
+     0.9375,
+     6.45,
+     0
+    ],
+    [
+     1,
+     7.2,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.4689,
+     "hV": 0.2922,
+     "hW": 0.2504,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 1.1165,
+     "hV": 1.0437,
+     "hW": 0.7588,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 1.3348,
+     "hV": 1.2013,
+     "hW": 0.77,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 1.3225,
+     "hV": 1.2565,
+     "hW": 0.6921,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 1.4022,
+     "hV": 1.186,
+     "hW": 0.5783,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 1.1067,
+     "hV": 0.7922,
+     "hW": 0.4188,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 0.7326,
+     "hV": 0.579,
+     "hW": 0.2658,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 0.5721,
+     "hV": 0.4953,
+     "hW": 0.1722,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.1674,
+     "hV": 0.1674,
+     "hW": 0.0627,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 2160,
+   "stage": "day 90",
+   "regime": "R4",
+   "bodyLengthMm": 21.6,
+   "slMm": 18,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 18,
+   "headTrunkAngleDeg": 20,
+   "notochordFlexionDeg": 45,
+   "ventU": 0.6,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": null,
+   "yolkBall": null,
+   "yolkExtension": null,
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -7.2,
+     0
+    ],
+    [
+     0.0625,
+     -6.075,
+     0
+    ],
+    [
+     0.125,
+     -4.95,
+     0
+    ],
+    [
+     0.1875,
+     -3.825,
+     0
+    ],
+    [
+     0.25,
+     -2.7,
+     0
+    ],
+    [
+     0.3125,
+     -1.575,
+     0
+    ],
+    [
+     0.375,
+     -0.45,
+     0
+    ],
+    [
+     0.4375,
+     0.675,
+     0
+    ],
+    [
+     0.5,
+     1.8,
+     0
+    ],
+    [
+     0.5625,
+     2.925,
+     0
+    ],
+    [
+     0.625,
+     4.05,
+     0
+    ],
+    [
+     0.6875,
+     5.175,
+     0
+    ],
+    [
+     0.75,
+     6.3,
+     0
+    ],
+    [
+     0.8125,
+     7.425,
+     0
+    ],
+    [
+     0.875,
+     8.55,
+     0
+    ],
+    [
+     0.9375,
+     9.675,
+     0
+    ],
+    [
+     1,
+     10.8,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 0.7895,
+     "hV": 0.4881,
+     "hW": 0.3555,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 1.8799,
+     "hV": 1.7433,
+     "hW": 1.0773,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 2.2896,
+     "hV": 2.0928,
+     "hW": 1.1397,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 2.374,
+     "hV": 2.2637,
+     "hW": 1.0624,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 2.5383,
+     "hV": 2.1388,
+     "hW": 0.8949,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 1.9491,
+     "hV": 1.4451,
+     "hW": 0.6369,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 1.2819,
+     "hV": 1.0555,
+     "hW": 0.4141,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 1.0116,
+     "hV": 0.8985,
+     "hW": 0.2805,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.3141,
+     "hV": 0.3141,
+     "hW": 0.1069,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  },
+  {
+   "hpf": 4320,
+   "stage": "day 180",
+   "regime": "R4",
+   "bodyLengthMm": 30,
+   "slMm": 25,
+   "somiteCount": 31,
+   "cellCount": null,
+   "yolkDomeMm": 0,
+   "estimate": [
+    "profile",
+    "yolkBall",
+    "yolkExtension",
+    "chorion",
+    "spine (tail curl)"
+   ],
+   "axisLengthMm": 25,
+   "headTrunkAngleDeg": 20,
+   "notochordFlexionDeg": 45,
+   "ventU": 0.6,
+   "epibolyFraction": 1,
+   "cap": null,
+   "shellThicknessMm": null,
+   "yolkRadiusMm": null,
+   "yolkBall": null,
+   "yolkExtension": null,
+   "chorion": null,
+   "spine": [
+    [
+     0,
+     -10,
+     0
+    ],
+    [
+     0.0625,
+     -8.4375,
+     0
+    ],
+    [
+     0.125,
+     -6.875,
+     0
+    ],
+    [
+     0.1875,
+     -5.3125,
+     0
+    ],
+    [
+     0.25,
+     -3.75,
+     0
+    ],
+    [
+     0.3125,
+     -2.1875,
+     0
+    ],
+    [
+     0.375,
+     -0.625,
+     0
+    ],
+    [
+     0.4375,
+     0.9375,
+     0
+    ],
+    [
+     0.5,
+     2.5,
+     0
+    ],
+    [
+     0.5625,
+     4.0625,
+     0
+    ],
+    [
+     0.625,
+     5.625,
+     0
+    ],
+    [
+     0.6875,
+     7.1875,
+     0
+    ],
+    [
+     0.75,
+     8.75,
+     0
+    ],
+    [
+     0.8125,
+     10.3125,
+     0
+    ],
+    [
+     0.875,
+     11.875,
+     0
+    ],
+    [
+     0.9375,
+     13.4375,
+     0
+    ],
+    [
+     1,
+     15,
+     0
+    ]
+   ],
+   "profile": [
+    {
+     "u": 0,
+     "hD": 1.0336,
+     "hV": 0.6337,
+     "hW": 0.4763,
+     "exponent": 2
+    },
+    {
+     "u": 0.1,
+     "hD": 2.461,
+     "hV": 2.2633,
+     "hW": 1.4433,
+     "exponent": 2
+    },
+    {
+     "u": 0.2,
+     "hD": 3.0541,
+     "hV": 2.8343,
+     "hW": 1.5955,
+     "exponent": 2
+    },
+    {
+     "u": 0.35,
+     "hD": 3.3063,
+     "hV": 3.1629,
+     "hW": 1.5418,
+     "exponent": 2
+    },
+    {
+     "u": 0.5,
+     "hD": 3.5622,
+     "hV": 2.9913,
+     "hW": 1.3082,
+     "exponent": 2
+    },
+    {
+     "u": 0.65,
+     "hD": 2.6671,
+     "hV": 2.0419,
+     "hW": 0.9158,
+     "exponent": 2
+    },
+    {
+     "u": 0.8,
+     "hD": 1.7434,
+     "hV": 1.4905,
+     "hW": 0.6091,
+     "exponent": 2
+    },
+    {
+     "u": 0.9,
+     "hD": 1.3896,
+     "hV": 1.2632,
+     "hW": 0.4291,
+     "exponent": 2
+    },
+    {
+     "u": 1,
+     "hD": 0.4547,
+     "hV": 0.4547,
+     "hW": 0.1696,
+     "exponent": 2
+    }
+   ],
+   "sources": [
+    "research 05 sections 5, 7, 8, 15, 16.4 to 16.6",
+    "spec BG-16 to BG-21",
+    "D8 head-trunk angle series and 0.60 mm enclosure to 30 hpf"
+   ]
+  }
+ ]
+}

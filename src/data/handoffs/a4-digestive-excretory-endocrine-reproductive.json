@@ -1,0 +1,65 @@
+[
+  {
+    "id": "pronephros_mesonephros",
+    "from": ["ZFA:0001557", "ZFA:0001558", "ZFA:0000150"],
+    "to": ["ZFA:0000529"],
+    "window": { "startHpf": 288, "endHpf": 336 },
+    "driver": "ZFA:0000150",
+    "seed": "copyPlacement",
+    "note": "D9. 12 to 14 dpf. Kidney lathe along the duct's u range under the dorsal aorta; the kidney keeps its ZFA start of 120 hpf (DM-33), so the seed is evaluated at 120 hpf and the window fades the pronephros parts out."
+  },
+  {
+    "id": "gonad_sex",
+    "from": ["ZFA:0005272"],
+    "to": ["ZFA:0000403", "ZFA:0000598"],
+    "window": { "startHpf": 600, "endHpf": 720 },
+    "driver": "ZFA:0005272",
+    "seed": "sexToggle",
+    "note": "D9. 25 to 30 dpf. The target that matches the sex state copies the immature gonad's placement and radii; the other is not drawn (DM-32)."
+  },
+  {
+    "id": "liver_primordium_liver",
+    "from": ["ZFA:0000124"],
+    "to": ["ZFA:0000123"],
+    "window": { "startHpf": 28, "endHpf": 30 },
+    "driver": "ZFA:0000124",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row. ZFA: primordium 24 to 30, liver from 30."
+  },
+  {
+    "id": "pancreatic_buds_pancreas",
+    "from": ["ZFA:0001370", "ZFA:0001369"],
+    "to": ["ZFA:0000140", "ZFA:0001249", "ZFA:0001260"],
+    "window": { "startHpf": 48, "endHpf": 60 },
+    "driver": "ZFA:0001370",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row. The dorsal (posterior, ZFA:0001370) and ventral (anterior, ZFA:0001369) buds fuse at about 52 hpf (Field et al. 2003) into the pancreas group node and its exocrine and endocrine parts."
+  },
+  {
+    "id": "thyroid_primordium_follicle",
+    "from": ["ZFA:0001081"],
+    "to": ["ZFA:0001072"],
+    "window": { "startHpf": 48, "endHpf": 60 },
+    "driver": "ZFA:0001081",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row. First follicle at about 55 hpf (Alt et al. 2006)."
+  },
+  {
+    "id": "interrenal_primordium_gland",
+    "from": ["ZFA:0001346"],
+    "to": ["ZFA:0001345"],
+    "window": { "startHpf": 28, "endHpf": 30 },
+    "driver": "ZFA:0001346",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row (28 to 30 hpf; spec 4.8 wrote 72 to 96, the decision record wins). ZFA starts the interrenal gland at Protruding-mouth, so the gland record needs an overrideNote for visibleFromHpf 28 (DM-20)."
+  },
+  {
+    "id": "gonad_primordium_immature",
+    "from": ["ZFA:0001262"],
+    "to": ["ZFA:0005272"],
+    "window": { "startHpf": 300, "endHpf": 336 },
+    "driver": "ZFA:0001262",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row (300 to 336 hpf; spec 4.8 wrote 312 to 336). ZFA: primordium to Days 7-13, immature gonad from Days 14-20 (DM-32)."
+  }
+]

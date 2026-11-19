@@ -1,0 +1,6184 @@
+[
+  {
+    "id": "ZFA:0000132",
+    "name": "neural plate",
+    "synonyms": [
+      "presumptive central nervous system"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001477",
+    "uiParent": "ZFA:0000012",
+    "parentRelation": "is_a",
+    "definition": "Portion of tissue that is the earliest recognizable dorsal ectodermal primordium of the central nervous system present near the end of gastrulation before infolding to form the neural keel; consists of a thickened pseudostratified epithelium.",
+    "zfinStartStage": "ZFS:0000020",
+    "zfinEndStage": "ZFS:0000024",
+    "startHpf": 8.0,
+    "endHpf": 14.0,
+    "visibleFromHpf": 8.0,
+    "modelEndHpf": 11,
+    "overrideNote": "Handoff neural_plate_keel: the plate hands off to the neural keel over 10 to 11 hpf (D9), so the record ends at 11 hpf; ZFA ends the neural plate at 5-9 somites (14 hpf).",
+    "fadeInHpf": 0.05,
+    "fadeOutHpf": 1,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 4.0,
+        "text": "Presumptive neural plate specified in the dorsal ectoderm (ZFA presumptive neural plate starts at sphere).",
+        "source": "https://zfin.org/ZFA:0000132"
+      },
+      {
+        "hpf": 8.0,
+        "text": "Neural plate recognizable as a thickened dorsal ectoderm (ZFIN start, 75%-epiboly).",
+        "source": "https://zfin.org/ZFA:0000132"
+      },
+      {
+        "hpf": 10.0,
+        "text": "Convergence toward the dorsal midline starts; the plate folds into the neural keel (Araya et al. 2016 Dev Dyn 245:197-208 https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.24304).",
+        "source": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.24304"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Plate no longer present as a separate structure (ZFIN end, 5-9 somites).",
+        "source": "https://zfin.org/ZFA:0000132"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 8.0,
+        "stageLabel": "75%-epiboly",
+        "dimsMm": {
+          "length": 1.0,
+          "width": 0.3,
+          "thickness": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); embryo diameter about 0.8 mm at 5-9 somites, https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 10.0,
+        "stageLabel": "Bud",
+        "dimsMm": {
+          "length": 1.2,
+          "width": 0.25,
+          "thickness": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); cell-layer counts from Araya et al. 2016 Dev Dyn 245:197-208 https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.24304",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b neural plate record",
+      "https://zfin.org/ZFA:0000132",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "Araya et al. 2016 Dev Dyn 245:197-208 https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.24304"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "flat",
+      "handoffOut": "neural_plate_keel",
+      "keyframes": [
+        {
+          "hpf": 8,
+          "path": {
+            "type": "spine",
+            "uStart": 0.08,
+            "uEnd": 0.98,
+            "v": 0.5,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.06,
+            "r1Mm": 0.045
+          },
+          "ellipticity": 0.18
+        },
+        {
+          "hpf": 10,
+          "path": {
+            "type": "spine",
+            "uStart": 0.08,
+            "uEnd": 0.98,
+            "v": 0.5,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.06,
+            "r1Mm": 0.045
+          },
+          "ellipticity": 0.19
+        },
+        {
+          "hpf": 11,
+          "path": {
+            "type": "spine",
+            "uStart": 0.08,
+            "uEnd": 0.98,
+            "v": 0.48,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.058,
+            "r1Mm": 0.04
+          },
+          "ellipticity": 0.22
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path.v",
+        "path.uStart"
+      ],
+      "sources": [
+        "8 hpf: width 300 um anteriorly tapering to about 100 um, thickness 25 um (research 03b size row, estimate); drawn as a flat tube (ellipticity 0.18, 22 um tall) in the dorsal half of the axis (path v 0.5) over u 0.08 to 0.98; the width is 120 um at the front (flat ends, no round cap) because the body model axis is 180 to 220 um wide there in regimes R1 and R2 (src/data/body.json), so the draft width would leave the skin",
+        "10 hpf: width 250 um, thickness 30 um (research 03b size row, estimate; Araya et al. 2016)",
+        "11 hpf: the plate narrows as it converges into the keel (handoff neural_plate_keel, D9); r0 110 um"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000131",
+    "name": "neural keel",
+    "synonyms": [
+      "presumptive central nervous system"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000132",
+    "uiParent": "ZFA:0000012",
+    "parentRelation": "develops_from",
+    "definition": "An intermediate stage (between the neural plate and neural rod) during the early segmentation period in the morphogenesis of the central nervous system primordium; the keel is roughly triangular shaped in cross section.",
+    "zfinStartStage": "ZFS:0000022",
+    "zfinEndStage": "ZFS:0000025",
+    "startHpf": 10.0,
+    "endHpf": 16.0,
+    "visibleFromHpf": 10.0,
+    "modelEndHpf": 13,
+    "overrideNote": "Handoff neural_plate_keel: seeded from the neural plate at the window start 10 hpf (D9), which equals the ZFA start. Handoff neural_keel_rod: the keel hands off to the neural rod over 11.7 to 13 hpf (D9), so the record ends at 13 hpf; ZFA ends the keel at 10-13 somites (16 hpf).",
+    "fadeInHpf": 1,
+    "fadeOutHpf": 1.3,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.0,
+        "text": "Neural keel forms by convergence of the neural plate (ZFIN start, bud).",
+        "source": "https://zfin.org/ZFA:0000131"
+      },
+      {
+        "hpf": 11.7,
+        "text": "Brain primordium thickened into the keel; optic primordium first distinguishable in side view (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Keel rounds into the neural rod; three pronounced anterior thickenings visible (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 16.0,
+        "text": "Keel stage over (ZFIN end, 10-13 somites).",
+        "source": "https://zfin.org/ZFA:0000131"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 10.0,
+        "stageLabel": "Bud",
+        "dimsMm": {
+          "length": 1.3,
+          "width": 0.08,
+          "height": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 12.0,
+        "stageLabel": "5-9 somites",
+        "dimsMm": {
+          "length": 1.4,
+          "width": 0.08,
+          "height": 0.07
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); embryo length 0.8 mm at 5-9 somites https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b neural keel record",
+      "https://zfin.org/ZFA:0000131",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "Araya et al. 2016 Dev Dyn 245:197-208 https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.24304"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "handoffOut": "neural_keel_rod",
+      "keyframes": [
+        {
+          "hpf": 10,
+          "path": {
+            "type": "spine",
+            "uStart": 0.06,
+            "uEnd": 0.98,
+            "v": 0.4,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.045,
+            "r1Mm": 0.028
+          },
+          "ellipticity": 0.75
+        },
+        {
+          "hpf": 12,
+          "path": {
+            "type": "spine",
+            "uStart": 0.06,
+            "uEnd": 0.98,
+            "v": 0.4,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.045,
+            "r1Mm": 0.03
+          },
+          "ellipticity": 0.75
+        },
+        {
+          "hpf": 13,
+          "path": {
+            "type": "spine",
+            "uStart": 0.06,
+            "uEnd": 0.98,
+            "v": 0.4,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.045,
+            "r1Mm": 0.03
+          },
+          "ellipticity": 0.8
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path.v",
+        "path.uStart"
+      ],
+      "sources": [
+        "10 hpf: seed from the neural plate (handoff neural_plate_keel, BG-49): width 80 um, height 60 um in the trunk, the head end swells to about 150 um (research 03b keel rows, estimate); r0 45 um at the head (u 0.06, where the body model axis is 90 um wide at 12 hpf) tapering to 30 um, ellipticity 0.75 (height over width)",
+        "12 hpf: width 80 um, height 70 um (research 03b size row, estimate)",
+        "13 hpf: the keel rounds into the rod (handoff neural_keel_rod, D9)",
+        "path v 0.45: the keel sits on the notochord under the dorsal surface (research 03b spatial note; estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000133",
+    "name": "neural rod",
+    "synonyms": [
+      "presumptive central nervous system"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000131",
+    "uiParent": "ZFA:0000012",
+    "parentRelation": "develops_from",
+    "definition": "An intermediate stage in the development of the central nervous system present during the segmentation period; the neural rod is roughly cylindrical in shape, forms from the neural keel, and is not yet hollowed out into the neural tube.",
+    "zfinStartStage": "ZFS:0000024",
+    "zfinEndStage": "ZFS:0000026",
+    "startHpf": 11.66,
+    "endHpf": 19.0,
+    "visibleFromHpf": 11.66,
+    "modelEndHpf": 16,
+    "overrideNote": "Handoff neural_keel_rod: seeded from the neural keel at 11.66 hpf, the ZFA start, which precedes the window start 11.7 hpf (DM-33). Handoff neural_rod_tube: the rod hands off to the neural tube over 14 to 16 hpf (D9), so the record ends at 16 hpf; ZFA ends the rod at 14-19 somites (19 hpf).",
+    "fadeInHpf": 1.34,
+    "fadeOutHpf": 2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 11.7,
+        "text": "Neural rod forms from the keel (ZFIN start, 5-9 somites).",
+        "source": "https://zfin.org/ZFA:0000133"
+      },
+      {
+        "hpf": 16.0,
+        "text": "About ten neuromeres visible along the rod; rhombomeres r2 to r6 visible dorsolaterally (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 17.0,
+        "text": "Neural tube closure; brain morphogenesis begins (Lowery & Sive 2005 Development 132:2057-2067 https://pubmed.ncbi.nlm.nih.gov/15788456/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15788456/"
+      },
+      {
+        "hpf": 19.0,
+        "text": "Rod hollows into the neural tube (ZFIN end, 14-19 somites).",
+        "source": "https://zfin.org/ZFA:0000133"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 12.0,
+        "stageLabel": "5-9 somites",
+        "dimsMm": {
+          "length": 1.4,
+          "diameter": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 16.0,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 1.6,
+          "diameter": 0.065
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); embryo length 0.9 mm at 14-19 somites https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b neural rod record",
+      "https://zfin.org/ZFA:0000133",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "Lowery & Sive 2005 Development 132:2057-2067 https://pubmed.ncbi.nlm.nih.gov/15788456/"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "handoffOut": "neural_rod_tube",
+      "keyframes": [
+        {
+          "hpf": 11.66,
+          "path": {
+            "type": "spine",
+            "uStart": 0.06,
+            "uEnd": 0.98,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.04,
+            "r1Mm": 0.026
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 14,
+          "path": {
+            "type": "spine",
+            "uStart": 0.06,
+            "uEnd": 0.98,
+            "v": 0.42,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.04,
+            "r1Mm": 0.027
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 16,
+          "path": {
+            "type": "spine",
+            "uStart": 0.06,
+            "uEnd": 0.98,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.04,
+            "r1Mm": 0.027
+          },
+          "ellipticity": 1.05
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path.v",
+        "path.uStart"
+      ],
+      "sources": [
+        "11.66 hpf: seed from the neural keel (handoff neural_keel_rod, BG-49): diameter 60 um in the trunk (research 03b size row, estimate), the head end wider (neuromere swellings, research 03b shape note); r0 40 um at u 0.06 tapering to 28 um; the body model axis is 90 to 110 um wide at the head in regime R2, which bounds the head swelling",
+        "16 hpf: diameter 65 um (research 03b size row, estimate); the rod hollows into the tube (handoff neural_rod_tube, D9)",
+        "path v 0.45: on the notochord under the dorsal midline (research 03b spatial note; estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001135",
+    "name": "neural tube",
+    "synonyms": [
+      "presumptive central nervous system"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001477",
+    "uiParent": "ZFA:0000012",
+    "parentRelation": "is_a",
+    "definition": "Portion of tissue that is the cavity-containing primordium of the central nervous system, developing from the neural rod in the late segmentation period.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 14,
+    "endHpf": 30,
+    "visibleFromHpf": 14,
+    "modelEndHpf": 24,
+    "overrideNote": "Handoff neural_rod_tube: seeded from the neural rod at the window start 14 hpf (D9), which equals the ZFA start. Handoff neural_tube_brain: the tube hands off to the brain regions and the spinal cord over 22 to 24 hpf (D9), so the mesh and the record end at 24 hpf; ZFA ends the neural tube at Prim-5 (30 hpf). From 14 hpf the mesh spans only the trunk behind the hindbrain (spec BG-49): the four brain regions draw the head part.",
+    "fadeInHpf": 2,
+    "fadeOutHpf": 2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 14,
+        "text": "Neural tube stage begins (ZFA start, 10-13 somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 18,
+        "text": "Brain ventricle inflation begins.",
+        "source": "Gutzman and Sive 2012 J Vis Exp https://pubmed.ncbi.nlm.nih.gov/23128341/"
+      },
+      {
+        "hpf": 19,
+        "text": "Hollowing of the rod into the tube nearly complete; ventricles present along the brain.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 22,
+        "text": "Cerebrospinal fluid starts to fill the ventricles.",
+        "source": "Lowery and Sive 2005 Development 132:2057-2067 https://pubmed.ncbi.nlm.nih.gov/15788456/"
+      },
+      {
+        "hpf": 24,
+        "text": "The tube hands off to the brain regions and the spinal cord (D9 neural_tube_brain)."
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 16,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 1.6,
+          "diameter": 0.065,
+          "lumen": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 19,
+        "stageLabel": "20-25 somites",
+        "dimsMm": {
+          "length": 2,
+          "diameter": 0.07,
+          "lumen": 0.01
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "note": "embryo length 1.4 mm at 20-25 somites"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 2.4,
+          "trunkWidth": 0.035,
+          "trunkHeight": 0.065
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "note": "embryo length 1.9 mm"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b neural tube record",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "geometryEndHpf": 24,
+      "handoffOut": "neural_tube_brain",
+      "keyframes": [
+        {
+          "hpf": 14,
+          "path": {
+            "type": "spine",
+            "uStart": 0.34,
+            "uEnd": 0.99,
+            "v": 0.45,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0325,
+            "r1Mm": 0.02
+          },
+          "ellipticity": 1.2
+        },
+        {
+          "hpf": 16,
+          "path": {
+            "type": "spine",
+            "uStart": 0.34,
+            "uEnd": 0.99,
+            "v": 0.45,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.034,
+            "r1Mm": 0.018
+          },
+          "ellipticity": 1.3
+        },
+        {
+          "hpf": 19,
+          "path": {
+            "type": "spine",
+            "uStart": 0.33,
+            "uEnd": 0.985,
+            "v": 0.45,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.035,
+            "r1Mm": 0.014
+          },
+          "ellipticity": 1.5
+        },
+        {
+          "hpf": 22,
+          "path": {
+            "type": "spine",
+            "uStart": 0.325,
+            "uEnd": 0.975,
+            "v": 0.45,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.032,
+            "r1Mm": 0.009
+          },
+          "ellipticity": 1.7
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.32,
+            "uEnd": 0.975,
+            "v": 0.45,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.03,
+            "r1Mm": 0.007
+          },
+          "ellipticity": 1.8
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path.v",
+        "path.uStart"
+      ],
+      "sources": [
+        "14 hpf: outer diameter about 65 um in the trunk at 16 hpf (research 03b size row, estimate); the mesh spans the trunk behind the hindbrain (uStart 0.34, the hindbrain tube end) because the brain regions draw the anterior third from 14 hpf (spec BG-49)",
+        "19 hpf: diameter 70 um (research 03b size row, estimate)",
+        "24 hpf: trunk width 35 um and height 65 um, ellipticity 1.8 (research 03b size row, estimate); uStart 0.32 meets the hindbrain and medulla end; r1 7 um and uEnd 0.975 keep the tube inside the 20 um tail tip of the 22 to 24 hpf body (estimate)",
+        "path v 0.45: the tube centre sits one tube half-height above the notochord (dorsal midline, research 03b spatial note)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000079",
+    "name": "telencephalon",
+    "synonyms": [],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000109",
+    "uiParent": "ZFA:0000109",
+    "parentRelation": "part_of",
+    "definition": "The anterior and dorsal forebrain neuromere. In ray-finned fishes and most pronounced in teleosts the roof plate of the embryonic telencephalon extends laterally with the effect that the paired alar plates forming the hemispheric walls roll out lateroventrally in a process called eversion. This is unlike the development in other vertebrate groups. From Neuroanatomy of the Zebrafish Brain.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 14.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff neural_tube_brain: the region keeps its ZFA start of 14 hpf and is seeded from the neural tube as a sub-tube at 14 hpf (DM-33, spec BG-49); the window 22 to 24 hpf retires the tube mesh. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.3,
+        "text": "Presumptive telencephalon (ZFA, 1-4 somites).",
+        "source": "https://zfin.org/ZFA:0000079"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Telencephalon distinguishable (ZFIN start, 10-13 somites).",
+        "source": "https://zfin.org/ZFA:0000079"
+      },
+      {
+        "hpf": 16.0,
+        "text": "Telencephalon is one of four prominent brain subdivisions (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 48.0,
+        "text": "Eversion of the telencephalic roof starts; hemispheres become visible (ZFA definition; timing unverified).",
+        "source": "https://zfin.org/ZFA:0000079"
+      },
+      {
+        "hpf": 2160.0,
+        "text": "Adult everted pallium with dorsal, medial, lateral and central zones (Wullimann, Rupp & Reichert 1996 Neuroanatomy of the Zebrafish Brain (Birkhauser)).",
+        "source": "https://zfin.org/ZFA:0000079"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.12,
+          "width": 0.12,
+          "height": 0.13
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.15,
+          "width": 0.16,
+          "height": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.2,
+          "width": 0.2,
+          "height": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); scaled from Z-Brain Randlett et al. 2015 Nat Methods 12:1039-1046 (Z-Brain, 6 dpf) https://pmc.ncbi.nlm.nih.gov/articles/PMC4710481/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.2,
+          "width": 1.5,
+          "height": 0.9
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); both hemispheres; the 4.5 mm adult brain length used to scale this row is an estimate. Kenney et al. 2021 (AZBA, https://elifesciences.org/articles/69988) gives per-region volumes from 0.000026 to 0.53 mm3 but no whole-brain length.",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b telencephalon record",
+      "https://zfin.org/ZFA:0000079",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "Wullimann, Rupp & Reichert 1996 Neuroanatomy of the Zebrafish Brain (Birkhauser)"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0377,
+            0.05,
+            0.0552
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.048,
+            "v": 0.3441,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0415,
+            0.0577,
+            0.0637
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.048,
+            "v": 0.3338,
+            "w": 0
+          },
+          "radiiMm": [
+            0.054,
+            0.0645,
+            0.0713
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.048,
+            "v": 0.3546,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0585,
+            0.0766,
+            0.0846
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.048,
+            "v": 0.3528,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05965,
+            0.07634,
+            0.08429
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.048,
+            "v": 0.3528,
+            "w": 0
+          },
+          "radiiMm": [
+            0.07129,
+            0.08264,
+            0.09128
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0795,
+            0.0867,
+            0.0958
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.084,
+            0.087,
+            0.0961
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.087,
+            0.0863,
+            0.0953
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0975,
+            0.0891,
+            0.0984
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.108,
+            0.0936,
+            0.1034
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.123,
+            0.1043,
+            0.1152
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.159,
+            0.1262,
+            0.1394
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.195,
+            0.1551,
+            0.1713
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.246,
+            0.2093,
+            0.2312
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.36,
+            0.3365,
+            0.3717
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.54,
+            0.5496,
+            0.6072
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.048,
+            "v": 0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.75,
+            0.7186,
+            0.7939
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "14 to 19 hpf: the anterior neuromere, 70 to 100 um (research 03b: four subdivisions by 16 hpf; estimate)",
+        "24 hpf: 120 x 120 x 130 um (research 03b size row, estimate); u 0.045 from apFraction 0.02 to 0.08 (spec 3.5.4)",
+        "48 hpf: 150 x 160 x 150 um (research 03b, estimate)",
+        "120 hpf: 200 x 200 x 150 um (research 03b, scaled from Z-Brain)",
+        "2160 hpf: 1200 x 1500 x 900 um at SL 18 mm, both hemispheres as one ellipsoid; widths narrowed where the 03b estimate exceeds the body model head (research 03b sizes are estimates; the body-model half-widths hW of src/data/body.json bound them)",
+        "4320 hpf: 2160 sizes times 1.3 at SL 25 mm (estimate)",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor.",
+        "Phase 2 visual calibration: keyframes that crossed the body outline after the layout pass were seated toward the spine in steps of 1.5 percent, and shrunk in steps of 3 percent only when seating alone did not close the gap, until every vertex builds inside the skin."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000101",
+    "name": "diencephalon",
+    "synonyms": [],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000109",
+    "uiParent": "ZFA:0000109",
+    "parentRelation": "part_of",
+    "definition": "The more posterior and ventral of two forebrain neuromeres, the other being the telencephalon; major derivatives are the eye cups, the brain pretectal region, the thalamus, hypothalamus, and epithalamus (including the habenula and epiphysis).",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 14.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff neural_tube_brain: the region keeps its ZFA start of 14 hpf and is seeded from the neural tube as a sub-tube at 14 hpf (DM-33, spec BG-49); the window 22 to 24 hpf retires the tube mesh. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.3,
+        "text": "Presumptive diencephalon (ZFA, 1-4 somites).",
+        "source": "https://zfin.org/ZFA:0000101"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Diencephalon distinguishable (ZFIN start, 10-13 somites).",
+        "source": "https://zfin.org/ZFA:0000101"
+      },
+      {
+        "hpf": 22.0,
+        "text": "Rudiments of epiphysis and hypothalamus visible in the diencephalon (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Mid-diencephalic organizer active (ZFA, prim-5).",
+        "source": "https://zfin.org/ZFA:0000101"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.15,
+          "width": 0.15,
+          "height": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.18,
+          "width": 0.2,
+          "height": 0.23
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.25,
+          "width": 0.25,
+          "height": 0.25
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); scaled from Z-Brain Randlett et al. 2015 Nat Methods 12:1039-1046 (Z-Brain, 6 dpf) https://pmc.ncbi.nlm.nih.gov/articles/PMC4710481/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.2,
+          "width": 1.2,
+          "height": 1.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b diencephalon record",
+      "https://zfin.org/ZFA:0000101",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0402,
+            0.0552,
+            0.05
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0442,
+            0.0637,
+            0.0577
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0576,
+            0.0713,
+            0.0645
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0624,
+            0.0846,
+            0.0766
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0656,
+            0.0869,
+            0.0787
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0784,
+            0.0941,
+            0.0852
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0848,
+            0.0958,
+            0.0867
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0896,
+            0.0961,
+            0.087
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0928,
+            0.0953,
+            0.0863
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.104,
+            0.0984,
+            0.0891
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1152,
+            0.1034,
+            0.0936
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1312,
+            0.1152,
+            0.1043
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1696,
+            0.1394,
+            0.1262
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.208,
+            0.1713,
+            0.1551
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.2624,
+            0.2312,
+            0.2093
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.384,
+            0.3717,
+            0.3365
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.576,
+            0.6072,
+            0.5496
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.105,
+            "v": 0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.8,
+            0.7939,
+            0.7186
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "14 to 19 hpf: the second neuromere behind the telencephalon, 80 to 140 um tall (estimate)",
+        "24 hpf: 150 x 150 x 200 um, taller than wide (research 03b size row, estimate); width kept to 120 um so the eyes at w 0.85 abut it",
+        "48 hpf: 180 x 200 x 230 um (research 03b, estimate); 120 hpf: 250 x 250 x 250 um (research 03b, scaled from Z-Brain); widths narrowed where the 03b estimate exceeds the body model head (research 03b sizes are estimates; the body-model half-widths hW of src/data/body.json bound them)",
+        "2160 hpf: 1200 um cube at SL 18 mm (research 03b, estimate); 4320 hpf: times 1.3 at SL 25 mm",
+        "placement v 0.25 to 0.15: the diencephalon sits between the eyes, its floor (the hypothalamus) below the spine level (research 03b position note)",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000032",
+    "name": "hypothalamus",
+    "synonyms": [],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000101",
+    "uiParent": "ZFA:0000101",
+    "parentRelation": "part_of",
+    "definition": "Multi-tissue structure which is the largest portion of diencephalon and is ventrally located. The hypothalamus arises near the end of the segmentation period and the embryonic hypothalamic region gives rise to the neurohypophysis and other diencephalic nuclei.",
+    "zfinStartStage": "ZFS:0000028",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 22.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 22.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 22.0,
+        "text": "Hypothalamic rudiment visible (ZFIN start, 26+ somites; https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 48.0,
+        "text": "Intermediate hypothalamus defined (ZFA, long-pec).",
+        "source": "https://zfin.org/ZFA:0000032"
+      },
+      {
+        "hpf": 72.0,
+        "text": "Neurohypophysis becomes distinct under the hypothalamus (Chapman et al. 2005 J Comp Neurol 487:428-440 https://pubmed.ncbi.nlm.nih.gov/15906316/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15906316/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.1,
+          "width": 0.1,
+          "height": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.15,
+          "width": 0.15,
+          "height": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.2,
+          "width": 0.18,
+          "height": 0.12
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); scaled from Z-Brain Randlett et al. 2015 Nat Methods 12:1039-1046 (Z-Brain, 6 dpf) https://pmc.ncbi.nlm.nih.gov/articles/PMC4710481/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.2,
+          "width": 1.3,
+          "height": 0.8
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b hypothalamus record",
+      "https://zfin.org/ZFA:0000032",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "Chapman et al. 2005 J Comp Neurol 487:428-440 https://pubmed.ncbi.nlm.nih.gov/15906316/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0468,
+            0.0463,
+            0.0641
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0492,
+            0.0476,
+            0.0659
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0588,
+            0.0515,
+            0.0714
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0636,
+            0.0524,
+            0.0726
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0672,
+            0.0526,
+            0.0728
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0696,
+            0.0522,
+            0.0723
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.078,
+            0.0539,
+            0.0746
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0864,
+            0.0566,
+            0.0783
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0984,
+            0.0631,
+            0.0873
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1272,
+            0.0763,
+            0.1056
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.156,
+            0.0938,
+            0.1298
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1968,
+            0.1266,
+            0.1753
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.288,
+            0.2035,
+            0.2817
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.432,
+            0.3323,
+            0.4602
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.12,
+            "v": 0.06,
+            "w": 0
+          },
+          "radiiMm": [
+            0.6,
+            0.4345,
+            0.6017
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "22 hpf: rudiment visible (ZFIN 26+ somites); 80 x 70 x 60 um (estimate)",
+        "24 hpf: 100 x 100 x 80 um; 48 hpf: 150 x 150 x 100 um; 120 hpf: 200 x 180 x 120 um (research 03b size rows, estimate)",
+        "2160 hpf: 1200 x 1300 x 800 um at SL 18 mm (research 03b, estimate); 4320 hpf: times 1.3",
+        "placement: the ventral floor of the diencephalon, below the spine level (v -0.1 to -0.3), above the hypophysis (research 03b position note)",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000118",
+    "name": "hypophysis",
+    "synonyms": [
+      "pituitary"
+    ],
+    "system": "nervous",
+    "alsoIn": [
+      "endocrine"
+    ],
+    "zfaParent": "ZFA:0000101",
+    "uiParent": "ZFA:0000101",
+    "parentRelation": "part_of",
+    "definition": "A compound organ which is an endocrine gland located ventral to the diencephalon and derived from mixed neuroectodermal and non-neuroectodermal origin.",
+    "zfinStartStage": "ZFS:0000027",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 19.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 19.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 19.0,
+        "text": "Hypophysis term starts (ZFIN, 20-25 somites); placode cells at the anterior neural ridge.",
+        "source": "https://zfin.org/ZFA:0000118"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Adenohypophysis morphologically distinct; placode cells fuse into one mass after 24 hpf (Chapman et al. 2005 J Comp Neurol 487:428-440 https://pubmed.ncbi.nlm.nih.gov/15906316/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15906316/"
+      },
+      {
+        "hpf": 48.0,
+        "text": "Adenohypophysis term starts (ZFA); hypophyseal capillary forms.",
+        "source": "https://zfin.org/ZFA:0000118"
+      },
+      {
+        "hpf": 72.0,
+        "text": "Neurohypophysis distinct (Chapman et al. 2005 J Comp Neurol 487:428-440 https://pubmed.ncbi.nlm.nih.gov/15906316/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/15906316/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.06,
+          "width": 0.04,
+          "height": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); pituitary reaches its maximum relative volume at 24 hpf (Chapman et al. 2005 J Comp Neurol 487:428-440 https://pubmed.ncbi.nlm.nih.gov/15906316/)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.06,
+          "width": 0.035,
+          "height": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); anterior and posterior domains 48 to 64 hpf (POMC-GFP)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.08,
+          "width": 0.05,
+          "height": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.5,
+          "width": 0.35,
+          "height": 0.3
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b hypophysis record",
+      "https://zfin.org/ZFA:0000118",
+      "Chapman et al. 2005 J Comp Neurol 487:428-440 https://pubmed.ncbi.nlm.nih.gov/15906316/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0216,
+            0.0128,
+            0.0143
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0234,
+            0.0151,
+            0.0169
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0246,
+            0.0156,
+            0.0174
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0294,
+            0.0168,
+            0.0188
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0318,
+            0.0171,
+            0.0192
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0336,
+            0.0172,
+            0.0192
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0348,
+            0.0171,
+            0.0191
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.039,
+            0.0176,
+            0.0197
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0432,
+            0.0185,
+            0.0207
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0492,
+            0.0206,
+            0.023
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0636,
+            0.0249,
+            0.0279
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.078,
+            0.0307,
+            0.0343
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0984,
+            0.0414,
+            0.0462
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.144,
+            0.0665,
+            0.0743
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.216,
+            0.1086,
+            0.1214
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.128,
+            "v": -0.16,
+            "w": 0
+          },
+          "radiiMm": [
+            0.3,
+            0.1421,
+            0.1588
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "19 hpf: placode cells at the anterior neural ridge, 40 x 30 x 20 um (estimate)",
+        "24 hpf: 60 x 40 x 30 um; 48 hpf: 60 x 35 x 30 um; 120 hpf: 80 x 50 x 40 um (research 03b size rows, estimate; Chapman et al. 2005)",
+        "2160 hpf: 500 x 350 x 300 um at SL 18 mm (research 03b, estimate); 4320 hpf: times 1.3",
+        "placement: midline under the hypothalamic floor, between and behind the eyes (research 03b position note); v -0.45 to -0.65",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000019",
+    "name": "epiphysis",
+    "synonyms": [
+      "corpus pineale",
+      "pineal organ",
+      "pineal gland"
+    ],
+    "system": "nervous",
+    "alsoIn": [
+      "endocrine"
+    ],
+    "zfaParent": "ZFA:0001359",
+    "uiParent": "ZFA:0000101",
+    "parentRelation": "grouping",
+    "definition": "A circumscribed swelling, includes the pineal primordium that appears late in the segmentation period in the dorsal midline of the diencephalon. It is located directly rostral to the posterior commissure and dorsal to the habenular commissure.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 14.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 14.0,
+        "text": "Epiphysis term starts (ZFIN, 10-13 somites); epiphyseal cluster from 16 hpf.",
+        "source": "https://zfin.org/ZFA:0000019"
+      },
+      {
+        "hpf": 22.0,
+        "text": "Epiphysis rudiment visible (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24.0,
+        "text": "About 30 pineal complex cells; anterior cells give rise to the parapineal (Snelson et al. 2008 Dev Dyn 237:3538-3544 https://pubmed.ncbi.nlm.nih.gov/18629869/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/18629869/"
+      },
+      {
+        "hpf": 26.0,
+        "text": "Parapineal migrates to the left between 24 and 32 hpf; ablation at 24 to 28 hpf gives symmetric habenulae (Lekk et al. 2019 eLife 8:e47376 https://elifesciences.org/articles/47376).",
+        "source": "https://elifesciences.org/articles/47376"
+      },
+      {
+        "hpf": 1080.0,
+        "text": "Epiphyseal stalk elongates (ZFA, 45-89 dpf).",
+        "source": "https://zfin.org/ZFA:0000019"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); pineal complex anlage about 30 to 32 cells at 24 hpf (Snelson et al. 2008 Dev Dyn 237:3538-3544 https://pubmed.ncbi.nlm.nih.gov/18629869/)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.045
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.06,
+          "width": 0.045,
+          "height": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.3,
+          "width": 0.2,
+          "height": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b epiphysis record",
+      "https://zfin.org/ZFA:0000019",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "Snelson et al. 2008 Dev Dyn 237:3538-3544 https://pubmed.ncbi.nlm.nih.gov/18629869/",
+      "Lekk et al. 2019 eLife 8:e47376 https://elifesciences.org/articles/47376",
+      "ZFA part_of: pineal complex ZFA:0001359, visual system ZFA:0001127, endocrine system ZFA:0001158; the tree parent is the diencephalon (research 03b UI parent)"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0101,
+            0.0122,
+            0.0122
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0111,
+            0.0141,
+            0.0141
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0144,
+            0.0158,
+            0.0158
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0156,
+            0.0187,
+            0.0187
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0164,
+            0.0192,
+            0.0192
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0196,
+            0.0208,
+            0.0208
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0212,
+            0.0212,
+            0.0212
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0224,
+            0.0212,
+            0.0212
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0232,
+            0.0211,
+            0.0211
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.026,
+            0.0218,
+            0.0218
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0288,
+            0.0228,
+            0.0228
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0328,
+            0.0255,
+            0.0255
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0424,
+            0.0308,
+            0.0308
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.052,
+            0.0379,
+            0.0379
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0656,
+            0.0511,
+            0.0511
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.096,
+            0.0822,
+            0.0822
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.144,
+            0.1342,
+            0.1342
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.103,
+            "v": 0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.2,
+            0.1755,
+            0.1755
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "14 to 19 hpf: epiphyseal cluster, 25 to 32 um (ZFA epiphysis from 10-13 somites; estimate)",
+        "24 hpf: diameter 35 um (research 03b, Snelson et al. 2008: about 30 cells); 48 hpf: 45 um; 120 hpf: 60 x 45 x 40 um (research 03b, estimate)",
+        "2160 hpf: 300 x 200 x 150 um at SL 18 mm (research 03b, estimate); 4320 hpf: times 1.3",
+        "placement v 0.8 to 0.85: the dorsal midline of the diencephalon at the brain surface under the skin (research 03b position note)",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000128",
+    "name": "midbrain",
+    "synonyms": [
+      "mesencephalon"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000008",
+    "uiParent": "ZFA:0000008",
+    "parentRelation": "part_of",
+    "definition": "The brain region between the forebrain anteriorly and the hindbrain posteriorly, including the tectum dorsally and the midbrain tegmentum ventrally.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 14.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff neural_tube_brain: the region keeps its ZFA start of 14 hpf and is seeded from the neural tube as a sub-tube at 14 hpf (DM-33, spec BG-49); the window 22 to 24 hpf retires the tube mesh. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 6.0,
+        "text": "Presumptive midbrain (ZFA, shield).",
+        "source": "https://zfin.org/ZFA:0000128"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Midbrain distinguishable (ZFIN start, 10-13 somites).",
+        "source": "https://zfin.org/ZFA:0000128"
+      },
+      {
+        "hpf": 16.0,
+        "text": "Midbrain-hindbrain boundary constriction forms (ZFA, 14-19 somites).",
+        "source": "https://zfin.org/ZFA:0000128"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Optic tectum and tegmentum terms start (ZFIN, prim-5).",
+        "source": "https://zfin.org/ZFA:0000128"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.18,
+          "width": 0.2,
+          "height": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.25,
+          "width": 0.28,
+          "height": 0.22
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.3,
+          "width": 0.35,
+          "height": 0.25
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); scaled from Z-Brain Randlett et al. 2015 Nat Methods 12:1039-1046 (Z-Brain, 6 dpf) https://pmc.ncbi.nlm.nih.gov/articles/PMC4710481/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.8,
+          "width": 2.2,
+          "height": 1.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b midbrain record",
+      "https://zfin.org/ZFA:0000128",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0415,
+            0.0581,
+            0.064
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0456,
+            0.0671,
+            0.0738
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0594,
+            0.075,
+            0.0825
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0644,
+            0.089,
+            0.0979
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0677,
+            0.0915,
+            0.1007
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0809,
+            0.0991,
+            0.109
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0874,
+            0.1009,
+            0.111
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0924,
+            0.1012,
+            0.1113
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0957,
+            0.1004,
+            0.1104
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1073,
+            0.1036,
+            0.1139
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1188,
+            0.1088,
+            0.1197
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1353,
+            0.1213,
+            0.1334
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1749,
+            0.1467,
+            0.1614
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.2145,
+            0.1803,
+            0.1984
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.2706,
+            0.2434,
+            0.2678
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.396,
+            0.3913,
+            0.4304
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.594,
+            0.6391,
+            0.703
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.163,
+            "v": 0.32,
+            "w": 0
+          },
+          "radiiMm": [
+            0.825,
+            0.8356,
+            0.9192
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "14 to 19 hpf: the third neuromere, 90 to 130 um (estimate)",
+        "24 hpf: 180 x 200 x 200 um (research 03b size row, estimate); from 24 hpf the optic tectum lobes sit on this core (the tegmentum and the tectal ventricle)",
+        "48 hpf: 250 x 280 x 220 um; 120 hpf: 300 x 350 x 250 um (research 03b, scaled from Z-Brain); widths narrowed where the 03b estimate exceeds the body model head (research 03b sizes are estimates; the body-model half-widths hW of src/data/body.json bound them)",
+        "2160 hpf: 1800 x 2200 x 1200 um at SL 18 mm, narrowed to 1600 wide (research 03b, estimate); 4320 hpf: times 1.3",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000445",
+    "name": "optic tectum",
+    "synonyms": [
+      "mesencephalic tectum",
+      "tectum",
+      "tectum opticum",
+      "dorsal midbrain",
+      "tectal lobe"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000128",
+    "uiParent": "ZFA:0000128",
+    "parentRelation": "part_of",
+    "definition": "Multi-tissue structure that is the dorsal part of the midbrain and develops from the alar plate and is the most complex layered structure in the zebrafish brain.",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 24.0,
+        "text": "Optic tectum term starts (ZFIN, prim-5).",
+        "source": "https://zfin.org/ZFA:0000445"
+      },
+      {
+        "hpf": 72.0,
+        "text": "First visual behaviors 68 to 80 hpf rely on retinotectal input (Easter & Nicola 1996 Dev Biol 180:646-663 https://pubmed.ncbi.nlm.nih.gov/8954734/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8954734/"
+      },
+      {
+        "hpf": 120.0,
+        "text": "Tectum supports prey capture at 5 dpf; layered neuropil present (Bae et al. 2009 Dev Biol 330:406-426 https://pubmed.ncbi.nlm.nih.gov/19371731/ for layering context).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/19371731/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.15,
+          "width": 0.18,
+          "height": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); each lobe about 150 x 90 um",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.22,
+          "width": 0.25,
+          "height": 0.13
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); retinal axons \"invade the tectum at 46-48 hr postfertilization\" (Stuermer 1988 J Neurosci 8:4513-4530 https://pmc.ncbi.nlm.nih.gov/articles/PMC6569580/)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.3,
+          "width": 0.32,
+          "height": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); both lobes; scaled from Z-Brain Randlett et al. 2015 Nat Methods 12:1039-1046 (Z-Brain, 6 dpf) https://pmc.ncbi.nlm.nih.gov/articles/PMC4710481/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.6,
+          "width": 2.0,
+          "height": 0.9
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); both lobes; AZBA largest single region 0.53 mm3 Kenney et al. 2021 eLife 10:e69988 (AZBA, adult) https://elifesciences.org/articles/69988",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b optic tectum record",
+      "https://zfin.org/ZFA:0000445",
+      "Easter & Nicola 1996 Dev Biol 180:646-663 https://pubmed.ncbi.nlm.nih.gov/8954734/",
+      "Randlett et al. 2015 Nat Methods 12:1039-1046 (Z-Brain, 6 dpf) https://pmc.ncbi.nlm.nih.gov/articles/PMC4710481/",
+      "Kenney et al. 2021 eLife 10:e69988 (AZBA, adult) https://elifesciences.org/articles/69988",
+      "Stuermer 1988 J Neurosci 8:4513-4530 https://pmc.ncbi.nlm.nih.gov/articles/PMC6569580/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0615,
+            0.0522,
+            0.0567
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0735,
+            0.0565,
+            0.0614
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0795,
+            0.0575,
+            0.0625
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.084,
+            0.0577,
+            0.0627
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.087,
+            0.0572,
+            0.0622
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0975,
+            0.059,
+            0.0642
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.108,
+            0.062,
+            0.0675
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.123,
+            0.0691,
+            0.0752
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.159,
+            0.0836,
+            0.091
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.195,
+            0.1028,
+            0.1118
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.246,
+            0.1387,
+            0.1509
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.36,
+            0.223,
+            0.2426
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.54,
+            0.3643,
+            0.3962
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.163,
+            "v": 0.52,
+            "w": 0.34,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.75,
+            0.4763,
+            0.5181
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "24 hpf: both lobes 150 x 180 x 100 um, each lobe about 150 x 90 um (research 03b size row, estimate); a mirrored ellipsoid pair at w +-0.28",
+        "48 hpf: 220 x 250 x 130 um; 120 hpf: 300 x 320 x 150 um (research 03b, scaled from Z-Brain)",
+        "2160 hpf: 1600 x 2000 x 900 um at SL 18 mm (research 03b, estimate; AZBA largest region 0.53 mm3); 4320 hpf: times 1.3",
+        "placement v 0.5 to 0.6: the dorsal midbrain under the skull roof (research 03b position note)",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000042",
+    "name": "midbrain hindbrain boundary",
+    "synonyms": [
+      "midbrain-hindbrain boundary",
+      "isthmus",
+      "mhb"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000008",
+    "uiParent": "ZFA:0000008",
+    "parentRelation": "part_of",
+    "definition": "The boundary between the mesencephalon and the rhombencephalon.",
+    "zfinStartStage": "ZFS:0000026",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 16.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 16.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 16.0,
+        "text": "ZFIN start stage Segmentation:14-19 somites; the constriction between the midbrain and the hindbrain becomes visible.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 22.0,
+        "text": "The cerebellar plate grows from the dorsal isthmus (the cerebellum record starts here).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24.0,
+        "text": "At prim-5 the isthmus separates the optic tectum in front from the cerebellum behind.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "ringDiameter": 0.1322,
+          "thickness": 0.033
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; 0.80 x the hindbrain anterior diameter of the ZFA:0000029 record, which research 03b scaled from the Kimmel stage figures",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "ringDiameter": 0.1448,
+          "thickness": 0.046
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; 0.80 x the medulla oblongata anterior diameter of the ZFA:0000545 record, which research 03b scaled from the Kimmel stage figures",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "ringDiameter": 0.9204,
+          "thickness": 0.288
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate; 0.80 x the medulla oblongata anterior diameter of the ZFA:0000545 record at 18 mm SL",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000042",
+      "data/zfin/zfa.obo ZFA:0000042 (def, synonyms, start ZFS:0000026, end ZFS:0000044, part_of ZFA:0000008, is_a ZFA:0001689 anatomical line)",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "D17: the first missing high-value region found through the full ZFA vocabulary."
+    ],
+    "geometry": {
+      "kind": "tube",
+      "path": {
+        "type": "spine",
+        "uStart": 0.181,
+        "uEnd": 0.197,
+        "v": 0.36,
+        "w": 0.0
+      },
+      "radiusMm": 0.04832,
+      "ellipticity": 0.92,
+      "caps": "none",
+      "segmented": false,
+      "keyframes": [
+        {
+          "hpf": 16,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.04832
+        },
+        {
+          "hpf": 19,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.054
+        },
+        {
+          "hpf": 22,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.06408
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.06592
+        },
+        {
+          "hpf": 30,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.07136
+        },
+        {
+          "hpf": 36,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.07264
+        },
+        {
+          "hpf": 42,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.0728
+        },
+        {
+          "hpf": 48,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.07224
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.07456
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.07832
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.08736
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.10568
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.12984
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.17528
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.28176
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.46016
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "path": {
+            "type": "spine",
+            "uStart": 0.181,
+            "uEnd": 0.197,
+            "v": 0.36,
+            "w": 0.0
+          },
+          "radiusMm": 0.60168
+        }
+      ],
+      "lodHint": "low",
+      "estimate": [
+        "radiusMm",
+        "path.uStart",
+        "path.uEnd",
+        "path.v"
+      ],
+      "sources": [
+        "ZFA calls the midbrain hindbrain boundary an anatomical line (is_a ZFA:0001689), so the record draws a collar around the neural tube and not a solid region: an open tube (caps none) over u 0.181 to 0.197 at v 0.36, between the midbrain centre (v 0.32) and the hindbrain path (v 0.38).",
+        "The radius is 0.80 of the anterior radius of the hindbrain record to 24 hpf and of the medulla oblongata record after it, with the hindbrain ellipticity 0.92. The collar is now narrower than both neighbours, so the brain outline runs tectum crown, waist, hindbrain and the isthmic constriction reads on screen: at 24 hpf the crown of the midbrain is 1.11 hindbrain radii and the collar 0.80, a waist of about a quarter. Kimmel 1995 names the constriction a landmark of the 14-19 somite stage, which is the ZFA start of this term; the earlier 0.95 collar filled the dip and hid it (review BIO-11).",
+        "The midbrain ellipsoid has tapered to 0.84 of the hindbrain radius by u 0.187 while the hindbrain tube starts only at u 0.19, so the midbrain taper, not the collar, sets the deepest part of the waist; a collar below 0.84 changes nothing more.",
+        "The u range and the 0.80 factor are estimates read off the midbrain and hindbrain records of this file, not measurements; the ratio of the midbrain radii to the hindbrain radius is the same at every keyframe, so one factor holds from 16 hpf to 4320 hpf."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000029",
+    "name": "hindbrain",
+    "synonyms": [
+      "rhombencephalon"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000008",
+    "uiParent": "ZFA:0000008",
+    "parentRelation": "part_of",
+    "definition": "The most posterior of the three principal regions of the brain. In mammals and birds the hindbrain is divided into a rostral metencephalon and a caudal myelencephalon. In zebrafish, with the exception of the cerebellum, the ventral remainder of the metencephalon can be separated only arbitrarily from the more caudal myelencephalic portion of the medulla oblongata and thus these are not distinguished here. From Neuroanatomy of the Zebrafish Brain.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 14.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff neural_tube_brain: the region keeps its ZFA start of 14 hpf and is seeded from the neural tube as a sub-tube at 14 hpf (DM-33, spec BG-49); the window 22 to 24 hpf retires the tube mesh. DM-36: axis clamp at 4320 hpf. The hindbrain mesh ends at 24 hpf (geometryEndHpf): from 24 hpf the medulla oblongata and the cerebellum draw its volume and the rhombomere array its surface (research 03b: five lobes at 24 hpf, phar.html).",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 6.0,
+        "text": "Presumptive hindbrain (ZFA, shield).",
+        "source": "https://zfin.org/ZFA:0000029"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Hindbrain distinguishable; rhombomeres appear (ZFIN start, 10-13 somites).",
+        "source": "https://zfin.org/ZFA:0000029"
+      },
+      {
+        "hpf": 16.0,
+        "text": "Rhombomeres r2 to r6 visible dorsolaterally (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 19.0,
+        "text": "Seven rhombomeres prominent; cerebellar rudiment first recognizable (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 22.0,
+        "text": "Statoacoustic ganglion neuroblasts delaminate from the ear beside the hindbrain (https://zfin.org/zf_info/anatomy/dict/stato/stato.html).",
+        "source": "https://zfin.org/zf_info/anatomy/dict/stato/stato.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.4,
+          "width": 0.15,
+          "height": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.45,
+          "width": 0.2,
+          "height": 0.18
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.45,
+          "width": 0.28,
+          "height": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); scaled from Z-Brain Randlett et al. 2015 Nat Methods 12:1039-1046 (Z-Brain, 6 dpf) https://pmc.ncbi.nlm.nih.gov/articles/PMC4710481/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.8,
+          "width": 1.5,
+          "height": 1.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b hindbrain record",
+      "https://zfin.org/ZFA:0000029",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "geometryEndHpf": 24,
+      "keyframes": [
+        {
+          "hpf": 14,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.32,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0523,
+            "r1Mm": 0.0116
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 16,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.32,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0604,
+            "r1Mm": 0.0134
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 19,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.32,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0675,
+            "r1Mm": 0.015
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 22,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.32,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0801,
+            "r1Mm": 0.0178
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.32,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0824,
+            "r1Mm": 0.0183
+          },
+          "ellipticity": 0.92
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path.v"
+      ],
+      "sources": [
+        "14 hpf: the hindbrain sub-tube of the neural tube, 90 um wide tapering to the trunk tube (estimate); u 0.205 to 0.34 (apFraction 0.22 to 0.33, spec 3.5.4)",
+        "16 to 19 hpf: rhombomeres r2 to r6 then all seven visible (research 03b events); 100 to 120 um wide (research 03b rhombomere width, estimate)",
+        "24 hpf: 400 x 150 x 150 um (research 03b size row, estimate), narrowed to 140 um; the mesh ends at 24 hpf when the medulla oblongata (the fifth lobe of Kimmel) and the cerebellum draw the hindbrain volume; the record stays the tree parent",
+        "path v 0.4: the tube axis one radius above the notochord (research 03b spatial note; estimate)",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000100",
+    "name": "cerebellum",
+    "synonyms": [],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000029",
+    "uiParent": "ZFA:0000029",
+    "parentRelation": "part_of",
+    "definition": "Brain structure derived from the anterior hindbrain, and perhaps including posterior midbrain. The cerebellum plays a role in somatic motor function, the control of muscle tone, and balance. In zebrafish, with the exception of the cerebellum, the ventral remainder of the metencephalon can be separated only arbitrarily from the more caudal myelencephalic portion of the medulla oblongata and thus these are not distinguished here.",
+    "zfinStartStage": "ZFS:0000028",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 22.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 22.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 19.0,
+        "text": "Cerebellar rudiment first recognizable (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 22.0,
+        "text": "Cerebellum term starts (ZFIN, 26+ somites); primordium prominent.",
+        "source": "https://zfin.org/ZFA:0000100"
+      },
+      {
+        "hpf": 72.0,
+        "text": "GABAergic and glutamatergic neuron differentiation begins at 3 dpf (Bae et al. 2009 Dev Biol 330:406-426 https://pubmed.ncbi.nlm.nih.gov/19371731/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/19371731/"
+      },
+      {
+        "hpf": 120.0,
+        "text": "Purkinje and granule layers first detectable at 5 dpf (Bae et al. 2009 Dev Biol 330:406-426 https://pubmed.ncbi.nlm.nih.gov/19371731/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/19371731/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.05,
+          "width": 0.15,
+          "height": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); cerebellar primordium prominent at 22 hpf https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.08,
+          "width": 0.2,
+          "height": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); cerebellar plate term starts 42 hpf (ZFA)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.12,
+          "width": 0.25,
+          "height": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); layers first detectable at 5 dpf Bae et al. 2009 Dev Biol 330:406-426 https://pubmed.ncbi.nlm.nih.gov/19371731/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.0,
+          "width": 1.2,
+          "height": 0.8
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); corpus cerebelli only",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b cerebellum record",
+      "https://zfin.org/ZFA:0000100",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "Bae et al. 2009 Dev Biol 330:406-426 https://pubmed.ncbi.nlm.nih.gov/19371731/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0351,
+            0.032,
+            0.0766
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0369,
+            0.0329,
+            0.0787
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0441,
+            0.0357,
+            0.0852
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0477,
+            0.0363,
+            0.0867
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0504,
+            0.0364,
+            0.087
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0522,
+            0.0361,
+            0.0863
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0585,
+            0.0373,
+            0.0891
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0648,
+            0.0392,
+            0.0936
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0738,
+            0.0437,
+            0.1043
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0954,
+            0.0528,
+            0.1262
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.117,
+            0.0649,
+            0.1551
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1476,
+            0.0876,
+            0.2093
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.216,
+            0.1409,
+            0.3365
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.324,
+            0.2301,
+            0.5496
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.2,
+            "v": 0.56,
+            "w": 0
+          },
+          "radiiMm": [
+            0.45,
+            0.3008,
+            0.7186
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "22 hpf: cerebellar primordium prominent (ZFIN 26+ somites), 40 x 100 x 30 um (estimate)",
+        "24 hpf: 50 x 150 x 40 um; 48 hpf: 80 x 200 x 60 um; 120 hpf: 120 x 250 x 80 um (research 03b size rows, estimate; Bae et al. 2009 for the layers)",
+        "2160 hpf: corpus cerebelli 1000 x 1200 x 800 um at SL 18 mm, narrowed to 1100 wide (research 03b, estimate); 4320 hpf: times 1.3",
+        "placement v 0.55 to 0.72: the dorsal plate behind the tectum on the anterior hindbrain (research 03b position note)",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000545",
+    "name": "medulla oblongata",
+    "synonyms": [],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000029",
+    "uiParent": "ZFA:0000029",
+    "parentRelation": "part_of",
+    "definition": "Brain structure that is located ventrocaudal to the cerebellum and just anterior to the spinal cord and contains the sensory and motor nuclei of six cranial nerves. In zebrafish, with the exception of the cerebellum, the ventral remainder of the metencephalon can be separated only arbitrarily from the more caudal myelencephalic portion of the medulla oblongata.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA start stage Unknown (E008): the myelencephalic lobe is the fifth brain lobe of Kimmel at 24 hpf (research 03b deviations table, https://zfin.org/zf_info/zfbook/stages/phar.html), so the model draws the medulla from 24 hpf. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 24.0,
+        "text": "Myelencephalic lobe visible as the fifth brain lobe (https://zfin.org/zf_info/zfbook/stages/phar.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html"
+      },
+      {
+        "hpf": 48.0,
+        "text": "Vagal and facial lobes and reticular nuclei differentiate (unverified timing).",
+        "source": "https://zfin.org/ZFA:0000545"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.35,
+          "width": 0.14,
+          "height": 0.13
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.38,
+          "width": 0.18,
+          "height": 0.16
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.35,
+          "width": 0.25,
+          "height": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); scaled from Z-Brain Randlett et al. 2015 Nat Methods 12:1039-1046 (Z-Brain, 6 dpf) https://pmc.ncbi.nlm.nih.gov/articles/PMC4710481/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.2,
+          "width": 1.2,
+          "height": 1.0
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b medulla oblongata record",
+      "https://zfin.org/ZFA:0000545",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0824,
+            "r1Mm": 0.0183
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 30,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0892,
+            "r1Mm": 0.0198
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 36,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0908,
+            "r1Mm": 0.0202
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 42,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.091,
+            "r1Mm": 0.0202
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 48,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0903,
+            "r1Mm": 0.0201
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0932,
+            "r1Mm": 0.0207
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0979,
+            "r1Mm": 0.0218
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.1092,
+            "r1Mm": 0.0243
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.1321,
+            "r1Mm": 0.0293
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.1623,
+            "r1Mm": 0.0361
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.2191,
+            "r1Mm": 0.0487
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.3522,
+            "r1Mm": 0.0783
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.5752,
+            "r1Mm": 0.1278
+          },
+          "ellipticity": 0.92
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "path": {
+            "type": "spine",
+            "uStart": 0.19,
+            "uEnd": 0.3,
+            "v": 0.38,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.7521,
+            "r1Mm": 0.1671
+          },
+          "ellipticity": 0.92
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path.v"
+      ],
+      "sources": [
+        "24 hpf: 350 x 140 x 130 um (research 03b size row, estimate): a truncated cone from the cerebellum to the obex, r0 70 um to r1 45 um, ellipticity 0.93 (height over width); uEnd 0.32 is the spinal cord uStart, so the cord continues the medulla",
+        "48 hpf: 380 x 180 x 160 um (research 03b, estimate); 120 hpf: 350 x 250 x 200 um (research 03b, scaled from Z-Brain), widths narrowed where the 03b estimate exceeds the body model head (research 03b sizes are estimates; the body-model half-widths hW of src/data/body.json bound them)",
+        "2160 hpf: 1200 x 1200 x 1000 um at SL 18 mm, narrowed to 1000 wide (research 03b, estimate); 4320 hpf: r0 650 um at SL 25 mm (estimate)",
+        "intermediate stages: log-linear in body length between the 03b rows (estimate); path v 0.4, the same axis as the spinal cord (v 0.45) less one radius step",
+        "Phase 2 visual calibration (RN-01 to RN-04): the five brain lobes are placed as one continuous chain along the head, each ellipsoid overlapping its neighbours in u, so the central nervous system reads as one translucent mass with gentle bulges instead of separate spheres. The half-heights follow the local dorsal half-height times a brain factor that falls from 0.50 at 14 hpf to 0.29 in the adult; the sourced sizes above set that factor."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001064",
+    "name": "rhombomere",
+    "synonyms": [
+      "rhombomeres",
+      "hindbrain segment",
+      "neuromere"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000029",
+    "uiParent": "ZFA:0000029",
+    "parentRelation": "part_of",
+    "definition": "A segment of the developing hindbrain.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000000",
+    "startHpf": 14.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 16,
+    "modelEndHpf": 48,
+    "overrideNote": "ZFA end stage Unknown (E008): rhombomere boundaries are clear from 14 to about 48 hpf and fade by 72 hpf (research 03b deviations table, estimate); the array ends at 48 hpf. ZFIN starts the term at 10-13 somites; the array starts at 16 hpf when r2 to r6 are visible (seg_stgs.html), so the model start differs from the ZFA start.",
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 6,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.0,
+        "text": "Presumptive rhombomeres 1 to 8 (ZFA, bud).",
+        "source": "https://zfin.org/ZFA:0001064"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Rhombomeres visible (ZFIN start, 10-13 somites).",
+        "source": "https://zfin.org/ZFA:0001064"
+      },
+      {
+        "hpf": 16.0,
+        "text": "r2 to r6 visible in dorsolateral view (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 19.0,
+        "text": "Seven rhombomeres prominent (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 72.0,
+        "text": "Boundaries no longer obvious externally (estimate).",
+        "source": "https://zfin.org/ZFA:0001064"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 16.0,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "segmentLength": 0.04,
+          "width": 0.12
+        },
+        "counts": {
+          "count": 5
+        },
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); r2 to r6 visible at 16 hpf https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "segmentLength": 0.05,
+          "width": 0.15
+        },
+        "counts": {
+          "count": 7
+        },
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); seven rhombomeres https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "segmentLength": 0.06,
+          "width": 0.2
+        },
+        "counts": {
+          "count": 7
+        },
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b rhombomere record",
+      "https://zfin.org/ZFA:0001064",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "keyframes": [
+        {
+          "hpf": 16,
+          "uStart": 0.195,
+          "uEnd": 0.26,
+          "count": 7,
+          "mirror": false,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0,
+              "v": 0.38,
+              "w": 0
+            },
+            "e1": 0.5,
+            "e2": 0.8,
+            "radiiMm": [
+              0.0034,
+              0.0282,
+              0.0282
+            ]
+          }
+        },
+        {
+          "hpf": 19,
+          "uStart": 0.195,
+          "uEnd": 0.26,
+          "count": 7,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0,
+              "v": 0.38,
+              "w": 0
+            },
+            "e1": 0.5,
+            "e2": 0.8,
+            "radiiMm": [
+              0.0038,
+              0.0315,
+              0.0315
+            ]
+          }
+        },
+        {
+          "hpf": 22,
+          "uStart": 0.195,
+          "uEnd": 0.26,
+          "count": 7,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0,
+              "v": 0.38,
+              "w": 0
+            },
+            "e1": 0.5,
+            "e2": 0.8,
+            "radiiMm": [
+              0.0045,
+              0.0374,
+              0.0374
+            ]
+          }
+        },
+        {
+          "hpf": 24,
+          "uStart": 0.195,
+          "uEnd": 0.26,
+          "count": 7,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0,
+              "v": 0.38,
+              "w": 0
+            },
+            "e1": 0.5,
+            "e2": 0.8,
+            "radiiMm": [
+              0.0046,
+              0.0384,
+              0.0384
+            ]
+          }
+        },
+        {
+          "hpf": 30,
+          "uStart": 0.195,
+          "uEnd": 0.26,
+          "count": 7,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0,
+              "v": 0.38,
+              "w": 0
+            },
+            "e1": 0.5,
+            "e2": 0.8,
+            "radiiMm": [
+              0.005,
+              0.0416,
+              0.0416
+            ]
+          }
+        },
+        {
+          "hpf": 36,
+          "uStart": 0.195,
+          "uEnd": 0.26,
+          "count": 7,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0,
+              "v": 0.38,
+              "w": 0
+            },
+            "e1": 0.5,
+            "e2": 0.8,
+            "radiiMm": [
+              0.005,
+              0.0424,
+              0.0424
+            ]
+          }
+        },
+        {
+          "hpf": 42,
+          "uStart": 0.195,
+          "uEnd": 0.26,
+          "count": 7,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0,
+              "v": 0.38,
+              "w": 0
+            },
+            "e1": 0.5,
+            "e2": 0.8,
+            "radiiMm": [
+              0.0051,
+              0.0425,
+              0.0425
+            ]
+          }
+        },
+        {
+          "hpf": 48,
+          "uStart": 0.195,
+          "uEnd": 0.26,
+          "count": 7,
+          "template": {
+            "kind": "superellipsoid",
+            "placement": {
+              "u": 0,
+              "v": 0.38,
+              "w": 0
+            },
+            "e1": 0.5,
+            "e2": 0.8,
+            "radiiMm": [
+              0.005,
+              0.0422,
+              0.0422
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "template.radiiMm",
+        "count",
+        "uStart",
+        "uEnd"
+      ],
+      "sources": [
+        "16 hpf: r2 to r6 visible, segment length 40 um, width 120 um (research 03b size row, estimate; seg_stgs.html): five barrels over the hindbrain span u 0.20 to 0.34 (0.19 mm), each 0.9 x span / count long",
+        "19 hpf: seven rhombomeres (research 03b event); 24 hpf: segment length 50 um, width 150 um, narrowed to 140 um (research 03b, estimate)",
+        "48 hpf: segment length 60 um, width 200 um, narrowed to 176 um (research 03b, estimate); the barrels enclose the medulla tube by about 10 um so the segmented surface shows",
+        "template: a superellipsoid barrel (e1 0.6) on the hindbrain axis (v 0.4, midline), the same axis as the hindbrain and medulla tubes",
+        "Phase 2 visual calibration: the seven rhombomeres sit inside the hindbrain tube as internal ridges, so the hindbrain reads as one tube rather than a stack of plates."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000075",
+    "name": "spinal cord",
+    "synonyms": [
+      "medulla spinalis",
+      "spinal cord structure"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000012",
+    "uiParent": "ZFA:0000012",
+    "parentRelation": "part_of",
+    "definition": "Part of the central nervous system in the vertebral canal, continuous with and caudal to the brain, demarcated from the brain by the obex. (ZFA has no definition text for this term; atlas wording.)",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24,
+    "endHpf": 17520,
+    "visibleFromHpf": 22,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff neural_tube_brain: seeded from the neural tube at the window start 22 hpf (DM-33); ZFA starts the spinal cord at Prim-5 (24 hpf). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 2,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 16,
+        "text": "Rohon-Beard and trigeminal sensory axons start to cover the skin.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 17,
+        "text": "Primary motoneurons differentiate, three to four per hemisegment.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 24,
+        "text": "Spinal cord term starts (ZFA, Prim-5); dorsal root ganglia appear.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 27,
+        "text": "Consistent touch response.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.25,
+          "width": 0.03,
+          "height": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "note": "embryo length 1.9 mm"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 2.2,
+          "width": 0.035,
+          "height": 0.07
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "note": "embryo length 3.1 mm"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 2.9,
+          "width": 0.045,
+          "height": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "note": "larva about 3.9 mm TL"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 13,
+          "diameter": 0.45
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); Parichy et al. 2009 Dev Dyn 238:2975-3015 https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b spinal cord record",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 22,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.015,
+            "r1Mm": 0.006
+          },
+          "ellipticity": 2
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.015,
+            "r1Mm": 0.006
+          },
+          "ellipticity": 2
+        },
+        {
+          "hpf": 30,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.016,
+            "r1Mm": 0.0065
+          },
+          "ellipticity": 2
+        },
+        {
+          "hpf": 36,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.017,
+            "r1Mm": 0.007
+          },
+          "ellipticity": 2
+        },
+        {
+          "hpf": 42,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0175,
+            "r1Mm": 0.007
+          },
+          "ellipticity": 2
+        },
+        {
+          "hpf": 48,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0175,
+            "r1Mm": 0.007
+          },
+          "ellipticity": 2
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.019,
+            "r1Mm": 0.0075
+          },
+          "ellipticity": 1.9
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0225,
+            "r1Mm": 0.008
+          },
+          "ellipticity": 1.8
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.975,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.025,
+            "r1Mm": 0.009
+          },
+          "ellipticity": 1.7
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.93,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.035,
+            "r1Mm": 0.012
+          },
+          "ellipticity": 1.6
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.92,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.045,
+            "r1Mm": 0.016
+          },
+          "ellipticity": 1.5
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.92,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.06,
+            "r1Mm": 0.02
+          },
+          "ellipticity": 1.4
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.92,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.09,
+            "r1Mm": 0.03
+          },
+          "ellipticity": 1.3
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.92,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.2,
+            "r1Mm": 0.06
+          },
+          "ellipticity": 1.1
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "path": {
+            "type": "spine",
+            "uStart": 0.3,
+            "uEnd": 0.92,
+            "v": 0.42,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.225,
+            "r1Mm": 0.07
+          },
+          "ellipticity": 1.1
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path.v",
+        "path.uEnd"
+      ],
+      "sources": [
+        "22 hpf: seed values from the neural tube trunk (D9 neural_tube_brain); width 30 um, height 60 um at 24 hpf (research 03b size row, estimate); uStart 0.32 is the medulla oblongata uEnd (apFraction 0.34 x 0.93, spec 3.5.4), so the cord continues the brain",
+        "48 hpf: width 35 um, height 70 um (research 03b, estimate); uStart 0.30",
+        "120 hpf: width 45 um, height 80 um, uStart 0.245 (research 03b apFractionByStage 120 gives 0.23; moved to the medulla end)",
+        "336 to 504 hpf: the notochord flexes 18 then 45 degrees past u 0.92 (the axial notochord record); the cord ends at u 0.93 then 0.92, the start of the bend, so it no longer runs straight through the upturned urostyle (the phase 1 kink); the tube flexion clamp assumes a v 0 axis, so the cord is not flexed",
+        "2160 hpf: diameter 450 um at SL 18 mm, uStart 0.27 (research 03b adult row 0.25, estimate; DM-15 sizeRefSl 18 for 03b); 4320 hpf: the adult size at SL 25 mm (estimate)",
+        "r1 6 to 8 um in the embryo and larva: the tail tip is 20 to 30 um tall, so the cord thins to stay under the skin (estimate)",
+        "Phase 2 visual calibration: the cord starts where the medulla ends (u 0.30) and shares its dorsoventral line, so the neural tube is continuous from the forebrain to the tail."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000022",
+    "name": "floor plate",
+    "synonyms": [
+      "fp",
+      "floorplate"
+    ],
+    "system": "nervous",
+    "alsoIn": [
+      "axial"
+    ],
+    "zfaParent": "ZFA:0000012",
+    "uiParent": "ZFA:0000012",
+    "parentRelation": "part_of",
+    "definition": "Multi-tissue structure that is the ventral-most aspect of the developing neural tube. The floor plate is a specialized glial structure with secretory function that spans the rostral-caudal axis from the midbrain to the tail regions. The floor plate is one of first structures that differentiate in the developing nervous system.",
+    "zfinStartStage": "ZFS:0000024",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 11.66,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 11.66,
+    "modelEndHpf": 168,
+    "overrideNote": "ZFA ends the floor plate at Adult; the model hides this embryonic strip after 168 hpf (7 dpf), when the larval spinal cord is myelinated and the floor plate is no longer a distinct external landmark (estimate).",
+    "fadeInHpf": 0.117,
+    "fadeOutHpf": 8,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000022",
+      "Kimmel et al. 1995 Dev Dyn 203:253-310 https://doi.org/10.1002/aja.1002030302",
+      "research 03b floor plate record"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 11.66,
+          "path": {
+            "type": "spine",
+            "uStart": 0.15,
+            "uEnd": 0.99,
+            "v": 0.25,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.006,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 14,
+          "path": {
+            "type": "spine",
+            "uStart": 0.15,
+            "uEnd": 0.99,
+            "v": 0.25,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.006,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 16,
+          "path": {
+            "type": "spine",
+            "uStart": 0.15,
+            "uEnd": 0.99,
+            "v": 0.25,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.006,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 19,
+          "path": {
+            "type": "spine",
+            "uStart": 0.15,
+            "uEnd": 0.99,
+            "v": 0.25,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.006,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 22,
+          "path": {
+            "type": "spine",
+            "uStart": 0.162,
+            "uEnd": 0.984,
+            "v": 0.23,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.006,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.18,
+            "uEnd": 0.975,
+            "v": 0.2,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.006,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 30,
+          "path": {
+            "type": "spine",
+            "uStart": 0.18,
+            "uEnd": 0.975,
+            "v": 0.2,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0065,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 36,
+          "path": {
+            "type": "spine",
+            "uStart": 0.18,
+            "uEnd": 0.975,
+            "v": 0.2,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0066,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 42,
+          "path": {
+            "type": "spine",
+            "uStart": 0.18,
+            "uEnd": 0.975,
+            "v": 0.2,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0068,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 48,
+          "path": {
+            "type": "spine",
+            "uStart": 0.18,
+            "uEnd": 0.975,
+            "v": 0.2,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.007,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "path": {
+            "type": "spine",
+            "uStart": 0.17,
+            "uEnd": 0.975,
+            "v": 0.2,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.0075,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "path": {
+            "type": "spine",
+            "uStart": 0.16,
+            "uEnd": 0.975,
+            "v": 0.2,
+            "w": 0.0
+          },
+          "radiusMm": {
+            "r0Mm": 0.008,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "path": {
+            "type": "spine",
+            "uStart": 0.16,
+            "uEnd": 0.975,
+            "v": 0.2,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.008,
+            "r1Mm": 0.005
+          },
+          "ellipticity": 0.7
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity",
+        "path.v",
+        "path.uStart"
+      ],
+      "sources": [
+        "11.66 hpf: a row of cells about 3 cells (12 um) wide along the ventral midline of the neural keel and rod (ZFA comment on the floor plate); drawn as a flat strip 12 um wide and 8 um tall (ellipticity 0.7, the 4 um radius floor of BG-31)",
+        "24 to 168 hpf: the strip runs from the midbrain (u 0.15 to 0.18) to the tail along the ventral wall of the neural tube and spinal cord (ZFA definition); path v 0.2 to 0.25 is the notochord top plus the wall thickness (estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000295",
+    "name": "trigeminal ganglion",
+    "synonyms": [
+      "trigeminal ganglia",
+      "gV",
+      "5th ganglion",
+      "fifth ganglion"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000013",
+    "uiParent": "ZFA:0000142",
+    "parentRelation": "grouping",
+    "definition": "A prominent collection of touch-sensory neurons of the trigeminal or fifth cranial nerve, positioned beside the brain between the eye and the ear.",
+    "zfinStartStage": "ZFS:0000027",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 19.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 19.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.3,
+        "text": "Trigeminal placode and trigeminal neural crest (ZFA, 1-4 somites).",
+        "source": "https://zfin.org/ZFA:0000295"
+      },
+      {
+        "hpf": 16.0,
+        "text": "Peripheral sensory axons begin to cover the skin (https://zfin.org/zf_info/zfbook/stages/seg.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 19.0,
+        "text": "Trigeminal ganglion term starts (ZFIN, 20-25 somites).",
+        "source": "https://zfin.org/ZFA:0000295"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Touch-evoked responses present; about 60 sensory neurons (eNeuro 2025 12(5) ENEURO.0043-25.2025 (about 60 trigeminal neurons) https://www.eneuro.org/content/12/5/ENEURO.0043-25.2025).",
+        "source": "https://www.eneuro.org/content/12/5/ENEURO.0043-25.2025"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.045,
+          "width": 0.025,
+          "height": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); about 60 neurons (eNeuro 2025 12(5) ENEURO.0043-25.2025 (about 60 trigeminal neurons) https://www.eneuro.org/content/12/5/ENEURO.0043-25.2025)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.055,
+          "width": 0.03,
+          "height": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.07,
+          "width": 0.04,
+          "height": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.4,
+          "width": 0.25,
+          "height": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b trigeminal ganglion record",
+      "https://zfin.org/ZFA:0000295",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "eNeuro 2025 12(5) ENEURO.0043-25.2025 (about 60 trigeminal neurons) https://www.eneuro.org/content/12/5/ENEURO.0043-25.2025",
+      "ZFA is_a cranial ganglion ZFA:0000013; the tree parent is the peripheral nervous system (research 03b UI parent)"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.16,
+            "v": 0.15,
+            "w": 0.8,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.018,
+            0.01,
+            0.01
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.16,
+            "v": 0.15,
+            "w": 0.82,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0197,
+            0.0109,
+            0.0109
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.16,
+            "v": 0.15,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0225,
+            0.0125,
+            0.0125
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.1575,
+            "v": 0.125,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0249,
+            0.0137,
+            0.0137
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.1567,
+            "v": 0.1167,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0257,
+            0.0141,
+            0.0141
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.1558,
+            "v": 0.1083,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0266,
+            0.0146,
+            0.0146
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.155,
+            "v": 0.1,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0275,
+            0.015,
+            0.015
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.1475,
+            "v": 0.1,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.031,
+            0.0162,
+            0.0173
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.14,
+            "v": 0.1,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.035,
+            0.0175,
+            0.02
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.1397,
+            "v": 0.1,
+            "w": 0.8483,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0371,
+            0.0186,
+            0.0213
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.1387,
+            "v": 0.1,
+            "w": 0.8435,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0439,
+            0.0219,
+            0.0254
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.1378,
+            "v": 0.1,
+            "w": 0.839,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0514,
+            0.0257,
+            0.0299
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.1366,
+            "v": 0.1,
+            "w": 0.8328,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0638,
+            0.0319,
+            0.0376
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.1341,
+            "v": 0.1,
+            "w": 0.8203,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0984,
+            0.0492,
+            0.0593
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "placement": {
+            "u": 0.13,
+            "v": 0.1,
+            "w": 0.8,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.2,
+            0.1,
+            0.125
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "placement": {
+            "u": 0.13,
+            "v": 0.1,
+            "w": 0.8,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.26,
+            0.13,
+            0.1625
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "19 hpf: term starts (ZFIN 20-25 somites); 36 x 20 x 20 um (estimate)",
+        "24 hpf: 45 x 25 x 25 um, about 60 neurons (research 03b size row, estimate; eNeuro 2025); 48 hpf: 55 x 30 x 30 um; 120 hpf: 70 x 40 x 35 um (research 03b, estimate)",
+        "2160 hpf: 400 x 250 x 200 um at SL 18 mm (research 03b, estimate); 4320 hpf: times 1.3",
+        "placement: lateral to rhombomere 2, between the eye and the ear, just under the skin (w 0.85; research 03b position note)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001314",
+    "name": "posterior lateral line ganglion",
+    "synonyms": [
+      "pLLg",
+      "posterior lateral line ganglia"
+    ],
+    "system": "nervous",
+    "alsoIn": [
+      "sensory"
+    ],
+    "zfaParent": "ZFA:0000120",
+    "uiParent": "ZFA:0000142",
+    "parentRelation": "grouping",
+    "definition": "The posterior lateral line ganglion develops from a cranial ectodermal placode and contains sensory neurons that innervate the posterior lateral line system.",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 14.0,
+        "text": "Posterior lateral line placode (ZFA, 10-13 somites).",
+        "source": "https://zfin.org/ZFA:0001314"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Ganglion term starts (ZFIN, prim-5); its axons follow the migrating primordium.",
+        "source": "https://zfin.org/ZFA:0001314"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.035,
+          "width": 0.02,
+          "height": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.05,
+          "width": 0.03,
+          "height": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.06,
+          "width": 0.035,
+          "height": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.35,
+          "width": 0.2,
+          "height": 0.18
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b posterior lateral line ganglion record",
+      "https://zfin.org/ZFA:0001314",
+      "https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html",
+      "ZFA is_a lateral line ganglion ZFA:0000120; D5 files ganglia under nervous; the tree parent is the peripheral nervous system"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.255,
+            "v": 0.05,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0175,
+            0.01,
+            0.01
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.25,
+            "v": 0.025,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0209,
+            0.0112,
+            0.0122
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.2483,
+            "v": 0.0167,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0222,
+            0.0116,
+            0.0131
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.2467,
+            "v": 0.0083,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0236,
+            0.012,
+            0.014
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.245,
+            "v": 0.0,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.025,
+            0.0125,
+            0.015
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.24,
+            "v": 0.0,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0274,
+            0.0137,
+            0.0162
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.235,
+            "v": 0.0,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.03,
+            0.015,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.2353,
+            "v": 0.0,
+            "w": 0.8483,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0318,
+            0.0159,
+            0.0186
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.2363,
+            "v": 0.0,
+            "w": 0.8435,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0377,
+            0.0189,
+            0.0219
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.2372,
+            "v": 0.0,
+            "w": 0.839,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0442,
+            0.0223,
+            0.0257
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.2384,
+            "v": 0.0,
+            "w": 0.8328,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0551,
+            0.0278,
+            0.0319
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.2409,
+            "v": 0.0,
+            "w": 0.8203,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0854,
+            0.0434,
+            0.0492
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "placement": {
+            "u": 0.245,
+            "v": 0.0,
+            "w": 0.8,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.175,
+            0.09,
+            0.1
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "placement": {
+            "u": 0.245,
+            "v": 0.0,
+            "w": 0.8,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.2275,
+            0.117,
+            0.13
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "24 hpf: 35 x 20 x 20 um; 48 hpf: 50 x 30 x 25 um; 120 hpf: 60 x 35 x 30 um (research 03b size rows, estimate)",
+        "2160 hpf: 350 x 200 x 180 um at SL 18 mm (research 03b, estimate); 4320 hpf: times 1.3",
+        "placement: directly behind the otic vesicle at the origin of the posterior lateral line nerve, on the horizontal myoseptum level (v 0), under the skin (w 0.85; research 03b position note)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000175",
+    "name": "posterior lateral line nerve",
+    "synonyms": [
+      "caudal lateral line nerve"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000120",
+    "uiParent": "ZFA:0000142",
+    "parentRelation": "grouping",
+    "definition": "Cranial nerve which enters the brain between cranial nerves VIII and IX; contains afferents and sensory efferents to the posterior lateral line ganglion and middle ganglion. Fibers from the posterior lateral line ganglion innervate the occipital dorsal lateral line and trunk lateral lines.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA start stage Unknown (E008): the nerve grows with the primordium from 24 hpf, when the ganglion term starts (research 03b). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 24,
+        "text": "Axons of the posterior lateral line ganglion follow the migrating primordium along the horizontal myoseptum.",
+        "source": "https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html"
+      },
+      {
+        "hpf": 42,
+        "text": "The nerve reaches the tail with the primary primordium.",
+        "source": "Dalle Nogare et al. 2020 eLife 9:e58251 https://elifesciences.org/articles/58251"
+      }
+    ],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "research 03b posterior lateral line nerve record",
+      "https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html",
+      "Dalle Nogare et al. 2020 eLife 9:e58251 https://elifesciences.org/articles/58251"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.27,
+            "uEnd": 0.33,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.004,
+            "r1Mm": 0.004
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 30,
+          "path": {
+            "type": "spine",
+            "uStart": 0.26,
+            "uEnd": 0.56,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.0045,
+            "r1Mm": 0.004
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 36,
+          "path": {
+            "type": "spine",
+            "uStart": 0.26,
+            "uEnd": 0.79,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.0045,
+            "r1Mm": 0.004
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 42,
+          "path": {
+            "type": "spine",
+            "uStart": 0.26,
+            "uEnd": 0.945,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.005,
+            "r1Mm": 0.004
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 48,
+          "path": {
+            "type": "spine",
+            "uStart": 0.26,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.005,
+            "r1Mm": 0.004
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "path": {
+            "type": "spine",
+            "uStart": 0.255,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.0055,
+            "r1Mm": 0.004
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "path": {
+            "type": "spine",
+            "uStart": 0.25,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.006,
+            "r1Mm": 0.004
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "path": {
+            "type": "spine",
+            "uStart": 0.2525,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.0065,
+            "r1Mm": 0.0043
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "path": {
+            "type": "spine",
+            "uStart": 0.2594,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.0083,
+            "r1Mm": 0.0052
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "path": {
+            "type": "spine",
+            "uStart": 0.266,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.0103,
+            "r1Mm": 0.0062
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "path": {
+            "type": "spine",
+            "uStart": 0.275,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.75
+          },
+          "radiusMm": {
+            "r0Mm": 0.014,
+            "r1Mm": 0.008
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "path": {
+            "type": "spine",
+            "uStart": 0.2693,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.769
+          },
+          "radiusMm": {
+            "r0Mm": 0.0187,
+            "r1Mm": 0.0102
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "path": {
+            "type": "spine",
+            "uStart": 0.26,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.8
+          },
+          "radiusMm": {
+            "r0Mm": 0.03,
+            "r1Mm": 0.015
+          },
+          "ellipticity": 1.0
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "path": {
+            "type": "spine",
+            "uStart": 0.26,
+            "uEnd": 0.95,
+            "v": 0.0,
+            "w": -0.8
+          },
+          "radiusMm": {
+            "r0Mm": 0.04,
+            "r1Mm": 0.02
+          },
+          "ellipticity": 1.0
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "path.w",
+        "path.uEnd"
+      ],
+      "sources": [
+        "24 to 42 hpf: the axons of the posterior lateral line ganglion follow the migrating primordium (research 03b pLL ganglion position note; https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html), so uEnd tracks the primordium centre: 0.33 at 24, 0.56 at 30, 0.79 at 36, 0.955 at 42 hpf",
+        "radius 4 to 6 um in the embryo and larva (the BG-31 floor), 30 um at SL 18 mm, 40 um at SL 25 mm (estimate)",
+        "path v 0, w -0.75: along the horizontal myoseptum under the skin; the tube kind draws one side, the left nerve (the visible side of the default view); the right nerve is not drawn (see requests)"
+      ]
+    }
+  }
+]

@@ -1,0 +1,1432 @@
+[
+  {
+    "id": "ZFA:0000403",
+    "name": "ovary",
+    "synonyms": [
+      "ovaries"
+    ],
+    "system": "reproductive",
+    "alsoIn": [
+      "endocrine"
+    ],
+    "zfaParent": "ZFA:0000413",
+    "uiParent": "ZFA:0000413",
+    "parentRelation": "is_a",
+    "definition": "Female reproductive organ. The ovary is a bilobed cavitated organ located ventral to the swim bladder.",
+    "zfinStartStage": "ZFS:0000041",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 504.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 504.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff gonad_sex: the ovary is seeded from the immature gonad; its ZFA start (Days 21-29, 504 hpf) precedes the D9 window 600 to 720 hpf, so it is visible from 504 hpf (DM-33; rule E034 rejects the DM-32 value 600) and drawn only while the sex toggle is female (DM-32). From 504 to 600 hpf it is drawn 8 percent larger than the immature gonad it encloses, so the two read as one body until the cross-fade. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 10.8,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": "female",
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 504,
+        "text": "Ovary term starts in ZFIN (Days 21-29).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/; https://journals.sagepub.com/doi/10.1177/0192623311409597; https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 720,
+        "text": "Ovarian follicle terms start in ZFIN (Juvenile Days 30-44).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/; https://journals.sagepub.com/doi/10.1177/0192623311409597; https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1080,
+        "text": "Oocyte stage I to V terms start in ZFIN (Juvenile Days 45-89).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/; https://journals.sagepub.com/doi/10.1177/0192623311409597; https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 2160,
+        "text": "Mature stage IV and V oocytes present unless recently spawned.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/; https://journals.sagepub.com/doi/10.1177/0192623311409597; https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 504,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 0.9,
+          "diameter": 0.25
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0000403; https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+        "estimate": true,
+        "note": "per lobe"
+      },
+      {
+        "hpf": 1080,
+        "stageLabel": "Juvenile 45 dpf",
+        "dimsMm": {
+          "length": 3.0,
+          "diameter": 0.8
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0000403; https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+        "estimate": true,
+        "note": "per lobe"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 10.0,
+          "width": 4.0,
+          "height": 3.0
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0000403; https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+        "estimate": true,
+        "note": "per lobe in a gravid 25 mm SL female; female GSI at least ten times the male GSI",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d ovary record",
+      "https://zfin.org/ZFA:0000403",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+      "https://journals.sagepub.com/doi/10.1177/0192623311409597",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.41,
+            "v": -0.6069,
+            "w": 0.58,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.2088,
+            0.049,
+            0.049
+          ]
+        },
+        {
+          "hpf": 600,
+          "sizeRefSl": 7.2556,
+          "placement": {
+            "u": 0.415,
+            "v": -0.6185,
+            "w": 0.5662,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.2664,
+            0.0595,
+            0.0595
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.42,
+            "v": -0.6284,
+            "w": 0.5494,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.3456,
+            0.077,
+            0.077
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.42,
+            "v": -0.4575,
+            "w": 0.4842,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.92743,
+            0.24044,
+            0.24044
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.42,
+            "v": -0.4575,
+            "w": 0.4842,
+            "mirror": true
+          },
+          "radiiMm": [
+            1.97853,
+            0.33061,
+            0.36763
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.42,
+            "v": -0.4575,
+            "w": 0.4842,
+            "mirror": true
+          },
+          "radiiMm": [
+            2.95706,
+            0.41527,
+            0.54304
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "504 hpf: 900 x 250 um per lobe, seeded from the immature gonad (handoff gonad_sex, sexToggle; the lobe is drawn 8 percent larger than the immature gonad so it encloses it during the cross-fade)",
+        "1080 hpf: 3000 x 800 um per lobe; adult 10000 x 4000 x 3000 um per lobe in a gravid 25 mm SL female, reduced to 9000 x 1400 x 2000 so the lobes stay inside the trunk (Gupta and Mullins 2010; PMC3842893; research 03d rows; estimate)",
+        "bilobed, the lobes joined across the midline (w +-0.25), ventral to the swim bladder and kidney, dorsolateral to the intestine (ZFA definition; estimate)",
+        "Phase 2 visual calibration (RN-07): the gonad lies in the ventral half of the coelom, lateral to the gut, as the adult reference figure shows the testis.",
+        "Phase 2 visual calibration (RN-07): the adult gonad is a paired organ against the lateral wall of the ventral coelom, at 0.7 of its earlier height, so the coiled intestine reads through the body wall beside it.",
+        "Phase 2 visual calibration: keyframes that crossed the body outline after the layout pass were seated toward the spine in steps of 1.5 percent, and shrunk in steps of 3 percent only when seating alone did not close the gap, until every vertex builds inside the skin."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000598",
+    "name": "testis",
+    "synonyms": [
+      "testes"
+    ],
+    "system": "reproductive",
+    "alsoIn": [
+      "endocrine"
+    ],
+    "zfaParent": "ZFA:0000413",
+    "uiParent": "ZFA:0000413",
+    "parentRelation": "is_a",
+    "definition": "Male reproductive organ. Adult zebrafish testes are paired organs forming elongated structures, internally organized into tubules. These tubules are formed by seminiferous epithelium containing cysts of spermatogonia and spermatocytes surrounded by somatic support cells, called Sertoli cells. Cysts are arranged around a lumen containing spermatozoa that is connected to the efferent ducts. The interstitial regions between the tubules contain the steroid-producing Leydig cells, connective tissue, and blood vessels.",
+    "zfinStartStage": "ZFS:0000041",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 504.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 504.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff gonad_sex: the testis is seeded from the immature gonad; its ZFA start (Days 21-29, 504 hpf) precedes the D9 window 600 to 720 hpf, so it is visible from 504 hpf (DM-33; rule E034 rejects the DM-32 value 600) and drawn only while the sex toggle is male (DM-32). From 504 to 600 hpf it is drawn 8 percent larger than the immature gonad it encloses, so the two read as one body until the cross-fade. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 10.8,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": "male",
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 504,
+        "text": "Testis term starts in ZFIN (Days 21-29).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340196/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/"
+      },
+      {
+        "hpf": 1080,
+        "text": "Spermatocyte term starts in ZFIN (Juvenile Days 45-89).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340196/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/"
+      },
+      {
+        "hpf": 2160,
+        "text": "Seminiferous tubules with cysts of spermatogonia to spermatids.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340196/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 504,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 0.8,
+          "diameter": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0000598; https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+        "estimate": true
+      },
+      {
+        "hpf": 1080,
+        "stageLabel": "Juvenile 45 dpf",
+        "dimsMm": {
+          "length": 3.0,
+          "diameter": 0.4
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0000598; https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 9.0,
+          "width": 1.2,
+          "height": 0.9
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0000598; https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+        "estimate": true,
+        "note": "per testis; male GSI about one tenth of the female GSI",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d testis record",
+      "https://zfin.org/ZFA:0000598",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340196/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.41,
+            "v": -0.6069,
+            "w": 0.58,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.2088,
+            0.049,
+            0.049
+          ]
+        },
+        {
+          "hpf": 600,
+          "sizeRefSl": 7.2556,
+          "placement": {
+            "u": 0.415,
+            "v": -0.6279,
+            "w": 0.5696,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.2592,
+            0.056,
+            0.056
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.42,
+            "v": -0.6576,
+            "w": 0.5594,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.3456,
+            0.063,
+            0.063
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.42,
+            "v": -0.6006,
+            "w": 0.5395,
+            "mirror": true
+          },
+          "radiiMm": [
+            1.08,
+            0.14,
+            0.14
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.42,
+            "v": -0.5086,
+            "w": 0.505,
+            "mirror": true
+          },
+          "radiiMm": [
+            2.304,
+            0.245,
+            0.315
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.42,
+            "v": -0.5242,
+            "w": 0.5111,
+            "mirror": true
+          },
+          "radiiMm": [
+            3.24,
+            0.315,
+            0.42
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "504 hpf: 800 x 150 um, seeded from the immature gonad (handoff gonad_sex, sexToggle; drawn at the immature gonad size plus 8 percent so it encloses it during the cross-fade)",
+        "1080 hpf: 3000 x 400 um; adult 9000 x 1200 x 900 um per testis (Gupta and Mullins 2010; research 03d rows; estimate)",
+        "paired strands attached to the dorsal body wall, lateral (w +-0.4), much thinner than the ovary lobes (ZFA definition; estimate)",
+        "Phase 2 visual calibration (RN-07): the gonad lies in the ventral half of the coelom, lateral to the gut, as the adult reference figure shows the testis.",
+        "Phase 2 visual calibration (RN-07): the adult gonad is a paired organ against the lateral wall of the ventral coelom, at 0.7 of its earlier height, so the coiled intestine reads through the body wall beside it.",
+        "Phase 2 visual calibration: keyframes that crossed the body outline after the layout pass were seated toward the spine in steps of 1.5 percent, and shrunk in steps of 3 percent only when seating alone did not close the gap, until every vertex builds inside the skin."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001118",
+    "name": "urogenital papilla",
+    "synonyms": [
+      "anal papilla",
+      "anal papillae",
+      "genital papilla",
+      "UGP",
+      "urogenital papillae"
+    ],
+    "system": "reproductive",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000632",
+    "uiParent": "ZFA:0000632",
+    "parentRelation": "part_of",
+    "definition": "A protuberance in front of the gential pore and behind the vent. Mature females have a well developed urogenital papillae whilst in mature males it is poorly developed.",
+    "zfinStartStage": "ZFS:0000038",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 144.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 144.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 144,
+        "text": "Urogenital papilla term starts in ZFIN (Day 6).",
+        "source": "https://zfin.org/ZFA:0001118"
+      },
+      {
+        "hpf": 2160,
+        "text": "Well developed in mature females; poorly developed in males.",
+        "source": "https://zfin.org/ZFA:0001118"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 144,
+        "stageLabel": "Day 6",
+        "dimsMm": {
+          "height": 0.015,
+          "diameter": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001118",
+        "estimate": true
+      },
+      {
+        "hpf": 720,
+        "stageLabel": "Juvenile 30 dpf",
+        "dimsMm": {
+          "height": 0.08,
+          "diameter": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001118",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "height": 0.5,
+          "diameter": 0.6
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001118",
+        "estimate": true,
+        "note": "female; male papilla smaller",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d urogenital papilla record",
+      "https://zfin.org/ZFA:0001118"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 144,
+          "sizeRefSl": 3.85,
+          "placement": {
+            "u": 0.63,
+            "v": -0.8587,
+            "w": 0
+          },
+          "radiiMm": [
+            0.01,
+            0.0075,
+            0.01
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.63,
+            "v": -0.8587,
+            "w": 0
+          },
+          "radiiMm": [
+            0.011,
+            0.008,
+            0.011
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.62,
+            "v": -0.8587,
+            "w": 0
+          },
+          "radiiMm": [
+            0.02,
+            0.014,
+            0.02
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.61,
+            "v": -0.833,
+            "w": 0
+          },
+          "radiiMm": [
+            0.03,
+            0.022,
+            0.03
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.61,
+            "v": -0.833,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.04,
+            0.05
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.61,
+            "v": -0.8587,
+            "w": 0
+          },
+          "radiiMm": [
+            0.08,
+            0.07,
+            0.08
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "placement": {
+            "u": 0.61,
+            "v": -0.833,
+            "w": 0
+          },
+          "radiiMm": [
+            0.2,
+            0.17,
+            0.2
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "placement": {
+            "u": 0.61,
+            "v": -0.833,
+            "w": 0
+          },
+          "radiiMm": [
+            0.3,
+            0.25,
+            0.3
+          ]
+        }
+      ],
+      "boundsMarginMm": 0.3,
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "144 hpf: 20 um wide, 15 high; 720 hpf: 100 x 80 um; adult 600 x 500 um female (research 03d rows; estimate)",
+        "a nub on the ventral surface just behind the vent, ventU + 0.01, v -0.97; the nub sits half proud of the skin (ZFA definition; estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001262",
+    "name": "gonad primordium",
+    "synonyms": [
+      "gonadal primordium",
+      "undifferentiated gonad"
+    ],
+    "system": "reproductive",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000632",
+    "uiParent": "ZFA:0000632",
+    "parentRelation": "part_of",
+    "definition": "Portion of tissue that gives rise to the immature gonad.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000039",
+    "startHpf": 0.0,
+    "endHpf": 336.0,
+    "visibleFromHpf": 120,
+    "modelEndHpf": 336.0,
+    "overrideNote": "DM-19: ZFA start stage Unknown. Drawn from 120 hpf, when somatic gonad cells surround the germ cells (Leerberg et al. 2017; research 03d). Handoff gonad_primordium_immature: the primordium hands off to the immature gonad over 300 to 336 hpf (D9); the window end equals the ZFA end (Days 7-13). Shown under the reproductive system, its ZFA parent, because it precedes the gonad group node. The fade-out spans the window.",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 36,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 120,
+        "text": "Somatic gonad cells detected around germ cells at 5 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/"
+      },
+      {
+        "hpf": 216,
+        "text": "Somatic compartment organised into an outer epithelial and inner mesenchymal layer (8 to 10 dpf).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/"
+      },
+      {
+        "hpf": 276,
+        "text": "Inner somatic cells begin to express sex-specific markers cyp19a1a and amh (11 to 12 dpf).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/"
+      },
+      {
+        "hpf": 312,
+        "text": "Early oocytes appear in all animals from about 13 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/"
+      },
+      {
+        "hpf": 336,
+        "text": "ZFIN end stage Days 7-13; immature gonad term follows.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.08,
+          "diameter": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001262; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/",
+        "estimate": true,
+        "note": "germ cells with a few somatic cells"
+      },
+      {
+        "hpf": 240,
+        "stageLabel": "Days 7-13",
+        "dimsMm": {
+          "length": 0.15,
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001262; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/",
+        "estimate": true,
+        "note": "bilayered somatic compartment by 8 to 10 dpf"
+      },
+      {
+        "hpf": 336,
+        "stageLabel": "Days 7-13 end",
+        "dimsMm": {
+          "length": 0.2,
+          "diameter": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001262; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/",
+        "estimate": true,
+        "note": "ZFIN end stage Days 7-13"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d gonad primordium record",
+      "https://zfin.org/ZFA:0001262",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.4,
+            "v": -0.37,
+            "w": 0.35,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.04,
+            0.0125,
+            0.0125
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.4,
+            "v": -0.37,
+            "w": 0.35,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.055,
+            0.016,
+            0.016
+          ]
+        },
+        {
+          "hpf": 240,
+          "sizeRefSl": 4.6143,
+          "placement": {
+            "u": 0.4,
+            "v": -0.37,
+            "w": 0.35,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.075,
+            0.02,
+            0.02
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.4,
+            "v": -0.37,
+            "w": 0.35,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1,
+            0.025,
+            0.025
+          ]
+        }
+      ],
+      "handoffOut": "gonad_primordium_immature",
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "120 hpf: paired 80 x 25 um rods of germ cells with a few somatic cells; 240 hpf: 150 x 40 um with a bilayered somatic compartment; 336 hpf: 200 x 50 um (Leerberg et al. 2017; research 03d rows; estimate)",
+        "u 0.40 dorsolateral to the intestine under the swim bladder, w +-0.35, v -0.37 (research 03d; estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0005272",
+    "name": "immature gonad",
+    "synonyms": [
+      "juvenile gonad",
+      "juvenile ovary"
+    ],
+    "system": "reproductive",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000632",
+    "uiParent": "ZFA:0000413",
+    "parentRelation": "part_of",
+    "definition": "Immature reproductive tissue that has not undergone final maturation into either testis or ovary. During gonadal development, the gonad may be transiently intersexual where there is a parallel presence of both oocytes and spermatocytes.",
+    "zfinStartStage": "ZFS:0000040",
+    "zfinEndStage": "ZFS:0000041",
+    "startHpf": 336.0,
+    "endHpf": 720.0,
+    "visibleFromHpf": 300,
+    "modelEndHpf": 720.0,
+    "overrideNote": "Handoff gonad_primordium_immature: seeded from the gonad primordium at the window start 300 hpf (DM-33); ZFA starts the immature gonad at Days 14-20 (336 hpf). Handoff gonad_sex: the immature gonad hands off to the ovary or the testis over 600 to 720 hpf (D9, sexToggle); the window end equals the ZFA end (Days 21-29). The fade-out spans the window.",
+    "fadeInHpf": 8.4,
+    "fadeOutHpf": 120,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 336,
+        "text": "Immature gonad term starts in ZFIN (Days 14-20).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      },
+      {
+        "hpf": 360,
+        "text": "Vascular and lymphatic endothelium, pericytes and macrophages populate the gonad between 12 and 20 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      },
+      {
+        "hpf": 480,
+        "text": "Sex determination in progress at 20 dpf; macrophages engulf germ cells.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      },
+      {
+        "hpf": 600,
+        "text": "Overt sex differentiation at about 25 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      },
+      {
+        "hpf": 720,
+        "text": "ZFIN end stage Days 21-29; gonad, ovary and testis terms start at 504 hpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 336,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.25,
+          "diameter": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0005272; https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/",
+        "estimate": true
+      },
+      {
+        "hpf": 480,
+        "stageLabel": "Days 14-20 (20 dpf)",
+        "dimsMm": {
+          "length": 0.5,
+          "diameter": 0.12
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0005272; https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/",
+        "estimate": true,
+        "note": "fish about 7 mm SL"
+      },
+      {
+        "hpf": 720,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 0.9,
+          "diameter": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0005272; https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/",
+        "estimate": true,
+        "note": "ZFIN end stage Days 21-29"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d immature gonad record",
+      "https://zfin.org/ZFA:0005272",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 300,
+          "sizeRefSl": 5.0429,
+          "placement": {
+            "u": 0.4,
+            "v": -0.5,
+            "w": 0.35,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.09,
+            0.024,
+            0.024
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.4,
+            "v": -0.5189,
+            "w": 0.35,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.125,
+            0.03,
+            0.03
+          ]
+        },
+        {
+          "hpf": 480,
+          "sizeRefSl": 6.3286,
+          "placement": {
+            "u": 0.41,
+            "v": -0.5943,
+            "w": 0.35,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.25,
+            0.06,
+            0.06
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.41,
+            "v": -0.6069,
+            "w": 0.58,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1944,
+            0.0455,
+            0.0455
+          ]
+        },
+        {
+          "hpf": 600,
+          "sizeRefSl": 7.2556,
+          "placement": {
+            "u": 0.415,
+            "v": -0.6279,
+            "w": 0.5696,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.252,
+            0.056,
+            0.056
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.42,
+            "v": -0.638,
+            "w": 0.5527,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.324,
+            0.07,
+            0.07
+          ]
+        }
+      ],
+      "handoffOut": "gonad_sex",
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "300 to 336 hpf: seeded from the gonad primordium (handoff gonad_primordium_immature, copyPlacement); 336 hpf: 250 x 60 um",
+        "480 hpf: 500 x 120 um in a 7 mm SL fish; 720 hpf: 900 x 200 um (PMC10651076; research 03d rows; estimate)",
+        "paired ellipsoids under the swim bladder, dorsal to the intestine, w +-0.35 to 0.4 (research 03d; estimate)",
+        "Phase 2 visual calibration (RN-07): the gonad lies in the ventral half of the coelom, lateral to the gut, as the adult reference figure shows the testis.",
+        "Phase 2 visual calibration (RN-07): the adult gonad is a paired organ against the lateral wall of the ventral coelom, at 0.7 of its earlier height, so the coiled intestine reads through the body wall beside it.",
+        "Phase 2 visual calibration: keyframes that crossed the body outline after the layout pass were seated toward the spine in steps of 1.5 percent, and shrunk in steps of 3 percent only when seating alone did not close the gap, until every vertex builds inside the skin."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0009288",
+    "name": "primordial germ cell",
+    "synonyms": [
+      "PGC"
+    ],
+    "system": "reproductive",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000632",
+    "uiParent": "ZFA:0000632",
+    "parentRelation": "part_of",
+    "definition": "A primordial germ cell is a diploid germ cell precursor that transiently exists in the embryo before it enters into close association with the somatic cells of the gonad and becomes irreversibly committed as a germ cell.",
+    "zfinStartStage": "ZFS:0000014",
+    "zfinEndStage": "ZFS:0000000",
+    "startHpf": 4.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 4.0,
+    "modelEndHpf": 720,
+    "overrideNote": "ZFA end stage Unknown (E008): the record ends at 720 hpf, when the gonad_sex handoff completes and the germ cells continue as oogonia or spermatogonia (DM-21; research 03d).",
+    "fadeInHpf": 0.0165,
+    "fadeOutHpf": 10.8,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 3,
+        "text": "PGCs specified at mid-blastula.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      },
+      {
+        "hpf": 4,
+        "text": "Primordial germ cell term starts in ZFIN (Sphere).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      },
+      {
+        "hpf": 24,
+        "text": "Migration to the gonadal region complete; 25 to 50 PGCs in bilateral clusters.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      },
+      {
+        "hpf": 120,
+        "text": "PGCs and somatic gonad cells begin to coalesce.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      },
+      {
+        "hpf": 168,
+        "text": "Gonad primordium term ends at 336 hpf; germ cells continue as oogonia or spermatogonia.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 4,
+        "stageLabel": "Sphere",
+        "dimsMm": {
+          "cellDiameter": 0.015
+        },
+        "counts": {
+          "count": 4
+        },
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0009288; https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/",
+        "estimate": true,
+        "note": "four PGCs at the blastoderm margin"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "clusterLength": 0.06,
+          "cellDiameter": 0.012
+        },
+        "counts": {
+          "count": 35
+        },
+        "anglesDeg": {},
+        "source": "research 03d; https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/",
+        "estimate": false,
+        "note": "25 to 50 PGCs in compact bilateral clusters"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "clusterLength": 0.07,
+          "cellDiameter": 0.012
+        },
+        "counts": {
+          "count": 40
+        },
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0009288; https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "clusterLength": 0.08,
+          "cellDiameter": 0.012
+        },
+        "counts": {
+          "count": 45
+        },
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0009288; https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/",
+        "estimate": true,
+        "note": "PGCs begin to associate with somatic gonad cells"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d primordial germ cell record",
+      "https://zfin.org/ZFA:0009288",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "keyframes": [
+        {
+          "hpf": 4,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.85,
+              "v": 0.0,
+              "w": 0.85
+            },
+            "radiiMm": [
+              0.0075,
+              0.0075,
+              0.0075
+            ]
+          },
+          "uStart": 0.835,
+          "uEnd": 0.865,
+          "count": 2,
+          "mirror": true
+        },
+        {
+          "hpf": 8,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.7,
+              "v": 0.0,
+              "w": 0.8
+            },
+            "radiiMm": [
+              0.0075,
+              0.0075,
+              0.0075
+            ]
+          },
+          "uStart": 0.685,
+          "uEnd": 0.715,
+          "count": 2,
+          "mirror": true
+        },
+        {
+          "hpf": 10.33,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.55,
+              "v": -0.1,
+              "w": 0.7
+            },
+            "radiiMm": [
+              0.007,
+              0.007,
+              0.007
+            ]
+          },
+          "uStart": 0.535,
+          "uEnd": 0.565,
+          "count": 2,
+          "mirror": true
+        },
+        {
+          "hpf": 14,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.5,
+              "v": -0.2,
+              "w": 0.6
+            },
+            "radiiMm": [
+              0.007,
+              0.007,
+              0.007
+            ]
+          },
+          "uStart": 0.485,
+          "uEnd": 0.515,
+          "count": 2,
+          "mirror": true
+        },
+        {
+          "hpf": 19,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.48,
+              "v": -0.25,
+              "w": 0.5
+            },
+            "radiiMm": [
+              0.006,
+              0.006,
+              0.006
+            ]
+          },
+          "uStart": 0.465,
+          "uEnd": 0.495,
+          "count": 3,
+          "mirror": true
+        },
+        {
+          "hpf": 24,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.475,
+              "v": -0.3,
+              "w": 0.45
+            },
+            "radiiMm": [
+              0.006,
+              0.006,
+              0.006
+            ]
+          },
+          "uStart": 0.46,
+          "uEnd": 0.49,
+          "count": 3,
+          "mirror": true
+        },
+        {
+          "hpf": 42,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.44,
+              "v": -0.35,
+              "w": 0.4
+            },
+            "radiiMm": [
+              0.006,
+              0.006,
+              0.006
+            ]
+          },
+          "uStart": 0.425,
+          "uEnd": 0.455,
+          "count": 4,
+          "mirror": true
+        },
+        {
+          "hpf": 48,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.43,
+              "v": -0.35,
+              "w": 0.4
+            },
+            "radiiMm": [
+              0.006,
+              0.006,
+              0.006
+            ]
+          },
+          "uStart": 0.415,
+          "uEnd": 0.445,
+          "count": 4,
+          "mirror": true
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.42,
+              "v": -0.36,
+              "w": 0.38
+            },
+            "radiiMm": [
+              0.006,
+              0.006,
+              0.006
+            ]
+          },
+          "uStart": 0.405,
+          "uEnd": 0.435,
+          "count": 4,
+          "mirror": true
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.4,
+              "v": -0.37,
+              "w": 0.35
+            },
+            "radiiMm": [
+              0.006,
+              0.006,
+              0.006
+            ]
+          },
+          "uStart": 0.385,
+          "uEnd": 0.415,
+          "count": 5,
+          "mirror": true
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.4,
+              "v": -0.37,
+              "w": 0.35
+            },
+            "radiiMm": [
+              0.006,
+              0.006,
+              0.006
+            ]
+          },
+          "uStart": 0.385,
+          "uEnd": 0.415,
+          "count": 5,
+          "mirror": true
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.4,
+              "v": -0.37,
+              "w": 0.35
+            },
+            "radiiMm": [
+              0.007,
+              0.007,
+              0.007
+            ]
+          },
+          "uStart": 0.385,
+          "uEnd": 0.415,
+          "count": 6,
+          "mirror": true
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.41,
+              "v": -0.38,
+              "w": 0.35
+            },
+            "radiiMm": [
+              0.008,
+              0.008,
+              0.008
+            ]
+          },
+          "uStart": 0.395,
+          "uEnd": 0.425,
+          "count": 6,
+          "mirror": true
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.42,
+              "v": -0.4,
+              "w": 0.4
+            },
+            "radiiMm": [
+              0.01,
+              0.01,
+              0.01
+            ]
+          },
+          "uStart": 0.405,
+          "uEnd": 0.435,
+          "count": 6,
+          "mirror": true
+        }
+      ],
+      "estimate": [
+        "template",
+        "count",
+        "uStart",
+        "uEnd"
+      ],
+      "sources": [
+        "4 hpf: four 15 um PGCs at the blastoderm margin, drawn as two lateral clusters (research 03d row; estimate)",
+        "24 hpf: 25 to 50 cells in two compact clusters of about 60 um at the yolk ball to yolk extension junction, somites 8 to 10, drawn as three 12 um blobs per side (PMC7847270; research 03d row)",
+        "120 to 720 hpf: the clusters sit inside the gonad primordium and then the gonad (research 03d; the mesh is hidden by the gonad records)"
+      ]
+    }
+  }
+]

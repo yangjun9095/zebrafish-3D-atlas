@@ -1,0 +1,187 @@
+{
+  "$id": "https://zebrafish-3d-atlas/schema/kits.json",
+  "title": "kits.json: starter slide kits (UI-45)",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9_-]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": {
+        "default": "",
+        "type": "string"
+      },
+      "bookmarks": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/__schema0"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "bookmarks"
+    ],
+    "additionalProperties": false
+  },
+  "$defs": {
+    "__schema0": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "t": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 4320
+        },
+        "view": {
+          "default": "lateral",
+          "type": "string",
+          "enum": [
+            "lateral",
+            "dorsal",
+            "ventral",
+            "anterior",
+            "posterior",
+            "threeQuarter"
+          ]
+        },
+        "cam": {
+          "default": null,
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "$ref": "#/$defs/__schema1"
+                },
+                "target": {
+                  "$ref": "#/$defs/__schema1"
+                }
+              },
+              "required": [
+                "position",
+                "target"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sel": {
+          "default": [],
+          "maxItems": 12,
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema2"
+          }
+        },
+        "hide": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "xr": {
+          "default": 60,
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "sec": {
+          "default": {
+            "axis": null,
+            "position": 0,
+            "flip": false
+          },
+          "type": "object",
+          "properties": {
+            "axis": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "sagittal",
+                    "frontal",
+                    "transverse"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "position": {
+              "type": "number",
+              "minimum": -1,
+              "maximum": 1
+            },
+            "flip": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "axis",
+            "position",
+            "flip"
+          ],
+          "additionalProperties": false
+        },
+        "iso": {
+          "default": false,
+          "type": "boolean"
+        },
+        "labels": {
+          "default": false,
+          "type": "boolean"
+        },
+        "notes": {
+          "default": "",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "t"
+      ],
+      "additionalProperties": false
+    },
+    "__schema1": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "items": false,
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "__schema2": {
+      "type": "string",
+      "pattern": "^ZFA:\\d{7}$"
+    }
+  }
+}

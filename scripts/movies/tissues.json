@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "tissues": [
+    {
+      "slug": "chorion",
+      "label": "Chorion",
+      "targetId": "ZFA:0000329",
+      "includeParts": false,
+      "fromHpf": 0,
+      "toHpf": 48,
+      "system": "early_embryo",
+      "why": "The only structure the atlas draws from 0 hpf, and it encloses every other one, so the movie opens on a green shell and loses it at hatching.",
+      "distinctRank": null
+    },
+    {
+      "slug": "yolk-syncytial-layer",
+      "label": "Yolk syncytial layer",
+      "targetId": "ZFA:0000088",
+      "includeParts": false,
+      "fromHpf": 3,
+      "toHpf": 48,
+      "system": "early_embryo",
+      "why": "A bright solid sphere at mid-body that shrinks as the yolk is consumed, and the only member of the ranked eight that is lit before 10 hpf.",
+      "distinctRank": 7
+    },
+    {
+      "slug": "enveloping-layer",
+      "label": "Enveloping layer",
+      "targetId": "ZFA:0000086",
+      "includeParts": false,
+      "fromHpf": 4.66,
+      "toHpf": 48,
+      "system": "early_embryo",
+      "why": "The outer epithelium of the blastoderm, a dome that spreads over the yolk through epiboly and is the only record that shows epiboly as motion.",
+      "distinctRank": null
+    },
+    {
+      "slug": "germ-ring",
+      "label": "Germ ring",
+      "targetId": "ZFA:0000111",
+      "includeParts": false,
+      "fromHpf": 5.66,
+      "toHpf": 48,
+      "system": "early_embryo",
+      "why": "A narrow band at the blastoderm margin that sweeps down the yolk; the aspect ratio of 9 to 1 is unlike any other early record.",
+      "distinctRank": null
+    },
+    {
+      "slug": "notochord",
+      "label": "Notochord",
+      "targetId": "ZFA:0000135",
+      "includeParts": false,
+      "fromHpf": 10,
+      "toHpf": 48,
+      "system": "axial",
+      "why": "One smooth tapering rod on the midline for the whole window, and the reference every other axial tissue is read against.",
+      "distinctRank": 8
+    },
+    {
+      "slug": "hatching-gland",
+      "label": "Hatching gland",
+      "targetId": "ZFA:0000026",
+      "includeParts": false,
+      "fromHpf": 10,
+      "toHpf": 48,
+      "system": "early_embryo",
+      "why": "A single oval on the dorsal yolk that no other record sits near, and it covers the 10 to 24 hpf part of the series.",
+      "distinctRank": null
+    },
+    {
+      "slug": "myotome",
+      "label": "Myotome",
+      "targetId": "ZFA:0001056",
+      "includeParts": false,
+      "fromHpf": 10.33,
+      "toHpf": 48,
+      "system": "muscular",
+      "why": "The largest lit area of any candidate and the only repeating chevron series; segmentation is legible frame by frame.",
+      "distinctRank": 1
+    },
+    {
+      "slug": "eye",
+      "label": "Eye",
+      "targetId": "ZFA:0000107",
+      "includeParts": true,
+      "fromHpf": 11.66,
+      "toHpf": 48,
+      "system": "sensory",
+      "why": "One saturated disc at the extreme anterior; the highest fill of the set at 0.80 and the only structure that far forward.",
+      "distinctRank": 6
+    },
+    {
+      "slug": "brain",
+      "label": "Brain",
+      "targetId": "ZFA:0000008",
+      "includeParts": true,
+      "fromHpf": 14,
+      "toHpf": 48,
+      "system": "nervous",
+      "why": "The whole brain family as one lobed mass in the head vault, so the movie shows the divisions appearing rather than one of them.",
+      "distinctRank": null
+    },
+    {
+      "slug": "lateral-line-system",
+      "label": "Lateral line system",
+      "targetId": "ZFA:0000034",
+      "includeParts": true,
+      "fromHpf": 14,
+      "toHpf": 48,
+      "system": "sensory",
+      "why": "A migrating primordium that resolves into evenly spaced neuromasts; the only regular row of separate dots.",
+      "distinctRank": 5
+    },
+    {
+      "slug": "pronephros",
+      "label": "Pronephros",
+      "targetId": "ZFA:0000151",
+      "includeParts": true,
+      "fromHpf": 14,
+      "toHpf": 48,
+      "system": "excretory",
+      "why": "The paired duct and tubule as a long thin pair high in the trunk, the only entry for the renal system.",
+      "distinctRank": null
+    },
+    {
+      "slug": "gut",
+      "label": "Gut",
+      "targetId": "ZFA:0000112",
+      "includeParts": true,
+      "fromHpf": 14,
+      "toHpf": 48,
+      "system": "digestive",
+      "why": "The rod resolves into the oesophagus, the bulb and the intestine over the window, so one movie carries the whole gut tube.",
+      "distinctRank": null
+    },
+    {
+      "slug": "pharyngeal-arch",
+      "label": "Pharyngeal arch",
+      "targetId": "ZFA:0001306",
+      "includeParts": true,
+      "fromHpf": 14,
+      "toHpf": 48,
+      "system": "skeletal",
+      "why": "A chain of beads under the head that grows from one to seven; no other candidate is a short row of solid blocks.",
+      "distinctRank": null
+    },
+    {
+      "slug": "intermediate-cell-mass",
+      "label": "Intermediate cell mass of mesoderm",
+      "targetId": "ZFA:0000033",
+      "includeParts": false,
+      "fromHpf": 16,
+      "toHpf": 48,
+      "system": "hematopoietic_immune",
+      "why": "The only hematopoietic record with a window in this range; a broken band between the somites and the yolk at 24 hpf.",
+      "distinctRank": null
+    },
+    {
+      "slug": "otic-vesicle",
+      "label": "Otic vesicle",
+      "targetId": "ZFA:0000051",
+      "includeParts": false,
+      "fromHpf": 16,
+      "toHpf": 48,
+      "system": "sensory",
+      "why": "A small solid circle behind the eye that grows and elongates; the only entry for the vestibuloauditory system.",
+      "distinctRank": null
+    },
+    {
+      "slug": "heart",
+      "label": "Heart",
+      "targetId": "ZFA:0000114",
+      "includeParts": true,
+      "fromHpf": 19,
+      "toHpf": 48,
+      "system": "cardiovascular",
+      "why": "A compact mass under the head that loops and splits into chambers at 42 hpf, all inside the window.",
+      "distinctRank": null
+    },
+    {
+      "slug": "trunk-vasculature",
+      "label": "Trunk vasculature",
+      "targetId": "ZFA:0005024",
+      "includeParts": true,
+      "fromHpf": 19,
+      "toHpf": 48,
+      "system": "cardiovascular",
+      "why": "Two long parallel trunks with a ladder of intersegmental rungs between them; 15 separate pieces and the only lattice.",
+      "distinctRank": 2
+    },
+    {
+      "slug": "spinal-cord",
+      "label": "Spinal cord",
+      "targetId": "ZFA:0000075",
+      "includeParts": false,
+      "fromHpf": 22,
+      "toHpf": 48,
+      "system": "nervous",
+      "why": "A rod dorsal to the notochord, the trunk half of the central nervous system the brain entry leaves out.",
+      "distinctRank": null
+    },
+    {
+      "slug": "median-fin-fold",
+      "label": "Median fin fold",
+      "targetId": "ZFA:0000040",
+      "includeParts": false,
+      "fromHpf": 22,
+      "toHpf": 48,
+      "system": "fins",
+      "why": "A long lens-shaped outline around the tail; it overlaps no other member of the ranked eight by more than 0.01.",
+      "distinctRank": 4
+    },
+    {
+      "slug": "pigment-cell",
+      "label": "Pigment cell",
+      "targetId": "ZFA:0009090",
+      "includeParts": true,
+      "fromHpf": 24,
+      "toHpf": 48,
+      "system": "integument_pigment",
+      "why": "Melanophores then xanthophores and iridophores as 128 separate spots over the whole body; the only stipple pattern.",
+      "distinctRank": 3
+    }
+  ]
+}

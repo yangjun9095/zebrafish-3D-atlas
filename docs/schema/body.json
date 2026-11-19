@@ -1,0 +1,329 @@
+{
+  "$id": "https://zebrafish-3d-atlas/schema/body.json",
+  "title": "body.json: body model keyframes (BG-24)",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "generatedBy": {
+      "type": "string"
+    },
+    "keyframes": {
+      "minItems": 24,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema0"
+      }
+    }
+  },
+  "required": [
+    "generatedBy",
+    "keyframes"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "__schema0": {
+      "type": "object",
+      "properties": {
+        "hpf": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 4320
+        },
+        "stage": {
+          "type": "string"
+        },
+        "regime": {
+          "type": "string",
+          "enum": [
+            "R0",
+            "R1",
+            "R2",
+            "R3",
+            "R4"
+          ]
+        },
+        "bodyLengthMm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "slMm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "axisLengthMm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "headTrunkAngleDeg": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "notochordFlexionDeg": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 45
+        },
+        "ventU": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "epibolyFraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "somiteCount": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 34
+        },
+        "cellCount": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "cap": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "baseRadiusMm": {
+                  "type": "number"
+                },
+                "heightMm": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "baseRadiusMm",
+                "heightMm"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "shellThicknessMm": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "yolkRadiusMm": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "yolkDomeMm": {
+          "default": 0,
+          "type": "number"
+        },
+        "yolkBall": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "u": {
+                  "type": "number"
+                },
+                "depthMm": {
+                  "type": "number"
+                },
+                "radiusMm": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "u",
+                "depthMm",
+                "radiusMm"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "yolkExtension": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "u0": {
+                  "type": "number"
+                },
+                "u1": {
+                  "type": "number"
+                },
+                "r0Mm": {
+                  "type": "number"
+                },
+                "r1Mm": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "u0",
+                "u1",
+                "r0Mm",
+                "r1Mm"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "chorion": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "centre": {
+                  "$ref": "#/$defs/__schema1"
+                },
+                "radiusMm": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "centre",
+                "radiusMm"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "spine": {
+          "minItems": 7,
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema1"
+          }
+        },
+        "profile": {
+          "minItems": 9,
+          "maxItems": 9,
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema2"
+          }
+        },
+        "estimate": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "hpf",
+        "stage",
+        "regime",
+        "bodyLengthMm",
+        "slMm",
+        "axisLengthMm",
+        "headTrunkAngleDeg",
+        "notochordFlexionDeg",
+        "ventU",
+        "epibolyFraction",
+        "somiteCount",
+        "cellCount",
+        "cap",
+        "shellThicknessMm",
+        "yolkRadiusMm",
+        "yolkBall",
+        "yolkExtension",
+        "chorion",
+        "spine",
+        "profile",
+        "sources"
+      ],
+      "additionalProperties": false
+    },
+    "__schema1": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "items": false,
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "__schema2": {
+      "type": "object",
+      "properties": {
+        "u": {
+          "type": "number"
+        },
+        "hD": {
+          "type": "number"
+        },
+        "hV": {
+          "type": "number"
+        },
+        "hW": {
+          "type": "number"
+        },
+        "exponent": {
+          "default": 2,
+          "type": "number"
+        }
+      },
+      "required": [
+        "u",
+        "hD",
+        "hV",
+        "hW"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

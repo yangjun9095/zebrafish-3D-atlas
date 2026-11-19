@@ -1,0 +1,3889 @@
+[
+  {
+    "id": "ZFA:0000112",
+    "name": "gut",
+    "synonyms": [
+      "alimentary canal",
+      "enteric tract",
+      "gut tube"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0000339",
+    "startStage": "ZFS:0000025",
+    "startHpf": 14.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The alimentary or digestive tract, and associated organs.",
+    "spatial": {
+      "apFraction": [
+        0.12,
+        0.58
+      ],
+      "dv": "ventral to the notochord and dorsal aorta; dorsal to the yolk and later to the pericardium",
+      "laterality": "midline, loops left at the foregut",
+      "landmarks": "group node: pharynx to vent. Anus lies at the posterior end of the yolk extension at about 0.55 to 0.58 of body length in the larva."
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Group node only. Draw no geometry. Children carry the tubes."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 1000,
+          "diameter": 25
+        },
+        "source": "estimate (this document)",
+        "note": "endodermal rod from the pharynx to the proctodeum"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 1300,
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 1700,
+          "diameter": 90
+        },
+        "source": "estimate (this document)",
+        "note": "mouth to vent, straight-line path"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 40000,
+          "diameter": 1500
+        },
+        "source": "estimate (this document)",
+        "note": "folded intestine in a 25 mm SL fish"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 14,
+        "event": "digestive system and gut terms begin in ZFIN (10-13 somites)"
+      },
+      {
+        "hpf": 19,
+        "event": "endoderm forms a continuous rod along the midline (intestinal rod)"
+      },
+      {
+        "hpf": 26,
+        "event": "gut endoderm lies as a thin layer dorsal to the yolk"
+      },
+      {
+        "hpf": 52,
+        "event": "gut tube extends from the prospective mouth to the anus; liver, pancreas and swim bladder buds visible"
+      },
+      {
+        "hpf": 75,
+        "event": "single continuous lumen from mouth to anus; anus still closed"
+      },
+      {
+        "hpf": 120,
+        "event": "cloaca opens; larvae start to feed at 5 to 7 dpf"
+      }
+    ],
+    "colorHint": "#D9B382",
+    "sources": [
+      "https://zfin.org/ZFA:0000112",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346124/",
+      "https://pubmed.ncbi.nlm.nih.gov/16125164/",
+      "https://pubmed.ncbi.nlm.nih.gov/15652704/"
+    ],
+    "notes": "ZFA treats gut as an anatomical group that holds the esophagus, intestine, cloaca and proctodeum. Use it as the parent node in the UI and give it no mesh of its own. The 52 hpf and 74 to 76 hpf events come from a 2025 review that cites Ng et al. 2005 and Wallace et al. 2005."
+  },
+  {
+    "id": "ZFA:0005737",
+    "name": "intestinal rod",
+    "synonyms": [
+      "endodermal rod",
+      "intestinal anlage"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0000112",
+    "startStage": "ZFS:0000027",
+    "startHpf": 19.0,
+    "endStage": "ZFS:0000032",
+    "endHpf": 48.0,
+    "definition": "Multicellular structure composed of endodermal cells that forms a continuous rod along the anterior-posterior axis of the embryo in contact with the YSL.  This rod will give rise to the endodermal components of the alimentary canal and its connected organs: liver, gall bladder pancreas and swim bladder. Does not have part pharyngeal endoderm.",
+    "spatial": {
+      "apFraction": [
+        0.25,
+        0.56
+      ],
+      "dv": "ventral to the notochord; directly on the yolk syncytial layer",
+      "laterality": "midline; the foregut segment bends left between 26 and 30 hpf",
+      "landmarks": "from the posterior pharynx (somite 1 level) to the proctodeum below somite 17 to 18"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Solid rod (no lumen) along a spline that follows the dorsal surface of the yolk ball and yolk extension. Add a leftward kink under somites 1 to 3 from 26 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "20-25 somites",
+        "hpf": 21,
+        "dims_um": {
+          "length": 800,
+          "diameter": 20
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 1000,
+          "diameter": 25
+        },
+        "source": "estimate (this document)",
+        "note": "rod is two to three cells wide"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 1300,
+          "diameter": 40
+        },
+        "source": "estimate (this document)",
+        "note": "replaced by the intestine terms at 48 hpf"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 19,
+        "event": "intestinal rod term starts in ZFIN (20-25 somites)"
+      },
+      {
+        "hpf": 24,
+        "event": "endoderm cells caudal to the pharynx have aggregated into the rod"
+      },
+      {
+        "hpf": 28,
+        "event": "rod segment under somite 1 thickens; liver morphogenesis begins"
+      },
+      {
+        "hpf": 30,
+        "event": "foregut portion loops to the left (26 to 30 hpf)"
+      },
+      {
+        "hpf": 48,
+        "event": "ZFIN end stage High-pec; the rod is now the intestine"
+      }
+    ],
+    "colorHint": "#E8C99B",
+    "sources": [
+      "https://zfin.org/ZFA:0005737",
+      "https://zfin.org/ZDB-PUB-030325-1",
+      "http://www.cas.zju.edu.cn/_upload/article/files/71/46/73e0e645441480db54b7de893f91/374ffd61-efc8-499e-979a-b5043a68c280.pdf",
+      "https://pubmed.ncbi.nlm.nih.gov/16125164/"
+    ],
+    "notes": "The rod gives rise to the endodermal parts of the alimentary canal, liver, gall bladder, pancreas and swim bladder. The pharyngeal endoderm is not part of it. Use this term for the gut between 19 and 48 hpf and switch to intestine, intestinal bulb, mid intestine and posterior intestine afterwards."
+  },
+  {
+    "id": "ZFA:0005738",
+    "name": "intestinal bulb primordium",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0000112",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000032",
+    "endHpf": 48.0,
+    "definition": "Portion of the intestinal rod that loops to left between 26-30hpf and gives rise to the intestinal bulb and liver and anterior pancreatic primordium.  The endoderm at this stage is a compact mass of cells with little to no polarization.",
+    "spatial": {
+      "apFraction": [
+        0.25,
+        0.32
+      ],
+      "dv": "ventral to the notochord at somites 1 to 3; dorsal to the yolk",
+      "laterality": "bends to the left of the midline between 26 and 30 hpf",
+      "landmarks": "under somites 1 to 3, posterior to the pharynx, anterior to the yolk ball apex"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Thickened anterior part of the intestinal rod. Model as a wider tube segment that bows left. The liver primordium buds from its left face and the anterior pancreatic bud from its ventral face."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 150,
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 200,
+          "diameter": 60
+        },
+        "source": "estimate (this document)",
+        "note": "ZFIN end stage High-pec"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "term starts in ZFIN (Prim-5)"
+      },
+      {
+        "hpf": 28,
+        "event": "thickens under somite 1; liver bud appears on the left"
+      },
+      {
+        "hpf": 30,
+        "event": "loops left; left bend complete by about 34 hpf"
+      },
+      {
+        "hpf": 36,
+        "event": "anterior (ventral) pancreatic bud arises from its ventral ridge"
+      },
+      {
+        "hpf": 48,
+        "event": "becomes the intestinal bulb"
+      }
+    ],
+    "colorHint": "#E2B77A",
+    "sources": [
+      "https://zfin.org/ZFA:0005738",
+      "https://zfin.org/ZDB-PUB-030325-1",
+      "http://www.cas.zju.edu.cn/_upload/article/files/71/46/73e0e645441480db54b7de893f91/374ffd61-efc8-499e-979a-b5043a68c280.pdf"
+    ],
+    "notes": "ZFA notes that the primordium is a compact mass of endoderm cells with little polarisation. It is the source of the intestinal bulb, the liver and the anterior pancreatic bud."
+  },
+  {
+    "id": "ZFA:0000056",
+    "name": "pharynx",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0000339",
+    "startStage": "ZFS:0000025",
+    "startHpf": 14.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Swollen region of the anterior foregut, posterior to the mouth and anterior to the liver; its walls form the jaws and gills.",
+    "spatial": {
+      "apFraction": [
+        0.08,
+        0.25
+      ],
+      "dv": "ventral to the hindbrain and notochord; dorsal to the heart",
+      "laterality": "midline",
+      "landmarks": "from the mouth to the esophagus; pharyngeal pouches 1 to 6 open into it; the teeth sit on ceratobranchial 5 at its posterior end"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Flattened tube, wider than tall, from the mouth to the esophagus. Add paired lateral slits (pouches) from 48 hpf. In the adult it is a wide chamber under the gill arches."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 300,
+          "width": 60,
+          "height": 30
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 350,
+          "width": 90,
+          "height": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 450,
+          "width": 150,
+          "height": 60
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 4500,
+          "width": 3000,
+          "height": 1500
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 14,
+        "event": "pharyngeal endoderm present (10-13 somites)"
+      },
+      {
+        "hpf": 48,
+        "event": "pharyngeal pouches 2 to 6 have formed; small open mouth located between the eyes"
+      },
+      {
+        "hpf": 72,
+        "event": "mouth protrudes anterior to the eye; pharynx connects mouth to esophagus"
+      },
+      {
+        "hpf": 120,
+        "event": "gill filaments and teeth in place; feeding begins"
+      }
+    ],
+    "colorHint": "#E6A57E",
+    "sources": [
+      "https://zfin.org/ZFA:0000056",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346124/"
+    ],
+    "notes": "ZFA defines the pharynx as the swollen anterior foregut between the mouth and the liver whose walls form the jaws and gills. The teeth term (ceratobranchial 5 tooth) is a part of the pharynx. The skeletal and respiratory specialists cover arches and gills."
+  },
+  {
+    "id": "ZFA:0000547",
+    "name": "mouth",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0000339",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "No definition in ZFA.",
+    "visibleFromHpf": 60,
+    "visibleNote": "ZFIN gives an unknown start stage. The mouth opens at about 60 hpf in a ventral position and reaches its anterior terminal position by 72 hpf (Protruding-mouth stage).",
+    "spatial": {
+      "apFraction": [
+        0.0,
+        0.03
+      ],
+      "dv": "ventral between the eyes at 48 to 60 hpf; terminal at the snout tip from 72 hpf",
+      "laterality": "midline",
+      "landmarks": "anterior tip of the head; below the eyes before 72 hpf"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Elliptical opening on the head mesh. Animate its position from mid-ventral (below the eyes) at 60 hpf to the snout tip at 72 hpf. Use a boolean cut or a dark disc."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "width": 30,
+          "height": 15
+        },
+        "source": "estimate (this document)",
+        "note": "small opening between the eyes, seen only with Nomarski optics"
+      },
+      {
+        "stageLabel": "Pec-fin",
+        "hpf": 60,
+        "dims_um": {
+          "width": 50,
+          "height": 30
+        },
+        "source": "estimate (this document)",
+        "note": "small ventral opening"
+      },
+      {
+        "stageLabel": "Protruding-mouth",
+        "hpf": 72,
+        "dims_um": {
+          "width": 80,
+          "height": 50
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "width": 150,
+          "height": 80
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "width": 2500,
+          "height": 1500
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 19,
+        "event": "stomodeum (ectodermal invagination) forms at 20-25 somites"
+      },
+      {
+        "hpf": 48,
+        "event": "small open mouth visible with Nomarski optics between the eyes"
+      },
+      {
+        "hpf": 60,
+        "event": "mouth opens in a ventral position"
+      },
+      {
+        "hpf": 72,
+        "event": "mouth protrudes beyond the eye and gapes open"
+      },
+      {
+        "hpf": 96,
+        "event": "anterior-dorsal protrusion continues during day 4"
+      }
+    ],
+    "colorHint": "#C97B63",
+    "sources": [
+      "https://zfin.org/ZFA:0000547",
+      "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "https://zfin.org/zf_info/zfbook/stages/larval.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10945834/"
+    ],
+    "notes": "Kimmel et al. 1995 describe the repositioning of the mouth during the last 12 hours of the hatching period. The ZFA start stage is unknown, so the model should use visibleFromHpf.",
+    "startNote": "ZFIN start stage is Unknown (ZFS:0000000). startHpf set to 0.0; use visibleFromHpf."
+  },
+  {
+    "id": "ZFA:0000204",
+    "name": "esophagus",
+    "synonyms": [
+      "oesophagus"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0000112",
+    "startStage": "ZFS:0000030",
+    "startHpf": 30.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Esophagus part of the gut that develops from endodermal precursors at the rostral end of the digestive tract.  The esophagus develops independently from the intestine.",
+    "spatial": {
+      "apFraction": [
+        0.22,
+        0.27
+      ],
+      "dv": "dorsal to the pericardium and sinus venosus; ventral to the notochord",
+      "laterality": "midline",
+      "landmarks": "short tube between the posterior pharynx and the intestinal bulb; the swim bladder pneumatic duct leaves its dorsal wall; the liver lies ventral and left of its posterior end"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Short narrow tube. Keep the lumen closed before 72 hpf. Wall thicker than the intestine (striated muscle)."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-15",
+        "hpf": 30,
+        "dims_um": {
+          "length": 40,
+          "diameter": 20
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 80,
+          "diameter": 25
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 130,
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2000,
+          "diameter": 1000
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 30,
+        "event": "esophagus term starts in ZFIN (Prim-15); it develops separately from the intestine"
+      },
+      {
+        "hpf": 52,
+        "event": "gut tube continuous from mouth to anus"
+      },
+      {
+        "hpf": 75,
+        "event": "lumen continuous with the pharynx and intestinal bulb"
+      },
+      {
+        "hpf": 120,
+        "event": "esophageal epithelium detectable as a distinct region"
+      },
+      {
+        "hpf": 168,
+        "event": "epithelium begins to stratify into four cell layers"
+      }
+    ],
+    "colorHint": "#D8946A",
+    "sources": [
+      "https://zfin.org/ZFA:0000204",
+      "https://pubmed.ncbi.nlm.nih.gov/15652704/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346124/"
+    ],
+    "notes": "ZFA states that the esophagus develops from endodermal precursors at the rostral end of the digestive tract, independently of the intestine. The 5 dpf and 7 dpf epithelium statements come from the 2025 gut review."
+  },
+  {
+    "id": "ZFA:0001338",
+    "name": "intestine",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0000112",
+    "startStage": "ZFS:0000030",
+    "startHpf": 30.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Folded tube that has parts intestinal bulb, mid intestine and posterior intestine.  The intestine is where digestion and nutrient absorption occurs.",
+    "spatial": {
+      "apFraction": [
+        0.27,
+        0.57
+      ],
+      "dv": "ventral to the swim bladder, pronephric ducts and dorsal aorta; dorsal to the yolk extension in the larva",
+      "laterality": "midline, with the bulb offset to the left in the larva",
+      "landmarks": "from the esophagus to the cloaca; folds into three loops in the adult coelom"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Group node for intestinal bulb, mid intestine and posterior intestine. Use one spline for the whole intestine and let the children own segments of it."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-15",
+        "hpf": 30,
+        "dims_um": {
+          "length": 900,
+          "diameter": 30
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 1200,
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 1400,
+          "diameter": 90
+        },
+        "source": "estimate (this document)",
+        "note": "bulb diameter about 100; posterior segment about 40"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 35000,
+          "diameter": 1500
+        },
+        "source": "estimate (this document)",
+        "note": "three folded segments in a 25 mm SL fish"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 30,
+        "event": "intestine term starts in ZFIN (Prim-15)"
+      },
+      {
+        "hpf": 48,
+        "event": "multiple small lumens form between cells"
+      },
+      {
+        "hpf": 68,
+        "event": "all embryos show a single lumen"
+      },
+      {
+        "hpf": 98,
+        "event": "epithelial folding begins in the intestinal bulb; three regions distinguishable between 98 and 126 hpf"
+      },
+      {
+        "hpf": 504,
+        "event": "a loop forms midway along the intestine between 20 and 22 dpf; length doubles between 19 and 26 dpf"
+      },
+      {
+        "hpf": 792,
+        "event": "adult pattern of epithelial turnover begins at about 33 dpf"
+      }
+    ],
+    "colorHint": "#E3A572",
+    "sources": [
+      "https://zfin.org/ZFA:0001338",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3929411/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8432741/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346124/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2996925/"
+    ],
+    "notes": "ZFA defines the intestine as a folded tube with parts intestinal bulb, mid intestine and posterior intestine. Alvers et al. 2014 report that single lumens form by 68 hpf. Li et al. 2020 describe the larval to juvenile looping and growth."
+  },
+  {
+    "id": "ZFA:0001076",
+    "name": "intestinal bulb",
+    "synonyms": [
+      "anterior intestine",
+      "foregut",
+      "pseudogaster"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0001338",
+    "startStage": "ZFS:0000032",
+    "startHpf": 42.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The bulbous anteriormost portion of the intestine has the most digestive enzymes and the greatest epithelial surface area.",
+    "spatial": {
+      "apFraction": [
+        0.27,
+        0.4
+      ],
+      "dv": "ventral to the swim bladder; dorsal and right of the liver; the pancreas head lies on its dorsal-right side",
+      "laterality": "left of the midline in the larva",
+      "landmarks": "immediately posterior to the esophagus; widest part of the gut; the hepatopancreatic duct enters its ventral wall"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Tube with a large radius that tapers into the mid intestine. Give it the widest lumen of the tract. In the adult the rostral bulb is the first descending loop."
+    },
+    "sizes": [
+      {
+        "stageLabel": "High-pec",
+        "hpf": 42,
+        "dims_um": {
+          "length": 200,
+          "diameter": 50
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 250,
+          "diameter": 60
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 400,
+          "diameter": 100
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 12000,
+          "diameter": 2000
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 42,
+        "event": "intestinal bulb term starts in ZFIN (High-pec)"
+      },
+      {
+        "hpf": 58,
+        "event": "two enlarged lumens side by side in the bulb, then fusion"
+      },
+      {
+        "hpf": 98,
+        "event": "folding of the bulb epithelium begins"
+      },
+      {
+        "hpf": 120,
+        "event": "the bulb holds the most digestive enzymes and the largest epithelial surface"
+      }
+    ],
+    "colorHint": "#EDAE6B",
+    "sources": [
+      "https://zfin.org/ZFA:0001076",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3929411/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346124/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2996925/"
+    ],
+    "notes": "Synonyms in ZFA include anterior intestine and foregut. The zebrafish has no stomach; the bulb stores food. Wang et al. 2010 name the adult segment the rostral intestinal bulb."
+  },
+  {
+    "id": "ZFA:0001323",
+    "name": "mid intestine",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0001338",
+    "startStage": "ZFS:0000030",
+    "startHpf": 30.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The terminal region of the mid intestine is comprised of specialized enterocytes that appear to play a role in mucosal immunity.  The mid intestine also appears to be involved in iron absorption.",
+    "spatial": {
+      "apFraction": [
+        0.4,
+        0.5
+      ],
+      "dv": "dorsal to the yolk extension in the larva; ventral to the pronephric ducts",
+      "laterality": "midline",
+      "landmarks": "between the intestinal bulb and the posterior intestine; the pancreas tail runs along its right side"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Medium radius tube. In the adult this is the second loop of the folded intestine."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-15",
+        "hpf": 30,
+        "dims_um": {
+          "length": 300,
+          "diameter": 25
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 400,
+          "diameter": 35
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 500,
+          "diameter": 60
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 12000,
+          "diameter": 1500
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 30,
+        "event": "mid intestine term starts in ZFIN (Prim-15)"
+      },
+      {
+        "hpf": 100,
+        "event": "goblet cells appear in the mid intestine"
+      },
+      {
+        "hpf": 120,
+        "event": "specialised enterocytes at its posterior end take up macromolecules"
+      }
+    ],
+    "colorHint": "#E39A5B",
+    "sources": [
+      "https://zfin.org/ZFA:0001323",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346124/",
+      "https://pubmed.ncbi.nlm.nih.gov/15652704/"
+    ],
+    "notes": "ZFA notes that the posterior end of the mid intestine holds enterocytes with a role in mucosal immunity and iron uptake."
+  },
+  {
+    "id": "ZFA:0000706",
+    "name": "posterior intestine",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0001338",
+    "startStage": "ZFS:0000030",
+    "startHpf": 30.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The posterior intestine has short longitudinally arranged epithelial folds which are similar to the colon of higher vertebrates.",
+    "spatial": {
+      "apFraction": [
+        0.5,
+        0.57
+      ],
+      "dv": "ventral to the pronephric ducts; dorsal to the ventral fin fold",
+      "laterality": "midline",
+      "landmarks": "from the end of the yolk extension to the cloaca"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Narrow straight tube that ends at the cloaca. In the adult this is the third, caudal loop."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-15",
+        "hpf": 30,
+        "dims_um": {
+          "length": 200,
+          "diameter": 20
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 250,
+          "diameter": 30
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 250,
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 10000,
+          "diameter": 1200
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 30,
+        "event": "posterior intestine term starts in ZFIN (Prim-15)"
+      },
+      {
+        "hpf": 48,
+        "event": "hindgut inserts into the cloaca"
+      },
+      {
+        "hpf": 52,
+        "event": "first enteroendocrine cells appear in the posterior intestine"
+      },
+      {
+        "hpf": 120,
+        "event": "cloaca opens; the segment resembles the colon of other vertebrates"
+      }
+    ],
+    "colorHint": "#C98A4E",
+    "sources": [
+      "https://zfin.org/ZFA:0000706",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10050536/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346124/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2996925/"
+    ],
+    "notes": "ZFA describes short longitudinal epithelial folds similar to the colon. Wang et al. 2010 show that the adult caudal segments share expression features with the mammalian large intestine."
+  },
+  {
+    "id": "ZFA:0005781",
+    "name": "cloaca",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0000112",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Part of the gut where the pronephric tubules come together with the caudal end of the intestine attaching at 4dpf.  The oviduct or sperm duct connect later.",
+    "spatial": {
+      "apFraction": [
+        0.56,
+        0.58
+      ],
+      "dv": "ventral body wall at the posterior end of the yolk extension",
+      "laterality": "midline",
+      "landmarks": "where the two pronephric ducts and the posterior intestine meet; the vent opens on the ventral surface just anterior to the anal fin fold"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "Small chamber at the end of the gut spline. Attach the two pronephric duct splines here. Open the vent (dark disc) at 120 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 25
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 35
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 45
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 800
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "cloaca term starts in ZFIN (Prim-5); pronephric ducts fuse at the cloaca at 24 to 30 hpf"
+      },
+      {
+        "hpf": 48,
+        "event": "hindgut inserts into the cloaca"
+      },
+      {
+        "hpf": 96,
+        "event": "intestine attaches to the cloaca at 4 dpf (ZFA definition)"
+      },
+      {
+        "hpf": 120,
+        "event": "cloaca opens for excretion"
+      },
+      {
+        "hpf": 2160,
+        "event": "oviduct or sperm duct connect in the adult"
+      }
+    ],
+    "colorHint": "#A86B4C",
+    "sources": [
+      "https://zfin.org/ZFA:0005781",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10050536/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8424172/"
+    ],
+    "notes": "The ZFA definition places the intestinal attachment at 4 dpf. A 2023 review places the hindgut insertion at 48 hpf and the opening at about 120 hpf. Both agree that excretion starts at about 5 dpf."
+  },
+  {
+    "id": "ZFA:0000066",
+    "name": "proctodeum",
+    "synonyms": [
+      "anus"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0000112",
+    "startStage": "ZFS:0000028",
+    "startHpf": 22.0,
+    "endStage": "ZFS:0000029",
+    "endHpf": 30.0,
+    "definition": "An inward fold on the surface of the embryonic ectoderm that develops into part of the anal passage.",
+    "spatial": {
+      "apFraction": [
+        0.56,
+        0.57
+      ],
+      "dv": "ventral surface",
+      "laterality": "midline",
+      "landmarks": "shallow ectodermal pit at the posterior end of the yolk extension, below somite 17 to 18"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Small surface dimple. Show it only from 22 to 30 hpf, then hand over to the vent."
+    },
+    "sizes": [
+      {
+        "stageLabel": "26+ somites",
+        "hpf": 22,
+        "dims_um": {
+          "diameter": 20,
+          "depth": 10
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 25,
+          "depth": 15
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 22,
+        "event": "proctodeum term starts in ZFIN (26+ somites)"
+      },
+      {
+        "hpf": 30,
+        "event": "ZFIN end stage Prim-5; the vent develops from it"
+      }
+    ],
+    "colorHint": "#8F5A40",
+    "sources": [
+      "https://zfin.org/ZFA:0000066"
+    ],
+    "notes": "ZFA lists anus as a synonym of proctodeum. The vent term continues from 24 hpf to adult."
+  },
+  {
+    "id": "ZFA:0000298",
+    "name": "vent",
+    "synonyms": [
+      "cloacal opening",
+      "cloacal vent"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0005781",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Is a surface structure and is the external opening of the cloaca.",
+    "visibleFromHpf": 120,
+    "visibleNote": "ZFIN starts the vent at Prim-5 (24 hpf) because it develops from the proctodeum. The opening only becomes patent at about 120 hpf.",
+    "spatial": {
+      "apFraction": [
+        0.565,
+        0.575
+      ],
+      "dv": "ventral surface",
+      "laterality": "midline",
+      "landmarks": "just anterior to the anal fin (fold); posterior to the yolk extension; anterior to the urogenital papilla in the adult"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Dark elliptical disc on the ventral body surface. Scale with body length."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 20
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 30
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 700
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "vent term starts in ZFIN (Prim-5)"
+      },
+      {
+        "hpf": 120,
+        "event": "cloaca opens for excretion"
+      },
+      {
+        "hpf": 720,
+        "event": "the last fin fold remnant persists at the anterior margin of the vent at about 10 mm SL"
+      }
+    ],
+    "colorHint": "#7A4A35",
+    "sources": [
+      "https://zfin.org/ZFA:0000298",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10050536/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "notes": "ZFA synonyms: cloacal opening, cloacal vent. Parichy et al. 2009 use the vent as a landmark for fin fold loss."
+  },
+  {
+    "id": "ZFA:0000124",
+    "name": "liver primordium",
+    "synonyms": [
+      "liver bud"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0000036",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000029",
+    "endHpf": 30.0,
+    "definition": "Embryonic primordium that develops into the liver.",
+    "spatial": {
+      "apFraction": [
+        0.26,
+        0.29
+      ],
+      "dv": "ventral to the notochord at somite 1; dorsal to the yolk",
+      "laterality": "left; the primordium is the leftward thickening of the foregut",
+      "landmarks": "under somite 1, posterior to the heart and pharynx, anterior-dorsal to the yolk ball"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Small ellipsoid attached to the left face of the intestinal bulb primordium. Grow it from 28 to 30 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 40,
+          "width": 30,
+          "height": 30
+        },
+        "source": "estimate (this document)",
+        "note": "budding stage I: aggregating hepatocytes"
+      },
+      {
+        "stageLabel": "Prim-5 late",
+        "hpf": 28,
+        "dims_um": {
+          "length": 60,
+          "width": 40,
+          "height": 40
+        },
+        "source": "estimate (this document)",
+        "note": "thickening under somite 1"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "liver primordium term starts and ends in ZFIN (Prim-5); hepatoblasts aggregate shortly after 24 hpf"
+      },
+      {
+        "hpf": 28,
+        "event": "endoderm under somite 1 thickens (budding stage II)"
+      },
+      {
+        "hpf": 30,
+        "event": "primordium bends to the left; the liver term takes over"
+      }
+    ],
+    "colorHint": "#A8453A",
+    "sources": [
+      "https://zfin.org/ZFA:0000124",
+      "https://zfin.org/ZDB-PUB-030325-1",
+      "http://www.cas.zju.edu.cn/_upload/article/files/71/46/73e0e645441480db54b7de893f91/374ffd61-efc8-499e-979a-b5043a68c280.pdf"
+    ],
+    "notes": "Field et al. 2003 split liver budding (24 to 50 hpf) into three stages. The primordium term covers only the first hours. Synonym: liver bud."
+  },
+  {
+    "id": "ZFA:0000123",
+    "name": "liver",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0000036",
+    "startStage": "ZFS:0000030",
+    "startHpf": 30.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Solid compound organ with three lobes that has many functions including bile production, blood detoxification, the production of critical plasma proteins and clotting factors, complement proteins  and the storage of many substances, such as lipids, amino acids, iron, and glycogen. Female fish produce vitellogenins in the liver.",
+    "spatial": {
+      "apFraction": [
+        0.24,
+        0.36
+      ],
+      "dv": "ventral to the esophagus and swim bladder; dorsal to the pericardium and yolk",
+      "laterality": "left of the midline until 80 hpf; crosses the midline to the right at 80 to 84 hpf; three lobes in the adult",
+      "landmarks": "posterior to the heart, anterior to the intestinal bulb; the gall bladder sits on the right lobe"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "One ellipsoid on the left of the foregut until 72 hpf. From 80 hpf add a second ellipsoid on the right (gall bladder lobe). From 15 dpf add a flat ventral lobe along the intestine. In the adult use three lobes that wrap the intestinal loops."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 40,
+          "width": 30,
+          "height": 30
+        },
+        "source": "estimate (this document)",
+        "note": "primordium only"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 100,
+          "width": 60,
+          "height": 60
+        },
+        "source": "estimate (this document)",
+        "note": "compact bud; hepatic duct present at 50 hpf"
+      },
+      {
+        "stageLabel": "Protruding-mouth",
+        "hpf": 72,
+        "dims_um": {
+          "length": 150,
+          "width": 80,
+          "height": 80
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 250,
+          "width": 170,
+          "height": 120
+        },
+        "source": "estimate (this document)",
+        "note": "blood flow detected 70 um deep in both lobes; hepatocytes 10 to 14 um; sinusoids 12 to 16 um"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 5000,
+          "width": 3000,
+          "height": 2000
+        },
+        "source": "estimate (this document)",
+        "note": "three lobes along the intestinal loops"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 28,
+        "event": "budding begins under somite 1"
+      },
+      {
+        "hpf": 30,
+        "event": "liver term starts in ZFIN (Prim-15); the anlage protrudes from the rod on the left"
+      },
+      {
+        "hpf": 34,
+        "event": "leftward bend complete"
+      },
+      {
+        "hpf": 46,
+        "event": "differentiated hepatocytes first detected (44 to 48 hpf)"
+      },
+      {
+        "hpf": 50,
+        "event": "hepatic duct forms; end of budding, start of growth"
+      },
+      {
+        "hpf": 56,
+        "event": "endothelial cells surround the bud (55 to 58 hpf)"
+      },
+      {
+        "hpf": 72,
+        "event": "hepatic blood circulation starts; the liver expands beyond somite 1"
+      },
+      {
+        "hpf": 82,
+        "event": "liver crosses the midline ventral to the esophagus; right lobe forms (80 to 84 hpf)"
+      },
+      {
+        "hpf": 120,
+        "event": "vascular network almost complete; hepatic portal vein formed"
+      },
+      {
+        "hpf": 360,
+        "event": "ventral (third) lobe starts to expand posteriorly at about 15 dpf"
+      }
+    ],
+    "colorHint": "#9B3B32",
+    "sources": [
+      "https://zfin.org/ZFA:0000123",
+      "https://zfin.org/ZDB-PUB-030325-1",
+      "http://www.cas.zju.edu.cn/_upload/article/files/71/46/73e0e645441480db54b7de893f91/374ffd61-efc8-499e-979a-b5043a68c280.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2564926/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+      "https://journals.sagepub.com/doi/10.1177/0192623311409597"
+    ],
+    "notes": "ZFA defines the liver as a solid compound organ with three lobes. Korzh et al. 2008 give the lobe timeline and the sinusoid and hepatocyte diameters. The adult dimensions are estimates for a 25 mm SL fish; Gupta and Mullins 2010 describe the adult liver as large, lobed and tan."
+  },
+  {
+    "id": "ZFA:0000208",
+    "name": "gall bladder",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0000036",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The compound organ that stores bile.",
+    "visibleFromHpf": 72,
+    "visibleNote": "ZFIN starts the gall bladder at Long-pec (48 hpf). It becomes easy to see as a green sac from about 3 dpf, after bile pigment accumulates.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.33
+      ],
+      "dv": "ventral to the intestinal bulb",
+      "laterality": "right; adjacent to the right liver lobe",
+      "landmarks": "between the right liver lobe and the intestinal bulb; the cystic duct joins the common bile duct"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "Green translucent sphere on the right side of the foregut. Scale with the liver."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 25
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Protruding-mouth",
+        "hpf": 72,
+        "dims_um": {
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 70
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 1200
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "gall bladder term starts in ZFIN (Long-pec)"
+      },
+      {
+        "hpf": 60,
+        "event": "biliary cells differentiate (50 to 70 hpf)"
+      },
+      {
+        "hpf": 72,
+        "event": "cystic duct and common bile duct terms start in ZFIN (Protruding-mouth)"
+      },
+      {
+        "hpf": 120,
+        "event": "bile stored and released; larva feeds"
+      }
+    ],
+    "colorHint": "#5E9E5A",
+    "sources": [
+      "https://zfin.org/ZFA:0000208",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2564926/"
+    ],
+    "notes": "ZFA names the right liver lobe the gall bladder lobe. In the adult the gall bladder is a green translucent fluid-filled sac in the viscera."
+  },
+  {
+    "id": "ZFA:0001370",
+    "name": "posterior pancreatic bud",
+    "synonyms": [
+      "caudal anlage",
+      "dorsal pancreatic anlage",
+      "dorsal posterior bud"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0001371",
+    "startStage": "ZFS:0000029",
+    "startHpf": 24.0,
+    "endStage": "ZFS:0000033",
+    "endHpf": 60.0,
+    "definition": "Pancreatic bud that forms dorsal and adjacent to the developing intestine.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.33
+      ],
+      "dv": "dorsal to the intestinal rod; between the dorsal aorta and the posterior cardinal vein",
+      "laterality": "right of the midline",
+      "landmarks": "posterior to the liver primordium, at the level of somites 3 to 4"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "Sphere of endocrine cells on the dorsal-right face of the gut rod. It becomes the principal islet."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 35
+        },
+        "source": "estimate (this document)",
+        "note": "islet coalesces by 24 hpf"
+      },
+      {
+        "stageLabel": "Prim-25",
+        "hpf": 36,
+        "dims_um": {
+          "diameter": 45
+        },
+        "source": "estimate (this document)",
+        "note": "about 46 hormone-positive cells at 36 hpf"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 50
+        },
+        "source": "estimate (this document)",
+        "note": "ZFIN end stage Long-pec"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 14,
+        "event": "pancreas primordium term starts in ZFIN (10-13 somites)"
+      },
+      {
+        "hpf": 24,
+        "event": "posterior pancreatic bud term starts; endocrine cells coalesce into the dorsal bud"
+      },
+      {
+        "hpf": 40,
+        "event": "anterior bud appears ventrally and grows toward it"
+      },
+      {
+        "hpf": 52,
+        "event": "the two buds fuse; the dorsal bud becomes the principal islet"
+      },
+      {
+        "hpf": 60,
+        "event": "ZFIN end stage Long-pec"
+      }
+    ],
+    "colorHint": "#E9D27F",
+    "sources": [
+      "https://zfin.org/ZFA:0001370",
+      "https://pubmed.ncbi.nlm.nih.gov/12941629/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2736433/",
+      "https://www.nature.com/articles/srep14241"
+    ],
+    "notes": "ZFA synonyms: dorsal pancreatic anlage, dorsal posterior bud, caudal anlage. Hesselson et al. 2009 state that the principal islet beta cells coalesce into the dorsal bud by 24 hpf. The 36 hpf cell count is from a 2015 Scientific Reports paper on pdx1 mutants."
+  },
+  {
+    "id": "ZFA:0001369",
+    "name": "anterior pancreatic bud",
+    "synonyms": [
+      "exocrine anlage",
+      "rostral anlage",
+      "ventral anterior bud",
+      "ventral pancreatic anlage"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0001371",
+    "startStage": "ZFS:0000031",
+    "startHpf": 36.0,
+    "endStage": "ZFS:0000034",
+    "endHpf": 72.0,
+    "definition": "Pancreatic bud that develops from a ridge on the ventral side of the intestinal bulb primordium.",
+    "spatial": {
+      "apFraction": [
+        0.29,
+        0.32
+      ],
+      "dv": "ventral to the intestinal bulb primordium",
+      "laterality": "left-ventral, then grows dorsally and to the right to meet the posterior bud",
+      "landmarks": "ventral ridge of the intestinal bulb primordium, next to the liver bud"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Small ellipsoid on the ventral face of the foregut that elongates toward the posterior bud between 40 and 52 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-25",
+        "hpf": 36,
+        "dims_um": {
+          "length": 30,
+          "diameter": 25
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 80,
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Pec-fin",
+        "hpf": 60,
+        "dims_um": {
+          "length": 120,
+          "diameter": 50
+        },
+        "source": "estimate (this document)",
+        "note": "ZFIN end stage Pec-fin"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 36,
+        "event": "anterior pancreatic bud term starts in ZFIN (Prim-25)"
+      },
+      {
+        "hpf": 40,
+        "event": "bud visible on the ventral foregut"
+      },
+      {
+        "hpf": 52,
+        "event": "fuses with the posterior bud"
+      },
+      {
+        "hpf": 72,
+        "event": "ZFIN end stage Pec-fin; exocrine pancreas and ducts derive from it"
+      }
+    ],
+    "colorHint": "#F0E3A1",
+    "sources": [
+      "https://zfin.org/ZFA:0001369",
+      "https://pubmed.ncbi.nlm.nih.gov/12941629/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3026409/"
+    ],
+    "notes": "ZFA synonyms: ventral pancreatic anlage, exocrine anlage, rostral anlage. This bud gives rise to the exocrine tissue, the pancreatic duct and later the secondary islets."
+  },
+  {
+    "id": "ZFA:0000140",
+    "name": "pancreas",
+    "synonyms": [],
+    "system": "digestive",
+    "parent": "ZFA:0001371",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The pancreas is an organ composed of endocrine and exocrine glandular tissue that produce hormones and digestive enzymes.  Unlike in other studied vertebrates the pancreas in zebrafish develops from two buds, one anterior  and one posterior. In adult fish the main pancreas is located on the right side attached to the lateral aspect of the intestine by the pancreatic duct. Typically, one large islet and 3-6 smaller islets occupy the main pancreas. The tail of the pancreas is embedded with single beta cells or clusters of small islets and extends caudally along the right side of the intestine.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.45
+      ],
+      "dv": "dorsal and right of the intestinal bulb; the tail runs along the right side of the mid intestine",
+      "laterality": "right",
+      "landmarks": "head of the pancreas at the intestinal bulb, next to the gall bladder and liver; tail along the intestine toward the swim bladder region"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Head: ellipsoid on the dorsal-right side of the bulb that holds the principal islet. Tail: thin tapering tube along the right side of the intestine. In the adult use a diffuse ribbon in the mesentery along the intestinal loops."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 120,
+          "width": 60,
+          "height": 50
+        },
+        "source": "estimate (this document)",
+        "note": "fused buds"
+      },
+      {
+        "stageLabel": "Protruding-mouth",
+        "hpf": 72,
+        "dims_um": {
+          "length": 200,
+          "width": 80,
+          "height": 60
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 400,
+          "width": 110,
+          "height": 80
+        },
+        "source": "estimate (this document)",
+        "note": "head plus tail along the intestine"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 8000,
+          "width": 1500,
+          "height": 800
+        },
+        "source": "estimate (this document)",
+        "note": "diffuse along the intestine; main pancreas on the right"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "pancreas term starts in ZFIN (Long-pec)"
+      },
+      {
+        "hpf": 52,
+        "event": "dorsal and ventral buds fuse"
+      },
+      {
+        "hpf": 70,
+        "event": "exocrine pancreas reporter expression starts (67 to 72 hpf)"
+      },
+      {
+        "hpf": 120,
+        "event": "exocrine protease activity present; tail extends caudally"
+      },
+      {
+        "hpf": 168,
+        "event": "secondary islets form at about 7 dpf"
+      }
+    ],
+    "colorHint": "#EBD68C",
+    "sources": [
+      "https://zfin.org/ZFA:0000140",
+      "https://pubmed.ncbi.nlm.nih.gov/12941629/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2564926/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3026409/"
+    ],
+    "notes": "ZFA notes that the zebrafish pancreas forms from two buds. In the adult the main pancreas lies on the right side, attached to the intestine by the pancreatic duct. It holds one large islet and three to six smaller islets. The tail extends caudally along the right side of the intestine."
+  },
+  {
+    "id": "ZFA:0001260",
+    "name": "endocrine pancreas",
+    "synonyms": [
+      "pancreatic islet",
+      "tail pancreas"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0000140",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The zebrafish endocrine pancreas is an compound organ component composed of small groups of islet cells that are distributed throughout the exocrine pancreas.  The islet cells produce insulin, glucagon and somatostatin.",
+    "visibleFromHpf": 24,
+    "visibleNote": "ZFIN starts the endocrine pancreas at Long-pec (48 hpf). The principal islet is already a compact cluster at 24 hpf (posterior pancreatic bud term).",
+    "spatial": {
+      "apFraction": [
+        0.31,
+        0.33
+      ],
+      "dv": "dorsal to the intestinal bulb",
+      "laterality": "right of the midline",
+      "landmarks": "principal islet in the pancreas head; secondary islets scattered along the tail from 7 dpf"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "One sphere (principal islet) inside the pancreas head. Add small spheres along the tail after 7 dpf. Adult: one large islet plus three to six smaller islets."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 35
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 50
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 60
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 300
+        },
+        "source": "estimate (this document)",
+        "note": "principal islet"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "event": "principal islet coalesces (dorsal bud)"
+      },
+      {
+        "hpf": 48,
+        "event": "endocrine pancreas term starts in ZFIN; islet functional by 48 hpf"
+      },
+      {
+        "hpf": 120,
+        "event": "secondary islets can be induced from 5 dpf"
+      },
+      {
+        "hpf": 168,
+        "event": "secondary islets usually form at about 7 dpf"
+      }
+    ],
+    "colorHint": "#D8A63C",
+    "sources": [
+      "https://zfin.org/ZFA:0001260",
+      "https://zfin.org/ZFA:0005756",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2736433/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3026409/"
+    ],
+    "notes": "ZFA synonyms: pancreatic islet, tail pancreas. The endocrine pancreas is part of both the digestive and endocrine systems in ZFA. Secondary islet timing comes from the ZFA definition of secondary islet."
+  },
+  {
+    "id": "ZFA:0001249",
+    "name": "exocrine pancreas",
+    "synonyms": [
+      "head pancreas",
+      "rostral pancreas"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0000140",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The exocrine pancreas is a diffuse organ composed of a branching network of ducts and associated acinar glands that manufacture the proteolytic enzymes and bicarbonate required for digestion.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.45
+      ],
+      "dv": "dorsal and right of the intestine",
+      "laterality": "right",
+      "landmarks": "surrounds the principal islet and extends as the pancreas tail along the intestine"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Pale tissue that wraps the islet sphere and forms the tail ribbon. Same spline as the pancreas node."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 100,
+          "width": 50,
+          "height": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 380,
+          "width": 100,
+          "height": 70
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 8000,
+          "width": 1500,
+          "height": 800
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "exocrine pancreas term starts in ZFIN (Long-pec)"
+      },
+      {
+        "hpf": 70,
+        "event": "acinar reporter expression starts (67 to 72 hpf)"
+      },
+      {
+        "hpf": 120,
+        "event": "phospholipase and protease activity present; increases 5 to 6 dpf"
+      }
+    ],
+    "colorHint": "#F2E6B3",
+    "sources": [
+      "https://zfin.org/ZFA:0001249",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2564926/",
+      "https://pubmed.ncbi.nlm.nih.gov/12941629/"
+    ],
+    "notes": "ZFA synonyms: head pancreas, rostral pancreas. It derives from the anterior (ventral) pancreatic bud."
+  },
+  {
+    "id": "ZFA:0000694",
+    "name": "ceratobranchial 5 tooth",
+    "synonyms": [
+      "pharyngeal tooth",
+      "teeth",
+      "tooth"
+    ],
+    "system": "digestive",
+    "parent": "ZFA:0000056",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Is a multi-tissue structure composed of dentine, enameloid and tooth pulp. The tips of the ceratobranchial 5 teeth form before the ceratobranchial itself (3.0 mm NL). As they grow ventrally, they meet the perichondrally ossified surface of ceratobranchial 5 and become firmly ankylosed to the bone. Ceratobranchial teeth are the only teeth present in zebrafish and other cypriniforms.",
+    "spatial": {
+      "apFraction": [
+        0.2,
+        0.24
+      ],
+      "dv": "ventral floor of the posterior pharynx, dorsal to the heart",
+      "laterality": "paired, one tooth field on each ceratobranchial 5",
+      "landmarks": "on the fifth ceratobranchial (pharyngeal jaw), posterior to the gill arches, at about 450 um from the opercular surface in a 1 month fish"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Small cones on the medial face of each ceratobranchial 5, pointing dorsally. Start with one cone per side (4V) at 48 hpf, add 3V at 72 hpf and 5V at 96 hpf. Adult: 11 cones per side in three rows (5 ventral, 4 mediodorsal, 2 dorsal)."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "height": 20,
+          "diameter": 15
+        },
+        "source": "estimate (this document)",
+        "note": "early morphogenesis germ of tooth 4V"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "height": 50,
+          "diameter": 25
+        },
+        "source": "estimate (this document)",
+        "note": "three attached teeth per side"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "height": 250,
+          "diameter": 100
+        },
+        "source": "estimate (this document)",
+        "note": "11 teeth per side"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "first tooth germ (4V) visible; ceratobranchial 5 tooth term starts in ZFIN (Long-pec)"
+      },
+      {
+        "hpf": 72,
+        "event": "tooth 3V starts (ZFIN Protruding-mouth)"
+      },
+      {
+        "hpf": 80,
+        "event": "4V attaches; first replacement tooth forms at the 4V position"
+      },
+      {
+        "hpf": 96,
+        "event": "tooth 5V present (ZFIN Day 4 start for 5V is Protruding-mouth)"
+      },
+      {
+        "hpf": 384,
+        "event": "ventral tooth row complete at about 16 dpf"
+      },
+      {
+        "hpf": 624,
+        "event": "22 cycling teeth (11 per side) in fish older than 26 dpf"
+      }
+    ],
+    "colorHint": "#F1EBD8",
+    "sources": [
+      "https://zfin.org/ZFA:0000694",
+      "https://zfin.org/ZFA:0001145",
+      "https://zfin.org/ZFA:0001143",
+      "https://pubmed.ncbi.nlm.nih.gov/11084648/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4298156/"
+    ],
+    "notes": "ZFA states that ceratobranchial teeth are the only teeth in zebrafish and that tooth tips form before the bone itself (3.0 mm NL). Van der heyden and Huysseune 2000 give the initiation and replacement dynamics. The 2015 imaging review restates 4V at 48 hpf, replacement at 80 hpf and the 11 teeth per side. The 2.4.5 row formula is from Van der heyden and Huysseune 2000 (unverified here)."
+  },
+  {
+    "id": "ZFA:0000151",
+    "name": "pronephros",
+    "synonyms": [
+      "embryonic kidney",
+      "pronephric nephron"
+    ],
+    "system": "excretory",
+    "parent": "ZFA:0000163",
+    "startStage": "ZFS:0000025",
+    "startHpf": 14.0,
+    "endStage": "ZFS:0000039",
+    "endHpf": 336.0,
+    "definition": "The embryonic kidney, present at the level of the third somite, is composed of two glomeruli fused at the midline, two pronephric tubules, and paired bilateral pronephric ducts that modify the composition of the blood filtrate before delivering it to the cloaca for excretion.",
+    "spatial": {
+      "apFraction": [
+        0.28,
+        0.57
+      ],
+      "dv": "ventral to the somites; dorsal to the gut; glomerulus ventral to the dorsal aorta",
+      "laterality": "paired ducts and tubules; glomeruli fused at the midline",
+      "landmarks": "glomerulus at somite 3; tubules from somite 3 to 5; ducts from somite 5 to the cloaca at somite 17 to 18"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Group node: one fused sphere (glomerulus) plus two short tubules that turn into two long ducts running caudally to the cloaca. Keep the two ducts parallel, about 60 to 80 um apart at 24 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 800,
+          "duct_diameter": 20
+        },
+        "source": "estimate (this document)",
+        "note": "from somite 3 to the cloaca; nephric primordium ventral to somite 3"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 1000,
+          "duct_diameter": 30
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 1300,
+          "duct_diameter": 35
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 240,
+        "dims_um": {
+          "length": 1800,
+          "duct_diameter": 40
+        },
+        "source": "estimate (this document)",
+        "note": "ZFIN end stage; mesonephros takes over"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 10.3,
+        "event": "pronephric mesoderm (intermediate mesoderm) present at 1-4 somites"
+      },
+      {
+        "hpf": 14,
+        "event": "pronephros, glomerulus, tubule and duct terms start in ZFIN (10-13 somites)"
+      },
+      {
+        "hpf": 21,
+        "event": "distal tubule reaches and fuses with the cloaca by the 22 somite stage"
+      },
+      {
+        "hpf": 24,
+        "event": "ducts complete; nephric primordium ventral to somite 3"
+      },
+      {
+        "hpf": 44,
+        "event": "vascularisation and onset of filtration between 40 and 48 hpf; glomeruli fused at the midline by 48 hpf"
+      },
+      {
+        "hpf": 72,
+        "event": "proximal convoluted tubule coils between 72 and 144 hpf"
+      },
+      {
+        "hpf": 336,
+        "event": "ZFIN end stage Days 7-13; mesonephric nephrons appear from 12 to 14 dpf"
+      }
+    ],
+    "colorHint": "#8C4FA3",
+    "sources": [
+      "https://zfin.org/ZFA:0000151",
+      "https://journals.biologists.com/dev/article/125/23/4655/40115/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5069491/"
+    ],
+    "notes": "ZFA defines the pronephros as two glomeruli fused at the midline, two tubules and paired ducts at the level of the third somite. Wingert et al. 2007 map the segments to somites. Podocytes and neck lie at somite 3 to 4. The proximal convoluted tubule starts at somite 5 at 24 hpf and at somite 3 at 48 hpf. The tubule spans somites 4 to 18. The distal late segment and the duct overlap at somite 17."
+  },
+  {
+    "id": "ZFA:0001557",
+    "name": "pronephric glomerulus",
+    "synonyms": [
+      "pronephric glomera",
+      "pronephric glomeruli",
+      "pronephric glomus"
+    ],
+    "system": "excretory",
+    "parent": "ZFA:0000151",
+    "startStage": "ZFS:0000025",
+    "startHpf": 14.0,
+    "endStage": "ZFS:0000039",
+    "endHpf": 336.0,
+    "definition": "Paired highly vascularized structures of the pronephros which are fused at the midline.  Responsible for blood filtration and begins to function between 40 and 48hpf.",
+    "spatial": {
+      "apFraction": [
+        0.29,
+        0.31
+      ],
+      "dv": "immediately ventral to the dorsal aorta; dorsal to the gut",
+      "laterality": "paired primordia at 24 hpf; fused at the midline by 48 hpf",
+      "landmarks": "level of somite 3; the interrenal gland lies immediately caudal to it"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "Two small spheres left and right of the midline at 24 hpf that merge into one sphere under the dorsal aorta by 48 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 30
+        },
+        "source": "estimate (this document)",
+        "note": "each bilateral cluster"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "width": 70,
+          "height": 40,
+          "length": 50
+        },
+        "source": "estimate (this document)",
+        "note": "fused glomerulus"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "width": 90,
+          "height": 50,
+          "length": 60
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 240,
+        "dims_um": {
+          "width": 100,
+          "height": 60,
+          "length": 70
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 14,
+        "event": "term starts in ZFIN (10-13 somites)"
+      },
+      {
+        "hpf": 24,
+        "event": "podocyte progenitors in a curve at somite 3 to 4"
+      },
+      {
+        "hpf": 40,
+        "event": "filtration begins between 40 and 48 hpf"
+      },
+      {
+        "hpf": 48,
+        "event": "podocyte clusters fused at the midline at somite 3"
+      },
+      {
+        "hpf": 336,
+        "event": "ZFIN end stage Days 7-13"
+      }
+    ],
+    "colorHint": "#B23A8C",
+    "sources": [
+      "https://zfin.org/ZFA:0001557",
+      "https://journals.biologists.com/dev/article/125/23/4655/40115/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+    ],
+    "notes": "ZFA synonyms: pronephric glomera, glomeruli, glomus. Drummond et al. 1998 showed that filtration starts between 40 and 48 hpf."
+  },
+  {
+    "id": "ZFA:0001558",
+    "name": "pronephric tubule",
+    "synonyms": [
+      "ciliated neck segment"
+    ],
+    "system": "excretory",
+    "parent": "ZFA:0000151",
+    "startStage": "ZFS:0000025",
+    "startHpf": 14.0,
+    "endStage": "ZFS:0000039",
+    "endHpf": 336.0,
+    "definition": "Bilaterally paired tubes connecting the pronephric glomeruli to the pronephric ducts. In zebrafish and other teleosts, the pronephric nephron and tubules form after the pronephric duct, connecting to the anterior-most tip of the pronephric ducts.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.35
+      ],
+      "dv": "ventral to somites 3 to 5; dorsal to the gut and the swim bladder region",
+      "laterality": "paired, lateral to the glomerulus",
+      "landmarks": "neck at somite 3; proximal convoluted tubule from somite 3 (48 hpf) or 5 (24 hpf) to about somite 8; coils after 72 hpf"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Two short tubes that leave the glomerulus laterally and bend caudally into the ducts. From 72 hpf add coiling (a helical spline of two to three turns) in the proximal segment."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 150,
+          "diameter": 25
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 200,
+          "diameter": 30
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 300,
+          "diameter": 35
+        },
+        "source": "estimate (this document)",
+        "note": "coiled"
+      },
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 240,
+        "dims_um": {
+          "length": 350,
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 14,
+        "event": "term starts in ZFIN (10-13 somites)"
+      },
+      {
+        "hpf": 24,
+        "event": "segments patterned; anterior boundary of the proximal tubule at somite 5"
+      },
+      {
+        "hpf": 48,
+        "event": "anterior boundary shifts to somite 3"
+      },
+      {
+        "hpf": 72,
+        "event": "proximal convoluted tubule coils between 72 and 144 hpf"
+      },
+      {
+        "hpf": 336,
+        "event": "ZFIN end stage Days 7-13"
+      }
+    ],
+    "colorHint": "#A55BB0",
+    "sources": [
+      "https://zfin.org/ZFA:0001558",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/",
+      "https://journals.biologists.com/dev/article/125/23/4655/40115/"
+    ],
+    "notes": "ZFA synonym: ciliated neck segment. ZFA notes that in teleosts the tubules form after the duct and join the anterior tip of the duct."
+  },
+  {
+    "id": "ZFA:0000150",
+    "name": "pronephric duct",
+    "synonyms": [
+      "pronephric ducts"
+    ],
+    "system": "excretory",
+    "parent": "ZFA:0000151",
+    "startStage": "ZFS:0000025",
+    "startHpf": 14.0,
+    "endStage": "ZFS:0000039",
+    "endHpf": 336.0,
+    "definition": "Duct of the embryonic kidney, present bilaterally ventral to the somites and leading to the cloacal chamber. Wingert et al. have suggested that the pronephric duct as described traditionally may consist of subregions which are analogous to portions of the tubule segment of mammalian and other fish nephrons.",
+    "spatial": {
+      "apFraction": [
+        0.33,
+        0.57
+      ],
+      "dv": "ventral to the somites, lateral to the dorsal aorta and posterior cardinal vein; dorsal to the gut",
+      "laterality": "paired, left and right",
+      "landmarks": "from about somite 5 to the cloaca below somite 17 to 18; the corpuscles of Stannius sit on top of the distal segment"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Two parallel tubes along the ventral edge of the somites that converge and fuse at the cloaca. Lumen diameter grows with age."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "length": 650,
+          "diameter": 20,
+          "lumen": 8
+        },
+        "source": "estimate (this document)",
+        "note": "somite 5 to cloaca; somite length about 45 um"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "length": 800,
+          "diameter": 30,
+          "lumen": 12
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 1000,
+          "diameter": 35,
+          "lumen": 15
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 240,
+        "dims_um": {
+          "length": 1400,
+          "diameter": 40,
+          "lumen": 18
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 14,
+        "event": "duct term starts in ZFIN (10-13 somites)"
+      },
+      {
+        "hpf": 17,
+        "event": "distal end starts to migrate toward the cloaca (16 to 18 somites)"
+      },
+      {
+        "hpf": 21,
+        "event": "distal segment fuses with the cloaca by 22 somites"
+      },
+      {
+        "hpf": 24,
+        "event": "ducts complete along the trunk"
+      },
+      {
+        "hpf": 48,
+        "event": "ducts converge at the cloaca in wt1b reporter larvae"
+      },
+      {
+        "hpf": 336,
+        "event": "ZFIN end stage Days 7-13; mesonephric duct continues in the adult"
+      }
+    ],
+    "colorHint": "#9C6FC4",
+    "sources": [
+      "https://zfin.org/ZFA:0000150",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5069491/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8424172/"
+    ],
+    "notes": "ZFA notes that the duct as described traditionally contains segments that match tubule segments of other vertebrates (Wingert et al. 2007). The lumen numbers are estimates; Sullivan-Brown et al. 2008 report a larger lumen in medial than posterior tubules at 26 to 30 hpf."
+  },
+  {
+    "id": "ZFA:0000529",
+    "name": "kidney",
+    "synonyms": [
+      "mesonephros"
+    ],
+    "system": "excretory",
+    "parent": "ZFA:0000163",
+    "startStage": "ZFS:0000037",
+    "startHpf": 120.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Cavitated compound organ located in the pleuroperitoneal cavity where hematopoiesis and filtering of blood occur.",
+    "visibleFromHpf": 288,
+    "visibleNote": "ZFIN starts the kidney (mesonephros) at Day 5 (120 hpf) when nephron progenitors appear. The first mesonephric nephron forms at 12 to 14 dpf ventral to the sixth myotome.",
+    "spatial": {
+      "apFraction": [
+        0.22,
+        0.56
+      ],
+      "dv": "along the dorsal body wall, ventral to the vertebral column and dorsal aorta; dorsal to the swim bladder and gut",
+      "laterality": "midline, fused bilateral lobes in the head kidney; paired trunk tissue that fuses in the adult",
+      "landmarks": "head kidney behind the gills; trunk (body) kidney along the vertebrae; tail kidney to the level of the vent"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Flat elongated strip pressed against the dorsal body wall. Wider anterior head region with two lobes, narrow trunk and tail. In the larva show it as new nephron spheres added around the pronephric ducts."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 50,
+          "width": 20,
+          "height": 20
+        },
+        "source": "estimate (this document)",
+        "note": "nephron progenitor clusters only; no organ yet"
+      },
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 336,
+        "dims_um": {
+          "length": 300,
+          "width": 80,
+          "height": 50
+        },
+        "source": "estimate (this document)",
+        "note": "first mesonephric nephrons around the pronephros"
+      },
+      {
+        "stageLabel": "Juvenile 30 dpf",
+        "hpf": 720,
+        "dims_um": {
+          "length": 5000,
+          "width": 500,
+          "height": 300
+        },
+        "source": "estimate (this document)",
+        "note": "head, trunk and tail regions present at 9 mm"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 14000,
+          "width": 1500,
+          "height": 800
+        },
+        "source": "estimate (this document)",
+        "note": "about 300 nephrons at 3 months"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 120,
+        "event": "kidney and nephron progenitor terms start in ZFIN (Day 5)"
+      },
+      {
+        "hpf": 240,
+        "event": "first mesonephric nephron expresses cdh17 at 5.2 to 5.5 mm (about 10 dpf)"
+      },
+      {
+        "hpf": 312,
+        "event": "first podocytes and first nephron primordium ventral to the sixth myotome (12 to 14 dpf)"
+      },
+      {
+        "hpf": 456,
+        "event": "nephrogenesis proceeds caudally, then rostrally from 18 to 20 dpf"
+      },
+      {
+        "hpf": 720,
+        "event": "head, trunk and tail regions distinct at 9 mm (about 30 dpf)"
+      },
+      {
+        "hpf": 2160,
+        "event": "about 150 medial nephrons (48 percent of the total) by 3 months; number still rises slowly to 18 months"
+      }
+    ],
+    "colorHint": "#7B2D8E",
+    "sources": [
+      "https://zfin.org/ZFA:0000529",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2980409/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4412820/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/"
+    ],
+    "notes": "ZFA synonym: mesonephros. The kidney is part of the renal, immune and pleuroperitoneal terms. Zhou et al. 2010 and Diep et al. 2015 give the timing. Gupta and Mullins 2010 describe the adult kidney as a translucent pink structure along the dorsal body wall. It has head, body and tail regions."
+  },
+  {
+    "id": "ZFA:0000669",
+    "name": "head kidney",
+    "synonyms": [
+      "anterior kidney",
+      "kidney marrow"
+    ],
+    "system": "excretory",
+    "parent": "ZFA:0000529",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The zebrafish head kidney consists of fused bilateral lobes located in the anterior part of the kidney.  It is analogous to the mammalian bone marrow and the primary site of definitive hematopoiesis.",
+    "visibleFromHpf": 720,
+    "visibleNote": "ZFIN gives an unknown start stage. The head region becomes distinct at the 9 mm stage (about 30 dpf).",
+    "spatial": {
+      "apFraction": [
+        0.22,
+        0.3
+      ],
+      "dv": "dorsal body wall behind the gills; dorsal to the anterior swim bladder chamber and the heart",
+      "laterality": "fused bilateral lobes at the midline",
+      "landmarks": "anterior part of the kidney; holds the interrenal gland; site of definitive hematopoiesis"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Two fused ellipsoids at the anterior end of the kidney strip, darker than the trunk kidney."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Juvenile 30 dpf",
+        "hpf": 720,
+        "dims_um": {
+          "length": 1000,
+          "width": 500,
+          "height": 300
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 3000,
+          "width": 1800,
+          "height": 900
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 720,
+        "event": "head, trunk and tail regions distinct at 9 mm"
+      },
+      {
+        "hpf": 2160,
+        "event": "main site of definitive hematopoiesis in the adult"
+      }
+    ],
+    "colorHint": "#6A2C7A",
+    "sources": [
+      "https://zfin.org/ZFA:0000669",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4412820/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/"
+    ],
+    "notes": "ZFA synonyms: anterior kidney, kidney marrow. The hematopoietic specialist may also model this node.",
+    "startNote": "ZFIN start stage is Unknown (ZFS:0000000). startHpf set to 0.0; use visibleFromHpf."
+  },
+  {
+    "id": "ZFA:0001293",
+    "name": "posterior kidney",
+    "synonyms": [
+      "posterior kidneys"
+    ],
+    "system": "excretory",
+    "parent": "ZFA:0000529",
+    "startStage": "ZFS:0000038",
+    "startHpf": 144.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "No definition in ZFA.",
+    "visibleFromHpf": 336,
+    "visibleNote": "ZFIN starts the posterior kidney at Day 6 (144 hpf). The first mesonephric nephrons of the trunk appear at 12 to 14 dpf.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.56
+      ],
+      "dv": "ventral to the vertebral column; dorsal to the swim bladder and gonads",
+      "laterality": "paired strips that fuse at the midline in the adult",
+      "landmarks": "trunk (body) and tail kidney from behind the head kidney to the level of the vent"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Flattened ribbon along the dorsal midline that tapers caudally. Same spline as the pronephric ducts, which it replaces."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 336,
+        "dims_um": {
+          "length": 1500,
+          "width": 80,
+          "height": 50
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Juvenile 30 dpf",
+        "hpf": 720,
+        "dims_um": {
+          "length": 4000,
+          "width": 300,
+          "height": 200
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 11000,
+          "width": 1200,
+          "height": 600
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 144,
+        "event": "posterior kidney term starts in ZFIN (Day 6)"
+      },
+      {
+        "hpf": 312,
+        "event": "first nephron primordium ventral to the sixth myotome"
+      },
+      {
+        "hpf": 480,
+        "event": "new nephrons form on top of the pronephric distal segments at the 8 mm stage"
+      },
+      {
+        "hpf": 720,
+        "event": "trunk and tail regions distinct at 9 mm"
+      }
+    ],
+    "colorHint": "#8E4A9E",
+    "sources": [
+      "https://zfin.org/ZFA:0001293",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4412820/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2980409/"
+    ],
+    "notes": "ZFA gives no definition. Diep et al. 2015 show new mesonephric nephrons forming on top of the pronephric distal early and distal late segments."
+  },
+  {
+    "id": "ZFA:0000546",
+    "name": "mesonephric duct",
+    "synonyms": [
+      "Wolffian duct",
+      "renal duct"
+    ],
+    "system": "excretory",
+    "parent": "ZFA:0000163",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Duct of the adult kidney (mesonephros), present bilaterally ventral to the somites and leading to the cloacal chamber.",
+    "visibleFromHpf": 336,
+    "visibleNote": "ZFIN gives an unknown start stage. The mesonephric duct is the pronephric duct that persists after 14 dpf.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.57
+      ],
+      "dv": "ventral to the somites and vertebrae; dorsal to the gut",
+      "laterality": "paired",
+      "landmarks": "runs along the kidney and empties into the cloacal chamber"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Continue the pronephric duct splines after 336 hpf under this term."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 336,
+        "dims_um": {
+          "length": 1500,
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 12000,
+          "diameter": 300
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 336,
+        "event": "pronephric duct term ends; mesonephric duct continues"
+      },
+      {
+        "hpf": 2160,
+        "event": "drains the adult kidney into the cloacal chamber"
+      }
+    ],
+    "colorHint": "#B48ACF",
+    "sources": [
+      "https://zfin.org/ZFA:0000546",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4412820/"
+    ],
+    "notes": "ZFA synonyms: renal duct, Wolffian duct. ZFA defines it as the duct of the adult kidney, bilateral, ventral to the somites, leading to the cloacal chamber.",
+    "startNote": "ZFIN start stage is Unknown (ZFS:0000000). startHpf set to 0.0; use visibleFromHpf."
+  },
+  {
+    "id": "ZFA:0001081",
+    "name": "thyroid primordium",
+    "synonyms": [
+      "thyroid primordia"
+    ],
+    "system": "endocrine",
+    "parent": "ZFA:0001158",
+    "startStage": "ZFS:0000030",
+    "startHpf": 30.0,
+    "endStage": "ZFS:0000033",
+    "endHpf": 60.0,
+    "definition": "Portion of tissue part of the pharyngeal endoderm that is fated to become thyroid follicle.",
+    "visibleFromHpf": 24,
+    "visibleNote": "ZFIN starts the primordium at Prim-15 (30 hpf). nkx2.4b-positive thyroid cells are present in the pharyngeal floor at 24 hpf and pax2a-positive precursors from 18 to 22 hpf.",
+    "spatial": {
+      "apFraction": [
+        0.14,
+        0.17
+      ],
+      "dv": "floor of the pharynx, dorsal to the heart tube and outflow tract",
+      "laterality": "midline",
+      "landmarks": "pharyngeal floor at the level of the second pharyngeal arch, just anterior to the outflow tract"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "Small sphere in the ventral pharyngeal wall. From 36 to 40 hpf let it bud rostro-ventrally out of the wall."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 30
+        },
+        "source": "estimate (this document)",
+        "note": "monolayer of committed cells"
+      },
+      {
+        "stageLabel": "Prim-15",
+        "hpf": 30,
+        "dims_um": {
+          "diameter": 35
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Prim-25",
+        "hpf": 40,
+        "dims_um": {
+          "length": 50,
+          "diameter": 35
+        },
+        "source": "estimate (this document)",
+        "note": "placode budding from the pharyngeal epithelium"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 55,
+        "dims_um": {
+          "diameter": 40
+        },
+        "source": "estimate (this document)",
+        "note": "30 to 40 differentiated cells; ZFIN end stage Long-pec"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 20,
+        "event": "pax2a expression starts in the foregut endoderm"
+      },
+      {
+        "hpf": 24,
+        "event": "nkx2.4b positive thyroid cells near the heart tube"
+      },
+      {
+        "hpf": 30,
+        "event": "thyroid primordium term starts in ZFIN (Prim-15); pax8 and foxe1 expressed at 28 to 30 hpf"
+      },
+      {
+        "hpf": 38,
+        "event": "placode buds from the pharyngeal epithelium (36 to 40 hpf); tg expressed"
+      },
+      {
+        "hpf": 55,
+        "event": "first follicle differentiates; end of the primordium term at 60 hpf"
+      }
+    ],
+    "colorHint": "#E57DA0",
+    "sources": [
+      "https://zfin.org/ZFA:0001081",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/",
+      "https://pubmed.ncbi.nlm.nih.gov/16680726/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10214844/"
+    ],
+    "notes": "The 2021 review (PMC8213386) and Alt et al. 2006 give this timeline. At 28 hpf the foregut holds up to 100 Pax2a positive cells, but the 55 hpf primordium holds only 30 to 40 differentiated thyroid cells."
+  },
+  {
+    "id": "ZFA:0001072",
+    "name": "thyroid follicle",
+    "synonyms": [
+      "thyroid follicles"
+    ],
+    "system": "endocrine",
+    "parent": "ZFA:0001158",
+    "startStage": "ZFS:0000033",
+    "startHpf": 48.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Portion of tissue formed form thyroid follicle cells that forms along the midline in pharyngeal mesenchyme.  The follicles are not encapsulated by connective tissue.",
+    "spatial": {
+      "apFraction": [
+        0.15,
+        0.22
+      ],
+      "dv": "ventral to the pharynx; along the ventral aorta between the hypobranchial cartilage and the outflow tract",
+      "laterality": "midline; follicles scatter left and right of the ventral aorta in the adult",
+      "landmarks": "first follicle at the anterior end; new follicles added caudally along the ventral aorta"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Chain of small spheres along the ventral aorta. One sphere at 55 hpf, four to six spheres by 6 dpf, several dozen scattered spheres in the adult. No capsule."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 55,
+        "dims_um": {
+          "diameter": 35
+        },
+        "source": "estimate (this document)",
+        "note": "one follicle"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 150,
+          "diameter": 30
+        },
+        "source": "estimate (this document)",
+        "note": "four to six follicles in a row"
+      },
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 264,
+        "dims_um": {
+          "length": 250,
+          "diameter": 40
+        },
+        "source": "estimate (this document)",
+        "note": "4 to 6 follicles; follicle size increases 6 to 11 dpf"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 2500,
+          "diameter": 120
+        },
+        "source": "estimate (this document)",
+        "note": "loose follicles along the ventral aorta"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "thyroid follicle term starts in ZFIN (Long-pec)"
+      },
+      {
+        "hpf": 55,
+        "event": "first follicle with a lumen; functional genes expressed"
+      },
+      {
+        "hpf": 72,
+        "event": "follicular tissue grows along the pharyngeal midline (55 to 120 hpf)"
+      },
+      {
+        "hpf": 144,
+        "event": "cell cords re-organised into distinct follicles by 6 dpf; typically 4 to 6 follicles from 6 to 11 dpf"
+      },
+      {
+        "hpf": 2160,
+        "event": "bulk of the thyroid caudal to the branchial chamber along the ventral aorta"
+      }
+    ],
+    "colorHint": "#D9548A",
+    "sources": [
+      "https://zfin.org/ZFA:0001072",
+      "https://pubmed.ncbi.nlm.nih.gov/16680726/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5884836/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+    ],
+    "notes": "ZFA states that follicles form along the midline in pharyngeal mesenchyme and are not encapsulated. Alt et al. 2006 showed that the first follicle becomes the most anterior one and that new follicles are added caudally. Trubiroha et al. 2018 counted 4 to 6 follicles from 6 to 11 dpf."
+  },
+  {
+    "id": "ZFA:0001346",
+    "name": "interrenal primordium",
+    "synonyms": [],
+    "system": "endocrine",
+    "parent": "ZFA:0000151",
+    "startStage": "ZFS:0000027",
+    "startHpf": 19.0,
+    "endStage": "ZFS:0000035",
+    "endHpf": 96.0,
+    "definition": "Multi-tissue structure located in the kidney that develops into the interrenal gland.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.32
+      ],
+      "dv": "ventral to somite 3, ventral to the dorsal aorta; dorsal to the gut",
+      "laterality": "bilateral at 22 to 27 hpf; single cluster slightly right of the midline from 24 to 30 hpf; between the dorsal aorta and the right posterior cardinal vein by 28 hpf",
+      "landmarks": "next to the pronephric glomerular primordia; immediately caudal to the glomerulus after fusion"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "Two small spheres beside the glomerular primordia at 22 hpf that merge into one sphere right of the midline by 30 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "20-25 somites",
+        "hpf": 22,
+        "dims_um": {
+          "diameter": 20
+        },
+        "source": "estimate (this document)",
+        "note": "each bilateral cluster"
+      },
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 30
+        },
+        "source": "estimate (this document)",
+        "note": "converging"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "diameter": 40
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Protruding-mouth",
+        "hpf": 72,
+        "dims_um": {
+          "diameter": 50
+        },
+        "source": "estimate (this document)",
+        "note": "ZFIN end stage Protruding-mouth"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 19,
+        "event": "interrenal primordium term starts in ZFIN (20-25 somites)"
+      },
+      {
+        "hpf": 22,
+        "event": "ff1b positive bilateral clusters ventral to somite 3 (22 to 27 hpf)"
+      },
+      {
+        "hpf": 27,
+        "event": "clusters fuse at the midline at the 22 to 24 somite stage guided by angioblasts"
+      },
+      {
+        "hpf": 28,
+        "event": "single tissue between the dorsal aorta and the right posterior cardinal vein"
+      },
+      {
+        "hpf": 48,
+        "event": "interrenal vessel sprouts from the dorsal aorta into the tissue at about 2 dpf"
+      },
+      {
+        "hpf": 96,
+        "event": "ZFIN end stage Protruding-mouth; interrenal gland term continues"
+      }
+    ],
+    "colorHint": "#E0A83C",
+    "sources": [
+      "https://zfin.org/ZFA:0001346",
+      "https://journals.biologists.com/dev/article/130/10/2107/52039/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/"
+    ],
+    "notes": "Hsu et al. 2003 describe parallel development with the pronephros. Chou et al. 2012 give the vessel timeline and the rightward position."
+  },
+  {
+    "id": "ZFA:0001345",
+    "name": "interrenal gland",
+    "synonyms": [],
+    "system": "endocrine",
+    "parent": "ZFA:0000669",
+    "startStage": "ZFS:0000035",
+    "startHpf": 72.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "An bilobed multi-tissue structure lateral to the notochord composed of an epithelium consisting of steroid producing cells interposed with chromaffin cells.  The interrenal gland is embedded within the head kidney.  The interrenal gland is the zebrafish functional equivalent of the mammalian adrenal cortex.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.32
+      ],
+      "dv": "ventral to the dorsal aorta at the midtrunk level of somites 3 to 4; dorsal to the gut",
+      "laterality": "single tissue slightly right of the midline; bilobed in the adult, lateral to the notochord",
+      "landmarks": "immediately caudal to the vascularised glomerulus; embedded in the head kidney in the adult"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "One ellipsoid just caudal to the glomerulus, right of the midline, with a vessel through it from 2 dpf. In the adult: two lobes inside the head kidney."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Protruding-mouth",
+        "hpf": 72,
+        "dims_um": {
+          "length": 60,
+          "width": 45,
+          "height": 40
+        },
+        "source": "estimate (this document)",
+        "note": "assembly complete by 3 dpf"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 70,
+          "width": 50,
+          "height": 45
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 800,
+          "width": 400,
+          "height": 300
+        },
+        "source": "estimate (this document)",
+        "note": "steroidogenic and chromaffin cells scattered in the head kidney"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 48,
+        "event": "assembly starts at about 2 dpf; cells migrate from the right of the dorsal aorta toward the midline"
+      },
+      {
+        "hpf": 72,
+        "event": "interrenal gland term starts in ZFIN (Protruding-mouth); circulation through the gland established by 3 dpf"
+      },
+      {
+        "hpf": 120,
+        "event": "pituitary control of interrenal growth starts at 5 dpf"
+      },
+      {
+        "hpf": 2160,
+        "event": "bilobed tissue lateral to the notochord inside the head kidney"
+      }
+    ],
+    "colorHint": "#D4922A",
+    "sources": [
+      "https://zfin.org/ZFA:0001345",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/",
+      "https://journals.biologists.com/dev/article/130/10/2107/52039/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+    ],
+    "notes": "ZFA defines the gland as bilobed, lateral to the notochord, embedded in the head kidney and the equivalent of the adrenal cortex. Chou et al. 2012 place the assembling gland at the level of somites 3 to 4."
+  },
+  {
+    "id": "ZFA:0001200",
+    "name": "corpuscles of Stannius",
+    "synonyms": [],
+    "system": "endocrine",
+    "parent": "ZFA:0000151",
+    "startStage": "ZFS:0000027",
+    "startHpf": 19.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Islands of eosinic cells found on the lateroventral surface of the kidney. Function is thought to be that of the parathyroid gland in other vertebrates, which are lacking in fishes. These cells secrete hypocalcin (teleocalcin) to regulate calcium metabolism.",
+    "visibleFromHpf": 50,
+    "visibleNote": "ZFIN starts the term at 20-25 somites (19 hpf). stc1-positive cells appear in the tubule at 24 hpf and bulge from it at 32 hpf. They form discrete glands on top of the tubules by 50 hpf.",
+    "spatial": {
+      "apFraction": [
+        0.44,
+        0.47
+      ],
+      "dv": "dorsal side of the pronephric duct; ventral to the somites",
+      "laterality": "paired, one on each duct (occasionally fused)",
+      "landmarks": "junction of the distal early and distal late segments, at about somite 10 to 12; lateroventral surface of the posterior kidney in the adult"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "One small sphere on the dorsal surface of each pronephric duct at the distal early / distal late junction. Extrude it upward between 32 and 50 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "diameter": 15
+        },
+        "source": "estimate (this document)",
+        "note": "stc1 positive cells still inside the tubule"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 50,
+        "dims_um": {
+          "diameter": 25
+        },
+        "source": "estimate (this document)",
+        "note": "discrete gland on top of the tubule"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 35
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 200
+        },
+        "source": "estimate (this document)",
+        "note": "islands on the lateroventral kidney surface"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 19,
+        "event": "term starts in ZFIN (20-25 somites); cells arise in the distal pronephros"
+      },
+      {
+        "hpf": 24,
+        "event": "cdh17 down-regulated and stc1 expressed in the posterior distal early segment"
+      },
+      {
+        "hpf": 32,
+        "event": "prominent bulge on the dorsal side of the tubule"
+      },
+      {
+        "hpf": 42,
+        "event": "neighbouring epithelial cells meet under the extruding cells"
+      },
+      {
+        "hpf": 50,
+        "event": "discrete separate glands on top of each tubule in about 70 percent of animals"
+      },
+      {
+        "hpf": 60,
+        "event": "extrusion complete in most embryos"
+      }
+    ],
+    "colorHint": "#C15A9A",
+    "sources": [
+      "https://zfin.org/ZFA:0001200",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+    ],
+    "notes": "ZFA describes islands of eosinophilic cells on the lateroventral surface of the kidney that secrete hypocalcin (stanniocalcin). Naylor et al. 2018 describe the transdifferentiation and extrusion from the distal early tubule. The somite level is an estimate read from the Wingert 2007 segment map."
+  },
+  {
+    "id": "ZFA:0001448",
+    "name": "ultimobranchial body",
+    "synonyms": [
+      "ultimobranchial bodies"
+    ],
+    "system": "endocrine",
+    "parent": "ZFA:0001158",
+    "startStage": "ZFS:0000034",
+    "startHpf": 60.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Glands that produce calcitonin.  In adult fish the glands lie as two groups of follicles at the transverse septum close to the sinus venosus.",
+    "visibleFromHpf": 168,
+    "visibleNote": "ZFIN starts the ultimobranchial body at Pec-fin (60 hpf). calca-positive C cells are documented from 7 dpf; the location is documented at 10 dpf.",
+    "spatial": {
+      "apFraction": [
+        0.22,
+        0.24
+      ],
+      "dv": "between the gut and the heart, beneath the muscle layer of the gut, at the axial level of the sinus venosus; dorsal to the heart in the transverse septum in the adult",
+      "laterality": "midline (paired origin from caudal pharyngeal pouches; described as a single midline organ in the adult)",
+      "landmarks": "ventral wall of the esophagus, above the sinus venosus and atrium"
+    },
+    "shape": {
+      "primitive": "sphere",
+      "notes": "Small sphere between the esophagus and the sinus venosus. In the adult a cluster of small follicles dorsal to the heart in the transverse septum."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Pec-fin",
+        "hpf": 60,
+        "dims_um": {
+          "diameter": 20
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "diameter": 30
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 240,
+        "dims_um": {
+          "diameter": 45
+        },
+        "source": "estimate (this document)",
+        "note": "distinct cell cluster with several small follicles at 10 dpf"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "diameter": 300
+        },
+        "source": "estimate (this document)"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 60,
+        "event": "ultimobranchial body term starts in ZFIN (Pec-fin)"
+      },
+      {
+        "hpf": 168,
+        "event": "calca transcripts in the ultimobranchial body at 7 dpf; calcitonin protein not yet detectable"
+      },
+      {
+        "hpf": 240,
+        "event": "distinct cluster of several small follicles between gut and heart at 10 dpf"
+      },
+      {
+        "hpf": 2160,
+        "event": "single midline organ dorsal to the heart in the transverse septum; two groups of follicles near the sinus venosus (ZFA)"
+      }
+    ],
+    "colorHint": "#6FA8D6",
+    "sources": [
+      "https://zfin.org/ZFA:0001448",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+    ],
+    "notes": "ZFA states that in the adult the glands lie as two groups of follicles at the transverse septum close to the sinus venosus. The 2024 Development paper (PMC11698069) gives the larval position and calca timing."
+  },
+  {
+    "id": "ZFA:0009288",
+    "name": "primordial germ cell",
+    "synonyms": [
+      "PGC"
+    ],
+    "system": "reproductive",
+    "parent": "ZFA:0000632",
+    "startStage": "ZFS:0000014",
+    "startHpf": 4.0,
+    "endStage": "ZFS:0000000",
+    "endHpf": 17520.0,
+    "definition": "A primordial germ cell is a diploid germ cell precursors that transiently exist in the embryo before they enter into close association with the somatic cells of the gonad and become irreversibly committed as germ cells.",
+    "spatial": {
+      "apFraction": [
+        0.4,
+        0.46
+      ],
+      "dv": "dorsal to the yolk; ventral to the somites and lateral to the pronephric ducts at 24 hpf",
+      "laterality": "two bilateral clusters",
+      "landmarks": "at the junction of the yolk ball and yolk extension, at the level of somites 8 to 10, at 24 hpf; in the gonadal region ventral to the swim bladder at 5 dpf"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Point cloud of 4 to 50 small spheres. Four cells at 4 hpf at the blastoderm margin, then two migrating clusters that settle at the yolk ball / yolk extension junction by 24 hpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Sphere",
+        "hpf": 4,
+        "dims_um": {
+          "count": 4,
+          "cell_diameter": 15
+        },
+        "source": "estimate (this document)",
+        "note": "four PGCs at the blastoderm margin"
+      },
+      {
+        "stageLabel": "Prim-5",
+        "hpf": 24,
+        "dims_um": {
+          "count": 35,
+          "cluster_length": 60,
+          "cell_diameter": 12
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/",
+        "note": "25 to 50 PGCs in compact bilateral clusters"
+      },
+      {
+        "stageLabel": "Long-pec",
+        "hpf": 48,
+        "dims_um": {
+          "count": 40,
+          "cluster_length": 70,
+          "cell_diameter": 12
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "count": 45,
+          "cluster_length": 80,
+          "cell_diameter": 12
+        },
+        "source": "estimate (this document)",
+        "note": "PGCs begin to associate with somatic gonad cells"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 3,
+        "event": "PGCs specified at mid-blastula"
+      },
+      {
+        "hpf": 4,
+        "event": "primordial germ cell term starts in ZFIN (Sphere)"
+      },
+      {
+        "hpf": 24,
+        "event": "migration to the gonadal region complete; 25 to 50 PGCs in bilateral clusters"
+      },
+      {
+        "hpf": 120,
+        "event": "PGCs and somatic gonad cells begin to coalesce"
+      },
+      {
+        "hpf": 168,
+        "event": "gonad primordium term ends at 336 hpf; germ cells continue as oogonia or spermatogonia"
+      }
+    ],
+    "colorHint": "#EE6FA0",
+    "sources": [
+      "https://zfin.org/ZFA:0009288",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7847270/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+    ],
+    "notes": "ZFA gives an unknown end stage for this cell term. The 2021 PGC paper (PMC7847270) cites 25 to 50 PGCs at 24 hpf. This is a cell-level term kept because the task asked for it; the model can draw it as a cluster.",
+    "endNote": "ZFIN end stage is Unknown (ZFS:0000000). endHpf set to 17520 (end of the ZFS range) by convention."
+  },
+  {
+    "id": "ZFA:0001262",
+    "name": "gonad primordium",
+    "synonyms": [
+      "gonadal primordium",
+      "undifferentiated gonad"
+    ],
+    "system": "reproductive",
+    "parent": "ZFA:0000632",
+    "startStage": "ZFS:0000000",
+    "startHpf": 0.0,
+    "endStage": "ZFS:0000039",
+    "endHpf": 336.0,
+    "definition": "Portion of tissue that gives rise to the immature gonad.",
+    "visibleFromHpf": 120,
+    "visibleNote": "ZFIN gives an unknown start stage. Somatic gonad cells surround germ cells from 5 dpf; germ cells alone mark the region from 24 hpf.",
+    "spatial": {
+      "apFraction": [
+        0.36,
+        0.44
+      ],
+      "dv": "ventral to the mesonephros / pronephric ducts; dorsal to the gut; in contact with the coelomic epithelium that lines the swim bladder at 5 dpf",
+      "laterality": "paired rods left and right of the dorsal mesentery",
+      "landmarks": "at the level of the swim bladder, dorsolateral to the intestine"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Two thin ellipsoids (rods) oriented along the body axis, dorsolateral to the gut under the swim bladder."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Day 5",
+        "hpf": 120,
+        "dims_um": {
+          "length": 80,
+          "diameter": 25
+        },
+        "source": "estimate (this document)",
+        "note": "germ cells with a few somatic cells"
+      },
+      {
+        "stageLabel": "Days 7-13",
+        "hpf": 240,
+        "dims_um": {
+          "length": 150,
+          "diameter": 40
+        },
+        "source": "estimate (this document)",
+        "note": "bilayered somatic compartment by 8 to 10 dpf"
+      },
+      {
+        "stageLabel": "Days 7-13 end",
+        "hpf": 336,
+        "dims_um": {
+          "length": 200,
+          "diameter": 50
+        },
+        "source": "estimate (this document)",
+        "note": "ZFIN end stage Days 7-13"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 120,
+        "event": "somatic gonad cells detected around germ cells at 5 dpf"
+      },
+      {
+        "hpf": 216,
+        "event": "somatic compartment organised into an outer epithelial and inner mesenchymal layer (8 to 10 dpf)"
+      },
+      {
+        "hpf": 276,
+        "event": "inner somatic cells begin to express sex-specific markers cyp19a1a and amh (11 to 12 dpf)"
+      },
+      {
+        "hpf": 312,
+        "event": "early oocytes appear in all animals from about 13 dpf"
+      },
+      {
+        "hpf": 336,
+        "event": "ZFIN end stage Days 7-13; immature gonad term follows"
+      }
+    ],
+    "colorHint": "#F29BB6",
+    "sources": [
+      "https://zfin.org/ZFA:0001262",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/"
+    ],
+    "notes": "ZFA synonyms: gonadal primordium, undifferentiated gonad. Leerberg et al. 2017 describe the rod-like paired gonad with germ cells in the core.",
+    "startNote": "ZFIN start stage is Unknown (ZFS:0000000). startHpf set to 0.0; use visibleFromHpf."
+  },
+  {
+    "id": "ZFA:0005272",
+    "name": "immature gonad",
+    "synonyms": [
+      "juvenile gonad",
+      "juvenile ovary"
+    ],
+    "system": "reproductive",
+    "parent": "ZFA:0000632",
+    "startStage": "ZFS:0000040",
+    "startHpf": 336.0,
+    "endStage": "ZFS:0000041",
+    "endHpf": 720.0,
+    "definition": "Immature reproductive tissue that has not undergone final maturation into either testis or ovary. During gonadal development, the gonad may be  transiently intersexual where there is a  parallel presence of both oocytes and spermatocytes.",
+    "spatial": {
+      "apFraction": [
+        0.33,
+        0.5
+      ],
+      "dv": "ventral to the kidney and dorsal aorta; dorsal to the intestine; ventral to the swim bladder",
+      "laterality": "paired",
+      "landmarks": "elongated along the dorsal coelom; blood supply from the swim bladder artery at 20 dpf"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Two elongated ellipsoids under the swim bladder that grow along the axis between 14 and 30 dpf."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 14-20",
+        "hpf": 336,
+        "dims_um": {
+          "length": 250,
+          "diameter": 60
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Days 14-20 (20 dpf)",
+        "hpf": 480,
+        "dims_um": {
+          "length": 500,
+          "diameter": 120
+        },
+        "source": "estimate (this document)",
+        "note": "fish about 7 mm SL"
+      },
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 720,
+        "dims_um": {
+          "length": 900,
+          "diameter": 200
+        },
+        "source": "estimate (this document)",
+        "note": "ZFIN end stage Days 21-29"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 336,
+        "event": "immature gonad term starts in ZFIN (Days 14-20)"
+      },
+      {
+        "hpf": 360,
+        "event": "vascular and lymphatic endothelium, pericytes and macrophages populate the gonad between 12 and 20 dpf"
+      },
+      {
+        "hpf": 480,
+        "event": "sex determination in progress at 20 dpf; macrophages engulf germ cells"
+      },
+      {
+        "hpf": 600,
+        "event": "overt sex differentiation at about 25 dpf"
+      },
+      {
+        "hpf": 720,
+        "event": "ZFIN end stage Days 21-29; gonad, ovary and testis terms start at 504 hpf"
+      }
+    ],
+    "colorHint": "#F0A5C0",
+    "sources": [
+      "https://zfin.org/ZFA:0005272",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600409/"
+    ],
+    "notes": "ZFA synonyms: juvenile gonad, juvenile ovary. ZFA notes that the gonad may be transiently intersexual. The 2023 bipotential gonad paper (PMC10651076) gives the cell arrival timeline and the 20 dpf size context."
+  },
+  {
+    "id": "ZFA:0000413",
+    "name": "gonad",
+    "synonyms": [
+      "gonads",
+      "mature gonad"
+    ],
+    "system": "reproductive",
+    "parent": "ZFA:0000632",
+    "startStage": "ZFS:0000041",
+    "startHpf": 504.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "The part of the reproductive system that produces and releases eggs (ovary) or sperm (testis).",
+    "spatial": {
+      "apFraction": [
+        0.28,
+        0.55
+      ],
+      "dv": "ventral to the kidney and swim bladder; dorsal and lateral to the intestine",
+      "laterality": "paired",
+      "landmarks": "group node for ovary and testis in the coelom"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Group node. Switch the child (ovary or testis) with a sex toggle in the UI."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 504,
+        "dims_um": {
+          "length": 800,
+          "diameter": 200
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 10000,
+          "diameter": 3000
+        },
+        "source": "estimate (this document)",
+        "note": "female; see ovary and testis"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 504,
+        "event": "gonad term starts in ZFIN (Days 21-29)"
+      },
+      {
+        "hpf": 600,
+        "event": "overt sex differentiation at about 25 dpf"
+      },
+      {
+        "hpf": 2160,
+        "event": "sexual maturity at about 3 months"
+      }
+    ],
+    "colorHint": "#E8A0B5",
+    "sources": [
+      "https://zfin.org/ZFA:0000413",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10651076/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2980409/"
+    ],
+    "notes": "ZFA synonyms: gonads, mature gonad. It develops from the immature gonad."
+  },
+  {
+    "id": "ZFA:0000403",
+    "name": "ovary",
+    "synonyms": [
+      "ovaries"
+    ],
+    "system": "reproductive",
+    "parent": "ZFA:0000413",
+    "startStage": "ZFS:0000041",
+    "startHpf": 504.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Female reproductive organ.  The ovary is a bilobed cavitated organ located ventral to the swim bladder.",
+    "spatial": {
+      "apFraction": [
+        0.28,
+        0.55
+      ],
+      "dv": "ventral to the swim bladder and kidney; dorsal and lateral to the intestine; fills much of the coelom in a gravid female",
+      "laterality": "bilobed, paired lobes joined caudally; suspended by the mesovarium",
+      "landmarks": "rostral third of the abdominal cavity holds about one third ovary; the proportion rises caudally (Menke et al. 2011)"
+    },
+    "shape": {
+      "primitive": "ellipsoid",
+      "notes": "Two large elongated ellipsoids with a granular surface (follicles) that taper caudally into a short oviduct to the cloaca. Scale strongly with reproductive state."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 504,
+        "dims_um": {
+          "length": 900,
+          "diameter": 250
+        },
+        "source": "estimate (this document)",
+        "note": "per lobe"
+      },
+      {
+        "stageLabel": "Juvenile 45 dpf",
+        "hpf": 1080,
+        "dims_um": {
+          "length": 3000,
+          "diameter": 800
+        },
+        "source": "estimate (this document)",
+        "note": "per lobe"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 10000,
+          "width": 4000,
+          "height": 3000
+        },
+        "source": "estimate (this document)",
+        "note": "per lobe in a gravid 25 mm SL female; female GSI at least ten times the male GSI"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 504,
+        "event": "ovary term starts in ZFIN (Days 21-29)"
+      },
+      {
+        "hpf": 720,
+        "event": "ovarian follicle terms start in ZFIN (Juvenile Days 30-44)"
+      },
+      {
+        "hpf": 1080,
+        "event": "oocyte stage I to V terms start in ZFIN (Juvenile Days 45-89)"
+      },
+      {
+        "hpf": 2160,
+        "event": "mature stage IV and V oocytes present unless recently spawned"
+      }
+    ],
+    "colorHint": "#F4B6C8",
+    "sources": [
+      "https://zfin.org/ZFA:0000403",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+      "https://journals.sagepub.com/doi/10.1177/0192623311409597",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "notes": "ZFA defines the ovary as a bilobed cavitated organ ventral to the swim bladder. Gupta and Mullins 2010 describe the bilobed ovary suspended by a vascularised mesovarium. Adult size is an estimate derived from the GSI ratio in PMC3842893 and the adult SL in Parichy et al. 2009."
+  },
+  {
+    "id": "ZFA:0000598",
+    "name": "testis",
+    "synonyms": [
+      "testes"
+    ],
+    "system": "reproductive",
+    "parent": "ZFA:0000413",
+    "startStage": "ZFS:0000041",
+    "startHpf": 504.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "Male reproductive organ. Adult zebrafish testes are paired organs forming elongated structures, internally organized into tubules. These tubules are formed by seminiferous epithelium containing cysts of spermatogonia and spermatocytes surrounded by somatic support cells, called Sertoli cells. Cysts are arranged around a lumen containing spermatozoa that is connected to the efferent ducts. The interstitial regions between the tubules contain the steroid-producing Leydig cells, connective tissue, and blood vessels.",
+    "spatial": {
+      "apFraction": [
+        0.3,
+        0.55
+      ],
+      "dv": "attached to the dorsal body wall; ventral to the kidney and swim bladder; dorsolateral to the intestine",
+      "laterality": "paired, positioned laterally",
+      "landmarks": "long white strands along the dorsal coelom that join the sperm duct at the cloaca"
+    },
+    "shape": {
+      "primitive": "tube",
+      "notes": "Two thin white elongated ellipsoids or tubes along the dorsal coelom, much thinner than the ovary lobes."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Days 21-29",
+        "hpf": 504,
+        "dims_um": {
+          "length": 800,
+          "diameter": 150
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Juvenile 45 dpf",
+        "hpf": 1080,
+        "dims_um": {
+          "length": 3000,
+          "diameter": 400
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "length": 9000,
+          "width": 1200,
+          "height": 900
+        },
+        "source": "estimate (this document)",
+        "note": "per testis; male GSI about one tenth of the female GSI"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 504,
+        "event": "testis term starts in ZFIN (Days 21-29)"
+      },
+      {
+        "hpf": 1080,
+        "event": "spermatocyte term starts in ZFIN (Juvenile Days 45-89)"
+      },
+      {
+        "hpf": 2160,
+        "event": "seminiferous tubules with cysts of spermatogonia to spermatids"
+      }
+    ],
+    "colorHint": "#DDE3EC",
+    "sources": [
+      "https://zfin.org/ZFA:0000598",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3144575/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340196/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3842893/"
+    ],
+    "notes": "ZFA describes paired elongated testes organised into tubules. Gupta and Mullins 2010 describe long white paired organs attached to the dorsal body wall. The INHAND male reproductive chapter notes that zebrafish testes are positioned laterally."
+  },
+  {
+    "id": "ZFA:0001118",
+    "name": "urogenital papilla",
+    "synonyms": [
+      "UGP",
+      "anal papilla",
+      "anal papillae",
+      "genital papilla",
+      "urogenital papillae"
+    ],
+    "system": "reproductive",
+    "parent": "ZFA:0000632",
+    "startStage": "ZFS:0000038",
+    "startHpf": 144.0,
+    "endStage": "ZFS:0000044",
+    "endHpf": 17520.0,
+    "definition": "A protuberance in front of the gential pore and behind the vent. Mature females have a well developed urogenital papillae whilst in mature males it is poorly developed.",
+    "spatial": {
+      "apFraction": [
+        0.57,
+        0.585
+      ],
+      "dv": "ventral surface",
+      "laterality": "midline",
+      "landmarks": "small protuberance in front of the genital pore and behind the vent, at the anterior base of the anal fin"
+    },
+    "shape": {
+      "primitive": "custom",
+      "notes": "Small cone or nub on the ventral surface just posterior to the vent. Larger and more rounded in females."
+    },
+    "sizes": [
+      {
+        "stageLabel": "Day 6",
+        "hpf": 144,
+        "dims_um": {
+          "height": 15,
+          "diameter": 20
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Juvenile 30 dpf",
+        "hpf": 720,
+        "dims_um": {
+          "height": 80,
+          "diameter": 100
+        },
+        "source": "estimate (this document)"
+      },
+      {
+        "stageLabel": "Adult",
+        "hpf": 2160,
+        "dims_um": {
+          "height": 500,
+          "diameter": 600
+        },
+        "source": "estimate (this document)",
+        "note": "female; male papilla smaller"
+      }
+    ],
+    "events": [
+      {
+        "hpf": 144,
+        "event": "urogenital papilla term starts in ZFIN (Day 6)"
+      },
+      {
+        "hpf": 2160,
+        "event": "well developed in mature females; poorly developed in males"
+      }
+    ],
+    "colorHint": "#C9A0DC",
+    "sources": [
+      "https://zfin.org/ZFA:0001118"
+    ],
+    "notes": "ZFA synonyms: genital papilla, anal papilla, UGP. The ZFA definition gives the position between the vent and the genital pore."
+  }
+]

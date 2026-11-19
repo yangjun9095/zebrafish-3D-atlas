@@ -1,0 +1,51 @@
+name: Bug report
+description: The viewer draws the wrong thing, fails to draw, or a control does not work.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a structure that is anatomically wrong, use the anatomy correction form instead.
+  - type: input
+    id: link
+    attributes:
+      label: Link to the view
+      description: The viewer keeps its whole state in the address bar, so one pasted address reproduces most reports. Copy the address, or use the share button.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps that reproduce it
+      placeholder: |
+        1. Open the link.
+        2. Drag the time axis to 120 hpf.
+        3. Click the eye.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: "Chrome 141 on macOS 15.4"
+    validations:
+      required: true
+  - type: input
+    id: renderer
+    attributes:
+      label: WebGL renderer
+      description: The viewer needs WebGL2. In Chrome, open chrome://gpu and copy the "GL_RENDERER" line. Leave this empty if you cannot read it.
+      placeholder: "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)"
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors (optional)
+      description: Anything red in the browser console.
+      render: text

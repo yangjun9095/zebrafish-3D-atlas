@@ -1,0 +1,41 @@
+/* The Reporter preview sheet, its legend over the viewer, and the reporter lanes on the timeline. */
+.fp-timeline { position: absolute; left: 0; pointer-events: none; z-index: 1; }
+/* The sheet sits between the top bar and the timeline and under the modal sheets, so it never
+   covers the transport row and never stacks over the export or settings dialog. */
+.sheet.fp-sheet-right { top: var(--top-h, 48px); bottom: var(--time-h, 88px); z-index: 39; }
+.sheet.fp-sheet-bottom { bottom: var(--time-h, 88px); z-index: 39; }
+.sheet.fp-sheet .sheet-body { padding: 0; }
+.fp-eyebrow { font-size: 10px; letter-spacing: 0.04em; color: var(--text-muted); }
+.fp-content { padding: 16px; font-size: 12px; }
+.fp-content label { display: flex; flex-direction: column; gap: 6px; font-size: 11px; font-weight: 600; }
+.fp-content input:not([type="checkbox"]):not([type="range"]), .fp-content select { width: 100%; min-width: 0; box-sizing: border-box; background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px; font: inherit; font-size: 12px; }
+.fp-content input[type="checkbox"] { accent-color: #24AA73; }
+.fp-content input[type="range"] { width: 100%; accent-color: #24AA73; }
+.fp-caption { margin: 0 0 8px; line-height: 1.65; }
+.fp-intro { margin: 0 0 16px; line-height: 1.65; color: var(--text-muted); }
+.fp-content .fp-toggle, .fp-content .fp-check { flex-direction: row; align-items: center; gap: 8px; }
+.fp-toggle { padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); }
+.fp-toggle span { font-size: 13px; }
+.fp-display-controls { display: grid; gap: 14px; margin: 16px 0; }
+.fp-display-controls .fp-note { margin: -8px 0 0; }
+.fp-context { position: relative; }.fp-context > span { position: absolute; right: 0; color: var(--text-muted); }
+.fp-add { margin-bottom: 16px; }.fp-add-button { margin-top: 8px; width: 100%; justify-content: center; }
+.fp-content button:not(.iconbtn) { cursor: pointer; font: inherit; color: var(--text); border: 1px solid var(--border); background: var(--surface); border-radius: 6px; padding: 7px 9px; }
+.fp-content button:hover:not(:disabled) { background: var(--bg); }.fp-content button:disabled { opacity: 0.45; cursor: default; }
+.fp-add-button, .fp-matches button { display: flex; align-items: center; gap: 8px; }
+.fp-matches { display: grid; gap: 4px; margin-top: 8px; }.fp-matches button { text-align: left; }.fp-matches small { display: block; font-size: 10px; margin-top: 3px; color: var(--text-muted); }
+.fp-rule { min-width: 0; padding: 10px 12px 12px; margin: 0 0 16px; border: 1px solid var(--border); border-radius: 10px; }
+.fp-rule legend { padding: 0 6px; color: var(--text-muted); font-size: 11px; }.fp-rule > label { margin-top: 10px; }
+.fp-rule-head { display: flex; align-items: center; gap: 4px; }.fp-spacer { flex: 1; }
+.fp-mapping { margin: 9px 0; color: var(--text-muted); font-size: 10px; line-height: 1.6; }.fp-mapping summary { cursor: pointer; }.fp-mapping ul { padding-left: 15px; max-height: 140px; overflow: auto; }.fp-mapping li span { display: block; opacity: 0.75; }
+.fp-times { display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; align-items: end; margin-top: 12px; }.fp-times > span { padding-bottom: 8px; color: var(--text-muted); }
+.fp-time-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.fp-status { display: flex; align-items: center; gap: 7px; font-size: 11px; color: var(--text-muted); margin: 12px 0 0; }.fp-status[data-active="true"] { color: var(--text); }
+.fp-status i, .fp-legend i { flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.fp-note { font-size: 10px; line-height: 1.65; color: var(--text-muted); }.fp-error { font-size: 11px; color: var(--text); border-left: 2px solid #E98068; padding-left: 8px; }
+.fp-empty { text-align: center; padding: 24px 8px; color: var(--text-muted); border: 1px dashed var(--border); border-radius: 8px; }
+.fp-legend { position: absolute; left: 18px; top: 18px; z-index: 3; pointer-events: none; display: flex; flex-direction: column; gap: 9px; padding: 12px 14px; border: 1px solid #2C3A4D; border-radius: 10px; background: #0D1724E8; color: #D7E3F1; font-size: 11px; max-width: calc(100% - 36px); }
+.fp-legend strong { font-size: 11px; font-weight: 600; }.fp-legend > span { display: flex; align-items: center; gap: 8px; }.fp-legend small { margin-left: auto; padding-left: 12px; color: #92A5BB; }
+/* Presentation and embed mode carry the chip instead of the legend: one line that names the mode. */
+.fp-chip { position: absolute; left: 18px; top: 18px; z-index: 3; pointer-events: none; margin: 0; padding: 5px 10px; border: 1px solid #2C3A4D; border-radius: 999px; background: #0D1724E8; color: #D7E3F1; font-size: 11px; }
+@media (max-width: 39.999rem) { .fp-legend { top: 10px; left: 10px; padding: 8px 10px; font-size: 10px; gap: 6px; }.fp-legend strong { font-size: 10px; }.fp-chip { top: 10px; left: 10px; font-size: 10px; } }

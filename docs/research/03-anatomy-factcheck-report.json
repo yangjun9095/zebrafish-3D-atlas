@@ -1,0 +1,2419 @@
+{
+ "allowedSystems": [
+  "axial",
+  "cardiovascular",
+  "digestive",
+  "endocrine",
+  "excretory",
+  "extraembryonic",
+  "fins",
+  "hematopoietic_immune",
+  "integument_pigment",
+  "muscular",
+  "nervous",
+  "reproductive",
+  "respiratory",
+  "sensory",
+  "skeletal"
+ ],
+ "briefSystems": [
+  "cardiovascular",
+  "digestive",
+  "endocrine",
+  "fins",
+  "hematopoietic",
+  "immune",
+  "integument",
+  "musculature",
+  "nervous",
+  "renal",
+  "reproductive",
+  "respiratory",
+  "sensory",
+  "skeletal",
+  "yolk"
+ ],
+ "nRecords": {
+  "03a-anatomy-extraembryonic-axial.draft.json": 42,
+  "03b-anatomy-nervous-sensory.draft.json": 45,
+  "03c-anatomy-cardio-hematopoietic-respiratory.draft.json": 45,
+  "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json": 43,
+  "03e-anatomy-skeletal-muscular-fins-integument.draft.json": 45
+ },
+ "counts": {
+  "high/apFraction": 6,
+  "high/parent-path": 23,
+  "info/events-range": 64,
+  "info/parent-in-atlas": 84,
+  "info/synonym": 2,
+  "low/parent": 16,
+  "low/parent-path": 1,
+  "low/sizes-range": 19,
+  "medium/duplicate-id": 7,
+  "medium/override-earlier": 4,
+  "medium/parent-path": 4,
+  "medium/sizes-checkpoint": 6
+ },
+ "findings": [
+  {
+   "check": "apFraction",
+   "severity": "high",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001058",
+   "name": "caudal fin",
+   "issue": "apFraction outside 0..1",
+   "evidence": "[0.95, 1.2]",
+   "correct": null
+  },
+  {
+   "check": "apFraction",
+   "severity": "high",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001463",
+   "name": "melanophore stripe",
+   "issue": "apFraction outside 0..1",
+   "evidence": "[0.25, 1.2]",
+   "correct": null
+  },
+  {
+   "check": "apFraction",
+   "severity": "high",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001554",
+   "name": "lepidotrichium",
+   "issue": "apFraction outside 0..1",
+   "evidence": "[0.26, 1.2]",
+   "correct": null
+  },
+  {
+   "check": "apFraction",
+   "severity": "high",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0009091",
+   "name": "melanocyte",
+   "issue": "apFraction outside 0..1",
+   "evidence": "[0.05, 1.1]",
+   "correct": null
+  },
+  {
+   "check": "apFraction",
+   "severity": "high",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0009198",
+   "name": "xanthophore",
+   "issue": "apFraction outside 0..1",
+   "evidence": "[0.05, 1.1]",
+   "correct": null
+  },
+  {
+   "check": "apFraction",
+   "severity": "high",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0009199",
+   "name": "iridophore",
+   "issue": "apFraction outside 0..1",
+   "evidence": "[0.05, 1.1]",
+   "correct": null
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000038",
+   "name": "margin",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0001176 (blastoderm); direct ZFIN parents of id: is_a ZFA:0001105 (embryonic structure)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000060",
+   "name": "prechordal plate",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000092 (axis); direct ZFIN parents of id: part of ZFA:0001204 (axial mesoderm), is_a ZFA:0001477 (portion of tissue)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000091",
+   "name": "axial chorda mesoderm",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000092 (axis); direct ZFIN parents of id: part of ZFA:0001204 (axial mesoderm), is_a ZFA:0001116 (presumptive structure)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000111",
+   "name": "germ ring",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0001176 (blastoderm); direct ZFIN parents of id: is_a ZFA:0001105 (embryonic structure)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000048",
+   "name": "olfactory placode",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000047 (peripheral olfactory organ); direct ZFIN parents of id: part of ZFA:0001149 (olfactory system), is_a ZFA:0001309 (neurogenic placode)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000050",
+   "name": "optic vesicle",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000107 (eye); direct ZFIN parents of id: is_a ZFA:0001477 (portion of tissue), part of ZFA:0001678 (immature eye)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000051",
+   "name": "otic vesicle",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000217 (inner ear); direct ZFIN parents of id: is_a ZFA:0001105 (embryonic structure)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000131",
+   "name": "neural keel",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000012 (central nervous system); direct ZFIN parents of id: is_a ZFA:0001477 (portion of tissue)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000132",
+   "name": "neural plate",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000012 (central nervous system); direct ZFIN parents of id: is_a ZFA:0001477 (portion of tissue)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000133",
+   "name": "neural rod",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000012 (central nervous system); direct ZFIN parents of id: is_a ZFA:0001477 (portion of tissue)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000138",
+   "name": "otic placode",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000217 (inner ear); direct ZFIN parents of id: part of ZFA:0001138 (vestibuloauditory system), is_a ZFA:0001310 (dorsolateral placode)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001135",
+   "name": "neural tube",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000012 (central nervous system); direct ZFIN parents of id: is_a ZFA:0001477 (portion of tissue)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001202",
+   "name": "optic cup",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000107 (eye); direct ZFIN parents of id: is_a ZFA:0001488 (multi-tissue structure), part of ZFA:0001678 (immature eye)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000555",
+   "name": "opercular flap",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0001114 (head); direct ZFIN parents of id: is_a ZFA:0000292 (surface structure)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000604",
+   "name": "ventral aorta",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0005003 (pharyngeal vasculature); direct ZFIN parents of id: is_a ZFA:0000005 (artery)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001053",
+   "name": "primitive internal carotid artery",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0001267 (cranial vasculature); direct ZFIN parents of id: is_a ZFA:0000005 (artery)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001286",
+   "name": "caudal vein plexus",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0005037 (post-vent vasculature); direct ZFIN parents of id: is_a ZFA:0005932 (developmental vascular plexus)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005335",
+   "name": "swim bladder bud",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0007116 (pleuroperitoneal region); direct ZFIN parents of id: is_a ZFA:0001105 (embryonic structure)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005934",
+   "name": "subintestinal venous plexus",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0005024 (trunk vasculature); direct ZFIN parents of id: is_a ZFA:0005931 (vascular plexus)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005967",
+   "name": "pseudobranch",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0001114 (head); direct ZFIN parents of id: is_a ZFA:0001488 (multi-tissue structure)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001200",
+   "name": "corpuscles of Stannius",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000151 (pronephros); direct ZFIN parents of id: is_a ZFA:0001477 (portion of tissue)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0005737",
+   "name": "intestinal rod",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000112 (gut); direct ZFIN parents of id: is_a ZFA:0001488 (multi-tissue structure)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "parent-path",
+   "severity": "high",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0005738",
+   "name": "intestinal bulb primordium",
+   "issue": "no part_of/is_a path from id to parent in anatomy_relationship.txt",
+   "evidence": "parent ZFA:0000112 (gut); direct ZFIN parents of id: is_a ZFA:0001477 (portion of tissue)",
+   "correct": "use one of the direct ZFIN parents or an ancestor of them"
+  },
+  {
+   "check": "duplicate-id",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json + 03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001306",
+   "name": null,
+   "issue": "id appears in more than one draft",
+   "evidence": "files: 03a-anatomy-extraembryonic-axial.draft.json, 03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "correct": "keep one record and merge the fields"
+  },
+  {
+   "check": "duplicate-id",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json + 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000040",
+   "name": null,
+   "issue": "id appears in more than one draft",
+   "evidence": "files: 03a-anatomy-extraembryonic-axial.draft.json, 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "correct": "keep one record and merge the fields"
+  },
+  {
+   "check": "duplicate-id",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json + 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000671",
+   "name": null,
+   "issue": "id appears in more than one draft",
+   "evidence": "files: 03a-anatomy-extraembryonic-axial.draft.json, 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "correct": "keep one record and merge the fields"
+  },
+  {
+   "check": "duplicate-id",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json + 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001056",
+   "name": null,
+   "issue": "id appears in more than one draft",
+   "evidence": "files: 03a-anatomy-extraembryonic-axial.draft.json, 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "correct": "keep one record and merge the fields"
+  },
+  {
+   "check": "duplicate-id",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json + 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001185",
+   "name": null,
+   "issue": "id appears in more than one draft",
+   "evidence": "files: 03a-anatomy-extraembryonic-axial.draft.json, 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "correct": "keep one record and merge the fields"
+  },
+  {
+   "check": "duplicate-id",
+   "severity": "medium",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json + 03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000669",
+   "name": null,
+   "issue": "id appears in more than one draft",
+   "evidence": "files: 03c-anatomy-cardio-hematopoietic-respiratory.draft.json, 03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "correct": "keep one record and merge the fields"
+  },
+  {
+   "check": "duplicate-id",
+   "severity": "medium",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json + 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000694",
+   "name": null,
+   "issue": "id appears in more than one draft",
+   "evidence": "files: 03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json, 03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "correct": "keep one record and merge the fields"
+  },
+  {
+   "check": "override-earlier",
+   "severity": "medium",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000180",
+   "name": "caudal vein",
+   "issue": "visibleFromHpf is earlier than the ZFIN start stage",
+   "evidence": "visibleFromHpf 24; ZFIN start 96.0",
+   "correct": null
+  },
+  {
+   "check": "override-earlier",
+   "severity": "medium",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001285",
+   "name": "intersegmental vessel",
+   "issue": "visibleFromHpf is earlier than the ZFIN start stage",
+   "evidence": "visibleFromHpf 22; ZFIN start 24.0",
+   "correct": null
+  },
+  {
+   "check": "override-earlier",
+   "severity": "medium",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001081",
+   "name": "thyroid primordium",
+   "issue": "visibleFromHpf is earlier than the ZFIN start stage",
+   "evidence": "visibleFromHpf 24; ZFIN start 30.0",
+   "correct": null
+  },
+  {
+   "check": "override-earlier",
+   "severity": "medium",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001260",
+   "name": "endocrine pancreas",
+   "issue": "visibleFromHpf is earlier than the ZFIN start stage",
+   "evidence": "visibleFromHpf 24; ZFIN start 48.0",
+   "correct": null
+  },
+  {
+   "check": "parent-path",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000088",
+   "name": "yolk syncytial layer",
+   "issue": "no part_of/is_a path to parent; path exists only through develops_from/overlaps",
+   "evidence": "parent ZFA:0000084 (yolk); path ZFA:0000088 -> ZFA:0000084",
+   "correct": "choose a part_of/is_a ancestor or label the relation developsFrom"
+  },
+  {
+   "check": "parent-path",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000135",
+   "name": "notochord",
+   "issue": "no part_of/is_a path to parent; path exists only through develops_from/overlaps",
+   "evidence": "parent ZFA:0001094 (whole organism); path ZFA:0000135 -> ZFA:0000091 -> ZFA:0001116 -> ZFA:0001105 -> ZFA:0001094",
+   "correct": "choose a part_of/is_a ancestor or label the relation developsFrom"
+  },
+  {
+   "check": "parent-path",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000255",
+   "name": "paraxial mesoderm",
+   "issue": "no part_of/is_a path to parent; path exists only through develops_from/overlaps",
+   "evidence": "parent ZFA:0001094 (whole organism); path ZFA:0000255 -> ZFA:0000041 -> ZFA:0001377 -> ZFA:0001116 -> ZFA:0001105 -> ZFA:0001094",
+   "correct": "choose a part_of/is_a ancestor or label the relation developsFrom"
+  },
+  {
+   "check": "parent-path",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0001185",
+   "name": "periderm",
+   "issue": "no part_of/is_a path to parent; path exists only through develops_from/overlaps",
+   "evidence": "parent ZFA:0001094 (whole organism); path ZFA:0001185 -> ZFA:0000086 -> ZFA:0001105 -> ZFA:0001094",
+   "correct": "choose a part_of/is_a ancestor or label the relation developsFrom"
+  },
+  {
+   "check": "sizes-checkpoint",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0001185",
+   "name": "periderm",
+   "issue": "structure exists at 48 hpf but has no size keyframe in the window 42.0-60.0 hpf",
+   "evidence": "keyframes at hpf: [10.0, 24.0]; exists 10.0-168.0 hpf (model override; ZFIN 10.0-24.0)",
+   "correct": "add a 48 hpf keyframe"
+  },
+  {
+   "check": "sizes-checkpoint",
+   "severity": "medium",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0001185",
+   "name": "periderm",
+   "issue": "structure exists at 120 hpf but has no size keyframe in the window 96.0-144.0 hpf",
+   "evidence": "keyframes at hpf: [10.0, 24.0]; exists 10.0-168.0 hpf (model override; ZFIN 10.0-24.0)",
+   "correct": "add a 120 hpf keyframe"
+  },
+  {
+   "check": "sizes-checkpoint",
+   "severity": "medium",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000138",
+   "name": "otic placode",
+   "issue": "structure exists at 24 hpf but has no size keyframe in the window 22.0-30.0 hpf",
+   "evidence": "keyframes at hpf: [14.0, 16.0]; exists 14.0-24.0 hpf",
+   "correct": "add a 24 hpf keyframe"
+  },
+  {
+   "check": "sizes-checkpoint",
+   "severity": "medium",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001157",
+   "name": "posterior lateral line primordium",
+   "issue": "structure exists at 120 hpf but has no size keyframe in the window 96.0-144.0 hpf",
+   "evidence": "keyframes at hpf: [20.0, 24.0, 36.0, 48.0]; exists 19.0-120.0 hpf",
+   "correct": "add a 120 hpf keyframe"
+  },
+  {
+   "check": "sizes-checkpoint",
+   "severity": "medium",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000115",
+   "name": "heart rudiment",
+   "issue": "structure exists at 24 hpf but has no size keyframe in the window 22.0-30.0 hpf",
+   "evidence": "keyframes at hpf: [21.0]; exists 19.0-24.0 hpf",
+   "correct": "add a 24 hpf keyframe"
+  },
+  {
+   "check": "sizes-checkpoint",
+   "severity": "medium",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0009288",
+   "name": "primordial germ cell",
+   "issue": "structure exists at adult but has no size keyframe in the window 2160.0-inf hpf",
+   "evidence": "keyframes at hpf: [4.0, 24.0, 48.0, 120.0]; exists 4.0-17520.0 hpf",
+   "correct": "add a adult keyframe"
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000040",
+   "name": "median fin fold",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000141",
+   "name": "pectoral fin bud",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000671",
+   "name": "horizontal myoseptum",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001161",
+   "name": "pectoral fin",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001173",
+   "name": "dorsal fin",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001184",
+   "name": "pelvic fin",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001384",
+   "name": "pelvic fin bud",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001554",
+   "name": "lepidotrichium",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001651",
+   "name": "sternohyoid",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0005221",
+   "name": "dorsal larval melanophore stripe",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0005222",
+   "name": "ventral larval melanophore stripe",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0005223",
+   "name": "lateral larval melanophore stripe",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0005224",
+   "name": "yolk larval melanophore stripe",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0007049",
+   "name": "adductor mandibulae",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0009116",
+   "name": "slow muscle cell",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0009117",
+   "name": "fast muscle cell",
+   "issue": "parent is null and parentRelation is not root",
+   "evidence": "None",
+   "correct": null
+  },
+  {
+   "check": "parent-path",
+   "severity": "low",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001314",
+   "name": "posterior lateral line ganglion",
+   "issue": "zfaPartOf entry is not a direct part_of/is_a parent in ZFIN",
+   "evidence": "ZFA:0000034 (lateral line system)",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000084",
+   "name": "yolk",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 2160.0 hpf; exists 0.0-144.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000035",
+   "name": "lens",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 24.0 hpf; exists 30.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000048",
+   "name": "olfactory placode",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 16.0 hpf; exists 22.0-30.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000144",
+   "name": "retinal pigmented epithelium",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 24.0 hpf; exists 30.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000152",
+   "name": "retina",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 24.0 hpf; exists 30.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000217",
+   "name": "inner ear",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 24.0 hpf; exists 72.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000217",
+   "name": "inner ear",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 48.0 hpf; exists 72.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000076",
+   "name": "swim bladder",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 60.0 hpf; exists 96.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000123",
+   "name": "liver",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 24.0 hpf; exists 30.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000208",
+   "name": "gall bladder",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 48.0 hpf; exists 72.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000298",
+   "name": "vent",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 24.0 hpf; exists 120.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000298",
+   "name": "vent",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 48.0 hpf; exists 120.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000529",
+   "name": "kidney",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 120.0 hpf; exists 288.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000547",
+   "name": "mouth",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 48.0 hpf; exists 60.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001200",
+   "name": "corpuscles of Stannius",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 24.0 hpf; exists 50.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001448",
+   "name": "ultimobranchial body",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 60.0 hpf; exists 168.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001448",
+   "name": "ultimobranchial body",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 120.0 hpf; exists 168.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000622",
+   "name": "barbel",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 900.0 hpf; exists 1080.0-17520.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "sizes-range",
+   "severity": "low",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0007049",
+   "name": "adductor mandibulae",
+   "issue": "size keyframe outside the structure's existence range",
+   "evidence": "keyframe 2160.0 hpf; exists 42.0-720.0 hpf",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000001",
+   "name": "Kupffer's vesicle",
+   "issue": "event outside the existence range",
+   "evidence": "5.25 hpf: dorsal forerunner cells gather at the shield margin",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000022",
+   "name": "floor plate",
+   "issue": "event outside the existence range",
+   "evidence": "8.0 hpf: presumptive floor plate in the dorsal midline",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000026",
+   "name": "hatching gland",
+   "issue": "event outside the existence range",
+   "evidence": "10.0 hpf: polster cells lie below the basal keratinocytes",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000031",
+   "name": "hypochord",
+   "issue": "event outside the existence range",
+   "evidence": "8.0 hpf: presumptive hypochord",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000040",
+   "name": "median fin fold",
+   "issue": "event outside the existence range",
+   "evidence": "18.0 hpf: fin fold development begins at 18 hpf",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000058",
+   "name": "polster",
+   "issue": "event outside the existence range",
+   "evidence": "8.0 hpf: anterior axial hypoblast reaches the animal pole",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000084",
+   "name": "yolk",
+   "issue": "event outside the existence range",
+   "evidence": "168.0 hpf: yolk fully absorbed by about 7 dpf",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000086",
+   "name": "EVL",
+   "issue": "event outside the existence range",
+   "evidence": "2.25 hpf: about five irregular tiers of EVL cells (128-cell)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000086",
+   "name": "EVL",
+   "issue": "event outside the existence range",
+   "evidence": "3.0 hpf: about eleven tiers (1k-cell)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000102",
+   "name": "dorsal fin fold",
+   "issue": "event outside the existence range",
+   "evidence": "400.0 hpf: dorsal fin condensation at 5.5 to 5.8 mm SL",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000135",
+   "name": "notochord",
+   "issue": "event outside the existence range",
+   "evidence": "8.0 hpf: chordamesoderm visible",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000329",
+   "name": "chorion",
+   "issue": "event outside the existence range",
+   "evidence": "72.0 hpf: hatching complete in most clutches at 28.5 C",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0001069",
+   "name": "ventral fin fold",
+   "issue": "event outside the existence range",
+   "evidence": "320.0 hpf: caudal fin rays appear at 4.9 to 5.1 mm SL; anal fin condensation at 5.2 to 5.5 mm SL",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0001117",
+   "name": "post-vent region",
+   "issue": "event outside the existence range",
+   "evidence": "16.0 hpf: tail bud protrudes from the yolk",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000029",
+   "name": "hindbrain",
+   "issue": "event outside the existence range",
+   "evidence": "6.0 hpf: Presumptive hindbrain (ZFA, shield).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000035",
+   "name": "lens",
+   "issue": "event outside the existence range",
+   "evidence": "11.7 hpf: Lens placode (ZFA, 5-9 somites); first visible as a thickening at about 15 hpf (Kwan et al. 2012 Development 139:359-372",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000035",
+   "name": "lens",
+   "issue": "event outside the existence range",
+   "evidence": "19.0 hpf: Solid lens vesicle (ZFA, 20-25 somites); round by 20 hpf (Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000035",
+   "name": "lens",
+   "issue": "event outside the existence range",
+   "evidence": "24.0 hpf: Lens pinches off from the ectoderm as a solid cell mass (Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.n",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000042",
+   "name": "midbrain hindbrain boundary",
+   "issue": "event outside the existence range",
+   "evidence": "8.0 hpf: Presumptive midbrain-hindbrain boundary (ZFA, 75%-epiboly).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000048",
+   "name": "olfactory placode",
+   "issue": "event outside the existence range",
+   "evidence": "10.0 hpf: Olfactory field at the anterolateral neural plate edge converges anteriorly (Whitlock & Westerfield 2000 Development 127",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000050",
+   "name": "optic vesicle",
+   "issue": "event outside the existence range",
+   "evidence": "10.0 hpf: Optic primordium (eye field) in the anterior neural keel (ZFA, bud).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000075",
+   "name": "spinal cord",
+   "issue": "event outside the existence range",
+   "evidence": "6.0 hpf: Presumptive spinal cord (ZFA, shield).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000075",
+   "name": "spinal cord",
+   "issue": "event outside the existence range",
+   "evidence": "16.0 hpf: Rohon-Beard and trigeminal sensory axons start to cover the skin (https://zfin.org/zf_info/zfbook/stages/seg.html).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000075",
+   "name": "spinal cord",
+   "issue": "event outside the existence range",
+   "evidence": "17.0 hpf: Primary motoneurons differentiate, three to four per hemisegment (https://zfin.org/zf_info/zfbook/stages/seg.html).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000079",
+   "name": "telencephalon",
+   "issue": "event outside the existence range",
+   "evidence": "10.3 hpf: Presumptive telencephalon (ZFA, 1-4 somites).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000100",
+   "name": "cerebellum",
+   "issue": "event outside the existence range",
+   "evidence": "19.0 hpf: Cerebellar rudiment first recognizable (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000101",
+   "name": "diencephalon",
+   "issue": "event outside the existence range",
+   "evidence": "10.3 hpf: Presumptive diencephalon (ZFA, 1-4 somites).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000109",
+   "name": "forebrain",
+   "issue": "event outside the existence range",
+   "evidence": "6.0 hpf: Presumptive forebrain in the gastrula (ZFA presumptive forebrain, shield).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000128",
+   "name": "midbrain",
+   "issue": "event outside the existence range",
+   "evidence": "6.0 hpf: Presumptive midbrain (ZFA, shield).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000132",
+   "name": "neural plate",
+   "issue": "event outside the existence range",
+   "evidence": "4.0 hpf: Presumptive neural plate specified in the dorsal ectoderm (ZFA presumptive neural plate starts at sphere).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000144",
+   "name": "retinal pigmented epithelium",
+   "issue": "event outside the existence range",
+   "evidence": "22.0 hpf: Presumptive RPE (outer cup layer) (ZFA, 26+ somites); PE shrinks as cells move into the neural retina 14 to 24 hpf (Li, ",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000144",
+   "name": "retinal pigmented epithelium",
+   "issue": "event outside the existence range",
+   "evidence": "24.0 hpf: Melanin first appears in the RPE at the prim-5 stage (Kimmel; exact quote unverified).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000152",
+   "name": "retina",
+   "issue": "event outside the existence range",
+   "evidence": "22.0 hpf: Presumptive neural retina (inner cup layer) (ZFA, 26+ somites).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000213",
+   "name": "habenula",
+   "issue": "event outside the existence range",
+   "evidence": "32.0 hpf: Left-biased habenular neurogenesis begins after parapineal migration (unverified exact hour).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000243",
+   "name": "neuromast",
+   "issue": "event outside the existence range",
+   "evidence": "22.0 hpf: Protoneuromast forms in the trailing primordium (ZFA, 26+ somites).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000295",
+   "name": "trigeminal ganglion",
+   "issue": "event outside the existence range",
+   "evidence": "10.3 hpf: Trigeminal placode and trigeminal neural crest (ZFA, 1-4 somites).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000295",
+   "name": "trigeminal ganglion",
+   "issue": "event outside the existence range",
+   "evidence": "16.0 hpf: Peripheral sensory axons begin to cover the skin (https://zfin.org/zf_info/zfbook/stages/seg.html).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001064",
+   "name": "rhombomere",
+   "issue": "event outside the existence range",
+   "evidence": "10.0 hpf: Presumptive rhombomeres 1 to 8 (ZFA, bud).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001157",
+   "name": "posterior lateral line primordium",
+   "issue": "event outside the existence range",
+   "evidence": "18.0 hpf: Primordium first visible (https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html); ZFIN start 20-25 somites (19 hp",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001202",
+   "name": "optic cup",
+   "issue": "event outside the existence range",
+   "evidence": "16.0 hpf: Invagination commences from the center of the primordium (Schmitt & Dowling 1994 J Comp Neurol 344:532-542 https://pubme",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001314",
+   "name": "posterior lateral line ganglion",
+   "issue": "event outside the existence range",
+   "evidence": "14.0 hpf: Posterior lateral line placode (ZFA, 10-13 somites).",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001617",
+   "name": "otolith",
+   "issue": "event outside the existence range",
+   "evidence": "18.0 hpf: Otolith term starts at 18 hpf (https://zfin.org/zf_info/anatomy/dict/oto/otolith.html); ZFIN start 20-25 somites.",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000009",
+   "name": "cardiac ventricle",
+   "issue": "event outside the existence range",
+   "evidence": "16.0 hpf: first myl7 expression in future ventricle cells (14-somite stage)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000009",
+   "name": "cardiac ventricle",
+   "issue": "event outside the existence range",
+   "evidence": "19.0 hpf: vmhc expression marks ventricular precursors",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000014",
+   "name": "dorsal aorta",
+   "issue": "event outside the existence range",
+   "evidence": "16.0 hpf: angioblasts migrate to the midline and form the vascular cord (ZFA:0005077, 14-19 somites)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000014",
+   "name": "dorsal aorta",
+   "issue": "event outside the existence range",
+   "evidence": "20.0 hpf: the lateral dorsal aortae join into one vessel on each side around 20 hpf",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000033",
+   "name": "intermediate cell mass of mesoderm",
+   "issue": "event outside the existence range",
+   "evidence": "11.5 hpf: ICM ultrastructure described from the 5-somite stage (about 11.5 hpf)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000076",
+   "name": "swim bladder",
+   "issue": "event outside the existence range",
+   "evidence": "36.0 hpf: budding phase 36-48 hpf",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000186",
+   "name": "common cardinal vein",
+   "issue": "event outside the existence range",
+   "evidence": "17.0 hpf: venous angioblast population specified about 17 hpf",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000471",
+   "name": "atrium",
+   "issue": "event outside the existence range",
+   "evidence": "19.0 hpf: amhc expression marks atrial precursors",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001315",
+   "name": "atrioventricular canal",
+   "issue": "event outside the existence range",
+   "evidence": "36.0 hpf: endocardial cells of the future AV canal become cuboidal",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005025",
+   "name": "dorsal longitudinal anastomotic vessel",
+   "issue": "event outside the existence range",
+   "evidence": "30.0 hpf: longitudinal anastomoses of intersegmental sprouts begin",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005335",
+   "name": "swim bladder bud",
+   "issue": "event outside the existence range",
+   "evidence": "24.0 hpf: presumptive swim bladder in the gut endoderm (ZFA:0005336, 24-36 hpf)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000123",
+   "name": "liver",
+   "issue": "event outside the existence range",
+   "evidence": "28.0 hpf: budding begins under somite 1",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000151",
+   "name": "pronephros",
+   "issue": "event outside the existence range",
+   "evidence": "10.3 hpf: pronephric mesoderm (intermediate mesoderm) present at 1-4 somites",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001081",
+   "name": "thyroid primordium",
+   "issue": "event outside the existence range",
+   "evidence": "20.0 hpf: pax2a expression starts in the foregut endoderm",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001345",
+   "name": "interrenal gland",
+   "issue": "event outside the existence range",
+   "evidence": "48.0 hpf: assembly starts at about 2 dpf; cells migrate from the right of the dorsal aorta toward the midline",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001370",
+   "name": "posterior pancreatic bud",
+   "issue": "event outside the existence range",
+   "evidence": "14.0 hpf: pancreas primordium term starts in ZFIN (10-13 somites)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0009288",
+   "name": "primordial germ cell",
+   "issue": "event outside the existence range",
+   "evidence": "3.0 hpf: PGCs specified at mid-blastula",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000040",
+   "name": "median fin fold",
+   "issue": "event outside the existence range",
+   "evidence": "19.0 hpf: presumptive median fin fold (ZFIN 20-25 somites)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000277",
+   "name": "scale",
+   "issue": "event outside the existence range",
+   "evidence": "504.0 hpf: scale primordium term starts (ZFIN Days 21-29)",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000277",
+   "name": "scale",
+   "issue": "event outside the existence range",
+   "evidence": "700.0 hpf: scale development begins posteriorly over the tail at about 8.1 mm SL",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000622",
+   "name": "barbel",
+   "issue": "event outside the existence range",
+   "evidence": "720.0 hpf: barbel primordium (ZFIN Days 30-44); buds emerge at 30 to 40 dpf in juveniles of 10 to 12 mm SL",
+   "correct": null
+  },
+  {
+   "check": "events-range",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001185",
+   "name": "periderm",
+   "issue": "event outside the existence range",
+   "evidence": "4.66 hpf: EVL forms as the outermost blastoderm monolayer (ZFIN start 30%-epiboly for EVL)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000022",
+   "name": "floor plate",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000012 (central nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000031",
+   "name": "hypochord",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000017 (endoderm)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0001056",
+   "name": "myotome",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000473 (trunk musculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000008",
+   "name": "brain",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000012 (central nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000034",
+   "name": "lateral line system",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000142 (peripheral nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000047",
+   "name": "peripheral olfactory organ",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001149 (olfactory system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000075",
+   "name": "spinal cord",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000012 (central nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000107",
+   "name": "eye",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001127 (visual system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000131",
+   "name": "neural keel",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000012 (central nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000132",
+   "name": "neural plate",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000012 (central nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000133",
+   "name": "neural rod",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000012 (central nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000217",
+   "name": "inner ear",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001138 (vestibuloauditory system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000295",
+   "name": "trigeminal ganglion",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000142 (peripheral nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0000588",
+   "name": "statoacoustic (VIII) ganglion",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000142 (peripheral nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03b-anatomy-nervous-sensory.draft.json",
+   "id": "ZFA:0001135",
+   "name": "neural tube",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000012 (central nervous system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000011",
+   "name": "caudal artery",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005037 (post-vent vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000014",
+   "name": "dorsal aorta",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005024 (trunk vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000028",
+   "name": "heart primordium",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000010 (cardiovascular system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000033",
+   "name": "intermediate cell mass of mesoderm",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005023 (hematopoietic system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000054",
+   "name": "pericardium",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0007115 (pericardial region)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000076",
+   "name": "swim bladder",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0007116 (pleuroperitoneal region)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000114",
+   "name": "heart",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000010 (cardiovascular system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000115",
+   "name": "heart rudiment",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000010 (cardiovascular system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000149",
+   "name": "primitive heart tube",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000010 (cardiovascular system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000180",
+   "name": "caudal vein",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005037 (post-vent vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000186",
+   "name": "common cardinal vein",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000096 (cardinal system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000354",
+   "name": "gill",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000272 (respiratory system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000360",
+   "name": "heart tube",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000010 (cardiovascular system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000423",
+   "name": "anterior cardinal vein",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000096 (cardinal system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000436",
+   "name": "spleen",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005023 (hematopoietic system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000477",
+   "name": "posterior cardinal vein",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005024 (trunk vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0000604",
+   "name": "ventral aorta",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005003 (pharyngeal vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001077",
+   "name": "thymus primordium",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001159 (immune system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001078",
+   "name": "thymus",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001159 (immune system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001285",
+   "name": "intersegmental vessel",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005024 (trunk vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0001286",
+   "name": "caudal vein plexus",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005037 (post-vent vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005004",
+   "name": "aortic arch",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005003 (pharyngeal vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005025",
+   "name": "dorsal longitudinal anastomotic vessel",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005024 (trunk vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005335",
+   "name": "swim bladder bud",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0007116 (pleuroperitoneal region)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005898",
+   "name": "caudal hematopoietic tissue",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005023 (hematopoietic system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005934",
+   "name": "subintestinal venous plexus",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0005024 (trunk vasculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000056",
+   "name": "pharynx",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000339 (digestive system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000112",
+   "name": "gut",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000339 (digestive system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000123",
+   "name": "liver",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000036 (liver and biliary system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000124",
+   "name": "liver primordium",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000036 (liver and biliary system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000140",
+   "name": "pancreas",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001371 (pancreatic system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000151",
+   "name": "pronephros",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000163 (renal system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000208",
+   "name": "gall bladder",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000036 (liver and biliary system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000413",
+   "name": "gonad",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000632 (reproductive system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000529",
+   "name": "kidney",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000163 (renal system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000546",
+   "name": "mesonephric duct",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000163 (renal system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0000547",
+   "name": "mouth",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000339 (digestive system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001072",
+   "name": "thyroid follicle",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001158 (endocrine system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001081",
+   "name": "thyroid primordium",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001158 (endocrine system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001118",
+   "name": "urogenital papilla",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000632 (reproductive system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001262",
+   "name": "gonad primordium",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000632 (reproductive system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001369",
+   "name": "anterior pancreatic bud",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001371 (pancreatic system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001370",
+   "name": "posterior pancreatic bud",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001371 (pancreatic system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0001448",
+   "name": "ultimobranchial body",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001158 (endocrine system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0005272",
+   "name": "immature gonad",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000632 (reproductive system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03d-anatomy-digestive-excretory-endocrine-reproductive.draft.json",
+   "id": "ZFA:0009288",
+   "name": "primordial germ cell",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000632 (reproductive system)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000105",
+   "name": "epidermis",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000368 (integument)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000184",
+   "name": "cleithrum",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000407 (pectoral girdle)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000191",
+   "name": "dentary",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000863 (dermatocranium)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000270",
+   "name": "maxilla",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000863 (dermatocranium)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000277",
+   "name": "scale",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001183 (dermal superficial region)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000364",
+   "name": "hypural",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000862 (caudal fin skeleton)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000538",
+   "name": "rib",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001582 (non-Weberian precaudal vertebra)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0000622",
+   "name": "barbel",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000368 (integument)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001056",
+   "name": "myotome",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000473 (trunk musculature)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001119",
+   "name": "dermis",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000368 (integument)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001185",
+   "name": "periderm",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000016 (ectoderm)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001188",
+   "name": "Weberian apparatus",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001559 (vertebral column)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001189",
+   "name": "vertebra",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001559 (vertebral column)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001205",
+   "name": "Meckel's cartilage",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001273 (ventral mandibular arch)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001216",
+   "name": "splanchnocranium",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000737 (cranium)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001399",
+   "name": "palatoquadrate cartilage",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001272 (palatoquadrate arch)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001400",
+   "name": "ceratohyal cartilage",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001402 (ventral hyoid arch)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001422",
+   "name": "hyosymplectic cartilage",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0001401 (dorsal hyoid arch)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001463",
+   "name": "melanophore stripe",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000368 (integument)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0001580",
+   "name": "neurocranium",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000737 (cranium)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0009091",
+   "name": "melanocyte",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000368 (integument)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0009198",
+   "name": "xanthophore",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000368 (integument)",
+   "correct": null
+  },
+  {
+   "check": "parent-in-atlas",
+   "severity": "info",
+   "file": "03e-anatomy-skeletal-muscular-fins-integument.draft.json",
+   "id": "ZFA:0009199",
+   "name": "iridophore",
+   "issue": "parent id is not itself a record in any draft",
+   "evidence": "ZFA:0000368 (integument)",
+   "correct": null
+  },
+  {
+   "check": "synonym",
+   "severity": "info",
+   "file": "03a-anatomy-extraembryonic-axial.draft.json",
+   "id": "ZFA:0000001",
+   "name": "Kupffer's vesicle",
+   "issue": "synonyms not in anatomy_synonyms.txt",
+   "evidence": "KV",
+   "correct": "drop or mark as non-ZFIN"
+  },
+  {
+   "check": "synonym",
+   "severity": "info",
+   "file": "03c-anatomy-cardio-hematopoietic-respiratory.draft.json",
+   "id": "ZFA:0005898",
+   "name": "caudal hematopoietic tissue",
+   "issue": "synonyms not in anatomy_synonyms.txt",
+   "evidence": "posterior blood island",
+   "correct": "drop or mark as non-ZFIN"
+  }
+ ]
+}

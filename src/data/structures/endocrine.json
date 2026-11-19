@@ -1,0 +1,1573 @@
+[
+  {
+    "id": "ZFA:0001072",
+    "name": "thyroid follicle",
+    "synonyms": [
+      "thyroid follicles"
+    ],
+    "system": "endocrine",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001158",
+    "uiParent": "ZFA:0001158",
+    "parentRelation": "part_of",
+    "definition": "Portion of tissue formed form thyroid follicle cells that forms along the midline in pharyngeal mesenchyme. The follicles are not encapsulated by connective tissue.",
+    "zfinStartStage": "ZFS:0000033",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 48.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 48.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff thyroid_primordium_follicle: seeded from the thyroid primordium at the window start 48 hpf, which equals the ZFA start (Long-pec); the first follicle differentiates at 55 hpf (Alt et al. 2006 Dev Dyn 235:1872-1883, PMID 16680726). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 48,
+        "text": "Thyroid follicle term starts in ZFIN (Long-pec).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5884836/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 55,
+        "text": "First follicle with a lumen; functional genes expressed.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5884836/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 72,
+        "text": "Follicular tissue grows along the pharyngeal midline (55 to 120 hpf).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5884836/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 144,
+        "text": "Cell cords re-organised into distinct follicles by 6 dpf; typically 4 to 6 follicles from 6 to 11 dpf.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5884836/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 2160,
+        "text": "Bulk of the thyroid caudal to the branchial chamber along the ventral aorta.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pmc.ncbi.nlm.nih.gov/articles/PMC5884836/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 55,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001072; https://pubmed.ncbi.nlm.nih.gov/16680726/",
+        "estimate": true,
+        "note": "one follicle"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.15,
+          "diameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001072; https://pubmed.ncbi.nlm.nih.gov/16680726/",
+        "estimate": true,
+        "note": "four to six follicles in a row"
+      },
+      {
+        "hpf": 264,
+        "stageLabel": "Days 7-13",
+        "dimsMm": {
+          "length": 0.25,
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001072; https://pubmed.ncbi.nlm.nih.gov/16680726/",
+        "estimate": true,
+        "note": "4 to 6 follicles; follicle size increases 6 to 11 dpf"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.5,
+          "diameter": 0.12
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001072; https://pubmed.ncbi.nlm.nih.gov/16680726/",
+        "estimate": true,
+        "note": "loose follicles along the ventral aorta",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d thyroid follicle record",
+      "https://zfin.org/ZFA:0001072",
+      "https://pubmed.ncbi.nlm.nih.gov/16680726/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5884836/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "keyframes": [
+        {
+          "hpf": 48,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.66,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0247,
+              0.019,
+              0.019
+            ]
+          },
+          "uStart": 0.152,
+          "uEnd": 0.16,
+          "count": 1,
+          "mirror": false
+        },
+        {
+          "hpf": 55,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.66,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.026,
+              0.02,
+              0.02
+            ]
+          },
+          "uStart": 0.152,
+          "uEnd": 0.16,
+          "count": 1,
+          "mirror": false
+        },
+        {
+          "hpf": 60,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.66,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0247,
+              0.019,
+              0.019
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.165,
+          "count": 1.2,
+          "mirror": false
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.66,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0221,
+              0.017,
+              0.017
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.18,
+          "count": 2,
+          "mirror": false
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.66,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0195,
+              0.015,
+              0.015
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.2,
+          "count": 4,
+          "mirror": false
+        },
+        {
+          "hpf": 144,
+          "sizeRefSl": 3.85,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.66,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0208,
+              0.016,
+              0.016
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.21,
+          "count": 5,
+          "mirror": false
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.7,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0221,
+              0.017,
+              0.017
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.215,
+          "count": 5,
+          "mirror": false
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.7,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0286,
+              0.022,
+              0.022
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.22,
+          "count": 6,
+          "mirror": false
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.7,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0364,
+              0.028,
+              0.028
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.225,
+          "count": 7,
+          "mirror": false
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.7,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0455,
+              0.035,
+              0.035
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.23,
+          "count": 8,
+          "mirror": false
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.7,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0585,
+              0.045,
+              0.045
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.235,
+          "count": 10,
+          "mirror": false
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.7,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.0715,
+              0.055,
+              0.055
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.24,
+          "count": 12,
+          "mirror": false
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0.18,
+              "v": -0.7,
+              "w": 0.0
+            },
+            "radiiMm": [
+              0.078,
+              0.06,
+              0.06
+            ]
+          },
+          "uStart": 0.15,
+          "uEnd": 0.24,
+          "count": 12,
+          "mirror": false
+        }
+      ],
+      "estimate": [
+        "template",
+        "count",
+        "uEnd"
+      ],
+      "sources": [
+        "55 hpf: one follicle (Alt et al. 2006 Dev Dyn 235:1872-1883, PMID 16680726); its 35 um diameter is an estimate; 120 hpf: four to six 30 um follicles in a 150 um row; 264 hpf: 40 um follicles over 250 um (Trubiroha et al. 2018; research 03d rows; estimate)",
+        "adult: several dozen loose follicles along the ventral aorta, drawn as 12 follicles of 120 um over 2.4 mm at 25 mm SL, scaled by SL (research 03d row; estimate)",
+        "a chain of ellipsoids along the ventral aorta from u 0.15 caudally, v -0.66 to -0.7; the first follicle stays the most anterior one (Alt et al. 2006 Dev Dyn 235:1872-1883, PMID 16680726)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001081",
+    "name": "thyroid primordium",
+    "synonyms": [
+      "thyroid primordia"
+    ],
+    "system": "endocrine",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001158",
+    "uiParent": "ZFA:0001158",
+    "parentRelation": "part_of",
+    "definition": "Portion of tissue part of the pharyngeal endoderm that is fated to become thyroid follicle.",
+    "zfinStartStage": "ZFS:0000030",
+    "zfinEndStage": "ZFS:0000033",
+    "startHpf": 30.0,
+    "endHpf": 60.0,
+    "visibleFromHpf": 24,
+    "modelEndHpf": 60.0,
+    "overrideNote": "DM-20: drawn from 24 hpf, when nkx2.4b-positive thyroid cells sit in the pharyngeal floor; ZFA starts the primordium at Prim-15 (30 hpf). Handoff thyroid_primordium_follicle: the primordium hands off to the thyroid follicle over 48 to 60 hpf (D9); the window end equals the ZFA end (Long-pec). The fade-out spans the window.",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 12,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 20,
+        "text": "Pax2a expression starts in the foregut endoderm.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10214844/"
+      },
+      {
+        "hpf": 24,
+        "text": "Nkx2.4b positive thyroid cells near the heart tube.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10214844/"
+      },
+      {
+        "hpf": 30,
+        "text": "Thyroid primordium term starts in ZFIN (Prim-15); pax8 and foxe1 expressed at 28 to 30 hpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10214844/"
+      },
+      {
+        "hpf": 38,
+        "text": "Placode buds from the pharyngeal epithelium (36 to 40 hpf); tg expressed.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10214844/"
+      },
+      {
+        "hpf": 55,
+        "text": "First follicle differentiates; end of the primordium term at 60 hpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/; https://pubmed.ncbi.nlm.nih.gov/16680726/; https://pmc.ncbi.nlm.nih.gov/articles/PMC10214844/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001081; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/",
+        "estimate": true,
+        "note": "monolayer of committed cells"
+      },
+      {
+        "hpf": 30,
+        "stageLabel": "Prim-15",
+        "dimsMm": {
+          "diameter": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001081; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/",
+        "estimate": true
+      },
+      {
+        "hpf": 40,
+        "stageLabel": "Prim-25",
+        "dimsMm": {
+          "length": 0.05,
+          "diameter": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001081; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/",
+        "estimate": true,
+        "note": "placode budding from the pharyngeal epithelium"
+      },
+      {
+        "hpf": 55,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001081; https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/",
+        "estimate": true,
+        "note": "30 to 40 differentiated cells; ZFIN end stage Long-pec"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d thyroid primordium record",
+      "https://zfin.org/ZFA:0001081",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/",
+      "https://pubmed.ncbi.nlm.nih.gov/16680726/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10214844/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.15,
+            "v": -0.58,
+            "w": 0
+          },
+          "radiiMm": [
+            0.015,
+            0.015,
+            0.015
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.15,
+            "v": -0.6,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0175,
+            0.0175,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 40,
+          "placement": {
+            "u": 0.15,
+            "v": -0.63,
+            "w": 0
+          },
+          "radiiMm": [
+            0.025,
+            0.0175,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.15,
+            "v": -0.635,
+            "w": 0
+          },
+          "radiiMm": [
+            0.02425,
+            0.017875,
+            0.017875
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.15,
+            "v": -0.65,
+            "w": 0
+          },
+          "radiiMm": [
+            0.022,
+            0.019,
+            0.019
+          ]
+        },
+        {
+          "hpf": 55,
+          "placement": {
+            "u": 0.152,
+            "v": -0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        },
+        {
+          "hpf": 60,
+          "placement": {
+            "u": 0.152,
+            "v": -0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        }
+      ],
+      "handoffOut": "thyroid_primordium_follicle",
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "24 hpf: 30 um monolayer of committed cells in the pharyngeal floor near the heart tube; 30 hpf: 35 um; 40 hpf: 50 x 35 um placode budding rostro-ventrally; 55 hpf: 40 um with 30 to 40 differentiated cells (timing from Alt et al. 2006 Dev Dyn 235:1872-1883, PMID 16680726 and the review Marelli et al. 2021 Front Endocrinol https://pmc.ncbi.nlm.nih.gov/articles/PMC8213386/, which states \"The first follicular cell (TFC) is formed by 55 hpf\"; all micrometre values are estimates, research 03d rows)",
+        "u 0.15, v -0.6, in the pharyngeal floor dorsal to the outflow tract (estimate)",
+        "42 hpf: interpolated between the 40 and 48 hpf rows so the High-pec headline has stated values (review DR-12)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001200",
+    "name": "corpuscles of Stannius",
+    "synonyms": [],
+    "system": "endocrine",
+    "alsoIn": [],
+    "zfaParent": null,
+    "uiParent": "ZFA:0001158",
+    "parentRelation": "grouping",
+    "definition": "Islands of eosinic cells found on the lateroventral surface of the kidney. Function is thought to be that of the parathyroid gland in other vertebrates, which are lacking in fishes. These cells secrete hypocalcin (teleocalcin) to regulate calcium metabolism.",
+    "zfinStartStage": "ZFS:0000027",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 19.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 50,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA starts the corpuscles of Stannius at 20-25 somites (19 hpf) with the stc1-positive cells inside the tubule; the discrete glands sit on top of the ducts from about 50 hpf, when the atlas draws them (Naylor et al. 2018; research 03d; spec 3.5.7 moves the 24 hpf size row to 50). ZFA gives no part-of parent; shown under the endocrine system. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 19,
+        "text": "Term starts in ZFIN (20-25 somites); cells arise in the distal pronephros.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/; https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+      },
+      {
+        "hpf": 24,
+        "text": "Cdh17 down-regulated and stc1 expressed in the posterior distal early segment.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/; https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+      },
+      {
+        "hpf": 32,
+        "text": "Prominent bulge on the dorsal side of the tubule.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/; https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+      },
+      {
+        "hpf": 42,
+        "text": "Neighbouring epithelial cells meet under the extruding cells.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/; https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+      },
+      {
+        "hpf": 50,
+        "text": "Discrete separate glands on top of each tubule in about 70 percent of animals.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/; https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+      },
+      {
+        "hpf": 60,
+        "text": "Extrusion complete in most embryos.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/; https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 50,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001200; https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/",
+        "estimate": true,
+        "note": "discrete gland on top of the tubule; the 24 hpf row (15 um, stc1 positive cells still inside the tubule) is folded into this row (spec 3.5.7; review DR-15)"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001200; https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001200; https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/",
+        "estimate": true,
+        "note": "islands on the lateroventral kidney surface",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d corpuscles of Stannius record",
+      "https://zfin.org/ZFA:0001200",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6250424/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2042002/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 50,
+          "placement": {
+            "u": 0.455,
+            "v": -0.158,
+            "w": 0.42,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0125,
+            0.0125,
+            0.0125
+          ]
+        },
+        {
+          "hpf": 60,
+          "placement": {
+            "u": 0.455,
+            "v": -0.1633,
+            "w": 0.42,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.013,
+            0.013,
+            0.013
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.455,
+            "v": -0.171,
+            "w": 0.42,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.014,
+            0.014,
+            0.014
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.455,
+            "v": -0.2336,
+            "w": 0.42,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0175,
+            0.0175,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.455,
+            "v": -0.2527,
+            "w": 0.42,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.019,
+            0.019,
+            0.019
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.455,
+            "v": -0.2186,
+            "w": 0.42,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.024,
+            0.024,
+            0.024
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.455,
+            "v": -0.1788,
+            "w": 0.42,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.03,
+            0.03,
+            0.03
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.455,
+            "v": -0.1241,
+            "w": 0.38,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.04,
+            0.04,
+            0.04
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.455,
+            "v": -0.0962,
+            "w": 0.38,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.055,
+            0.055,
+            0.055
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "placement": {
+            "u": 0.455,
+            "v": -0.0896,
+            "w": 0.38,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.08,
+            0.08,
+            0.08
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "placement": {
+            "u": 0.455,
+            "v": -0.1049,
+            "w": 0.38,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1,
+            0.1,
+            0.1
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "50 hpf: 25 um discrete gland on the dorsal side of each duct at the distal early to distal late junction, somite 10 to 12; 120 hpf: 35 um; adult 200 um islands on the lateroventral kidney surface (Naylor et al. 2018; research 03d rows; estimate)",
+        "u 0.455 on each duct, w +-0.42 (Wingert et al. 2007 segment map; estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001345",
+    "name": "interrenal gland",
+    "synonyms": [],
+    "system": "endocrine",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000669",
+    "uiParent": "ZFA:0001158",
+    "parentRelation": "grouping",
+    "definition": "An bilobed multi-tissue structure lateral to the notochord composed of an epithelium consisting of steroid producing cells interposed with chromaffin cells. The interrenal gland is embedded within the head kidney. The interrenal gland is the zebrafish functional equivalent of the mammalian adrenal cortex.",
+    "zfinStartStage": "ZFS:0000035",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 72.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 28,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff interrenal_primordium_gland: seeded from the interrenal primordium at the window start 28 hpf (D9, DM-33); ZFA starts the gland at Protruding-mouth (72 hpf). ZFA parent: part of the head kidney (excretory); shown under the endocrine system (D5, grouping). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "right",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 48,
+        "text": "Assembly starts at about 2 dpf; cells migrate from the right of the dorsal aorta toward the midline.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/; https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 72,
+        "text": "Interrenal gland term starts in ZFIN (Protruding-mouth); circulation through the gland established by 3 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/; https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 120,
+        "text": "Pituitary control of interrenal growth starts at 5 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/; https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 2160,
+        "text": "Bilobed tissue lateral to the notochord inside the head kidney.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/; https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 72,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "length": 0.06,
+          "width": 0.045,
+          "height": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001345; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/",
+        "estimate": true,
+        "note": "assembly complete by 3 dpf"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.07,
+          "width": 0.05,
+          "height": 0.045
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001345; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.8,
+          "width": 0.4,
+          "height": 0.3
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001345; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/",
+        "estimate": true,
+        "note": "steroidogenic and chromaffin cells scattered in the head kidney",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d interrenal gland record",
+      "https://zfin.org/ZFA:0001345",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/",
+      "https://journals.biologists.com/dev/article/130/10/2107/52039/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 28,
+          "placement": {
+            "u": 0.322,
+            "v": -0.2519,
+            "w": 0.16
+          },
+          "radiiMm": [
+            0.016,
+            0.015,
+            0.016
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.322,
+            "v": -0.2194,
+            "w": 0.17
+          },
+          "radiiMm": [
+            0.017,
+            0.016,
+            0.017
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.325,
+            "v": -0.1373,
+            "w": 0.18
+          },
+          "radiiMm": [
+            0.02,
+            0.017,
+            0.019
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.325,
+            "v": -0.1492,
+            "w": 0.18
+          },
+          "radiiMm": [
+            0.022,
+            0.018,
+            0.02
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.33,
+            "v": -0.167,
+            "w": 0.18
+          },
+          "radiiMm": [
+            0.03,
+            0.02,
+            0.0225
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.33,
+            "v": -0.2119,
+            "w": 0.18
+          },
+          "radiiMm": [
+            0.035,
+            0.0225,
+            0.025
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.33,
+            "v": -0.3204,
+            "w": 0.16
+          },
+          "radiiMm": [
+            0.04,
+            0.025,
+            0.03
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.33,
+            "v": -0.2632,
+            "w": 0.12
+          },
+          "radiiMm": [
+            0.06,
+            0.035,
+            0.05
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.33,
+            "v": -0.2267,
+            "w": 0.08
+          },
+          "radiiMm": [
+            0.09,
+            0.05,
+            0.08
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.33,
+            "v": -0.2309,
+            "w": 0.05
+          },
+          "radiiMm": [
+            0.13,
+            0.07,
+            0.11
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.33,
+            "v": -0.1783,
+            "w": 0.0
+          },
+          "radiiMm": [
+            0.2,
+            0.1,
+            0.17
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "placement": {
+            "u": 0.33,
+            "v": -0.1323,
+            "w": 0.0
+          },
+          "radiiMm": [
+            0.3,
+            0.13,
+            0.25
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "placement": {
+            "u": 0.33,
+            "v": -0.1138,
+            "w": 0.0
+          },
+          "radiiMm": [
+            0.4,
+            0.15,
+            0.3
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "28 to 30 hpf: seeded from the interrenal primordium (handoff interrenal_primordium_gland, copyPlacement)",
+        "72 hpf: 60 x 45 x 40 um assembled tissue right of the midline, caudal to the glomerulus; 120 hpf: 70 x 50 x 45 um (Chou et al. 2012; research 03d rows; estimate)",
+        "adult: bilobed, 800 x 400 x 300 um at the midline inside the head kidney (ZFA definition; research 03d row; estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001346",
+    "name": "interrenal primordium",
+    "synonyms": [],
+    "system": "endocrine",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000151",
+    "uiParent": "ZFA:0001158",
+    "parentRelation": "grouping",
+    "definition": "Multi-tissue structure located in the kidney that develops into the interrenal gland.",
+    "zfinStartStage": "ZFS:0000027",
+    "zfinEndStage": "ZFS:0000035",
+    "startHpf": 19.0,
+    "endHpf": 96.0,
+    "visibleFromHpf": 19.0,
+    "modelEndHpf": 30,
+    "overrideNote": "Handoff interrenal_primordium_gland: the primordium hands off to the interrenal gland over 28 to 30 hpf (D9), so the record ends at 30 hpf; ZFA carries the term to Protruding-mouth (96 hpf). ZFA parent: part of the pronephros (excretory); shown under the endocrine system (D5, grouping). The fade-out spans the window.",
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 2,
+    "laterality": "right",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 19,
+        "text": "Interrenal primordium term starts in ZFIN (20-25 somites).",
+        "source": "https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/"
+      },
+      {
+        "hpf": 22,
+        "text": "Ff1b positive bilateral clusters ventral to somite 3 (22 to 27 hpf).",
+        "source": "https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/"
+      },
+      {
+        "hpf": 27,
+        "text": "Clusters fuse at the midline at the 22 to 24 somite stage guided by angioblasts.",
+        "source": "https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/"
+      },
+      {
+        "hpf": 28,
+        "text": "Single tissue between the dorsal aorta and the right posterior cardinal vein.",
+        "source": "https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/"
+      },
+      {
+        "hpf": 48,
+        "text": "Interrenal vessel sprouts from the dorsal aorta into the tissue at about 2 dpf.",
+        "source": "https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/"
+      },
+      {
+        "hpf": 96,
+        "text": "ZFIN end stage Protruding-mouth; interrenal gland term continues.",
+        "source": "https://journals.biologists.com/dev/article/130/10/2107/52039/; https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 22,
+        "stageLabel": "20-25 somites",
+        "dimsMm": {
+          "diameter": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001346; https://journals.biologists.com/dev/article/130/10/2107/52039/",
+        "estimate": true,
+        "note": "each bilateral cluster"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001346; https://journals.biologists.com/dev/article/130/10/2107/52039/",
+        "estimate": true,
+        "note": "converging"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d interrenal primordium record",
+      "https://zfin.org/ZFA:0001346",
+      "https://journals.biologists.com/dev/article/130/10/2107/52039/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428036/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.32,
+            "v": -0.4956,
+            "w": 0.05
+          },
+          "radiiMm": [
+            0.01,
+            0.01,
+            0.028
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.32,
+            "v": -0.3685,
+            "w": 0.08
+          },
+          "radiiMm": [
+            0.012,
+            0.01,
+            0.03
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.32,
+            "v": -0.3796,
+            "w": 0.12
+          },
+          "radiiMm": [
+            0.015,
+            0.013,
+            0.022
+          ]
+        },
+        {
+          "hpf": 28,
+          "placement": {
+            "u": 0.322,
+            "v": -0.2519,
+            "w": 0.16
+          },
+          "radiiMm": [
+            0.016,
+            0.015,
+            0.016
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.322,
+            "v": -0.2194,
+            "w": 0.17
+          },
+          "radiiMm": [
+            0.017,
+            0.016,
+            0.017
+          ]
+        }
+      ],
+      "handoffOut": "interrenal_primordium_gland",
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "22 hpf: two 20 um ff1b-positive clusters ventral to somite 3, drawn as one ellipsoid 60 um wide; 24 hpf: 30 um converging; 28 hpf: one tissue between the dorsal aorta and the right posterior cardinal vein (Hsu et al. 2003; Chou et al. 2012; research 03d rows; estimate)",
+        "u 0.32 just caudal to the glomerular primordia, w drifting to +0.17 (right) by 30 hpf (estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001448",
+    "name": "ultimobranchial body",
+    "synonyms": [
+      "ultimobranchial bodies"
+    ],
+    "system": "endocrine",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001158",
+    "uiParent": "ZFA:0001158",
+    "parentRelation": "part_of",
+    "definition": "Glands that produce calcitonin. In adult fish the glands lie as two groups of follicles at the transverse septum close to the sinus venosus.",
+    "zfinStartStage": "ZFS:0000034",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 60.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 168,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA starts the ultimobranchial body at Pec-fin (60 hpf); calca-positive cells are documented from 7 dpf, so the atlas draws it from 168 hpf (PMC11698069; research 03d; spec 3.5.7 drops the 60 hpf size row and moves the 120 hpf row to 168). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 8.4,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 60,
+        "text": "Ultimobranchial body term starts in ZFIN (Pec-fin).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 168,
+        "text": "Calca transcripts in the ultimobranchial body at 7 dpf; calcitonin protein not yet detectable.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 240,
+        "text": "Distinct cluster of several small follicles between gut and heart at 10 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      },
+      {
+        "hpf": 2160,
+        "text": "Single midline organ dorsal to the heart in the transverse septum; two groups of follicles near the sinus venosus (ZFA).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/; https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 168,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001448; https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/",
+        "estimate": true,
+        "note": "(row moved from 120 hpf, spec 3.5.7)"
+      },
+      {
+        "hpf": 240,
+        "stageLabel": "Days 7-13",
+        "dimsMm": {
+          "diameter": 0.045
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001448; https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/",
+        "estimate": true,
+        "note": "distinct cell cluster with several small follicles at 10 dpf"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.3
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03d (estimate); https://zfin.org/ZFA:0001448; https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03d ultimobranchial body record",
+      "https://zfin.org/ZFA:0001448",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698069/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340149/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.235,
+            "v": -0.64,
+            "w": 0
+          },
+          "radiiMm": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        },
+        {
+          "hpf": 240,
+          "sizeRefSl": 4.6143,
+          "placement": {
+            "u": 0.235,
+            "v": -0.64,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0225,
+            0.0225,
+            0.0225
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.235,
+            "v": -0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.026,
+            0.026,
+            0.026
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.235,
+            "v": -0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.032,
+            0.032,
+            0.032
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.235,
+            "v": -0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.04,
+            0.04,
+            0.04
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.235,
+            "v": -0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.06,
+            0.06,
+            0.06
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "placement": {
+            "u": 0.235,
+            "v": -0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "placement": {
+            "u": 0.235,
+            "v": -0.66,
+            "w": 0
+          },
+          "radiiMm": [
+            0.15,
+            0.15,
+            0.15
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "168 hpf: 30 um cluster between the esophagus and the sinus venosus; 240 hpf: 45 um with several small follicles; adult 300 um at the transverse septum dorsal to the heart (PMC11698069; ZFA definition; research 03d rows; estimate)",
+        "u 0.235, v -0.64, on the ventral wall of the esophagus above the sinus venosus (estimate)"
+      ]
+    }
+  }
+]

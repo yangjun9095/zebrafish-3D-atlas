@@ -1,0 +1,1293 @@
+[
+  {
+    "id": "ZFA:0001056",
+    "name": "myotome",
+    "synonyms": [
+      "myomeres"
+    ],
+    "system": "muscular",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000473",
+    "uiParent": "ZFA:0000473",
+    "parentRelation": "part_of",
+    "definition": "Muscle that develops from somite and gives rise to body wall muscle masses.",
+    "zfinStartStage": "ZFS:0000023",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 10.33,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 10.33,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff somites_myotomes: seeded from the somite array over 14 to 29 hpf, 2 h after each segment forms (D9); ZFA starts the myotome at 1-4 somites (10.33 hpf), earlier than the window (DM-33), so the record starts with an empty array. Count 30 to 32 per research 03a and 03e; the model uses 31 (BG-58).",
+    "fadeInHpf": 0.07,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.33,
+        "text": "first somite furrow (ZFIN start 1-4 somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 11.66,
+        "text": "somites form at 3 per hour for the first six, then 2 per hour.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 18,
+        "text": "18 somites at 18 hpf.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 24,
+        "text": "somitogenesis ends at about 24 hpf with 30 to 34 somites; tail somites are shorter.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/18265021/"
+      },
+      {
+        "hpf": 72,
+        "text": "somite term ends (ZFIN end Pec-fin); the myotome persists to the adult.",
+        "source": "https://zfin.org/ZFA:0000155"
+      },
+      {
+        "hpf": 2160,
+        "text": "Adult myomeres with W-shaped folds.",
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.059,
+          "height": 0.15,
+          "width": 0.06
+        },
+        "counts": {
+          "count": 30
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "59 um per myotome derived from the lateral line primordium speed of 100 um/hour = 1.7 myotomes/hour; height and width are estimates"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.06,
+          "height": 0.22,
+          "width": 0.09
+        },
+        "counts": {
+          "count": 32
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.08,
+          "height": 0.3,
+          "width": 0.12
+        },
+        "counts": {
+          "count": 32
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "3.9 mm larva"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.7,
+          "height": 6.0,
+          "width": 2.5
+        },
+        "counts": {
+          "count": 32
+        },
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "28 mm SL adult; one myomere per vertebra"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001056",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://pubmed.ncbi.nlm.nih.gov/18265021/",
+      "https://pubmed.ncbi.nlm.nih.gov/11066087/",
+      "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "custom",
+        "builder": "somiteChevron",
+        "placement": {
+          "u": 0,
+          "v": 0.207,
+          "w": 0.544
+        },
+        "lengthMm": 0.05,
+        "widthMm": 0.0719,
+        "heightFraction": 0.372,
+        "chevronDeg": 0,
+        "wFoldFraction": 0,
+        "apexOffsetFraction": 0.5
+      },
+      "uStart": 0.25,
+      "uEnd": 0.25,
+      "count": 0,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 10.33
+        },
+        {
+          "hpf": 13.33,
+          "uEnd": 0.29,
+          "count": 1,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.378,
+            "widthMm": 0.0712,
+            "placement": {
+              "v": 0.196,
+              "w": 0.559
+            }
+          }
+        },
+        {
+          "hpf": 14.66,
+          "uEnd": 0.43,
+          "count": 5,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.383,
+            "widthMm": 0.0689,
+            "placement": {
+              "v": 0.196,
+              "w": 0.562
+            }
+          }
+        },
+        {
+          "hpf": 17,
+          "template": {
+            "chevronDeg": 6,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.401,
+            "widthMm": 0.0625,
+            "placement": {
+              "v": 0.2,
+              "w": 0.569
+            }
+          },
+          "uEnd": 0.6,
+          "count": 10
+        },
+        {
+          "hpf": 19,
+          "template": {
+            "chevronDeg": 16,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.363,
+            "widthMm": 0.064,
+            "placement": {
+              "v": 0.152,
+              "w": 0.57
+            }
+          },
+          "uEnd": 0.64,
+          "count": 14
+        },
+        {
+          "hpf": 22,
+          "template": {
+            "chevronDeg": 24,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.348,
+            "widthMm": 0.0295,
+            "placement": {
+              "v": 0.122,
+              "w": 0.644
+            }
+          },
+          "uEnd": 0.76,
+          "count": 20
+        },
+        {
+          "hpf": 24,
+          "template": {
+            "widthMm": 0.0288,
+            "heightFraction": 0.361,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "placement": {
+              "v": 0.145,
+              "w": 0.634
+            },
+            "chevronDeg": 30
+          },
+          "uEnd": 0.84,
+          "count": 24
+        },
+        {
+          "hpf": 26,
+          "template": {
+            "lengthMm": 0.051,
+            "widthMm": 0.0292,
+            "heightFraction": 0.372,
+            "chevronDeg": 34,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "placement": {
+              "v": 0.143,
+              "w": 0.622
+            }
+          },
+          "uEnd": 0.93,
+          "count": 29
+        },
+        {
+          "hpf": 29,
+          "template": {
+            "lengthMm": 0.055,
+            "widthMm": 0.0296,
+            "heightFraction": 0.384,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "placement": {
+              "v": 0.145,
+              "w": 0.615
+            },
+            "chevronDeg": 36
+          },
+          "uEnd": 0.97,
+          "count": 31
+        },
+        {
+          "hpf": 33,
+          "template": {
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.392,
+            "placement": {
+              "v": 0.159,
+              "w": 0.624
+            }
+          }
+        },
+        {
+          "hpf": 42,
+          "template": {
+            "lengthMm": 0.063,
+            "widthMm": 0.0281,
+            "chevronDeg": 37,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.753,
+            "placement": {
+              "v": -0.073,
+              "w": 0.643
+            }
+          }
+        },
+        {
+          "hpf": 48,
+          "template": {
+            "lengthMm": 0.067,
+            "chevronDeg": 38,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.782,
+            "widthMm": 0.0272,
+            "placement": {
+              "v": -0.028,
+              "w": 0.653
+            }
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "lengthMm": 0.072,
+            "widthMm": 0.0323,
+            "chevronDeg": 38,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.813,
+            "placement": {
+              "v": 0.1,
+              "w": 0.646
+            }
+          },
+          "uEnd": 0.94
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "lengthMm": 0.08,
+            "widthMm": 0.0344,
+            "chevronDeg": 40,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.834,
+            "placement": {
+              "v": 0.127,
+              "w": 0.648
+            }
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "lengthMm": 0.091,
+            "widthMm": 0.0424,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.84,
+            "placement": {
+              "v": 0.13,
+              "w": 0.599
+            }
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "lengthMm": 0.118,
+            "widthMm": 0.0619,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.86,
+            "placement": {
+              "v": 0.126,
+              "w": 0.531
+            }
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "lengthMm": 0.145,
+            "widthMm": 0.0859,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.86,
+            "placement": {
+              "v": 0.129,
+              "w": 0.482
+            }
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "lengthMm": 0.183,
+            "widthMm": 0.1676,
+            "wFoldFraction": 0.2,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.87,
+            "placement": {
+              "v": 0.121,
+              "w": 0.4924
+            }
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "lengthMm": 0.267,
+            "widthMm": 0.3073,
+            "wFoldFraction": 0.5,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.87,
+            "placement": {
+              "v": 0.117,
+              "w": 0.4891
+            }
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "lengthMm": 0.4,
+            "widthMm": 0.4676,
+            "wFoldFraction": 1,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.88,
+            "placement": {
+              "v": 0.112,
+              "w": 0.476
+            }
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "lengthMm": 0.556,
+            "widthMm": 0.7052,
+            "kind": "custom",
+            "builder": "somiteChevron",
+            "heightFraction": 0.88,
+            "placement": {
+              "v": 0.107,
+              "w": 0.4736
+            }
+          }
+        }
+      ],
+      "estimate": [
+        "template.widthMm",
+        "template.heightFraction",
+        "uEnd",
+        "count between the somite keyframes"
+      ],
+      "sources": [
+        "count: segment i hands off from the somite 2 h after it forms, over 2 h (D9 somites_myotomes, perSegment); the array count follows the somite count 3 h earlier: 1 at 13.33, 5 at 14.66, 10 at 17, 14 at 19, 20 at 22, 24 at 24, 29 at 26, 31 from 29 hpf; the somite record ZFA:0000155 gives the counts",
+        "uStart 0.25, uEnd = 0.25 + count x 0.05 mm / axisLengthMm(t) to 0.97 (the somite array rule); lengthMm = (uEnd - uStart) x axisLengthMm / 31 so neighbours touch: 0.05 mm to 24 hpf, 0.067 at 48, 0.084 at 120, 0.183 at 720, 0.556 mm at 25 mm SL (research 03e: 59 um per myotome at 24 hpf, 700 um at 28 mm SL); uEnd 0.94 from 72 hpf so the last myomere stays inside the caudal peduncle",
+        "chevronDeg 0 at formation, 20 at 22 hpf, 35 at 48, 40 from 120 hpf (BG-38; research 03a myoseptum chevronDeg 30 to 45); wFoldFraction 0.2 at 720 hpf, 1 from 2160 hpf for the adult W shape",
+        "heightFraction, placement v and w (RN-01 to RN-03, phase 2 visual calibration pass): over the handoff window 13.33 to 33 hpf the template copies the somite record ZFA:0000155 height and placement at the myotome's own uMid, so a segment and its myotome occupy one volume and the trunk shows one band, not two. From 42 hpf the block fills the trunk between the spine and the skin: the dorsal edge runs 0.80 to 0.86 of the local dorsal half-height and the ventral edge 0.72 to 0.80 of the ventral half-height, the values the record already reached at 168 hpf, so the tail carries muscle to both fin-fold margins as the owner painted stage series shows at 24 and 48 hr. The medial face stays outside the notochord sheath and the width is capped at 0.88 of the skin half-width. The muscular default opacity is 0.5 (materials.ts), so the notochord and the vertebral column read through the band.",
+        "lateral reach from 720 hpf (phase 3 calibration, RN-02): the lateral face reaches 0.79 to 0.82 of the skin half-width at the template station, up from 0.67 to 0.71, and the medial face does not move, so the block fills the trunk between the vertebral column and the skin. The flank stops at 0.97 of the skin half-width at every height of the block, which is what the somiteChevron section allows: its lateral face narrows to LATERAL_EDGE_FRACTION of the width at the dorsal and ventral edges while the body section narrows as an ellipse, so the 0.88 cap above needs a lateral face that follows the section."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000671",
+    "name": "horizontal myoseptum",
+    "synonyms": [
+      "horizontal septum"
+    ],
+    "system": "muscular",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001089",
+    "uiParent": "ZFA:0001089",
+    "parentRelation": "is_a",
+    "definition": "A connective tissue partition developing at the apex of the chevron-shaped myotome and separating dorsal (epaxial) and ventral (hypaxial) body wall muscle masses.",
+    "zfinStartStage": "ZFS:0000028",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 22.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 22.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 22,
+        "text": "ZFIN start stage 26+ somites.",
+        "source": "https://zfin.org/ZFA:0000671"
+      },
+      {
+        "hpf": 24,
+        "text": "muscle pioneer slow cells that do not migrate mark the myoseptum position.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.4,
+          "width": 0.06,
+          "thickness": 0.005
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 2.3,
+          "width": 0.09,
+          "thickness": 0.005
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 2.9,
+          "width": 0.12,
+          "thickness": 0.005
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 21.0,
+          "width": 2.5,
+          "thickness": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000671",
+      "https://pubmed.ncbi.nlm.nih.gov/8951054/",
+      "https://pubmed.ncbi.nlm.nih.gov/11066087/"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "path": {
+        "type": "spine",
+        "uStart": 0.27,
+        "uEnd": 0.97,
+        "v": 0,
+        "w": 0
+      },
+      "radiusMm": {
+        "value": 0.15,
+        "unit": "bodyHeightFraction"
+      },
+      "ellipticity": 0.08,
+      "caps": "flat",
+      "segmented": false,
+      "keyframes": [
+        {
+          "hpf": 22
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 42
+        },
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "ellipticity"
+      ],
+      "sources": [
+        "a spine tube at v 0 whose w radius is 0.15 of the local body height (about 0.7 of the half-width at every station) and whose v radius is 0.08 of that (about 5 um at 24 hpf, 60 um adult; research 03e thickness 5 to 30 um): a horizontal ribbon from the first myotome to the caudal peduncle",
+        "u 0.27 to 0.97 (research 03e apFraction 0.25 to 0.98, inside the myotome array)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0007049",
+    "name": "adductor mandibulae",
+    "synonyms": [
+      "dorsal adductor mandibulae"
+    ],
+    "system": "muscular",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000236",
+    "uiParent": "ZFA:0000548",
+    "parentRelation": "is_a",
+    "definition": "Is a mandibular muscle that forms along the palatoquadrates and inserts on Meckel's cartilages and functions in jaw closing.",
+    "zfinStartStage": "ZFS:0000032",
+    "zfinEndStage": "ZFS:0000041",
+    "startHpf": 42.0,
+    "endHpf": 720.0,
+    "visibleFromHpf": 42.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN end stage Days 21-29 (720 hpf) is an annotation limit; the muscle persists as the adductor mandibulae complex ZFA:0000311 from Days 30-44, so the model keeps this record to the axis end (spec 3.5.7 item 12).",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 108.0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 42,
+        "text": "ZFIN start stage High-pec.",
+        "source": "https://zfin.org/ZFA:0007049"
+      },
+      {
+        "hpf": 48,
+        "text": "cartilage and muscle precursors of the arches differentiate up to 2 days before feeding at 4 dpf.",
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal"
+      },
+      {
+        "hpf": 720,
+        "text": "ZFIN end stage Days 21-29; replaced by the adductor mandibulae complex term ZFA:0000311 from Days 30-44.",
+        "source": "https://zfin.org/ZFA:0000311"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.06,
+          "diameter": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+        "estimate": true,
+        "basisSL": null,
+        "note": "myoblasts differentiate in synchrony with the cartilage condensations"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.12,
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.5,
+          "diameter": 1.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "adductor mandibulae complex A1-A3 (ZFA:0000311)"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0007049",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+      "https://zfin.org/ZFA:0000311"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 0.13,
+        "v": -0.4,
+        "w": 0.55,
+        "pitchDeg": 30,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.03,
+        0.01,
+        0.01
+      ],
+      "keyframes": [
+        {
+          "hpf": 42
+        },
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.045,
+            0.015,
+            0.012
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.06,
+            0.02,
+            0.015
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.07,
+            0.025,
+            0.02
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.1,
+            0.04,
+            0.03
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.14,
+            0.055,
+            0.045
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.22,
+            0.09,
+            0.07
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.35,
+            0.15,
+            0.12
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.6,
+            0.3,
+            0.25
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.85,
+            0.45,
+            0.35
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "spindle 60 x 20 um at 48 hpf, 120 x 40 um at 120 hpf, 2.5 x 1.2 mm at 28 mm SL (research 03e sizes)",
+        "placement: cheek behind and below the eye, lateral to the palatoquadrate, u 0.13, v -0.4, w 0.55; pitch 30 degrees angles the belly from the cheek down to the jaw joint"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001651",
+    "name": "sternohyoid",
+    "synonyms": [
+      "hypobranchial muscle",
+      "sternohyoideus",
+      "sternohyoids"
+    ],
+    "system": "muscular",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000236",
+    "uiParent": "ZFA:0000548",
+    "parentRelation": "is_a",
+    "definition": "Head muscle that originates on the anterior region of the cleithrum and inserts on the urohyal. The hypobranchial forms initially as left and right parts that later fuse together forming a cone shape.  The muscle is innervated by the occipitospinals and mainly composed of fast twitch muscle fibers.",
+    "zfinStartStage": "ZFS:0000033",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 48.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 48.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 48,
+        "text": "ZFIN start stage Long-pec; forms as left and right halves that fuse into a cone.",
+        "source": "https://zfin.org/ZFA:0001651"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.12,
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0001651",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.25,
+          "diameter": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.5,
+          "diameter": 1.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001651",
+      "https://journals.biologists.com/dev/article/124/15/2945/39466/Musculoskeletal-patterning-in-the-pharyngeal"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 0.21,
+        "v": -0.6,
+        "w": 0
+      },
+      "radiiMm": [
+        0.06,
+        0.02,
+        0.016
+      ],
+      "keyframes": [
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.08,
+            0.025,
+            0.02
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.125,
+            0.04,
+            0.03
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "v": -0.55
+          },
+          "radiiMm": [
+            0.14,
+            0.045,
+            0.035
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.19,
+            0.065,
+            0.045
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.25,
+            0.09,
+            0.065
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.37,
+            0.14,
+            0.1
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.6,
+            0.22,
+            0.15
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            1,
+            0.35,
+            0.25
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            1.4,
+            0.5,
+            0.35
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "cone 120 x 40 um at 48 hpf, 250 x 80 um at 120 hpf, 3.5 x 1.2 mm at 28 mm SL (research 03e sizes)",
+        "placement: ventral midline of the throat between the ceratohyals and the pectoral girdle, u 0.21, v -0.6 to 120 hpf and -0.55 from 168 hpf (the throat floor above the ventral skin); the w radius is 0.7 of the v radius so the cone fits the narrow throat"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000563",
+    "name": "pectoral fin musculature",
+    "synonyms": [
+      "pectoral fin muscle"
+    ],
+    "system": "muscular",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001161",
+    "uiParent": "ZFA:0000548",
+    "parentRelation": "part_of",
+    "definition": "Musculature that is part of the pectoral fin.",
+    "zfinStartStage": "ZFS:0000031",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 36.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 36.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 36,
+        "text": "ZFIN start stage Prim-25 (primitive adductor at 36 hpf).",
+        "source": "https://zfin.org/ZFA:0005650"
+      },
+      {
+        "hpf": 1000,
+        "text": "discrete superficial and deep fin muscles identifiable at 7 mm body length.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      },
+      {
+        "hpf": 1200,
+        "text": "mature muscle morphology established by about 12 mm total length.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 36,
+        "stageLabel": "Prim-25",
+        "dimsMm": {
+          "length": 0.04,
+          "width": 0.03,
+          "thickness": 0.015
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0000563",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start Prim-25"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.07,
+          "width": 0.05,
+          "thickness": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0000563",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.12,
+          "width": 0.08,
+          "thickness": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.5,
+          "width": 1.5,
+          "thickness": 0.6
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "discrete superficial and deep muscles from 7 mm body length; mature by about 12 mm TL"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000563",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097112/",
+      "https://pubmed.ncbi.nlm.nih.gov/10349624/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 0.275,
+        "v": -0.45,
+        "w": 0.6,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.02,
+        0.015,
+        0.008
+      ],
+      "keyframes": [
+        {
+          "hpf": 36
+        },
+        {
+          "hpf": 42,
+          "radiiMm": [
+            0.028,
+            0.02,
+            0.009
+          ]
+        },
+        {
+          "hpf": 48,
+          "radiiMm": [
+            0.035,
+            0.025,
+            0.01
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.045,
+            0.03,
+            0.012
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.06,
+            0.04,
+            0.015
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.07,
+            0.05,
+            0.018
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiiMm": [
+            0.1,
+            0.07,
+            0.025
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.14,
+            0.1,
+            0.035
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.22,
+            0.15,
+            0.055
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiiMm": [
+            0.35,
+            0.25,
+            0.09
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.6,
+            0.4,
+            0.15
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            0.8,
+            0.55,
+            0.2
+          ]
+        }
+      ],
+      "estimate": [
+        "placement"
+      ],
+      "sources": [
+        "abductor and adductor drawn as one flattened ellipsoid per side: 40 x 30 x 15 um at 36 hpf, 70 x 50 x 20 at 48, 120 x 80 x 30 at 120 hpf, 2.5 x 1.5 x 0.6 mm at 28 mm SL (research 03e sizes)",
+        "placement: the fin base on the flank behind the opercle, u 0.275, v -0.05, w 0.85",
+        "placement v -0.45, w 0.6 (review R03): the fin muscles sit at the pectoral fin base on the ventrolateral flank, where the fin bud and the fin sheet now insert"
+      ]
+    }
+  }
+]

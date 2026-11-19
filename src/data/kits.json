@@ -1,0 +1,28 @@
+[
+  {
+    "id": "embryogenesis-8-views",
+    "name": "Embryogenesis in 8 views",
+    "description": "Eight lateral views from the 1-cell zygote to the protruding-mouth larva (UI-45).",
+    "bookmarks": [
+      { "name": "1-cell", "t": 0, "view": "lateral" },
+      { "name": "Sphere", "t": 4, "view": "lateral" },
+      { "name": "Shield", "t": 6, "view": "lateral" },
+      { "name": "Bud", "t": 10, "view": "lateral" },
+      { "name": "10 somites", "t": 14, "view": "lateral" },
+      { "name": "Prim-5", "t": 24, "view": "lateral" },
+      { "name": "Long-pec", "t": 48, "view": "lateral" },
+      { "name": "Protruding-mouth", "t": 72, "view": "lateral" }
+    ]
+  },
+  {
+    "id": "organ-origins",
+    "name": "Organ origins",
+    "description": "Four organs at their first appearance, each selected and isolated (UI-45).",
+    "bookmarks": [
+      { "name": "Heart", "t": 22, "view": "lateral", "sel": ["ZFA:0000114"], "iso": true },
+      { "name": "Pronephros", "t": 14, "view": "lateral", "sel": ["ZFA:0000151"], "iso": true },
+      { "name": "Liver", "t": 30, "view": "lateral", "sel": ["ZFA:0000123"], "iso": true },
+      { "name": "Swim bladder", "t": 120, "view": "lateral", "sel": ["ZFA:0000076"], "iso": true }
+    ]
+  }
+]

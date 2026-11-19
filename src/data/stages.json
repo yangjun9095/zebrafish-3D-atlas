@@ -1,0 +1,2146 @@
+{
+  "meta": {
+    "zfaRelease": "2026-07-16",
+    "temperatureC": 28.5,
+    "generated": "2026-09-06",
+    "notes": [
+      "Stages: the 44 named ZFS stages of stage_ontology.txt (ZFS:0000001 to ZFS:0000044); the ZFS:0000000 Unknown row is excluded.",
+      "Growth: one table maps hpf to body length (D6). Every row names what its lengthMm measures in lengthMeasure: ED is the egg diameter (0 to 10 hpf, before the embryonic axis exists), EL the Kimmel embryo length (12 to 60 hpf), TL the total length (72 hpf and after). At 72 hpf the measure changes from EL to TL, so the step from 3.3 mm at 60 hpf to 3.5 mm at 72 hpf is a change of definition and not only growth; read no growth rate across that join. The TL rows are the ZFIN larval index values from 72 to 720 hpf; from 1080 hpf the source states the standard length (Singleman and Holtzman thresholds, SH14) and this table derives TL as 1.2 x SL, so the adult 30.0 mm TL is 25 mm SL. The older measure field states EL, TL or SL only and keeps its EL value on the ED rows; lengthMeasure is the field to read. standardLengthMm is null before 72 hpf, TL minus the caudal extent to 720 hpf, and the SH14 thresholds after. The runtime interpolates the table linearly in hpf, so SL(t) is monotone and invertible; every SL-defined event and every sizeRefSl rescale reads this one table.",
+      "Events: the D8 canonical rows carry canonical: true. An event with hpfIsEstimate: true is defined by standard length in its source; its hpf is the growth-table placement of slMm (the onset of the source range).",
+      "Time axis: the D7 segment shares; the track is linear in hpf inside each segment (UX-TL-01).",
+      "Temperature: labels at another incubation temperature use H_T = h / (0.055 T - 0.57) (Kimmel et al. 1995, ZFIN staging figure 2); the data keep 28.5 C hours."
+    ]
+  },
+  "stages": [
+    {
+      "zfs": "ZFS:0000001",
+      "zdb": "ZDB-STAGE-010723-4",
+      "name": "Zygote:1-cell",
+      "shortLabel": "1-cell",
+      "period": "zygote",
+      "startHpf": 0,
+      "endHpf": 0.75,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Cytoplasm streams toward the animal pole to form the blastodisc (ZFIN index).",
+        "The chorion takes up water and separates from the egg surface; cytoplasmic movement is visible about 10 minutes after fertilization (ZFIN zygote page).",
+        "The first cleavage occurs about 40 minutes after fertilization (ZFIN zygote page)."
+      ],
+      "lengthMm": {
+        "value": 0.7,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/zygote.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000002",
+      "zdb": "ZDB-STAGE-010723-15",
+      "name": "Cleavage:2-cell",
+      "shortLabel": "2-cell",
+      "period": "cleavage",
+      "startHpf": 0.75,
+      "endHpf": 1,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Partial (meroblastic) cleavage; the first furrow is vertical and does not cut the yolk (ZFIN cleave_stgs).",
+        "The two blastomeres are of equal size (ZFIN cleave_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000003",
+      "zdb": "ZDB-STAGE-010723-11",
+      "name": "Cleavage:4-cell",
+      "shortLabel": "4-cell",
+      "period": "cleavage",
+      "startHpf": 1,
+      "endHpf": 1.25,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "2 x 2 array of blastomeres; second furrow at right angles to the first (ZFIN cleave_stgs).",
+        "Blastodisc is ellipsoidal in animal-pole view (ZFIN cleave_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000004",
+      "zdb": "ZDB-STAGE-010723-33",
+      "name": "Cleavage:8-cell",
+      "shortLabel": "8-cell",
+      "period": "cleavage",
+      "startHpf": 1.25,
+      "endHpf": 1.5,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "2 x 4 array of blastomeres (ZFIN index)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000005",
+      "zdb": "ZDB-STAGE-010723-20",
+      "name": "Cleavage:16-cell",
+      "shortLabel": "16-cell",
+      "period": "cleavage",
+      "startHpf": 1.5,
+      "endHpf": 1.75,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "4 x 4 array; the 4 central blastomeres become completely cleaved for the first time (ZFIN cleave_stgs).",
+        "Cytoplasmic bridges still join the 12 marginal blastomeres to the yolk cell (ZFIN cleave_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000006",
+      "zdb": "ZDB-STAGE-010723-25",
+      "name": "Cleavage:32-cell",
+      "shortLabel": "32-cell",
+      "period": "cleavage",
+      "startHpf": 1.75,
+      "endHpf": 2,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "4 x 8 array is common; oblique furrows appear; two tiers of cells in side view (ZFIN cleave_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000007",
+      "zdb": "ZDB-STAGE-010723-28",
+      "name": "Cleavage:64-cell",
+      "shortLabel": "64-cell",
+      "period": "cleavage",
+      "startHpf": 2,
+      "endHpf": 2.25,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "3 regular tiers of enveloping layer (EVL) blastomeres (ZFIN index).",
+        "First horizontal cleavage; the first deep cells appear under the EVL (ZFIN cleave_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000008",
+      "zdb": "ZDB-STAGE-010723-7",
+      "name": "Blastula:128-cell",
+      "shortLabel": "128-cell",
+      "period": "blastula",
+      "startHpf": 2.25,
+      "endHpf": 2.5,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "5 blastomere tiers; cleavage planes now irregular (ZFIN index).",
+        "Blastodisc is a high mound, a solid half ball on the yolk cell (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000009",
+      "zdb": "ZDB-STAGE-010723-1",
+      "name": "Blastula:256-cell",
+      "shortLabel": "256-cell",
+      "period": "blastula",
+      "startHpf": 2.5,
+      "endHpf": 2.75,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "7 blastomere tiers (ZFIN index).",
+        "Ninth cleavage is the last highly synchronous one (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000010",
+      "zdb": "ZDB-STAGE-010723-14",
+      "name": "Blastula:512-cell",
+      "shortLabel": "512-cell",
+      "period": "blastula",
+      "startHpf": 2.75,
+      "endHpf": 3,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "9 blastomere tiers; yolk syncytial layer (YSL) forms (ZFIN index).",
+        "Midblastula transition begins here; cell cycles lengthen over the next divisions (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast.html",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000011",
+      "zdb": "ZDB-STAGE-010723-22",
+      "name": "Blastula:1k-cell",
+      "shortLabel": "1k-cell",
+      "period": "blastula",
+      "startHpf": 3,
+      "endHpf": 3.33,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "11 blastomere tiers; single row of about 20 YSL nuclei; asynchronous cell cycle (ZFIN index, blast_stgs).",
+        "The eleventh mitosis is the last wave to pass through the blastodisc (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000012",
+      "zdb": "ZDB-STAGE-010723-27",
+      "name": "Blastula:High",
+      "shortLabel": "high",
+      "period": "blastula",
+      "startHpf": 3.33,
+      "endHpf": 3.66,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Over 11 tiers of cells; the blastodisc starts to flatten; the YSL now holds two rows of nuclei (ZFIN index).",
+        "Last stage in which the blastodisc perches high on the yolk cell (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000013",
+      "zdb": "ZDB-STAGE-010723-24",
+      "name": "Blastula:Oblong",
+      "shortLabel": "oblong",
+      "period": "blastula",
+      "startHpf": 3.66,
+      "endHpf": 4,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Blastodisc flattens into an ellipsoid; multiple rows of YSL nuclei (ZFIN index, blast_stgs).",
+        "The marginal constriction present since the 1-cell stage disappears (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000014",
+      "zdb": "ZDB-STAGE-010723-21",
+      "name": "Blastula:Sphere",
+      "shortLabel": "sphere",
+      "period": "blastula",
+      "startHpf": 4,
+      "endHpf": 4.33,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "The embryo is a smooth sphere; the face where the blastodisc meets the yolk cell is flat (ZFIN index).",
+        "Last YSL nuclear divisions; embryos start to orient animal pole up (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000015",
+      "zdb": "ZDB-STAGE-010723-19",
+      "name": "Blastula:Dome",
+      "shortLabel": "dome",
+      "period": "blastula",
+      "startHpf": 4.33,
+      "endHpf": 4.66,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Yolk cell bulges (domes) toward the animal pole; first sure sign of epiboly (ZFIN index, blast_stgs).",
+        "YSL nuclei are postmitotic and enlarge (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000016",
+      "zdb": "ZDB-STAGE-010723-17",
+      "name": "Blastula:30%-epiboly",
+      "shortLabel": "30%-epiboly",
+      "period": "blastula",
+      "startHpf": 4.66,
+      "endHpf": 5.25,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Blastoderm is an inverted cup of uniform thickness; margin at 30% of the animal-vegetal distance (ZFIN index, blast_stgs).",
+        "EVL monolayer over a deep cell layer about 4 cells thick (ZFIN blast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000017",
+      "zdb": "ZDB-STAGE-010723-6",
+      "name": "Gastrula:50%-epiboly",
+      "shortLabel": "50%-epiboly",
+      "period": "gastrula",
+      "startHpf": 5.25,
+      "endHpf": 5.66,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Blastoderm margin at 50%; thickness uniform; involution begins, which defines the onset of gastrulation (ZFIN gast, gast_stgs).",
+        "Margin stays near 50% for about one hour (ZFIN gast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/gast.html",
+        "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000018",
+      "zdb": "ZDB-STAGE-010723-3",
+      "name": "Gastrula:Germ-ring",
+      "shortLabel": "germ-ring",
+      "period": "gastrula",
+      "startHpf": 5.66,
+      "endHpf": 6,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Germ ring visible from the animal pole as a thickened annulus at the margin (ZFIN index, gast_stgs).",
+        "Epiblast about 3 cells thick over a hypoblast 1 to 2 cells thick (ZFIN gast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000019",
+      "zdb": "ZDB-STAGE-010723-2",
+      "name": "Gastrula:Shield",
+      "shortLabel": "shield",
+      "period": "gastrula",
+      "startHpf": 6,
+      "endHpf": 8,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Embryonic shield visible from the animal pole; 50%-epiboly (ZFIN index).",
+        "First stage at which both the anterior-posterior and dorsal-ventral axes can be read (ZFIN gast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000020",
+      "zdb": "ZDB-STAGE-010723-18",
+      "name": "Gastrula:75%-epiboly",
+      "shortLabel": "75%-epiboly",
+      "period": "gastrula",
+      "startHpf": 8,
+      "endHpf": 9,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Dorsal side distinctly thicker; epiblast, hypoblast and evacuation zone visible (ZFIN index).",
+        "Prechordal plate reaches the animal pole; embryo elongates along the animal-vegetal axis (ZFIN gast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000021",
+      "zdb": "ZDB-STAGE-010723-29",
+      "name": "Gastrula:90%-epiboly",
+      "shortLabel": "90%-epiboly",
+      "period": "gastrula",
+      "startHpf": 9,
+      "endHpf": 10,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "The embryonic axis is laid out; the neural plate is present, along with early brain and notochord tissue (ZFIN index).",
+        "Uncovered yolk forms a yolk plug; Brachet's cleft visible (ZFIN gast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000022",
+      "zdb": "ZDB-STAGE-010723-12",
+      "name": "Gastrula:Bud",
+      "shortLabel": "bud",
+      "period": "gastrula",
+      "startHpf": 10,
+      "endHpf": 10.33,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Tail bud prominent; early polster; 100%-epiboly (ZFIN index).",
+        "Tail bud swelling appears within 10 to 15 minutes of yolk plug closure (ZFIN gast_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000023",
+      "zdb": "ZDB-STAGE-010723-23",
+      "name": "Segmentation:1-4 somites",
+      "shortLabel": "1-4 somites",
+      "period": "segmentation",
+      "startHpf": 10.33,
+      "endHpf": 11.66,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "First somite furrow, the boundary between somites 1 and 2 (ZFIN index, seg_stgs).",
+        "Polster prominent deep to the neural plate (ZFIN seg_stgs)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000024",
+      "zdb": "ZDB-STAGE-010723-5",
+      "name": "Segmentation:5-9 somites",
+      "shortLabel": "5-9 somites",
+      "period": "segmentation",
+      "startHpf": 11.66,
+      "endHpf": 14,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "The polster stands out; the neural keel, the optic vesicle and Kupffer's vesicle are all visible (ZFIN index).",
+        "Somites form at about 3 per hour for the first 5 to 6 (ZFIN seg_stgs).",
+        "Pronephros rudiment and cephalic neural crest migration visible by the 8-somite stage (ZFIN seg_stgs)."
+      ],
+      "lengthMm": {
+        "value": 0.8,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000025",
+      "zdb": "ZDB-STAGE-020626-1",
+      "name": "Segmentation:10-13 somites",
+      "shortLabel": "10-13 somites",
+      "period": "segmentation",
+      "startHpf": 14,
+      "endHpf": 16,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "Pronephros forms (ZFIN index).",
+        "Somite rate is about 2 per hour from here on (ZFIN seg)."
+      ],
+      "lengthMm": null,
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000026",
+      "zdb": "ZDB-STAGE-010723-30",
+      "name": "Segmentation:14-19 somites",
+      "shortLabel": "14-19 somites",
+      "period": "segmentation",
+      "startHpf": 16,
+      "endHpf": 19,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "EL = 0.9 mm; otic placode; brain neuromeres (ZFIN index).",
+        "Yolk constriction starts to form the yolk extension; tail bud protrudes; Kupffer's vesicle at its base (ZFIN seg_stgs).",
+        "First muscle contractions at the 17-somite stage; 18 somites present at 18 h (ZFIN seg_stgs, seg)."
+      ],
+      "lengthMm": {
+        "value": 0.9,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/seg.html",
+        "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000027",
+      "zdb": "ZDB-STAGE-010723-16",
+      "name": "Segmentation:20-25 somites",
+      "shortLabel": "20-25 somites",
+      "period": "segmentation",
+      "startHpf": 19,
+      "endHpf": 22,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "EL = 1.4 mm; lens placode; otic vesicle; hindbrain neuromeres (ZFIN index).",
+        "Two tiny otoliths per otic vesicle; brain ventricles; neural tube nearly complete; pronephric duct reaches the anus level (ZFIN seg_stgs)."
+      ],
+      "lengthMm": {
+        "value": 1.4,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000028",
+      "zdb": "ZDB-STAGE-010723-34",
+      "name": "Segmentation:26+ somites",
+      "shortLabel": "26+ somites",
+      "period": "segmentation",
+      "startHpf": 22,
+      "endHpf": 24,
+      "dpfLabel": "0 dpf",
+      "landmarks": [
+        "EL = 1.6 mm; blood islands; otoliths visible with a dissecting scope; midbrain-hindbrain boundary (ZFIN index, seg_stgs).",
+        "Posterior lateral line primordium starts migrating (prim-3); median fin fold rudiment appears at 22 to 23 h (ZFIN seg_stgs).",
+        "Final somite count is 30 to 34 pairs (ZFIN seg_stgs)."
+      ],
+      "lengthMm": {
+        "value": 1.6,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000029",
+      "zdb": "ZDB-STAGE-010723-10",
+      "name": "Pharyngula:Prim-5",
+      "shortLabel": "prim-5",
+      "period": "pharyngula",
+      "startHpf": 24,
+      "endHpf": 30,
+      "dpfLabel": "1 dpf",
+      "landmarks": [
+        "EL = 1.9 mm; HTA = 120 degrees; OVL = 5; primordium over myotome 5 (ZFIN phar_stgs).",
+        "Heart begins to beat just before this stage; early pigmentation in retina and skin (ZFIN index, phar_stgs).",
+        "Circulation starts soon after 24 to 25 h; pectoral fin buds appear as mounds by 28 to 29 h; touch response by 27 h (ZFIN phar_stgs)."
+      ],
+      "lengthMm": {
+        "value": 1.9,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000030",
+      "zdb": "ZDB-STAGE-010723-32",
+      "name": "Pharyngula:Prim-15",
+      "shortLabel": "prim-15",
+      "period": "pharyngula",
+      "startHpf": 30,
+      "endHpf": 36,
+      "dpfLabel": "1 dpf",
+      "landmarks": [
+        "EL = 2.5 mm; HTA = 95 degrees; OVL = 3; early touch reflex; retina pigmented (ZFIN index, phar_stgs).",
+        "Heart still a straight tube with a two-part beat; slow circulation through a single aortic arch (ZFIN phar_stgs).",
+        "Dorsal melanophore stripe forming; tail bud gone (ZFIN phar_stgs)."
+      ],
+      "lengthMm": {
+        "value": 2.5,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000031",
+      "zdb": "ZDB-STAGE-010723-13",
+      "name": "Pharyngula:Prim-25",
+      "shortLabel": "prim-25",
+      "period": "pharyngula",
+      "startHpf": 36,
+      "endHpf": 42,
+      "dpfLabel": "1 dpf",
+      "landmarks": [
+        "EL = 2.7 mm; HTA = 75 degrees; OVL = 1; early motility; tail pigmentation (ZFIN index, phar_stgs).",
+        "Heart bends slightly; strong circulation; escape response moves the embryo several body lengths (ZFIN phar_stgs).",
+        "Pectoral fin bud height about three-quarters of its width; apical ectodermal ridge present (ZFIN phar_stgs)."
+      ],
+      "lengthMm": {
+        "value": 2.7,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000032",
+      "zdb": "ZDB-STAGE-010723-31",
+      "name": "Pharyngula:High-pec",
+      "shortLabel": "high-pec",
+      "period": "pharyngula",
+      "startHpf": 42,
+      "endHpf": 48,
+      "dpfLabel": "1 dpf",
+      "landmarks": [
+        "EL = 2.9 mm; HTA = 55 degrees; OVL = 3/4; pectoral fin bud height equals base width (ZFIN phar_stgs).",
+        "Atrium and ventricle distinct; heart rate about 180 per minute; first xanthophores and iridophores (ZFIN phar_stgs).",
+        "Liver and swim bladder primordia appear; lateral line primordium reaches the tail end (ZFIN phar_stgs)."
+      ],
+      "lengthMm": {
+        "value": 2.9,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000033",
+      "zdb": "ZDB-STAGE-010723-9",
+      "name": "Hatching:Long-pec",
+      "shortLabel": "long-pec",
+      "period": "hatching",
+      "startHpf": 48,
+      "endHpf": 60,
+      "dpfLabel": "2 dpf",
+      "landmarks": [
+        "EL = 3.1 mm; HTA = 45 degrees; OVL = 1/2; pectoral fin bud height-to-width ratio about 2 (ZFIN hatch_stgs).",
+        "First cartilage in the pectoral girdle; six pairs of aortic arches present; neuromasts differentiated (ZFIN hatch_stgs).",
+        "Hatching occurs sporadically through the third day, 48 to 72 h (ZFIN hatch)."
+      ],
+      "lengthMm": {
+        "value": 3.1,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+        "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000034",
+      "zdb": "ZDB-STAGE-010723-26",
+      "name": "Hatching:Pec-fin",
+      "shortLabel": "pec-fin",
+      "period": "hatching",
+      "startHpf": 60,
+      "endHpf": 72,
+      "dpfLabel": "2 dpf",
+      "landmarks": [
+        "EL = 3.3 mm; pectoral fin has a flat distal blade held along the body (ZFIN hatch_stgs).",
+        "Mouth open but behind the anterior edge of the eye; jaw cartilage differentiating; hindgut lumen (ZFIN hatch_stgs).",
+        "HTA is printed as 55 degrees for Pec-fin on the ZFIN hatching page (https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html). That breaks the falling series the same pages give: 120 at Prim-5, 95 at Prim-15, 75 at Prim-25, 55 at High-pec and 45 at Long-pec. The Kimmel 1995 table was not reachable, so the conflict is open."
+      ],
+      "lengthMm": {
+        "value": 3.3,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html"
+      },
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000035",
+      "zdb": "ZDB-STAGE-010723-8",
+      "name": "Larval:Protruding-mouth",
+      "shortLabel": "protruding-mouth",
+      "period": "larval",
+      "startHpf": 72,
+      "endHpf": 96,
+      "dpfLabel": "3 dpf",
+      "landmarks": [
+        "EL = 3.5 mm; HTA = 25 degrees; mouth wide open and protruding beyond the eye (ZFIN larv_stgs).",
+        "Cleithrum, the first bone, appears; gill filament buds; end of embryogenesis by definition (ZFIN larv_stgs, hatch).",
+        "3.5 mm total body length (ZFIN index)."
+      ],
+      "lengthMm": {
+        "value": 3.5,
+        "measure": "EL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/larv_stgs.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/larv_stgs.html",
+        "https://zfin.org/zf_info/zfbook/stages/larval.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000036",
+      "zdb": "ZDB-STAGE-010723-35",
+      "name": "Larval:Day 4",
+      "shortLabel": "day 4",
+      "period": "larval",
+      "startHpf": 96,
+      "endHpf": 120,
+      "dpfLabel": "4 dpf",
+      "landmarks": [
+        "3.7 mm total body length (ZFIN index).",
+        "Swim bladder inflates and the mouth keeps protruding anterodorsally during day 4 (ZFIN larval page).",
+        "Posterior swim bladder inflation at 3.4 to 3.7 mm SL (Parichy 2009 Table 4)."
+      ],
+      "lengthMm": {
+        "value": 3.7,
+        "measure": "TL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": false,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "https://zfin.org/zf_info/zfbook/stages/larval.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000037",
+      "zdb": "ZDB-STAGE-010723-36",
+      "name": "Larval:Day 5",
+      "shortLabel": "day 5",
+      "period": "larval",
+      "startHpf": 120,
+      "endHpf": 144,
+      "dpfLabel": "5 dpf",
+      "landmarks": [
+        "3.9 mm total body length; 6 pharyngeal teeth (ZFIN index).",
+        "Free swimming; first feeding starts at 5 dpf in standard husbandry (PMC6198760)."
+      ],
+      "lengthMm": {
+        "value": 3.9,
+        "measure": "TL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6198760/",
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000038",
+      "zdb": "ZDB-STAGE-010723-37",
+      "name": "Larval:Day 6",
+      "shortLabel": "day 6",
+      "period": "larval",
+      "startHpf": 144,
+      "endHpf": 168,
+      "dpfLabel": "6 dpf",
+      "landmarks": [
+        "4.2 mm total body length (ZFIN index)."
+      ],
+      "lengthMm": {
+        "value": 4.2,
+        "measure": "TL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": false,
+      "sources": [
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000039",
+      "zdb": "ZDB-STAGE-010723-47",
+      "name": "Larval:Days 7-13",
+      "shortLabel": "days 7-13",
+      "period": "larval",
+      "startHpf": 168,
+      "endHpf": 336,
+      "dpfLabel": "7-13 dpf",
+      "landmarks": [
+        "4.5 mm total body length at 7 d; 8 teeth (ZFIN index).",
+        "Yolk reserves run out between 8 and 9 dpf without feeding (PMC6198760).",
+        "Notochord flexion begins at 4.4 to 4.7 mm SL; caudal fin rays at 4.9 to 5.1 mm SL (Parichy 2009 Table 4)."
+      ],
+      "lengthMm": {
+        "value": 4.5,
+        "measure": "TL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6198760/",
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000040",
+      "zdb": "ZDB-STAGE-010723-48",
+      "name": "Larval:Days 14-20",
+      "shortLabel": "days 14-20",
+      "period": "larval",
+      "startHpf": 336,
+      "endHpf": 504,
+      "dpfLabel": "14-20 dpf",
+      "landmarks": [
+        "6.2 mm total body length at 14 d; 10 teeth (ZFIN index).",
+        "Anal and dorsal fin rays appear at 6.1 to 6.6 mm SL; metamorphic melanophores at 5.9 to 6.3 mm SL (Parichy 2009 Table 4).",
+        "Pelvic fin bud first annotated in this stage (ZFA:0001384 start stage)."
+      ],
+      "lengthMm": {
+        "value": 6.2,
+        "measure": "TL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "https://zfin.org/ZFA:0001384",
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000041",
+      "zdb": "ZDB-STAGE-010723-49",
+      "name": "Larval:Days 21-29",
+      "shortLabel": "days 21-29",
+      "period": "larval",
+      "startHpf": 504,
+      "endHpf": 720,
+      "dpfLabel": "21-29 dpf",
+      "landmarks": [
+        "7.8 mm total body length at 21 d (ZFIN index).",
+        "Pelvic fin bud at 7.2 to 7.5 mm SL; pelvic fin rays at 8.5 to 8.7 mm SL; fin fold resorbing (Parichy 2009).",
+        "Gonad first annotated in this stage (ZFA:0000413 start stage)."
+      ],
+      "lengthMm": {
+        "value": 7.8,
+        "measure": "TL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "https://zfin.org/ZFA:0000413",
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000042",
+      "zdb": "ZDB-STAGE-010723-51",
+      "name": "Juvenile:Days 30-44",
+      "shortLabel": "days 30-44",
+      "period": "juvenile",
+      "startHpf": 720,
+      "endHpf": 1080,
+      "dpfLabel": "30-44 dpf",
+      "landmarks": [
+        "10 mm total body length at 30 d; adult fins and pigment (ZFIN index).",
+        "Squamation starts posteriorly at 9.5 to 9.6 mm SL and reaches the anterior at 10.1 to 10.4 mm SL (Parichy 2009 Table 4).",
+        "Juvenile defined by complete squamation and loss of the fin fold, 10.9 to 11.7 mm SL, about 4 weeks (Parichy 2009)."
+      ],
+      "lengthMm": {
+        "value": 10,
+        "measure": "TL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000043",
+      "zdb": "ZDB-STAGE-010723-52",
+      "name": "Juvenile:Days 45-89",
+      "shortLabel": "days 45-89",
+      "period": "juvenile",
+      "startHpf": 1080,
+      "endHpf": 2160,
+      "dpfLabel": "45-89 dpf",
+      "landmarks": [
+        "14 mm total body length at 45 d; 12 teeth (ZFIN index).",
+        "Most fish reach the 12 mm SL juvenile size by 45 dpf (Singleman and Holtzman 2014).",
+        "Secondary stripes 2V and 2D added at about 14 and 16 mm SL (Parichy 2009)."
+      ],
+      "lengthMm": {
+        "value": 14,
+        "measure": "TL",
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+      },
+      "headline": true,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4108942/",
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    },
+    {
+      "zfs": "ZFS:0000044",
+      "zdb": "ZDB-STAGE-010723-39",
+      "name": "Adult",
+      "shortLabel": "adult",
+      "period": "adult",
+      "startHpf": 2160,
+      "endHpf": 17520,
+      "dpfLabel": "90 dpf to 2 y",
+      "landmarks": [
+        "Breeding adult; 90 d to 2 y (ZFIN index).",
+        "Secondary sexual characters from 17.5 mm SL in males and 18.3 mm SL in females (Parichy 2009).",
+        "Adult size 18 mm SL reached by most fish at 90 dpf (Singleman and Holtzman 2014)."
+      ],
+      "lengthMm": {
+        "value": 18,
+        "measure": "SL",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      "headline": true,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4108942/",
+        "https://zfin.org/downloads",
+        "https://zfin.org/zf_info/zfbook/stages/index.html"
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "zygote",
+      "zfs": null,
+      "displayName": "Zygote",
+      "abbrev": "Zyg",
+      "color": "#485693",
+      "startHpf": 0,
+      "endHpf": 0.75,
+      "note": "No ZFS period term; ZFS:0000001 is the single 1-cell stage."
+    },
+    {
+      "id": "cleavage",
+      "zfs": "ZFS:0000046",
+      "displayName": "Cleavage",
+      "abbrev": "Clv",
+      "color": "#046BA4",
+      "startHpf": 0.75,
+      "endHpf": 2.25
+    },
+    {
+      "id": "blastula",
+      "zfs": "ZFS:0000045",
+      "displayName": "Blastula",
+      "abbrev": "Bla",
+      "color": "#007C9E",
+      "startHpf": 2.25,
+      "endHpf": 5.25
+    },
+    {
+      "id": "gastrula",
+      "zfs": "ZFS:0000047",
+      "displayName": "Gastrula",
+      "abbrev": "Gas",
+      "color": "#008C9B",
+      "startHpf": 5.25,
+      "endHpf": 10.33
+    },
+    {
+      "id": "segmentation",
+      "zfs": "ZFS:0000049",
+      "displayName": "Segmentation",
+      "abbrev": "Seg",
+      "color": "#0B9C93",
+      "startHpf": 10.33,
+      "endHpf": 24
+    },
+    {
+      "id": "pharyngula",
+      "zfs": "ZFS:0000050",
+      "displayName": "Pharyngula",
+      "abbrev": "Pha",
+      "color": "#4FA983",
+      "startHpf": 24,
+      "endHpf": 48
+    },
+    {
+      "id": "hatching",
+      "zfs": "ZFS:0007000",
+      "displayName": "Hatching",
+      "abbrev": "Hat",
+      "color": "#82B275",
+      "startHpf": 48,
+      "endHpf": 72
+    },
+    {
+      "id": "larval",
+      "zfs": "ZFS:0000048",
+      "displayName": "Larval",
+      "abbrev": "Lar",
+      "color": "#B1B971",
+      "startHpf": 72,
+      "endHpf": 720
+    },
+    {
+      "id": "juvenile",
+      "zfs": "ZFS:0000051",
+      "displayName": "Juvenile",
+      "abbrev": "Juv",
+      "color": "#DEBD7A",
+      "startHpf": 720,
+      "endHpf": 2160
+    },
+    {
+      "id": "adult",
+      "zfs": "ZFS:0000044",
+      "displayName": "Adult",
+      "abbrev": "Adu",
+      "color": "#FEC29A",
+      "startHpf": 2160,
+      "endHpf": 17520,
+      "note": "ZFS has no separate adult period term; the adult stage spans the period."
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-fertilization",
+      "hpf": 0,
+      "label": "Fertilization",
+      "description": "Chorion swells and lifts; cytoplasm streams to the animal pole within about 10 minutes; zygote about 0.7 mm in diameter.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-first-cleavage",
+      "hpf": 0.67,
+      "label": "First cleavage",
+      "description": "First cleavage furrow about 40 minutes after fertilization; the 2-cell stage is set at 0.75 h.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-first-complete-cells",
+      "hpf": 1.5,
+      "label": "First complete cells",
+      "description": "At the 16-cell stage the 4 central blastomeres become completely cleaved.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-first-deep-cells",
+      "hpf": 2,
+      "label": "First deep cells",
+      "description": "Horizontal cleavage at the 64-cell stage buries the first deep cells under the enveloping layer.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-midblastula-transition-begins",
+      "hpf": 2.75,
+      "label": "Midblastula transition begins",
+      "description": "Cell cycles lengthen from the 512-cell stage (cycle 10); marginal cells start to form the yolk syncytial layer.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-yolk-syncytial-layer-visible",
+      "hpf": 3,
+      "label": "Yolk syncytial layer visible",
+      "description": "About 20 YSL nuclei in a single ring; the eleventh mitosis is the last synchronous wave.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-blastodisc-flattening-begins",
+      "hpf": 3.33,
+      "label": "Blastodisc flattening begins",
+      "description": "High stage; more than 11 tiers of cells.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-epiboly-begins",
+      "hpf": 4.33,
+      "label": "Epiboly begins",
+      "description": "Yolk cell domes toward the animal pole (dome stage).",
+      "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-gastrulation-begins",
+      "hpf": 5.25,
+      "label": "Gastrulation begins",
+      "description": "Involution starts at 50%-epiboly.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/gast.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-germ-ring",
+      "hpf": 5.66,
+      "label": "Germ ring",
+      "description": "Thickened annulus at the blastoderm margin; epiblast and hypoblast form.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-embryonic-shield",
+      "hpf": 6,
+      "label": "Embryonic shield",
+      "description": "Dorsal side and both body axes identifiable for the first time.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-prechordal-plate-at-animal-pole",
+      "hpf": 8,
+      "label": "Prechordal plate at animal pole",
+      "description": "75%-epiboly; dorsal side thicker; evacuation zone ventral.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-neural-plate-and-yolk-plug",
+      "hpf": 9,
+      "label": "Neural plate and yolk plug",
+      "description": "90%-epiboly; brain and notochord rudiments.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-epiboly-complete-tail-bud",
+      "hpf": 10,
+      "label": "Epiboly complete; tail bud",
+      "description": "Yolk plug closes; tail bud swells within 10 to 15 minutes; polster forms.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-first-somite",
+      "hpf": 10.33,
+      "label": "First somite",
+      "description": "First somitic furrow between somites 1 and 2.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-optic-primordium",
+      "hpf": 11.5,
+      "label": "Optic primordium",
+      "description": "Optic primordium visible from the 4- or 5-somite stage; neural keel.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-kupffer-s-vesicle",
+      "hpf": 11.66,
+      "label": "Kupffer's vesicle",
+      "description": "Appears deep to the tail bud at the 5-9 somite stage; transient through the segmentation period.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-pronephros-rudiment",
+      "hpf": 12.7,
+      "label": "Pronephros rudiment",
+      "description": "Visible with Nomarski optics by the 8-somite stage; pronephros forms at 10-13 somites.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-otic-placode-and-yolk-extension",
+      "hpf": 16,
+      "label": "Otic placode and yolk extension",
+      "description": "Otic placode beside the hindbrain; yolk constriction starts the yolk extension; EL 0.9 mm.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-first-muscle-contractions",
+      "hpf": 17.5,
+      "label": "First muscle contractions",
+      "description": "Unilateral myotome twitches at the 17-somite stage.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-18-somites",
+      "hpf": 18,
+      "label": "18 somites",
+      "description": "18 somites present at 18 h; rate about 2 per hour.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-otic-vesicle-lens-placode-otoliths",
+      "hpf": 19,
+      "label": "Otic vesicle, lens placode, otoliths",
+      "description": "Otic placode hollows; two tiny otoliths; brain ventricles; EL 1.4 mm.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-heart-cone-forms",
+      "hpf": 19.5,
+      "label": "Heart cone forms",
+      "description": "Myocardial precursors form a cone between 19.5 and 22 hpf and telescope into the heart tube at 24 hpf.",
+      "source": "https://zfin.org/ZFA:0000115",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-lateral-line-primordium-migrates-blood-island",
+      "hpf": 22,
+      "label": "Lateral line primordium migrates; blood island",
+      "description": "Prim-3; blood island is a nest of differentiating blood cells; EL 1.6 mm.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-median-fin-fold-rudiment",
+      "hpf": 22.5,
+      "label": "Median fin fold rudiment",
+      "description": "Appears in the dorsal tail midline at 22 to 23 h.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-heart-beat",
+      "hpf": 24,
+      "label": "Heart beat",
+      "description": "Heart beats just before prim-5, at first without direction; AP-going wave by 26 h.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-pigmentation-begins",
+      "hpf": 24,
+      "label": "Pigmentation begins",
+      "description": "Retinal pigment epithelium first, then skin melanophores behind the otic vesicle.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-blood-circulation-begins",
+      "hpf": 26,
+      "label": "Blood circulation begins",
+      "description": "D8 canonical onset 26 hpf. Blood cells reach the yolk ball at 24 to 25 h and circulate soon after.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-first-touch-response",
+      "hpf": 27,
+      "label": "First touch response",
+      "description": "Consistent tactile responses from 27 h (prim-10).",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-pectoral-fin-buds",
+      "hpf": 28,
+      "label": "Pectoral fin buds",
+      "description": "D8 canonical value 28 hpf. Buds appear as mounds by 28 to 29 h, lateral to somite 3.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-heart-looping-begins",
+      "hpf": 30,
+      "label": "Heart looping begins",
+      "description": "D8 canonical value 30 hpf (research 03 fact-check finding 4). The straight heart tube starts to bend to the right; the bend reaches 90 degrees by 36 hpf.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-retina-pigmented-dorsal-stripe",
+      "hpf": 30,
+      "label": "Retina pigmented; dorsal stripe",
+      "description": "Prim-15; slow circulation through a single aortic arch; EL 2.5 mm.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-heart-bends-escape-swimming",
+      "hpf": 36,
+      "label": "Heart bends; escape swimming",
+      "description": "Prim-25; strong circulation; escape response moves the embryo several body lengths.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-xanthophores-and-iridophores-liver-and-swim-bladder-primordia",
+      "hpf": 42,
+      "label": "Xanthophores and iridophores; liver and swim bladder primordia",
+      "description": "High-pec; lateral line primordium reaches the tail end; heart rate about 180 per minute.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-first-cartilage-six-aortic-arches",
+      "hpf": 48,
+      "label": "First cartilage; six aortic arches",
+      "description": "Long-pec; pectoral girdle cartilage; neuromasts with sensory hairs; EL 3.1 mm.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-hatching-window-opens",
+      "hpf": 48,
+      "label": "Hatching window opens",
+      "description": "Embryos hatch sporadically through the third day (48 to 72 h) and sometimes later.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-hatching-median",
+      "hpf": 60,
+      "label": "Hatching (median)",
+      "description": "D8: median hatching time 60 hpf, window 48 to 72 hpf. The atlas shows the chorion at real size to 24 hpf and fades it out from 24 to 30 hpf; the model is dechorionated after 30 hpf, as in the Kimmel staging series.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-pectoral-fin-blade",
+      "hpf": 60,
+      "label": "Pectoral fin blade",
+      "description": "Pec-fin; mouth open ventrally behind the eye; jaw cartilage; hindgut lumen; EL 3.3 mm.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    },
+    {
+      "id": "ev-mouth-open-and-protruding-end-of-embryogenesis",
+      "hpf": 72,
+      "label": "Mouth open and protruding; end of embryogenesis",
+      "description": "D8 canonical mouth-open time 72 hpf. Mouth protrudes beyond the eye; cleithrum is the first bone; gill filament buds; 3.5 mm.",
+      "source": "https://zfin.org/zf_info/zfbook/stages/larv_stgs.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-swim-bladder-inflation",
+      "hpf": 100,
+      "label": "Swim bladder inflation",
+      "description": "D8 canonical value 100 hpf, defined by hour; the posterior chamber fades in from 96 to 120 hpf. Posterior lobe inflates at 3.4 to 3.7 mm SL during day 4 (3.4 mm SL sits at 96 hpf in the growth table, so slMm is null).",
+      "source": "https://zfin.org/zf_info/zfbook/stages/larval.html",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-first-feeding",
+      "hpf": 120,
+      "label": "First feeding",
+      "description": "Larvae are free swimming and feeding at 5 dpf in standard husbandry; 6 pharyngeal teeth.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6198760/",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-yolk-exhausted",
+      "hpf": 168,
+      "label": "Yolk exhausted",
+      "description": "D8 canonical value 168 hpf (inferred, not measured). Survival falls when first feeding is delayed past 8 to 9 dpf.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6198760/",
+      "hpfIsEstimate": true,
+      "slMm": null,
+      "canonical": true
+    },
+    {
+      "id": "ev-notochord-flexion-begins",
+      "hpf": 224,
+      "label": "Notochord flexion begins",
+      "description": "FLe, flexion angle 0 to 25 degrees, 4.4 to 4.7 mm SL; larvae begin to feed actively.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 4.5,
+      "canonical": false
+    },
+    {
+      "id": "ev-caudal-fin-rays",
+      "hpf": 280,
+      "label": "Caudal fin rays",
+      "description": "CR, 4.9 to 5.1 mm SL; mouth terminal.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 4.9,
+      "canonical": false
+    },
+    {
+      "id": "ev-anal-and-dorsal-fin-condensations",
+      "hpf": 322,
+      "label": "Anal and dorsal fin condensations",
+      "description": "AC 5.2 to 5.5 mm SL; DC 5.5 to 5.8 mm SL.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 5.2,
+      "canonical": false
+    },
+    {
+      "id": "ev-metamorphic-melanophores-anterior-swim-bladder-lobe",
+      "hpf": 420,
+      "label": "Metamorphic melanophores; anterior swim bladder lobe",
+      "description": "MMA 5.9 to 6.3 mm SL; aSB 5.9 to 6.2 mm SL; adult pigment pattern begins.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 5.9,
+      "canonical": false
+    },
+    {
+      "id": "ev-anal-and-dorsal-fin-rays",
+      "hpf": 448,
+      "label": "Anal and dorsal fin rays",
+      "description": "AR 6.1 to 6.4 mm SL; DR 6.4 to 6.6 mm SL.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 6.1,
+      "canonical": false
+    },
+    {
+      "id": "ev-notochord-flexion-complete",
+      "hpf": 504,
+      "label": "Notochord flexion complete",
+      "description": "D8 canonical value 6.5 mm SL, placed through the growth table. FLp, flexion angle above 45 degrees (Parichy 2009 Table 4).",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 6.5,
+      "canonical": true
+    },
+    {
+      "id": "ev-pelvic-fin-bud",
+      "hpf": 593,
+      "label": "Pelvic fin bud",
+      "description": "PB 7.2 to 7.5 mm SL; ZFA start stage days 14-20.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 7.2,
+      "canonical": true
+    },
+    {
+      "id": "ev-pelvic-fin-rays-fin-fold-resorption",
+      "hpf": 758,
+      "label": "Pelvic fin rays; fin fold resorption",
+      "description": "D8 canonical value 8.6 mm SL. PR 8.5 to 8.7 mm SL; major fin fold lobe resorbs from anterior to posterior.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 8.6,
+      "canonical": true
+    },
+    {
+      "id": "ev-first-primary-adult-stripes",
+      "hpf": 796,
+      "label": "First primary adult stripes",
+      "description": "Stripes 1D and 1V discernible at about 9 mm SL.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 9,
+      "canonical": false
+    },
+    {
+      "id": "ev-squamation-onset",
+      "hpf": 853,
+      "label": "Squamation onset",
+      "description": "D8 canonical value 9.6 mm SL (posterior onset). SP 9.5 to 9.6 mm SL posteriorly; SA 10.1 to 10.4 mm SL anteriorly; ZFA scale start stage days 30-44.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 9.6,
+      "canonical": true
+    },
+    {
+      "id": "ev-juvenile",
+      "hpf": 985,
+      "label": "Juvenile",
+      "description": "Squamation complete and fin fold lost at 10.9 to 11.7 mm SL; about 4 weeks post fertilization; 12 mm SL by 45 dpf in most fish.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 11,
+      "canonical": true
+    },
+    {
+      "id": "ev-primary-stripes-complete",
+      "hpf": 1080,
+      "label": "Primary stripes complete",
+      "description": "About 12 mm SL; secondary stripe 2V at about 14 mm and 2D at about 16 mm SL.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 12,
+      "canonical": false
+    },
+    {
+      "id": "ev-adult-sexual-maturity",
+      "hpf": 2160,
+      "label": "Adult; sexual maturity",
+      "description": "D8 canonical adult threshold: 18 mm SL at 90 dpf (Singleman and Holtzman 2014). Secondary sexual characters from 17.5 mm SL (males) and 18.3 mm SL (females).",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "hpfIsEstimate": true,
+      "slMm": 18,
+      "canonical": true
+    },
+    {
+      "id": "ev-end-of-zfs-adult-stage",
+      "hpf": 17520,
+      "label": "End of ZFS adult stage",
+      "description": "ZFIN sets the adult stage end at 2 years (17520 h).",
+      "source": "https://zfin.org/downloads",
+      "hpfIsEstimate": false,
+      "slMm": null,
+      "canonical": false
+    }
+  ],
+  "growth": [
+    {
+      "hpf": 0,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 0.75,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 2.25,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 3.33,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 4.33,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 5.25,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 6,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 8,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 9,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 10,
+      "lengthMm": 0.7,
+      "measure": "EL",
+      "lengthMeasure": "ED",
+      "standardLengthMm": null,
+      "source": "egg diameter, ZFIN zygote page (research 05 section 2)",
+      "estimate": false
+    },
+    {
+      "hpf": 12,
+      "lengthMm": 0.8,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel, \"same as the zygote\" (research 05 section 5.1)",
+      "estimate": false
+    },
+    {
+      "hpf": 14,
+      "lengthMm": 0.85,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "estimate between 0.8 and 0.9",
+      "estimate": true
+    },
+    {
+      "hpf": 16,
+      "lengthMm": 0.9,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1 (research 05 section 5.1)",
+      "estimate": false
+    },
+    {
+      "hpf": 18,
+      "lengthMm": 1.2,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "estimate between 0.9 and 1.4",
+      "estimate": true
+    },
+    {
+      "hpf": 19,
+      "lengthMm": 1.4,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1",
+      "estimate": false
+    },
+    {
+      "hpf": 22,
+      "lengthMm": 1.6,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1",
+      "estimate": false
+    },
+    {
+      "hpf": 24,
+      "lengthMm": 1.9,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1",
+      "estimate": false
+    },
+    {
+      "hpf": 30,
+      "lengthMm": 2.5,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1",
+      "estimate": false
+    },
+    {
+      "hpf": 36,
+      "lengthMm": 2.7,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1",
+      "estimate": false
+    },
+    {
+      "hpf": 42,
+      "lengthMm": 2.9,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1",
+      "estimate": false
+    },
+    {
+      "hpf": 48,
+      "lengthMm": 3.1,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1",
+      "estimate": false
+    },
+    {
+      "hpf": 60,
+      "lengthMm": 3.3,
+      "measure": "EL",
+      "lengthMeasure": "EL",
+      "standardLengthMm": null,
+      "source": "Kimmel Table 1",
+      "estimate": false
+    },
+    {
+      "hpf": 72,
+      "lengthMm": 3.5,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 3.25,
+      "source": "ZFIN index page (research 05 section 5.1); SL derived (TL minus 0.25 mm caudal extent, BG-26)",
+      "estimate": true
+    },
+    {
+      "hpf": 96,
+      "lengthMm": 3.7,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 3.4,
+      "source": "ZFIN index page; SL derived (TL minus 0.30 mm, BG-26)",
+      "estimate": true
+    },
+    {
+      "hpf": 120,
+      "lengthMm": 3.9,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 3.6,
+      "source": "ZFIN index page; T25 mean 3.90 mm; SL derived (research 05 section 16.4 estimates 3.6)",
+      "estimate": true
+    },
+    {
+      "hpf": 168,
+      "lengthMm": 4.5,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 4.1,
+      "source": "ZFIN index page; SL derived (TL minus 0.40 mm, BG-26)",
+      "estimate": true
+    },
+    {
+      "hpf": 336,
+      "lengthMm": 6.2,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 5.3,
+      "source": "ZFIN index page; SL derived (TL minus 0.9 mm, BG-26)",
+      "estimate": true
+    },
+    {
+      "hpf": 504,
+      "lengthMm": 7.8,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 6.5,
+      "source": "ZFIN index page; SL derived; matches the L1 to L2 transition near 6.5 mm SL at 21 dpf (SH14 via research 02 section 3.2)",
+      "estimate": true
+    },
+    {
+      "hpf": 720,
+      "lengthMm": 10,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 8.2,
+      "source": "ZFIN index page; SL derived (TL minus 1.8 mm, BG-26)",
+      "estimate": true
+    },
+    {
+      "hpf": 1080,
+      "lengthMm": 14.4,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 12,
+      "source": "SH14 juvenile threshold (D6); TL = 1.2 x SL; ZFIN TL 14 mm",
+      "estimate": false
+    },
+    {
+      "hpf": 2160,
+      "lengthMm": 21.6,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 18,
+      "source": "SH14 adult threshold (D6); TL = 1.2 x SL",
+      "estimate": false
+    },
+    {
+      "hpf": 4320,
+      "lengthMm": 30,
+      "measure": "TL",
+      "lengthMeasure": "TL",
+      "standardLengthMm": 25,
+      "source": "SH14 180 dpf value (D6); TL = 1.2 x SL",
+      "estimate": false
+    }
+  ],
+  "timeAxis": {
+    "domainHpf": [
+      0,
+      4320
+    ],
+    "segments": [
+      {
+        "id": "zygote_to_bud",
+        "label": "Zygote to bud",
+        "startHpf": 0,
+        "endHpf": 10,
+        "share": 0.18
+      },
+      {
+        "id": "segmentation",
+        "label": "Segmentation",
+        "startHpf": 10,
+        "endHpf": 24,
+        "share": 0.12
+      },
+      {
+        "id": "pharyngula_hatching",
+        "label": "Pharyngula and hatching",
+        "startHpf": 24,
+        "endHpf": 72,
+        "share": 0.22
+      },
+      {
+        "id": "early_larva",
+        "label": "Early larva",
+        "startHpf": 72,
+        "endHpf": 168,
+        "share": 0.1
+      },
+      {
+        "id": "larva",
+        "label": "Larva",
+        "startHpf": 168,
+        "endHpf": 720,
+        "share": 0.16
+      },
+      {
+        "id": "juvenile",
+        "label": "Juvenile",
+        "startHpf": 720,
+        "endHpf": 2160,
+        "share": 0.14
+      },
+      {
+        "id": "adult",
+        "label": "Adult",
+        "startHpf": 2160,
+        "endHpf": 4320,
+        "share": 0.08
+      }
+    ],
+    "headlineTicks": [
+      {
+        "hpf": 0,
+        "label": "1-cell",
+        "zfs": "ZFS:0000001"
+      },
+      {
+        "hpf": 2.5,
+        "label": "256-cell",
+        "zfs": "ZFS:0000009"
+      },
+      {
+        "hpf": 4,
+        "label": "Sphere",
+        "zfs": "ZFS:0000014"
+      },
+      {
+        "hpf": 6,
+        "label": "Shield",
+        "zfs": "ZFS:0000019"
+      },
+      {
+        "hpf": 10,
+        "label": "Bud",
+        "zfs": "ZFS:0000022"
+      },
+      {
+        "hpf": 16,
+        "label": "14 som",
+        "zfs": "ZFS:0000026"
+      },
+      {
+        "hpf": 24,
+        "label": "Prim-5",
+        "zfs": "ZFS:0000029"
+      },
+      {
+        "hpf": 42,
+        "label": "High-pec",
+        "zfs": "ZFS:0000032"
+      },
+      {
+        "hpf": 48,
+        "label": "Long-pec",
+        "zfs": "ZFS:0000033"
+      },
+      {
+        "hpf": 72,
+        "label": "Prot-mouth",
+        "zfs": "ZFS:0000035"
+      },
+      {
+        "hpf": 120,
+        "label": "5 dpf",
+        "zfs": "ZFS:0000037"
+      },
+      {
+        "hpf": 168,
+        "label": "7 dpf",
+        "zfs": "ZFS:0000039"
+      },
+      {
+        "hpf": 336,
+        "label": "14 dpf",
+        "zfs": "ZFS:0000040"
+      },
+      {
+        "hpf": 504,
+        "label": "21 dpf",
+        "zfs": "ZFS:0000041"
+      },
+      {
+        "hpf": 720,
+        "label": "30 dpf",
+        "zfs": "ZFS:0000042"
+      },
+      {
+        "hpf": 1080,
+        "label": "45 dpf",
+        "zfs": "ZFS:0000043"
+      },
+      {
+        "hpf": 2160,
+        "label": "90 dpf",
+        "zfs": "ZFS:0000044"
+      },
+      {
+        "hpf": 4320,
+        "label": "180 dpf",
+        "zfs": null
+      }
+    ],
+    "minTickGapPx": 8,
+    "playbackTrackSeconds": 60
+  }
+}

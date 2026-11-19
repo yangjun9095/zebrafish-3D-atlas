@@ -1,0 +1,3282 @@
+[
+  {
+    "id": "ZFA:0000107",
+    "name": "eye",
+    "synonyms": [
+      "eyes"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001127",
+    "uiParent": "ZFA:0001127",
+    "parentRelation": "part_of",
+    "definition": "Cavitated compound organ that consists of the neural retina, lens, cornea and iris and is the sensory apparatus of the visual system.",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24,
+    "endHpf": 17520,
+    "visibleFromHpf": 11.66,
+    "modelEndHpf": 4320,
+    "overrideNote": "DM-34: the eye is one record from the optic vesicle at 11.66 hpf; the alias chain names optic vesicle and optic cup; ZFA starts the eye at Prim-5 (24 hpf). Handoff optic_vesicle_cup runs inside the record (16 to 24 hpf); handoff optic_cup_parts seeds retina, lens and retinal pigmented epithelium over 24 to 30 hpf and the eye mesh ends at 30 hpf (geometryEndHpf) while the record continues as their parent. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.117,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [
+      {
+        "zfaId": "ZFA:0000050",
+        "name": "optic vesicle",
+        "fromHpf": 11.66,
+        "toHpf": 19
+      },
+      {
+        "zfaId": "ZFA:0001202",
+        "name": "optic cup",
+        "fromHpf": 19,
+        "toHpf": 24
+      }
+    ],
+    "events": [
+      {
+        "hpf": 11.66,
+        "text": "Optic vesicle evaginates from the forebrain keel at the 6 to 7 somite stage.",
+        "source": "Schmitt and Dowling 1994 J Comp Neurol 344:532-542 https://pubmed.ncbi.nlm.nih.gov/7929890/"
+      },
+      {
+        "hpf": 13,
+        "text": "Wing shape at 8 to 9 somites; the vesicle bends ventrally at 10 to 12 somites.",
+        "source": "Schmitt and Dowling 1994 J Comp Neurol 344:532-542 https://pubmed.ncbi.nlm.nih.gov/7929890/"
+      },
+      {
+        "hpf": 16,
+        "text": "Evagination ends; invagination into the optic cup starts.",
+        "source": "Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/"
+      },
+      {
+        "hpf": 19,
+        "text": "Optic cup; the choroid fissure forms at 18 to 20 somites.",
+        "source": "Schmitt and Dowling 1994 J Comp Neurol 344:532-542 https://pubmed.ncbi.nlm.nih.gov/7929890/"
+      },
+      {
+        "hpf": 24,
+        "text": "Eyecups well formed; the retinal pigmented epithelium starts to pigment.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 36,
+        "text": "Choroid fissure rotated to ventral.",
+        "source": "Schmitt and Dowling 1994 J Comp Neurol 344:532-542 https://pubmed.ncbi.nlm.nih.gov/7929890/"
+      },
+      {
+        "hpf": 48,
+        "text": "Lens fibre differentiation 36 to 48 hpf; posterior suture visible.",
+        "source": "Greiling and Clark 2009 Dev Dyn 238:2254-2265 https://pubmed.ncbi.nlm.nih.gov/19504455/"
+      },
+      {
+        "hpf": 72,
+        "text": "Focused retinal image; tracking eye movements from 73 hpf.",
+        "source": "Easter and Nicola 1996 Dev Biol 180:646-663 https://pubmed.ncbi.nlm.nih.gov/8954734/"
+      },
+      {
+        "hpf": 4320,
+        "text": "Adult eye about 2.0 mm across with a lens near 0.9 mm: at 6 months the centre of the lens sits 0.995 mm from the retinal pigment epithelium (SD-OCT).",
+        "source": "Collery et al. 2014 PLoS One https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/; lens about 1 mm, Bell et al. 2014 Exp Eye Res https://pmc.ncbi.nlm.nih.gov/articles/PMC4259836/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 12,
+        "stageLabel": "5-9 somites",
+        "dimsMm": {
+          "length": 0.12,
+          "width": 0.05,
+          "height": 0.08,
+          "volumeMm3": 0.00084
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/ (volume); research 03b (estimate; scaled from reference images and body length) (linear dimensions)",
+        "estimate": true,
+        "note": "optic vesicle (alias)"
+      },
+      {
+        "hpf": 16,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 0.15,
+          "width": 0.06,
+          "height": 0.11,
+          "volumeMm3": 0.00117
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/ (volume); research 03b (estimate; scaled from reference images and body length) (linear dimensions)",
+        "estimate": true,
+        "note": "optic vesicle (alias)"
+      },
+      {
+        "hpf": 19,
+        "stageLabel": "20-25 somites",
+        "dimsMm": {
+          "diameter": 0.15,
+          "depth": 0.09
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "note": "optic cup (alias)"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.17,
+          "depth": 0.11,
+          "volumeMm3": 0.00123
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/ (volume); research 03b (estimate; scaled from reference images and body length) (diameter)",
+        "estimate": true,
+        "note": "optic cup volume 1.23e6 um3; the lens is about 10 percent of it"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.23
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 72,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "diameter": 0.27
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.3
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "Haug et al. 2010 Front Zool 7:8 https://pmc.ncbi.nlm.nih.gov/articles/PMC2848032/",
+        "note": "outer diameter about 2 x (139 + 15) um from the lens nodal point to photoreceptor distance"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 1.44
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "scaled to 8 percent of standard length between the 120 hpf row (Haug et al. 2010) and the 4320 hpf row (Collery et al. 2014 PLoS One https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/)",
+        "estimate": true,
+        "note": "90 dpf, SL 18 mm",
+        "basisSL": 18
+      },
+      {
+        "hpf": 4320,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 2.0
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "Collery et al. 2014 PLoS One https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/",
+        "estimate": false,
+        "note": "6 months. Twice the measured 0.995 mm +/- 0.037 mm from the centre of the lens to the retinal pigment epithelium (SD-OCT), so the eye is about 8 percent of the 25 mm standard length",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000107",
+      "research 03b eye, optic vesicle and optic cup records",
+      "spec BG-36 and DM-34",
+      "Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/",
+      "Schmitt and Dowling 1994 J Comp Neurol 344:532-542 https://pubmed.ncbi.nlm.nih.gov/7929890/"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "eyeCup",
+      "geometryEndHpf": 30,
+      "handoffOut": "optic_cup_parts",
+      "boundsMarginMm": 0.6,
+      "keyframes": [
+        {
+          "hpf": 11.66,
+          "placement": {
+            "u": 0.1,
+            "v": 0.15,
+            "w": 0.5,
+            "mirror": true
+          },
+          "stage": "vesicle",
+          "outerDiameterMm": 0.1,
+          "depthMm": 0.06,
+          "fissureDeg": 0,
+          "lensDiameterMm": 0.02,
+          "lensProtrusionFraction": 0,
+          "rpeThicknessMm": 0.01,
+          "retinaThicknessMm": 0.03
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "v": 0.1,
+            "w": 0.55
+          },
+          "outerDiameterMm": 0.13,
+          "depthMm": 0.08
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "v": 0,
+            "w": 0.85,
+            "u": 0.07
+          },
+          "stage": "cup",
+          "outerDiameterMm": 0.15,
+          "depthMm": 0.09,
+          "fissureDeg": 30,
+          "lensDiameterMm": 0.05,
+          "lensProtrusionFraction": 0.2
+        },
+        {
+          "hpf": 24,
+          "stage": "eye",
+          "outerDiameterMm": 0.17,
+          "depthMm": 0.1496,
+          "fissureDeg": 20,
+          "lensDiameterMm": 0.063,
+          "lensProtrusionFraction": 0.3,
+          "retinaThicknessMm": 0.04,
+          "placement": {
+            "v": -0.1,
+            "u": 0.07
+          }
+        },
+        {
+          "hpf": 36,
+          "outerDiameterMm": 0.2,
+          "depthMm": 0.184,
+          "fissureDeg": 10,
+          "lensDiameterMm": 0.072,
+          "placement": {
+            "u": 0.07
+          }
+        },
+        {
+          "hpf": 48,
+          "outerDiameterMm": 0.23,
+          "depthMm": 0.2185,
+          "fissureDeg": 0,
+          "lensDiameterMm": 0.08,
+          "retinaThicknessMm": 0.06,
+          "placement": {
+            "u": 0.075
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "outerDiameterMm": 0.27,
+          "depthMm": 0.2565,
+          "lensDiameterMm": 0.09,
+          "placement": {
+            "u": 0.085
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "outerDiameterMm": 0.3,
+          "depthMm": 0.285,
+          "lensDiameterMm": 0.101,
+          "rpeThicknessMm": 0.012,
+          "retinaThicknessMm": 0.08,
+          "placement": {
+            "u": 0.1
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "outerDiameterMm": 0.33,
+          "depthMm": 0.3135,
+          "lensDiameterMm": 0.11
+        },
+        {
+          "hpf": 360,
+          "sizeRefSl": 5.47,
+          "outerDiameterMm": 0.44,
+          "depthMm": 0.418,
+          "lensDiameterMm": 0.16,
+          "lensProtrusionFraction": 0.2
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "outerDiameterMm": 0.66,
+          "depthMm": 0.627,
+          "lensDiameterMm": 0.25,
+          "rpeThicknessMm": 0.015,
+          "retinaThicknessMm": 0.12
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "outerDiameterMm": 0.96,
+          "depthMm": 0.912,
+          "lensDiameterMm": 0.38,
+          "rpeThicknessMm": 0.018,
+          "retinaThicknessMm": 0.16
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.1,
+            "v": -0.1,
+            "w": 0.85,
+            "mirror": true
+          },
+          "outerDiameterMm": 1.44,
+          "depthMm": 1.368,
+          "lensDiameterMm": 0.6,
+          "lensProtrusionFraction": 0.1,
+          "rpeThicknessMm": 0.02,
+          "retinaThicknessMm": 0.2
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "outerDiameterMm": 2.0,
+          "depthMm": 1.9,
+          "lensDiameterMm": 0.9
+        }
+      ],
+      "estimate": [
+        "placement",
+        "depthMm",
+        "fissureDeg",
+        "lensProtrusionFraction",
+        "rpeThicknessMm",
+        "retinaThicknessMm",
+        "outerDiameterMm at 36, 168, 360, 720, 1080 and 2160 hpf"
+      ],
+      "sources": [
+        "11.66 hpf: optic vesicle 120 x 50 x 80 um at 12 hpf (research 03b, Kwan et al. 2012 volume 0.84e6 um3); lateral wall of the diencephalon, u 0.10",
+        "16 hpf: vesicle 150 x 60 x 110 um (research 03b, Kwan et al. 2012); invagination starts (optic_vesicle_cup window 16 to 24 hpf)",
+        "19 hpf: optic cup diameter 150 um, depth 90 um; choroid fissure forms (research 03b, Schmitt and Dowling 1994); lens vesicle round by 20 hpf (Kwan et al. 2012)",
+        "24 hpf: cup 170 um, depth 110 um, lens 63 um (10 percent of the cup volume, Kwan et al. 2012); BG-36",
+        "36 hpf: interpolated; fissure rotated to ventral (Schmitt and Dowling 1994)",
+        "48 hpf: eye 230 um, lens 80 um; the fissure is closed (research 03b; BG-36)",
+        "72 hpf: eye 270 um, lens 90 um (research 03b); 120 hpf: eye 300 um, lens 101 um (Haug et al. 2010)",
+        "168, 360, 720 hpf: interpolated between the 120 hpf row and the 4320 hpf row at a near-constant 8 percent of standard length; lens 160 um at 15 dpf (research 03b lens record, Wang et al. 2020); sizeRefSl from growth.standardLengthMm (DM-15)",
+        "boundsMarginMm 0.6: the eyes are the widest part of the head in dorsal view and protrude beyond the body-model outline (about 0.1 mm per side at 120 hpf, up to 0.6 mm in the adult); W007 allowance",
+        "1080 hpf: eye 0.96 mm, lens 0.38 mm at SL 12 mm, interpolated between the 720 hpf and 4320 hpf rows (estimate)",
+        "4320 hpf: eye 2.0 mm at SL 25 mm. Collery et al. 2014 measure 0.995 mm +/- 0.037 mm from the centre of the lens to the retinal pigment epithelium by SD-OCT in 6-month fish (https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/), and 4320 hpf is 6 months, so the retinal sphere is about 1.99 mm across. Lens 0.9 mm, about 1 mm in the adult (Bell et al. 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4259836/), which also matches the 1.080 mm ray-traced focal length of Collery et al. 2014 under Matthiessen's ratio. 2160 hpf: eye 1.44 mm, lens 0.6 mm at SL 18 mm (90 dpf), scaled to the same 8 percent of standard length (estimate). Review action 13: the earlier series ran to 2.6 mm at 4320 hpf, which is about 11 percent of standard length and about 30 percent over the measurement.",
+        "placement: u 0.10 (BG-36); w 0.5 at 11.66 and 0.55 at 16 hpf while the vesicle is attached to the forebrain (phase 1 review R15), 0.85 from 19 hpf (the eyes sit on the head sides); v 0.15 at 11.66 and 0.1 at 16 hpf keep the vesicle in the dorsal part of the wrapped axis (regime R2, hV 40 to 80 um), v 0 at 19 and -0.1 from 24 hpf (research 03b: the ventral half below the brain floor in the larva)",
+        "boundsMarginMm 0.6: the eyes are the widest part of the head in dorsal view and protrude beyond the body-model outline (W007 allowance)",
+        "placement u 0.07 from 19 to 36 hpf, 0.075 at 48, 0.085 at 72 and 0.10 from 120 hpf (review R04): Kimmel 1995 Fig. 1 (Prim-5 to Protruding-mouth) shows the eye almost at the anterior margin of the head, with well under half an eye diameter of tissue in front of it until the jaw protrudes; at u 0.1 the snout ran 0.9 eye diameters ahead of the eye at 48 hpf",
+        "cup depth 0.85 of the outer diameter from 36 hpf (review R11): the larval and adult eyeball is a near-complete sphere whose pupil is about half its diameter, so the RPE and retina shells reach 150 degrees from the back pole and the eye bulges beyond the head outline in the dorsal view (Kimmel 1995 Fig. 1 dorsal views), as the 0.6-diameter cup of the optic-cup stages (19 to 24 hpf, Kwan et al. 2012) does not; the lens sits in the pupil",
+        "Phase 2 visual calibration (RN-02): the cup depth is 0.88 of the outer diameter at 24 hpf and 0.95 from 48 hpf, so the retinal pigment epithelium wraps about 154 degrees of the eyeball and leaves a pupil of about half the eye diameter. The eye then reads as a dark disc with a bright lens in lateral view, as the Kimmel stage series and the painted series show from 24 hpf, instead of an open bowl."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000152",
+    "name": "retina",
+    "synonyms": [
+      "retinas"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005567",
+    "uiParent": "ZFA:0000107",
+    "parentRelation": "grouping",
+    "definition": "Multi-tissue structure that contains the retinal neural layer and the retinal pigmented epithelium, and develops from the optic cup.",
+    "zfinStartStage": "ZFS:0000030",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 30.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff optic_cup_parts: seeded from the eye (optic cup) at the window start 24 hpf (D9, DM-34); ZFA starts the term at Prim-15 (30 hpf). DM-36: axis clamp at 4320 hpf. The 2 h fade-in reaches full opacity at 26 hpf, so the eye reads as a dark cup with a pale lens and not as a cyan bullseye (owner painted stage series, 24 hr panel; the handoff window start fixes visibleFromHpf at 24 hpf, E034).",
+    "fadeInHpf": 2.0,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 22.0,
+        "text": "Presumptive neural retina (inner cup layer) (ZFA, 26+ somites).",
+        "source": "https://zfin.org/ZFA:0000152"
+      },
+      {
+        "hpf": 30.0,
+        "text": "Retina term starts (ZFIN, prim-15).",
+        "source": "https://zfin.org/ZFA:0000152"
+      },
+      {
+        "hpf": 48.0,
+        "text": "First ganglion cells differentiate ventronasally about 28 to 32 hpf; lamination 48 to 72 hpf (unverified hours).",
+        "source": "https://zfin.org/ZFA:0000152"
+      },
+      {
+        "hpf": 72.0,
+        "text": "Most cell classes present in central retina by 72 to 96 hpf; outer segments appear (Easter & Nicola 1996 Dev Biol 180:646-663 https://pubmed.ncbi.nlm.nih.gov/8954734/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8954734/"
+      },
+      {
+        "hpf": 2160.0,
+        "text": "Continuous growth from the ciliary marginal zone throughout life (Marcus et al. 1999 Vis Neurosci 16:417).",
+        "source": "https://zfin.org/ZFA:0000152"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "outerDiameter": 0.16,
+          "thickness": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); neuroepithelium not yet laminated",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "outerDiameter": 0.22,
+          "thickness": 0.09
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); ganglion cell layer forming",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "outerDiameter": 0.29,
+          "thickness": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); retinal radius about 140 to 150 um from Haug et al. 2010 Front Zool 7:8 https://pmc.ncbi.nlm.nih.gov/articles/PMC2848032/",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "outerDiameter": 1.4,
+          "thickness": 0.22
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "outer diameter scaled with the eye record ZFA:0000107 (Collery et al. 2014 PLoS One https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/); thickness from research 03b (estimate)",
+        "estimate": true,
+        "note": "90 dpf, SL 18 mm",
+        "basisSL": 18
+      },
+      {
+        "hpf": 4320.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "outerDiameter": 1.96,
+          "thickness": 0.22
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "outer diameter is the 2.0 mm eye of the eye record ZFA:0000107 less the retinal pigment epithelium on both sides (Collery et al. 2014 PLoS One https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/); thickness from research 03b (estimate)",
+        "estimate": true,
+        "note": "6 months, SL 25 mm",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b retina record",
+      "https://zfin.org/ZFA:0000152",
+      "Easter & Nicola 1996 Dev Biol 180:646-663 https://pubmed.ncbi.nlm.nih.gov/8954734/",
+      "Haug et al. 2010 Front Zool 7:8 https://pmc.ncbi.nlm.nih.gov/articles/PMC2848032/",
+      "ZFA part_of posterior segment eye ZFA:0005567, develops_from optic cup ZFA:0001202 (an eye alias); the tree parent is the eye"
+    ],
+    "geometry": {
+      "kind": "derived",
+      "sourceId": "ZFA:0000107",
+      "part": "retina",
+      "keyframes": [
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "the retina part of the eyeCup build (BG-36): the thick inner shell; thickness 60 um at 24 hpf, 90 at 48, 100 at 120 hpf, 200 um in the adult (research 03b retina rows, estimate) are the eye record retinaThicknessMm leaves"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000144",
+    "name": "retinal pigmented epithelium",
+    "synonyms": [
+      "RPE",
+      "pigmented retinal epithelium",
+      "pigmented retina",
+      "PRE",
+      "pigmented epithelium"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000152",
+    "uiParent": "ZFA:0000152",
+    "parentRelation": "part_of",
+    "definition": "A monolayer of pigmented epithelium covering the neural retina; develops from the outer of the two layers of the optic cup.",
+    "zfinStartStage": "ZFS:0000030",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 30.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff optic_cup_parts: seeded from the eye (optic cup) at the window start 24 hpf (D9, DM-34); ZFA starts the term at Prim-15 (30 hpf). DM-36: axis clamp at 4320 hpf. The 2 h fade-in reaches full pigment at 26 hpf, when melanin is first visible in the animal, so the eye reads as a dark cup and not as a cyan bullseye (owner painted stage series, 24 hr panel; the handoff window start fixes visibleFromHpf at 24 hpf, E034). The earlier 12 h fade was the pigmentation ramp of research 03b (24 to 36 hpf).",
+    "fadeInHpf": 2.0,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 22.0,
+        "text": "Presumptive RPE (outer cup layer) (ZFA, 26+ somites); PE shrinks as cells move into the neural retina 14 to 24 hpf (Li, Joseph & Easter 2000 Dev Dyn 218:175-188 https://pubmed.ncbi.nlm.nih.gov/10822269/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/10822269/"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Melanin first appears in the retinal pigmented epithelium at prim-5: \"Pigment formation begins in cells of the pigmented retinal epithelium and then in melanophores dorsolaterally in the skin\" (https://zfin.org/zf_info/zfbook/stages/phar_stgs.html).",
+        "source": "https://zfin.org/ZFA:0000144"
+      },
+      {
+        "hpf": 30.0,
+        "text": "RPE term starts at prim-15 (ZFIN). The pigmented eye is visible from prim-5, when \"Pigment formation begins in cells of the pigmented retinal epithelium\" (https://zfin.org/zf_info/zfbook/stages/phar_stgs.html); how dark it is at prim-15 is an estimate.",
+        "source": "https://zfin.org/ZFA:0000144"
+      },
+      {
+        "hpf": 36.0,
+        "text": "RPE fully pigmented (estimate).",
+        "source": "https://zfin.org/ZFA:0000144"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "outerDiameter": 0.17,
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "outerDiameter": 0.23,
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "outerDiameter": 0.3,
+          "thickness": 0.01
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "outerDiameter": 1.44,
+          "thickness": 0.015
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "outer diameter scaled with the eye record ZFA:0000107 (Collery et al. 2014 PLoS One https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/); thickness from research 03b (estimate)",
+        "estimate": true,
+        "note": "90 dpf, SL 18 mm",
+        "basisSL": 18
+      },
+      {
+        "hpf": 4320.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "outerDiameter": 2.0,
+          "thickness": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "outer diameter is the eye of the eye record ZFA:0000107 (Collery et al. 2014 PLoS One https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/); thickness from research 03b (estimate)",
+        "estimate": true,
+        "note": "6 months, SL 25 mm",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": {
+      "dark": "#23262B",
+      "light": "#1B1F24"
+    },
+    "sources": [
+      "research 03b retinal pigmented epithelium record",
+      "https://zfin.org/ZFA:0000144",
+      "Li, Joseph & Easter 2000 Dev Dyn 218:175-188 https://pubmed.ncbi.nlm.nih.gov/10822269/",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+    ],
+    "geometry": {
+      "kind": "derived",
+      "sourceId": "ZFA:0000107",
+      "part": "rpe",
+      "keyframes": [
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "the rpe part of the eyeCup build (BG-36): the thin outer shell, 8 to 12 um in the larva and 20 um in the adult (research 03b RPE rows, estimate) are the eye record rpeThicknessMm leaves",
+        "opacity ramp: fadeInHpf 12 ramps the RPE from 24 to 36 hpf (research 03b: melanin from 24 hpf, fully pigmented by 36 hpf; the spec asks for 22 to 36 hpf, and the handoff window fixes the start at 24 hpf)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000035",
+    "name": "lens",
+    "synonyms": [
+      "lenses"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005566",
+    "uiParent": "ZFA:0000107",
+    "parentRelation": "grouping",
+    "definition": "Portion of tissue that is a transparent, biconvex structure located in the eye through which light is focused.",
+    "zfinStartStage": "ZFS:0000030",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 30.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff optic_cup_parts: seeded from the eye (optic cup) at the window start 24 hpf (D9, DM-34); ZFA starts the term at Prim-15 (30 hpf). DM-36: axis clamp at 4320 hpf. The 2 h fade-in reaches full opacity at 26 hpf, so the eye reads as a dark cup with a pale lens and not as a cyan bullseye (owner painted stage series, 24 hr panel; the handoff window start fixes visibleFromHpf at 24 hpf, E034).",
+    "fadeInHpf": 2.0,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 11.7,
+        "text": "Lens placode (ZFA, 5-9 somites); first visible as a thickening at about 15 hpf (Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/"
+      },
+      {
+        "hpf": 19.0,
+        "text": "Solid lens vesicle (ZFA, 20-25 somites); round by 20 hpf (Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Lens pinches off from the ectoderm as a solid cell mass (Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/, Dahm et al. 2007 Exp Eye Res 85:74-89 https://pubmed.ncbi.nlm.nih.gov/17467692/).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/,"
+      },
+      {
+        "hpf": 30.0,
+        "text": "Lens term starts (ZFIN, prim-15).",
+        "source": "https://zfin.org/ZFA:0000035"
+      },
+      {
+        "hpf": 48.0,
+        "text": "Posterior suture visible (Greiling & Clark 2009 Dev Dyn 238:2254-2265 https://pubmed.ncbi.nlm.nih.gov/19504455/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/19504455/"
+      },
+      {
+        "hpf": 72.0,
+        "text": "Lens optically functional; image focused on photoreceptors (Easter & Nicola 1996 Dev Biol 180:646-663 https://pubmed.ncbi.nlm.nih.gov/8954734/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8954734/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.063,
+          "volumeMm3": 0.00013
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b; lens volume 0.13e6 um3 at 24 hpf (Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/); diameter computed for a sphere",
+        "estimate": false
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); fiber differentiation 36 to 48 hpf (Greiling & Clark 2009 Dev Dyn 238:2254-2265 https://pubmed.ncbi.nlm.nih.gov/19504455/)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.101
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b; lens radius 50.7 um at 5 dpf (Haug et al. 2010 Front Zool 7:8 https://pmc.ncbi.nlm.nih.gov/articles/PMC2848032/)",
+        "estimate": false
+      },
+      {
+        "hpf": 360.0,
+        "stageLabel": "Day 15",
+        "dimsMm": {
+          "diameter": 0.16
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b; 160 um at 15 dpf (Wang et al. 2020 Exp Eye Res (optical development of the zebrafish lens) https://pmc.ncbi.nlm.nih.gov/articles/PMC10666921/)",
+        "estimate": false
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.6
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "scaled with the eye record ZFA:0000107 between the 360 hpf row (Wang et al. 2020) and the 4320 hpf row (Bell et al. 2014 Exp Eye Res https://pmc.ncbi.nlm.nih.gov/articles/PMC4259836/)",
+        "estimate": true,
+        "note": "90 dpf, SL 18 mm",
+        "basisSL": 18
+      },
+      {
+        "hpf": 4320.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.9
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "about 1 mm (Bell et al. 2014 Exp Eye Res https://pmc.ncbi.nlm.nih.gov/articles/PMC4259836/); 540 to 790 um in 1.3 to 1.8 year old fish (Wang et al. 2020 Exp Eye Res https://pmc.ncbi.nlm.nih.gov/articles/PMC10666921/); the 1.080 mm +/- 0.083 mm ray-traced focal length of Collery et al. 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4205002/ gives a lens radius near 0.42 mm under Matthiessen's ratio",
+        "estimate": false,
+        "note": "6 months, SL 25 mm. The lens is about 45 percent of the 2.0 mm eye, the usual teleost proportion",
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": {
+      "dark": "#CFEEFF",
+      "light": "#8FB4CC",
+      "opacity": 0.35
+    },
+    "sources": [
+      "research 03b lens record",
+      "https://zfin.org/ZFA:0000035",
+      "Kwan et al. 2012 Development 139:359-372 https://pmc.ncbi.nlm.nih.gov/articles/PMC3243097/",
+      "Greiling & Clark 2009 Dev Dyn 238:2254-2265 https://pubmed.ncbi.nlm.nih.gov/19504455/",
+      "Dahm et al. 2007 Exp Eye Res 85:74-89 https://pubmed.ncbi.nlm.nih.gov/17467692/",
+      "Haug et al. 2010 Front Zool 7:8 https://pmc.ncbi.nlm.nih.gov/articles/PMC2848032/",
+      "Wang et al. 2020 Exp Eye Res (optical development of the zebrafish lens) https://pmc.ncbi.nlm.nih.gov/articles/PMC10666921/",
+      "Bell et al. 2014 Exp Eye Res (adult lens about 1 mm) https://pmc.ncbi.nlm.nih.gov/articles/PMC4259836/",
+      "Easter & Nicola 1996 Dev Biol 180:646-663 https://pubmed.ncbi.nlm.nih.gov/8954734/",
+      "ZFA part_of anterior segment eye ZFA:0005566; the tree parent is the eye"
+    ],
+    "geometry": {
+      "kind": "derived",
+      "sourceId": "ZFA:0000107",
+      "part": "lens",
+      "keyframes": [
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "the lens part of the eyeCup build (BG-36): a sphere of the eye record lensDiameterMm, 63 um at 24 hpf (10 percent of the cup volume, Kwan et al. 2012), 101 um at 5 dpf (Haug et al. 2010), 160 um at 15 dpf (Wang et al. 2020), 0.7 mm at SL 18 mm and 0.95 mm at SL 25 mm (Bell et al. 2014)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000138",
+    "name": "otic placode",
+    "synonyms": [],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001138",
+    "uiParent": "ZFA:0001138",
+    "parentRelation": "part_of",
+    "definition": "Primordium of the ear epithelium before it hollows into the otic vesicle, present beside the hindbrain rudiment in the mid-segmentation period. (Also see Anatomical Atlas entry for ear by T. Whitfield.)",
+    "zfinStartStage": "ZFS:0000022",
+    "zfinEndStage": "ZFS:0000028",
+    "startHpf": 10.0,
+    "endHpf": 24.0,
+    "visibleFromHpf": 14,
+    "modelEndHpf": 18,
+    "overrideNote": "ZFIN starts the otic placode at Bud (10 hpf) for the specified field; the placode is first visible as an ectodermal thickening at 9 to 14 somites, so the model draws it from 14 hpf (research 03b deviations table; ear.html; Haddon and Lewis 1996). Handoff otic_placode_vesicle: the placode hands off to the otic vesicle over 16 to 18 hpf (D9), so the record ends at 18 hpf; ZFA ends it at 26+ somites (24 hpf).",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 2,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.0,
+        "text": "Otic placode term starts (ZFIN, bud).",
+        "source": "https://zfin.org/ZFA:0000138"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Placode visible at 9 to 14 somites (https://zfin.org/zf_info/anatomy/dict/ear/ear.html).",
+        "source": "https://zfin.org/zf_info/anatomy/dict/ear/ear.html"
+      },
+      {
+        "hpf": 16.0,
+        "text": "Placode visible at about 16 hpf (Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8821445/"
+      },
+      {
+        "hpf": 18.0,
+        "text": "Cavitation into the otic vesicle at the 18-somite stage (https://zfin.org/zf_info/anatomy/dict/ear/ear.html, Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/).",
+        "source": "https://zfin.org/zf_info/anatomy/dict/ear/ear.html,"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Placode term ends (ZFIN, 26+ somites).",
+        "source": "https://zfin.org/ZFA:0000138"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 14.0,
+        "stageLabel": "10-13 somites",
+        "dimsMm": {
+          "length": 0.05,
+          "width": 0.035,
+          "thickness": 0.015
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 16.0,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 0.06,
+          "width": 0.04,
+          "thickness": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); placode visible at about 16 hpf (Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/)",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b otic placode record",
+      "https://zfin.org/ZFA:0000138",
+      "https://zfin.org/zf_info/anatomy/dict/ear/ear.html",
+      "Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "handoffOut": "otic_placode_vesicle",
+      "keyframes": [
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.22,
+            "v": 0.2,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.025,
+            0.0175,
+            0.0075
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.22,
+            "v": 0.2,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.03,
+            0.02,
+            0.01
+          ]
+        },
+        {
+          "hpf": 18,
+          "placement": {
+            "u": 0.22,
+            "v": 0.2,
+            "w": 0.85,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.03,
+            0.02,
+            0.012
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "14 hpf: 50 x 35 x 15 um (length x height x thickness; research 03b size row, estimate): a flat oval plaque on the lateral head surface beside rhombomere 5",
+        "16 hpf: 60 x 40 x 20 um (research 03b; Haddon and Lewis 1996); the placode thickens and cavitates into the otic vesicle at 18 hpf (handoff otic_placode_vesicle, D9)",
+        "placement u 0.22, v 0.2, w 0.85: the otic vesicle placement of BG-37 moved out to the skin (estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000051",
+    "name": "otic vesicle",
+    "synonyms": [
+      "otic capsule",
+      "otocyst",
+      "ov"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001105",
+    "uiParent": "ZFA:0001138",
+    "parentRelation": "is_a",
+    "definition": "Epithelial sac present beside the fifth rhombomere; forms the semicircular canals dorsally and the otolith organs ventrally, and houses the acoustico-vestibular sensory epithelia (maculae) of hair cells. (Also see Anatomical Atlas entry for ear by T. Whitfield.)",
+    "zfinStartStage": "ZFS:0000026",
+    "zfinEndStage": "ZFS:0000000",
+    "startHpf": 16,
+    "endHpf": 17520,
+    "visibleFromHpf": 16,
+    "modelEndHpf": 72,
+    "overrideNote": "Handoff otic_placode_vesicle: seeded from the otic placode at the window start 16 hpf (D9), which equals the ZFA start; the 2 h fade-in is the cross-fade. Handoff otic_vesicle_ear: the vesicle hands off to the inner ear over 66 to 72 hpf (D9), so the record ends at 72 hpf with a 6 h fade-out; ZFA end stage Unknown (E008).",
+    "fadeInHpf": 2,
+    "fadeOutHpf": 6,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 16,
+        "text": "Otic vesicle term starts (ZFA, 14-19 somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 18,
+        "text": "Lumen forms by cavitation of the otic placode.",
+        "source": "Haddon and Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/"
+      },
+      {
+        "hpf": 19.5,
+        "text": "Two otoliths appear.",
+        "source": "Haddon and Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/"
+      },
+      {
+        "hpf": 24,
+        "text": "First hair cells in two maculae under the otoliths.",
+        "source": "Haddon and Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/"
+      },
+      {
+        "hpf": 36,
+        "text": "Endolymphatic sac evaginates from the dorsal wall.",
+        "source": "Swinburne et al. 2018 eLife 7:e37131 https://elifesciences.org/articles/37131"
+      },
+      {
+        "hpf": 42,
+        "text": "Anterior, lateral and posterior protrusions (canal pillars) start to grow, 42 to 48 hpf.",
+        "source": "Geng et al. 2013 Development 140:4362-4374 https://pubmed.ncbi.nlm.nih.gov/24067352/"
+      },
+      {
+        "hpf": 72,
+        "text": "All three canal pillars fused; the inner ear record takes over (D9 otic_vesicle_ear).",
+        "source": "Geng et al. 2013 Development 140:4362-4374 https://pubmed.ncbi.nlm.nih.gov/24067352/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 18,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 0.05,
+          "width": 0.035,
+          "height": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); Haddon and Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/",
+        "estimate": true,
+        "note": "lumen appears at 18 hpf"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.07,
+          "width": 0.045,
+          "height": 0.055
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+        "estimate": true,
+        "note": "The size is an estimate. Kimmel's OVL index records the eye-to-otic-vesicle gap as 5 otic vesicle lengths at 24 hpf. OVL is a separation measure, not the vesicle size."
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.13,
+          "width": 0.09,
+          "height": 0.11
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+        "estimate": true,
+        "note": "The size is an estimate. Kimmel's OVL index records the eye-to-otic-vesicle gap as 1/2 an otic vesicle length at 48 hpf. OVL is a separation measure, not the vesicle size."
+      },
+      {
+        "hpf": 72,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "length": 0.18,
+          "width": 0.12,
+          "height": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); https://zfin.org/zf_info/anatomy/dict/ear/ear.html",
+        "estimate": true,
+        "note": "the ear grows by fluid filling during days 1 to 3"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b otic vesicle and otolith records",
+      "spec BG-37",
+      "Haddon and Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/",
+      "https://zfin.org/zf_info/anatomy/dict/ear/ear.html"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "earVesicle",
+      "handoffOut": "otic_vesicle_ear",
+      "keyframes": [
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.22,
+            "v": 0.2,
+            "w": 0.75,
+            "mirror": true
+          },
+          "lengthMm": 0.04,
+          "widthMm": 0.03,
+          "heightMm": 0.03,
+          "wallMm": 0.01,
+          "otoliths": [],
+          "pillarLengthFraction": 0,
+          "canals": {
+            "loopDiameterMm": 0.09,
+            "tubeDiameterMm": 0.02,
+            "present": false
+          }
+        },
+        {
+          "hpf": 18,
+          "lengthMm": 0.05,
+          "widthMm": 0.035,
+          "heightMm": 0.04
+        },
+        {
+          "hpf": 24,
+          "lengthMm": 0.07,
+          "widthMm": 0.045,
+          "heightMm": 0.055,
+          "otoliths": []
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.215
+          },
+          "lengthMm": 0.115,
+          "widthMm": 0.08,
+          "heightMm": 0.095,
+          "otoliths": []
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.21,
+            "w": 0.72
+          },
+          "lengthMm": 0.13,
+          "widthMm": 0.09,
+          "heightMm": 0.11,
+          "pillarLengthFraction": 0.25,
+          "otoliths": []
+        },
+        {
+          "hpf": 66,
+          "lengthMm": 0.17,
+          "widthMm": 0.11,
+          "heightMm": 0.14,
+          "pillarLengthFraction": 0.8,
+          "placement": {
+            "w": 0.68
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "lengthMm": 0.18,
+          "widthMm": 0.12,
+          "heightMm": 0.15,
+          "pillarLengthFraction": 1,
+          "otoliths": [],
+          "placement": {
+            "w": 0.66
+          }
+        }
+      ],
+      "estimate": [
+        "placement",
+        "wallMm",
+        "pillarLengthFraction",
+        "canals",
+        "lengthMm at 16, 42 and 66 hpf"
+      ],
+      "sources": [
+        "16 hpf: seed from the otic placode thickening 60 x 40 x 20 um (research 03b otic placode row, estimate); wall about 10 um (research 03b shape note)",
+        "18 hpf: 50 x 35 x 40 um, lumen by cavitation (research 03b; Haddon and Lewis 1996)",
+        "24 hpf: 70 x 45 x 55 um, otoliths 12 um (research 03b; BG-37); u 0.22 (BG-37)",
+        "42 to 48 hpf: 130 x 90 x 110 um at 48 hpf, otoliths 25 um, pillars start 42 to 48 hpf (research 03b; Geng et al. 2013); u 0.21 at 48 hpf (BG-37)",
+        "66 to 72 hpf: 180 x 120 x 150 um at 72 hpf, pillars fused (research 03b; Geng et al. 2013); canal loop 90 um at 72 hpf for the inner ear seed (BG-37); otoliths 30 and 35 um interpolated toward the 120 hpf row (40 and 55 um)",
+        "placement v 0.2, w 0.75: lateral to the hindbrain at rhombomere 5, dorsal to the pharynx (research 03b spatial note; estimate)",
+        "otoliths []: the otolith record (derived from the inner ear, part otoliths) draws the two otoliths, so the vesicle shell carries none",
+        "placement w 0.75 to 0.66 from 48 to 72 hpf: the growing vesicle moves in from the skin so its lateral wall stays under the epidermis (estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000217",
+    "name": "inner ear",
+    "synonyms": [
+      "ear",
+      "otocyst",
+      "otic capsule"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001138",
+    "uiParent": "ZFA:0001138",
+    "parentRelation": "part_of",
+    "definition": "The auditory (hearing) and vestibular (balance) organ of the fish, equivalent to the inner ear of amniotes. (See Anatomical Atlas entry for ear by T. Whitfield.)",
+    "zfinStartStage": "ZFS:0000027",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 19.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 19,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff otic_vesicle_ear: the inner ear is the to record; its ZFA start (20-25 somites, 19 hpf) precedes the window 66 to 72 hpf, so it keeps that start (DM-33, E034) and is drawn from 19 hpf as the endolymph space inside the otic vesicle. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 19.0,
+        "text": "Inner ear term starts (ZFIN, 20-25 somites).",
+        "source": "https://zfin.org/ZFA:0000217"
+      },
+      {
+        "hpf": 72.0,
+        "text": "Three semicircular canals formed by 3 dpf (Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/11921341/"
+      },
+      {
+        "hpf": 168.0,
+        "text": "About 80 hair cells per macula between 3 and 7 dpf (Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8821445/"
+      },
+      {
+        "hpf": 360.0,
+        "text": "Lagenar macula with differentiated hair cells by 15 dpf (Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/11921341/"
+      },
+      {
+        "hpf": 2160.0,
+        "text": "Adult ear about 2.3 mm long with three otoliths (Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/, https://zfin.org/zf_info/anatomy/dict/oto/otolith.html).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/11921341/,"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.07,
+          "width": 0.045,
+          "height": 0.055
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); same body as the otic vesicle at this stage (ZFIN inner ear starts at 19 hpf and overlaps the otic vesicle term)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.13,
+          "width": 0.09,
+          "height": 0.11
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); same body as the otic vesicle at this stage",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.25,
+          "width": 0.17,
+          "height": 0.22
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); canals complete by 3 dpf, pars inferior grows 5 to 20 dpf (Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/)",
+        "estimate": true
+      },
+      {
+        "hpf": 720.0,
+        "stageLabel": "Day 30",
+        "dimsMm": {
+          "length": 0.5,
+          "width": 0.35,
+          "height": 0.45
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); adult ear is nearly five times the larval size (Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 2.3,
+          "width": 1.5,
+          "height": 2.0
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b; about 2.3 mm long in a 2-year-old fish (Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/); width and height estimate",
+        "estimate": false,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b inner ear record",
+      "https://zfin.org/ZFA:0000217",
+      "Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/",
+      "Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/",
+      "https://zfin.org/zf_info/anatomy/dict/oto/otolith.html"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "earVesicle",
+      "keyframes": [
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.22,
+            "v": 0.2,
+            "w": 0.75,
+            "mirror": true
+          },
+          "lengthMm": 0.027,
+          "widthMm": 0.013,
+          "heightMm": 0.018,
+          "wallMm": 0.004,
+          "otoliths": [
+            {
+              "diameterMm": 0.004,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.004,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 0,
+          "canals": {
+            "loopDiameterMm": 0.02,
+            "tubeDiameterMm": 0.006,
+            "present": false
+          }
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.22,
+            "v": 0.2,
+            "w": 0.75,
+            "mirror": true
+          },
+          "lengthMm": 0.04,
+          "widthMm": 0.02,
+          "heightMm": 0.028,
+          "wallMm": 0.005,
+          "otoliths": [
+            {
+              "diameterMm": 0.012,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.012,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 0.0,
+          "canals": {
+            "loopDiameterMm": 0.03,
+            "tubeDiameterMm": 0.008,
+            "present": false
+          }
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.215,
+            "v": 0.2,
+            "w": 0.75,
+            "mirror": true
+          },
+          "lengthMm": 0.08,
+          "widthMm": 0.05,
+          "heightMm": 0.064,
+          "wallMm": 0.008,
+          "otoliths": [
+            {
+              "diameterMm": 0.022,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.022,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 0.0,
+          "canals": {
+            "loopDiameterMm": 0.05,
+            "tubeDiameterMm": 0.012,
+            "present": false
+          }
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.21,
+            "v": 0.2,
+            "w": 0.72,
+            "mirror": true
+          },
+          "lengthMm": 0.094,
+          "widthMm": 0.06,
+          "heightMm": 0.076,
+          "wallMm": 0.01,
+          "otoliths": [
+            {
+              "diameterMm": 0.025,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.025,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 0.25,
+          "canals": {
+            "loopDiameterMm": 0.06,
+            "tubeDiameterMm": 0.015,
+            "present": false
+          }
+        },
+        {
+          "hpf": 66,
+          "placement": {
+            "u": 0.21,
+            "v": 0.2,
+            "w": 0.68,
+            "mirror": true
+          },
+          "lengthMm": 0.128,
+          "widthMm": 0.077,
+          "heightMm": 0.1,
+          "wallMm": 0.012,
+          "otoliths": [
+            {
+              "diameterMm": 0.029,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.033,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 0.8,
+          "canals": {
+            "loopDiameterMm": 0.08,
+            "tubeDiameterMm": 0.02,
+            "present": false
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.21,
+            "v": 0.15,
+            "w": 0.6,
+            "mirror": true
+          },
+          "lengthMm": 0.18,
+          "widthMm": 0.1,
+          "heightMm": 0.15,
+          "wallMm": 0.012,
+          "otoliths": [
+            {
+              "diameterMm": 0.03,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.035,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1.0,
+          "canals": {
+            "loopDiameterMm": 0.08,
+            "tubeDiameterMm": 0.022,
+            "present": true
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.21,
+            "v": 0.1,
+            "w": 0.5,
+            "mirror": true
+          },
+          "lengthMm": 0.22,
+          "widthMm": 0.11,
+          "heightMm": 0.2,
+          "wallMm": 0.015,
+          "otoliths": [
+            {
+              "diameterMm": 0.04,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.055,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1.0,
+          "canals": {
+            "loopDiameterMm": 0.1,
+            "tubeDiameterMm": 0.024,
+            "present": true
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.21,
+            "v": 0.1,
+            "w": 0.5,
+            "mirror": true
+          },
+          "lengthMm": 0.25,
+          "widthMm": 0.125,
+          "heightMm": 0.22,
+          "wallMm": 0.016,
+          "otoliths": [
+            {
+              "diameterMm": 0.045,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.06,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1.0,
+          "canals": {
+            "loopDiameterMm": 0.11,
+            "tubeDiameterMm": 0.026,
+            "present": true
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.21,
+            "v": 0.1,
+            "w": 0.5,
+            "mirror": true
+          },
+          "lengthMm": 0.32,
+          "widthMm": 0.16,
+          "heightMm": 0.29,
+          "wallMm": 0.02,
+          "otoliths": [
+            {
+              "diameterMm": 0.06,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.08,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1.0,
+          "canals": {
+            "loopDiameterMm": 0.14,
+            "tubeDiameterMm": 0.03,
+            "present": true
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.21,
+            "v": 0.1,
+            "w": 0.5,
+            "mirror": true
+          },
+          "lengthMm": 0.39,
+          "widthMm": 0.2,
+          "heightMm": 0.35,
+          "wallMm": 0.025,
+          "otoliths": [
+            {
+              "diameterMm": 0.07,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.1,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1.0,
+          "canals": {
+            "loopDiameterMm": 0.17,
+            "tubeDiameterMm": 0.035,
+            "present": true
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.21,
+            "v": 0.1,
+            "w": 0.5,
+            "mirror": true
+          },
+          "lengthMm": 0.5,
+          "widthMm": 0.26,
+          "heightMm": 0.45,
+          "wallMm": 0.03,
+          "otoliths": [
+            {
+              "diameterMm": 0.09,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.13,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1.0,
+          "canals": {
+            "loopDiameterMm": 0.21,
+            "tubeDiameterMm": 0.045,
+            "present": true
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.21,
+            "v": 0.1,
+            "w": 0.5,
+            "mirror": true
+          },
+          "lengthMm": 0.8,
+          "widthMm": 0.4,
+          "heightMm": 0.7,
+          "wallMm": 0.05,
+          "otoliths": [
+            {
+              "diameterMm": 0.14,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.2,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1.0,
+          "canals": {
+            "loopDiameterMm": 0.34,
+            "tubeDiameterMm": 0.065,
+            "present": true
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "placement": {
+            "u": 0.215,
+            "v": 0.1,
+            "w": 0.47,
+            "mirror": true
+          },
+          "lengthMm": 1.6,
+          "widthMm": 0.7,
+          "heightMm": 1.3,
+          "wallMm": 0.1,
+          "otoliths": [
+            {
+              "diameterMm": 0.45,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.6,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1.0,
+          "canals": {
+            "loopDiameterMm": 0.7,
+            "tubeDiameterMm": 0.11,
+            "present": true
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "placement": {
+            "u": 0.215,
+            "v": 0.1,
+            "w": 0.47,
+            "mirror": true
+          },
+          "lengthMm": 2.1,
+          "widthMm": 0.9,
+          "heightMm": 1.7,
+          "wallMm": 0.13,
+          "otoliths": [
+            {
+              "diameterMm": 0.55,
+              "pole": "anterior"
+            },
+            {
+              "diameterMm": 0.75,
+              "pole": "posterior"
+            }
+          ],
+          "pillarLengthFraction": 1,
+          "canals": {
+            "loopDiameterMm": 0.9,
+            "tubeDiameterMm": 0.14,
+            "present": true
+          }
+        }
+      ],
+      "estimate": [
+        "placement",
+        "wallMm",
+        "otoliths",
+        "canals",
+        "lengthMm to 66 hpf",
+        "widthMm"
+      ],
+      "sources": [
+        "19 to 66 hpf: ZFIN starts the inner ear at 20-25 somites (19 hpf), inside the otic vesicle window, and DM-33 keeps that start (E034); the inner ear is the endolymph space inside the otic vesicle epithelium, drawn as 0.8 to 0.85 of the vesicle lumen (the otic vesicle record sizes less two walls; research 03b otic vesicle rows) so the two meshes never coincide; the otoliths sit on its floor (research 03b otolith rows: 5 um at 19.5, 12 um at 24, 25 um at 48 hpf)",
+        "66 to 72 hpf: the vesicle fades out (handoff otic_vesicle_ear) and the inner ear grows to the full ear, 180 x 120 x 150 um at 72 hpf (research 03b), width narrowed to 100 um; canals present from 72 hpf with an 80 um loop and a 22 um tube (research 03b semicircular canal row: loop 90, tube 25 um; pillars fused at 72 hpf, Geng et al. 2013); the loops are 10 to 20 percent under the 03b estimates so the dorsolateral canals stay under the elliptical head section",
+        "120 hpf: 250 x 170 x 220 um (research 03b, estimate) narrowed to 220 x 110 x 200 um; canal loop 100 um, tube 24 um; otoliths 40 and 55 um (research 03b)",
+        "720 hpf: 500 x 350 x 450 um narrowed to 280 wide (research 03b; Bever and Fekete 2002); 2160 hpf: 2300 x 1500 x 2000 um at SL 18 mm (Bever and Fekete 2002 for a 2 year fish) scaled to 1600 x 700 x 1300 um at 90 dpf; canal loop 800 um, tube 120 um; otoliths 450 and 600 um (research 03b adult rows: lapillus 600, sagitta 1000 um, estimate); 4320 hpf: times 1.3 at SL 25 mm",
+        "intermediate stages: log-linear in body length (estimate); widths narrowed where the 03b estimate exceeds the body model head (research 03b sizes are estimates; the body-model half-widths hW of src/data/body.json bound them)",
+        "placement u 0.22 to 0.21 (BG-37), v 0.2 to 0.1, w 0.75 to 0.47: lateral to the hindbrain, the medial wall against the medulla, the canals under the skin (research 03b spatial note; estimate); the ear moves in and down from 72 hpf as the head section rounds"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001617",
+    "name": "otolith",
+    "synonyms": [
+      "immature otolith",
+      "statolith",
+      "immature otoliths"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000051",
+    "uiParent": "ZFA:0000217",
+    "parentRelation": "grouping",
+    "definition": "Portion of organism substance composed of calcium carbonate located in the otolith organ and positioned over a sensory macula; two form in each vesicle during the late segmentation period. (Also see Anatomical Atlas entry for otolith by T. Whitfield.)",
+    "zfinStartStage": "ZFS:0000027",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 19.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 19.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 18.0,
+        "text": "Otolith term starts at 18 hpf (https://zfin.org/zf_info/anatomy/dict/oto/otolith.html); ZFIN start 20-25 somites.",
+        "source": "https://zfin.org/zf_info/anatomy/dict/oto/otolith.html"
+      },
+      {
+        "hpf": 18.5,
+        "text": "Particles coalesce into two otoliths (https://zfin.org/zf_info/anatomy/dict/oto/otolith.html); two otoliths by 19.5 hpf (Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/).",
+        "source": "https://zfin.org/zf_info/anatomy/dict/oto/otolith.html"
+      },
+      {
+        "hpf": 22.0,
+        "text": "Two otoliths easily seen in each vesicle (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Growth by accretion; distinct shapes during the larval period (https://zfin.org/zf_info/anatomy/dict/oto/otolith.html).",
+        "source": "https://zfin.org/zf_info/anatomy/dict/oto/otolith.html"
+      },
+      {
+        "hpf": 360.0,
+        "text": "Third otolith (asteriscus) forms over the lagena in the second to third week; the atlas draws it from 15 dpf, an estimate. Bever and Fekete 2002 Dev Dyn 223:536-543 (PMID 11921341) covers 3 to 30 dpf and has no open-access copy.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/11921341/,"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 19.5,
+        "stageLabel": "20-25 somites",
+        "dimsMm": {
+          "diameter": 0.005
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); visible only with Nomarski optics at 19 hpf (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html)",
+        "estimate": true
+      },
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.012
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); easily seen at 22 hpf (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html); free particles gone after 24 hpf (https://zfin.org/zf_info/anatomy/dict/oto/otolith.html)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "anteriorDiameter": 0.04,
+          "posteriorDiameter": 0.055
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "sagittaLength": 1.0,
+          "lapillusLength": 0.6,
+          "asteriscusLength": 0.5
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": {
+      "dark": "#F5F5F5",
+      "light": "#C8CCD0"
+    },
+    "sources": [
+      "research 03b otolith record",
+      "https://zfin.org/ZFA:0001617",
+      "https://zfin.org/zf_info/anatomy/dict/oto/otolith.html",
+      "Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/",
+      "ZFA part_of otic vesicle ZFA:0000051 (ends at 72 hpf in the model); the tree parent is the inner ear, which persists"
+    ],
+    "geometry": {
+      "kind": "derived",
+      "sourceId": "ZFA:0000217",
+      "part": "otoliths",
+      "keyframes": [
+        {
+          "hpf": 19
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "the otoliths part of the inner ear earVesicle build (BG-37): two spheres per ear on the floor of the lumen, anterior (lapillus, utricular) and posterior (sagitta, saccular); diameters from the research 03b otolith rows: 5 um at 19.5, 12 um at 24, 25 um at 48, 40 and 55 um at 120 hpf, 450 and 600 um at SL 18 mm (estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000431",
+    "name": "semicircular canal",
+    "synonyms": [
+      "scc",
+      "semicircular canals",
+      "semicircular duct"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005409",
+    "uiParent": "ZFA:0000217",
+    "parentRelation": "grouping",
+    "definition": "Fluid-filled semicircular tubes, arranged orthogonally to each other in the inner ear. Each canal is associated with a crista that detects angular accelerations. (See Anatomical Atlas entry for semicircular canals by T. Whitfield.)",
+    "zfinStartStage": "ZFS:0000032",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 42.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 72,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN starts the semicircular canal at High-pec (42 hpf), when the epithelial projections push into the vesicle; the model draws the canals from 72 hpf, when the three pillars have fused (Geng et al. 2013; research 03b). The inner ear record draws the growing pillars (pillarLengthFraction) from 48 to 72 hpf. DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 42.0,
+        "text": "Semicircular canal term starts (ZFIN, high-pec).",
+        "source": "https://zfin.org/ZFA:0000431"
+      },
+      {
+        "hpf": 45.0,
+        "text": "Epithelial projections push into the vesicle (https://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html, Waterman & Bell 1984 Anat Rec 210:101-114 https://pubmed.ncbi.nlm.nih.gov/6486477/).",
+        "source": "https://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html,"
+      },
+      {
+        "hpf": 50.0,
+        "text": "Lateral projection with anterior and posterior bulges present (Geng et al. 2013 Development 140:4362-4374 https://pubmed.ncbi.nlm.nih.gov/24067352/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/24067352/"
+      },
+      {
+        "hpf": 57.0,
+        "text": "Anterior and posterior projections fuse with their bulges 57 to 68 hpf (Geng et al. 2013 Development 140:4362-4374 https://pubmed.ncbi.nlm.nih.gov/24067352/); fusion between long-pec and pec-fin (https://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/24067352/"
+      },
+      {
+        "hpf": 72.0,
+        "text": "All three pillars fused; canals continue to elongate (Geng et al. 2013 Development 140:4362-4374 https://pubmed.ncbi.nlm.nih.gov/24067352/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/24067352/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 72.0,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "loopDiameter": 0.09,
+          "tubeDiameter": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); pillars fused at 72 hpf (Geng et al. 2013 Development 140:4362-4374 https://pubmed.ncbi.nlm.nih.gov/24067352/)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "loopDiameter": 0.12,
+          "tubeDiameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "loopDiameter": 1.2,
+          "tubeDiameter": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); adult ear 2.3 mm long (Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b semicircular canal record",
+      "https://zfin.org/ZFA:0000431",
+      "https://zfin.org/zf_info/anatomy/dict/semi_canal/semi.html",
+      "Waterman & Bell 1984 Anat Rec 210:101-114 https://pubmed.ncbi.nlm.nih.gov/6486477/",
+      "Geng et al. 2013 Development 140:4362-4374 https://pubmed.ncbi.nlm.nih.gov/24067352/",
+      "Haddon & Lewis 1996 J Comp Neurol 365:113-128 https://pubmed.ncbi.nlm.nih.gov/8821445/",
+      "Bever & Fekete 2002 Dev Dyn 223:536-543 https://pubmed.ncbi.nlm.nih.gov/11921341/",
+      "ZFA part_of pars superior ear ZFA:0005409; the tree parent is the inner ear"
+    ],
+    "geometry": {
+      "kind": "derived",
+      "sourceId": "ZFA:0000217",
+      "part": "canals",
+      "keyframes": [
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "the canals part of the inner ear earVesicle build (BG-37): three orthogonal tori on the dorsal vestibule; loop 85 um and tube 22 um at 72 hpf, 120 and 30 um at 120 hpf, 800 and 120 um at SL 18 mm (research 03b semicircular canal rows, estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000048",
+    "name": "olfactory placode",
+    "synonyms": [
+      "olfactory placodes"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001149",
+    "uiParent": "ZFA:0001149",
+    "parentRelation": "part_of",
+    "definition": "Neurogenic placode that gives rise to the olfactory neurons that which convey odor information to the CNS.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 14.0,
+    "endHpf": 30.0,
+    "visibleFromHpf": 22,
+    "modelEndHpf": 32,
+    "overrideNote": "ZFIN starts the olfactory placode at 10-13 somites (14 hpf) for the placodal field; Kimmel first notes the placodes as external thickenings at 26 somites (22 hpf), so the model draws them from 22 hpf (research 03b deviations table; spec DM-20). Handoff olfactory_placode_pit: the placode hands off to the olfactory pit over 22 to 32 hpf (D9), so the record ends at 32 hpf; ZFA ends it at Prim-5 (30 hpf).",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 9,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.0,
+        "text": "Olfactory field at the anterolateral neural plate edge converges anteriorly (Whitlock & Westerfield 2000 Development 127:3645-3653 https://pubmed.ncbi.nlm.nih.gov/10934010/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/10934010/"
+      },
+      {
+        "hpf": 14.0,
+        "text": "Olfactory placode term starts (ZFIN, 10-13 somites).",
+        "source": "https://zfin.org/ZFA:0000048"
+      },
+      {
+        "hpf": 22.0,
+        "text": "The olfactory placodes grow thicker, sitting in front of the forebrain and above it (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Axons grow into the forebrain while epidermis still covers the placode (Hansen & Zeiske 1993 J Comp Neurol 333:289-300 https://pubmed.ncbi.nlm.nih.gov/8345108/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8345108/"
+      },
+      {
+        "hpf": 30.0,
+        "text": "Placode term ends (ZFIN, prim-5); pit opens.",
+        "source": "https://zfin.org/ZFA:0000048"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.05,
+          "width": 0.035,
+          "thickness": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); placodes thickened at 22 hpf (https://zfin.org/zf_info/zfbook/stages/seg_stgs.html)",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b olfactory placode record",
+      "https://zfin.org/ZFA:0000048",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "Whitlock & Westerfield 2000 Development 127:3645-3653 https://pubmed.ncbi.nlm.nih.gov/10934010/",
+      "Hansen & Zeiske 1993 J Comp Neurol 333:289-300 https://pubmed.ncbi.nlm.nih.gov/8345108/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "handoffOut": "olfactory_placode_pit",
+      "keyframes": [
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.032,
+            "v": 0.35,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.016,
+            0.0125,
+            0.015
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.032,
+            "v": 0.35,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.018,
+            0.0125,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 32,
+          "placement": {
+            "u": 0.032,
+            "v": 0.35,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.018,
+            0.0125,
+            0.0175
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "22 hpf: placodes thicken anterior and dorsal to the forebrain (seg_stgs.html); 40 x 30 x 15 um at 16 hpf (research 03b, estimate)",
+        "24 hpf: 50 x 35 x 25 um (length x width x thickness; research 03b size row, estimate): a flat oval plaque on the dorsolateral snout",
+        "placement u 0.032, v 0.35, w 0.55: the anterolateral head surface, medial to the eyes (research 03b position note; estimate); the length is kept to 36 um because the body model snout is 120 to 160 um wide at u 0.02 to 0.04"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000130",
+    "name": "olfactory pit",
+    "synonyms": [
+      "nasal pit",
+      "nasal canal",
+      "nasal cavity",
+      "olfactory cavity"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000047",
+    "uiParent": "ZFA:0001149",
+    "parentRelation": "grouping",
+    "definition": "Depression on the snout that opens from the olfactory placode and holds the olfactory epithelium; it becomes the nasal cavity with an incurrent and an excurrent nostril in the adult. (ZFA has no definition text for this term; research 03b wording.)",
+    "zfinStartStage": "ZFS:0000030",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 30.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 22,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff olfactory_placode_pit: seeded from the olfactory placode at the window start 22 hpf (D9, DM-20); ZFA starts the pit at Prim-15 (30 hpf). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 10,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 30.0,
+        "text": "Olfactory pit term starts (ZFIN, prim-15).",
+        "source": "https://zfin.org/ZFA:0000130"
+      },
+      {
+        "hpf": 31.0,
+        "text": "Pit opens as the epidermis separates (Hansen & Zeiske 1993 J Comp Neurol 333:289-300 https://pubmed.ncbi.nlm.nih.gov/8345108/; hour unverified).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8345108/;"
+      },
+      {
+        "hpf": 48.0,
+        "text": "Olfactory rod cells present in pits from 36 hpf, consistently beyond 46 hpf (unverified secondary).",
+        "source": "https://zfin.org/ZFA:0000130"
+      },
+      {
+        "hpf": 2160.0,
+        "text": "Nasal cavity with incurrent and excurrent nostrils (Hansen & Zeiske 1993 J Comp Neurol 333:289-300 https://pubmed.ncbi.nlm.nih.gov/8345108/).",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8345108/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 36.0,
+        "stageLabel": "Prim-25",
+        "dimsMm": {
+          "diameter": 0.03,
+          "depth": 0.015
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); pits form at about 31 to 36 hpf (Hansen & Zeiske 1993 J Comp Neurol 333:289-300 https://pubmed.ncbi.nlm.nih.gov/8345108/)",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.045,
+          "depth": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.06,
+          "depth": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.9,
+          "width": 0.6,
+          "depth": 0.35
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b olfactory pit record",
+      "https://zfin.org/ZFA:0000130",
+      "Hansen & Zeiske 1993 J Comp Neurol 333:289-300 https://pubmed.ncbi.nlm.nih.gov/8345108/",
+      "ZFA part_of peripheral olfactory organ ZFA:0000047 (not a record); the tree parent is the olfactory system"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.032,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.012,
+            0.009,
+            0.012
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.032,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0126,
+            0.0085,
+            0.0129
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.032,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0139,
+            0.0076,
+            0.0148
+          ]
+        },
+        {
+          "hpf": 32,
+          "placement": {
+            "u": 0.032,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.014,
+            0.0075,
+            0.015
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.032,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.014,
+            0.0075,
+            0.015
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.034,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0167,
+            0.0097,
+            0.0184
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.036,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.02,
+            0.0125,
+            0.0225
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.038,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0237,
+            0.0158,
+            0.026
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.04,
+            "v": 0.38,
+            "w": 0.55,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.028,
+            0.02,
+            0.03
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.0405,
+            "v": 0.38,
+            "w": 0.5451,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0314,
+            0.0219,
+            0.033
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.0419,
+            "v": 0.38,
+            "w": 0.5311,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0435,
+            0.0283,
+            0.0434
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.0432,
+            "v": 0.38,
+            "w": 0.518,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0591,
+            0.0359,
+            0.0562
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.045,
+            "v": 0.38,
+            "w": 0.5,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.09,
+            0.05,
+            0.08
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.0469,
+            "v": 0.38,
+            "w": 0.481,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1326,
+            0.0758,
+            0.1174
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "placement": {
+            "u": 0.05,
+            "v": 0.38,
+            "w": 0.45,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.25,
+            0.15,
+            0.22
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "placement": {
+            "u": 0.05,
+            "v": 0.38,
+            "w": 0.45,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.325,
+            0.195,
+            0.286
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "22 to 32 hpf: seed from the olfactory placode (handoff olfactory_placode_pit): the pit epithelium inside the placode plaque, 30 x 18 x 24 um (estimate)",
+        "36 hpf: diameter 30 um, depth 15 um (research 03b, Hansen and Zeiske 1993); 48 hpf: 45 x 25 um; 120 hpf: 60 x 40 um (research 03b, estimate); drawn as the epithelial cup, an ellipsoid of the pit diameter and depth",
+        "2160 hpf: nasal cavity 900 x 600 x 350 um at SL 18 mm (research 03b, estimate) drawn at 500 x 440 x 300 um because the body model snout is 1.5 mm wide at u 0.045; 4320 hpf: times 1.3",
+        "placement u 0.032 to 0.05, v 0.38, w 0.45 to 0.55: the dorsolateral snout anteromedial to each eye (research 03b position note; estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001157",
+    "name": "posterior lateral line primordium",
+    "synonyms": [
+      "posterior lateral line primordia"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001471",
+    "uiParent": "ZFA:0000034",
+    "parentRelation": "grouping",
+    "definition": "A migrating group of cells originating from the posterior lateral line placode. The primordium deposits seven to nine neuromasts and interneuromasts between them during its posterior migration to the tail.",
+    "zfinStartStage": "ZFS:0000027",
+    "zfinEndStage": "ZFS:0000036",
+    "startHpf": 19.0,
+    "endHpf": 120.0,
+    "visibleFromHpf": 19,
+    "modelEndHpf": 48,
+    "overrideNote": "ZFA ends the posterior lateral line primordium at Day 4 (120 hpf); the primary primordium has reached the tail by 42 hpf and dissolves into the terminal neuromasts, so the model ends the record at 48 hpf (research 03b events; Dalle Nogare et al. 2020). The secondary primordium is a separate ZFA term (ZFA:0005116) that is not modelled.",
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 4,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 18.0,
+        "text": "Primordium first visible (https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html); ZFIN start 20-25 somites (19 hpf).",
+        "source": "https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html"
+      },
+      {
+        "hpf": 20.0,
+        "text": "Migration begins; speed about 100 um/h or 1.7 myotomes/h (https://zfin.org/zf_info/zfbook/stages/phar.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Leading edge over myotome 5; first neuromast deposited (https://zfin.org/zf_info/zfbook/stages/phar_stgs.html).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 42.0,
+        "text": "Primary primordium reaches the tail tip and forms the terminal neuromasts (Dalle Nogare et al. 2020 eLife 9:e58251 https://elifesciences.org/articles/58251; ZFIN 50 hpf https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html).",
+        "source": "https://elifesciences.org/articles/58251;"
+      },
+      {
+        "hpf": 48.0,
+        "text": "Secondary primordium (primII) starts migrating (ZFA, long-pec).",
+        "source": "https://zfin.org/ZFA:0001157"
+      },
+      {
+        "hpf": 120.0,
+        "text": "Primordium term ends (ZFIN, day 4).",
+        "source": "https://zfin.org/ZFA:0001157"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 20.0,
+        "stageLabel": "20-25 somites",
+        "dimsMm": {
+          "length": 0.1,
+          "width": 0.04,
+          "height": 0.02
+        },
+        "counts": {
+          "cells": 100
+        },
+        "anglesDeg": {},
+        "source": "research 03b; about 100 cells (Pinto-Teixeira et al. 2013 Front Neuroanat 7:33 https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2013.00033/full); 100 to 150 cells (Dalle Nogare et al. 2020 eLife 9:e58251 https://elifesciences.org/articles/58251); dimensions estimate",
+        "estimate": false
+      },
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.11,
+          "width": 0.04,
+          "height": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); leading edge over myotome 5 https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 36.0,
+        "stageLabel": "Prim-25",
+        "dimsMm": {
+          "length": 0.1,
+          "width": 0.04,
+          "height": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); leading edge over myotome 25 https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.08,
+          "width": 0.035,
+          "height": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); primary primordium has reached the tail (Dalle Nogare et al. 2020 eLife 9:e58251 https://elifesciences.org/articles/58251, https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html); secondary primordium (primII) starts at 48 hpf (ZFA:0005116)",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b posterior lateral line primordium record",
+      "https://zfin.org/ZFA:0001157",
+      "https://zfin.org/ZFA:0005115",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html",
+      "Dalle Nogare et al. 2020 eLife 9:e58251 https://elifesciences.org/articles/58251",
+      "Pinto-Teixeira et al. 2013 Front Neuroanat 7:33 https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2013.00033/full",
+      "ZFA part_of posterior lateral line system ZFA:0001471 (not a record); the tree parent is the lateral line system"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "primordiumMover",
+      "keyframes": [
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.265,
+            "v": 0.0,
+            "w": 0.8,
+            "mirror": true
+          },
+          "lengthMm": 0.09,
+          "widthMm": 0.018,
+          "heightMm": 0.034,
+          "speedMmPerHour": 0,
+          "deposits": {
+            "countSomitesPerDeposit": 5,
+            "neuromastDiameterMm": 0.02
+          }
+        },
+        {
+          "hpf": 20,
+          "placement": {
+            "u": 0.275,
+            "v": 0.0,
+            "w": 0.8,
+            "mirror": true
+          },
+          "lengthMm": 0.1,
+          "widthMm": 0.02,
+          "heightMm": 0.036,
+          "speedMmPerHour": 0.1,
+          "deposits": {
+            "countSomitesPerDeposit": 5.0,
+            "neuromastDiameterMm": 0.02
+          }
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.29,
+            "v": 0.0,
+            "w": 0.8,
+            "mirror": true
+          },
+          "lengthMm": 0.1,
+          "widthMm": 0.02,
+          "heightMm": 0.036,
+          "speedMmPerHour": 0.1,
+          "deposits": {
+            "countSomitesPerDeposit": 5.0,
+            "neuromastDiameterMm": 0.02
+          }
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.33,
+            "v": 0.0,
+            "w": 0.8,
+            "mirror": true
+          },
+          "lengthMm": 0.11,
+          "widthMm": 0.02,
+          "heightMm": 0.036,
+          "speedMmPerHour": 0.1,
+          "deposits": {
+            "countSomitesPerDeposit": 5.0,
+            "neuromastDiameterMm": 0.02
+          }
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.56,
+            "v": 0.0,
+            "w": 0.8,
+            "mirror": true
+          },
+          "lengthMm": 0.105,
+          "widthMm": 0.02,
+          "heightMm": 0.036,
+          "speedMmPerHour": 0.1,
+          "deposits": {
+            "countSomitesPerDeposit": 5.0,
+            "neuromastDiameterMm": 0.025
+          }
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.79,
+            "v": 0.0,
+            "w": 0.72,
+            "mirror": true
+          },
+          "lengthMm": 0.1,
+          "widthMm": 0.02,
+          "heightMm": 0.036,
+          "speedMmPerHour": 0.1,
+          "deposits": {
+            "countSomitesPerDeposit": 5.0,
+            "neuromastDiameterMm": 0.028
+          }
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.955,
+            "v": 0.0,
+            "w": 0.45,
+            "mirror": true
+          },
+          "lengthMm": 0.09,
+          "widthMm": 0.012,
+          "heightMm": 0.028,
+          "speedMmPerHour": 0.02,
+          "deposits": {
+            "countSomitesPerDeposit": 5.0,
+            "neuromastDiameterMm": 0.03
+          }
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.955,
+            "v": 0.0,
+            "w": 0.45,
+            "mirror": true
+          },
+          "lengthMm": 0.08,
+          "widthMm": 0.012,
+          "heightMm": 0.026,
+          "speedMmPerHour": 0,
+          "deposits": {
+            "countSomitesPerDeposit": 5,
+            "neuromastDiameterMm": 0.03
+          }
+        }
+      ],
+      "estimate": [
+        "placement",
+        "widthMm",
+        "heightMm",
+        "speedMmPerHour"
+      ],
+      "sources": [
+        "19 to 20 hpf: about 100 cells, 100 x 40 x 20 um (Pinto-Teixeira et al. 2013; Dalle Nogare et al. 2020; research 03b size row): lengthMm along u, heightMm 40 um along v (the dorsoventral extent on the myoseptum), widthMm 20 um along w (the thin mediolateral dimension); starts just behind the otic vesicle (u 0.265 at 19 hpf)",
+        "22 to 36 hpf: the leading edge lies over myotome 3 at 22, 5 at 24, 15 at 30 and 25 at 36 hpf (research 03b position note, Kimmel prim stages): u 0.29, 0.33, 0.56, 0.79 are the somite-array positions of src/data/structures/axial.json (somite k centre at 0.25 + (k - 0.5) x 0.024 at 24 hpf) less half the primordium length; speed about 100 um per hour (phar.html)",
+        "42 hpf: the primary primordium reaches the tail (u 0.955, Dalle Nogare et al. 2020) and forms the terminal neuromasts; 48 hpf: 80 x 35 x 20 um (research 03b), the record fades out 44 to 48 hpf as the terminal cluster forms",
+        "deposits: one neuromast every 5 somites (research 03b: every 5 to 7 somites); the neuromast record is the segmentArray that grows as the primordium passes each deposit point (BG-40)",
+        "placement v 0, w 0.8: on the horizontal myoseptum under the epidermis (research 03b spatial note); w 0.72 over the trunk from 36 hpf and 0.45 at the thin tail tip (30 um wide at 42 hpf), so the 12 to 20 um thick sheet stays inside the skin"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000243",
+    "name": "neuromast",
+    "synonyms": [
+      "lateral line neuromast",
+      "neuromasts",
+      "lateral line organ"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000034",
+    "uiParent": "ZFA:0000034",
+    "parentRelation": "part_of",
+    "definition": "Volcano-shaped lateral line sensory organ located in characteristic positions within the skin epithelium and containing hair cells and their support elements. (Also see Anatomical Atlas entry for lateral line by T. Whitfield.)",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 1,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 22.0,
+        "text": "Protoneuromast forms in the trailing primordium (ZFA, 26+ somites).",
+        "source": "https://zfin.org/ZFA:0000243"
+      },
+      {
+        "hpf": 24.0,
+        "text": "Neuromast term starts (ZFIN, prim-5).",
+        "source": "https://zfin.org/ZFA:0000243"
+      },
+      {
+        "hpf": 48.0,
+        "text": "Hair cells with kinocilia and cupulae; mechanosensitive.",
+        "source": "https://zfin.org/ZFA:0000243"
+      },
+      {
+        "hpf": 120.0,
+        "text": "Mature size reached (Pinto-Teixeira et al. 2013 Front Neuroanat 7:33 https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2013.00033/full).",
+        "source": "https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2013.00033/full"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24.0,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.02,
+          "height": 0.012
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); first proneuromast just deposited",
+        "estimate": true
+      },
+      {
+        "hpf": 48.0,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.03,
+          "height": 0.015
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length)",
+        "estimate": true
+      },
+      {
+        "hpf": 120.0,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.05,
+          "height": 0.02
+        },
+        "counts": {
+          "cells": 60,
+          "hairCells": 20
+        },
+        "anglesDeg": {},
+        "source": "research 03b; mature neuromast 50 um diameter, 20 um height, about 60 cells, one third hair cells (Pinto-Teixeira et al. 2013 Front Neuroanat 7:33 https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2013.00033/full)",
+        "estimate": false
+      },
+      {
+        "hpf": 2160.0,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.06,
+          "height": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b (estimate; scaled from reference images and body length); adult neuromasts cluster into stitches (Wada et al. 2013 PNAS 110:5659-5664 https://pubmed.ncbi.nlm.nih.gov/23509277/)",
+        "estimate": true,
+        "basisSL": 18
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b neuromast record",
+      "https://zfin.org/ZFA:0000243",
+      "Pinto-Teixeira et al. 2013 Front Neuroanat 7:33 https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2013.00033/full",
+      "Wada et al. 2013 PNAS 110:5659-5664 https://pubmed.ncbi.nlm.nih.gov/23509277/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "keyframes": [
+        {
+          "hpf": 24,
+          "uStart": 0.34,
+          "uEnd": 0.3505,
+          "count": 0.1,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.01,
+              0.01,
+              0.006
+            ],
+            "placement": {
+              "u": 0,
+              "v": 0.0,
+              "w": 1.0
+            }
+          },
+          "mirror": true
+        },
+        {
+          "hpf": 30,
+          "uStart": 0.34,
+          "uEnd": 0.529,
+          "count": 1.8,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.012,
+              0.012,
+              0.0065
+            ]
+          }
+        },
+        {
+          "hpf": 36,
+          "uStart": 0.34,
+          "uEnd": 0.76,
+          "count": 4.0,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.013,
+              0.013,
+              0.007
+            ]
+          }
+        },
+        {
+          "hpf": 42,
+          "uStart": 0.34,
+          "uEnd": 0.928,
+          "count": 5.6,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.014,
+              0.014,
+              0.0072
+            ]
+          }
+        },
+        {
+          "hpf": 48,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 6,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.015,
+              0.015,
+              0.0075
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 6,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.018,
+              0.018,
+              0.0085
+            ]
+          }
+        },
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 9,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.022,
+              0.022,
+              0.0095
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 12,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.025,
+              0.025,
+              0.01
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 12,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.025,
+              0.025,
+              0.01
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 12,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.027,
+              0.027,
+              0.011
+            ]
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 12,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.028,
+              0.028,
+              0.0115
+            ]
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 12,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.029,
+              0.029,
+              0.012
+            ]
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 12,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.03,
+              0.03,
+              0.0125
+            ]
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 12,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.03,
+              0.03,
+              0.0125
+            ]
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "uStart": 0.34,
+          "uEnd": 0.97,
+          "count": 12,
+          "template": {
+            "kind": "ellipsoid",
+            "radiiMm": [
+              0.035,
+              0.035,
+              0.015
+            ]
+          }
+        }
+      ],
+      "boundsMarginMm": 0.05,
+      "estimate": [
+        "count",
+        "uEnd",
+        "template.radiiMm"
+      ],
+      "sources": [
+        "24 to 48 hpf: the primary primordium deposits L1 to L5 plus the terminal neuromasts, one every 5 somites (0.105 u), from u 0.39 to 0.93 (research 03b posterior lateral line: 7 neuromasts at 48 hpf; ZFA primordium definition: seven to nine); count(t) = (primordium u - 0.34) / 0.105 - 0.3 and uEnd = 0.34 + count x 0.105, so deposited neuromasts keep their place while the count grows (segmentArray rule BG-32, BG-42)",
+        "72 to 120 hpf: the secondary primordium adds intercalary neuromasts, about 11 to 12 in the posterior line by 4 to 5 dpf (research 03b, lat_line.html); the array count rises to 12 over the same range, so the spacing halves",
+        "sizes: diameter 20 um and height 12 um at 24 hpf, 30 x 15 um at 48, 50 x 20 um at 120 hpf (Pinto-Teixeira et al. 2013), 60 x 25 um in the adult (research 03b, estimate): radiiMm along u, v (the disc) and w (the dome height on the skin)",
+        "template placement v 0, w 1, mirror: flattened domes on the skin over the horizontal myoseptum, both sides; boundsMarginMm 0.05 for the half dome outside the skin (the neuromast exception of W007)"
+      ]
+    }
+  }
+]

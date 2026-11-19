@@ -1,0 +1,464 @@
+{
+  "$id": "https://zebrafish-3d-atlas/schema/stages.json",
+  "title": "stages.json: stages, periods, events, growth table, time axis (D6, D7)",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "zfaRelease": {
+          "type": "string"
+        },
+        "temperatureC": {
+          "type": "number",
+          "const": 28.5
+        },
+        "generated": {
+          "type": "string"
+        },
+        "notes": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "zfaRelease",
+        "temperatureC",
+        "generated"
+      ],
+      "additionalProperties": false
+    },
+    "stages": {
+      "minItems": 44,
+      "maxItems": 44,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema0"
+      }
+    },
+    "periods": {
+      "minItems": 10,
+      "maxItems": 10,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema6"
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^ev-[a-z0-9-]+$"
+          },
+          "hpf": {
+            "$ref": "#/$defs/__schema3"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string"
+          },
+          "source": {
+            "$ref": "#/$defs/__schema5"
+          },
+          "hpfIsEstimate": {
+            "default": false,
+            "type": "boolean"
+          },
+          "slMm": {
+            "default": null,
+            "anyOf": [
+              {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "canonical": {
+            "default": false,
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "hpf",
+          "label",
+          "description",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "growth": {
+      "minItems": 2,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema7"
+      }
+    },
+    "timeAxis": {
+      "type": "object",
+      "properties": {
+        "domainHpf": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number",
+              "const": 0
+            },
+            {
+              "type": "number",
+              "const": 4320
+            }
+          ],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "segments": {
+          "minItems": 7,
+          "maxItems": 7,
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema8"
+          }
+        },
+        "headlineTicks": {
+          "minItems": 18,
+          "maxItems": 18,
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema9"
+          }
+        },
+        "minTickGapPx": {
+          "type": "number",
+          "const": 8
+        },
+        "playbackTrackSeconds": {
+          "type": "number",
+          "const": 60
+        }
+      },
+      "required": [
+        "domainHpf",
+        "segments",
+        "headlineTicks",
+        "minTickGapPx",
+        "playbackTrackSeconds"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "meta",
+    "stages",
+    "periods",
+    "events",
+    "growth",
+    "timeAxis"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "__schema0": {
+      "type": "object",
+      "properties": {
+        "zfs": {
+          "$ref": "#/$defs/__schema1"
+        },
+        "zdb": {
+          "type": "string",
+          "pattern": "^ZDB-STAGE-\\d{6}-\\d+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "shortLabel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "period": {
+          "$ref": "#/$defs/__schema2"
+        },
+        "startHpf": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "endHpf": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "dpfLabel": {
+          "type": "string"
+        },
+        "landmarks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lengthMm": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "measure": {
+                  "$ref": "#/$defs/__schema4"
+                },
+                "source": {
+                  "$ref": "#/$defs/__schema5"
+                }
+              },
+              "required": [
+                "value",
+                "measure",
+                "source"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "headline": {
+          "type": "boolean"
+        },
+        "sources": {
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/__schema5"
+          }
+        }
+      },
+      "required": [
+        "zfs",
+        "zdb",
+        "name",
+        "shortLabel",
+        "period",
+        "startHpf",
+        "endHpf",
+        "dpfLabel",
+        "landmarks",
+        "lengthMm",
+        "headline",
+        "sources"
+      ],
+      "additionalProperties": false
+    },
+    "__schema1": {
+      "type": "string",
+      "pattern": "^ZFS:\\d{7}$"
+    },
+    "__schema2": {
+      "type": "string",
+      "enum": [
+        "zygote",
+        "cleavage",
+        "blastula",
+        "gastrula",
+        "segmentation",
+        "pharyngula",
+        "hatching",
+        "larval",
+        "juvenile",
+        "adult"
+      ]
+    },
+    "__schema3": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 17520
+    },
+    "__schema4": {
+      "type": "string",
+      "enum": [
+        "EL",
+        "TL",
+        "SL"
+      ]
+    },
+    "__schema5": {
+      "type": "string",
+      "format": "uri"
+    },
+    "__schema6": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/__schema2"
+        },
+        "zfs": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/__schema1"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "abbrev": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9A-F]{6}$"
+        },
+        "startHpf": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "endHpf": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "zfs",
+        "displayName",
+        "abbrev",
+        "color",
+        "startHpf",
+        "endHpf"
+      ],
+      "additionalProperties": false
+    },
+    "__schema7": {
+      "type": "object",
+      "properties": {
+        "hpf": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "lengthMm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "measure": {
+          "$ref": "#/$defs/__schema4"
+        },
+        "lengthMeasure": {
+          "type": "string",
+          "enum": [
+            "ED",
+            "EL",
+            "TL",
+            "SL"
+          ]
+        },
+        "standardLengthMm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "estimate": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "hpf",
+        "lengthMm",
+        "measure",
+        "standardLengthMm",
+        "source",
+        "estimate"
+      ],
+      "additionalProperties": false
+    },
+    "__schema8": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "startHpf": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "endHpf": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "share": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "startHpf",
+        "endHpf",
+        "share"
+      ],
+      "additionalProperties": false
+    },
+    "__schema9": {
+      "type": "object",
+      "properties": {
+        "hpf": {
+          "$ref": "#/$defs/__schema3"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zfs": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/__schema1"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "hpf",
+        "label",
+        "zfs"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

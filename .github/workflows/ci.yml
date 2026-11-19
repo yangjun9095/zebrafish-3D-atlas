@@ -1,0 +1,80 @@
+# Fast checks only (owner decision, 2026-09-14). The browser suite, the single-file bundle and
+# the GitHub Pages deploy left this workflow: the browser tests took about 73 minutes per run on
+# GitHub's software renderer and never passed there, and every run on this private repository
+# counts against the account's Actions minutes. `npm run gate` runs the full set locally,
+# including the browser suite, and is the gate for every merge (CONTRIBUTING.md, "The gate").
+# The browser suite can still run on GitHub by hand: Actions, ci, Run workflow, "browser" on.
+#
+# Every action is pinned to a commit SHA with its tag in a trailing comment (SEC-04);
+# .github/dependabot.yml raises the pull requests that move these SHAs forward.
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      browser:
+        description: Also run the Playwright browser suite (slow on GitHub runners)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run lint
+      - run: npm test
+      - run: npm run validate
+      # The generators run in check mode: each rebuilds its output in memory and exits 1 when
+      # the committed file differs (README, "Verify").
+      - run: npm run gen:body -- --check
+      - run: npm run gen:vocab -- --check
+      - run: npm run sources -- --check
+      - run: npm run attribution -- --check
+      - run: npm run notices -- --check
+      - run: npm run build
+      # scripts/check-csp.ts recomputes the SHA-256 of the inline theme script from dist/index.html
+      # and compares it against public/_headers and vercel.json (SEC-03).
+      - run: npm run csp
+  browser:
+    if: github.event_name == 'workflow_dispatch' && inputs.browser
+    needs: checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      # playwright.config.ts uses channel "chrome". The Ubuntu runner ships Google Chrome; the
+      # fallback installs it with its system libraries.
+      - name: Ensure Google Chrome
+        run: command -v google-chrome || npx playwright install --with-deps chrome
+      - run: npm run test:e2e
+        env:
+          CI: true
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: e2e-results
+          path: |
+            test-results
+            playwright-report
+          retention-days: 14
+          if-no-files-found: ignore

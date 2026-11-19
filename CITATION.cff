@@ -1,0 +1,126 @@
+cff-version: 1.2.0
+message: >-
+  If you use this atlas, please cite it and the data sources it builds on. The code is MIT
+  licensed. The anatomy terms, definitions, synonyms and stage table are ZFIN data under CC BY
+  4.0, and the ZFA and ZFS ontology files are CC BY 3.0. See public/ATTRIBUTION.md and
+  LICENSE-DATA. The author built this software over three days with AI coding agents (Claude
+  Code) working under his direction and review; the geometry is schematic, most size values are
+  flagged estimates, and no independent anatomist has reviewed it.
+title: Zebrafish 3D Atlas
+abstract: >-
+  An interactive 3D atlas of zebrafish development from the 1-cell zygote to the adult fish.
+  Every shape is a procedural, schematic model placed in a body frame; the atlas draws no
+  imaging mesh. Anatomy terms, definitions, synonyms and stage times come from ZFIN and the
+  Zebrafish Anatomy and Stage Ontologies.
+type: software
+authors:
+  - family-names: Kim
+    given-names: Yang-Joon
+    email: yang-joon.kim@czbiohub.org
+    affiliation: Chan Zuckerberg Biohub San Francisco
+repository-code: https://github.com/yangjun9095/zebrafish-3D-atlas
+url: https://zebrafish-3-d-atlas.vercel.app
+license: MIT
+version: 0.1.0
+date-released: '2026-09-08'
+keywords:
+  - zebrafish
+  - Danio rerio
+  - developmental biology
+  - anatomy ontology
+  - ZFIN
+  - 3D visualization
+  - teaching
+references:
+  - type: software
+    title: human-atlas
+    authors:
+      - family-names: Magalhaes
+        given-names: Ashe
+        alias: ashemag
+    repository-code: https://github.com/ashemag/human-atlas
+    url: https://human-atlas-seven.vercel.app
+    license: MIT
+    commit: 1c38bf35c254a891200d3cedecfd57abebe83d8d
+    year: 2026
+    date-accessed: '2026-09-06'
+    notes: >-
+      The interactive human anatomy viewer that inspired this project. The panel layout, the
+      systems list, the isolate action and the Dissect view follow its design. No human-atlas
+      code and no BodyParts3D mesh is in this repository.
+  - type: article
+    title: >-
+      Zebrafish information network, the knowledgebase for Danio rerio research
+    authors:
+      - family-names: Bradford
+        given-names: Yvonne M.
+      - family-names: Van Slyke
+        given-names: Ceri E.
+      - family-names: Ruzicka
+        given-names: Leyla
+    journal: Genetics
+    year: 2022
+    volume: '220'
+    issue: '4'
+    start: iyac016
+    doi: 10.1093/genetics/iyac016
+    notes: Source of the anatomy vocabulary and the stage table (CC BY 4.0).
+  - type: article
+    title: Stages of embryonic development of the zebrafish
+    authors:
+      - family-names: Kimmel
+        given-names: Charles B.
+      - family-names: Ballard
+        given-names: William W.
+      - family-names: Kimmel
+        given-names: Seth R.
+      - family-names: Ullmann
+        given-names: Bonnie
+      - family-names: Schilling
+        given-names: Thomas F.
+    journal: Developmental Dynamics
+    year: 1995
+    volume: '203'
+    start: 253
+    end: 310
+    doi: 10.1002/aja.1002030302
+    notes: >-
+      Source of the staging series, stage times, embryo lengths and head-trunk angles, read
+      through the ZFIN staging pages. Those pages reprint the article by a permission that
+      Wiley-Liss granted to ZFIN, and that permission is not part of the ZFIN CC BY 4.0 grant.
+  - type: article
+    title: Normal table of postembryonic zebrafish development
+    authors:
+      - family-names: Parichy
+        given-names: David M.
+      - family-names: Elizondo
+        given-names: Michael R.
+      - family-names: Mills
+        given-names: Margaret G.
+      - family-names: Gordon
+        given-names: Tiffany N.
+      - family-names: Engeszer
+        given-names: Raymond E.
+    journal: Developmental Dynamics
+    year: 2009
+    volume: '238'
+    start: 2975
+    end: 3015
+    doi: 10.1002/dvdy.22113
+    notes: Source of the post-embryonic milestones by standard length.
+  - type: article
+    title: >-
+      Growth and maturation in the zebrafish, Danio rerio: a staging tool for teaching and
+      research
+    authors:
+      - family-names: Singleman
+        given-names: Corinna
+      - family-names: Holtzman
+        given-names: Nathalia G.
+    journal: Zebrafish
+    year: 2014
+    volume: '11'
+    start: 396
+    end: 406
+    doi: 10.1089/zeb.2014.0976
+    notes: Source of the juvenile and adult standard-length thresholds.

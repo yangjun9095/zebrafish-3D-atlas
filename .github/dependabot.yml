@@ -1,0 +1,42 @@
+# Dependabot (SEC-04). The workflow pins every action to a commit SHA, so a moved tag no longer
+# reaches CI; these updates are what moves a pin forward. Dependabot rewrites both the SHA and
+# the trailing tag comment.
+#
+# Both ecosystems run monthly. One person merges these pull requests, every one of them runs the
+# full browser suite, and a bump to three or to @react-three/* needs a human to look at a render
+# before it is safe. Monthly with grouped minor and patch updates gives about two pull requests a
+# month.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: ci
+    labels:
+      - dependencies
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: deps
+    labels:
+      - dependencies
+    # package.json pins every version exactly, so every patch release qualifies. Minor and patch
+    # updates travel together in one pull request. A major update still arrives on its own.
+    groups:
+      all-minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch

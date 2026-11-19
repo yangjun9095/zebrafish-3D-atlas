@@ -1,0 +1,171 @@
+/*
+ * Timeline bar (spec 5.2). Row sizes come from BAR_METRICS in timelineGeometry.ts through
+ * CSS variables on the root: --tl-pad, --tl-block-h, --track-top, --track-h, --fill-h,
+ * --handle, --thumb-line, --transport-h. Every colour is a token from styles.css.
+ */
+.tl {
+  position: relative; height: 100%; box-sizing: border-box; padding: 0 var(--tl-pad, 24px);
+  display: flex; flex-direction: column; font-family: var(--font-sans); color: var(--text);
+  user-select: none; -webkit-user-select: none; transition: opacity 200ms linear;
+}
+/* Phone: the 6 px hit pad of the track (BAR_METRICS.phone.hitPad) replaces the top padding and the gap. */
+.tl[data-layout="phone"] { padding-top: 0; gap: 0; }
+.tl[data-hidden="true"] { opacity: 0; pointer-events: none; }
+.tl-skeleton { display: grid; gap: 8px; align-content: center; height: 100%; }
+.tl-skeleton > span { display: block; height: 24px; border-radius: 4px; background: var(--surface-2); }
+.tl-skeleton > span:last-child { width: 40%; height: 16px; }
+
+/* Track block: label row, track row and event row share one SVG; the thumb and cards float over it. */
+.tl-track { position: relative; height: var(--tl-block-h); touch-action: none; outline: none; cursor: pointer; }
+/* Focus shows on the thumb handle (UX-TL-13), not around the whole track. */
+.tl-track:focus-visible { outline: none; }
+.tl-track:focus-visible .tl-thumb-handle { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--focus); }
+.tl-track:focus-visible .tl-thumb-line { box-shadow: 0 0 0 1px var(--focus); }
+.tl-svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.tl-bg { fill: var(--bg); }
+.tl-band { fill-opacity: 0.55; transition: fill-opacity 100ms linear; }
+[data-theme="light"] .tl-band { fill-opacity: 0.35; }
+.tl-band:hover { fill-opacity: 0.8; }
+.tl-band[data-active="true"] { fill-opacity: 1; }
+.tl[data-playing="true"] .tl-band[data-active="true"] { animation: tl-pulse 1.2s linear infinite; }
+@keyframes tl-pulse { 0%, 100% { fill-opacity: 1; } 50% { fill-opacity: 0.85; } }
+.tl-band-top { pointer-events: none; }
+.tl-tick { stroke: var(--text-muted); stroke-width: 1; shape-rendering: crispEdges; pointer-events: none; }
+.tl-tick[data-rank="period"] { stroke-width: 2; }
+.tl-tick-hit { fill: transparent; }
+.tl-hl { font: 500 10px var(--font-sans); fill: var(--text-muted); font-variant-numeric: tabular-nums; pointer-events: none; }
+.tl-pl { font-weight: 500; fill: var(--text); cursor: pointer; }
+.tl-pl[data-inside="true"] { pointer-events: none; }
+.tl-pl[data-dark="true"] { fill: var(--bg); }
+/* The hit rect beside the diamond takes the pointer (UI-09): a press on the shape itself never scrubs. */
+.tl-ev { fill: var(--text-muted); pointer-events: none; }
+.tl-ev[data-estimate="true"] { fill: var(--surface); stroke: var(--text-muted); stroke-width: 1; }
+.tl-ev-hit { fill: transparent; cursor: pointer; }
+.tl-ev-count { font: 500 8px var(--font-sans); fill: var(--text-muted); pointer-events: none; }
+
+/* Thumb (UX-TL-13): a line across the fill and the tick row plus a handle centred on the fill. The line stops 10 px under the fill so it never strikes a headline label. */
+.tl-thumb {
+  position: absolute; top: var(--track-top); height: var(--track-h); left: 0; width: 0;
+  transform: translateX(var(--x, 0px)); pointer-events: none;
+}
+.tl-thumb-line { position: absolute; top: 0; height: calc(var(--fill-h) + 10px); left: calc(var(--thumb-line) / -2); width: var(--thumb-line); background: var(--accent); }
+.tl-thumb-handle {
+  position: absolute; left: calc(var(--handle) / -2); top: calc(var(--fill-h) / 2 - var(--handle) / 2);
+  width: var(--handle); height: var(--handle); border-radius: 50%; background: var(--accent);
+  box-shadow: 0 0 0 2px var(--bg); transition: transform 100ms linear, box-shadow 0ms;
+}
+.tl-track[data-thumb-hover="true"] .tl-thumb-handle { transform: scale(1.125); }
+.tl-track[data-drag="true"] .tl-thumb-handle { transform: scale(1.25); }
+.tl-hover-line {
+  position: absolute; top: var(--track-top); height: var(--track-h); width: 2px; margin-left: -1px;
+  background: var(--accent); pointer-events: none; left: var(--hx, 0px);
+}
+
+/* Hover tooltip (UX-TL-11) and stage card (UX-TL-14) float above the fill. */
+.tl-tip, .tl-card {
+  position: absolute; bottom: calc(100% - var(--track-top) + 8px); z-index: 20; box-sizing: border-box;
+  border-radius: 4px; border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  box-shadow: var(--elev-floating); pointer-events: none; text-align: left;
+}
+.tl-tip { left: clamp(120px, var(--hx, 0px), calc(100% - 120px)); transform: translateX(-50%); max-width: 240px; padding: 6px 8px; }
+.tl-tip-1 { font: 600 13px/1.4 var(--font-sans); }
+.tl-tip-2 { font: 400 12px/1.4 var(--font-sans); font-feature-settings: "tnum" 1; }
+.tl-tip-2 .id-mono, .tl-card-id { color: var(--text-muted); margin-left: 6px; }
+.tl-tip-3, .tl-tip-ev { font: 400 12px/1.4 var(--font-sans); color: var(--text); margin: 2px 0 0; }
+.tl-tip-ev { color: var(--text-muted); }
+.tl-card {
+  left: clamp(110px, var(--x, 0px), calc(100% - 110px)); transform: translate(-50%, 4px); width: 220px; min-height: 60px;
+  padding: 8px 12px; border-radius: 8px; opacity: 0; visibility: hidden;
+  transition: opacity 100ms linear, transform 120ms var(--ease-panel), visibility 0s linear 100ms;
+}
+.tl-card[data-shown="true"] { opacity: 1; visibility: visible; transform: translate(-50%, 0); transition: opacity 120ms linear, transform 120ms var(--ease-panel), visibility 0s; }
+.tl-track[data-drag="true"] .tl-card { transition: none; }
+.tl-card::after {
+  content: ""; position: absolute; left: 50%; top: 100%; margin-left: -8px; border: 8px solid transparent; border-top-color: var(--surface); border-bottom: 0;
+}
+.tl-card-name { font: 600 14px/1.3 var(--font-sans); }
+.tl-card-meta, .tl-card-len { font: 400 12px/1.4 var(--font-sans); font-feature-settings: "tnum" 1; }
+.tl[data-layout="tablet"] .tl-card { width: 200px; min-height: 56px; }
+
+/* Event list popover for a merged marker (UI-09). */
+.tl-evlist {
+  position: absolute; bottom: calc(100% - var(--track-top) - var(--track-h) - 8px); z-index: 25; width: 200px; max-height: 240px; overflow: auto;
+  margin: 0; padding: 4px; list-style: none; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--elev-floating);
+  left: clamp(100px, var(--ex, 0px), calc(100% - 100px)); transform: translateX(-50%);
+}
+.tl-evlist button { display: block; width: 100%; text-align: left; padding: 6px 8px; border: 0; border-radius: 4px; background: none; color: var(--text); font: 400 12px/1.4 var(--font-sans); cursor: pointer; }
+.tl-evlist button:hover { background: var(--surface-2); }
+.tl-evlist small { display: block; color: var(--text-muted); font-feature-settings: "tnum" 1; }
+
+/* Transport row (5.2.9). */
+.tl-transport { display: flex; align-items: center; gap: 8px; height: var(--transport-h); flex: none; }
+.tl-group { display: flex; align-items: center; gap: 4px; position: relative; }
+.tl-spacer { flex: 1; }
+/* The 44 px icon button of primitives.css is the target (UX-AC-10); no halo, so the row content stays inside --time-h. */
+.tl-btn { position: relative; }
+.tl-btn:disabled { opacity: 0.35; cursor: default; }
+.tl-play { width: 44px; height: 44px; border-radius: 50%; background: var(--accent); color: var(--bg); }
+.tl-play:hover { background: color-mix(in srgb, var(--accent), var(--text) 10%); }
+.tl-speed { min-width: 44px; height: 36px; padding: 0 8px; font-feature-settings: "tnum" 1; }
+.tl[data-layout="phone"] .tl-transport { justify-content: center; gap: 8px; }
+.tl[data-layout="phone"] .tl-btn { width: 44px; height: 44px; }
+.tl[data-layout="phone"] .tl-play { width: 56px; height: 56px; margin: -6px 0; }
+.tl[data-layout="phone"] .tl-transport { overflow: visible; }
+.tl-menu {
+  position: absolute; bottom: calc(100% + 4px); left: 0; z-index: 30; min-width: 160px; margin: 0; padding: 4px; list-style: none;
+  border-radius: 8px; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--elev-floating);
+}
+.tl-menu button {
+  display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 12px; height: 32px; padding: 0 8px; border: 0;
+  border-radius: 4px; background: none; color: var(--text); font: 500 13px/1.4 var(--font-sans); font-feature-settings: "tnum" 1; cursor: pointer;
+}
+.tl-menu button:hover, .tl-menu button[aria-checked="true"] { background: var(--surface-2); }
+.tl-menu-note { padding: 4px 8px; color: var(--text-muted); font: 400 12px/1.4 var(--font-sans); }
+
+/* Segmented control (units, section axes, rail presets). */
+.seg { display: inline-flex; align-items: stretch; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--surface-2); }
+/* A button may sit inside a Tooltip anchor span, so the rules match descendants. */
+.seg button {
+  height: 34px; padding: 0 10px; border: 0; border-left: 1px solid var(--border); background: transparent; color: var(--text-muted);
+  font: 500 12px/1 var(--font-sans); cursor: pointer; white-space: nowrap;
+}
+.seg > :first-child button, .seg > button:first-child { border-left: 0; }
+.seg button:hover { color: var(--text); }
+.seg button[aria-pressed="true"] { background: color-mix(in srgb, var(--accent) 18%, var(--surface-2)); color: var(--text); }
+.seg button:disabled { opacity: 0.35; cursor: default; }
+.seg button:focus-visible { outline-offset: -2px; }
+.seg-sm button { height: 28px; padding: 0 8px; font-size: 11px; }
+
+/* Readout (UX-TL-23): a row on desktop and tablet, a chip inside the viewer on phone and in presentation mode. */
+.readout { display: inline-flex; align-items: baseline; font: 500 14px/1.4 var(--font-sans); font-feature-settings: "tnum" 1; white-space: nowrap; }
+.readout-sep { padding: 0 8px; color: var(--text-muted); font-weight: 400; }
+.readout-temp { margin-left: 8px; }
+/* D17: the dissect percent, the only on-screen readout of the slider in presentation mode. */
+.readout-dissect { color: var(--text-muted); font-weight: 400; }
+.readout-chip {
+  position: absolute; left: 16px; bottom: calc(var(--time-h, 88px) + 12px); z-index: 5; height: 32px; padding: 0 12px; box-sizing: border-box;
+  border-radius: 12px; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--elev-floating);
+}
+/* Phone: the chip clears the 96 px info card peek above the timeline bar (spec 5.1.4). */
+@media (max-width: 39.99rem) {
+  .app[data-card="open"] .readout-chip { bottom: calc(var(--time-h, 88px) + 96px + 12px); }
+}
+.app[data-presentation="true"] .readout-chip {
+  left: 32px; bottom: calc(var(--time-h, 64px) + 24px); height: auto; padding: 8px 20px; border-radius: 16px; gap: 0;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+}
+.app[data-presentation="true"] .readout-time { font-size: var(--pres-time); font-weight: 600; line-height: 1.1; }
+.app[data-presentation="true"] .readout-stage { font-size: var(--pres-stage); font-weight: 600; line-height: 1.15; }
+.app[data-presentation="true"] .readout-len { font-size: var(--pres-length); line-height: 1.15; }
+.app[data-presentation="true"] .readout-dissect { font-size: var(--pres-length); line-height: 1.15; }
+.app[data-presentation="true"] .readout-sep { font-size: var(--pres-length); padding: 0 16px; }
+.app[data-presentation="true"][data-strip="top"] .readout-chip { bottom: 24px; }
+
+/* First-run hint chips (UX-ST-11). */
+.frh-chip {
+  position: absolute; z-index: 30; padding: 6px 12px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); box-shadow: var(--elev-floating); font: 500 13px/1.4 var(--font-sans);
+  white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity 300ms linear;
+}
+.frh-chip[data-shown="true"] { opacity: 1; }
+.frh-chip svg { vertical-align: -3px; margin-right: 6px; }

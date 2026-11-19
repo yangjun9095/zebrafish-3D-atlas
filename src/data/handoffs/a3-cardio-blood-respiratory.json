@@ -1,0 +1,30 @@
+[
+  {
+    "id": "heart_cone_tube",
+    "from": ["ZFA:0000114"],
+    "to": ["ZFA:0000114"],
+    "window": { "startHpf": 22, "endHpf": 24 },
+    "driver": "ZFA:0000114",
+    "seed": "copyPlacement",
+    "withinRecord": true,
+    "note": "D9. Alias boundary inside the one heart record: the heart loop stage steps from cone to tube and tubeLengthMm grows from coneHeightMm; the info card alias changes (heart rudiment to primitive heart tube)."
+  },
+  {
+    "id": "heart_tube_chambers",
+    "from": ["ZFA:0000114"],
+    "to": ["ZFA:0000471", "ZFA:0000009", "ZFA:0000173", "ZFA:0000154"],
+    "window": { "startHpf": 42, "endHpf": 48 },
+    "driver": "ZFA:0000114",
+    "seed": "subRange",
+    "note": "D9. Each chamber builds segmentRange(part) of the same loop parameters (BG-34); the heart mesh fades out and the record becomes the group node."
+  },
+  {
+    "id": "swim_bladder_bud_sac",
+    "from": ["ZFA:0005335"],
+    "to": ["ZFA:0000076"],
+    "window": { "startHpf": 55, "endHpf": 60 },
+    "driver": "ZFA:0005335",
+    "seed": "copyPlacement",
+    "note": "D9 develops-from row. ZFA: bud ends 60, sac from 60; the swim bladder starts as a collapsed sac (spec 3.5.7 item 12); the D8 inflation runs on the posterior chamber ZFA:0001278 from 96 to 120 hpf."
+  }
+]

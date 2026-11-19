@@ -1,0 +1,76 @@
+# Data licences
+
+The MIT licence in `LICENSE` covers the source code of this repository. It does not cover the
+data files listed here. Those files come from the Zebrafish Information Network (ZFIN) and from
+the Zebrafish Anatomy Ontology (ZFA) and the Zebrafish Stage Ontology (ZFS). They keep their own
+licences, and so do the fields of this repository that are derived from them.
+
+`public/ATTRIBUTION.md` carries the same statements in the form the application shows them.
+
+## ZFIN database files: CC BY 4.0
+
+Files:
+
+- `data/zfin/anatomy_item.txt`
+- `data/zfin/anatomy_relationship.txt`
+- `data/zfin/anatomy_synonyms.txt`
+- `data/zfin/stage_ontology.txt`
+
+Source: https://zfin.org/downloads, retrieved 2026-09-06. ZFIN data and data annotations are
+licensed under the Creative Commons Attribution 4.0 International licence
+(https://creativecommons.org/licenses/by/4.0/), stated at
+https://zfin.atlassian.net/wiki/spaces/general/pages/1942160112.
+
+Attribution: Zebrafish Information Network (ZFIN), University of Oregon, https://zfin.org. Cite
+Bradford YM, Van Slyke CE, Ruzicka L, et al. Zebrafish information network, the knowledgebase for
+Danio rerio research. Genetics 2022;220(4):iyac016.
+
+The four files above are unchanged copies. The fields derived from them are also CC BY 4.0:
+
+- the ZFA term ids, term names, synonyms and parent relations in `src/data/structures/*.json` and
+  `src/data/vocabulary.json`
+- the ZFS stage ids, stage names and hpf bounds in `src/data/stages.json`
+- the start-stage and end-stage window of every record in `src/data/structures/*.json`
+- the generated index `docs/SOURCES.md`, where it repeats those values
+
+Modification: the ids, names and windows were copied into JSON records and re-keyed for the
+application. No value was changed.
+
+## ZFA and ZFS ontology file: CC BY 3.0
+
+File: `data/zfin/zfa.obo`, OBO release 2026-07-16, retrieved 2026-09-06 from
+http://purl.obolibrary.org/obo/zfa.obo. The file header states the Creative Commons Attribution
+3.0 licence (https://creativecommons.org/licenses/by/3.0/).
+
+Attribution: the Zebrafish Anatomy Ontology (ZFA) and the Zebrafish Stage Ontology (ZFS), ZFIN.
+
+`data/zfin/zfa.obo` is an unchanged copy. The term definitions taken from it are modified, on two
+paths, and both modifications are stated here as CC BY asks:
+
+- `src/data/vocabulary.json` keeps the first sentence of each definition and drops the rest. The
+  HTML markup that sixteen ZFA definitions carry is removed first. A first sentence longer than
+  240 characters is cut at the last sentence end that fits, or at a word gap with an ellipsis when
+  it carries none.
+- The definitions of the 221 records in `src/data/structures/*.json` are not cut to that length.
+  Many of them run longer than 240 characters and carry more than one sentence. Some of them drop
+  a trailing sentence of the ZFA text.
+
+Most of the 221 record definitions are cuts of the ZFA text. Two are reworded.
+ZFA:0000031 (hypochord) fixes a repeated phrase in the ZFA definition and drops a trailing
+sentence. ZFA:0009288 (primordial germ cell) changes the ZFA definition from plural forms to
+singular. The vocabulary definitions in `src/data/vocabulary.json` are cuts only. None of them are
+reworded.
+
+## Everything else
+
+The geometry, the sizes, the positions, the colours, the events and the modelling notes in
+`src/data/` are this project's own work and are covered by the MIT licence in `LICENSE`. ZFIN
+supplies the vocabulary, not the geometry, and has reviewed none of it.
+
+Stage times, embryo lengths and head-trunk angles read from the ZFIN staging series pages come
+from Kimmel CB, Ballard WW, Kimmel SR, Ullmann B, Schilling TF (1995) Dev Dyn 203:253-310. ZFIN
+reprints that article by a permission Wiley-Liss granted to ZFIN, and that permission is not part
+of the ZFIN CC BY 4.0 grant. This repository takes numbers and landmark facts from those pages and
+states them in its own words. It reproduces no sentence, table image or figure.
+
+The licences of the bundled npm packages are in `public/THIRD-PARTY-NOTICES.txt`.

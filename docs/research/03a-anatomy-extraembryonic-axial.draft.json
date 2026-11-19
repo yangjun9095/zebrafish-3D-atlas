@@ -1,0 +1,3891 @@
+[
+ {
+  "id": "ZFA:0000020",
+  "name": "extraembryonic structure",
+  "synonyms": [
+   "extraembryonic structures"
+  ],
+  "system": "extraembryonic",
+  "uiGroup": "extraembryonic",
+  "parent": null,
+  "parentRelation": "root",
+  "startStage": "ZFS:0000001",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000032",
+  "endHpf": 48.0,
+  "definition": "Anatomical structure that is contiguous with the embryo and is comprised of portions of tissue or cells that will not contribute to the embryo.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "surrounds the embryo",
+   "laterality": "midline",
+   "landmarks": "grouping node for the chorion; not rendered"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "UI grouping node only. Do not render geometry."
+  },
+  "sizes": [
+   {
+    "stageLabel": "1-cell",
+    "hpf": 0,
+    "dims_um": {
+     "diameter": 1200
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+    "note": "inner chorion diameter = 2 x (embryo radius 397 um + perivitelline space 210 um) at epiboly"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "diameter": 1200
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+    "note": "same shell"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "diameter": 1200
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+    "note": "same shell; ZFA end stage"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 0,
+    "event": "chorion lifts from the egg after fertilization"
+   },
+   {
+    "hpf": 48,
+    "event": "ZFA end stage (High-pec); hatching occurs 48 to 72 hpf"
+   }
+  ],
+  "colorHint": "#CFD8DC",
+  "sources": [
+   "https://zfin.org/ZFA:0000020",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/"
+  ]
+ },
+ {
+  "id": "ZFA:0000329",
+  "name": "chorion",
+  "synonyms": [],
+  "system": "extraembryonic",
+  "uiGroup": "extraembryonic",
+  "parent": "ZFA:0000020",
+  "parentRelation": "is_a",
+  "startStage": "ZFS:0000001",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000032",
+  "endHpf": 48.0,
+  "definition": "The egg shell.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "encloses the whole egg",
+   "laterality": "midline",
+   "landmarks": "a sphere centred on the yolk; the perivitelline space separates it from the embryo"
+  },
+  "shape": {
+   "primitive": "sphere",
+   "notes": "Transparent thin-walled sphere. Radius = embryo radius + perivitelline space. Render with alpha 0.15 and a thin rim. Remove at hatching (48 to 72 hpf)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "1-cell",
+    "hpf": 0,
+    "dims_um": {
+     "diameter": 1200,
+     "wallThickness": 3
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+    "note": "inner diameter derived from radius 397 um + PVS 210 um; wall 3 um"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "diameter": 1200,
+     "wallThickness": 3
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+    "note": "same shell; the embryo curls inside it"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "diameter": 1200,
+     "wallThickness": 3
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+    "note": "still present in most embryos; hatching 48 to 72 hpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 0,
+    "event": "chorion swells and lifts away from the newly fertilized egg (Kimmel 1995)"
+   },
+   {
+    "hpf": 48,
+    "event": "hatching period begins; hatching gland enzymes digest the chorion"
+   },
+   {
+    "hpf": 72,
+    "event": "hatching complete in most clutches at 28.5 C"
+   }
+  ],
+  "colorHint": "#C8D0D8",
+  "sources": [
+   "https://zfin.org/ZFA:0000329",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+   "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+   "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000084",
+  "name": "yolk",
+  "synonyms": [
+   "yolk cell"
+  ],
+  "system": "extraembryonic",
+  "uiGroup": "extraembryonic",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000001",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000037",
+  "endHpf": 144.0,
+  "definition": "Giant syncytial uncleaved cell containing nutrient store for embryonic development in the form of semicrystalline phospholipoprotein and contained within yolk granules.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.62
+   ],
+   "dv": "ventral to the body axis from segmentation onward; the whole egg minus the blastodisc before that",
+   "laterality": "midline",
+   "landmarks": "heart and pericardium sit on its anterior face; the vent lies at the posterior tip of the yolk extension"
+  },
+  "shape": {
+   "primitive": "lathe",
+   "notes": "Stage 0 to 10 hpf: sphere of diameter 0.7 mm with the blastodisc on top. From 14 hpf: lathe profile with a round anterior ball and a tapering posterior extension (see ZFA:0000006 and ZFA:0000106). Shrink volume monotonically to zero by 144 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "1-cell",
+    "hpf": 0,
+    "dims_um": {
+     "diameter": 700
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+    "note": "zygote is about 0.7 mm in diameter"
+   },
+   {
+    "stageLabel": "Sphere",
+    "hpf": 4,
+    "dims_um": {
+     "diameter": 675
+    },
+    "source": "https://www.nature.com/articles/srep08601",
+    "note": "yolk sphere typical diameter 650 to 700 um"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "ballDiameter": 550,
+     "extensionLength": 550,
+     "extensionDiameter": 180
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "Kimmel: at prim-5 the yolk extension length equals the yolk ball greatest diameter; absolute values are estimates"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "ballDiameter": 450,
+     "extensionLength": 500,
+     "extensionDiameter": 130
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "Kimmel: at long-pec the yolk volume approximates the head volume; absolute values are estimates"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "ballDiameter": 250,
+     "ballHeight": 150,
+     "extensionLength": 0
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "yolk extension nearly empty by day 4 (Kimmel); remnant ball only"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "diameter": 0
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/larval.html",
+    "note": "absent; yolk fully absorbed by about 7 dpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 0,
+    "event": "non-yolky cytoplasm streams to the animal pole and separates the blastodisc from the yolk"
+   },
+   {
+    "hpf": 3,
+    "event": "marginal blastomeres collapse into the yolk cell and form the yolk syncytial layer"
+   },
+   {
+    "hpf": 4.33,
+    "event": "dome stage: the yolk cell bulges toward the animal pole as epiboly begins"
+   },
+   {
+    "hpf": 10,
+    "event": "blastoderm covers the yolk plug; 100 percent epiboly"
+   },
+   {
+    "hpf": 16,
+    "event": "a constriction appears in the posterior yolk; yolk ball and yolk extension become distinct"
+   },
+   {
+    "hpf": 22,
+    "event": "yolk extension is nearly the length of the yolk ball"
+   },
+   {
+    "hpf": 42,
+    "event": "yolk extension becomes a cylinder with a conical posterior taper"
+   },
+   {
+    "hpf": 82,
+    "event": "maximum yolk utilization rate at 3.4 dpf"
+   },
+   {
+    "hpf": 96,
+    "event": "yolk extension nearly empties during day 4"
+   },
+   {
+    "hpf": 168,
+    "event": "yolk fully absorbed by about 7 dpf"
+   }
+  ],
+  "colorHint": "#F2C94C",
+  "sources": [
+   "https://zfin.org/ZFA:0000084",
+   "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+   "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/larval.html",
+   "https://www.nature.com/articles/srep08601",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8126416/"
+  ]
+ },
+ {
+  "id": "ZFA:0000088",
+  "name": "yolk syncytial layer",
+  "synonyms": [
+   "YSL",
+   "periblast",
+   "yolk sac"
+  ],
+  "system": "extraembryonic",
+  "uiGroup": "extraembryonic",
+  "parent": "ZFA:0000084",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000011",
+  "startHpf": 3.0,
+  "endStage": "ZFS:0000037",
+  "endHpf": 144.0,
+  "definition": "Peripheral layer of the yolk cell including nuclei and non-yolky cytoplasm.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.62
+   ],
+   "dv": "outer shell of the yolk cell, directly under the blastoderm and later under the embryo body and periderm",
+   "laterality": "midline",
+   "landmarks": "the external YSL is the band just vegetal to the blastoderm margin during epiboly"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Thin shell offset a few micrometers inside the yolk surface. Render as a slightly darker rim of the yolk. Optional: draw a ring of nuclei just ahead of the blastoderm margin during epiboly."
+  },
+  "sizes": [
+   {
+    "stageLabel": "1k-cell",
+    "hpf": 3,
+    "dims_um": {
+     "ringNuclei": 20,
+     "thickness": 15
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+    "note": "about 20 nuclei within a single ring; thickness is an estimate"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "thickness": 10
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "thin syncytial shell over the yolk ball and extension"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "thickness": 10
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "thickness": 8
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "remnant over the shrinking yolk"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 2.75,
+    "event": "marginal blastomeres begin to lose their lower borders (512-cell)"
+   },
+   {
+    "hpf": 3,
+    "event": "single ring of about 20 YSL nuclei (1k-cell)"
+   },
+   {
+    "hpf": 3.66,
+    "event": "several rows of YSL nuclei; some nuclei already internal (oblong)"
+   },
+   {
+    "hpf": 4.33,
+    "event": "YSL nuclei begin animal-vegetal movements as epiboly starts"
+   },
+   {
+    "hpf": 144,
+    "event": "ZFA end stage (Larval Day 5)"
+   }
+  ],
+  "colorHint": "#E0B84A",
+  "sources": [
+   "https://zfin.org/ZFA:0000088",
+   "https://zfin.org/zf_info/zfbook/stages/blast.html",
+   "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+   "https://www.nature.com/articles/s41598-022-07747-7"
+  ]
+ },
+ {
+  "id": "ZFA:0000006",
+  "name": "ball",
+  "synonyms": [
+   "yolk ball"
+  ],
+  "system": "extraembryonic",
+  "uiGroup": "extraembryonic",
+  "parent": "ZFA:0000084",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000025",
+  "startHpf": 14.0,
+  "endStage": "ZFS:0000036",
+  "endHpf": 120.0,
+  "definition": "The anterior round region of the yolk cell present after the yolk extension forms during the segmentation period.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    0.45
+   ],
+   "dv": "ventral to head and anterior trunk",
+   "laterality": "midline",
+   "landmarks": "heart and pericardium on its anterior-dorsal face; hatching gland on its anterior surface"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Oblate to spherical ellipsoid. Its posterior pole blends into the extension through a smooth neck (the staging constriction)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "10-13 somites",
+    "hpf": 14,
+    "dims_um": {
+     "diameter": 600
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "first distinct from the extension; near the full egg yolk diameter"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "diameter": 550
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "Kimmel: extension length equals ball diameter"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "diameter": 450
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "Kimmel: yolk volume about equals head volume"
+   },
+   {
+    "stageLabel": "Day 4",
+    "hpf": 96,
+    "dims_um": {
+     "diameter": 300,
+     "height": 200
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "flattened remnant"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "diameter": 250,
+     "height": 150
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ZFA end stage; remnant continues as yolk (ZFA:0000084) to 144 hpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 14,
+    "event": "ZFA start stage (10-13 somites)"
+   },
+   {
+    "hpf": 16,
+    "event": "posterior constriction of the yolk becomes a staging landmark"
+   },
+   {
+    "hpf": 120,
+    "event": "ZFA end stage (Larval Day 4)"
+   }
+  ],
+  "colorHint": "#F2C94C",
+  "sources": [
+   "https://zfin.org/ZFA:0000006",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000106",
+  "name": "extension",
+  "synonyms": [
+   "yolk extension"
+  ],
+  "system": "extraembryonic",
+  "uiGroup": "extraembryonic",
+  "parent": "ZFA:0000084",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000025",
+  "startHpf": 14.0,
+  "endStage": "ZFS:0000036",
+  "endHpf": 120.0,
+  "definition": "The posterior elongated region of the yolk cell that forms during the segmentation period.",
+  "spatial": {
+   "apFraction": [
+    0.45,
+    0.62
+   ],
+   "dv": "ventral to the mid trunk; the gut runs along its dorsal surface",
+   "laterality": "midline",
+   "landmarks": "ends at the vent; the ventral fin fold begins behind it"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Tapered tube along the ventral trunk. Length equals the ball diameter at 24 hpf, exceeds it from 30 hpf, cylindrical with a conical posterior tip at 42 hpf, and collapses to a thin strand by 96 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "10-13 somites",
+    "hpf": 14,
+    "dims_um": {
+     "length": 250,
+     "diameter": 250
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "just after the constriction appears"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 550,
+     "diameter": 180
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "length equals ball diameter (Kimmel)"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 500,
+     "diameter": 130
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 4",
+    "hpf": 96,
+    "dims_um": {
+     "length": 350,
+     "diameter": 50
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "nearly empty (Kimmel larval period)"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 0,
+     "diameter": 0
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ZFA end stage; empty"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 14,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 22,
+    "event": "nearly the length of the yolk ball (26+ somites)"
+   },
+   {
+    "hpf": 30,
+    "event": "longer than the yolk ball (prim-15)"
+   },
+   {
+    "hpf": 36,
+    "event": "markedly exceeds the ball diameter (prim-25)"
+   },
+   {
+    "hpf": 42,
+    "event": "cylindrical with conical posterior taper (high-pec)"
+   },
+   {
+    "hpf": 96,
+    "event": "nearly empties (day 4)"
+   },
+   {
+    "hpf": 120,
+    "event": "ZFA end stage"
+   }
+  ],
+  "colorHint": "#F2C94C",
+  "sources": [
+   "https://zfin.org/ZFA:0000106",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/larval.html"
+  ]
+ },
+ {
+  "id": "ZFA:0001094",
+  "name": "whole organism",
+  "synonyms": [
+   "multi-cellular organism"
+  ],
+  "system": "axial",
+  "uiGroup": "body_region",
+  "parent": null,
+  "parentRelation": "root",
+  "startStage": "ZFS:0000001",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "Anatomical structure that is an individual member of Danio rerio.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "all",
+   "laterality": "midline",
+   "landmarks": "root of the hierarchy; the body outline"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Parent shape. 0 to 4.66 hpf: sphere (yolk) with a cap (blastodisc). 4.66 to 10 hpf: sphere with a cup (blastoderm) advancing over it. 10 to 24 hpf: axis wraps around the yolk; tail lifts off at 16 hpf. 24 to 72 hpf: head-trunk angle falls from 120 to about 25 deg; tail straightens. 72 hpf onward: straight larva with yolk shrinking. Adult: fusiform body, SL 18 to 30 mm."
+  },
+  "sizes": [
+   {
+    "stageLabel": "1-cell",
+    "hpf": 0,
+    "dims_um": {
+     "diameter": 700
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html"
+   },
+   {
+    "stageLabel": "5-9 somites",
+    "hpf": 11.66,
+    "dims_um": {
+     "length": 800
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+    "note": "EL about 0.8 mm, the same as the zygote"
+   },
+   {
+    "stageLabel": "14-19 somites",
+    "hpf": 16,
+    "dims_um": {
+     "length": 900
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+   },
+   {
+    "stageLabel": "20-25 somites",
+    "hpf": 19,
+    "dims_um": {
+     "length": 1400
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "26+ somites",
+    "hpf": 22,
+    "dims_um": {
+     "length": 1600
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 1900,
+     "headTrunkAngleDeg": 120
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+   },
+   {
+    "stageLabel": "Prim-15",
+    "hpf": 30,
+    "dims_um": {
+     "length": 2500,
+     "headTrunkAngleDeg": 95
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+   },
+   {
+    "stageLabel": "Prim-25",
+    "hpf": 36,
+    "dims_um": {
+     "length": 2700,
+     "headTrunkAngleDeg": 75
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+   },
+   {
+    "stageLabel": "High-pec",
+    "hpf": 42,
+    "dims_um": {
+     "length": 2900,
+     "headTrunkAngleDeg": 55
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 3100,
+     "headTrunkAngleDeg": 45
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html"
+   },
+   {
+    "stageLabel": "Pec-fin",
+    "hpf": 60,
+    "dims_um": {
+     "length": 3300,
+     "headTrunkAngleDeg": 35
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+    "note": "HTA 35 deg is unverified; the fetched ZFIN text returned 55, which conflicts with monotonic straightening"
+   },
+   {
+    "stageLabel": "Protruding-mouth",
+    "hpf": 72,
+    "dims_um": {
+     "length": 3500,
+     "headTrunkAngleDeg": 25
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+    "note": "HTA 25 deg unverified"
+   },
+   {
+    "stageLabel": "Day 4",
+    "hpf": 96,
+    "dims_um": {
+     "length": 3700
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 3900
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "Day 6",
+    "hpf": 144,
+    "dims_um": {
+     "length": 4200
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "Days 7-13",
+    "hpf": 168,
+    "dims_um": {
+     "length": 4500
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "Days 14-20",
+    "hpf": 336,
+    "dims_um": {
+     "length": 6200
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "Days 21-29",
+    "hpf": 504,
+    "dims_um": {
+     "length": 7800
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "Days 30-44",
+    "hpf": 720,
+    "dims_um": {
+     "length": 10000
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html"
+   },
+   {
+    "stageLabel": "Days 45-89",
+    "hpf": 1080,
+    "dims_um": {
+     "length": 14000,
+     "standardLength": 12000
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+    "note": "14 mm total length (Kimmel); juveniles about 12 mm SL at 45 dpf (Singleman 2014)"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "standardLength": 18000
+    },
+    "source": "https://europepmc.org/api/getPdf?pmcid=PMC4108942",
+    "note": "adults about 18 mm SL at 90 dpf; median about 28 mm SL at 180 dpf"
+   },
+   {
+    "stageLabel": "Adult reference",
+    "hpf": 2160,
+    "dims_um": {
+     "standardLength": 17900
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+    "note": "reference adults 17.5 +/- 0.6 mm SL (male), 18.3 +/- 0.7 mm SL (female)"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 0,
+    "event": "fertilization; blastodisc forms"
+   },
+   {
+    "hpf": 4.33,
+    "event": "epiboly begins (dome)"
+   },
+   {
+    "hpf": 5.25,
+    "event": "gastrulation begins at 50 percent epiboly"
+   },
+   {
+    "hpf": 6,
+    "event": "shield marks the dorsal side"
+   },
+   {
+    "hpf": 10,
+    "event": "100 percent epiboly; tail bud"
+   },
+   {
+    "hpf": 10.33,
+    "event": "first somite"
+   },
+   {
+    "hpf": 16,
+    "event": "tail bud protrudes away from the yolk"
+   },
+   {
+    "hpf": 22,
+    "event": "posterior trunk nearly straight; tail still curves ventrally"
+   },
+   {
+    "hpf": 24,
+    "event": "about 30 somites; HTA 120 deg"
+   },
+   {
+    "hpf": 48,
+    "event": "hatching period begins; HTA 45 deg"
+   },
+   {
+    "hpf": 72,
+    "event": "protruding mouth; larval period begins"
+   },
+   {
+    "hpf": 96,
+    "event": "swim bladder inflates; 3.4 to 3.7 mm SL"
+   },
+   {
+    "hpf": 120,
+    "event": "feeding larva 3.9 mm TL"
+   },
+   {
+    "hpf": 336,
+    "event": "notochord flexion 4.5 to 6.5 mm SL; fin fold resorption begins"
+   },
+   {
+    "hpf": 720,
+    "event": "juvenile from about 11.5 mm SL"
+   },
+   {
+    "hpf": 2160,
+    "event": "adult at 90 dpf, about 18 mm SL"
+   }
+  ],
+  "colorHint": "#E0E0E0",
+  "sources": [
+   "https://zfin.org/ZFA:0001094",
+   "https://zfin.org/zf_info/zfbook/stages/index.html",
+   "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/figs/fig33.html",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+   "https://europepmc.org/api/getPdf?pmcid=PMC4108942"
+  ]
+ },
+ {
+  "id": "ZFA:0005772",
+  "name": "fertilized egg",
+  "synonyms": [
+   "zygote"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000001",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000001",
+  "endHpf": 0.75,
+  "definition": "Diploid cell produced by the fusion of sperm cell nucleus and egg cell.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "animal pole up (blastodisc), vegetal pole down (yolk)",
+   "laterality": "midline",
+   "landmarks": "the whole egg inside the chorion"
+  },
+  "shape": {
+   "primitive": "sphere",
+   "notes": "Sphere 0.7 mm; from 10 min after fertilization grow a clear dome (blastodisc) at the animal pole while the yolk stays opaque."
+  },
+  "sizes": [
+   {
+    "stageLabel": "1-cell",
+    "hpf": 0,
+    "dims_um": {
+     "diameter": 700
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+    "note": "about 0.7 mm in diameter at fertilization"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 0,
+    "event": "fertilization; cytoplasmic streaming visible within about 10 minutes"
+   },
+   {
+    "hpf": 0.67,
+    "event": "first cleavage about 40 minutes after fertilization"
+   },
+   {
+    "hpf": 0.75,
+    "event": "ZFA end stage (1-cell)"
+   }
+  ],
+  "colorHint": "#F5E6C8",
+  "sources": [
+   "https://zfin.org/ZFA:0005772",
+   "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+   "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=101661&ver=0"
+  ]
+ },
+ {
+  "id": "ZFA:0001175",
+  "name": "blastodisc",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000001",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000015",
+  "endHpf": 4.66,
+  "definition": "Embryonic structure that is the dome of cytoplasm that segregates from the yolk toward the animal pole during and after the one cell-stage, and which undergoes cleavage.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    0.3
+   ],
+   "dv": "animal pole cap on the yolk",
+   "laterality": "midline",
+   "landmarks": "sits on the flat top of the yolk; cleavage furrows cross it"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Half-ellipsoid cap on the yolk sphere. 1-cell: low dome. 4-cell: ellipsoidal in top view. 128-cell: a high mound, a solid half ball. High to oblong: flattens. Sphere: the whole embryo is spherical with a flat cap-yolk interface. Overlay cleavage furrows as a 2x2, 2x4, 4x4, 4x8 grid at 4, 8, 16 and 32 cells."
+  },
+  "sizes": [
+   {
+    "stageLabel": "1-cell",
+    "hpf": 0.5,
+    "dims_um": {
+     "diameter": 500,
+     "height": 150
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "dome at the animal pole of a 0.7 mm egg"
+   },
+   {
+    "stageLabel": "128-cell",
+    "hpf": 2.25,
+    "dims_um": {
+     "diameter": 500,
+     "height": 300
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "a solid half ball perched on the yolk (Kimmel)"
+   },
+   {
+    "stageLabel": "Sphere",
+    "hpf": 4,
+    "dims_um": {
+     "diameter": 650,
+     "height": 250
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "blastodisc plus yolk form a sphere of about 0.65 to 0.7 mm; cells about 25 um"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 0.17,
+    "event": "cytoplasm streams to the animal pole and forms the blastodisc"
+   },
+   {
+    "hpf": 0.75,
+    "event": "first vertical cleavage furrow"
+   },
+   {
+    "hpf": 1,
+    "event": "blastodisc is ellipsoidal; 2x2 blastomere array"
+   },
+   {
+    "hpf": 2.25,
+    "event": "high mound, a solid half ball on the yolk (128-cell)"
+   },
+   {
+    "hpf": 3.33,
+    "event": "flattening begins (high)"
+   },
+   {
+    "hpf": 4,
+    "event": "sphere: flat border between blastodisc and yolk"
+   },
+   {
+    "hpf": 4.66,
+    "event": "becomes the blastoderm at 30 percent epiboly"
+   }
+  ],
+  "colorHint": "#E8D5B7",
+  "sources": [
+   "https://zfin.org/ZFA:0001175",
+   "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+   "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+   "https://www.nature.com/articles/srep08601"
+  ]
+ },
+ {
+  "id": "ZFA:0000093",
+  "name": "blastomere",
+  "synonyms": [
+   "blastomeres"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001175",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000001",
+  "startHpf": 0.0,
+  "endStage": "ZFS:0000015",
+  "endHpf": 4.66,
+  "definition": "Cell that arises during cleavage and is partially cleaved, and located at the blastodisc margin prior to collectively forming the yolk syncytial layer (YSL) in the midblastula.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    0.3
+   ],
+   "dv": "within the blastodisc cap",
+   "laterality": "paired arrays across the midline",
+   "landmarks": "2, 4, 8, 16, 32, 64 cells in regular arrays; tiers appear from 32 cells"
+  },
+  "shape": {
+   "primitive": "segmentArray",
+   "notes": "Array of touching spheres or a subdivided cap. Counts: 2 (0.75 h), 2x2 (1 h), 2x4 (1.25 h), 4x4 (1.5 h), 4x8 in two tiers (1.75 h), 64 in three tiers (2 h), then 5, 7, 9, 11 tiers to 1k-cell. Cell diameter falls from about 250 um to about 25 um by 4 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "2-cell",
+    "hpf": 0.75,
+    "dims_um": {
+     "count": 2,
+     "cellDiameter": 250
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "two equal blastomeres share a 0.5 mm blastodisc"
+   },
+   {
+    "stageLabel": "64-cell",
+    "hpf": 2,
+    "dims_um": {
+     "count": 64,
+     "tiers": 3,
+     "cellDiameter": 90
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Sphere",
+    "hpf": 4,
+    "dims_um": {
+     "count": 4000,
+     "cellDiameter": 25
+    },
+    "source": "https://www.nature.com/articles/srep08601",
+    "note": "cells approximated by spheres of 25 um in diameter"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 0.75,
+    "event": "2 equal blastomeres"
+   },
+   {
+    "hpf": 1.5,
+    "event": "the 4 central blastomeres are the first completely cleaved cells"
+   },
+   {
+    "hpf": 2,
+    "event": "first deep cells are buried (64-cell)"
+   },
+   {
+    "hpf": 2.75,
+    "event": "marginal blastomeres fuse with the yolk to seed the YSL"
+   },
+   {
+    "hpf": 4.66,
+    "event": "ZFA end stage (dome)"
+   }
+  ],
+  "colorHint": "#EBDDC3",
+  "sources": [
+   "https://zfin.org/ZFA:0000093",
+   "https://zfin.org/zf_info/zfbook/stages/cleave_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+   "https://www.nature.com/articles/srep08601"
+  ]
+ },
+ {
+  "id": "ZFA:0001176",
+  "name": "blastoderm",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000016",
+  "startHpf": 4.66,
+  "endStage": "ZFS:0000022",
+  "endHpf": 10.33,
+  "definition": "Embryonic structure that is composed of the cellular part of the embryo, excluding the yolk cell, derived from the blastodisc by early morphogenesis; refers particularly to the time when the cell array is sheet-like, between 30%-epiboly and the end of gastrulation.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "cap over the animal hemisphere that spreads to the vegetal pole",
+   "laterality": "midline; thicker on the dorsal side from 75 percent epiboly",
+   "landmarks": "margin = epiboly front; dorsal thickening = shield then axis"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Spherical shell segment (cup) over the yolk sphere. Parametrize by epiboly fraction f: 0.30 at 4.66 h, 0.50 at 5.25 h, 0.75 at 8 h, 0.90 at 9 h, 1.00 at 10 h (about 15 percent per hour after 50 percent). Thickness about 3 to 4 cells, uniform until 50 percent, then thicker on the dorsal side."
+  },
+  "sizes": [
+   {
+    "stageLabel": "30%-epiboly",
+    "hpf": 4.66,
+    "dims_um": {
+     "coverageFraction": 0.3,
+     "thickness": 75
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "inverted cup of uniform thickness; about 3 cells of 25 um"
+   },
+   {
+    "stageLabel": "Shield",
+    "hpf": 6,
+    "dims_um": {
+     "coverageFraction": 0.5,
+     "thickness": 100
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+    "note": "epiblast about three cells thick plus hypoblast one to two cells thick"
+   },
+   {
+    "stageLabel": "Bud",
+    "hpf": 10,
+    "dims_um": {
+     "coverageFraction": 1.0,
+     "thickness": 60
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 4.33,
+    "event": "epiboly begins (dome)"
+   },
+   {
+    "hpf": 4.66,
+    "event": "30 percent epiboly"
+   },
+   {
+    "hpf": 5.25,
+    "event": "50 percent epiboly; involution starts"
+   },
+   {
+    "hpf": 8,
+    "event": "75 percent epiboly; evacuation zone on the ventral side"
+   },
+   {
+    "hpf": 9,
+    "event": "90 percent epiboly; yolk plug"
+   },
+   {
+    "hpf": 10,
+    "event": "100 percent epiboly; ZFA end stage (bud)"
+   }
+  ],
+  "colorHint": "#D9C7A6",
+  "sources": [
+   "https://zfin.org/ZFA:0001176",
+   "https://zfin.org/zf_info/zfbook/stages/index.html",
+   "https://zfin.org/zf_info/zfbook/stages/gast.html",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000086",
+  "name": "EVL",
+  "synonyms": [
+   "enveloping layer"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001176",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000016",
+  "startHpf": 4.66,
+  "endStage": "ZFS:0000021",
+  "endHpf": 10.0,
+  "definition": "Outermost monolayer of cells surrounding the embryo that become very flattened in the blastula and give rise to the periderm. Sometimes used synonymously with periderm.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "outer surface of the blastoderm",
+   "laterality": "midline",
+   "landmarks": "its leading edge is the blastoderm margin"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "One-cell-thick outer skin of the blastoderm cup. Render as the outer surface of the blastoderm with a subtle tile pattern."
+  },
+  "sizes": [
+   {
+    "stageLabel": "30%-epiboly",
+    "hpf": 4.66,
+    "dims_um": {
+     "thickness": 8
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "flattened cells (Kimmel: very flattened)"
+   },
+   {
+    "stageLabel": "90%-epiboly",
+    "hpf": 9,
+    "dims_um": {
+     "thickness": 5
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 2.25,
+    "event": "about five irregular tiers of EVL cells (128-cell)"
+   },
+   {
+    "hpf": 3,
+    "event": "about eleven tiers (1k-cell)"
+   },
+   {
+    "hpf": 4.66,
+    "event": "ZFA start stage; cells flattened"
+   },
+   {
+    "hpf": 10,
+    "event": "ZFA end stage; becomes the periderm"
+   }
+  ],
+  "colorHint": "#B9D3EE",
+  "sources": [
+   "https://zfin.org/ZFA:0000086",
+   "https://zfin.org/zf_info/zfbook/stages/blast.html",
+   "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+   "https://www.ncbi.nlm.nih.gov/books/NBK10100/"
+  ]
+ },
+ {
+  "id": "ZFA:0000711",
+  "name": "DEL",
+  "synonyms": [
+   "deep cell layer",
+   "DEL cells"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001176",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000016",
+  "startHpf": 4.66,
+  "endStage": "ZFS:0000022",
+  "endHpf": 10.33,
+  "definition": "A multilayer of deep cells of fairly uniform thickness that forms during early epiboly (at dome stage; upon conversion of the blastodisc to the blastoderm); during gastrulation the DEL (deep cell layer) gives rise to the epiblast and hypoblast.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "between the EVL and the YSL",
+   "laterality": "midline",
+   "landmarks": "the bulk of the blastoderm cup"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Inner volume of the blastoderm shell. Same geometry as the blastoderm minus the EVL skin."
+  },
+  "sizes": [
+   {
+    "stageLabel": "30%-epiboly",
+    "hpf": 4.66,
+    "dims_um": {
+     "thickness": 65
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "about three cells of 25 um"
+   },
+   {
+    "stageLabel": "Shield",
+    "hpf": 6,
+    "dims_um": {
+     "thickness": 90
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+    "note": "epiblast about three cells plus hypoblast one to two cells"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 4.33,
+    "event": "forms at dome stage by radial intercalation"
+   },
+   {
+    "hpf": 5.66,
+    "event": "splits into epiblast and hypoblast at the germ ring"
+   },
+   {
+    "hpf": 10.33,
+    "event": "ZFA end stage"
+   }
+  ],
+  "colorHint": "#CBBBA0",
+  "sources": [
+   "https://zfin.org/ZFA:0000711",
+   "https://zfin.org/zf_info/zfbook/stages/blast.html",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000038",
+  "name": "margin",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001176",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000016",
+  "startHpf": 4.66,
+  "endStage": "ZFS:0000022",
+  "endHpf": 10.33,
+  "definition": "Embryonic structure, the edge of the blastoderm.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "a latitude circle on the yolk sphere that moves from 30 percent to 100 percent epiboly",
+   "laterality": "midline ring",
+   "landmarks": "the epiboly front; the germ ring thickens it from 5.66 hpf"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Torus (ring) at the blastoderm edge. Latitude angle theta = 180 deg x epiboly fraction measured from the animal pole. Ring radius = yolk radius x sin(theta)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "30%-epiboly",
+    "hpf": 4.66,
+    "dims_um": {
+     "ringDiameter": 560,
+     "tubeDiameter": 40
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ring at 54 deg latitude on a 0.65 mm sphere"
+   },
+   {
+    "stageLabel": "Shield",
+    "hpf": 6,
+    "dims_um": {
+     "ringDiameter": 650,
+     "tubeDiameter": 60
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "equatorial ring at 50 percent epiboly"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 4.66,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 5.66,
+    "event": "thickens into the germ ring"
+   },
+   {
+    "hpf": 9,
+    "event": "encircles the yolk plug"
+   },
+   {
+    "hpf": 10,
+    "event": "closes at the vegetal pole; ZFA end stage (bud)"
+   }
+  ],
+  "colorHint": "#8FA3C0",
+  "sources": [
+   "https://zfin.org/ZFA:0000038",
+   "https://zfin.org/zf_info/zfbook/stages/index.html",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000111",
+  "name": "germ ring",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001176",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000018",
+  "startHpf": 5.66,
+  "endStage": "ZFS:0000022",
+  "endHpf": 10.33,
+  "definition": "Embryonic structure that forms as a thickened annulus at the blastoderm rim.  The germ ring is thickened because it  is the involuting margin of the blastoderm.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "equatorial band at 50 percent epiboly, then moves vegetally",
+   "laterality": "midline ring; thickest dorsally at the shield",
+   "landmarks": "visible from the animal pole as a ring"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Thickened torus at the margin. Tube diameter about 2x the blastoderm thickness. Add a local bulge over 30 deg of longitude on the dorsal side for the shield."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Germ-ring",
+    "hpf": 5.66,
+    "dims_um": {
+     "ringDiameter": 650,
+     "tubeDiameter": 100
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "equatorial; thickness of epiblast (3 cells) plus hypoblast (1 to 2 cells)"
+   },
+   {
+    "stageLabel": "75%-epiboly",
+    "hpf": 8,
+    "dims_um": {
+     "ringDiameter": 460,
+     "tubeDiameter": 80
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 5.66,
+    "event": "forms nearly simultaneously all around the blastoderm rim"
+   },
+   {
+    "hpf": 6,
+    "event": "shield appears within it"
+   },
+   {
+    "hpf": 10.33,
+    "event": "ZFA end stage"
+   }
+  ],
+  "colorHint": "#7F94B8",
+  "sources": [
+   "https://zfin.org/ZFA:0000111",
+   "https://zfin.org/zf_info/zfbook/stages/gast.html",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000071",
+  "name": "shield",
+  "synonyms": [
+   "organizer",
+   "dorsal organizer",
+   "Spemann Mangold organizer",
+   "Spemann's organizer"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0000111",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000019",
+  "startHpf": 6.0,
+  "endStage": "ZFS:0000019",
+  "endHpf": 8.0,
+  "definition": "Embryonic structure that is a local accumulation of cells along the germ ring.  The shield marks the dorsal side of the embryo.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    0.1
+   ],
+   "dv": "dorsal; at the germ ring on the future dorsal midline",
+   "laterality": "midline",
+   "landmarks": "defines the dorsal side; future head lies toward the animal pole from it"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Local thickening of the germ ring spanning about 30 deg of longitude. Model as an ellipsoid bump merged into the torus, longer along the ring than across it."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Shield",
+    "hpf": 6,
+    "dims_um": {
+     "arcDeg": 30,
+     "length": 170,
+     "width": 100,
+     "thickness": 120,
+     "cells": 100
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/gast.html",
+    "note": "about 30 degrees of longitude of the germ ring; about 100 cells (Gilbert); linear sizes are estimates for a 0.65 mm sphere"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 6,
+    "event": "visible from the animal pole within minutes of 50 percent epiboly"
+   },
+   {
+    "hpf": 8,
+    "event": "becomes less distinctive; ZFA end stage"
+   }
+  ],
+  "colorHint": "#5B6FA6",
+  "sources": [
+   "https://zfin.org/ZFA:0000071",
+   "https://zfin.org/zf_info/zfbook/stages/gast.html",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+   "https://www.ncbi.nlm.nih.gov/books/NBK10100/"
+  ]
+ },
+ {
+  "id": "ZFA:0000018",
+  "name": "epiblast",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0000111",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000018",
+  "startHpf": 5.66,
+  "endStage": "ZFS:0000022",
+  "endHpf": 10.33,
+  "definition": "The outer of the two layers of the blastoderm that form during gastrulation, corresponding to primitive ectoderm during gastrulation and to the definitive ectoderm after gastrulation.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "outer layer of the blastoderm, under the EVL",
+   "laterality": "midline",
+   "landmarks": "about three cells thick at the germ ring stage"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Outer shell of the two-layer blastoderm. Thickness about three cells."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Germ-ring",
+    "hpf": 5.66,
+    "dims_um": {
+     "thickness": 75
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+    "note": "about three cells thick; 25 um cells"
+   },
+   {
+    "stageLabel": "90%-epiboly",
+    "hpf": 9,
+    "dims_um": {
+     "thickness": 60
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 5.66,
+    "event": "forms as the outer layer at the germ ring"
+   },
+   {
+    "hpf": 9,
+    "event": "thickens dorsally as the neural plate"
+   },
+   {
+    "hpf": 10.33,
+    "event": "ZFA end stage; becomes ectoderm"
+   }
+  ],
+  "colorHint": "#B7CDE3",
+  "sources": [
+   "https://zfin.org/ZFA:0000018",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000117",
+  "name": "hypoblast",
+  "synonyms": [
+   "mesendoderm"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0000111",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000018",
+  "startHpf": 5.66,
+  "endStage": "ZFS:0000022",
+  "endHpf": 10.33,
+  "definition": "The inner of the two layers of the blastoderm that forms during gastrulation and give rise to the definitive mesoderm and endoderm.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "inner layer, directly on the YSL",
+   "laterality": "midline; thickest along the dorsal axis",
+   "landmarks": "its anterior axial part reaches the animal pole at 75 percent epiboly"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Inner shell of the blastoderm, one to two cells thick, that extends from the margin toward the animal pole. Its front advances from the margin animalward as epiboly proceeds."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Germ-ring",
+    "hpf": 5.66,
+    "dims_um": {
+     "thickness": 35
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+    "note": "one to two cells thick"
+   },
+   {
+    "stageLabel": "75%-epiboly",
+    "hpf": 8,
+    "dims_um": {
+     "thickness": 20
+    },
+    "source": "https://www.nature.com/articles/srep08601",
+    "note": "about 20 um at 7 hpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 5.66,
+    "event": "forms by involution at the germ ring"
+   },
+   {
+    "hpf": 8,
+    "event": "anterior axial hypoblast reaches the animal pole"
+   },
+   {
+    "hpf": 10.33,
+    "event": "ZFA end stage; mesoderm and endoderm"
+   }
+  ],
+  "colorHint": "#D7A88B",
+  "sources": [
+   "https://zfin.org/ZFA:0000117",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+   "https://www.nature.com/articles/srep08601"
+  ]
+ },
+ {
+  "id": "ZFA:0000092",
+  "name": "axis",
+  "synonyms": [
+   "midline"
+  ],
+  "system": "axial",
+  "uiGroup": "body_region",
+  "parent": "ZFA:0001094",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000017",
+  "startHpf": 5.25,
+  "endStage": "ZFS:0000024",
+  "endHpf": 14.0,
+  "definition": "Organism subdivision running along the rostral-caudal axis of the early embryo.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "dorsal thickening of the blastoderm from animal pole to margin",
+   "laterality": "midline",
+   "landmarks": "visible as a thick dorsal stripe from 90 percent epiboly; head at the animal pole, tail bud at the vegetal pole"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "A meridian band on the yolk sphere from the animal pole to the margin on the dorsal side. Width about 25 percent of the circumference at bud stage. Replace by head, trunk and tail bud from 10 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "90%-epiboly",
+    "hpf": 9,
+    "dims_um": {
+     "length": 1500,
+     "width": 400
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "meridian arc from animal pole to the 90 percent latitude on a 0.65 mm sphere"
+   },
+   {
+    "stageLabel": "Bud",
+    "hpf": 10,
+    "dims_um": {
+     "length": 2000,
+     "width": 400
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "full meridian"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 5.25,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 9,
+    "event": "axis and neural plate distinct; dorsal side much thicker"
+   },
+   {
+    "hpf": 10,
+    "event": "tail bud at the vegetal end, polster at the animal end"
+   },
+   {
+    "hpf": 14,
+    "event": "ZFA end stage (5-9 somites)"
+   }
+  ],
+  "colorHint": "#B0BEC5",
+  "sources": [
+   "https://zfin.org/ZFA:0000092",
+   "https://zfin.org/zf_info/zfbook/stages/index.html",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000077",
+  "name": "tail bud",
+  "synonyms": [
+   "tailbud",
+   "tail bud mesenchyme"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000022",
+  "startHpf": 10.0,
+  "endStage": "ZFS:0000029",
+  "endHpf": 30.0,
+  "definition": "Undifferentiated mesenchymal swelling at the posterior end of the embryonic axis that forms at the end of epiboly and generates the tail (no ZFA definition; wording from Kimmel 1995).",
+  "spatial": {
+   "apFraction": [
+    0.95,
+    1.0
+   ],
+   "dv": "posterior end of the axis; on the yolk until 16 hpf, then free",
+   "laterality": "midline",
+   "landmarks": "Kupffer's vesicle at its base; forms first at the vegetal pole where the margin closes"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Rounded knob capping the posterior axis. Attach to the yolk surface until 16 hpf, then move it off the yolk as the tail grows; keep it at the tail tip until 30 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Bud",
+    "hpf": 10,
+    "dims_um": {
+     "length": 120,
+     "diameter": 120
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "distinct swelling"
+   },
+   {
+    "stageLabel": "14-19 somites",
+    "hpf": 16,
+    "dims_um": {
+     "length": 150,
+     "diameter": 120
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "protrudes away from the body"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 100,
+     "diameter": 80
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "degenerating cells at its position by 30 hpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10,
+    "event": "distinct swelling at the caudal end of the axis (bud stage)"
+   },
+   {
+    "hpf": 11.66,
+    "event": "Kupffer's vesicle appears deep to the tail bud"
+   },
+   {
+    "hpf": 16,
+    "event": "tail bud begins to protrude away from the body and yolk"
+   },
+   {
+    "hpf": 22,
+    "event": "elongating tail still curves ventrally"
+   },
+   {
+    "hpf": 30,
+    "event": "tail morphogenesis nears completion; degenerating cells at the tail bud; ZFA end stage"
+   }
+  ],
+  "colorHint": "#9C8CB8",
+  "sources": [
+   "https://zfin.org/ZFA:0000077",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000001",
+  "name": "Kupffer's vesicle",
+  "synonyms": [
+   "ciliated organ of asymmetry",
+   "KV"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0000077",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000023",
+  "startHpf": 10.33,
+  "endStage": "ZFS:0000029",
+  "endHpf": 30.0,
+  "definition": "Small but distinctive epithelial sac containing fluid, located midventrally posterior to the yolk cell or its extension, and transiently present during most of the segmentation period. Kupffer's vesicle has been compared to the mouse embryonic node.",
+  "spatial": {
+   "apFraction": [
+    0.92,
+    0.96
+   ],
+   "dv": "ventral; dorsal half at the posterior end of the notochord, ventral half indents the yolk",
+   "laterality": "midline",
+   "landmarks": "at the base of the tail bud"
+  },
+  "shape": {
+   "primitive": "sphere",
+   "notes": "Small sphere becoming an ellipsoid by 9 somites. Grow lumen from 2 somites to a maximum at 8 to 10 somites, then shrink to zero by 30 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "1-4 somites",
+    "hpf": 11,
+    "dims_um": {
+     "diameter": 20
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "lumen first forms at 2 somites; about 50 epithelial cells"
+   },
+   {
+    "stageLabel": "10-13 somites",
+    "hpf": 14,
+    "dims_um": {
+     "diameter": 65,
+     "cells": 50,
+     "cilia": 57,
+     "ciliumLength": 6
+    },
+    "source": "https://anatomypubs.onlinelibrary.wiley.com/doi/full/10.1002/dvdy.24355",
+    "note": "maximum lumen area 2250 to 4517 um2 at 10 somites (equivalent diameter 54 to 76 um; values quoted from a search snippet of Gokey 2016); cilia from Navis 2013"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "diameter": 20
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "collapsing"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 5.25,
+    "event": "dorsal forerunner cells gather at the shield margin"
+   },
+   {
+    "hpf": 10.33,
+    "event": "ZFA start stage; forerunner cells organize into a rosette"
+   },
+   {
+    "hpf": 11,
+    "event": "lumen forms at the 2-somite stage"
+   },
+   {
+    "hpf": 13,
+    "event": "lumen fully expanded at 8 somites"
+   },
+   {
+    "hpf": 13.5,
+    "event": "ellipsoidal shape at 9 somites; cilia beat about 30 Hz"
+   },
+   {
+    "hpf": 16,
+    "event": "prominent at the base of the protruding tail bud"
+   },
+   {
+    "hpf": 30,
+    "event": "ZFA end stage (prim-5)"
+   }
+  ],
+  "colorHint": "#4FC3F7",
+  "sources": [
+   "https://zfin.org/ZFA:0000001",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://elifesciences.org/articles/30963",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3621488/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2829604/",
+   "https://anatomypubs.onlinelibrary.wiley.com/doi/full/10.1002/dvdy.24355"
+  ],
+  "visibleFromHpf": 11.0,
+  "visibleFromNote": "lumen forms at the 2-somite stage (eLife 30963); Kimmel lists its appearance under 5-9 somites"
+ },
+ {
+  "id": "ZFA:0000058",
+  "name": "polster",
+  "synonyms": [
+   "pillow"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0000060",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000022",
+  "startHpf": 10.0,
+  "endStage": "ZFS:0000029",
+  "endHpf": 30.0,
+  "definition": "The hatching gland rudiment at the time it underlies the forebrain during the early segmentation period.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    0.06
+   ],
+   "dv": "ventral to the forebrain, on the yolk",
+   "laterality": "midline",
+   "landmarks": "most anterior bulge of the axis at bud stage"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Anterior bulge under the forebrain on the yolk surface. Present as a distinct bump from 10 to 14 hpf; then flatten and move to the pericardium as the hatching gland."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Bud",
+    "hpf": 10,
+    "dims_um": {
+     "length": 120,
+     "width": 100,
+     "height": 50
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "prominent bulge"
+   },
+   {
+    "stageLabel": "5-9 somites",
+    "hpf": 11.66,
+    "dims_um": {
+     "length": 150,
+     "width": 120,
+     "height": 50
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "prominent polster deep to the neural plate (Kimmel wording)"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 150,
+     "width": 120,
+     "height": 20
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ZFA keeps the term to 30 hpf; by then the cells form the hatching gland sheet"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 8,
+    "event": "anterior axial hypoblast reaches the animal pole"
+   },
+   {
+    "hpf": 10,
+    "event": "prominent bulge (bud stage)"
+   },
+   {
+    "hpf": 11.66,
+    "event": "prominent under the forebrain (5-9 somites)"
+   },
+   {
+    "hpf": 14,
+    "event": "becomes the hatching gland on the pericardium"
+   },
+   {
+    "hpf": 30,
+    "event": "ZFA end stage"
+   }
+  ],
+  "colorHint": "#D4A5A5",
+  "sources": [
+   "https://zfin.org/ZFA:0000058",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000026",
+  "name": "hatching gland",
+  "synonyms": [
+   "hgg"
+  ],
+  "system": "axial",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000025",
+  "startHpf": 14.0,
+  "endStage": "ZFS:0000034",
+  "endHpf": 72.0,
+  "definition": "A transversely oriented set of cells located deep to the EVL on the pericardial membrane, especially prominent during pharyngula period because of the brightly refractile cytoplasmic granules (containing hatching enzymes) of the principal cells of the gland.",
+  "spatial": {
+   "apFraction": [
+    0.08,
+    0.16
+   ],
+   "dv": "ventral; on the pericardium at the anterior face of the yolk ball, under the head",
+   "laterality": "midline, spread bilaterally as a transverse band",
+   "landmarks": "between the eyes and the yolk, anterior to the heart"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Transverse crescent-shaped sheet of about 250 granular cells draped over the anterior yolk ball under the head. Bright refractile look. Fade after hatching (72 hpf)."
+  },
+  "sizes": [
+   {
+    "stageLabel": "14-19 somites",
+    "hpf": 18,
+    "dims_um": {
+     "cells": 271,
+     "width": 150,
+     "length": 100,
+     "thickness": 15
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/",
+    "note": "271 +/- 42 cells at 18 hpf; linear sizes are estimates"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "cells": 250,
+     "width": 200,
+     "length": 120,
+     "thickness": 15
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/",
+    "note": "continuous sheet by 24 hpf; cell count stable 232 to 271; sizes estimates"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "cells": 254,
+     "width": 220,
+     "length": 130,
+     "thickness": 15
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/",
+    "note": "241 to 267 cells at 48 hpf; sizes estimates"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10,
+    "event": "polster cells lie below the basal keratinocytes"
+   },
+   {
+    "hpf": 14,
+    "event": "ZFA start stage; cells relocate above the basal layer"
+   },
+   {
+    "hpf": 24,
+    "event": "continuous sheet on the pericardium; ctslb and he1 expression"
+   },
+   {
+    "hpf": 48,
+    "event": "secretion of hatching enzyme; hatching period"
+   },
+   {
+    "hpf": 72,
+    "event": "ZFA end stage; cells degenerate after hatching (TUNEL positive by 78 hpf)"
+   }
+  ],
+  "colorHint": "#E57373",
+  "sources": [
+   "https://zfin.org/ZFA:0000026",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/",
+   "https://zfin.org/zf_info/zfbook/stages/seg.html"
+  ]
+ },
+ {
+  "id": "ZFA:0001185",
+  "name": "periderm",
+  "synonyms": [
+   "EVL"
+  ],
+  "system": "integument_pigment",
+  "uiGroup": "early_embryo",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000022",
+  "startHpf": 10.0,
+  "endStage": "ZFS:0000028",
+  "endHpf": 24.0,
+  "definition": "The outermost epidermal layer covering the fish at embryonic stages; derived from the EVL and thought to eventually be replaced by the superficial stratum of the epidermis. Sometimes used synonymously with EVL.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    1.0
+   ],
+   "dv": "outer skin of the whole embryo including the yolk",
+   "laterality": "midline",
+   "landmarks": "the rendered body surface"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Outer surface of the body and yolk. Render as the body skin; one cell thick. Continue as epidermis (ZFA:0000105) after 24 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Bud",
+    "hpf": 10,
+    "dims_um": {
+     "thickness": 5
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "thickness": 5
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ZFA end stage; epidermis term starts"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10,
+    "event": "EVL becomes periderm at the end of epiboly"
+   },
+   {
+    "hpf": 24,
+    "event": "ZFA end stage; epidermis (ZFA:0000105) begins"
+   }
+  ],
+  "colorHint": "#DDE7EE",
+  "sources": [
+   "https://zfin.org/ZFA:0001185",
+   "https://zfin.org/ZFA:0000105"
+  ],
+  "modelEndHpf": 168.0,
+  "modelEndNote": "a peridermal layer persists on the larva for days; the model can keep one skin shell for the whole timeline"
+ },
+ {
+  "id": "ZFA:0000091",
+  "name": "axial chorda mesoderm",
+  "synonyms": [
+   "chordamesoderm",
+   "chorda mesoderm",
+   "presumptive notochord"
+  ],
+  "system": "axial",
+  "uiGroup": "axial",
+  "parent": "ZFA:0000092",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000020",
+  "startHpf": 8.0,
+  "endStage": "ZFS:0000022",
+  "endHpf": 10.33,
+  "definition": "Notochord rudiment.",
+  "spatial": {
+   "apFraction": [
+    0.1,
+    1.0
+   ],
+   "dv": "dorsal midline of the hypoblast, under the neural plate",
+   "laterality": "midline",
+   "landmarks": "posterior to the prechordal plate; extends to the tail bud"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Thin rod along the dorsal meridian of the gastrula from the prechordal plate to the margin. Becomes the notochord at bud stage."
+  },
+  "sizes": [
+   {
+    "stageLabel": "75%-epiboly",
+    "hpf": 8,
+    "dims_um": {
+     "length": 800,
+     "diameter": 50
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Bud",
+    "hpf": 10,
+    "dims_um": {
+     "length": 1500,
+     "diameter": 45
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 8,
+    "event": "ZFA start stage; visible in the dorsal hypoblast"
+   },
+   {
+    "hpf": 9,
+    "event": "notochord rudiment distinct at 90 percent epiboly"
+   },
+   {
+    "hpf": 10.33,
+    "event": "ZFA end stage; notochord"
+   }
+  ],
+  "colorHint": "#A6C48A",
+  "sources": [
+   "https://zfin.org/ZFA:0000091",
+   "https://zfin.org/zf_info/zfbook/stages/index.html",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000060",
+  "name": "prechordal plate",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "axial",
+  "parent": "ZFA:0000092",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000020",
+  "startHpf": 8.0,
+  "endStage": "ZFS:0000029",
+  "endHpf": 30.0,
+  "definition": "Axial hypoblast located anterior to the chorda mesoderm; the polster is its most anterior region.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    0.1
+   ],
+   "dv": "under the anterior neural plate on the yolk",
+   "laterality": "midline",
+   "landmarks": "anterior to the notochord; polster at its tip"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Flattened ellipsoid ahead of the notochord under the forebrain. Merge with the polster bump."
+  },
+  "sizes": [
+   {
+    "stageLabel": "75%-epiboly",
+    "hpf": 8,
+    "dims_um": {
+     "length": 200,
+     "width": 120,
+     "thickness": 40
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 150,
+     "width": 100,
+     "thickness": 30
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ZFA end stage at 30 hpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 8,
+    "event": "reaches the animal pole"
+   },
+   {
+    "hpf": 10,
+    "event": "polster bulge at its anterior end"
+   },
+   {
+    "hpf": 30,
+    "event": "ZFA end stage"
+   }
+  ],
+  "colorHint": "#C9A66B",
+  "sources": [
+   "https://zfin.org/ZFA:0000060",
+   "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0000135",
+  "name": "notochord",
+  "synonyms": [
+   "notocord"
+  ],
+  "system": "axial",
+  "uiGroup": "axial",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000022",
+  "startHpf": 10.0,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "Rod-like principal supportive element of the embryo and larva, present in the midline just ventral to the neural tube, and differentiating during the segmentation period to form large vacuolated epithelial cells and a surrounding sheath of fibrous and elastic layers.",
+  "spatial": {
+   "apFraction": [
+    0.12,
+    1.0
+   ],
+   "dv": "ventral to the neural tube, dorsal to the hypochord and dorsal aorta",
+   "laterality": "midline",
+   "landmarks": "from the posterior midbrain level to the tail tip; the tip bends dorsally (flexion) from 4.5 mm SL"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Circular tube along a spline that follows the body axis. Uniform diameter along the trunk, tapering over the last 10 percent. Optional stack-of-pennies segmentation from 16 hpf and vacuolated cells from 24 hpf. From 4.5 mm SL bend the posterior 8 percent dorsally to 45 deg. From 6 dpf overlay chordacentra rings at about 1.5 segments per day."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Bud",
+    "hpf": 10,
+    "dims_um": {
+     "length": 1500,
+     "diameter": 45
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "rod along the dorsal meridian"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 1700,
+     "diameter": 40
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "trunk diameter estimate; body EL 1.9 mm"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 2800,
+     "diameter": 55
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "vacuolated; notochord to cell diameter ratio 1.33 (Norman 2018)"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 3500,
+     "diameter": 65
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 14000,
+     "diameter": 0
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "replaced by 29 to 33 vertebral centra; notochord tissue persists only inside the centra and intervertebral spaces"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 8,
+    "event": "chordamesoderm visible"
+   },
+   {
+    "hpf": 10,
+    "event": "ZFA start stage (bud)"
+   },
+   {
+    "hpf": 16,
+    "event": "stack-of-pennies appearance (14-19 somites)"
+   },
+   {
+    "hpf": 24,
+    "event": "vacuolated cells inflate during the pharyngula period"
+   },
+   {
+    "hpf": 48,
+    "event": "vacuolated cell packing set; aspect ratio 1.07"
+   },
+   {
+    "hpf": 96,
+    "event": "sheath segmentation begins at about 4 dpf, 3.5 to 4.0 mm SL, one segment every 8 h"
+   },
+   {
+    "hpf": 144,
+    "event": "first chordacentrum mineralizes anteriorly at 6 dpf; then about 1.5 segments per day"
+   },
+   {
+    "hpf": 336,
+    "event": "notochord flexion 4.5 to 6.5 mm SL, final angle about 45 deg"
+   },
+   {
+    "hpf": 672,
+    "event": "29 to 31 sheath segments at 28 dpf"
+   }
+  ],
+  "colorHint": "#9CCC65",
+  "sources": [
+   "https://zfin.org/ZFA:0000135",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6158209/",
+   "https://elifesciences.org/articles/33843",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5860813/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+  ]
+ },
+ {
+  "id": "ZFA:0000255",
+  "name": "paraxial mesoderm",
+  "synonyms": [
+   "paraxial mesenchyme"
+  ],
+  "system": "axial",
+  "uiGroup": "axial",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000022",
+  "startHpf": 10.0,
+  "endStage": "ZFS:0000034",
+  "endHpf": 72.0,
+  "definition": "Mesoderm which is lateral to the neural tube on both sides.",
+  "spatial": {
+   "apFraction": [
+    0.2,
+    1.0
+   ],
+   "dv": "lateral to the notochord and neural tube",
+   "laterality": "paired",
+   "landmarks": "grouping node for segmental plate and somites"
+  },
+  "shape": {
+   "primitive": "custom",
+   "notes": "Grouping node. Geometry is carried by the segmental plate and the somites."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 1500,
+     "width": 100
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "sum of somites plus the segmental plate on each side"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 2600,
+     "width": 120
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ZFA end stage at 72 hpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 72,
+    "event": "ZFA end stage"
+   }
+  ],
+  "colorHint": "#F8BBD0",
+  "sources": [
+   "https://zfin.org/ZFA:0000255"
+  ]
+ },
+ {
+  "id": "ZFA:0000279",
+  "name": "segmental plate",
+  "synonyms": [
+   "presomitic mesoderm",
+   "PSM"
+  ],
+  "system": "axial",
+  "uiGroup": "axial",
+  "parent": "ZFA:0000255",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000022",
+  "startHpf": 10.0,
+  "endStage": "ZFS:0000029",
+  "endHpf": 30.0,
+  "definition": "Unsegmented field of paraxial mesoderm present posterior to the most recently formed somite pair, from which somites will form.",
+  "spatial": {
+   "apFraction": [
+    0.8,
+    1.0
+   ],
+   "dv": "lateral to the posterior notochord, ventral to the neural tube",
+   "laterality": "paired",
+   "landmarks": "between the last somite and the tail bud; shrinks as somites are added"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Paired tapered tubes from the last somite boundary to the tail bud. Length shrinks from about 350 um at 12 hpf to zero at about 24 hpf."
+  },
+  "sizes": [
+   {
+    "stageLabel": "5-9 somites",
+    "hpf": 12,
+    "dims_um": {
+     "length": 350,
+     "width": 60,
+     "height": 80
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "14-19 somites",
+    "hpf": 17,
+    "dims_um": {
+     "length": 250,
+     "width": 50,
+     "height": 70
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 80,
+     "width": 40,
+     "height": 50
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "last somites form about 24 hpf; ZFA end stage 30 hpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 10.33,
+    "event": "first somite pinches off its anterior end"
+   },
+   {
+    "hpf": 24,
+    "event": "about 30 somites formed; plate nearly consumed"
+   },
+   {
+    "hpf": 30,
+    "event": "ZFA end stage"
+   }
+  ],
+  "colorHint": "#F48FB1",
+  "sources": [
+   "https://zfin.org/ZFA:0000279",
+   "https://zfin.org/zf_info/zfbook/stages/seg.html",
+   "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.21458"
+  ]
+ },
+ {
+  "id": "ZFA:0000155",
+  "name": "somite",
+  "synonyms": [
+   "somitic mesoderm"
+  ],
+  "system": "axial",
+  "uiGroup": "axial",
+  "parent": "ZFA:0001115",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000023",
+  "startHpf": 10.33,
+  "endStage": "ZFS:0000034",
+  "endHpf": 72.0,
+  "definition": "Undifferentiated mesodermal components of early trunk or tail segments or metameres, derived from paraxial mesoderm; forms myotomes, sclerotomes and perhaps dermatomes.",
+  "spatial": {
+   "apFraction": [
+    0.25,
+    0.97
+   ],
+   "dv": "lateral to the notochord and neural tube; extend from dorsal to ventral midline in the tail",
+   "laterality": "paired",
+   "landmarks": "somite 1 just behind the otic placode; the vent lies at about somite 17"
+  },
+  "shape": {
+   "primitive": "segmentArray",
+   "notes": "Paired array of blocks along the axis. Count n(t): 3 per hour for the first six, then 2 per hour; 18 at 18 hpf, about 30 by 24 hpf, 13 of them in the tail. Block length about 50 um for somites 6 to 14, falling to about 30 um by somite 25; height about twice the length. Shape: cuboid at formation; the boundary deforms into a chevron (V pointing anteriorly) over 2 h starting several hours after formation; segments 1 and 2 stay straight; segments 8 to 15 reach 40 deg."
+  },
+  "sizes": [
+   {
+    "stageLabel": "5-9 somites",
+    "hpf": 12,
+    "dims_um": {
+     "count": 7,
+     "length": 50,
+     "height": 100,
+     "width": 50
+    },
+    "source": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.21458",
+    "note": "length about 50 um for somites 6 to 14 (Schroeter 2008, quoted via snippet); height about 2x length (Rost 2014)"
+   },
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "count": 30,
+     "length": 50,
+     "lengthTail": 30,
+     "height": 100,
+     "width": 50
+    },
+    "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+    "note": "about 30 somites, 13 in the tail; tail somites about 30 um long by somite 25"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "count": 31,
+     "length": 60,
+     "height": 140,
+     "width": 60,
+     "chevronDeg": 40
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/",
+    "note": "segments 8 to 15 acquire 40 +/- 3 deg; sizes are estimates for a 3.1 mm embryo"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10.33,
+    "event": "first somitic furrow (1-4 somites)"
+   },
+   {
+    "hpf": 12,
+    "event": "first 5 to 6 somites at about 3 per hour"
+   },
+   {
+    "hpf": 16,
+    "event": "about 2 per hour thereafter; older somites develop myotomes"
+   },
+   {
+    "hpf": 18,
+    "event": "18 somites"
+   },
+   {
+    "hpf": 19,
+    "event": "trunk myotomes produce weak contractions"
+   },
+   {
+    "hpf": 22,
+    "event": "26+ somites"
+   },
+   {
+    "hpf": 24,
+    "event": "about 30 somites, 13 in the tail"
+   },
+   {
+    "hpf": 72,
+    "event": "ZFA end stage; myotomes and sclerotomes"
+   }
+  ],
+  "colorHint": "#EF9A9A",
+  "sources": [
+   "https://zfin.org/ZFA:0000155",
+   "https://zfin.org/zf_info/zfbook/stages/seg.html",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+   "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.21458",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/"
+  ]
+ },
+ {
+  "id": "ZFA:0001056",
+  "name": "myotome",
+  "synonyms": [
+   "myomeres"
+  ],
+  "system": "muscular",
+  "uiGroup": "axial",
+  "parent": "ZFA:0000473",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000023",
+  "startHpf": 10.33,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "Muscle that develops from somite and gives rise to body wall muscle masses.",
+  "spatial": {
+   "apFraction": [
+    0.25,
+    0.97
+   ],
+   "dv": "the whole flank between dorsal and ventral midlines, split by the horizontal myoseptum into epaxial and hypaxial halves",
+   "laterality": "paired",
+   "landmarks": "chevron with the V pointing anteriorly; adult has about 30 to 32 myomeres"
+  },
+  "shape": {
+   "primitive": "segmentArray",
+   "notes": "Same segment array as the somites, continued for the whole life. Each block is a chevron (anterior-pointing V) whose arms grow into W shapes in juveniles and adults. Height equals the body height at each axial position."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "count": 30,
+     "length": 50,
+     "height": 100
+    },
+    "source": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.21458",
+    "note": "same as somites"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "count": 31,
+     "length": 60,
+     "height": 150,
+     "chevronDeg": 40
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/",
+    "note": "sizes estimates"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "count": 31,
+     "length": 90,
+     "height": 250
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "3.9 mm larva"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "count": 31,
+     "length": 550,
+     "height": 4000
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "about 31 myomeres over an 18 mm SL body; count from vertebral number 29 to 33"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10.33,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 16,
+    "event": "older somites begin to develop myotomes"
+   },
+   {
+    "hpf": 19,
+    "event": "weak muscular contractions"
+   },
+   {
+    "hpf": 22,
+    "event": "chevron formation under way; muscle pioneers at the apex"
+   },
+   {
+    "hpf": 26,
+    "event": "chevron of segment 15 complete (about 2 h after onset)"
+   },
+   {
+    "hpf": 2160,
+    "event": "adult myomeres with W-shaped folds"
+   }
+  ],
+  "colorHint": "#E57373",
+  "sources": [
+   "https://zfin.org/ZFA:0001056",
+   "https://zfin.org/zf_info/zfbook/stages/seg.html",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/",
+   "https://elifesciences.org/articles/33843"
+  ]
+ },
+ {
+  "id": "ZFA:0001089",
+  "name": "myoseptum",
+  "synonyms": [
+   "myosepta",
+   "myocommata"
+  ],
+  "system": "muscular",
+  "uiGroup": "axial",
+  "parent": "ZFA:0001056",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000023",
+  "startHpf": 10.33,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "Connective tissue partitions between (vertical) and within (horizontal) myotomes (no ZFA definition; wording from the vertical and horizontal myoseptum definitions).",
+  "spatial": {
+   "apFraction": [
+    0.25,
+    0.97
+   ],
+   "dv": "full body height between adjacent myotomes",
+   "laterality": "paired",
+   "landmarks": "the visible chevron lines on the flank"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Thin chevron-shaped sheets at each segment boundary. Render as lines on the flank; angle from 0 deg (straight) at formation to 40 deg in segments 8 to 15."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "count": 29,
+     "thickness": 5,
+     "chevronDeg": 30
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "boundaries between 30 somites; anterior chevrons complete, posterior forming"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "count": 30,
+     "thickness": 5,
+     "chevronDeg": 40
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "count": 30,
+     "thickness": 8,
+     "chevronDeg": 40
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "count": 30,
+     "thickness": 50,
+     "chevronDeg": 45
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10.33,
+    "event": "first boundary"
+   },
+   {
+    "hpf": 13.5,
+    "event": "segments 4 to 7 deform simultaneously into chevrons"
+   },
+   {
+    "hpf": 24,
+    "event": "posterior segments deform sequentially, 2 h each"
+   }
+  ],
+  "colorHint": "#B71C1C",
+  "sources": [
+   "https://zfin.org/ZFA:0001089",
+   "https://zfin.org/ZFA:0000610",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/"
+  ]
+ },
+ {
+  "id": "ZFA:0000671",
+  "name": "horizontal myoseptum",
+  "synonyms": [
+   "horizontal septum"
+  ],
+  "system": "muscular",
+  "uiGroup": "axial",
+  "parent": "ZFA:0001089",
+  "parentRelation": "is_a",
+  "startStage": "ZFS:0000028",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "A connective tissue partition developing at the apex of the chevron-shaped myotome and separating dorsal (epaxial) and ventral (hypaxial) body wall muscle masses.",
+  "spatial": {
+   "apFraction": [
+    0.25,
+    0.97
+   ],
+   "dv": "at the level of the notochord, mid height of the flank",
+   "laterality": "paired",
+   "landmarks": "the lateral line runs along it; muscle pioneers mark it at the notochord"
+  },
+  "shape": {
+   "primitive": "sheet",
+   "notes": "Horizontal sheet from the notochord to the skin along the whole trunk and tail at the chevron apex."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 1400,
+     "width": 50
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ZFA start 22 hpf"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 2400,
+     "width": 60
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 3100,
+     "width": 80
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 15000,
+     "width": 2000
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "ZFA start stage (26+ somites)"
+   },
+   {
+    "hpf": 24,
+    "event": "defined by chevron apices in the trunk"
+   }
+  ],
+  "colorHint": "#8E0000",
+  "sources": [
+   "https://zfin.org/ZFA:0000671",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/"
+  ]
+ },
+ {
+  "id": "ZFA:0000022",
+  "name": "floor plate",
+  "synonyms": [
+   "floorplate",
+   "fp"
+  ],
+  "system": "nervous",
+  "uiGroup": "axial",
+  "parent": "ZFA:0000012",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000024",
+  "startHpf": 11.66,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "Multi-tissue structure that is the ventral-most aspect of the developing neural tube.  The floor plate is a specialized glial structure with secretory function that spans the rostral-caudal axis from the midbrain to the tail regions.",
+  "spatial": {
+   "apFraction": [
+    0.12,
+    0.98
+   ],
+   "dv": "ventral midline of the neural tube, directly dorsal to the notochord",
+   "laterality": "midline",
+   "landmarks": "a single row of cuboidal cells on top of the notochord"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Thin strip (one cell wide) along the top of the notochord from midbrain to tail. Render as a narrow ribbon; only visible in section or with the neural tube hidden."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 1600,
+     "width": 10,
+     "height": 10
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "single row of cells"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 2700,
+     "width": 10,
+     "height": 10
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 3400,
+     "width": 10,
+     "height": 10
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 15000,
+     "width": 15,
+     "height": 15
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "persists as the ventral midline of the spinal cord"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 8,
+    "event": "presumptive floor plate in the dorsal midline"
+   },
+   {
+    "hpf": 11.66,
+    "event": "ZFA start stage (5-9 somites)"
+   },
+   {
+    "hpf": 16,
+    "event": "distinct along the neural rod"
+   }
+  ],
+  "colorHint": "#7986CB",
+  "sources": [
+   "https://zfin.org/ZFA:0000022"
+  ]
+ },
+ {
+  "id": "ZFA:0000031",
+  "name": "hypochord",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "axial",
+  "parent": "ZFA:0000017",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000025",
+  "startHpf": 14.0,
+  "endStage": "ZFS:0000035",
+  "endHpf": 96.0,
+  "definition": "Portion of tissue that arises from the lateral edges of the shield and is located immediately ventral to the notochord. The hypochord is thought to play a role in positioning the dorsal aorta.",
+  "spatial": {
+   "apFraction": [
+    0.3,
+    0.97
+   ],
+   "dv": "directly ventral to the notochord, dorsal to the dorsal aorta",
+   "laterality": "midline",
+   "landmarks": "a single row of cells under the notochord in trunk and tail"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Thin strip (one cell wide) under the notochord from the anterior trunk to the tail. Visible only in section."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 1300,
+     "width": 8,
+     "height": 8
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 2300,
+     "width": 8,
+     "height": 8
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Protruding-mouth",
+    "hpf": 72,
+    "dims_um": {
+     "length": 2600,
+     "width": 8,
+     "height": 8
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "ZFA end stage 96 hpf"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 8,
+    "event": "presumptive hypochord"
+   },
+   {
+    "hpf": 14,
+    "event": "ZFA start stage (10-13 somites)"
+   },
+   {
+    "hpf": 96,
+    "event": "ZFA end stage"
+   }
+  ],
+  "colorHint": "#A1887F",
+  "sources": [
+   "https://zfin.org/ZFA:0000031"
+  ]
+ },
+ {
+  "id": "ZFA:0000040",
+  "name": "median fin fold",
+  "synonyms": [
+   "median fin"
+  ],
+  "system": "fins",
+  "uiGroup": "fin_fold",
+  "parent": "ZFA:0001094",
+  "parentRelation": "grouping",
+  "startStage": "ZFS:0000028",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000037",
+  "endHpf": 144.0,
+  "definition": "Surface structure that will develop into one of the median fins.  Extends from dorsal surface of fish, caudal to the 8th somite, to the ventral surface ending at the caudal side of the vent.",
+  "spatial": {
+   "apFraction": [
+    0.4,
+    1.0
+   ],
+   "dv": "dorsal midline from somite 8 to the tail tip, around the tail, and ventral midline forward to the vent",
+   "laterality": "midline",
+   "landmarks": "continuous transparent keel; tallest around the tail tip"
+  },
+  "shape": {
+   "primitive": "fin",
+   "notes": "Thin transparent sheet extruded from the dorsal and ventral midline curves. Height profile: zero at somite 8 and at the vent, rising to a maximum around the notochord tip. Add actinotrichia lines from 36 hpf. Keep until about 7.4 mm SL, then resorb between fins, leaving dorsal, anal and caudal fins."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 1100,
+     "heightMax": 60,
+     "thickness": 10
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "easily recognizable at prim-5 (Kimmel); sizes estimates"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1900,
+     "heightDorsal": 120,
+     "heightVentral": 150,
+     "heightCaudal": 200,
+     "thickness": 10
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "thin and flat by 48 hpf (PMC4482254); sizes estimates"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 2400,
+     "heightDorsal": 150,
+     "heightCaudal": 250,
+     "thickness": 12
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "sizes estimates"
+   },
+   {
+    "stageLabel": "Days 14-20",
+    "hpf": 336,
+    "dims_um": {
+     "length": 3500,
+     "heightDorsal": 200,
+     "heightCaudal": 400
+    },
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9079066/",
+    "note": "height at the dorsal fin position rises from 5.0 mm SL; inter-fin height constant to 5.5 mm SL then falls; absolute values estimates"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 18,
+    "event": "fin fold development begins at 18 hpf"
+   },
+   {
+    "hpf": 22,
+    "event": "ZFA start stage (26+ somites)"
+   },
+   {
+    "hpf": 24,
+    "event": "easily recognizable; actinodin expression starts"
+   },
+   {
+    "hpf": 36,
+    "event": "actinotrichia develop (prim-25)"
+   },
+   {
+    "hpf": 48,
+    "event": "fin mesenchyme has finished invading; fold thin and flat"
+   },
+   {
+    "hpf": 144,
+    "event": "ZFA end stage (Larval Day 5)"
+   },
+   {
+    "hpf": 336,
+    "event": "dorsal fin fold outgrowth from about 5.0 to 5.6 mm SL"
+   },
+   {
+    "hpf": 504,
+    "event": "resorption between fins; remnants over the posterior two thirds of the tail by 7.4 mm SL"
+   }
+  ],
+  "colorHint": "#B3E5FC",
+  "sources": [
+   "https://zfin.org/ZFA:0000040",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4482254/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5805328/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9079066/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+  ],
+  "visibleFromHpf": 24.0,
+  "visibleFromNote": "Kimmel: easily recognizable at prim-5; begins at 18 hpf (PMC4482254)",
+  "modelEndHpf": 720.0,
+  "modelEndNote": "the larval fin fold persists as a continuous keel until about 7.4 mm SL (about 3 to 4 weeks); ZFA ends the term at day 5"
+ },
+ {
+  "id": "ZFA:0000102",
+  "name": "dorsal fin fold",
+  "synonyms": [],
+  "system": "fins",
+  "uiGroup": "fin_fold",
+  "parent": "ZFA:0000040",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000028",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000037",
+  "endHpf": 144.0,
+  "definition": "Region of the median fin fold that develops into the dorsal fin.",
+  "spatial": {
+   "apFraction": [
+    0.4,
+    0.95
+   ],
+   "dv": "dorsal midline from somite 8 to near the tail tip",
+   "laterality": "midline",
+   "landmarks": "dorsal fin condenses within it at 5.5 to 5.8 mm SL"
+  },
+  "shape": {
+   "primitive": "fin",
+   "notes": "Dorsal half of the median fin fold sheet."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 900,
+     "heightMax": 50
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1600,
+     "heightMax": 120
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 2100,
+     "heightMax": 150
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 144,
+    "event": "ZFA end stage"
+   },
+   {
+    "hpf": 400,
+    "event": "dorsal fin condensation at 5.5 to 5.8 mm SL"
+   }
+  ],
+  "colorHint": "#B3E5FC",
+  "sources": [
+   "https://zfin.org/ZFA:0000102",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9079066/"
+  ]
+ },
+ {
+  "id": "ZFA:0001069",
+  "name": "ventral fin fold",
+  "synonyms": [
+   "ventral fin",
+   "anal fin fold",
+   "tail fin fold"
+  ],
+  "system": "fins",
+  "uiGroup": "fin_fold",
+  "parent": "ZFA:0000040",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000028",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000037",
+  "endHpf": 144.0,
+  "definition": "Region of the median fin fold that develops into the anal and caudal fin.",
+  "spatial": {
+   "apFraction": [
+    0.62,
+    1.0
+   ],
+   "dv": "ventral midline from the vent to the tail tip and around the tip",
+   "laterality": "midline",
+   "landmarks": "starts just behind the vent at the end of the yolk extension"
+  },
+  "shape": {
+   "primitive": "fin",
+   "notes": "Ventral and caudal part of the median fin fold sheet. Tallest around the tail tip."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 700,
+     "heightMax": 60
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1300,
+     "heightMax": 200
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1700,
+     "heightMax": 250
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 22,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 144,
+    "event": "ZFA end stage"
+   },
+   {
+    "hpf": 320,
+    "event": "caudal fin rays appear at 4.9 to 5.1 mm SL; anal fin condensation at 5.2 to 5.5 mm SL"
+   }
+  ],
+  "colorHint": "#B3E5FC",
+  "sources": [
+   "https://zfin.org/ZFA:0001069",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+  ]
+ },
+ {
+  "id": "ZFA:0001114",
+  "name": "head",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "body_region",
+  "parent": "ZFA:0001094",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000022",
+  "startHpf": 10.0,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "Organism subdivision which is the part of the body which consists of the cranial and pharyngeal regions.",
+  "spatial": {
+   "apFraction": [
+    0.0,
+    0.28
+   ],
+   "dv": "all",
+   "laterality": "midline",
+   "landmarks": "snout to the posterior edge of the otic vesicle and pharyngeal arches; bent ventrally over the yolk at 24 hpf (HTA 120 deg)"
+  },
+  "shape": {
+   "primitive": "ellipsoid",
+   "notes": "Anterior body segment. Ellipsoid with the eyes as lateral bulges. Rotate ventrally relative to the trunk by the head-trunk angle: 120 deg (24 h), 95 (30 h), 75 (36 h), 55 (42 h), 45 (48 h), about 25 by 72 h."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 550,
+     "height": 350,
+     "width": 300
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "about 0.28 of a 1.9 mm embryo"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 800,
+     "height": 450,
+     "width": 400
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "yolk volume about equals head volume (Kimmel)"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 850,
+     "height": 450,
+     "width": 400
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 4500,
+     "height": 3500,
+     "width": 2500
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "about 0.25 of an 18 mm SL adult"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10,
+    "event": "ZFA start stage (bud): anterior neural plate thickens"
+   },
+   {
+    "hpf": 24,
+    "event": "head bent over the yolk, HTA 120 deg"
+   },
+   {
+    "hpf": 72,
+    "event": "mouth protrudes; head axis nearly aligned with trunk"
+   }
+  ],
+  "colorHint": "#FFE082",
+  "sources": [
+   "https://zfin.org/ZFA:0001114",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/figs/fig33.html"
+  ]
+ },
+ {
+  "id": "ZFA:0001306",
+  "name": "pharyngeal arch",
+  "synonyms": [
+   "pharyngeal arches"
+  ],
+  "system": "axial",
+  "uiGroup": "body_region",
+  "parent": "ZFA:0001114",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000025",
+  "startHpf": 14.0,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "One of a series of paired bony or cartilaginous arches that develop along the lateral walls of the foregut. There are seven pharyngeal arches.",
+  "spatial": {
+   "apFraction": [
+    0.12,
+    0.26
+   ],
+   "dv": "ventral half of the head behind the eye, lateral to the pharynx",
+   "laterality": "paired",
+   "landmarks": "the pharyngeal region: between the eye and the heart; gill slits open at 48 to 72 hpf"
+  },
+  "shape": {
+   "primitive": "segmentArray",
+   "notes": "Region node for the pharyngeal part of the head: seven paired transverse bars under the hindbrain. Render as a ventrolateral block of the head; the skeletal specialist supplies the cartilages."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 250,
+     "height": 150,
+     "width": 300
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 350,
+     "height": 250,
+     "width": 400
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 450,
+     "height": 300,
+     "width": 450
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 2500,
+     "height": 2500,
+     "width": 2500
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 14,
+    "event": "ZFA start stage (10-13 somites)"
+   },
+   {
+    "hpf": 30,
+    "event": "pharyngeal pouches form"
+   },
+   {
+    "hpf": 48,
+    "event": "jaw cartilage condensations; five gill slits form during hatching"
+   }
+  ],
+  "colorHint": "#FFAB91",
+  "sources": [
+   "https://zfin.org/ZFA:0001306",
+   "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+  ]
+ },
+ {
+  "id": "ZFA:0001115",
+  "name": "trunk",
+  "synonyms": [],
+  "system": "axial",
+  "uiGroup": "body_region",
+  "parent": "ZFA:0001094",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000022",
+  "startHpf": 10.0,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "Organism subdivision which is the part of the body posterior to the head and anterior to the post-vent region.",
+  "spatial": {
+   "apFraction": [
+    0.28,
+    0.62
+   ],
+   "dv": "all; sits on top of the yolk ball and yolk extension",
+   "laterality": "midline",
+   "landmarks": "from somite 1 to the vent (about somite 17); the yolk extension lies under it"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Body segment between head and vent. Elliptical cross section, taller than wide. Its ventral side follows the yolk; the gut runs along the yolk extension."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 650,
+     "height": 250,
+     "width": 200
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1100,
+     "height": 350,
+     "width": 250
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1400,
+     "height": 450,
+     "width": 300
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 6500,
+     "height": 4500,
+     "width": 2500
+    },
+    "source": "estimate (this document); see md notes"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 10,
+    "event": "ZFA start stage"
+   },
+   {
+    "hpf": 22,
+    "event": "straightening of the posterior trunk nearly complete"
+   },
+   {
+    "hpf": 24,
+    "event": "17 trunk somites"
+   }
+  ],
+  "colorHint": "#A5D6A7",
+  "sources": [
+   "https://zfin.org/ZFA:0001115",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+  ]
+ },
+ {
+  "id": "ZFA:0001117",
+  "name": "post-vent region",
+  "synonyms": [
+   "tail"
+  ],
+  "system": "axial",
+  "uiGroup": "body_region",
+  "parent": "ZFA:0001094",
+  "parentRelation": "part_of",
+  "startStage": "ZFS:0000028",
+  "startHpf": 22.0,
+  "endStage": "ZFS:0000044",
+  "endHpf": 17520.0,
+  "definition": "Organism subdivision which is the part of the body posterior to the vent which includes the anal and caudal fins.",
+  "spatial": {
+   "apFraction": [
+    0.62,
+    1.0
+   ],
+   "dv": "all; free of the yolk",
+   "laterality": "midline",
+   "landmarks": "from the vent to the tail tip; 13 tail somites at 24 hpf; curls ventrally around the yolk before 22 hpf, then straightens"
+  },
+  "shape": {
+   "primitive": "tube",
+   "notes": "Tapered body segment behind the vent, wrapped by the median fin fold. Curve it ventrally around the yolk until 22 hpf, straighten by 48 hpf, and bend the tip dorsally (flexion) from 4.5 mm SL."
+  },
+  "sizes": [
+   {
+    "stageLabel": "Prim-5",
+    "hpf": 24,
+    "dims_um": {
+     "length": 700,
+     "heightBase": 200,
+     "heightTip": 80
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "13 tail somites"
+   },
+   {
+    "stageLabel": "Long-pec",
+    "hpf": 48,
+    "dims_um": {
+     "length": 1200,
+     "heightBase": 300,
+     "heightTip": 80
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Day 5",
+    "hpf": 120,
+    "dims_um": {
+     "length": 1650,
+     "heightBase": 400,
+     "heightTip": 100
+    },
+    "source": "estimate (this document); see md notes"
+   },
+   {
+    "stageLabel": "Adult",
+    "hpf": 2160,
+    "dims_um": {
+     "length": 7000,
+     "heightBase": 4000,
+     "heightTip": 2500
+    },
+    "source": "estimate (this document); see md notes",
+    "note": "post-vent body plus caudal fin"
+   }
+  ],
+  "events": [
+   {
+    "hpf": 16,
+    "event": "tail bud protrudes from the yolk"
+   },
+   {
+    "hpf": 22,
+    "event": "ZFA start stage; tail still curves ventrally"
+   },
+   {
+    "hpf": 30,
+    "event": "tail morphogenesis nears completion"
+   },
+   {
+    "hpf": 336,
+    "event": "notochord flexion 4.5 to 6.5 mm SL"
+   }
+  ],
+  "colorHint": "#90CAF9",
+  "sources": [
+   "https://zfin.org/ZFA:0001117",
+   "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+   "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+  ]
+ }
+]

@@ -1,0 +1,1745 @@
+[
+  {
+    "id": "ZFA:0001094",
+    "name": "whole organism",
+    "synonyms": [
+      "multi-cellular organism"
+    ],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": null,
+    "uiParent": null,
+    "parentRelation": "root",
+    "definition": "Anatomical structure that is an individual member of Danio rerio.",
+    "zfinStartStage": "ZFS:0000001",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0,
+    "endHpf": 17520,
+    "visibleFromHpf": 0,
+    "modelEndHpf": 4320,
+    "overrideNote": "DM-36: the axis end is a clamp; ZFA carries the whole organism to the adult stage. DM-31: the root is the skin tube, not a group node.",
+    "fadeInHpf": 0,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": false,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "ZFIN anatomy_item.txt (ZFA release 2026-07-16)",
+      "spec DM-31"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "path": {
+        "type": "spine",
+        "uStart": 0,
+        "uEnd": 1,
+        "v": 0,
+        "w": 0
+      },
+      "radiusMm": "body",
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 0
+        },
+        {
+          "hpf": 10
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "lodHint": "high",
+      "estimate": [],
+      "sources": [
+        "spec BG-30: the body sweep uses hD, hV, hW from the body frame"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000329",
+    "name": "chorion",
+    "synonyms": [],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000020",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "The egg shell.",
+    "zfinStartStage": "ZFS:0000001",
+    "zfinEndStage": "ZFS:0000032",
+    "startHpf": 0,
+    "endHpf": 48,
+    "visibleFromHpf": 0,
+    "modelEndHpf": 30,
+    "overrideNote": "D8: the chorion shows at real size (inner diameter 1.2 mm) to 24 hpf and fades out from 24 to 30 hpf; the model is dechorionated after 30 hpf, as in the Kimmel staging series. ZFA ends the chorion at High-pec (48 hpf); hatching is a timeline event (median 60 hpf, window 48 to 72 hpf).",
+    "fadeInHpf": 0,
+    "fadeOutHpf": 6,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 60,
+        "text": "Hatching, median 60 hpf (window 48 to 72 hpf); the model is shown dechorionated from 30 hpf.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 0,
+        "stageLabel": "1-cell",
+        "dimsMm": {
+          "diameter": 1.2,
+          "thickness": 0.003
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+        "note": "inner diameter from radius 397 um plus perivitelline space 210 um; wall 3 um"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#C8D0D8",
+      "light": "#7A8790",
+      "opacity": 0.1
+    },
+    "sources": [
+      "research 03a chorion record",
+      "D8 chorion display"
+    ],
+    "geometry": {
+      "kind": "bodyDriven",
+      "part": "chorion",
+      "keyframes": [
+        {
+          "hpf": 0
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 30
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "body.json chorion radius (BG-33, DM-31)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000084",
+    "name": "yolk",
+    "synonyms": [
+      "yolk cell"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0009000",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "Giant syncytial uncleaved cell containing nutrient store for embryonic development in the form of semicrystalline phospholipoprotein and contained within yolk granules.",
+    "zfinStartStage": "ZFS:0000001",
+    "zfinEndStage": "ZFS:0000037",
+    "startHpf": 0,
+    "endHpf": 144,
+    "visibleFromHpf": 0,
+    "modelEndHpf": 168,
+    "overrideNote": "D8: yolk exhausted at 168 hpf (inferred, not measured); ZFA ends the yolk at Day 5 (144 hpf).",
+    "fadeInHpf": 0,
+    "fadeOutHpf": 1.2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 4.33,
+        "text": "Yolk cell domes toward the animal pole; epiboly begins.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 16,
+        "text": "Yolk constriction starts the yolk extension.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 168,
+        "text": "Yolk exhausted (D8, inferred).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6198760/",
+        "estimate": true
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 0,
+        "stageLabel": "1-cell",
+        "dimsMm": {
+          "diameter": 0.7
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "ballDiameter": 0.55,
+          "extensionLength": 0.55
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "body.json (spec 4.3.2)",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "ballDiameter": 0.44,
+          "extensionLength": 0.65
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "body.json (spec 4.3.2); research 05 section 7",
+        "estimate": true
+      }
+    ],
+    "colorOverride": {
+      "dark": "#F2C94C",
+      "light": "#A6861B"
+    },
+    "sources": [
+      "research 03a yolk record",
+      "research 05 sections 2 and 7"
+    ],
+    "geometry": {
+      "kind": "bodyDriven",
+      "part": "yolk",
+      "keyframes": [
+        {
+          "hpf": 0
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "body.json yolk ball and extension (BG-33, DM-31)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001176",
+    "name": "blastoderm",
+    "synonyms": [],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001105",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "Embryonic structure that is composed of the cellular part of the embryo, excluding the yolk cell, derived from the blastodisc by early morphogenesis; refers particularly to the time when the cell array is sheet-like, between 30%-epiboly and the end of gastrulation.",
+    "zfinStartStage": "ZFS:0000016",
+    "zfinEndStage": "ZFS:0000022",
+    "startHpf": 4.66,
+    "endHpf": 10.33,
+    "visibleFromHpf": 4.66,
+    "modelEndHpf": 10.33,
+    "overrideNote": null,
+    "fadeInHpf": 0.0295,
+    "fadeOutHpf": 0.0165,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 5.25,
+        "text": "Gastrulation begins at 50%-epiboly.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast.html"
+      },
+      {
+        "hpf": 10,
+        "text": "Epiboly complete; the yolk plug closes.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 4.66,
+        "stageLabel": "30%-epiboly",
+        "dimsMm": {
+          "thickness": 0.075
+        },
+        "counts": {
+          "cells": 3
+        },
+        "anglesDeg": {},
+        "source": "research 03a blastoderm record",
+        "estimate": true
+      },
+      {
+        "hpf": 6,
+        "stageLabel": "Shield",
+        "dimsMm": {
+          "thickness": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03a blastoderm record"
+    ],
+    "geometry": {
+      "kind": "shell",
+      "centre": {
+        "u": 0.5,
+        "v": 0,
+        "w": 0
+      },
+      "innerRadiusMm": 0.35,
+      "azimuthDeg": 360,
+      "keyframes": [
+        {
+          "hpf": 4.66,
+          "thicknessMm": 0.075,
+          "polarDeg": 66
+        },
+        {
+          "hpf": 5.25,
+          "thicknessMm": 0.09,
+          "polarDeg": 90
+        },
+        {
+          "hpf": 6,
+          "thicknessMm": 0.1,
+          "polarDeg": 90
+        },
+        {
+          "hpf": 8,
+          "thicknessMm": 0.08,
+          "polarDeg": 120
+        },
+        {
+          "hpf": 9,
+          "thicknessMm": 0.07,
+          "polarDeg": 143
+        },
+        {
+          "hpf": 10,
+          "thicknessMm": 0.06,
+          "polarDeg": 180
+        },
+        {
+          "hpf": 10.33,
+          "thicknessMm": 0.06,
+          "polarDeg": 180
+        }
+      ],
+      "estimate": [
+        "centre",
+        "thicknessMm"
+      ],
+      "sources": [
+        "research 03a blastoderm record: coverage 0.30 at 4.66 h, 0.50 at 5.25 h, 0.75 at 8 h, 0.90 at 9 h, 1.00 at 10 h; polarDeg = acos(1 - 2 x coverage)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000135",
+    "name": "notochord",
+    "synonyms": [
+      "notocord"
+    ],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000091",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "develops_from",
+    "definition": "Rod-like principal supportive element of the embryo and larva, present in the midline just ventral to the neural tube, and differentiating during the segmentation period to form large vacuolated epithelial cells and a surrounding sheath of fibrous and elastic layers.",
+    "zfinStartStage": "ZFS:0000022",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 10,
+    "endHpf": 17520,
+    "visibleFromHpf": 10,
+    "modelEndHpf": 4320,
+    "overrideNote": "DM-36: the axis end is a clamp; ZFA carries the notochord to the adult stage.",
+    "fadeInHpf": 0.5,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 16,
+        "text": "Stack-of-pennies segmentation visible.",
+        "source": "research 03a notochord record"
+      },
+      {
+        "hpf": 224,
+        "text": "Notochord flexion begins (4.5 mm SL).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true
+      },
+      {
+        "hpf": 504,
+        "text": "Notochord flexion complete (6.5 mm SL, D8).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 10,
+        "stageLabel": "Bud",
+        "dimsMm": {
+          "length": 1.5,
+          "diameter": 0.045
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a notochord record",
+        "estimate": true
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.7,
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a notochord record",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 2.8,
+          "diameter": 0.055
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a notochord record",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 3.5,
+          "diameter": 0.065
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a notochord record",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03a notochord record",
+      "research 05 section 8",
+      "spec 4.10"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "path": {
+        "type": "spine",
+        "uStart": 0.15,
+        "uEnd": 1,
+        "v": 0,
+        "w": 0
+      },
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 10,
+          "radiusMm": {
+            "r0Mm": 0.0225,
+            "r1Mm": 0.015
+          },
+          "taperFromU": 0.9,
+          "flexionDeg": 0,
+          "flexionFromU": 0.92,
+          "segmented": false
+        },
+        {
+          "hpf": 16,
+          "segmented": true
+        },
+        {
+          "hpf": 24,
+          "path": {
+            "type": "spine",
+            "uStart": 0.12,
+            "uEnd": 1,
+            "v": 0,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.02,
+            "r1Mm": 0.01
+          }
+        },
+        {
+          "hpf": 48,
+          "radiusMm": {
+            "r0Mm": 0.0275,
+            "r1Mm": 0.01
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiusMm": {
+            "r0Mm": 0.0325,
+            "r1Mm": 0.01
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiusMm": {
+            "r0Mm": 0.034,
+            "r1Mm": 0.01
+          },
+          "flexionDeg": 0
+        },
+        {
+          "hpf": 224,
+          "sizeRefSl": 4.5,
+          "flexionDeg": 0
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "radiusMm": {
+            "r0Mm": 0.04,
+            "r1Mm": 0.012
+          },
+          "flexionDeg": 18
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiusMm": {
+            "r0Mm": 0.045,
+            "r1Mm": 0.012
+          },
+          "flexionDeg": 45
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiusMm": {
+            "r0Mm": 0.05,
+            "r1Mm": 0.014
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "radiusMm": {
+            "r0Mm": 0.07,
+            "r1Mm": 0.018
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "radiusMm": {
+            "r0Mm": 0.1,
+            "r1Mm": 0.025
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "radiusMm": {
+            "r0Mm": 0.13,
+            "r1Mm": 0.03
+          }
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "taperFromU"
+      ],
+      "sources": [
+        "research 03a notochord record",
+        "research 05 section 8",
+        "D8 flexion 6.5 mm SL"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000155",
+    "name": "somite",
+    "synonyms": [
+      "somitic mesoderm"
+    ],
+    "system": "axial",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001115",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "part_of",
+    "definition": "Undifferentiated mesodermal components of early trunk or tail segments or metameres, derived from paraxial mesoderm; forms myotomes, sclerotomes and perhaps dermatomes.",
+    "zfinStartStage": "ZFS:0000023",
+    "zfinEndStage": "ZFS:0000034",
+    "startHpf": 10.33,
+    "endHpf": 72,
+    "visibleFromHpf": 10.33,
+    "modelEndHpf": 29,
+    "overrideNote": "Handoff somites_myotomes: the array ends at 29 hpf, the last per-segment window end (D9, DM-33).",
+    "fadeInHpf": 0.0665,
+    "fadeOutHpf": 0.6,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 10.33,
+        "text": "First somitic furrow between somites 1 and 2.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 18,
+        "text": "18 somites; the rate is about 2 per hour.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 24,
+        "text": "About 30 somites, 13 of them in the tail.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 12,
+        "stageLabel": "5-9 somites",
+        "dimsMm": {
+          "length": 0.05,
+          "height": 0.1,
+          "width": 0.05
+        },
+        "counts": {
+          "count": 7
+        },
+        "anglesDeg": {},
+        "source": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.21458"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.05,
+          "height": 0.1,
+          "width": 0.05
+        },
+        "counts": {
+          "count": 30
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.06,
+          "height": 0.14,
+          "width": 0.06
+        },
+        "counts": {
+          "count": 31
+        },
+        "anglesDeg": {
+          "chevronDeg": 40
+        },
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213178/",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03a somite record",
+      "spec BG-58 somite counts"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "placement": {
+          "u": 0,
+          "v": 0.15,
+          "w": 0.5
+        },
+        "e1": 0.5,
+        "e2": 0.5
+      },
+      "uStart": 0.25,
+      "uEnd": 0.97,
+      "mirror": true,
+      "handoffOut": "somites_myotomes",
+      "keyframes": [
+        {
+          "hpf": 10.33,
+          "count": 1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.025,
+              0.05,
+              0.025
+            ]
+          }
+        },
+        {
+          "hpf": 11.66,
+          "count": 5
+        },
+        {
+          "hpf": 14,
+          "count": 10
+        },
+        {
+          "hpf": 16,
+          "count": 14
+        },
+        {
+          "hpf": 18,
+          "count": 18
+        },
+        {
+          "hpf": 19,
+          "count": 20
+        },
+        {
+          "hpf": 22,
+          "count": 26
+        },
+        {
+          "hpf": 24,
+          "count": 30
+        }
+      ],
+      "estimate": [
+        "template.radiiMm",
+        "template.placement"
+      ],
+      "sources": [
+        "research 03a somite record",
+        "BG-58: counts at the somite-stage starts"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001135",
+    "name": "neural tube",
+    "synonyms": [
+      "presumptive central nervous system"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000133",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "develops_from",
+    "definition": "Portion of tissue that is the cavity-containing primordium of the central nervous system, developing from the neural rod in the late segmentation period.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 14,
+    "endHpf": 30,
+    "visibleFromHpf": 14,
+    "modelEndHpf": 24,
+    "overrideNote": "Handoff neural_tube_brain: the tube hands off to the brain regions and the spinal cord over 22 to 24 hpf (D9); ZFA ends the neural tube at Prim-5 (30 hpf). Handoff neural_rod_tube: the tube starts at the window start (DM-33).",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0.1,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 19,
+        "text": "Brain ventricles inflate along the anterior third.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 16,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "length": 1.6,
+          "diameter": 0.065
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b neural tube record",
+        "estimate": true
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 2.4,
+          "width": 0.035,
+          "height": 0.065
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b neural tube record",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b neural tube record"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "path": {
+        "type": "spine",
+        "uStart": 0.02,
+        "uEnd": 1,
+        "v": 0.35,
+        "w": 0
+      },
+      "ellipticity": 1.5,
+      "caps": "round",
+      "geometryEndHpf": 24,
+      "handoffOut": "neural_tube_brain",
+      "keyframes": [
+        {
+          "hpf": 14,
+          "radiusMm": {
+            "r0Mm": 0.0325,
+            "r1Mm": 0.02
+          }
+        },
+        {
+          "hpf": 19,
+          "radiusMm": {
+            "r0Mm": 0.035,
+            "r1Mm": 0.02
+          }
+        },
+        {
+          "hpf": 24,
+          "radiusMm": {
+            "r0Mm": 0.0325,
+            "r1Mm": 0.0175
+          }
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "path.v"
+      ],
+      "sources": [
+        "research 03b neural tube record: outer diameter 60 to 70 um in the trunk"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000107",
+    "name": "eye",
+    "synonyms": [
+      "eyes"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001127",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "part_of",
+    "definition": "Cavitated compound organ that consists of the neural retina, lens, cornea and iris and is the sensory apparatus of the visual system.",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24,
+    "endHpf": 17520,
+    "visibleFromHpf": 11.66,
+    "modelEndHpf": 4320,
+    "overrideNote": "DM-34: the eye is one record from the optic vesicle at 11.66 hpf; the alias chain names optic vesicle and optic cup; ZFA starts the eye at Prim-5. DM-36: axis clamp at 4320 hpf. Handoff optic_cup_parts: the eye mesh ends at 30 hpf through geometryEndHpf; the record continues as the parent of retina, lens and RPE (DM-34).",
+    "fadeInHpf": 0.117,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [
+      {
+        "zfaId": "ZFA:0000050",
+        "name": "optic vesicle",
+        "fromHpf": 11.66,
+        "toHpf": 19
+      },
+      {
+        "zfaId": "ZFA:0001202",
+        "name": "optic cup",
+        "fromHpf": 19,
+        "toHpf": 24
+      }
+    ],
+    "events": [
+      {
+        "hpf": 11.5,
+        "text": "Optic primordium visible from the 4- or 5-somite stage.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24,
+        "text": "Retinal pigment epithelium starts to pigment.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 72,
+        "text": "Image plane reaches the photoreceptors.",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/8954734/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.17
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b eye record",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.23
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b eye record",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.3
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b eye record",
+        "estimate": true
+      },
+      {
+        "hpf": 4320,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 2.5
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b eye record",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b eye record",
+      "spec BG-36"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 0.1,
+        "v": -0.1,
+        "w": 0.8,
+        "mirror": true
+      },
+      "keyframes": [
+        {
+          "hpf": 11.66,
+          "radiiMm": [
+            0.05,
+            0.03,
+            0.02
+          ]
+        },
+        {
+          "hpf": 19,
+          "radiiMm": [
+            0.07,
+            0.06,
+            0.04
+          ]
+        },
+        {
+          "hpf": 24,
+          "radiiMm": [
+            0.085,
+            0.085,
+            0.07
+          ]
+        },
+        {
+          "hpf": 48,
+          "radiiMm": [
+            0.115,
+            0.115,
+            0.095
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.135,
+            0.135,
+            0.11
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.15,
+            0.15,
+            0.12
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiiMm": [
+            0.45,
+            0.45,
+            0.36
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "radiiMm": [
+            0.9,
+            0.9,
+            0.72
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "radiiMm": [
+            1.25,
+            1.25,
+            1
+          ]
+        }
+      ],
+      "estimate": [
+        "radiiMm",
+        "placement"
+      ],
+      "sources": [
+        "research 03b eye record: diameter 170 um at 24 hpf, 230 at 48, 300 at 120 hpf, 2.5 mm adult"
+      ],
+      "geometryEndHpf": 30
+    }
+  },
+  {
+    "id": "ZFA:0000051",
+    "name": "otic vesicle",
+    "synonyms": [
+      "otic capsule",
+      "otocyst",
+      "ov"
+    ],
+    "system": "sensory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001105",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "Epithelial sac present beside the fifth rhombomere; forms the semicircular canals dorsally and the otolith organs ventrally, and houses the acoustico-vestibular sensory epithelia (maculae) of hair cells.",
+    "zfinStartStage": "ZFS:0000026",
+    "zfinEndStage": "ZFS:0000000",
+    "startHpf": 16,
+    "endHpf": 17520,
+    "visibleFromHpf": 16,
+    "modelEndHpf": 72,
+    "overrideNote": "Handoff otic_vesicle_ear: the vesicle hands off to the inner ear over 66 to 72 hpf (D9). ZFA end stage Unknown (E008). Handoff otic_placode_vesicle seeds it from the otic placode at 16 hpf.",
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 0.6,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 19,
+        "text": "Otic placode hollows; two tiny otoliths visible.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 45,
+        "text": "Three internal pillars start to grow; they fuse by 72 hpf.",
+        "source": "research 03b otic vesicle record"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.07,
+          "width": 0.045,
+          "height": 0.055
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b otic vesicle record",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.13,
+          "width": 0.09,
+          "height": 0.11
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b otic vesicle record",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b otic vesicle record",
+      "spec BG-37"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 0.22,
+        "v": 0.2,
+        "w": 0.75,
+        "mirror": true
+      },
+      "handoffOut": "otic_vesicle_ear",
+      "keyframes": [
+        {
+          "hpf": 16,
+          "radiiMm": [
+            0.02,
+            0.015,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 18,
+          "radiiMm": [
+            0.025,
+            0.02,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 24,
+          "radiiMm": [
+            0.035,
+            0.0275,
+            0.0225
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.21
+          },
+          "radiiMm": [
+            0.065,
+            0.055,
+            0.045
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "radiiMm": [
+            0.075,
+            0.065,
+            0.05
+          ]
+        }
+      ],
+      "estimate": [
+        "radiiMm",
+        "placement"
+      ],
+      "sources": [
+        "research 03b otic vesicle record: 70 x 45 x 55 um at 24 hpf, 130 x 90 x 110 um at 48 hpf"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000114",
+    "name": "heart",
+    "synonyms": [],
+    "system": "cardiovascular",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000010",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "part_of",
+    "definition": "Blood pumping organ composed of four components: sinus venosus, atrium, cardiac ventricle and bulbus arteriosus.",
+    "zfinStartStage": "ZFS:0000032",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 42,
+    "endHpf": 17520,
+    "visibleFromHpf": 19,
+    "modelEndHpf": 4320,
+    "overrideNote": "DM-24: the heart is one record from the heart rudiment at 19 hpf; the alias chain names the earlier ZFIN heart terms; ZFA starts the heart at High-pec (42 hpf). DM-36: axis clamp at 4320 hpf. Handoff heart_tube_chambers: the tube mesh ends at the window end through geometryEndHpf; the record continues as the parent of the chambers (DM-24).",
+    "fadeInHpf": 0.15,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [
+      {
+        "zfaId": "ZFA:0000028",
+        "name": "heart primordium",
+        "fromHpf": 11.66,
+        "toHpf": 19
+      },
+      {
+        "zfaId": "ZFA:0000115",
+        "name": "heart rudiment",
+        "fromHpf": 19,
+        "toHpf": 22
+      },
+      {
+        "zfaId": "ZFA:0000149",
+        "name": "primitive heart tube",
+        "fromHpf": 22,
+        "toHpf": 24
+      },
+      {
+        "zfaId": "ZFA:0000360",
+        "name": "heart tube",
+        "fromHpf": 24,
+        "toHpf": 42
+      }
+    ],
+    "events": [
+      {
+        "hpf": 24,
+        "text": "Heart beat begins (D8).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 26,
+        "text": "Circulation begins (D8).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 30,
+        "text": "Heart looping begins (D8).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c heart tube record",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "atriumLength": 0.11,
+          "atriumWidth": 0.09,
+          "ventricleLength": 0.125,
+          "ventricleWidth": 0.105
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c atrium and ventricle records",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c heart, heart tube, atrium, ventricle, bulbus, sinus venosus records",
+      "spec 4.10"
+    ],
+    "geometry": {
+      "kind": "custom",
+      "builder": "heartLoop",
+      "geometryEndHpf": 48,
+      "handoffOut": "heart_tube_chambers",
+      "keyframes": [
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.21,
+            "v": -0.7,
+            "w": 0
+          },
+          "stage": "cone",
+          "coneBaseRadiusMm": 0.06,
+          "coneHeightMm": 0.03,
+          "tubeLengthMm": 0,
+          "headingDeg": 0,
+          "bendDeg": 0,
+          "twistDeg": 0,
+          "segments": {
+            "sinusVenosus": {
+              "s0": 0,
+              "s1": 0.1,
+              "rMm": 0.025
+            },
+            "atrium": {
+              "s0": 0.1,
+              "s1": 0.45,
+              "rMm": 0.025,
+              "rAcrossMm": 0.025
+            },
+            "avCanal": {
+              "s0": 0.45,
+              "s1": 0.55,
+              "rMm": 0.022
+            },
+            "ventricle": {
+              "s0": 0.55,
+              "s1": 0.9,
+              "rMm": 0.025,
+              "rAcrossMm": 0.025,
+              "exponent": 0.7
+            },
+            "bulbus": {
+              "s0": 0.9,
+              "s1": 1,
+              "rBaseMm": 0.02,
+              "rNeckMm": 0.015,
+              "tiltDeg": 0
+            }
+          },
+          "atriumOffset": {
+            "v": 0,
+            "w": 0
+          }
+        },
+        {
+          "hpf": 22,
+          "stage": "tube",
+          "tubeLengthMm": 0.18,
+          "headingDeg": 15
+        },
+        {
+          "hpf": 24,
+          "tubeLengthMm": 0.2
+        },
+        {
+          "hpf": 30,
+          "tubeLengthMm": 0.25,
+          "segments": {
+            "atrium": {
+              "rMm": 0.0275,
+              "rAcrossMm": 0.0275
+            },
+            "ventricle": {
+              "rMm": 0.0275,
+              "rAcrossMm": 0.0275
+            }
+          }
+        },
+        {
+          "hpf": 36,
+          "stage": "C",
+          "tubeLengthMm": 0.28,
+          "bendDeg": 90,
+          "segments": {
+            "atrium": {
+              "rMm": 0.04,
+              "rAcrossMm": 0.04
+            },
+            "ventricle": {
+              "rMm": 0.035,
+              "rAcrossMm": 0.035
+            }
+          }
+        },
+        {
+          "hpf": 42,
+          "stage": "chambers",
+          "bendDeg": 120,
+          "twistDeg": 15,
+          "segments": {
+            "sinusVenosus": {
+              "rMm": 0.022
+            },
+            "atrium": {
+              "rMm": 0.05,
+              "rAcrossMm": 0.04
+            },
+            "ventricle": {
+              "rMm": 0.055,
+              "rAcrossMm": 0.045
+            },
+            "bulbus": {
+              "rBaseMm": 0.017,
+              "rNeckMm": 0.012,
+              "tiltDeg": 20
+            }
+          },
+          "atriumOffset": {
+            "v": 0.2,
+            "w": -0.3
+          }
+        },
+        {
+          "hpf": 48,
+          "stage": "S",
+          "bendDeg": 140,
+          "twistDeg": 30,
+          "segments": {
+            "sinusVenosus": {
+              "rMm": 0.0225
+            },
+            "atrium": {
+              "rMm": 0.055,
+              "rAcrossMm": 0.045
+            },
+            "ventricle": {
+              "rMm": 0.0625,
+              "rAcrossMm": 0.0525
+            },
+            "bulbus": {
+              "rBaseMm": 0.0175,
+              "rNeckMm": 0.012,
+              "tiltDeg": 30
+            }
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.21,
+            "v": -0.7,
+            "w": 0
+          },
+          "segments": {
+            "sinusVenosus": {
+              "rMm": 0.03
+            },
+            "atrium": {
+              "rMm": 0.07,
+              "rAcrossMm": 0.055
+            },
+            "ventricle": {
+              "rMm": 0.075,
+              "rAcrossMm": 0.0625,
+              "exponent": 0.7
+            },
+            "bulbus": {
+              "rBaseMm": 0.0275,
+              "rNeckMm": 0.018,
+              "tiltDeg": 30
+            }
+          },
+          "atriumOffset": {
+            "v": 0.3,
+            "w": -0.1
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 25,
+          "segments": {
+            "sinusVenosus": {
+              "rMm": 0.2
+            },
+            "atrium": {
+              "rMm": 0.5,
+              "rAcrossMm": 0.45
+            },
+            "ventricle": {
+              "rMm": 0.535,
+              "rAcrossMm": 0.445,
+              "exponent": 0.8
+            },
+            "bulbus": {
+              "rBaseMm": 0.2,
+              "rNeckMm": 0.12,
+              "tiltDeg": 35
+            }
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.205,
+            "v": -0.7,
+            "w": 0
+          },
+          "segments": {
+            "ventricle": {
+              "exponent": 1
+            }
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [
+        "tubeLengthMm",
+        "headingDeg",
+        "bendDeg",
+        "twistDeg",
+        "atriumOffset",
+        "segments.sinusVenosus",
+        "segments.bulbus at 48 hpf"
+      ],
+      "sources": [
+        "research 03c heart, heart tube, atrium, ventricle, bulbus, sinus venosus records",
+        "D8 looping onset 30 hpf",
+        "Singleman and Holtzman 2012 ventricle 4.28 percent of SL"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000075",
+    "name": "spinal cord",
+    "synonyms": [
+      "medulla spinalis",
+      "spinal cord structure"
+    ],
+    "system": "nervous",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000012",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "part_of",
+    "definition": "Part of the central nervous system located in the vertebral canal continuous with and caudal to the brain; demarcated from the brain by the obex. (ZFA has no definition text for this term; ZFIN label spinal cord.)",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24,
+    "endHpf": 17520,
+    "visibleFromHpf": 22,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff neural_tube_brain: seeded from the neural tube at the window start 22 hpf (DM-33); ZFA starts the spinal cord at Prim-5 (24 hpf). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 17.5,
+        "text": "First unilateral myotome twitches (spinal circuits active).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 27,
+        "text": "Consistent touch response.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 1.25,
+          "width": 0.03,
+          "height": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b spinal cord record",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 2.2,
+          "width": 0.035,
+          "height": 0.07
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b spinal cord record",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 2.9,
+          "width": 0.045,
+          "height": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03b spinal cord record",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03b spinal cord record"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "ellipticity": 2,
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 22,
+          "path": {
+            "type": "spine",
+            "uStart": 0.34,
+            "uEnd": 0.98,
+            "v": 0.35,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.03,
+            "r1Mm": 0.015
+          }
+        },
+        {
+          "hpf": 48,
+          "radiusMm": {
+            "r0Mm": 0.035,
+            "r1Mm": 0.0175
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "path": {
+            "type": "spine",
+            "uStart": 0.23,
+            "uEnd": 0.98,
+            "v": 0.35,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.04,
+            "r1Mm": 0.02
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiusMm": {
+            "r0Mm": 0.1,
+            "r1Mm": 0.04
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "path": {
+            "type": "spine",
+            "uStart": 0.25,
+            "uEnd": 0.98,
+            "v": 0.35,
+            "w": 0
+          },
+          "radiusMm": {
+            "r0Mm": 0.25,
+            "r1Mm": 0.08
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "radiusMm": {
+            "r0Mm": 0.3,
+            "r1Mm": 0.1
+          }
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "path.v"
+      ],
+      "sources": [
+        "research 03b spinal cord record: height about 2 x width in the embryo"
+      ]
+    }
+  }
+]

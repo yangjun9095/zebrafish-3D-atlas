@@ -1,0 +1,152 @@
+[
+  {
+    "id": "early_embryo",
+    "displayName": "Early embryo",
+    "zfaRoots": ["ZFA:0000020", "ZFA:0000084", "ZFA:0001176", "ZFA:0000001", "ZFA:0000026"],
+    "paletteSlot": "S15",
+    "color": { "dark": "#D9C79A", "light": "#8E7E55" },
+    "icon": "egg",
+    "order": 1,
+    "dissectDirection": [-1, 0.2]
+  },
+  {
+    "id": "axial",
+    "displayName": "Axial",
+    "zfaRoots": ["ZFA:0000135", "ZFA:0000155", "ZFA:0000255", "ZFA:0001204", "ZFA:0000031", "ZFA:0000077"],
+    "paletteSlot": "S13",
+    "color": { "dark": "#3E9B4F", "light": "#01722A" },
+    "icon": "ruler",
+    "order": 2,
+    "dissectDirection": [0, 0.3]
+  },
+  {
+    "id": "nervous",
+    "displayName": "Nervous",
+    "zfaRoots": ["ZFA:0000396"],
+    "paletteSlot": "S01",
+    "color": { "dark": "#5B8DEF", "light": "#1863BF" },
+    "icon": "brain",
+    "order": 3,
+    "dissectDirection": [0, 1]
+  },
+  {
+    "id": "sensory",
+    "displayName": "Sensory",
+    "zfaRoots": ["ZFA:0000282"],
+    "paletteSlot": "S02",
+    "color": { "dark": "#7FD3F5", "light": "#2989A9" },
+    "icon": "eye",
+    "order": 4,
+    "dissectDirection": [-0.6, 0.8]
+  },
+  {
+    "id": "cardiovascular",
+    "displayName": "Cardiovascular",
+    "zfaRoots": ["ZFA:0000010"],
+    "paletteSlot": "S03",
+    "color": { "dark": "#E4483C", "light": "#B81A1D" },
+    "icon": "heart",
+    "order": 5,
+    "dissectDirection": [-0.5, -0.9]
+  },
+  {
+    "id": "hematopoietic_immune",
+    "displayName": "Blood and immune",
+    "zfaRoots": ["ZFA:0005023", "ZFA:0001159"],
+    "paletteSlot": "S04",
+    "color": { "dark": "#F28FA0", "light": "#B15567" },
+    "icon": "droplets",
+    "order": 6,
+    "dissectDirection": [-0.9, -0.4]
+  },
+  {
+    "id": "respiratory",
+    "displayName": "Gills and swim bladder",
+    "zfaRoots": ["ZFA:0000272"],
+    "paletteSlot": "S09",
+    "color": { "dark": "#66D1C2", "light": "#028B7E" },
+    "icon": "wind",
+    "order": 7,
+    "dissectDirection": [-0.8, -0.6]
+  },
+  {
+    "id": "digestive",
+    "displayName": "Digestive",
+    "zfaRoots": ["ZFA:0000339"],
+    "paletteSlot": "S08",
+    "color": { "dark": "#A9713B", "light": "#84511C" },
+    "icon": "box",
+    "order": 8,
+    "dissectDirection": [0, -1]
+  },
+  {
+    "id": "excretory",
+    "displayName": "Excretory",
+    "zfaRoots": ["ZFA:0000163"],
+    "paletteSlot": "S10",
+    "color": { "dark": "#C6D34A", "light": "#7A8800" },
+    "icon": "droplet",
+    "order": 9,
+    "dissectDirection": [0.5, -0.9]
+  },
+  {
+    "id": "endocrine",
+    "displayName": "Endocrine",
+    "zfaRoots": ["ZFA:0001158"],
+    "paletteSlot": "S12",
+    "color": { "dark": "#D34FA7", "light": "#AA2382" },
+    "icon": "circle-dot",
+    "order": 10,
+    "dissectDirection": [-0.3, -1]
+  },
+  {
+    "id": "reproductive",
+    "displayName": "Reproductive",
+    "zfaRoots": ["ZFA:0000632"],
+    "paletteSlot": "S11",
+    "color": { "dark": "#B067D6", "light": "#8641AC" },
+    "icon": "dna",
+    "order": 11,
+    "dissectDirection": [0.6, -0.8]
+  },
+  {
+    "id": "skeletal",
+    "displayName": "Skeletal",
+    "zfaRoots": ["ZFA:0000434", "ZFA:0001306"],
+    "paletteSlot": "S06",
+    "color": { "dark": "#F0EDE4", "light": "#939088" },
+    "icon": "bone",
+    "order": 12,
+    "dissectDirection": [0.7, 0.7]
+  },
+  {
+    "id": "muscular",
+    "displayName": "Muscular",
+    "zfaRoots": ["ZFA:0000548"],
+    "paletteSlot": "S05",
+    "color": { "dark": "#F08A3C", "light": "#B05500" },
+    "icon": "activity",
+    "order": 13,
+    "dissectDirection": [0.9, 0.4]
+  },
+  {
+    "id": "fins",
+    "displayName": "Fins",
+    "zfaRoots": ["ZFA:0000108"],
+    "paletteSlot": "S14",
+    "color": { "dark": "#A9AFF2", "light": "#6972B0" },
+    "icon": "waves",
+    "order": 14,
+    "dissectDirection": [1, 0]
+  },
+  {
+    "id": "integument_pigment",
+    "displayName": "Skin and pigment",
+    "zfaRoots": ["ZFA:0000368", "ZFA:0009090"],
+    "paletteSlot": "S07",
+    "color": { "dark": "#C3CAD2", "light": "#7A8188" },
+    "icon": "shield",
+    "order": 15,
+    "dissectDirection": [0.9, -0.5]
+  }
+]

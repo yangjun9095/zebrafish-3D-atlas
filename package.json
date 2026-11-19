@@ -1,0 +1,70 @@
+{
+  "name": "zebrafish-3d-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Interactive 3D model of zebrafish development, from the 1-cell zygote to the adult fish",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjun9095/zebrafish-3D-atlas.git"
+  },
+  "homepage": "https://github.com/yangjun9095/zebrafish-3D-atlas#readme",
+  "bugs": {
+    "url": "https://github.com/yangjun9095/zebrafish-3D-atlas/issues"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --port 5173",
+    "dev:lan": "vite --host --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "gate": "npm run check && npm run lint && npm test && npm run validate && npm run gen:body -- --check && npm run gen:vocab -- --check && npm run sources -- --check && npm run attribution -- --check && npm run notices -- --check && npm run build && npm run csp && npm run test:e2e",
+    "bundle": "VITE_SINGLE_FILE=1 npm run build && node scripts/bundle.ts",
+    "validate": "node scripts/validate-data.ts",
+    "screenshots": "playwright test tests/e2e/screenshots.spec.ts",
+    "movie": "node scripts/render-movie.ts",
+    "attribution": "node scripts/build-attribution.ts",
+    "notices": "node scripts/build-notices.ts",
+    "sources": "node scripts/build-sources.ts",
+    "gen:body": "node scripts/gen-body.ts",
+    "gen:vocab": "node scripts/build-vocabulary.ts",
+    "csp": "node scripts/check-csp.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.8",
+    "@react-three/fiber": "9.7.0",
+    "lucide-react": "1.41.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "0.185.1",
+    "zod": "4.5.4",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "22.20.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@types/three": "0.185.4",
+    "@vitejs/plugin-react": "6.1.1",
+    "eslint": "10.10.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-react-refresh": "0.5.6",
+    "globals": "17.12.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.69.0",
+    "vite": "8.2.2",
+    "vitest": "5.0.0"
+  }
+}

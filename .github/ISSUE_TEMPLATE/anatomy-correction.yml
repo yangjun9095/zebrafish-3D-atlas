@@ -1,0 +1,46 @@
+name: Anatomy correction
+description: A structure sits in the wrong place, appears at the wrong stage, or has the wrong size.
+title: "[anatomy] "
+labels: ["anatomy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the most useful report the project can receive. The model is schematic and most
+        size values are estimates, so a correction with a citation is worth more than a long
+        description. One structure per issue, please.
+  - type: input
+    id: zfa-id
+    attributes:
+      label: ZFA id
+      description: The Zebrafish Anatomy Ontology id. The info card prints it under the structure name.
+      placeholder: "ZFA:0000135"
+    validations:
+      required: true
+  - type: input
+    id: stage-hpf
+    attributes:
+      label: Stage, in hpf
+      description: The time on the axis where you saw the problem, in hours post fertilization at 28.5 C. Give a range if it spans one.
+      placeholder: "4320, or 24 to 48"
+    validations:
+      required: true
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: What is wrong
+      description: What the model shows, and what it should show instead. Name the position, the size, the shape or the stage window.
+    validations:
+      required: true
+  - type: textarea
+    id: citation
+    attributes:
+      label: Citation
+      description: The paper, the ZFIN page or the figure that supports the correction. A DOI and a figure or page number is enough.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the view (optional)
+      description: The viewer keeps its whole state in the address bar. Copy the address, or use the share button, and the report opens on the frame you saw.

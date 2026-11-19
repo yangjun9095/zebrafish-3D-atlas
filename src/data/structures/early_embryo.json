@@ -1,0 +1,4513 @@
+[
+  {
+    "id": "ZFA:0000084",
+    "name": "yolk",
+    "synonyms": [
+      "yolk cell"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0009000",
+    "uiParent": "ZFA:0000020",
+    "parentRelation": "is_a",
+    "definition": "Giant syncytial uncleaved cell containing nutrient store for embryonic development in the form of semicrystalline phospholipoprotein and contained within yolk granules.",
+    "zfinStartStage": "ZFS:0000001",
+    "zfinEndStage": "ZFS:0000037",
+    "startHpf": 0,
+    "endHpf": 144,
+    "visibleFromHpf": 0,
+    "modelEndHpf": 168,
+    "overrideNote": "D8: yolk exhausted at 168 hpf (inferred, not measured); ZFA ends the yolk at Day 5 (144 hpf).",
+    "fadeInHpf": 0,
+    "fadeOutHpf": 1.2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 0,
+        "text": "Non-yolky cytoplasm streams to the animal pole and separates the blastodisc from the yolk.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html"
+      },
+      {
+        "hpf": 3,
+        "text": "Marginal blastomeres collapse into the yolk cell and form the yolk syncytial layer.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 4.33,
+        "text": "Dome stage: the yolk cell bulges toward the animal pole as epiboly begins.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 10,
+        "text": "The blastoderm covers the yolk plug; 100 percent epiboly.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 16,
+        "text": "A constriction appears in the posterior yolk; yolk ball and yolk extension become distinct.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 22,
+        "text": "The yolk extension is nearly the length of the yolk ball.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 42,
+        "text": "The yolk extension becomes a cylinder with a conical posterior taper.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 82,
+        "text": "Maximum yolk utilization rate at 3.4 dpf.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8126416/"
+      },
+      {
+        "hpf": 96,
+        "text": "The yolk extension nearly empties during day 4.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/larval.html"
+      },
+      {
+        "hpf": 168,
+        "text": "Yolk exhausted (D8, inferred, not measured).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/larval.html",
+        "estimate": true
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 0,
+        "stageLabel": "1-cell",
+        "dimsMm": {
+          "diameter": 0.7
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+        "note": "the zygote is about 0.7 mm in diameter"
+      },
+      {
+        "hpf": 4,
+        "stageLabel": "Sphere",
+        "dimsMm": {
+          "diameter": 0.675
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.nature.com/articles/srep08601",
+        "note": "yolk sphere 650 to 700 um"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "ballDiameter": 0.55,
+          "extensionLength": 0.55,
+          "extensionDiameter": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "src/data/body.json yolk columns (spec 4.3.2, 3.5.7 item 5)",
+        "estimate": true,
+        "note": "Kimmel: at prim-5 the extension length equals the ball diameter"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "ballDiameter": 0.44,
+          "extensionLength": 0.65,
+          "extensionDiameter": 0.14
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "src/data/body.json yolk columns (spec 4.3.2); research 05 section 7",
+        "estimate": true,
+        "note": "Kimmel high-pec: the extension is about 1.5 times the ball diameter"
+      },
+      {
+        "hpf": 72,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "ballDiameter": 0.35,
+          "extensionLength": 0.4,
+          "extensionDiameter": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "src/data/body.json yolk columns (spec 4.3.2); research 05 section 7",
+        "estimate": true,
+        "note": "yolk still visible under the gut"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "ballDiameter": 0.25
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "src/data/body.json yolk columns (spec 4.3.2)",
+        "estimate": true,
+        "note": "remnant ball; the extension is empty by day 4 (Kimmel) and body.json draws none at 120 hpf"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#F2C94C",
+      "light": "#A6861B"
+    },
+    "sources": [
+      "research 03a yolk record",
+      "research 05 sections 2 and 7",
+      "https://zfin.org/zf_info/zfbook/stages/zygote.html",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+    ],
+    "geometry": {
+      "kind": "bodyDriven",
+      "part": "yolk",
+      "keyframes": [
+        {
+          "hpf": 0
+        },
+        {
+          "hpf": 10
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 42
+        },
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6
+        },
+        {
+          "hpf": 144,
+          "sizeRefSl": 3.85
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "0 to 168 hpf: body.json yolk ball and extension (BG-15, BG-18, BG-33, DM-31); the mesh comes from frame.yolk at every keyframe, so the keyframes only mark the headline stages and the ZFA bins",
+        "Kimmel rules that body.json encodes: extension length equals the ball diameter at 24 hpf, 1.5 times at 42 hpf, a cone by 48 hpf; the extension empties by 96 to 120 hpf; the remnant ball shrinks to zero at 168 hpf (D8)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000088",
+    "name": "yolk syncytial layer",
+    "synonyms": [
+      "YSL",
+      "periblast",
+      "yolk sac"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000084",
+    "uiParent": "ZFA:0000084",
+    "parentRelation": "develops_from",
+    "definition": "Peripheral layer of the yolk cell including nuclei and non-yolky cytoplasm.",
+    "zfinStartStage": "ZFS:0000011",
+    "zfinEndStage": "ZFS:0000037",
+    "startHpf": 3,
+    "endHpf": 144,
+    "visibleFromHpf": 3,
+    "modelEndHpf": 144,
+    "overrideNote": null,
+    "fadeInHpf": 0.0165,
+    "fadeOutHpf": 1.2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 2.75,
+        "text": "Marginal blastomeres begin to lose their lower borders (512-cell).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 3,
+        "text": "A single ring of about 20 YSL nuclei (1k-cell); ZFA start of the term.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 3.66,
+        "text": "Several rows of YSL nuclei; some nuclei already internal (oblong).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 4.33,
+        "text": "YSL nuclei begin animal-vegetal movements as epiboly starts.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 10,
+        "text": "The external YSL closes at the vegetal pole with the blastoderm margin.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 144,
+        "text": "ZFA end of the term (Larval Day 5).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/larval.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 3,
+        "stageLabel": "1k-cell",
+        "dimsMm": {
+          "thickness": 0.015
+        },
+        "counts": {
+          "ringNuclei": 20
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+        "note": "about 20 nuclei within a single ring; thickness is an estimate"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "thickness": 0.01
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "thin syncytial shell over the yolk ball and extension"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "thickness": 0.01
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "remnant over the shrinking yolk"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#F2C94C",
+      "light": "#A6861B"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000088",
+      "https://zfin.org/zf_info/zfbook/stages/blast.html",
+      "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+      "https://www.nature.com/articles/s41598-022-07747-7",
+      "research 03a yolk syncytial layer record"
+    ],
+    "geometry": {
+      "kind": "lathe",
+      "boundsMarginMm": 0.26,
+      "keyframes": [
+        {
+          "hpf": 3,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.8464
+            ],
+            [
+              0.12,
+              -0.8252
+            ],
+            [
+              0.2256,
+              -0.7643
+            ],
+            [
+              0.304,
+              -0.6709
+            ],
+            [
+              0.3457,
+              -0.5564
+            ],
+            [
+              0.3457,
+              -0.4345
+            ],
+            [
+              0.304,
+              -0.3199
+            ],
+            [
+              0.2256,
+              -0.2265
+            ],
+            [
+              0.12,
+              -0.1656
+            ],
+            [
+              0,
+              -0.1444
+            ]
+          ]
+        },
+        {
+          "hpf": 4,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.784
+            ],
+            [
+              0.12,
+              -0.7628
+            ],
+            [
+              0.2256,
+              -0.7019
+            ],
+            [
+              0.304,
+              -0.6085
+            ],
+            [
+              0.3457,
+              -0.494
+            ],
+            [
+              0.3457,
+              -0.372
+            ],
+            [
+              0.304,
+              -0.2575
+            ],
+            [
+              0.2256,
+              -0.1641
+            ],
+            [
+              0.12,
+              -0.1032
+            ],
+            [
+              0,
+              -0.082
+            ]
+          ]
+        },
+        {
+          "hpf": 4.66,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.7358
+            ],
+            [
+              0.1188,
+              -0.7148
+            ],
+            [
+              0.2233,
+              -0.6545
+            ],
+            [
+              0.3009,
+              -0.562
+            ],
+            [
+              0.3421,
+              -0.4487
+            ],
+            [
+              0.3421,
+              -0.328
+            ],
+            [
+              0.3009,
+              -0.2146
+            ],
+            [
+              0.2233,
+              -0.1222
+            ],
+            [
+              0.1188,
+              -0.0619
+            ],
+            [
+              0,
+              -0.0409
+            ]
+          ]
+        },
+        {
+          "hpf": 5.25,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.7085
+            ],
+            [
+              0.1166,
+              -0.6879
+            ],
+            [
+              0.2192,
+              -0.6287
+            ],
+            [
+              0.2953,
+              -0.538
+            ],
+            [
+              0.3358,
+              -0.4267
+            ],
+            [
+              0.3358,
+              -0.3083
+            ],
+            [
+              0.2953,
+              -0.197
+            ],
+            [
+              0.2192,
+              -0.1063
+            ],
+            [
+              0.1166,
+              -0.0471
+            ],
+            [
+              0,
+              -0.0265
+            ]
+          ]
+        },
+        {
+          "hpf": 6,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.686
+            ],
+            [
+              0.1132,
+              -0.666
+            ],
+            [
+              0.2128,
+              -0.6086
+            ],
+            [
+              0.2867,
+              -0.5205
+            ],
+            [
+              0.326,
+              -0.4125
+            ],
+            [
+              0.326,
+              -0.2975
+            ],
+            [
+              0.2867,
+              -0.1895
+            ],
+            [
+              0.2128,
+              -0.1014
+            ],
+            [
+              0.1132,
+              -0.044
+            ],
+            [
+              0,
+              -0.024
+            ]
+          ]
+        },
+        {
+          "hpf": 8,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6835
+            ],
+            [
+              0.1132,
+              -0.6635
+            ],
+            [
+              0.2128,
+              -0.6061
+            ],
+            [
+              0.2867,
+              -0.518
+            ],
+            [
+              0.326,
+              -0.41
+            ],
+            [
+              0.326,
+              -0.295
+            ],
+            [
+              0.2867,
+              -0.187
+            ],
+            [
+              0.2128,
+              -0.0989
+            ],
+            [
+              0.1132,
+              -0.0415
+            ],
+            [
+              0,
+              -0.0215
+            ]
+          ]
+        },
+        {
+          "hpf": 9,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.671
+            ],
+            [
+              0.1115,
+              -0.6513
+            ],
+            [
+              0.2095,
+              -0.5947
+            ],
+            [
+              0.2823,
+              -0.508
+            ],
+            [
+              0.321,
+              -0.4016
+            ],
+            [
+              0.321,
+              -0.2884
+            ],
+            [
+              0.2823,
+              -0.182
+            ],
+            [
+              0.2095,
+              -0.0953
+            ],
+            [
+              0.1115,
+              -0.0387
+            ],
+            [
+              0,
+              -0.019
+            ]
+          ]
+        },
+        {
+          "hpf": 10,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.651
+            ],
+            [
+              0.1115,
+              -0.6313
+            ],
+            [
+              0.2095,
+              -0.5747
+            ],
+            [
+              0.2823,
+              -0.488
+            ],
+            [
+              0.321,
+              -0.3816
+            ],
+            [
+              0.321,
+              -0.2684
+            ],
+            [
+              0.2823,
+              -0.162
+            ],
+            [
+              0.2095,
+              -0.0753
+            ],
+            [
+              0.1115,
+              -0.0187
+            ],
+            [
+              0,
+              0.001
+            ]
+          ]
+        },
+        {
+          "hpf": 12,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.631
+            ],
+            [
+              0.1064,
+              -0.6122
+            ],
+            [
+              0.1999,
+              -0.5582
+            ],
+            [
+              0.2693,
+              -0.4755
+            ],
+            [
+              0.3063,
+              -0.374
+            ],
+            [
+              0.3063,
+              -0.266
+            ],
+            [
+              0.2693,
+              -0.1645
+            ],
+            [
+              0.1999,
+              -0.0818
+            ],
+            [
+              0.1064,
+              -0.0278
+            ],
+            [
+              0,
+              -0.009
+            ]
+          ]
+        },
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.621
+            ],
+            [
+              0.1029,
+              -0.6028
+            ],
+            [
+              0.1935,
+              -0.5506
+            ],
+            [
+              0.2607,
+              -0.4705
+            ],
+            [
+              0.2964,
+              -0.3723
+            ],
+            [
+              0.2964,
+              -0.2677
+            ],
+            [
+              0.2607,
+              -0.1695
+            ],
+            [
+              0.1935,
+              -0.0894
+            ],
+            [
+              0.1029,
+              -0.0372
+            ],
+            [
+              0,
+              -0.019
+            ]
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.631
+            ],
+            [
+              0.1029,
+              -0.6128
+            ],
+            [
+              0.1935,
+              -0.5606
+            ],
+            [
+              0.2607,
+              -0.4805
+            ],
+            [
+              0.2964,
+              -0.3823
+            ],
+            [
+              0.2964,
+              -0.2777
+            ],
+            [
+              0.2607,
+              -0.1795
+            ],
+            [
+              0.1935,
+              -0.0994
+            ],
+            [
+              0.1029,
+              -0.0472
+            ],
+            [
+              0,
+              -0.029
+            ]
+          ]
+        },
+        {
+          "hpf": 18,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.631
+            ],
+            [
+              0.1012,
+              -0.6131
+            ],
+            [
+              0.1903,
+              -0.5617
+            ],
+            [
+              0.2563,
+              -0.483
+            ],
+            [
+              0.2915,
+              -0.3864
+            ],
+            [
+              0.2915,
+              -0.2836
+            ],
+            [
+              0.2563,
+              -0.187
+            ],
+            [
+              0.1903,
+              -0.1083
+            ],
+            [
+              0.1012,
+              -0.0569
+            ],
+            [
+              0,
+              -0.039
+            ]
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.4,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.621
+            ],
+            [
+              0.0995,
+              -0.6035
+            ],
+            [
+              0.1871,
+              -0.5529
+            ],
+            [
+              0.252,
+              -0.4755
+            ],
+            [
+              0.2866,
+              -0.3805
+            ],
+            [
+              0.2866,
+              -0.2795
+            ],
+            [
+              0.252,
+              -0.1845
+            ],
+            [
+              0.1871,
+              -0.1071
+            ],
+            [
+              0.0995,
+              -0.0565
+            ],
+            [
+              0,
+              -0.039
+            ]
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.368,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6629
+            ],
+            [
+              0.0961,
+              -0.646
+            ],
+            [
+              0.1806,
+              -0.5972
+            ],
+            [
+              0.2434,
+              -0.5224
+            ],
+            [
+              0.2767,
+              -0.4307
+            ],
+            [
+              0.2767,
+              -0.3331
+            ],
+            [
+              0.2434,
+              -0.2414
+            ],
+            [
+              0.1806,
+              -0.1666
+            ],
+            [
+              0.0961,
+              -0.1178
+            ],
+            [
+              0,
+              -0.1009
+            ]
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.358,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6703
+            ],
+            [
+              0.0944,
+              -0.6537
+            ],
+            [
+              0.1774,
+              -0.6057
+            ],
+            [
+              0.239,
+              -0.5323
+            ],
+            [
+              0.2718,
+              -0.4422
+            ],
+            [
+              0.2718,
+              -0.3464
+            ],
+            [
+              0.239,
+              -0.2563
+            ],
+            [
+              0.1774,
+              -0.1829
+            ],
+            [
+              0.0944,
+              -0.1349
+            ],
+            [
+              0,
+              -0.1183
+            ]
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6128
+            ],
+            [
+              0.0893,
+              -0.5971
+            ],
+            [
+              0.1678,
+              -0.5517
+            ],
+            [
+              0.226,
+              -0.4823
+            ],
+            [
+              0.257,
+              -0.3971
+            ],
+            [
+              0.257,
+              -0.3065
+            ],
+            [
+              0.226,
+              -0.2213
+            ],
+            [
+              0.1678,
+              -0.1519
+            ],
+            [
+              0.0893,
+              -0.1065
+            ],
+            [
+              0,
+              -0.0908
+            ]
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.5734
+            ],
+            [
+              0.0824,
+              -0.5589
+            ],
+            [
+              0.1549,
+              -0.517
+            ],
+            [
+              0.2087,
+              -0.4529
+            ],
+            [
+              0.2373,
+              -0.3742
+            ],
+            [
+              0.2373,
+              -0.2906
+            ],
+            [
+              0.2087,
+              -0.2119
+            ],
+            [
+              0.1549,
+              -0.1478
+            ],
+            [
+              0.0824,
+              -0.1059
+            ],
+            [
+              0,
+              -0.0914
+            ]
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.5564
+            ],
+            [
+              0.079,
+              -0.5425
+            ],
+            [
+              0.1485,
+              -0.5024
+            ],
+            [
+              0.2001,
+              -0.4409
+            ],
+            [
+              0.2275,
+              -0.3655
+            ],
+            [
+              0.2275,
+              -0.2853
+            ],
+            [
+              0.2001,
+              -0.2099
+            ],
+            [
+              0.1485,
+              -0.1484
+            ],
+            [
+              0.079,
+              -0.1083
+            ],
+            [
+              0,
+              -0.0944
+            ]
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.5383
+            ],
+            [
+              0.0756,
+              -0.525
+            ],
+            [
+              0.1421,
+              -0.4866
+            ],
+            [
+              0.1914,
+              -0.4278
+            ],
+            [
+              0.2176,
+              -0.3557
+            ],
+            [
+              0.2176,
+              -0.2789
+            ],
+            [
+              0.1914,
+              -0.2068
+            ],
+            [
+              0.1421,
+              -0.148
+            ],
+            [
+              0.0756,
+              -0.1096
+            ],
+            [
+              0,
+              -0.0963
+            ]
+          ]
+        },
+        {
+          "hpf": 60,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.5105
+            ],
+            [
+              0.0687,
+              -0.4984
+            ],
+            [
+              0.1292,
+              -0.4635
+            ],
+            [
+              0.1741,
+              -0.41
+            ],
+            [
+              0.1979,
+              -0.3444
+            ],
+            [
+              0.1979,
+              -0.2746
+            ],
+            [
+              0.1741,
+              -0.209
+            ],
+            [
+              0.1292,
+              -0.1555
+            ],
+            [
+              0.0687,
+              -0.1206
+            ],
+            [
+              0,
+              -0.1085
+            ]
+          ]
+        },
+        {
+          "hpf": 72,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.4277
+            ],
+            [
+              0.0602,
+              -0.4171
+            ],
+            [
+              0.1131,
+              -0.3865
+            ],
+            [
+              0.1524,
+              -0.3397
+            ],
+            [
+              0.1733,
+              -0.2823
+            ],
+            [
+              0.1733,
+              -0.2211
+            ],
+            [
+              0.1524,
+              -0.1637
+            ],
+            [
+              0.1131,
+              -0.1169
+            ],
+            [
+              0.0602,
+              -0.0863
+            ],
+            [
+              0,
+              -0.0757
+            ]
+          ],
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 96,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.282
+            ],
+            [
+              0.0345,
+              -0.2759
+            ],
+            [
+              0.0649,
+              -0.2584
+            ],
+            [
+              0.0875,
+              -0.2315
+            ],
+            [
+              0.0995,
+              -0.1985
+            ],
+            [
+              0.0995,
+              -0.1635
+            ],
+            [
+              0.0875,
+              -0.1305
+            ],
+            [
+              0.0649,
+              -0.1036
+            ],
+            [
+              0.0345,
+              -0.0861
+            ],
+            [
+              0,
+              -0.08
+            ]
+          ],
+          "sizeRefSl": 3.4
+        },
+        {
+          "hpf": 120,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.176
+            ],
+            [
+              0.0209,
+              -0.1723
+            ],
+            [
+              0.0392,
+              -0.1617
+            ],
+            [
+              0.0528,
+              -0.1455
+            ],
+            [
+              0.0601,
+              -0.1256
+            ],
+            [
+              0.0601,
+              -0.1044
+            ],
+            [
+              0.0528,
+              -0.0845
+            ],
+            [
+              0.0392,
+              -0.0683
+            ],
+            [
+              0.0209,
+              -0.0577
+            ],
+            [
+              0,
+              -0.054
+            ]
+          ],
+          "sizeRefSl": 3.6
+        },
+        {
+          "hpf": 144,
+          "placement": {
+            "u": 0.3,
+            "v": 0,
+            "w": 0
+          },
+          "profileMm": [
+            [
+              0,
+              -0.141
+            ],
+            [
+              0.0106,
+              -0.1392
+            ],
+            [
+              0.0199,
+              -0.1338
+            ],
+            [
+              0.0268,
+              -0.1256
+            ],
+            [
+              0.0305,
+              -0.1154
+            ],
+            [
+              0.0305,
+              -0.1047
+            ],
+            [
+              0.0268,
+              -0.0946
+            ],
+            [
+              0.0199,
+              -0.0863
+            ],
+            [
+              0.0106,
+              -0.0809
+            ],
+            [
+              0,
+              -0.0791
+            ]
+          ],
+          "sizeRefSl": 3.85
+        }
+      ],
+      "estimate": [
+        "profileMm"
+      ],
+      "sources": [
+        "boundsMarginMm: rule W007 compares the local-frame bounds of a lathe (relative to its origin on the spine above the ball) with the world body box, so the sphere below the origin reads as a protrusion; the sphere sits 1 um outside the yolk ball at every keyframe (tests/unit/anatomy-a1.test.ts checks the world-space radii). The margin covers that artefact only",
+        "shape: the peripheral layer of the yolk cell, drawn as a sphere 1 um outside the yolk ball surface (frame.yolk.ball radius + 0.001) about the ball centre; it carries the yolk colour of D10, so it reads as the yolk surface and is selectable; 10 to 15 um thick in life (research 03a, estimate)",
+        "placement: a lathe at u = the frame yolkBall u (0.4 to 10 hpf, 0.368 at 22, 0.358 at 24, 0.3 from 30 hpf) with v 0 revolves about the body normal there; the ball centre lies on that normal at the frame yolkBall depth below the spine, so the profile is a sphere about (0, -depth) in the lathe frame (bodyModel.ts, BG-15, BG-18)",
+        "the yolk extension (16 to 120 hpf) is not covered: one lathe revolves about one axis; the extension follows the spine",
+        "one keyframe per body.json keyframe from 3 to 144 hpf, so the sphere tracks the shrinking ball between keyframes within a few micrometres",
+        "96, 120 and 144 hpf profiles regenerated for the smaller remnant of review R01 (body.json: radius 0.10 mm at 96 hpf, 0.06 at 120, 0.03 at 144, the Day 5 remnant drawn inside the belly)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000006",
+    "name": "ball",
+    "synonyms": [
+      "yolk ball"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000084",
+    "uiParent": "ZFA:0000084",
+    "parentRelation": "part_of",
+    "definition": "The anterior round region of the yolk cell present after the yolk extension forms during the segmentation period.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000036",
+    "startHpf": 14,
+    "endHpf": 120,
+    "visibleFromHpf": 14,
+    "modelEndHpf": 168,
+    "overrideNote": "DM-21: the ball and the extension end with the yolk at 168 hpf (D8: yolk exhausted, inferred); ZFA ends both at Day 4 (120 hpf).",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 1.2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 14,
+        "text": "ZFA start of the term (10-13 somites): the yolk cell shows a round anterior region and a posterior extension.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 16,
+        "text": "The posterior constriction of the yolk becomes a staging landmark (kidney-bean yolk).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 48,
+        "text": "The ball volume about equals the head volume (long-pec).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html"
+      },
+      {
+        "hpf": 120,
+        "text": "ZFA end of the term (Larval Day 4); the remnant continues as the yolk to 168 hpf.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/larval.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 14,
+        "stageLabel": "10-13 somites",
+        "dimsMm": {
+          "diameter": 0.6
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "first distinct from the extension; near the full egg yolk diameter"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.55
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "Kimmel: extension length equals ball diameter"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.45
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "Kimmel: yolk volume about equals head volume"
+      },
+      {
+        "hpf": 96,
+        "stageLabel": "Day 4",
+        "dimsMm": {
+          "diameter": 0.3,
+          "height": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "flattened remnant"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.25,
+          "height": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "ZFA end stage; remnant continues as yolk (ZFA:0000084) to 144 hpf"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#F2C94C",
+      "light": "#A6861B"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000006",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html",
+      "research 03a ball record"
+    ],
+    "geometry": {
+      "kind": "derived",
+      "sourceId": "ZFA:0000084",
+      "part": "ball",
+      "keyframes": [
+        {
+          "hpf": 14
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 42
+        },
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "DM-31: the ball is the `ball` part of the yolk build (frame.yolk.ball); the keyframes mark the headline stages inside the window and carry no parameters"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000106",
+    "name": "extension",
+    "synonyms": [
+      "yolk extension"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000084",
+    "uiParent": "ZFA:0000084",
+    "parentRelation": "part_of",
+    "definition": "The posterior elongated region of the yolk cell that forms during the segmentation period.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000036",
+    "startHpf": 14,
+    "endHpf": 120,
+    "visibleFromHpf": 14,
+    "modelEndHpf": 168,
+    "overrideNote": "DM-21: the ball and the extension end with the yolk at 168 hpf (D8: yolk exhausted, inferred); ZFA ends both at Day 4 (120 hpf). The body model empties the extension by 120 hpf (BG-18), so nothing draws after that.",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 1.2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 14,
+        "text": "ZFA start of the term (10-13 somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 22,
+        "text": "Nearly the length of the yolk ball (26+ somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 24,
+        "text": "Length equals the greatest yolk ball diameter (prim-5).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 30,
+        "text": "Longer than the yolk ball (prim-15).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 42,
+        "text": "Cylindrical with a conical posterior taper (high-pec).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html"
+      },
+      {
+        "hpf": 96,
+        "text": "Nearly empty during day 4.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/larval.html"
+      },
+      {
+        "hpf": 120,
+        "text": "ZFA end of the term (Larval Day 4); the extension is empty.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/larval.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 14,
+        "stageLabel": "10-13 somites",
+        "dimsMm": {
+          "length": 0.25,
+          "diameter": 0.25
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "just after the constriction appears"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "length": 0.55,
+          "diameter": 0.18
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "length equals ball diameter (Kimmel)"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.5,
+          "diameter": 0.13
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      },
+      {
+        "hpf": 96,
+        "stageLabel": "Day 4",
+        "dimsMm": {
+          "length": 0.35,
+          "diameter": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "nearly empty (Kimmel larval period)"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0,
+          "diameter": 0
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "ZFA end stage; empty"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#F2C94C",
+      "light": "#A6861B"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0000106",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/phar_stgs.html",
+      "https://zfin.org/zf_info/zfbook/stages/larval.html",
+      "research 03a extension record"
+    ],
+    "geometry": {
+      "kind": "derived",
+      "sourceId": "ZFA:0000084",
+      "part": "extension",
+      "keyframes": [
+        {
+          "hpf": 14
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 42
+        },
+        {
+          "hpf": 48
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "DM-31: the extension is the `extension` part of the yolk build (frame.yolk.extension, a tube under the ventral trunk from the ball to the vent, BG-18); the keyframes mark the headline stages and carry no parameters"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000329",
+    "name": "chorion",
+    "synonyms": [],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000020",
+    "uiParent": "ZFA:0000020",
+    "parentRelation": "is_a",
+    "definition": "The egg shell.",
+    "zfinStartStage": "ZFS:0000001",
+    "zfinEndStage": "ZFS:0000032",
+    "startHpf": 0,
+    "endHpf": 48,
+    "visibleFromHpf": 0,
+    "modelEndHpf": 30,
+    "overrideNote": "D8: the chorion shows at real size (inner diameter 1.2 mm) to 24 hpf and fades out from 24 to 30 hpf; the model is dechorionated after 30 hpf, as in the Kimmel staging series. ZFA ends the chorion at High-pec (48 hpf); hatching is a timeline event (median 60 hpf, window 48 to 72 hpf).",
+    "fadeInHpf": 0,
+    "fadeOutHpf": 6,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 0,
+        "text": "The chorion takes up water and separates from the surface of the just fertilized egg.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/zygote.html"
+      },
+      {
+        "hpf": 24,
+        "text": "Display rule: the chorion fades out from 24 to 30 hpf and the model is shown dechorionated after 30 hpf (D8)."
+      },
+      {
+        "hpf": 48,
+        "text": "Hatching period begins; hatching gland enzymes digest the chorion.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 60,
+        "text": "Hatching, median 60 hpf (window 48 to 72 hpf, D8).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 72,
+        "text": "Hatching complete in most clutches at 28.5 C.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 0,
+        "stageLabel": "1-cell",
+        "dimsMm": {
+          "diameter": 1.2,
+          "wallThickness": 0.003
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+        "note": "inner diameter from embryo radius 397 um plus perivitelline space 210 um, measured at epiboly; wall 3 um"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 1.2,
+          "wallThickness": 0.003
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/",
+        "note": "same shell; the embryo curls inside it"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#C8D0D8",
+      "light": "#7A8790",
+      "opacity": 0.1
+    },
+    "sources": [
+      "research 03a chorion record",
+      "D8 chorion display",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537415/"
+    ],
+    "geometry": {
+      "kind": "bodyDriven",
+      "part": "chorion",
+      "keyframes": [
+        {
+          "hpf": 0
+        },
+        {
+          "hpf": 10
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 30
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "0 to 30 hpf: body.json chorion centre and radius 0.60 mm (BG-33, DM-31, D8); the body model keeps the chorion non-null through 30 hpf"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001175",
+    "name": "blastodisc",
+    "synonyms": [],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001105",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "Embryonic structure that is the dome of cytoplasm that segregates from the yolk toward the animal pole during and after the one cell-stage, and which undergoes cleavage.",
+    "zfinStartStage": "ZFS:0000001",
+    "zfinEndStage": "ZFS:0000015",
+    "startHpf": 0,
+    "endHpf": 4.66,
+    "visibleFromHpf": 0,
+    "modelEndHpf": 4.66,
+    "overrideNote": "BG-23: the cap fades out over the 4.0 to 4.66 hpf crossfade with the blastoderm shell; the window itself is the ZFA window.",
+    "fadeInHpf": 0,
+    "fadeOutHpf": 0.66,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 0.75,
+        "text": "First cleavage: the 2-cell stage.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/cleav_stgs.html"
+      },
+      {
+        "hpf": 2.25,
+        "text": "128-cell stage: the blastodisc becomes the blastula.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 3.33,
+        "text": "High stage: the cell mound is tallest.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 4,
+        "text": "Sphere stage: the blastodisc flattens to a smooth outline.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 4.33,
+        "text": "Dome stage: the yolk bulges toward the animal pole; ZFA end of the term at 4.66 hpf.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 0,
+        "stageLabel": "1-cell",
+        "dimsMm": {
+          "height": 0.2,
+          "diameter": 0.6
+        },
+        "counts": {
+          "cells": 1
+        },
+        "anglesDeg": {},
+        "source": "research 05 section 16.2 (estimate)",
+        "estimate": true
+      },
+      {
+        "hpf": 2.25,
+        "stageLabel": "128-cell",
+        "dimsMm": {
+          "height": 0.27,
+          "diameter": 0.5
+        },
+        "counts": {
+          "cells": 128
+        },
+        "anglesDeg": {},
+        "source": "research 03a blastodisc record (estimate)",
+        "estimate": true
+      },
+      {
+        "hpf": 3.33,
+        "stageLabel": "High",
+        "dimsMm": {
+          "height": 0.3,
+          "diameter": 0.5
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 05 section 16.2 (estimate)",
+        "estimate": true
+      },
+      {
+        "hpf": 4,
+        "stageLabel": "Sphere",
+        "dimsMm": {
+          "height": 0.15,
+          "diameter": 0.65
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 05 section 16.2 (estimate)",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03a blastodisc record",
+      "research 05 sections 2 and 16.2",
+      "https://zfin.org/zf_info/zfbook/stages/cleav_stgs.html"
+    ],
+    "geometry": {
+      "kind": "bodyDriven",
+      "part": "blastodisc",
+      "keyframes": [
+        {
+          "hpf": 0
+        },
+        {
+          "hpf": 0.75
+        },
+        {
+          "hpf": 2.25
+        },
+        {
+          "hpf": 3.33
+        },
+        {
+          "hpf": 4.33
+        },
+        {
+          "hpf": 4.66
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "0 to 4.66 hpf: body.json cap (baseRadiusMm, heightMm) and yolkRadiusMm (BG-11, DM-01): a half superellipsoid (a, h, a) on the base plane y = sqrt(Ry^2 - a^2); height 0.20 at 1-cell, 0.27 at 128-cell, 0.30 at high, 0.10 mm at dome (research 05 section 16.2, estimates)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001176",
+    "name": "blastoderm",
+    "synonyms": [],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001105",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "is_a",
+    "definition": "Embryonic structure that is composed of the cellular part of the embryo, excluding the yolk cell, derived from the blastodisc by early morphogenesis; refers particularly to the time when the cell array is sheet-like, between 30%-epiboly and the end of gastrulation.",
+    "zfinStartStage": "ZFS:0000016",
+    "zfinEndStage": "ZFS:0000022",
+    "startHpf": 4.66,
+    "endHpf": 10.33,
+    "visibleFromHpf": 4,
+    "modelEndHpf": 10.33,
+    "overrideNote": "BG-23: the blastoderm shell appears at 4.0 hpf (sphere) and crossfades with the blastodisc cap to 4.66 hpf; ZFA starts the blastoderm at 30%-epiboly (4.66 hpf).",
+    "fadeInHpf": 0.66,
+    "fadeOutHpf": 0.0165,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 4.33,
+        "text": "Epiboly begins (dome stage).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 4.66,
+        "text": "30 percent epiboly; ZFA start of the blastoderm.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 5.25,
+        "text": "50 percent epiboly; involution starts at the germ ring.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 6,
+        "text": "Shield stage: the embryonic shield thickens the dorsal margin.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 8,
+        "text": "75 percent epiboly; evacuation zone on the ventral side.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 9,
+        "text": "90 percent epiboly; the yolk plug protrudes.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10,
+        "text": "100 percent epiboly; bud stage, ZFA end of the term at 10.33 hpf.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 4.66,
+        "stageLabel": "30%-epiboly",
+        "dimsMm": {
+          "thickness": 0.075
+        },
+        "counts": {
+          "cells": 3
+        },
+        "anglesDeg": {},
+        "source": "research 03a (estimate)",
+        "estimate": true,
+        "note": "inverted cup of uniform thickness; about 3 cells of 25 um"
+      },
+      {
+        "hpf": 6,
+        "stageLabel": "Shield",
+        "dimsMm": {
+          "thickness": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "note": "epiblast about three cells thick plus hypoblast one to two cells thick"
+      },
+      {
+        "hpf": 10,
+        "stageLabel": "Bud",
+        "dimsMm": {
+          "thickness": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03a (estimate)",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03a blastoderm record",
+      "research 05 sections 3 and 16.2",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+    ],
+    "geometry": {
+      "kind": "bodyDriven",
+      "part": "blastoderm",
+      "keyframes": [
+        {
+          "hpf": 4
+        },
+        {
+          "hpf": 4.66
+        },
+        {
+          "hpf": 5.25
+        },
+        {
+          "hpf": 6
+        },
+        {
+          "hpf": 8
+        },
+        {
+          "hpf": 9
+        },
+        {
+          "hpf": 10
+        },
+        {
+          "hpf": 10.33
+        }
+      ],
+      "estimate": [],
+      "sources": [
+        "4 to 10.33 hpf: body.json epibolyFraction, shellThicknessMm and yolkRadiusMm (BG-13, DM-01); the shell covers the yolk from the animal pole to acos(1 - 2 f): 66 degrees at 4.66, 90 at 5.25 and 6, 120 at 8, 143 at 9, 180 from 10 hpf (ZFS stage starts, research 05 section 3)",
+        "thickness: 0.085 at 4.66 falling to 0.035 mm at 10 hpf (research 05 sections 2 and 16.2, estimates); the 03a size rows (75, 100, 60 um) are reference data for the card",
+        "drawn as a body-driven part (DM-31 pattern) because the shell centre is the yolk centre of the frame, which no body coordinate names"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000086",
+    "name": "EVL",
+    "synonyms": [
+      "enveloping layer"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001176",
+    "uiParent": "ZFA:0001176",
+    "parentRelation": "part_of",
+    "definition": "Outermost monolayer of cells surrounding the embryo that become very flattened in the blastula and give rise to the periderm. Sometimes used synonymously with periderm.",
+    "zfinStartStage": "ZFS:0000016",
+    "zfinEndStage": "ZFS:0000021",
+    "startHpf": 4.66,
+    "endHpf": 10,
+    "visibleFromHpf": 4.66,
+    "modelEndHpf": 10,
+    "overrideNote": null,
+    "fadeInHpf": 0.0295,
+    "fadeOutHpf": 0.05,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 2.25,
+        "text": "About five irregular tiers of EVL cells (128-cell).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 3,
+        "text": "About eleven tiers of EVL cells (1k-cell).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 4.66,
+        "text": "ZFA start of the term; the EVL cells are very flattened.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html"
+      },
+      {
+        "hpf": 10,
+        "text": "ZFA end of the term: the EVL becomes the periderm at the end of epiboly.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 4.66,
+        "stageLabel": "30%-epiboly",
+        "dimsMm": {
+          "thickness": 0.008
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "flattened cells (Kimmel: very flattened)"
+      },
+      {
+        "hpf": 9,
+        "stageLabel": "90%-epiboly",
+        "dimsMm": {
+          "thickness": 0.005
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000086",
+      "https://zfin.org/zf_info/zfbook/stages/blast.html",
+      "https://zfin.org/zf_info/zfbook/stages/blast_stgs.html",
+      "https://www.ncbi.nlm.nih.gov/books/NBK10100/",
+      "research 03a EVL record"
+    ],
+    "geometry": {
+      "kind": "lathe",
+      "boundsMarginMm": 0.07,
+      "keyframes": [
+        {
+          "hpf": 4.66,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.344
+          },
+          "profileMm": [
+            [
+              0.3373,
+              -0.2476
+            ],
+            [
+              0.3161,
+              -0.2048
+            ],
+            [
+              0.2895,
+              -0.1652
+            ],
+            [
+              0.258,
+              -0.1294
+            ],
+            [
+              0.2221,
+              -0.098
+            ],
+            [
+              0.1824,
+              -0.0715
+            ],
+            [
+              0.1396,
+              -0.0505
+            ],
+            [
+              0.0944,
+              -0.0352
+            ],
+            [
+              0.0476,
+              -0.0259
+            ],
+            [
+              0,
+              -0.0228
+            ]
+          ]
+        },
+        {
+          "hpf": 5.25,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.76
+          },
+          "profileMm": [
+            [
+              0.359,
+              -0.367
+            ],
+            [
+              0.3535,
+              -0.3047
+            ],
+            [
+              0.3373,
+              -0.2442
+            ],
+            [
+              0.3109,
+              -0.1875
+            ],
+            [
+              0.275,
+              -0.1362
+            ],
+            [
+              0.2308,
+              -0.092
+            ],
+            [
+              0.1795,
+              -0.0561
+            ],
+            [
+              0.1228,
+              -0.0296
+            ],
+            [
+              0.0623,
+              -0.0135
+            ],
+            [
+              0,
+              -0.008
+            ]
+          ]
+        },
+        {
+          "hpf": 6,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.749
+          },
+          "profileMm": [
+            [
+              0.349,
+              -0.3548
+            ],
+            [
+              0.3437,
+              -0.2942
+            ],
+            [
+              0.328,
+              -0.2354
+            ],
+            [
+              0.3022,
+              -0.1803
+            ],
+            [
+              0.2673,
+              -0.1305
+            ],
+            [
+              0.2243,
+              -0.0874
+            ],
+            [
+              0.1745,
+              -0.0525
+            ],
+            [
+              0.1194,
+              -0.0268
+            ],
+            [
+              0.0606,
+              -0.0111
+            ],
+            [
+              0,
+              -0.0058
+            ]
+          ]
+        },
+        {
+          "hpf": 8,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 3.709
+          },
+          "profileMm": [
+            [
+              0.3022,
+              -0.5268
+            ],
+            [
+              0.3343,
+              -0.4524
+            ],
+            [
+              0.3484,
+              -0.3726
+            ],
+            [
+              0.3437,
+              -0.2917
+            ],
+            [
+              0.3205,
+              -0.214
+            ],
+            [
+              0.2799,
+              -0.1439
+            ],
+            [
+              0.2243,
+              -0.0849
+            ],
+            [
+              0.1566,
+              -0.0404
+            ],
+            [
+              0.0805,
+              -0.0127
+            ],
+            [
+              0,
+              -0.0033
+            ]
+          ]
+        },
+        {
+          "hpf": 9,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 4.49
+          },
+          "profileMm": [
+            [
+              0.2064,
+              -0.6202
+            ],
+            [
+              0.2739,
+              -0.5531
+            ],
+            [
+              0.3205,
+              -0.4701
+            ],
+            [
+              0.3425,
+              -0.3775
+            ],
+            [
+              0.3383,
+              -0.2824
+            ],
+            [
+              0.3082,
+              -0.1921
+            ],
+            [
+              0.2545,
+              -0.1135
+            ],
+            [
+              0.1813,
+              -0.0527
+            ],
+            [
+              0.0943,
+              -0.0142
+            ],
+            [
+              0,
+              -0.001
+            ]
+          ]
+        },
+        {
+          "hpf": 10,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 5.584
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6689
+            ],
+            [
+              0.1177,
+              -0.6482
+            ],
+            [
+              0.2211,
+              -0.5884
+            ],
+            [
+              0.2979,
+              -0.4969
+            ],
+            [
+              0.3388,
+              -0.3846
+            ],
+            [
+              0.3388,
+              -0.2652
+            ],
+            [
+              0.2979,
+              -0.1529
+            ],
+            [
+              0.2211,
+              -0.0614
+            ],
+            [
+              0.1177,
+              -0.0017
+            ],
+            [
+              0,
+              0.0191
+            ]
+          ]
+        }
+      ],
+      "estimate": [
+        "profileMm"
+      ],
+      "sources": [
+        "boundsMarginMm: rule W007 compares the local-frame bounds of a lathe (relative to its origin at the pole) with the world body box, so the part of the profile below the origin reads as a protrusion; the surface lies on the egg inside the chorion at every keyframe (tests/unit/anatomy-a1.test.ts checks the world-space radii). The margin covers that artefact only",
+        "shape: a spherical cap over the blastoderm from the animal pole to the margin at acos(1 - 2 f), f the epiboly fraction of the frame at the keyframe (BG-13: 67 degrees at 4.66, 90 at 5.25 and 6, 120 at 8, 143 at 9, 180 at 10 hpf)",
+        "radius: the blastoderm outer surface (yolk radius + 0.003 mm, buildStructure SHELL_PROUD_MM) + 0.016 mm, so the EVL is the visible outer skin and sits 7 um above the epiblast cap (the profile is a 10-point spline on the sphere, within 3 um of it); the real EVL is 5 to 8 um thick (research 03a, estimate)",
+        "placement: a lathe at u 0 (the animal pole) revolves about the local normal; pitchDeg turns that normal onto the line from the egg centre through the pole (1 to 6 degrees, computed from the frame), so the axis of revolution is the animal-vegetal axis; the profile y values are relative to the pole point, whose distance from the egg centre is the frame yolkBall depth"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000111",
+    "name": "germ ring",
+    "synonyms": [],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001105",
+    "uiParent": "ZFA:0001176",
+    "parentRelation": "is_a",
+    "definition": "Embryonic structure that forms as a thickened annulus at the blastoderm rim.  The germ ring is thickened because it  is the involuting margin of the blastoderm.",
+    "zfinStartStage": "ZFS:0000018",
+    "zfinEndStage": "ZFS:0000022",
+    "startHpf": 5.66,
+    "endHpf": 10.33,
+    "visibleFromHpf": 5.66,
+    "modelEndHpf": 10.33,
+    "overrideNote": null,
+    "fadeInHpf": 0.017,
+    "fadeOutHpf": 0.0165,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 5.66,
+        "text": "The germ ring forms nearly simultaneously all around the blastoderm rim as involution begins.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast.html"
+      },
+      {
+        "hpf": 6,
+        "text": "The embryonic shield appears within the ring on the dorsal side.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast.html"
+      },
+      {
+        "hpf": 8,
+        "text": "The ring moves vegetally with the margin (75 percent epiboly).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 9,
+        "text": "The ring encircles the yolk plug (90 percent epiboly).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10.33,
+        "text": "ZFA end of the term: the margin closes at the vegetal pole and the tail bud forms.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 5.66,
+        "stageLabel": "Germ-ring",
+        "dimsMm": {
+          "ringDiameter": 0.65,
+          "tubeDiameter": 0.1
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "equatorial; thickness of epiblast (3 cells) plus hypoblast (1 to 2 cells)"
+      },
+      {
+        "hpf": 8,
+        "stageLabel": "75%-epiboly",
+        "dimsMm": {
+          "ringDiameter": 0.46,
+          "tubeDiameter": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000111",
+      "https://zfin.org/zf_info/zfbook/stages/gast.html",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "research 03a germ ring record"
+    ],
+    "geometry": {
+      "kind": "lathe",
+      "boundsMarginMm": 0.08,
+      "keyframes": [
+        {
+          "hpf": 5.66,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.754
+          },
+          "profileMm": [
+            [
+              0.3225,
+              -0.3953
+            ],
+            [
+              0.3473,
+              -0.3851
+            ],
+            [
+              0.3575,
+              -0.3603
+            ],
+            [
+              0.3473,
+              -0.3356
+            ],
+            [
+              0.3225,
+              -0.3253
+            ],
+            [
+              0.2978,
+              -0.3356
+            ],
+            [
+              0.2875,
+              -0.3603
+            ],
+            [
+              0.2978,
+              -0.3851
+            ],
+            [
+              0.3177,
+              -0.395
+            ]
+          ]
+        },
+        {
+          "hpf": 6,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.749
+          },
+          "profileMm": [
+            [
+              0.318,
+              -0.3898
+            ],
+            [
+              0.3428,
+              -0.3795
+            ],
+            [
+              0.353,
+              -0.3548
+            ],
+            [
+              0.3428,
+              -0.33
+            ],
+            [
+              0.318,
+              -0.3198
+            ],
+            [
+              0.2932,
+              -0.33
+            ],
+            [
+              0.283,
+              -0.3548
+            ],
+            [
+              0.2932,
+              -0.3795
+            ],
+            [
+              0.3131,
+              -0.3894
+            ]
+          ]
+        },
+        {
+          "hpf": 8,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 3.709
+          },
+          "profileMm": [
+            [
+              0.2754,
+              -0.5393
+            ],
+            [
+              0.2952,
+              -0.5311
+            ],
+            [
+              0.3034,
+              -0.5113
+            ],
+            [
+              0.2952,
+              -0.4915
+            ],
+            [
+              0.2754,
+              -0.4833
+            ],
+            [
+              0.2556,
+              -0.4915
+            ],
+            [
+              0.2474,
+              -0.5113
+            ],
+            [
+              0.2556,
+              -0.5311
+            ],
+            [
+              0.2715,
+              -0.539
+            ]
+          ]
+        },
+        {
+          "hpf": 9,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 4.49
+          },
+          "profileMm": [
+            [
+              0.1878,
+              -0.6199
+            ],
+            [
+              0.2051,
+              -0.6127
+            ],
+            [
+              0.2123,
+              -0.5954
+            ],
+            [
+              0.2051,
+              -0.578
+            ],
+            [
+              0.1878,
+              -0.5709
+            ],
+            [
+              0.1705,
+              -0.578
+            ],
+            [
+              0.1633,
+              -0.5954
+            ],
+            [
+              0.1705,
+              -0.6127
+            ],
+            [
+              0.1844,
+              -0.6197
+            ]
+          ]
+        },
+        {
+          "hpf": 10,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 5.584
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6679
+            ],
+            [
+              0.0212,
+              -0.6591
+            ],
+            [
+              0.03,
+              -0.6379
+            ],
+            [
+              0.0212,
+              -0.6167
+            ],
+            [
+              0,
+              -0.6079
+            ],
+            [
+              0,
+              -0.6167
+            ],
+            [
+              0,
+              -0.6379
+            ],
+            [
+              0,
+              -0.6591
+            ],
+            [
+              0,
+              -0.6676
+            ]
+          ]
+        },
+        {
+          "hpf": 10.33,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 5.698
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6646
+            ],
+            [
+              0.0212,
+              -0.6558
+            ],
+            [
+              0.03,
+              -0.6346
+            ],
+            [
+              0.0212,
+              -0.6133
+            ],
+            [
+              0,
+              -0.6046
+            ],
+            [
+              0,
+              -0.6133
+            ],
+            [
+              0,
+              -0.6346
+            ],
+            [
+              0,
+              -0.6558
+            ],
+            [
+              0,
+              -0.6643
+            ]
+          ]
+        }
+      ],
+      "estimate": [
+        "profileMm"
+      ],
+      "sources": [
+        "boundsMarginMm: rule W007 compares the local-frame bounds of a lathe (relative to its origin at the pole) with the world body box, so the part of the profile below the origin reads as a protrusion; the surface lies on the egg inside the chorion at every keyframe (tests/unit/anatomy-a1.test.ts checks the world-space radii). The margin covers that artefact only",
+        "shape: a torus on the margin latitude acos(1 - 2 f) (BG-13; research 05 section 3), revolved about the animal-vegetal axis with the pole lathe placement of the EVL record (u 0, pitchDeg from the frame)",
+        "tube diameter 100 um at 5.66 and 6 hpf (about twice the blastoderm thickness), 80 um at 8 hpf, 70 at 9, 60 at 10 hpf (research 03a germ ring sizes, estimates); at bud the margin closes at the vegetal pole so the ring collapses to a knob under the tail bud",
+        "ring centre 15 um inside the blastoderm outer surface so the thickening bulges both outward and into the yolk (research 03a shape note); the profile is 9 points around the tube section, open by 8 degrees on the inner-ventral side that faces the yolk",
+        "review R14: the tube diameter is 0.7 of the draft value (70 um at shield, 56 at 75%-epiboly, 49 at 90%-epiboly) about the same torus centre, so the ring's outer surface lies within 4 um of the blastoderm surface and the germ ring reads as a thickening flush with the sphere (Kimmel 1995 Shield), not a brim; the earlier 100 um tube stood 18 um proud of the yolk"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000071",
+    "name": "shield",
+    "synonyms": [
+      "dorsal organizer",
+      "Spemann Mangold organizer",
+      "Spemann's organizer",
+      "organizer"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000111",
+    "uiParent": "ZFA:0000111",
+    "parentRelation": "part_of",
+    "definition": "Embryonic structure that is a local accumulation of cells along the germ ring.  The shield marks the dorsal side of the embryo.",
+    "zfinStartStage": "ZFS:0000019",
+    "zfinEndStage": "ZFS:0000019",
+    "startHpf": 6,
+    "endHpf": 8,
+    "visibleFromHpf": 6,
+    "modelEndHpf": 8,
+    "overrideNote": null,
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0.1,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 5.25,
+        "text": "Dorsal forerunner cells gather at the future shield margin (50 percent epiboly).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast.html"
+      },
+      {
+        "hpf": 6,
+        "text": "The shield is visible from the animal pole within minutes of 50 percent epiboly; it marks the dorsal side.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast.html"
+      },
+      {
+        "hpf": 8,
+        "text": "ZFA end of the term: the shield becomes less distinctive as the axis forms.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 6,
+        "stageLabel": "Shield",
+        "dimsMm": {
+          "length": 0.17,
+          "width": 0.1,
+          "thickness": 0.12
+        },
+        "counts": {
+          "cells": 100
+        },
+        "anglesDeg": {
+          "arcDeg": 30
+        },
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast.html",
+        "note": "about 30 degrees of longitude of the germ ring; about 100 cells (Gilbert); linear sizes are estimates for a 0.65 mm sphere"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000071",
+      "https://zfin.org/zf_info/zfbook/stages/gast.html",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "https://www.ncbi.nlm.nih.gov/books/NBK10100/",
+      "research 03a shield record"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "placement": {
+        "u": 1,
+        "v": -0.2,
+        "w": 0
+      },
+      "keyframes": [
+        {
+          "hpf": 6,
+          "radiiMm": [
+            0.085,
+            0.06,
+            0.05
+          ]
+        },
+        {
+          "hpf": 8,
+          "radiiMm": [
+            0.075,
+            0.045,
+            0.045
+          ]
+        }
+      ],
+      "estimate": [
+        "radiiMm",
+        "placement"
+      ],
+      "sources": [
+        "placement u 1: the spine of regime R1 ends at the dorsal margin, so u 1 is the germ ring on the dorsal meridian (BG-12, BG-13); v -0.2 puts the centre 10 um inside the shell so the bump rises about 25 um above the germ ring and thickens inward toward the yolk",
+        "6 hpf: 170 x 120 x 100 um (length along the ring, thickness, width across the ring; about 30 degrees of longitude, Kimmel via research 03a; estimate)",
+        "8 hpf: 150 x 90 x 90 um as it becomes less distinctive (estimate)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000018",
+    "name": "epiblast",
+    "synonyms": [],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000111",
+    "uiParent": "ZFA:0000111",
+    "parentRelation": "part_of",
+    "definition": "The outer of the two layers of the blastoderm that form during gastrulation, corresponding to primitive ectoderm during gastrulation and to the definitive ectoderm after gastrulation.",
+    "zfinStartStage": "ZFS:0000018",
+    "zfinEndStage": "ZFS:0000022",
+    "startHpf": 5.66,
+    "endHpf": 10.33,
+    "visibleFromHpf": 5.66,
+    "modelEndHpf": 10.33,
+    "overrideNote": null,
+    "fadeInHpf": 0.017,
+    "fadeOutHpf": 0.0165,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 5.66,
+        "text": "Forms as the outer layer of the blastoderm at the germ ring, about three cells thick.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 9,
+        "text": "Thickens dorsally as the neural plate.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10.33,
+        "text": "ZFA end of the term; the epiblast is the definitive ectoderm.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 5.66,
+        "stageLabel": "Germ-ring",
+        "dimsMm": {
+          "thickness": 0.075
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "note": "about three cells thick; 25 um cells"
+      },
+      {
+        "hpf": 9,
+        "stageLabel": "90%-epiboly",
+        "dimsMm": {
+          "thickness": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000018",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "research 03a epiblast record"
+    ],
+    "geometry": {
+      "kind": "lathe",
+      "boundsMarginMm": 0.07,
+      "keyframes": [
+        {
+          "hpf": 5.66,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.754
+          },
+          "profileMm": [
+            [
+              0.3465,
+              -0.3603
+            ],
+            [
+              0.3413,
+              -0.3002
+            ],
+            [
+              0.3256,
+              -0.2418
+            ],
+            [
+              0.3001,
+              -0.1871
+            ],
+            [
+              0.2655,
+              -0.1376
+            ],
+            [
+              0.2227,
+              -0.0949
+            ],
+            [
+              0.1733,
+              -0.0602
+            ],
+            [
+              0.1185,
+              -0.0347
+            ],
+            [
+              0.0602,
+              -0.0191
+            ],
+            [
+              0,
+              -0.0138
+            ]
+          ]
+        },
+        {
+          "hpf": 6,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.749
+          },
+          "profileMm": [
+            [
+              0.342,
+              -0.3548
+            ],
+            [
+              0.3368,
+              -0.2954
+            ],
+            [
+              0.3214,
+              -0.2378
+            ],
+            [
+              0.2962,
+              -0.1838
+            ],
+            [
+              0.262,
+              -0.135
+            ],
+            [
+              0.2198,
+              -0.0928
+            ],
+            [
+              0.171,
+              -0.0586
+            ],
+            [
+              0.117,
+              -0.0334
+            ],
+            [
+              0.0594,
+              -0.018
+            ],
+            [
+              0,
+              -0.0128
+            ]
+          ]
+        },
+        {
+          "hpf": 8,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 3.709
+          },
+          "profileMm": [
+            [
+              0.2962,
+              -0.5233
+            ],
+            [
+              0.3276,
+              -0.4504
+            ],
+            [
+              0.3414,
+              -0.3722
+            ],
+            [
+              0.3368,
+              -0.2929
+            ],
+            [
+              0.314,
+              -0.2168
+            ],
+            [
+              0.2743,
+              -0.148
+            ],
+            [
+              0.2198,
+              -0.0903
+            ],
+            [
+              0.1535,
+              -0.0467
+            ],
+            [
+              0.0789,
+              -0.0195
+            ],
+            [
+              0,
+              -0.0103
+            ]
+          ]
+        },
+        {
+          "hpf": 9,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 4.49
+          },
+          "profileMm": [
+            [
+              0.2022,
+              -0.6146
+            ],
+            [
+              0.2683,
+              -0.5489
+            ],
+            [
+              0.3139,
+              -0.4675
+            ],
+            [
+              0.3355,
+              -0.3768
+            ],
+            [
+              0.3314,
+              -0.2837
+            ],
+            [
+              0.3019,
+              -0.1952
+            ],
+            [
+              0.2493,
+              -0.1182
+            ],
+            [
+              0.1776,
+              -0.0586
+            ],
+            [
+              0.0923,
+              -0.0209
+            ],
+            [
+              0,
+              -0.008
+            ]
+          ]
+        },
+        {
+          "hpf": 10,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 5.584
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6619
+            ],
+            [
+              0.1153,
+              -0.6416
+            ],
+            [
+              0.2166,
+              -0.5831
+            ],
+            [
+              0.2919,
+              -0.4934
+            ],
+            [
+              0.3319,
+              -0.3834
+            ],
+            [
+              0.3319,
+              -0.2664
+            ],
+            [
+              0.2919,
+              -0.1564
+            ],
+            [
+              0.2166,
+              -0.0667
+            ],
+            [
+              0.1153,
+              -0.0082
+            ],
+            [
+              0,
+              0.0121
+            ]
+          ]
+        },
+        {
+          "hpf": 10.33,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 5.698
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6586
+            ],
+            [
+              0.1144,
+              -0.6384
+            ],
+            [
+              0.215,
+              -0.5803
+            ],
+            [
+              0.2897,
+              -0.4913
+            ],
+            [
+              0.3294,
+              -0.3821
+            ],
+            [
+              0.3294,
+              -0.2659
+            ],
+            [
+              0.2897,
+              -0.1568
+            ],
+            [
+              0.215,
+              -0.0678
+            ],
+            [
+              0.1144,
+              -0.0097
+            ],
+            [
+              0,
+              0.0105
+            ]
+          ]
+        }
+      ],
+      "estimate": [
+        "profileMm"
+      ],
+      "sources": [
+        "boundsMarginMm: rule W007 compares the local-frame bounds of a lathe (relative to its origin at the pole) with the world body box, so the part of the profile below the origin reads as a protrusion; the surface lies on the egg inside the chorion at every keyframe (tests/unit/anatomy-a1.test.ts checks the world-space radii). The margin covers that artefact only",
+        "shape: the outer layer of the two-layer blastoderm, a cap from the animal pole to the margin (BG-13 angles), drawn as its outer surface 9 um above the blastoderm outer surface: under the EVL cap (16 um) and above the hypoblast (2 um), so hiding the EVL reveals it in the right order",
+        "thickness about 75 um (three cells) at 5.66 hpf and 60 um at 9 hpf (research 03a); the deep-cell volume is the body-driven blastoderm shell, so this record adds no thickness of its own",
+        "placement: the pole lathe of the EVL record (u 0, pitchDeg from the frame)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000117",
+    "name": "hypoblast",
+    "synonyms": [
+      "mesendoderm"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000111",
+    "uiParent": "ZFA:0000111",
+    "parentRelation": "part_of",
+    "definition": "The inner of the two layers of the blastoderm that forms during gastrulation and give rise to the definitive mesoderm and endoderm.",
+    "zfinStartStage": "ZFS:0000018",
+    "zfinEndStage": "ZFS:0000022",
+    "startHpf": 5.66,
+    "endHpf": 10.33,
+    "visibleFromHpf": 5.66,
+    "modelEndHpf": 10.33,
+    "overrideNote": null,
+    "fadeInHpf": 0.017,
+    "fadeOutHpf": 0.0165,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 5.66,
+        "text": "Forms by involution at the germ ring, one to two cells thick.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 8,
+        "text": "The anterior axial hypoblast reaches the animal pole (75 percent epiboly).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10.33,
+        "text": "ZFA end of the term; the hypoblast is the mesoderm and endoderm.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 5.66,
+        "stageLabel": "Germ-ring",
+        "dimsMm": {
+          "thickness": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+        "note": "one to two cells thick"
+      },
+      {
+        "hpf": 8,
+        "stageLabel": "75%-epiboly",
+        "dimsMm": {
+          "thickness": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://www.nature.com/articles/srep08601",
+        "note": "about 20 um at 7 hpf"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000117",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "https://www.nature.com/articles/srep08601",
+      "research 03a hypoblast record"
+    ],
+    "geometry": {
+      "kind": "lathe",
+      "boundsMarginMm": 0.07,
+      "keyframes": [
+        {
+          "hpf": 5.66,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.754
+          },
+          "profileMm": [
+            [
+              0.3395,
+              -0.3603
+            ],
+            [
+              0.3395,
+              -0.3551
+            ],
+            [
+              0.3394,
+              -0.3498
+            ],
+            [
+              0.3392,
+              -0.3445
+            ],
+            [
+              0.3389,
+              -0.3393
+            ],
+            [
+              0.3385,
+              -0.334
+            ],
+            [
+              0.3381,
+              -0.3288
+            ],
+            [
+              0.3375,
+              -0.3235
+            ],
+            [
+              0.3369,
+              -0.3183
+            ],
+            [
+              0.3362,
+              -0.3131
+            ]
+          ]
+        },
+        {
+          "hpf": 6,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 2.749
+          },
+          "profileMm": [
+            [
+              0.335,
+              -0.3548
+            ],
+            [
+              0.3344,
+              -0.3353
+            ],
+            [
+              0.3327,
+              -0.3159
+            ],
+            [
+              0.3299,
+              -0.2966
+            ],
+            [
+              0.326,
+              -0.2775
+            ],
+            [
+              0.3209,
+              -0.2587
+            ],
+            [
+              0.3148,
+              -0.2402
+            ],
+            [
+              0.3076,
+              -0.2221
+            ],
+            [
+              0.2994,
+              -0.2044
+            ],
+            [
+              0.2901,
+              -0.1873
+            ]
+          ]
+        },
+        {
+          "hpf": 8,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 3.709
+          },
+          "profileMm": [
+            [
+              0.2901,
+              -0.5198
+            ],
+            [
+              0.3148,
+              -0.4669
+            ],
+            [
+              0.3299,
+              -0.4104
+            ],
+            [
+              0.335,
+              -0.3523
+            ],
+            [
+              0.3299,
+              -0.2941
+            ],
+            [
+              0.3148,
+              -0.2377
+            ],
+            [
+              0.2901,
+              -0.1848
+            ],
+            [
+              0.2566,
+              -0.1369
+            ],
+            [
+              0.2153,
+              -0.0957
+            ],
+            [
+              0.1675,
+              -0.0622
+            ]
+          ]
+        },
+        {
+          "hpf": 9,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 4.49
+          },
+          "profileMm": [
+            [
+              0.198,
+              -0.609
+            ],
+            [
+              0.2568,
+              -0.5522
+            ],
+            [
+              0.2999,
+              -0.4827
+            ],
+            [
+              0.3246,
+              -0.4047
+            ],
+            [
+              0.3293,
+              -0.323
+            ],
+            [
+              0.3138,
+              -0.2427
+            ],
+            [
+              0.279,
+              -0.1687
+            ],
+            [
+              0.227,
+              -0.1055
+            ],
+            [
+              0.1612,
+              -0.057
+            ],
+            [
+              0.0854,
+              -0.0262
+            ]
+          ]
+        },
+        {
+          "hpf": 10,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 5.584
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6549
+            ],
+            [
+              0.1129,
+              -0.635
+            ],
+            [
+              0.2121,
+              -0.5777
+            ],
+            [
+              0.2858,
+              -0.4899
+            ],
+            [
+              0.325,
+              -0.3822
+            ],
+            [
+              0.325,
+              -0.2676
+            ],
+            [
+              0.2858,
+              -0.1599
+            ],
+            [
+              0.2121,
+              -0.0721
+            ],
+            [
+              0.1129,
+              -0.0148
+            ],
+            [
+              0,
+              0.0051
+            ]
+          ]
+        },
+        {
+          "hpf": 10.33,
+          "placement": {
+            "u": 0,
+            "v": 0,
+            "w": 0,
+            "pitchDeg": 5.698
+          },
+          "profileMm": [
+            [
+              0,
+              -0.6516
+            ],
+            [
+              0.112,
+              -0.6318
+            ],
+            [
+              0.2105,
+              -0.5749
+            ],
+            [
+              0.2836,
+              -0.4878
+            ],
+            [
+              0.3225,
+              -0.3809
+            ],
+            [
+              0.3225,
+              -0.2672
+            ],
+            [
+              0.2836,
+              -0.1603
+            ],
+            [
+              0.2105,
+              -0.0731
+            ],
+            [
+              0.112,
+              -0.0163
+            ],
+            [
+              0,
+              0.0035
+            ]
+          ]
+        }
+      ],
+      "estimate": [
+        "profileMm"
+      ],
+      "sources": [
+        "boundsMarginMm: rule W007 compares the local-frame bounds of a lathe (relative to its origin at the pole) with the world body box, so the part of the profile below the origin reads as a protrusion; the surface lies on the egg inside the chorion at every keyframe (tests/unit/anatomy-a1.test.ts checks the world-space radii). The margin covers that artefact only",
+        "shape: the inner layer of the blastoderm, a band from the margin animalward to the hypoblast front, drawn 2 um above the blastoderm outer surface (under the epiblast cap at 9 um)",
+        "front: 8 degrees above the margin at 5.66 hpf, at 60 degrees polar angle at 6 hpf, 30 at 8 hpf (the axial hypoblast reaches the pole at 75 percent epiboly, so the mean front sits below it), 15 at 9, the pole at 10 hpf (research 03a events; estimates)",
+        "thickness 35 um at 5.66 and 20 um at 8 hpf (research 03a); drawn as a surface",
+        "placement: the pole lathe of the EVL record (u 0, pitchDeg from the frame)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000001",
+    "name": "Kupffer's vesicle",
+    "synonyms": [
+      "ciliated organ of asymmetry"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [
+      "axial"
+    ],
+    "zfaParent": "ZFA:0000077",
+    "uiParent": "ZFA:0000077",
+    "parentRelation": "part_of",
+    "definition": "Small but distinctive epithelial sac containing fluid, located midventrally posterior to the yolk cell or its extension, and transiently present during most of the segmentation period. Kupffer's vesicle has been compared to the mouse embryonic node.",
+    "zfinStartStage": "ZFS:0000023",
+    "zfinEndStage": "ZFS:0000029",
+    "startHpf": 10.33,
+    "endHpf": 30,
+    "visibleFromHpf": 10.33,
+    "modelEndHpf": 19,
+    "overrideNote": "DM-21: the model ends Kupffer's vesicle at 19 hpf with a 2 h fade. The ZFIN segmentation page still calls the vesicle a prominent feature at the 14-19 somite stage (16 h), so the regression window is an estimate; Essner et al. 2005 Development 132:1247-1260, PMID 15716348 has no open-access copy and was not read. ZFA ends the term at Prim-5 (30 hpf). The vesicle sits under the tail bud (axial), its ZFA part_of parent and uiParent, so rule W003 reports the cross-system parent; alsoIn axial documents it (review DR-16).",
+    "fadeInHpf": 0.0665,
+    "fadeOutHpf": 2,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 5.25,
+        "text": "Dorsal forerunner cells gather at the shield margin.",
+        "source": "Cooper and D'Amico 1996 Dev Biol 180:184-198 https://pubmed.ncbi.nlm.nih.gov/8948583/"
+      },
+      {
+        "hpf": 10.33,
+        "text": "ZFA start of the term; the forerunner cells organize into a rosette.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 11,
+        "text": "The lumen forms at the 2-somite stage.",
+        "source": "Dasgupta et al. 2018 eLife 7:e30963 https://elifesciences.org/articles/30963"
+      },
+      {
+        "hpf": 13,
+        "text": "The lumen is fully expanded at 8 somites.",
+        "source": "Dasgupta et al. 2018 eLife 7:e30963 https://elifesciences.org/articles/30963"
+      },
+      {
+        "hpf": 13.5,
+        "text": "Ellipsoidal shape at 9 somites; the cilia beat at about 30 Hz.",
+        "source": "Okabe et al. 2008 https://pmc.ncbi.nlm.nih.gov/articles/PMC2829604/"
+      },
+      {
+        "hpf": 16,
+        "text": "Prominent at the base of the protruding tail bud.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 19,
+        "text": "The vesicle regresses (20-somite stage; model end).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+        "estimate": true
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 11,
+        "stageLabel": "1-4 somites",
+        "dimsMm": {
+          "diameter": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "lumen first forms at 2 somites; about 50 epithelial cells"
+      },
+      {
+        "hpf": 14,
+        "stageLabel": "10-13 somites",
+        "dimsMm": {
+          "diameter": 0.065,
+          "ciliumLength": 0.006
+        },
+        "counts": {
+          "cells": 50,
+          "cilia": 57
+        },
+        "anglesDeg": {},
+        "source": "Gokey et al. 2016 Dev Dyn 245:22-33 https://pmc.ncbi.nlm.nih.gov/articles/PMC5434515/",
+        "note": "maximum lumen area 2250 to 4517 um2 at 10 somites (equivalent diameter 54 to 76 um; Gokey et al. 2016 Dev Dyn 245:22-33); cilia from Navis 2013"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000001",
+      "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html",
+      "https://elifesciences.org/articles/30963",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3621488/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2829604/",
+      "Gokey et al. 2016 Dev Dyn 245:22-33 https://pmc.ncbi.nlm.nih.gov/articles/PMC5434515/",
+      "research 03a Kupffer's vesicle record"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 10.33,
+          "placement": {
+            "u": 0.871,
+            "v": -0.2,
+            "w": 0
+          },
+          "radiiMm": [
+            0.01,
+            0.009,
+            0.01
+          ]
+        },
+        {
+          "hpf": 11,
+          "placement": {
+            "u": 0.874,
+            "v": -0.22,
+            "w": 0
+          },
+          "radiiMm": [
+            0.012,
+            0.01,
+            0.011
+          ]
+        },
+        {
+          "hpf": 12,
+          "placement": {
+            "u": 0.867,
+            "v": -0.25,
+            "w": 0
+          },
+          "radiiMm": [
+            0.022,
+            0.016,
+            0.019
+          ]
+        },
+        {
+          "hpf": 13,
+          "placement": {
+            "u": 0.864,
+            "v": -0.25,
+            "w": 0
+          },
+          "radiiMm": [
+            0.033,
+            0.024,
+            0.029
+          ]
+        },
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.861,
+            "v": -0.25,
+            "w": 0
+          },
+          "radiiMm": [
+            0.034,
+            0.025,
+            0.03
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.87,
+            "v": -0.25,
+            "w": 0
+          },
+          "radiiMm": [
+            0.03,
+            0.021,
+            0.026
+          ]
+        },
+        {
+          "hpf": 18,
+          "placement": {
+            "u": 0.905,
+            "v": -0.25,
+            "w": 0
+          },
+          "radiiMm": [
+            0.018,
+            0.013,
+            0.015
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.922,
+            "v": -0.25,
+            "w": 0
+          },
+          "radiiMm": [
+            0.01,
+            0.008,
+            0.009
+          ]
+        }
+      ],
+      "estimate": [
+        "radiiMm",
+        "placement"
+      ],
+      "sources": [
+        "placement: on the midline just anterior to the tail bud, so the vesicle touches the tail bud knob at its anterior face (research 03a: at the base of the tail bud, under the posterior end of the notochord); v -0.25 sets the centre 10 to 12 um below the spine, under the notochord axis; in regime R2 the yolk surface lies 0 to 20 um below the spine, so the ventral part of the vesicle indents the yolk (Okabe et al. 2008)",
+        "size: 20 um at 10.33 to 11 hpf (rosette to first lumen), 65 x 50 x 58 um at 13 to 14 hpf (lumen area 2250 to 4517 um2 at 10 somites, Gokey et al. 2016; about 50 cells, Dasgupta et al. 2018), shrinking to 20 um by 19 hpf (research 03a, estimates)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000026",
+    "name": "hatching gland",
+    "synonyms": [
+      "hgg"
+    ],
+    "system": "early_embryo",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000058",
+    "uiParent": "ZFA:0001094",
+    "parentRelation": "develops_from",
+    "definition": "A transversely oriented set of cells located deep to the EVL on the pericardial membrane, especially prominent during pharyngula period because of the brightly refractile cytoplasmic granules (containing hatching enzymes) of the principal cells of the gland.",
+    "zfinStartStage": "ZFS:0000025",
+    "zfinEndStage": "ZFS:0000034",
+    "startHpf": 14,
+    "endHpf": 72,
+    "visibleFromHpf": 10,
+    "modelEndHpf": 72,
+    "overrideNote": "Alias chain: the record starts at 10 hpf as the polster ZFA:0000058 (ZFA Bud to Prim-5), the hatching gland rudiment under the forebrain, and takes the hatching gland name at 14 hpf when ZFA starts the term (10-13 somites); the same cells move from under the forebrain to the pericardium (Kimmel 1995), so one record carries both terms, as the heart record carries its rudiments (D9).",
+    "fadeInHpf": 0.0165,
+    "fadeOutHpf": 0.6,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [
+      {
+        "zfaId": "ZFA:0000058",
+        "name": "polster",
+        "fromHpf": 10,
+        "toHpf": 14
+      }
+    ],
+    "events": [
+      {
+        "hpf": 8,
+        "text": "The anterior axial hypoblast (prechordal plate) reaches the animal pole.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 10,
+        "text": "The polster is a prominent bulge at the anterior end of the axis (bud stage).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html"
+      },
+      {
+        "hpf": 11.66,
+        "text": "The polster lies deep to the neural plate under the forebrain (5-9 somites).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg_stgs.html"
+      },
+      {
+        "hpf": 14,
+        "text": "ZFA start of the hatching gland term; the cells relocate to the pericardium above the basal layer.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/seg.html"
+      },
+      {
+        "hpf": 24,
+        "text": "A continuous sheet of about 250 granular cells on the pericardium; ctslb and he1 expression.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/"
+      },
+      {
+        "hpf": 48,
+        "text": "Secretion of the hatching enzyme; the hatching period begins.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 72,
+        "text": "ZFA end of the term; the cells degenerate after hatching (TUNEL positive by 78 hpf).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 10,
+        "stageLabel": "Bud",
+        "dimsMm": {
+          "length": 0.12,
+          "width": 0.1,
+          "height": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "prominent bulge"
+      },
+      {
+        "hpf": 11.66,
+        "stageLabel": "5-9 somites",
+        "dimsMm": {
+          "length": 0.15,
+          "width": 0.12,
+          "height": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "estimate (this document); see md notes",
+        "note": "prominent polster deep to the neural plate (Kimmel wording)"
+      },
+      {
+        "hpf": 18,
+        "stageLabel": "14-19 somites",
+        "dimsMm": {
+          "width": 0.15,
+          "length": 0.1,
+          "thickness": 0.015
+        },
+        "counts": {
+          "cells": 271
+        },
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/",
+        "note": "271 +/- 42 cells at 18 hpf; linear sizes are estimates"
+      },
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "width": 0.2,
+          "length": 0.12,
+          "thickness": 0.015
+        },
+        "counts": {
+          "cells": 250
+        },
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/",
+        "note": "continuous sheet by 24 hpf; cell count stable 232 to 271; sizes estimates; the 03a estimate row (150 x 120 x 20 um, sheet stage) is folded into this row (review DR-15)"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "width": 0.22,
+          "length": 0.13,
+          "thickness": 0.015
+        },
+        "counts": {
+          "cells": 254
+        },
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/",
+        "note": "241 to 267 cells at 48 hpf; sizes estimates"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000026",
+      "https://zfin.org/ZFA:0000058",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8820232/",
+      "https://zfin.org/zf_info/zfbook/stages/seg.html",
+      "https://zfin.org/zf_info/zfbook/stages/gast_stgs.html",
+      "research 03a hatching gland and polster records"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 10,
+          "placement": {
+            "u": 0.06,
+            "v": -0.3,
+            "w": 0
+          },
+          "radiiMm": [
+            0.06,
+            0.02,
+            0.05
+          ]
+        },
+        {
+          "hpf": 11.66,
+          "placement": {
+            "u": 0.07,
+            "v": -0.35,
+            "w": 0
+          },
+          "radiiMm": [
+            0.075,
+            0.022,
+            0.06
+          ]
+        },
+        {
+          "hpf": 14,
+          "placement": {
+            "u": 0.09,
+            "v": -0.5,
+            "w": 0
+          },
+          "radiiMm": [
+            0.06,
+            0.015,
+            0.07
+          ]
+        },
+        {
+          "hpf": 16,
+          "placement": {
+            "u": 0.11,
+            "v": -0.7,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.012,
+            0.075
+          ]
+        },
+        {
+          "hpf": 18,
+          "placement": {
+            "u": 0.12,
+            "v": -0.75,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.012,
+            0.075
+          ]
+        },
+        {
+          "hpf": 19,
+          "placement": {
+            "u": 0.13,
+            "v": -0.78,
+            "w": 0
+          },
+          "radiiMm": [
+            0.055,
+            0.012,
+            0.08
+          ]
+        },
+        {
+          "hpf": 22,
+          "placement": {
+            "u": 0.15,
+            "v": -0.84,
+            "w": 0
+          },
+          "radiiMm": [
+            0.06,
+            0.012,
+            0.09
+          ]
+        },
+        {
+          "hpf": 24,
+          "placement": {
+            "u": 0.15,
+            "v": -0.85,
+            "w": 0
+          },
+          "radiiMm": [
+            0.06,
+            0.012,
+            0.09
+          ]
+        },
+        {
+          "hpf": 30,
+          "placement": {
+            "u": 0.155,
+            "v": -0.8,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.012,
+            0.095
+          ]
+        },
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.16,
+            "v": -0.78,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.012,
+            0.1
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.16,
+            "v": -0.78,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.012,
+            0.1
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.16,
+            "v": -0.78,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.012,
+            0.1
+          ]
+        },
+        {
+          "hpf": 60,
+          "placement": {
+            "u": 0.16,
+            "v": -0.8,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.012,
+            0.1
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.16,
+            "v": -0.8,
+            "w": 0
+          },
+          "radiiMm": [
+            0.05,
+            0.012,
+            0.1
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "10 to 11.66 hpf (polster): a bump 120 x 50 x 100 um, then 150 x 50 x 120 um, at the anterior end of the axis under the forebrain (u 0.06 to 0.07); in regime R2 the yolk surface lies 0 to 30 um below the spine, so v -0.3 leaves the upper half of the bump visible on the yolk under the head (research 03a polster sizes, estimates)",
+        "14 to 19 hpf: the cells flatten and move ventrally and posteriorly to the pericardium (u 0.09 to 0.13, v -0.5 to -0.78); 150 x 100 x 15 um at 18 hpf, 271 cells (PMC8820232; sizes estimates)",
+        "22 to 72 hpf: a transverse lens 180 x 120 x 24 um at 24 hpf and 200 x 100 x 24 um from 30 hpf on the pericardium at the anterior face of the yolk ball, under the head and anterior to the heart venous pole (heart placement u 0.21, v -0.7, BG-34); v -0.78 to -0.85 keeps the lateral wings inside the elliptical ventral skin where the head bends (hV x sqrt(1 - w^2) at w 0.5); the sheet is drawn 24 um thick so it stays visible (real thickness 15 um, research 03a)",
+        "72 hpf: sizeRefSl 3.25; the record fades 71.4 to 72 hpf as the cells degenerate after hatching"
+      ]
+    }
+  }
+]

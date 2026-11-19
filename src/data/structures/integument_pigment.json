@@ -1,0 +1,2664 @@
+[
+  {
+    "id": "ZFA:0001094",
+    "name": "whole organism",
+    "synonyms": [
+      "multi-cellular organism"
+    ],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": null,
+    "uiParent": null,
+    "parentRelation": "root",
+    "definition": "Anatomical structure that is an individual member of Danio rerio.",
+    "zfinStartStage": "ZFS:0000001",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0,
+    "endHpf": 17520,
+    "visibleFromHpf": 6,
+    "modelEndHpf": 4320,
+    "overrideNote": "DM-36: the axis end is a clamp; ZFA carries the whole organism to the adult stage. DM-31: the root is the skin tube, not a group node. The skin tube draws from the shield stage (6 hpf), when the dorsal axis first thickens; before that the whole organism is the yolk plus the blastodisc cap (BG-11) or the blastoderm shell (BG-13), and the presumptive axis of BG-12 is a coordinate frame, not a surface.",
+    "fadeInHpf": 0.1,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": false,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0001094",
+      "ZFIN anatomy_item.txt, anatomy_relationship.txt, anatomy_synonyms.txt and zfa.obo (ZFA release 2026-07-16)",
+      "spec DM-31"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "path": {
+        "type": "spine",
+        "uStart": 0,
+        "uEnd": 1,
+        "v": 0,
+        "w": 0
+      },
+      "radiusMm": "body",
+      "caps": "round",
+      "keyframes": [
+        {
+          "hpf": 6
+        },
+        {
+          "hpf": 10
+        },
+        {
+          "hpf": 24
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "lodHint": "high",
+      "estimate": [],
+      "sources": [
+        "spec BG-30: the body sweep uses hD, hV, hW from the body frame at every keyframe"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000277",
+    "name": "scale",
+    "synonyms": [
+      "scales"
+    ],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001183",
+    "uiParent": "ZFA:0000105",
+    "parentRelation": "part_of",
+    "definition": "Dermal bone that is thin, flexible, and platelike, and that develops in overlapping skinfolds that cover the body and often the head of fish and the bases of the fins.",
+    "zfinStartStage": "ZFS:0000042",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 720.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 852.632,
+    "modelEndHpf": 4320,
+    "overrideNote": "D8: squamation onset (posterior) at 9.6 mm SL, 852.632 hpf on the growth table; ZFA starts the scale term at Days 30-44 (720 hpf).",
+    "fadeInHpf": 5,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 504,
+        "text": "scale primordium term starts (ZFIN Days 21-29).",
+        "source": "https://zfin.org/ZFA:0001704"
+      },
+      {
+        "hpf": 700,
+        "text": "scale development begins posteriorly over the tail at about 8.1 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 720,
+        "text": "squamation begins at about 9 mm SL; first row on the caudal peduncle, second row above the ribs; ZFIN start Days 30-44.",
+        "source": "https://elifesciences.org/articles/37001"
+      },
+      {
+        "hpf": 780,
+        "text": "squamation onset posterior (SP) 9.5 to 9.6 mm SL; through anterior (SA) 10.1 to 10.4 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1030,
+        "text": "full hexagonal coat after about 13 days; juvenile (J) 10.9 to 11.7 mm SL.",
+        "source": "https://elifesciences.org/articles/37001"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 852.632,
+        "stageLabel": "Days 30-44",
+        "dimsMm": {
+          "diameter": 0.3,
+          "thickness": 0.01
+        },
+        "counts": {
+          "count": 40
+        },
+        "anglesDeg": {},
+        "source": "https://elifesciences.org/articles/37001",
+        "estimate": true,
+        "basisSL": null,
+        "note": "two rows within one day of onset; onset about 9 mm SL; row moved from 800 hpf to the model start"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.8,
+          "thickness": 0.02
+        },
+        "counts": {
+          "count": 500
+        },
+        "anglesDeg": {},
+        "source": "https://www.fishbase.se/summary/Danio-rerio.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "count and diameter are estimates"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000277",
+      "https://elifesciences.org/articles/37001",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "radiiMm": [
+          0.1,
+          0.1,
+          0.005
+        ],
+        "placement": {
+          "u": 0,
+          "v": 0.72,
+          "w": 0.68
+        },
+        "e1": 0.5,
+        "e2": 1
+      },
+      "uStart": 0.62,
+      "uEnd": 0.97,
+      "count": 8,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 852.632,
+          "sizeRefSl": 9.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.065,
+              0.065,
+              0.005
+            ]
+          },
+          "count": 8,
+          "uStart": 0.62
+        },
+        {
+          "hpf": 900,
+          "sizeRefSl": 10.1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.07,
+              0.07,
+              0.005
+            ]
+          },
+          "uStart": 0.42,
+          "count": 16
+        },
+        {
+          "hpf": 985.263,
+          "sizeRefSl": 11.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.075,
+              0.075,
+              0.006
+            ]
+          },
+          "uStart": 0.2,
+          "count": 28
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.082,
+              0.082,
+              0.006
+            ]
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.112,
+              0.112,
+              0.008
+            ]
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.14,
+              0.14,
+              0.01
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "template.radiiMm",
+        "count"
+      ],
+      "sources": [
+        "one row of discs on the upper flank (v 0.55, above the pigment bands) stands for the squamation: 8 at 9.6 mm SL, 16 at about 10 mm SL, 28 by 11 mm SL (Parichy et al. 2009 SP to J; Aman et al. 2018: full coat after about 13 days); uStart moves forward with the count, so scales are added from the caudal peduncle toward the head",
+        "disc diameter 130 um at onset and 280 um in the adult, 10 to 20 um thick, at v 0.72 and w 0.68 just inside the dorsolateral skin, above the two pigment bands. The discs cover a fifth of the array pitch, so the row reads as a fine repeated texture rather than a line of opaque tiles that hides the flank or reads as a third stripe (brief C2 item 4)."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0009091",
+    "name": "melanocyte",
+    "synonyms": [
+      "melanophore"
+    ],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0009090",
+    "uiParent": "ZFA:0009090",
+    "parentRelation": "is_a",
+    "definition": "A pigment cell derived from the neural crest. Contains melanin-filled pigment granules, which gives a brown to black appearance.",
+    "zfinStartStage": "ZFS:0000029",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 24.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 24.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "The adult keyframes stand in for stripe 1V. From 8.2 mm SL the record leaves the larval spots of the head and dorsum and draws the ventral dark band of the flank, because ZFA has one adult stripe term (ZFA:0001463, which draws 1D) and a record draws one row. The jump in position between 504 and 720 hpf is that substitution, not a movement of the cells. Together with ZFA:0001463 the model draws two of the five adult stripes; 2V, 2D and 3V and the fin stripes are not drawn. See the requests note of ZFA:0001463.",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 24,
+        "text": "ZFIN start stage Prim-5; melanophores begin to differentiate at the onset of the pharyngula period.",
+        "source": "https://zfin.org/zf_info/zfbook/stages/phar.html"
+      },
+      {
+        "hpf": 30,
+        "text": "dorsal larval stripe (ZFIN Prim-15); retina pigmented.",
+        "source": "https://zfin.org/ZFA:0005221"
+      },
+      {
+        "hpf": 36,
+        "text": "ventral larval stripe; tail pigmentation (Prim-25).",
+        "source": "https://zfin.org/ZFA:0005222"
+      },
+      {
+        "hpf": 42,
+        "text": "lateral larval stripe (High-pec).",
+        "source": "https://zfin.org/ZFA:0005223"
+      },
+      {
+        "hpf": 72,
+        "text": "yolk larval stripe (Protruding-mouth).",
+        "source": "https://zfin.org/ZFA:0005224"
+      },
+      {
+        "hpf": 420,
+        "text": "metamorphic melanophores appear at about 6.0 mm SL (MMA 5.9 to 6.3 mm SL).",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 800,
+        "text": "adult stripes 1D and 1V discernible at about 9 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1300,
+        "text": "first secondary stripe 2V at about 14 mm SL, then 2D at about 16 mm SL. The model draws neither: it draws stripe 1D (ZFA:0001463) and stripe 1V (this record) and no fin stripes, so two of the five adult stripes.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 24,
+        "stageLabel": "Prim-5",
+        "dimsMm": {
+          "diameter": 0.03
+        },
+        "counts": {
+          "count": 20
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "early pigmentation is the Prim-5 landmark"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.05
+        },
+        "counts": {
+          "count": 300
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "four larval stripes forming"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.06
+        },
+        "counts": {
+          "count": 450
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.08
+        },
+        "counts": {
+          "count": 5000
+        },
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+        "estimate": true,
+        "basisSL": null,
+        "note": "five dark stripes; counts are estimates"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#23262B",
+      "light": "#1B1F24"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0009091",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "radiiMm": [
+          0.012,
+          0.004,
+          0.012
+        ],
+        "placement": {
+          "u": 0,
+          "v": 0.9,
+          "w": 0.3
+        },
+        "e1": 1.35,
+        "e2": 1.35
+      },
+      "uStart": 0.03,
+      "uEnd": 0.28,
+      "count": 6,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 24,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.012,
+              0.004,
+              0.012
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          },
+          "count": 6
+        },
+        {
+          "hpf": 30,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.013,
+              0.004,
+              0.013
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          },
+          "count": 10
+        },
+        {
+          "hpf": 42,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.014,
+              0.0042,
+              0.014
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          },
+          "count": 12
+        },
+        {
+          "hpf": 48,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.015,
+              0.0045,
+              0.015
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          },
+          "count": 14
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.015,
+              0.0045,
+              0.015
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.015,
+              0.0045,
+              0.015
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.016,
+              0.0048,
+              0.016
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.018,
+              0.0054,
+              0.018
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.02,
+              0.006,
+              0.02
+            ],
+            "e1": 1.35,
+            "e2": 1.35
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.2681,
+              {
+                "value": 0.03,
+                "unit": "bodyHeightFraction"
+              },
+              0.008
+            ],
+            "placement": {
+              "v": -0.28,
+              "w": 0.97
+            },
+            "e1": 0.3,
+            "e2": 0.3
+          },
+          "count": 26,
+          "uStart": 0.3,
+          "uEnd": 0.98
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.3924,
+              {
+                "value": 0.038,
+                "unit": "bodyHeightFraction"
+              },
+              0.01
+            ],
+            "placement": {
+              "v": -0.28,
+              "w": 0.97
+            },
+            "e1": 0.3,
+            "e2": 0.3
+          },
+          "count": 26,
+          "uStart": 0.3,
+          "uEnd": 0.98
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.5885,
+              {
+                "value": 0.045,
+                "unit": "bodyHeightFraction"
+              },
+              0.014
+            ],
+            "placement": {
+              "v": -0.28,
+              "w": 0.97
+            },
+            "e1": 0.3,
+            "e2": 0.3
+          },
+          "count": 26,
+          "uStart": 0.3,
+          "uEnd": 0.98
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.8174,
+              {
+                "value": 0.045,
+                "unit": "bodyHeightFraction"
+              },
+              0.02
+            ],
+            "placement": {
+              "v": -0.28,
+              "w": 0.97
+            },
+            "e1": 0.3,
+            "e2": 0.3
+          },
+          "count": 26,
+          "uStart": 0.3,
+          "uEnd": 0.98
+        }
+      ],
+      "estimate": [
+        "template.radiiMm",
+        "template.placement",
+        "count"
+      ],
+      "sources": [
+        "larva: flat discs of 24 um at 24 hpf growing to 30 um by 72 hpf and 40 um by 504 hpf, 8 to 12 um thick, on the dorsal head and anterior trunk (u 0.03 to 0.28, v 0.9); the owner reference stage series shows melanophores as small dark spots on the skin, not beads (RN-01 to RN-04, brief C2); the exponents 1.35 give the disc a lobed profile rather than a rounded box, so a larval melanophore reads as a cell. Diameters follow research 03e (20 to 30 um at the larval stages).",
+        "adult: the same record draws the ventral flank stripe 1V from 8.2 mm SL, when the metamorphic melanophores replace the larval pattern (Parichy et al. 2009). One row of 26 plates over u 0.30 to 0.98 at v -0.28, w 0.97 (just inside the skin), half-length 1.25 of the array pitch so five neighbours cover every station and the rounded corner of one plate no longer notches the edge of the band (review VIS-04; the earlier 0.85 scalloped at every join), half-height 0.03 to 0.045 of the local body height, 8 to 20 um thick.",
+        "the record is a cell type standing in for a stripe: ZFA:0009091 means the pigment cell, so the info card carries an overrideNote that says the adult keyframes draw 1V. Handing 1V back to the stripe record and returning this one to scattered melanophores on the head, dorsum and eye needs the stacked-rows parameter of ZFA:0001463; see requests (review BIO-05).",
+        "The record keeps the D10 near black of the palette (#23262B dark, #1B1F24 light, spec section 3.6 and src/core/palette.ts) and a matte finish, and the viewer now draws it in the `pigment` opacity class at 0.92 rather than the 0.6 of `tissue`: at 0.6 the pale myotomes behind the flank lifted the band to about L* 45, three times the L* 15 of the near black, so it read as grey."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0005221",
+    "name": "dorsal larval melanophore stripe",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005220",
+    "uiParent": "ZFA:0009091",
+    "parentRelation": "is_a",
+    "definition": "A larval melanophore stripe that forms a band extending from the head to the tail along the dorsal apex of the myotomes.",
+    "zfinStartStage": "ZFS:0000030",
+    "zfinEndStage": "ZFS:0000040",
+    "startHpf": 30.0,
+    "endHpf": 504.0,
+    "visibleFromHpf": 30.0,
+    "modelEndHpf": 852.632,
+    "overrideNote": "Handoff larval_adult_stripes: the larval stripes hand off to the adult melanophore stripe over 5.9 to 9.6 mm SL (420.0 to 852.632 hpf, D9) and fade out over that window; ZFA ends the larval stripe terms at Days 14-20 (504 hpf).",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 432.632,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 30,
+        "text": "ZFIN start stage Prim-15.",
+        "source": "https://zfin.org/ZFA:0005221"
+      },
+      {
+        "hpf": 504,
+        "text": "ZFIN end stage Days 14-20; replaced by adult stripe 2D dorsally.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 30,
+        "stageLabel": "Prim-15",
+        "dimsMm": {
+          "length": 1.8,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start Prim-15"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 2.6,
+          "width": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 3.3,
+          "width": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#23262B",
+      "light": "#1B1F24"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0005221",
+      "https://zfin.org/zf_info/zfbook/stages/phar.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "radiiMm": [
+          0.013,
+          0.004,
+          0.011
+        ],
+        "placement": {
+          "u": 0,
+          "v": 0.95,
+          "w": 0.08
+        },
+        "e1": 1.35,
+        "e2": 1.35
+      },
+      "uStart": 0.05,
+      "uEnd": 0.97,
+      "count": 30,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 30
+        },
+        {
+          "hpf": 42,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0135,
+              0.004,
+              0.0115
+            ]
+          }
+        },
+        {
+          "hpf": 48,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.014,
+              0.004,
+              0.012
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.015,
+              0.004,
+              0.0125
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.016,
+              0.00416,
+              0.013
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0168,
+              0.004352,
+              0.0136
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0188,
+              0.004864,
+              0.0152
+            ]
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0208,
+              0.005376,
+              0.0168
+            ]
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0262,
+              0.006784,
+              0.0212
+            ]
+          }
+        },
+        {
+          "hpf": 852.632,
+          "sizeRefSl": 9.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0307,
+              0.007936,
+              0.0248
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "count",
+        "template.radiiMm",
+        "template.placement"
+      ],
+      "sources": [
+        "flat discs of 26 um across and 8 um thick at the stripe onset, growing with the larva to 32 um by 120 hpf and 80 um by 9.6 mm SL: melanophores read as small dark spots on the skin, not as beads (owner reference stage series; RN-01 to RN-04; brief C2 item 3). Diameters follow research 03e (20 to 30 um in the larva).",
+        "placement: along the dorsal apex of the myotomes from the head to the tail, v 0.95; the paired rows sit at w +-0.08, close enough to read as the single median row of the trunk (Kimmel 1995 Long-pec to Day 5 dorsal views; review R15), while the head cells spread bilaterally in life",
+        "the superellipsoid exponents 1.35 give each cell a lobed profile rather than a rounded box, so the row reads as melanophores and not as a dashed rule (owner painted stage series, 24 hr and 48 hr panels; VR-14). One size and one pitch serve the whole array; per-cell variation needs a template the segmentArray cannot express (see requests)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0005222",
+    "name": "ventral larval melanophore stripe",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005220",
+    "uiParent": "ZFA:0009091",
+    "parentRelation": "is_a",
+    "definition": "A larval melanophore stripe that forms a band, of pigmentation extending from the bases of the eyes on each side of the midline to the top of the tail, that underlies the myotomes bilaterally, still is dorsal to the yolk.",
+    "zfinStartStage": "ZFS:0000031",
+    "zfinEndStage": "ZFS:0000040",
+    "startHpf": 36.0,
+    "endHpf": 504.0,
+    "visibleFromHpf": 36.0,
+    "modelEndHpf": 852.632,
+    "overrideNote": "Handoff larval_adult_stripes: the larval stripes hand off to the adult melanophore stripe over 5.9 to 9.6 mm SL (420.0 to 852.632 hpf, D9) and fade out over that window; ZFA ends the larval stripe terms at Days 14-20 (504 hpf).",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 432.632,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 36,
+        "text": "ZFIN start stage Prim-25.",
+        "source": "https://zfin.org/ZFA:0005222"
+      },
+      {
+        "hpf": 504,
+        "text": "ZFIN end stage Days 14-20; replaced by adult stripe 1V then 2V ventrally.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 36,
+        "stageLabel": "Prim-25",
+        "dimsMm": {
+          "length": 1.9,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start Prim-25 (tail pigmentation landmark)"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 2.4,
+          "width": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 3.0,
+          "width": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#23262B",
+      "light": "#1B1F24"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0005222",
+      "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "radiiMm": [
+          0.013,
+          0.011,
+          0.004
+        ],
+        "placement": {
+          "u": 0,
+          "v": -0.55,
+          "w": 0.8
+        },
+        "e1": 1.35,
+        "e2": 1.35
+      },
+      "uStart": 0.15,
+      "uEnd": 0.95,
+      "count": 28,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 36
+        },
+        {
+          "hpf": 42,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0134,
+              0.0113,
+              0.004
+            ]
+          }
+        },
+        {
+          "hpf": 48,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0138,
+              0.0116,
+              0.004
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0148,
+              0.0125,
+              0.004
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.016,
+              0.0135,
+              0.00432
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0171,
+              0.0144,
+              0.004608
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0221,
+              0.0186,
+              0.005952
+            ]
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0271,
+              0.0228,
+              0.007296
+            ]
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0342,
+              0.0288,
+              0.009216
+            ]
+          }
+        },
+        {
+          "hpf": 852.632,
+          "sizeRefSl": 9.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.04,
+              0.0337,
+              0.010784
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "count",
+        "template.radiiMm",
+        "template.placement"
+      ],
+      "sources": [
+        "flat discs of 26 um across and 8 um thick at the stripe onset, growing with the larva to 32 um by 120 hpf and 80 um by 9.6 mm SL: melanophores read as small dark spots on the skin, not as beads (owner reference stage series; RN-01 to RN-04; brief C2 item 3). Diameters follow research 03e (20 to 30 um in the larva).",
+        "placement: the ventral edge of the myotomes on the flank, v -0.55, w 0.8, over the yolk extension and the gut",
+        "the superellipsoid exponents 1.35 give each cell a lobed profile rather than a rounded box, so the row reads as melanophores and not as a dashed rule (owner painted stage series, 24 hr and 48 hr panels; VR-14). One size and one pitch serve the whole array; per-cell variation needs a template the segmentArray cannot express (see requests)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0005223",
+    "name": "lateral larval melanophore stripe",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005220",
+    "uiParent": "ZFA:0009091",
+    "parentRelation": "is_a",
+    "definition": "The larval melanophore stripe that is at the level of the horizontal myoseptum.",
+    "zfinStartStage": "ZFS:0000032",
+    "zfinEndStage": "ZFS:0000040",
+    "startHpf": 42.0,
+    "endHpf": 504.0,
+    "visibleFromHpf": 42.0,
+    "modelEndHpf": 852.632,
+    "overrideNote": "Handoff larval_adult_stripes: the larval stripes hand off to the adult melanophore stripe over 5.9 to 9.6 mm SL (420.0 to 852.632 hpf, D9) and fade out over that window; ZFA ends the larval stripe terms at Days 14-20 (504 hpf).",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 432.632,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 42,
+        "text": "ZFIN start stage High-pec.",
+        "source": "https://zfin.org/ZFA:0005223"
+      },
+      {
+        "hpf": 504,
+        "text": "ZFIN end stage Days 14-20; these melanophores are lost or migrate to the primary adult stripes by about 12 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 42,
+        "stageLabel": "High-pec",
+        "dimsMm": {
+          "length": 1.5,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start High-pec"
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 1.8,
+          "width": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 2.5,
+          "width": 0.05
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#23262B",
+      "light": "#1B1F24"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0005223",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://pubmed.ncbi.nlm.nih.gov/8951054/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "radiiMm": [
+          0.013,
+          0.011,
+          0.004
+        ],
+        "placement": {
+          "u": 0,
+          "v": 0,
+          "w": 0.99
+        },
+        "e1": 1.35,
+        "e2": 1.35
+      },
+      "uStart": 0.28,
+      "uEnd": 0.95,
+      "count": 24,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 42
+        },
+        {
+          "hpf": 48,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0134,
+              0.0113,
+              0.004
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0148,
+              0.0125,
+              0.004
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.016,
+              0.0135,
+              0.00432
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0171,
+              0.0144,
+              0.004608
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0221,
+              0.0186,
+              0.005952
+            ]
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0271,
+              0.0228,
+              0.007296
+            ]
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0342,
+              0.0288,
+              0.009216
+            ]
+          }
+        },
+        {
+          "hpf": 852.632,
+          "sizeRefSl": 9.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.04,
+              0.0337,
+              0.010784
+            ]
+          }
+        }
+      ],
+      "handoffOut": "larval_adult_stripes",
+      "estimate": [
+        "count",
+        "template.radiiMm",
+        "template.placement"
+      ],
+      "sources": [
+        "flat discs of 26 um across and 8 um thick at the stripe onset, growing with the larva to 32 um by 120 hpf and 80 um by 9.6 mm SL: melanophores read as small dark spots on the skin, not as beads (owner reference stage series; RN-01 to RN-04; brief C2 item 3). Diameters follow research 03e (20 to 30 um in the larva).",
+        "placement: the horizontal myoseptum on the flank, v 0, w 0.99; the driver of larval_adult_stripes (the adult stripe copies its u range and v)",
+        "the superellipsoid exponents 1.35 give each cell a lobed profile rather than a rounded box, so the row reads as melanophores and not as a dashed rule (owner painted stage series, 24 hr and 48 hr panels; VR-14). One size and one pitch serve the whole array; per-cell variation needs a template the segmentArray cannot express (see requests)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0005224",
+    "name": "yolk larval melanophore stripe",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0005220",
+    "uiParent": "ZFA:0009091",
+    "parentRelation": "is_a",
+    "definition": "The larval melanophore stripe that forms a band over the ventral surface of the yolk sac.",
+    "zfinStartStage": "ZFS:0000035",
+    "zfinEndStage": "ZFS:0000040",
+    "startHpf": 72.0,
+    "endHpf": 504.0,
+    "visibleFromHpf": 72.0,
+    "modelEndHpf": 852.632,
+    "overrideNote": "Handoff larval_adult_stripes: the larval stripes hand off to the adult melanophore stripe over 5.9 to 9.6 mm SL (420.0 to 852.632 hpf, D9) and fade out over that window; ZFA ends the larval stripe terms at Days 14-20 (504 hpf).",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 432.632,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 72,
+        "text": "ZFIN start stage Protruding-mouth.",
+        "source": "https://zfin.org/ZFA:0005224"
+      },
+      {
+        "hpf": 504,
+        "text": "ZFIN end stage Days 14-20.",
+        "source": "https://zfin.org/ZFA:0005224"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 72,
+        "stageLabel": "Protruding-mouth",
+        "dimsMm": {
+          "length": 0.9,
+          "width": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start Protruding-mouth"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.8,
+          "width": 0.06
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null,
+        "note": "yolk nearly absorbed"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#23262B",
+      "light": "#1B1F24"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0005224",
+      "https://zfin.org/zf_info/zfbook/stages/index.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "radiiMm": [
+          0.015,
+          0.004,
+          0.0125
+        ],
+        "placement": {
+          "u": 0,
+          "v": -0.97,
+          "w": 0.3
+        },
+        "e1": 1.35,
+        "e2": 1.35
+      },
+      "uStart": 0.15,
+      "uEnd": 0.45,
+      "count": 10,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.016,
+              0.00432,
+              0.0135
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0172,
+              0.004608,
+              0.0144
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0221,
+              0.005952,
+              0.0186
+            ]
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.027,
+              0.007264,
+              0.0227
+            ]
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.034,
+              0.009152,
+              0.0286
+            ]
+          }
+        },
+        {
+          "hpf": 852.632,
+          "sizeRefSl": 9.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0398,
+              0.01072,
+              0.0335
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "count",
+        "template.radiiMm",
+        "template.placement"
+      ],
+      "sources": [
+        "flat discs of 26 um across and 8 um thick at the stripe onset, growing with the larva to 32 um by 120 hpf and 80 um by 9.6 mm SL: melanophores read as small dark spots on the skin, not as beads (owner reference stage series; RN-01 to RN-04; brief C2 item 3). Diameters follow research 03e (20 to 30 um in the larva).",
+        "placement: the ventral surface of the yolk sac and yolk extension, v -0.97, w 0.3; after the yolk is gone (168 hpf) the row stays on the belly until the handoff window ends",
+        "the superellipsoid exponents 1.35 give each cell a lobed profile rather than a rounded box, so the row reads as melanophores and not as a dashed rule (owner painted stage series, 24 hr and 48 hr panels; VR-14). One size and one pitch serve the whole array; per-cell variation needs a template the segmentArray cannot express (see requests)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001463",
+    "name": "melanophore stripe",
+    "synonyms": [
+      "melanophore stripes"
+    ],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000368",
+    "uiParent": "ZFA:0009091",
+    "parentRelation": "part_of",
+    "definition": "Surface structure composed of an array of melanophores arranged in a stripe.  Stripes are oriented from rostral to caudal.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 420.0,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFIN start stage Unknown. Handoff larval_adult_stripes: seeded from the lateral larval melanophore stripe at the window start, 5.9 mm SL (420.0 hpf), and faded in to the window end 852.632 hpf (D9); Parichy et al. 2009 place the first metamorphic melanophores at 5.9 to 6.3 mm SL and stripes 1D and 1V at about 9 mm SL. The model draws two dark bands: stripe 1D here and stripe 1V in the melanocyte record. The adult fish has five stripes and four interstripes. The first secondary stripe 2V forms at about 14 mm SL and the second, 2D, at about 16 mm SL; the model draws neither, and it draws no 3V. The bands stop at the caudal peduncle, so the stripes on the anal fin and the caudal fin are not drawn either.",
+    "fadeInHpf": 432.632,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 300,
+        "text": "S-iridophores of the future X0 interstripe visible at CR stage (4.9 mm SL, about 16 dpf).",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      },
+      {
+        "hpf": 420,
+        "text": "metamorphic melanophores appear at about 6 mm SL over the dorsal and ventral myotomes.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 800,
+        "text": "primary stripes 1D and 1V discernible at about 9 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1300,
+        "text": "first secondary stripe 2V by about 14 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 1500,
+        "text": "second secondary stripe 2D by about 16 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      },
+      {
+        "hpf": 2160,
+        "text": "adult: five melanophore stripes with four interstripes; interstripes are iridophore sheets covered by xanthophores.",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 800,
+        "stageLabel": "Days 30-44",
+        "dimsMm": {
+          "length": 7.0,
+          "width": 0.4
+        },
+        "counts": {
+          "count": 2
+        },
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "1D and 1V at about 9 mm SL"
+      },
+      {
+        "hpf": 1500,
+        "stageLabel": "Days 45-89",
+        "dimsMm": {
+          "length": 11.0,
+          "width": 0.6
+        },
+        "counts": {
+          "count": 3
+        },
+        "anglesDeg": {},
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "2V by 14 mm SL"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 21.0,
+          "width": 1.0
+        },
+        "counts": {
+          "count": 5
+        },
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+        "estimate": true,
+        "basisSL": null,
+        "note": "five stripes, four interstripes; width is an estimate"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#23262B",
+      "light": "#1B1F24"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0001463",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://elifesciences.org/articles/52998"
+    ],
+    "geometry": {
+      "kind": "tube",
+      "path": {
+        "type": "spine",
+        "uStart": 0.3,
+        "uEnd": 1.0,
+        "v": 0.22,
+        "w": 0.88
+      },
+      "radiusMm": {
+        "value": 0.008,
+        "unit": "bodyHeightFraction"
+      },
+      "ellipticity": 2.5,
+      "caps": "round",
+      "segmented": false,
+      "keyframes": [
+        {
+          "hpf": 420,
+          "sizeRefSl": 5.9,
+          "radiusMm": {
+            "value": 0.008,
+            "unit": "bodyHeightFraction"
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiusMm": {
+            "value": 0.01,
+            "unit": "bodyHeightFraction"
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "radiusMm": {
+            "value": 0.013,
+            "unit": "bodyHeightFraction"
+          }
+        },
+        {
+          "hpf": 795.789,
+          "sizeRefSl": 9.0,
+          "radiusMm": {
+            "value": 0.015,
+            "unit": "bodyHeightFraction"
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "radiusMm": {
+            "value": 0.018,
+            "unit": "bodyHeightFraction"
+          }
+        },
+        {
+          "hpf": 1440.0,
+          "sizeRefSl": 14.0,
+          "radiusMm": {
+            "value": 0.018,
+            "unit": "bodyHeightFraction"
+          }
+        },
+        {
+          "hpf": 1800.0,
+          "sizeRefSl": 16.0,
+          "radiusMm": {
+            "value": 0.018,
+            "unit": "bodyHeightFraction"
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiusMm": {
+            "value": 0.018,
+            "unit": "bodyHeightFraction"
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiusMm": {
+            "value": 0.018,
+            "unit": "bodyHeightFraction"
+          }
+        }
+      ],
+      "estimate": [
+        "radiusMm",
+        "path.v",
+        "path.w"
+      ],
+      "sources": [
+        "stripe 1D: one tube on the spine path from u 0.30 (behind the opercle) to u 1.0 (the caudal peduncle) at v 0.22, w 0.88, so the row is continuous instead of a line of plates that scallops at every join (docs/screenshots/systems/integument_pigment-4320-lat.png before the calibration pass). Metamorphic melanophores form the band at 5.9 mm SL and 1D is complete by 9 mm SL (research 03e; Parichy et al. 2009).",
+        "radiusMm is the w half-width as a fraction of the local body height and ellipticity 2.5 makes the v half-height 2.5 times it, so the stripe is 0.04 of the local body height at 5.9 mm SL and 0.09 from 12 mm SL: a thin dark band on the flank, the height the owner adult reference figure shows for one band (RN-07).",
+        "w 0.88 keeps the outer face just inside the skin at every station, because the body height is about five times the half-width along the whole flank.",
+        "the record's overrideNote states the stripe gap to the reader: two bands drawn, five in the adult, 2V at about 14 mm SL and 2D at about 16 mm SL undrawn. This record's own 2160 hpf event and its 2160 hpf size row both say five stripes with four interstripes, and the owner adult reference figure (RN-07) shows four dark bands over the flank. ZFA has one adult stripe term (ZFA:0001463; the other stripe terms in anatomy_item.txt are the four larval ones, ZFA:0005220 to ZFA:0005224), so the missing bands cannot take ids of their own, and one tube or one segmentArray record draws one row. Drawing them needs a stacked-rows parameter on the tube and the array (a rows list of v and w pairs, or n copies at a v offset), which the schema does not have and which src/core/schema/ is not this package's to change; see requests (review BIO-01).",
+        "The record keeps the D10 near black of the palette (#23262B dark, #1B1F24 light, spec section 3.6 and src/core/palette.ts) and a matte finish, and the viewer now draws it in the `pigment` opacity class at 0.92 rather than the 0.6 of `tissue`: at 0.6 the pale myotomes behind the flank lifted the band to about L* 45, three times the L* 15 of the near black, so it read as grey.",
+        "the stripes stop at the caudal peduncle, which the record's overrideNote states to the reader. In the owner adult reference figure the dark bands carry on across the anal fin and bar the caudal fin, which is the feature the species is named for. This record cannot reach them: the tube runs on the spine path, the fins lie past u 1.0 and outside the v range, and E012 allows u above 1.0 only in the fins system. Fin striping needs either the stacked-rows parameter above with a sheet placement, or a melanophore band record per fin, which has no ZFA id; see requests (review BIO-06)."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0009198",
+    "name": "xanthophore",
+    "synonyms": [],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0009090",
+    "uiParent": "ZFA:0009090",
+    "parentRelation": "is_a",
+    "definition": "A pigment cell derived from the neural crest. Contains carotenoid pigments in structures called pterinosomes or xanthosomes. This gives an appearance ranging from a golden yellow to orange and red.",
+    "zfinStartStage": "ZFS:0000032",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 42.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 42.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 42,
+        "text": "ZFIN start stage High-pec.",
+        "source": "https://zfin.org/ZFA:0009198"
+      },
+      {
+        "hpf": 450,
+        "text": "metamorphic xanthophores differentiate at about 6.5 mm SSL.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/"
+      },
+      {
+        "hpf": 800,
+        "text": "xanthophores cover the iridophore sheet of the interstripes.",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.03
+        },
+        "counts": {
+          "count": 100
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0009198",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start High-pec (42 hpf)"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.04
+        },
+        "counts": {
+          "count": 300
+        },
+        "anglesDeg": {},
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+        "estimate": true,
+        "basisSL": null,
+        "note": "scattered widely over the body"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.06
+        },
+        "counts": {
+          "count": 4000
+        },
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+        "estimate": true,
+        "basisSL": null
+      }
+    ],
+    "colorOverride": {
+      "dark": "#FFB000",
+      "light": "#C97D00"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0009198",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "radiiMm": [
+          0.012,
+          0.009,
+          0.004
+        ],
+        "placement": {
+          "u": 0,
+          "v": 0.6,
+          "w": 0.78
+        },
+        "e1": 1,
+        "e2": 1
+      },
+      "uStart": 0.1,
+      "uEnd": 0.98,
+      "count": 16,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 42,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.012,
+              0.009,
+              0.004
+            ]
+          }
+        },
+        {
+          "hpf": 48,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0125,
+              0.0093,
+              0.004
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0135,
+              0.01,
+              0.004
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.015,
+              0.011,
+              0.0045
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.017,
+              0.012,
+              0.005
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.021,
+              0.015,
+              0.006
+            ]
+          }
+        },
+        {
+          "hpf": 420.0,
+          "sizeRefSl": 5.9,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.024,
+              0.016,
+              0.0065
+            ]
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "uStart": 0.147,
+          "count": 18.087,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.028,
+              0.018,
+              0.007
+            ]
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.1483,
+              {
+                "value": 0.02,
+                "unit": "bodyHeightFraction"
+              },
+              0.007
+            ],
+            "placement": {
+              "v": -0.02,
+              "w": 0.99
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          },
+          "uStart": 0.28,
+          "count": 24
+        },
+        {
+          "hpf": 795.789,
+          "sizeRefSl": 9.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.1628,
+              {
+                "value": 0.02,
+                "unit": "bodyHeightFraction"
+              },
+              0.0077
+            ],
+            "placement": {
+              "v": -0.02,
+              "w": 0.99
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.2173,
+              {
+                "value": 0.02,
+                "unit": "bodyHeightFraction"
+              },
+              0.0102
+            ],
+            "placement": {
+              "v": -0.02,
+              "w": 0.99
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.326,
+              {
+                "value": 0.02,
+                "unit": "bodyHeightFraction"
+              },
+              0.0153
+            ],
+            "placement": {
+              "v": -0.02,
+              "w": 0.99
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.453,
+              {
+                "value": 0.02,
+                "unit": "bodyHeightFraction"
+              },
+              0.0212
+            ],
+            "placement": {
+              "v": -0.02,
+              "w": 0.99
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        }
+      ],
+      "estimate": [
+        "template.radiiMm",
+        "template.placement",
+        "count"
+      ],
+      "sources": [
+        "larva: flat yellow cells of 24 um at 42 hpf growing to 56 um by 6.5 mm SL, dorsal and dorsolateral over the trunk (research 03e xanthophore sizes; brief C2 asks for small and subtle cells, not beads)",
+        "adult: the X0 interstripe on the horizontal myoseptum (v -0.02, w 0.99), one row of 24 cells over u 0.28 to 0.98 between the 1D band (melanophore stripe ZFA:0001463 at v 0.22) and the 1V band (melanocyte ZFA:0009091 at v -0.28). Half-length is 0.6 of the array pitch, so neighbours overlap and the interstripe reads as one gold band, which is what the owner adult reference figure and Parichy et al. 2009 show; the earlier quarter-pitch spacing read as a dashed line of tiles (review VIS-04). The band is the loudest colour of D10, so it carries the flank between the two dark stripes; that is the trade the review asked for."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0009199",
+    "name": "iridophore",
+    "synonyms": [
+      "iridocyte",
+      "iridosome"
+    ],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0009090",
+    "uiParent": "ZFA:0009090",
+    "parentRelation": "is_a",
+    "definition": "A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platets or iridisomes. The color-generating components produce a silver, gold, or iridescent color.",
+    "zfinStartStage": "ZFS:0000032",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 42.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 42.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 42,
+        "text": "ZFIN start stage High-pec.",
+        "source": "https://zfin.org/ZFA:0009199"
+      },
+      {
+        "hpf": 300,
+        "text": "metamorphic iridophores as early as 4.5 mm SSL; S-iridophores visible at CR stage (4.9 mm SL, about 16 dpf).",
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other"
+      },
+      {
+        "hpf": 800,
+        "text": "dense interstripe sheet X0 complete as stripes 1D and 1V form at about 9 mm SL.",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "diameter": 0.02
+        },
+        "counts": {
+          "count": 30
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/ZFA:0009199",
+        "estimate": true,
+        "basisSL": null,
+        "note": "ZFIN start High-pec; iridescent patches on the eye and yolk"
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.025
+        },
+        "counts": {
+          "count": 80
+        },
+        "anglesDeg": {},
+        "source": "https://zfin.org/zf_info/zfbook/stages/index.html",
+        "estimate": true,
+        "basisSL": null
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "diameter": 0.03
+        },
+        "counts": {
+          "count": 20000
+        },
+        "anglesDeg": {},
+        "source": "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+        "estimate": true,
+        "basisSL": null,
+        "note": "dense sheets; count is an estimate"
+      }
+    ],
+    "colorOverride": {
+      "dark": "#C9D6DF",
+      "light": "#7D8A94"
+    },
+    "sources": [
+      "https://zfin.org/ZFA:0009199",
+      "https://journals.biologists.com/dev/article/140/14/2997/45781/Iridophores-and-their-interactions-with-other",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3667786/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "template": {
+        "kind": "superellipsoid",
+        "radiiMm": [
+          0.012,
+          0.005,
+          0.01
+        ],
+        "placement": {
+          "u": 0,
+          "v": -0.9,
+          "w": 0.4
+        },
+        "e1": 0.6,
+        "e2": 1
+      },
+      "uStart": 0.15,
+      "uEnd": 0.4,
+      "count": 8,
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 42,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.012,
+              0.005,
+              0.01
+            ]
+          }
+        },
+        {
+          "hpf": 48,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.0125,
+              0.005,
+              0.0103
+            ]
+          }
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.014,
+              0.005,
+              0.0115
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.016,
+              0.0055,
+              0.013
+            ]
+          },
+          "uStart": 0.2,
+          "uEnd": 0.45
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.018,
+              0.006,
+              0.0148
+            ]
+          }
+        },
+        {
+          "hpf": 300,
+          "sizeRefSl": 5.043,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.12,
+              {
+                "value": 0.02,
+                "unit": "bodyHeightFraction"
+              },
+              0.005
+            ],
+            "placement": {
+              "v": -0.5,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          },
+          "uStart": 0.28,
+          "uEnd": 0.95,
+          "count": 24
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.126,
+              {
+                "value": 0.02,
+                "unit": "bodyHeightFraction"
+              },
+              0.0053
+            ],
+            "placement": {
+              "v": -0.52,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 420.0,
+          "sizeRefSl": 5.9,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.141,
+              {
+                "value": 0.022,
+                "unit": "bodyHeightFraction"
+              },
+              0.0059
+            ],
+            "placement": {
+              "v": -0.55,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.156,
+              {
+                "value": 0.024,
+                "unit": "bodyHeightFraction"
+              },
+              0.0065
+            ],
+            "placement": {
+              "v": -0.58,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.1374,
+              {
+                "value": 0.022,
+                "unit": "bodyHeightFraction"
+              },
+              0.0082
+            ],
+            "placement": {
+              "v": -0.58,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 795.789,
+          "sizeRefSl": 9.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.1507,
+              {
+                "value": 0.022,
+                "unit": "bodyHeightFraction"
+              },
+              0.009
+            ],
+            "placement": {
+              "v": -0.58,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.201,
+              {
+                "value": 0.022,
+                "unit": "bodyHeightFraction"
+              },
+              0.012
+            ],
+            "placement": {
+              "v": -0.58,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 1440.0,
+          "sizeRefSl": 14.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.2347,
+              {
+                "value": 0.022,
+                "unit": "bodyHeightFraction"
+              },
+              0.014
+            ],
+            "placement": {
+              "v": -0.58,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.3016,
+              {
+                "value": 0.022,
+                "unit": "bodyHeightFraction"
+              },
+              0.018
+            ],
+            "placement": {
+              "v": -0.58,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "template": {
+            "kind": "superellipsoid",
+            "radiiMm": [
+              0.4189,
+              {
+                "value": 0.022,
+                "unit": "bodyHeightFraction"
+              },
+              0.025
+            ],
+            "placement": {
+              "v": -0.58,
+              "w": 0.82
+            },
+            "e1": 0.35,
+            "e2": 0.35
+          }
+        }
+      ],
+      "estimate": [
+        "template.radiiMm",
+        "template.placement",
+        "count"
+      ],
+      "sources": [
+        "larva: flat silver cells of 24 um at 42 hpf on the ventral trunk over the yolk and the swim bladder (research 03e iridophore sizes)",
+        "adult: a ventral row of 24 cells over u 0.28 to 0.95 at v -0.58, w 0.82, below the 1V melanophore band. Half-length is 0.68 of the array pitch, so neighbours overlap and the row reads as the silver belly of the adult rather than a dotted line (review VIS-04; Parichy et al. 2009 place the ventral iridophores below stripe 1V)."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000622",
+    "name": "barbel",
+    "synonyms": [
+      "barble"
+    ],
+    "system": "integument_pigment",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000368",
+    "uiParent": "ZFA:0000105",
+    "parentRelation": "part_of",
+    "definition": "Surface structure which is a tactile structure found in the branchial region. Barbels are covered with epidermis rich in taste buds, and are innervated by branches of the cranial nerves.",
+    "zfinStartStage": "ZFS:0000043",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 1080.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 1080.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 54.0,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 720,
+        "text": "barbel primordium (ZFIN Days 30-44); buds emerge at 30 to 40 dpf in juveniles of 10 to 12 mm SL.",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737"
+      },
+      {
+        "hpf": 1080,
+        "text": "ZFIN start stage Days 45-89 for barbel.",
+        "source": "https://zfin.org/ZFA:0000622"
+      },
+      {
+        "hpf": 2160,
+        "text": "barbel length correlates with standard length over a wide size range.",
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 1080,
+        "stageLabel": "Days 30-44",
+        "dimsMm": {
+          "length": 0.1,
+          "diameter": 0.08
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737",
+        "estimate": true,
+        "basisSL": null,
+        "note": "epithelial buds at 30 to 40 dpf, 10 to 12 mm SL; row moved from 900 hpf to the model start"
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 3.0,
+          "diameter": 0.25
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737",
+        "estimate": true,
+        "basisSL": null,
+        "note": "2 to 4 mm long, 200 to 300 um at the base, 50 um at the tip in 2 to 3 cm SL fish"
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "https://zfin.org/ZFA:0000622",
+      "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008737",
+      "https://www.fishbase.se/summary/Danio-rerio.html",
+      "https://zfin.org/ZFA:0005408",
+      "https://zfin.org/ZFA:0005407"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "placement": {
+        "u": 0.09,
+        "v": -0.5,
+        "w": 0.95,
+        "pitchDeg": -12,
+        "mirror": true
+      },
+      "radiiMm": [
+        0.4,
+        0.05,
+        0.05
+      ],
+      "e1": 1,
+      "e2": 1,
+      "keyframes": [
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "placement": {
+            "u": 0.073,
+            "v": -0.5,
+            "w": 0.95,
+            "pitchDeg": -12,
+            "mirror": true
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "radiiMm": [
+            0.75,
+            0.1,
+            0.1
+          ],
+          "placement": {
+            "u": 0.082,
+            "v": -0.5,
+            "w": 0.95,
+            "pitchDeg": -12,
+            "mirror": true
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "radiiMm": [
+            1.25,
+            0.12,
+            0.12
+          ],
+          "placement": {
+            "u": 0.09,
+            "v": -0.5,
+            "w": 0.95,
+            "pitchDeg": -12,
+            "mirror": true
+          }
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "maxillary barbel 0.8 mm long at 12 mm SL (buds of 100 um at 10 to 12 mm SL grow with SL), 2 to 4 mm long and 200 to 300 um at the base in 20 to 30 mm SL fish (LeClair and Topczewski 2010; research 03e sizes); the nasal pair is not drawn",
+        "placement (review R10): the maxillary barbel arises at the corner of the mouth (u 0.04, v -0.45) and trails posteriorly along the lower cheek toward the operculum with a 12 degree droop (pitch -12), so the rod centre sits at u 0.073 at 12 mm SL, 0.082 at 18 mm and 0.09 at 25 mm SL, its anterior end at the mouth corner and its posterior end near u 0.14; w 0.95 keeps it on the cheek surface"
+      ]
+    }
+  }
+]

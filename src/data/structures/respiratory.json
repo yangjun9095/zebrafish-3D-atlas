@@ -1,0 +1,1540 @@
+[
+  {
+    "id": "ZFA:0000667",
+    "name": "gill filament",
+    "synonyms": [
+      "gill filaments"
+    ],
+    "system": "respiratory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000354",
+    "uiParent": "ZFA:0000354",
+    "parentRelation": "part_of",
+    "definition": "Portion of tissue that projects outward from the gill and is a thread-like, soft, red respiratory and excretory structure.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 84,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA start stage Unknown (DM-19): drawn from 84 hpf (3.5 dpf), when the first medial filaments are visible (Developmental atlas of zebrafish gills, Development 2025; research 03c). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 84,
+        "text": "First medial filaments emerge and form vascular loops.",
+        "source": "https://zfin.org/ZFA:0000667"
+      },
+      {
+        "hpf": 132,
+        "text": "Lateral filaments lag behind medial at 5.5 dpf.",
+        "source": "https://zfin.org/ZFA:0000667"
+      },
+      {
+        "hpf": 252,
+        "text": "Medial-lateral difference less pronounced at 10.5 dpf.",
+        "source": "https://zfin.org/ZFA:0000667"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.04,
+          "diameter": 0.02
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 336,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.15,
+          "diameter": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 1.0,
+          "diameter": 0.06
+        },
+        "counts": {
+          "countPerArch": 25
+        },
+        "anglesDeg": {},
+        "source": "research 03c (estimate); count from Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/; size is an estimate",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c gill filament record",
+      "https://zfin.org/ZFA:0000667",
+      "Developmental atlas of zebrafish gills, Development 152:dev204984 (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12517346/"
+    ],
+    "geometry": {
+      "kind": "segmentArray",
+      "mirror": true,
+      "keyframes": [
+        {
+          "hpf": 84,
+          "sizeRefSl": 3.325,
+          "count": 4,
+          "uStart": 0.1778,
+          "uEnd": 0.2295,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.01,
+              {
+                "value": 0.07198,
+                "unit": "bodyHeightFraction"
+              },
+              0.01
+            ]
+          }
+        },
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "uStart": 0.1783,
+          "uEnd": 0.2317,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.015,
+              {
+                "value": 0.07731,
+                "unit": "bodyHeightFraction"
+              },
+              0.01
+            ]
+          }
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "uStart": 0.1792,
+          "uEnd": 0.2348,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.02,
+              {
+                "value": 0.08732,
+                "unit": "bodyHeightFraction"
+              },
+              0.01
+            ]
+          }
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "uStart": 0.1791,
+          "uEnd": 0.236,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.02482,
+              {
+                "value": 0.1011,
+                "unit": "bodyHeightFraction"
+              },
+              0.01077
+            ]
+          }
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "uStart": 0.1787,
+          "uEnd": 0.2384,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.03802,
+              {
+                "value": 0.1076,
+                "unit": "bodyHeightFraction"
+              },
+              0.01245
+            ]
+          }
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "uStart": 0.1782,
+          "uEnd": 0.2403,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.05336,
+              {
+                "value": 0.1075,
+                "unit": "bodyHeightFraction"
+              },
+              0.01398
+            ]
+          }
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "uStart": 0.1775,
+          "uEnd": 0.2424,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.0785,
+              {
+                "value": 0.1003,
+                "unit": "bodyHeightFraction"
+              },
+              0.01595
+            ]
+          }
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12.0,
+          "uStart": 0.1757,
+          "uEnd": 0.2454,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.1477,
+              {
+                "value": 0.09906,
+                "unit": "bodyHeightFraction"
+              },
+              0.01979
+            ]
+          }
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18.0,
+          "uStart": 0.1727,
+          "uEnd": 0.2479,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.2897,
+              {
+                "value": 0.09957,
+                "unit": "bodyHeightFraction"
+              },
+              0.0249
+            ]
+          }
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25.0,
+          "uStart": 0.169,
+          "uEnd": 0.249,
+          "template": {
+            "kind": "ellipsoid",
+            "placement": {
+              "u": 0,
+              "v": -0.5,
+              "w": 0.58,
+              "pitchDeg": 15
+            },
+            "radiiMm": [
+              0.5,
+              {
+                "value": 0.1159,
+                "unit": "bodyHeightFraction"
+              },
+              0.03
+            ]
+          }
+        }
+      ],
+      "estimate": [
+        "template",
+        "uStart",
+        "uEnd"
+      ],
+      "sources": [
+        "shape: one filament fan per filament-bearing arch (count 4, arches 3 to 6), a flattened ellipsoid that projects from the posterior face of each bar into the opercular cavity at w 0.58; the individual filaments (4 per arch at 5 dpf, about 25 by 6 months) are below whole-body scale",
+        "filament length 40 um at 120 hpf, 150 um at 336 hpf, 1000 um in the adult at SL 25; diameter 20, 35 and 60 um (research 03c, estimates; gill atlas 2025 for the counts); 20 um at the 84 hpf appearance"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001654",
+    "name": "opercular cavity",
+    "synonyms": [],
+    "system": "respiratory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0001114",
+    "uiParent": "ZFA:0000272",
+    "parentRelation": "grouping",
+    "definition": "Anatomical space which is located beneath the operculum and external to the gills.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 72,
+    "modelEndHpf": 4320,
+    "overrideNote": "ZFA start stage Unknown (DM-19): the cavity exists from 72 hpf, when the opercular flap starts to cover the branchial arches (research 03c; Kimmel et al. 1995). DM-36: axis clamp at 4320 hpf.",
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 72,
+        "text": "The opercular flap starts to cover the branchial arches; the cavity opens between them (unverified timing).",
+        "source": "https://zfin.org/zf_info/zfbook/stages/hatch.html"
+      },
+      {
+        "hpf": 120,
+        "text": "The operculum covers the gill arches by 5 dpf (unverified).",
+        "source": "research 03c opercular flap record"
+      }
+    ],
+    "sizes": [],
+    "colorOverride": null,
+    "sources": [
+      "research 03c opercular cavity record",
+      "https://zfin.org/ZFA:0001654",
+      "research 03c opercular flap record (sizes)"
+    ],
+    "geometry": {
+      "kind": "superellipsoid",
+      "keyframes": [
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.2029,
+            "v": -0.3,
+            "w": 0.68,
+            "mirror": true
+          },
+          "e1": 0.6,
+          "e2": 0.6,
+          "radiiMm": [
+            0.036,
+            0.027,
+            0.01
+          ]
+        },
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "placement": {
+            "u": 0.2057,
+            "v": -0.3,
+            "w": 0.68,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.09,
+            0.0675,
+            0.01
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.2077,
+            "v": -0.38,
+            "w": 0.68,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.09,
+            0.0675,
+            0.01
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.2083,
+            "v": -0.3743,
+            "w": 0.6759,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1108,
+            0.08083,
+            0.01185
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.2093,
+            "v": -0.3743,
+            "w": 0.6759,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.1671,
+            0.1154,
+            0.01655
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.21,
+            "v": -0.38,
+            "w": 0.68,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.2317,
+            0.1531,
+            0.0216
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.2107,
+            "v": -0.38,
+            "w": 0.68,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.336,
+            0.2112,
+            0.02924
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.2114,
+            "v": -0.38,
+            "w": 0.68,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.6179,
+            0.358,
+            0.04803
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 18,
+          "placement": {
+            "u": 0.2113,
+            "v": -0.38,
+            "w": 0.68,
+            "mirror": true
+          },
+          "radiiMm": [
+            1.1823,
+            0.628,
+            0.08146
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.21,
+            "v": -0.3524,
+            "w": 0.6598,
+            "mirror": true
+          },
+          "radiiMm": [
+            2,
+            0.99,
+            0.125
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "shape: the anatomical space between the gill and the operculum as a thin rounded slab (superellipsoid, e 0.6) lateral to the arches at w 0.68, v -0.3, centred on arch 5; 72 hpf: 120 x 100 um growing to 180 x 150 um by 120 hpf as the opercular flap covers the arches (research 03c opercular flap rows, unverified timing); adult 4000 x 2200 um at SL 25 (research 03c opercular flap 4000 x 3500 um; the height is reduced so the slab stays inside the ventral head at w 0.68)",
+        "limitation: D10 gives an anatomical space no opacity role, so the slab is opaque and covers the filaments in the lateral view (see the WP-A3 requests)",
+        "Phase 2 visual calibration: keyframes that crossed the body outline after the layout pass were seated toward the spine in steps of 1.5 percent, and shrunk in steps of 3 percent only when seating alone did not close the gap, until every vertex builds inside the skin."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0005967",
+    "name": "pseudobranch",
+    "synonyms": [],
+    "system": "respiratory",
+    "alsoIn": [],
+    "zfaParent": null,
+    "uiParent": "ZFA:0000272",
+    "parentRelation": "grouping",
+    "definition": "An epithelial structure located anterior to the gill filaments and connected to the eye via the ophthalmic artery. It arises from mandibular arch neural crest-derived mesenchyme and first pouch endodermal epithelia.",
+    "zfinStartStage": "ZFS:0000036",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 96.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 96.0,
+    "modelEndHpf": 4320,
+    "overrideNote": null,
+    "fadeInHpf": 1.2,
+    "fadeOutHpf": 0,
+    "laterality": "paired",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 96,
+        "text": "ZFIN start (Day 4): small bud behind the eye.",
+        "source": "https://zfin.org/ZFA:0005967"
+      },
+      {
+        "hpf": 408,
+        "text": "Five distinct filaments at 17 dpf.",
+        "source": "https://zfin.org/ZFA:0005967"
+      },
+      {
+        "hpf": 2160,
+        "text": "The five filaments merge into one pseudobranch by 90 dpf; five cartilage rods remain.",
+        "source": "https://zfin.org/ZFA:0005967"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 96,
+        "stageLabel": "Day 4",
+        "dimsMm": {
+          "diameter": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "diameter": 0.03
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 408,
+        "stageLabel": "Days 14-20",
+        "dimsMm": {
+          "length": 0.15
+        },
+        "counts": {
+          "filaments": 5
+        },
+        "anglesDeg": {},
+        "source": "research 03c (estimate); filament count from Thiruppathy et al. 2022, eLife 11:e78170, https://pmc.ncbi.nlm.nih.gov/articles/PMC9239679/; size is an estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 0.7,
+          "height": 0.4,
+          "width": 0.2
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c pseudobranch record",
+      "https://zfin.org/ZFA:0005967",
+      "Thiruppathy et al. 2022, eLife 11:e78170, https://pmc.ncbi.nlm.nih.gov/articles/PMC9239679/",
+      "research 03 fact-check table 2.3: no ZFA part_of parent; is_a multi-tissue structure; respiratory system by grouping"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "placement": {
+            "u": 0.13,
+            "v": -0.25,
+            "w": 0.72,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.0125,
+            0.0125,
+            0.008
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "radiiMm": [
+            0.015,
+            0.015,
+            0.009
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "radiiMm": [
+            0.025,
+            0.02,
+            0.01
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.13,
+            "v": -0.25,
+            "w": 0.75,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.06,
+            0.04,
+            0.015
+          ]
+        },
+        {
+          "hpf": 408,
+          "sizeRefSl": 5.8143,
+          "radiiMm": [
+            0.075,
+            0.05,
+            0.02
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "radiiMm": [
+            0.085,
+            0.055,
+            0.025
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.13,
+            "v": -0.25,
+            "w": 0.78,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.11,
+            0.07,
+            0.035
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.13,
+            "v": -0.25,
+            "w": 0.8,
+            "mirror": true
+          },
+          "radiiMm": [
+            0.17,
+            0.1,
+            0.05
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 25,
+          "radiiMm": [
+            0.35,
+            0.2,
+            0.1
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement: the inner face of the opercular region behind the eye, u 0.13, v -0.25, w 0.72 to 0.8 (research 03c, estimate)",
+        "diameter 25 um at 96 hpf, 30 um at 120 hpf; 150 um long with five filaments at 408 hpf; adult 700 x 400 x 200 um at SL 25 (research 03c, estimates; Thiruppathy et al. 2022 for the filament count)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0005335",
+    "name": "swim bladder bud",
+    "synonyms": [],
+    "system": "respiratory",
+    "alsoIn": [],
+    "zfaParent": null,
+    "uiParent": "ZFA:0000272",
+    "parentRelation": "grouping",
+    "definition": "Embryonic structure that forms from the anterior gut epithelium at the level of the second somite that then matures to form the swim bladder.",
+    "zfinStartStage": "ZFS:0000031",
+    "zfinEndStage": "ZFS:0000033",
+    "startHpf": 36.0,
+    "endHpf": 60.0,
+    "visibleFromHpf": 36.0,
+    "modelEndHpf": 60.0,
+    "overrideNote": "Handoff swim_bladder_bud_sac: the bud hands off to the swim bladder over 55 to 60 hpf (D9); the window end equals the ZFA end (Long-pec). No ZFA part_of parent (fact-check table 2.3): the respiratory system holds it by grouping.",
+    "fadeInHpf": 0.3,
+    "fadeOutHpf": 0.6,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 24,
+        "text": "Presumptive swim bladder in the gut endoderm (ZFA:0005336, 24-36 hpf).",
+        "source": "https://zfin.org/ZFA:0005335"
+      },
+      {
+        "hpf": 36,
+        "text": "ZFIN start (Prim-25); budding phase 36-48 hpf.",
+        "source": "https://zfin.org/ZFA:0005335"
+      },
+      {
+        "hpf": 60,
+        "text": "ZFIN end (Long-pec); elongation phase 65-96 hpf follows.",
+        "source": "https://zfin.org/ZFA:0005335"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 36,
+        "stageLabel": "Prim-25",
+        "dimsMm": {
+          "diameter": 0.025
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 48,
+        "stageLabel": "Long-pec",
+        "dimsMm": {
+          "length": 0.05,
+          "diameter": 0.035
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c swim bladder bud record",
+      "https://zfin.org/ZFA:0005335",
+      "https://zfin.org/ZFA:0005336",
+      "Winata et al. 2009, Dev Biol 331:222-236, https://pubmed.ncbi.nlm.nih.gov/19422819/",
+      "Winata et al. 2009 Dev Biol 331:222-236 https://pubmed.ncbi.nlm.nih.gov/19422819/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "handoffOut": "swim_bladder_bud_sac",
+      "keyframes": [
+        {
+          "hpf": 36,
+          "placement": {
+            "u": 0.285,
+            "v": -0.115,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0125,
+            0.0125,
+            0.0125
+          ]
+        },
+        {
+          "hpf": 42,
+          "placement": {
+            "u": 0.29,
+            "v": -0.131,
+            "w": 0
+          },
+          "radiiMm": [
+            0.02,
+            0.015,
+            0.015
+          ]
+        },
+        {
+          "hpf": 48,
+          "placement": {
+            "u": 0.29,
+            "v": -0.148,
+            "w": 0
+          },
+          "radiiMm": [
+            0.025,
+            0.0175,
+            0.0175
+          ]
+        },
+        {
+          "hpf": 55,
+          "placement": {
+            "u": 0.29,
+            "v": -0.153,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0275,
+            0.0185,
+            0.0185
+          ]
+        },
+        {
+          "hpf": 60,
+          "placement": {
+            "u": 0.29,
+            "v": -0.159,
+            "w": 0
+          },
+          "radiiMm": [
+            0.03,
+            0.02,
+            0.02
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement: the dorsal wall of the foregut at the level of somite 2 (u 0.285 to 0.29), under the notochord and above the gut (research 03c)",
+        "36 hpf: 25 um sphere; 48 hpf: 50 x 35 um (research 03c, estimates); 60 hpf: 60 x 40 um, the collapsed sac the swim bladder record inherits (handoff swim_bladder_bud_sac, 55 to 60 hpf)"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0000076",
+    "name": "swim bladder",
+    "synonyms": [
+      "gas bladder"
+    ],
+    "system": "respiratory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0007116",
+    "uiParent": "ZFA:0000272",
+    "parentRelation": "grouping",
+    "definition": "The swim bladder is a double-chambered organ located in the coelom and used to maintain buoyancy and may function as an acoustic resonator.",
+    "zfinStartStage": "ZFS:0000034",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 60.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 55,
+    "modelEndHpf": 4320,
+    "overrideNote": "Handoff swim_bladder_bud_sac: seeded from the swim bladder bud at the window start 55 hpf (D9); ZFA starts the term at Pec-fin (60 hpf). The record draws the collapsed sac to 120 hpf (geometryEndHpf) and continues as the parent of the two chambers (spec 3.5.7 item 12). DM-36: axis clamp at 4320 hpf. Phase 2 visual calibration (RN-07): the chambers sit in the dorsal third of the coelom, under the kidney band and over the gut, and are 0.7 of their measured height so both chambers and the gut read separately in lateral view.",
+    "fadeInHpf": 0.6,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 36,
+        "text": "Budding phase 36-48 hpf.",
+        "source": "https://zfin.org/ZFA:0000076"
+      },
+      {
+        "hpf": 60,
+        "text": "ZFIN start (Pec-fin).",
+        "source": "https://zfin.org/ZFA:0000076"
+      },
+      {
+        "hpf": 65,
+        "text": "Elongation phase 65-96 hpf forms the pneumatic duct.",
+        "source": "https://zfin.org/ZFA:0000076"
+      },
+      {
+        "hpf": 96,
+        "text": "Posterior chamber inflates at 96-120 hpf by air gulping; larvae float up at about 3.7 mm SL.",
+        "source": "https://zfin.org/ZFA:0000076"
+      },
+      {
+        "hpf": 432,
+        "text": "Anterior chamber evaginates from the cranial end at 18 dph (6 mm).",
+        "source": "https://zfin.org/ZFA:0000076"
+      },
+      {
+        "hpf": 504,
+        "text": "Anterior chamber inflated at 21 dpf; two-chambered organ complete.",
+        "source": "https://zfin.org/ZFA:0000076"
+      },
+      {
+        "hpf": 672,
+        "text": "Smooth muscle band in the posterior chamber wall at 25-30 dph.",
+        "source": "https://zfin.org/ZFA:0000076"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 60,
+        "stageLabel": "Pec-fin",
+        "dimsMm": {
+          "length": 0.06,
+          "diameter": 0.04
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate; uninflated",
+        "estimate": true
+      },
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.3,
+          "height": 0.19,
+          "width": 0.19
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (derived); derived from a 6 dpf volume of 0.0058 mm3 (Swim bladder inflation and the lateral line, J Exp Biol 226:jeb245635 (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC9882242/) as an ellipsoid; axis split is an estimate",
+        "estimate": false,
+        "note": "derived"
+      },
+      {
+        "hpf": 504,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "totalLength": 2.0,
+          "posteriorLength": 1.2,
+          "anteriorLength": 0.8
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate; the anterior chamber \"appears at ~6.0 mm SL, initially as a small bulge immediately anterodorsal to the posterior lobe\" (Parichy et al. 2009, Dev Dyn 238:2975-3015, https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/)",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "totalLength": 9.0,
+          "anteriorLength": 4.2,
+          "posteriorLength": 5.0,
+          "ductDiameter": 0.15
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); every dimension in this row is an estimate. A search of Europe PMC found no paper reporting the anterior chamber length or the pneumatic duct diameter of the adult swim bladder.",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c swim bladder record",
+      "https://zfin.org/ZFA:0000076",
+      "Winata et al. 2009, Dev Biol 331:222-236, https://pubmed.ncbi.nlm.nih.gov/19422819/",
+      "Parichy et al. 2009, Dev Dyn 238:2975-3015, https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "Robertson et al. 2007, J Morphol 268:967-985, https://pubmed.ncbi.nlm.nih.gov/17702001/",
+      "Swim bladder inflation and the lateral line, J Exp Biol 226:jeb245635 (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC9882242/",
+      "spec 3.4: the swim bladder sits under the respiratory system by grouping (its ZFA parent is the pleuroperitoneal region)"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "geometryEndHpf": 120,
+      "keyframes": [
+        {
+          "hpf": 55,
+          "placement": {
+            "u": 0.29,
+            "v": -0.153,
+            "w": 0
+          },
+          "radiiMm": [
+            0.0275,
+            0.0185,
+            0.0185
+          ]
+        },
+        {
+          "hpf": 60,
+          "placement": {
+            "u": 0.29,
+            "v": -0.159,
+            "w": 0
+          },
+          "radiiMm": [
+            0.03,
+            0.02,
+            0.02
+          ]
+        },
+        {
+          "hpf": 72,
+          "sizeRefSl": 3.25,
+          "placement": {
+            "u": 0.3,
+            "v": -0.176,
+            "w": 0
+          },
+          "radiiMm": [
+            0.045,
+            0.0225,
+            0.0225
+          ]
+        },
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "placement": {
+            "u": 0.32,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiiMm": [
+            0.06,
+            0.0175,
+            0.02
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.36,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiiMm": [
+            0.075,
+            0.021,
+            0.024
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "placement and size: seeded from the swim bladder bud at 55 hpf (copyPlacement); a collapsed sac 60 x 40 um at 60 hpf (research 03c, uninflated) that elongates with the pneumatic duct to 65 to 96 hpf (Winata et al. 2009) and moves to u 0.36 by 120 hpf",
+        "geometryEndHpf 120: the posterior chamber record draws the inflated chamber from 96 hpf (D8: inflated at 100 hpf, fade 96 to 120) and the anterior chamber from 432 hpf; the swim bladder record continues as their parent"
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001278",
+    "name": "posterior chamber swim bladder",
+    "synonyms": [],
+    "system": "respiratory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000076",
+    "uiParent": "ZFA:0000076",
+    "parentRelation": "part_of",
+    "definition": "The posterior compartment of the swim bladder plays a key role in buoyancy control. It is connected to the anterior chamber via the ductus communicans.",
+    "zfinStartStage": "ZFS:0000000",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 0.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 96,
+    "modelEndHpf": 4320,
+    "overrideNote": "D8: the posterior chamber inflates at 100 hpf; drawn from 96 hpf with a 24 h fade (canonical window). ZFA start stage Unknown (DM-19). DM-36: axis clamp at 4320 hpf. Phase 2 visual calibration (RN-07): the chambers sit in the dorsal third of the coelom, under the kidney band and over the gut, and are 0.7 of their measured height so both chambers and the gut read separately in lateral view.",
+    "fadeInHpf": 24,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 96,
+        "text": "Inflation at 96-120 hpf.",
+        "source": "https://zfin.org/ZFA:0001278"
+      },
+      {
+        "hpf": 672,
+        "text": "Smooth muscle band forms in the lateral wall at 25-30 dph.",
+        "source": "https://zfin.org/ZFA:0001278"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 120,
+        "stageLabel": "Day 5",
+        "dimsMm": {
+          "length": 0.3,
+          "height": 0.19,
+          "width": 0.19
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (derived); derived from Swim bladder inflation and the lateral line, J Exp Biol 226:jeb245635 (2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC9882242/ (see swim bladder)",
+        "estimate": false,
+        "note": "derived"
+      },
+      {
+        "hpf": 504,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 1.2,
+          "height": 0.6
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 5.0,
+          "height": 2.0,
+          "width": 2.0
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c posterior chamber swim bladder record",
+      "https://zfin.org/ZFA:0001278",
+      "Winata et al. 2009, Dev Biol 331:222-236, https://pubmed.ncbi.nlm.nih.gov/19422819/",
+      "Robertson et al. 2007, J Morphol 268:967-985, https://pubmed.ncbi.nlm.nih.gov/17702001/",
+      "research 05 section 10",
+      "Venuto et al. 2023 J Exp Biol 226:jeb245635 https://europepmc.org/article/PMC/PMC9882242"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 96,
+          "sizeRefSl": 3.4,
+          "placement": {
+            "u": 0.34,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiiMm": [
+            0.1,
+            0.042,
+            0.048
+          ]
+        },
+        {
+          "hpf": 120,
+          "sizeRefSl": 3.6,
+          "placement": {
+            "u": 0.36,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiiMm": [
+            0.15,
+            0.0566,
+            0.076
+          ]
+        },
+        {
+          "hpf": 168,
+          "sizeRefSl": 4.1,
+          "placement": {
+            "u": 0.38,
+            "v": -0.4,
+            "w": 0
+          },
+          "radiiMm": [
+            0.19,
+            0.0319,
+            0.0878
+          ]
+        },
+        {
+          "hpf": 336,
+          "sizeRefSl": 5.3,
+          "placement": {
+            "u": 0.4,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.375,
+            0.0528,
+            0.1268
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.42,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.5,
+            0.0815,
+            0.168
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.46,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.75,
+            0.1405,
+            0.235
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.5,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            1.2,
+            0.2111,
+            0.36
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.52,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            2.5,
+            0.3767,
+            0.5534
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.52,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            2.5,
+            0.5302,
+            0.8
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "120 hpf: 300 x 190 x 190 um, an ellipsoid of the 6 dpf volume 0.0058 mm3 (research 05 section 10; Venuto et al. 2023) at u 0.36 (research 05: ap 0.33 TL); the vertical radius is capped so the chamber clears the notochord above and the gut below, and the width takes the balance",
+        "336 hpf: posterior lobe 0.9 x 0.4 x 0.4 mm at u 0.40 (research 05 section 10, 14 to 20 dpf); 504 hpf: 1.0 x 0.5 mm (research 03c 1.2 x 0.6, estimate; capped by the trunk depth); adult 5.0 x 2.0 x 2.0 mm at SL 25 over u 0.42 to 0.62 (research 03c, estimate)",
+        "the chamber fades in over 96 to 120 hpf (D8) from a 200 um seed",
+        "Phase 2 visual calibration (VR-12, RN-07): from 336 hpf the chamber sits at v -0.36 and its vertical radius is 0.55 of the measured height, so the roof clears the kidney band above it and the floor clears the gut below. The three organs stack in the lateral view instead of overlapping in depth, as the adult reference figure draws them."
+      ]
+    }
+  },
+  {
+    "id": "ZFA:0001277",
+    "name": "anterior chamber swim bladder",
+    "synonyms": [
+      "camera arerea weberiana"
+    ],
+    "system": "respiratory",
+    "alsoIn": [],
+    "zfaParent": "ZFA:0000076",
+    "uiParent": "ZFA:0000076",
+    "parentRelation": "part_of",
+    "definition": "The anterior compartment of the swim bladder is thought to have acoustic resonance properties that play a key role in audition. It is connected to the posterior chamber via the ductus communicans.",
+    "zfinStartStage": "ZFS:0000040",
+    "zfinEndStage": "ZFS:0000044",
+    "startHpf": 336.0,
+    "endHpf": 17520.0,
+    "visibleFromHpf": 432,
+    "modelEndHpf": 4320,
+    "overrideNote": "Drawn from 432 hpf (18 dpf, 6.0 mm SL), when the chamber evaginates (Robertson et al. 2007; Parichy et al. 2009; research 05 section 10), with a 24 h fade; ZFA starts the term at Days 14-20 (336 hpf). DM-36: axis clamp at 4320 hpf. Phase 2 visual calibration (RN-07): the chambers sit in the dorsal third of the coelom, under the kidney band and over the gut, and are 0.7 of their measured height so both chambers and the gut read separately in lateral view.",
+    "fadeInHpf": 24,
+    "fadeOutHpf": 0,
+    "laterality": "midline",
+    "pickable": true,
+    "sexSpecific": null,
+    "aliasChain": [],
+    "events": [
+      {
+        "hpf": 336,
+        "text": "ZFIN start (Days 14-20); anterior swim bladder bud (ZFA:0005337) present from 60 hpf.",
+        "source": "https://zfin.org/ZFA:0001277"
+      },
+      {
+        "hpf": 432,
+        "text": "Evaginates from the cranial end of the original chamber at 18 dph (6 mm).",
+        "source": "https://zfin.org/ZFA:0001277"
+      },
+      {
+        "hpf": 504,
+        "text": "Inflates at 21 dpf; appears at 5.9-6.2 mm SL.",
+        "source": "https://zfin.org/ZFA:0001277"
+      }
+    ],
+    "sizes": [
+      {
+        "hpf": 504,
+        "stageLabel": "Days 21-29",
+        "dimsMm": {
+          "length": 0.8,
+          "height": 0.5
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); estimate",
+        "estimate": true
+      },
+      {
+        "hpf": 2160,
+        "stageLabel": "Adult",
+        "dimsMm": {
+          "length": 4.2,
+          "height": 2.5,
+          "width": 2.5
+        },
+        "counts": {},
+        "anglesDeg": {},
+        "source": "research 03c (estimate); length, height and width are all estimates. No paper reporting the adult anterior chamber length was found.",
+        "estimate": true,
+        "basisSL": 25
+      }
+    ],
+    "colorOverride": null,
+    "sources": [
+      "research 03c anterior chamber swim bladder record",
+      "https://zfin.org/ZFA:0001277",
+      "https://zfin.org/ZFA:0005337",
+      "Winata et al. 2009, Dev Biol 331:222-236, https://pubmed.ncbi.nlm.nih.gov/19422819/",
+      "Parichy et al. 2009, Dev Dyn 238:2975-3015, https://pmc.ncbi.nlm.nih.gov/articles/PMC3030279/",
+      "Robertson et al. 2007, J Morphol 268:967-985, https://pubmed.ncbi.nlm.nih.gov/17702001/",
+      "research 05 section 10",
+      "Robertson et al. 2007 J Morphol 268:967-985 https://pubmed.ncbi.nlm.nih.gov/17702001/"
+    ],
+    "geometry": {
+      "kind": "ellipsoid",
+      "keyframes": [
+        {
+          "hpf": 432,
+          "sizeRefSl": 5.9857,
+          "placement": {
+            "u": 0.3,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.075,
+            0.035,
+            0.04
+          ]
+        },
+        {
+          "hpf": 504,
+          "sizeRefSl": 6.5,
+          "placement": {
+            "u": 0.3,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.35,
+            0.0946,
+            0.14
+          ]
+        },
+        {
+          "hpf": 720,
+          "sizeRefSl": 8.2,
+          "placement": {
+            "u": 0.31,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.55,
+            0.154,
+            0.2
+          ]
+        },
+        {
+          "hpf": 1080,
+          "sizeRefSl": 12,
+          "placement": {
+            "u": 0.32,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            0.95,
+            0.2248,
+            0.32
+          ]
+        },
+        {
+          "hpf": 2160,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.335,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            2.1,
+            0.4132,
+            0.6877
+          ]
+        },
+        {
+          "hpf": 4320,
+          "sizeRefSl": 25,
+          "placement": {
+            "u": 0.335,
+            "v": -0.36,
+            "w": 0
+          },
+          "radiiMm": [
+            2.1,
+            0.5801,
+            0.9951
+          ]
+        }
+      ],
+      "estimate": [
+        "placement",
+        "radiiMm"
+      ],
+      "sources": [
+        "appearance: the anterior chamber evaginates from the cranial end of the posterior chamber at 6.0 mm SL (research 05 section 10; Parichy et al. 2009 5.9 to 6.2 mm; Robertson et al. 2007 18 dph), 432 hpf on the D6 growth table, and is inflated by 504 hpf (21 dpf)",
+        "504 hpf: 0.7 x 0.35 mm (research 03c 800 x 500 um, estimate; capped by the trunk depth over the gut); adult 4.2 x 2.5 x 2.5 mm at SL 25 over u 0.25 to 0.42 (research 03c, estimate)",
+        "Phase 2 visual calibration (VR-12, RN-07): from 336 hpf the chamber sits at v -0.36 and its vertical radius is 0.55 of the measured height, so the roof clears the kidney band above it and the floor clears the gut below. The three organs stack in the lateral view instead of overlapping in depth, as the adult reference figure draws them."
+      ]
+    }
+  }
+]

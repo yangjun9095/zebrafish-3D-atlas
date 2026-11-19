@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="An interactive 3D model of zebrafish development, from the 1-cell zygote (0 hpf) to the adult (180 dpf). Schematic geometry keyed to the ZFIN anatomy ontology. A teaching aid, not a validated model for quantitative research." />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0b0d10" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>Zebrafish 3D Atlas</title>
+
+    <!-- Link preview (M-17). og:image is an absolute URL because a crawler resolves it off-site;
+         it points at the committed screenshot through raw.githubusercontent.com, which serves
+         the file only while the repository is public. og:url is the hosted viewer. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Zebrafish 3D Atlas" />
+    <meta property="og:title" content="Zebrafish 3D Atlas" />
+    <meta property="og:description" content="An interactive 3D model of zebrafish development, from the 1-cell zygote (0 hpf) to the adult (180 dpf). Schematic geometry keyed to the ZFIN anatomy ontology. A teaching aid, not a validated model for quantitative research." />
+    <meta property="og:url" content="https://zebrafish-3-d-atlas.vercel.app/" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/yangjun9095/zebrafish-3D-atlas/main/docs/screenshots/48-lateral-app.png" />
+    <meta property="og:image:alt" content="The zebrafish larva at 48 hpf in lateral view, with the systems rail open and the heart selected in the info card." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zebrafish 3D Atlas" />
+    <meta name="twitter:description" content="An interactive 3D model of zebrafish development, from the 1-cell zygote (0 hpf) to the adult (180 dpf). Schematic geometry keyed to the ZFIN anatomy ontology." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/yangjun9095/zebrafish-3D-atlas/main/docs/screenshots/48-lateral-app.png" />
+    <meta name="twitter:image:alt" content="The zebrafish larva at 48 hpf in lateral view, with the systems rail open and the heart selected in the info card." />
+    <script>
+      // Sets the theme before first paint (UX-US-06, UX-VS-02, UX-VS-03):
+      // the URL parameter, then the stored choice, then the OS setting; dark by default.
+      // The storage key matches THEME_STORAGE_KEY in src/ui/hooks/useTheme.ts.
+      (function () {
+        var theme = 'dark'
+        try {
+          var fromUrl = new URLSearchParams(location.search).get('theme')
+          var stored = localStorage.getItem('zfatlas.theme')
+          if (fromUrl === 'light' || fromUrl === 'dark') theme = fromUrl
+          else if (stored === 'light' || stored === 'dark') theme = stored
+          else if (matchMedia('(prefers-color-scheme: light)').matches) theme = 'light'
+        } catch (e) {
+          theme = 'dark'
+        }
+        document.documentElement.setAttribute('data-theme', theme)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
