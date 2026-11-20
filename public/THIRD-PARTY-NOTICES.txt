@@ -283,7 +283,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ================================================================================
-@react-three/drei 10.7.8
+@react-three/drei 10.7.9
 Licence: MIT
 Notice: node_modules/@react-three/drei/LICENSE
 --------------------------------------------------------------------------------
@@ -311,7 +311,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ================================================================================
-@react-three/fiber 9.7.0
+@react-three/fiber 9.8.2
 Licence: MIT
 Notice: the package ships no licence file; the licence above comes from its package.json.
 --------------------------------------------------------------------------------
@@ -459,7 +459,7 @@ Notice: node_modules/@types/stats.js/LICENSE
     SOFTWARE
 
 ================================================================================
-@types/three 0.185.4
+@types/three 0.187.0
 Licence: MIT
 Notice: node_modules/@types/three/LICENSE
 --------------------------------------------------------------------------------
@@ -980,7 +980,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ================================================================================
-its-fine 2.0.0
+its-fine 2.1.1
 Licence: MIT
 Notice: node_modules/its-fine/LICENSE
 --------------------------------------------------------------------------------
@@ -1022,7 +1022,7 @@ The above copyright notice and this permission notice shall be included in all c
 **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
 
 ================================================================================
-lucide-react 1.41.0
+lucide-react 1.73.0
 Licence: ISC
 Notice: node_modules/lucide-react/LICENSE
 --------------------------------------------------------------------------------
@@ -1381,7 +1381,7 @@ Notice: node_modules/promise-worker-transferable/LICENSE
   limitations under the License.
 
 ================================================================================
-react 19.2.8
+react 19.3.1
 Licence: MIT
 Notice: node_modules/react/LICENSE
 --------------------------------------------------------------------------------
@@ -1409,7 +1409,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ================================================================================
-react-dom 19.2.8
+react-dom 19.3.1
 Licence: MIT
 Notice: node_modules/react-dom/LICENSE
 --------------------------------------------------------------------------------
@@ -1493,7 +1493,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 ================================================================================
-scheduler 0.27.0
+scheduler 0.28.0
 Licence: MIT
 Notice: node_modules/scheduler/LICENSE
 --------------------------------------------------------------------------------
@@ -1643,7 +1643,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 ================================================================================
-three 0.185.1
+three 0.187.0
 Licence: MIT
 Notice: node_modules/three/LICENSE
 --------------------------------------------------------------------------------
@@ -1977,7 +1977,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ================================================================================
-zod 4.5.4
+zod 4.6.7
 Licence: MIT
 Notice: node_modules/zod/LICENSE
 --------------------------------------------------------------------------------
@@ -2033,7 +2033,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ================================================================================
-zustand 5.0.15
+zustand 5.1.0
 Licence: MIT
 Notice: node_modules/zustand/LICENSE
 --------------------------------------------------------------------------------
